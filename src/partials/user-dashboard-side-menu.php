@@ -49,9 +49,9 @@
 				</li>
 
 				<li>
-					<a href="user-dashboard-explore-projects.php">
+					<a href="public-projects-logged-in.php">
 						<img class="icon menu-icon svg" src="[[../img/icons/icon-explore.svg]]">
-						Explore projects
+						All projects
 					</a>
 				</li>
 			</ul>

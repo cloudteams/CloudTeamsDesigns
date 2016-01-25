@@ -1,6 +1,18 @@
 footer#footer {
 	padding-top: $margin-50;
 
+	ul {
+		&.social-media {
+			li {
+				a {
+					.fa {
+						font-size: $font-size-social-media;
+					}
+				}
+			}
+		}
+	}
+
 	&.footer-public {
 		background: $color-footer-public;
 
@@ -20,6 +32,26 @@ footer#footer {
 							left: 0;
 							position: absolute;
 							width: 100%;
+						}
+					}
+				}
+			}
+
+			&.social-media {
+				li {
+					a {
+						.fa {
+							color: $color-menu-items;
+						}
+
+						&:hover {
+							&:after {
+								display: none;
+							}
+
+							.fa {
+								color: $color-pink;
+							}
 						}
 					}
 				}

@@ -35,11 +35,13 @@
 //---------------------
 @import "custom/user-dashboard-projects.scss";
 @import "custom/user-dashboard-campaigns.scss";
+@import "custom/user-dashboard-notifications.scss";
 
 //---------------------
 // Public Website
 //---------------------
 @import "custom/public-projects-logged-in.scss";
+@import "custom/public-project-overview.scss";
 
 //---------------------
 // custom partials

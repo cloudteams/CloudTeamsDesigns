@@ -8,6 +8,8 @@
 							<li><a href="">How does it work?</a></li>
 							<li><a href="">Contact us</a></li>
 							<li><a href="">About CloudTeams</a></li>
+							<li><a href="">News</a></li>
+							<li><a href="">Help tour</a></li>
 							<li><a href="">Disclaimer</a></li>
 						</ul>
 					</div>
@@ -24,23 +26,25 @@
 								<li><a href="">Design</a></li>
 								<li><a href="">Film</a></li>
 								<li><a href="">Food</a></li>
+								<li><a href="">Games</a></li>
 							</ul>
 
 							<ul class="col-xs-6">
-								<li><a href="">Games</a></li>
 								<li><a href="">Journalism</a></li>
 								<li><a href="">Music</a></li>
 								<li><a href="">Photography</a></li>
-								<li><a href="">Disclaimer</a></li>
+								<li><a href="">Publishing</a></li>
+								<li><a href="">Technology</a></li>
+								<li><a href="">Sport</a></li>
 							</ul>
 						</div>
 					</div>
 
 					<div class="col-sm-4">
-						<ul>
+						<ul class="social-media">
 							<li><h2 class="header-small">Connect</h2></li>
-							<li><a href="">Twitter</a></li>
-							<li><a href="">Facebook</a></li>
+							<li><a href="" alt="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="" alt="facebook"><i class="fa fa-facebook"></i></a></li>
 						</ul>
 					</div>
 

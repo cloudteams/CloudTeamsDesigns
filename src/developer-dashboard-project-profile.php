@@ -26,4 +26,4 @@
 	</div>
 </section>
 
-<?php include("partials/footer-developer-dashboard.php"); ?>
+<?php include("partials/footer-dashboard.php"); ?>

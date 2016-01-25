@@ -183,6 +183,14 @@ select {
 			border-bottom: 3px solid $color-pink;
 		}
 	}
+
+	&.public {
+		li {
+			&.active {
+				color: $color-text;
+			}
+		}
+	}
 }
 
 .block {
@@ -848,7 +856,7 @@ select {
 	background: $color-pink;
 	border-radius: 5px;
 	display: inline-block;
-	min-width: 140px;
+	min-width: 160px;
 	opacity: 0;
 	padding: $margin-block-small;
 	position: absolute;

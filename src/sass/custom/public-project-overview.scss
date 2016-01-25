@@ -1,0 +1,24 @@
+.public-project-overview-content {
+	padding-top: 0 !important;
+
+	.subpage {
+		display: none;
+		opacity: 0;
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: block;
+		}
+	}
+
+	> .submenu {
+		@extend .border-bottom;
+		position: relative;
+
+		&:after {
+			background: $color-border-bottom;
+			bottom: 0;
+			top: auto;
+		}
+	}
+}

@@ -1,4 +1,4 @@
-<section class="developer-dashboard-notifications-content">
+<section class="user-dashboard-notifications-content">
 	<div class="legend">
 		<p class="legend-item"><img class="icon legend-icon svg" src="[[../img/icons/icon-check.svg]]"> Action</p>
 		<p class="legend-item"><img class="icon legend-icon svg" src="[[../img/icons/icon-time.svg]]"> Date</p>
