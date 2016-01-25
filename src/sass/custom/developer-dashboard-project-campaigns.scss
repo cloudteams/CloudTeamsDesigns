@@ -1,0 +1,181 @@
+.developer-dashboard-project-campaigns-content {
+	padding-top: 0 !important;
+
+	> .row {
+		@extend .flex;
+	}
+
+	.subpage {
+		display: none;
+		opacity: 0;
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: block;
+		}
+	}
+
+	article.campaign {
+		height: auto;
+		min-height: 431px;
+		margin-bottom: $margin-block-bottom;
+
+		&:nth-last-of-type(-n+2) {
+			margin-bottom: 0;
+		}
+
+		@include breakpoint(phablet) {
+			&:nth-last-of-type(-n+2) {
+				margin-bottom: $margin-block-bottom;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.background {
+			min-height: 431px;
+		}
+
+		header {
+			position: relative;
+
+			h2 {
+				max-width: 260px;
+			}
+
+			.open-tooltip-button {
+				display: block;
+				margin: 0;
+				position: absolute;
+				right: 15px;
+				top: 20px;
+			}
+
+			.custom-tooltip {
+				right: 10px;
+				top: 60px;
+			}
+		}
+
+		.content {
+			&.dates {
+				p {
+					display: inline-block;
+					font-weight: $font-weight-bold;
+					letter-spacing: 1px;
+					margin-bottom: 0;
+					margin-right: $margin-item;
+					vertical-align: middle;
+
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+
+			&.data {
+				table {
+					width: 100%;
+
+					p {
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+					tr {
+						td {
+							margin-bottom: $margin-table-row;
+
+							&:first-child {
+								padding-left: 0;
+								width: 75%;
+							}
+
+							&:last-child {
+								padding-right: 0;
+								text-align: right;
+								width: 25%;
+							}
+						}
+
+						&:last-child {
+							td {
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+
+			&.user {
+				.vertical-align {
+					@include marginH(-$margin-5);
+
+					.middle {
+						@include paddingH($margin-5);
+
+						&.image-container {
+							width: 15%;
+
+							img {
+								width: 50px;
+							}
+						}
+
+						&.data-container {
+							width: 85%;
+						}
+					}
+				}
+
+				.meta {
+					letter-spacing: 1px;
+				}
+
+				.progress-container {
+					p {
+						display: inline-block;
+					}
+
+					.progress-wrap {
+						display: inline-block;
+						width: 70%;
+					}
+
+					.percentage {
+						float: right;
+						letter-spacing: $letter-spacing-1;
+					}
+				}
+			}
+		}
+
+		footer {
+			text-align: center;
+		}
+
+		&.add-item {
+			height: 431px;
+			text-align: center;
+
+			.background {
+				background: none;
+//				border-image: url("../img/border.png") 2 round;
+				border: 3px dashed $color-block-lines;
+				border-radius: 5px;
+				height: 100%;
+			}
+
+			.add-project-button {
+				background: $color-button;
+				border-radius: 50%;
+				cursor: pointer;
+				height: 60px;
+				margin: 0 auto $margin-base;
+				width: 60px;
+			}
+		}
+	}
+}

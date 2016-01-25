@@ -1,0 +1,151 @@
+// colors
+$color-white                 : #fff;
+$color-black                 : #000;
+$color-grey                  : #b1b1b1;
+$color-extra-light-grey      : #f7f6f6;
+$color-light-grey            : #d9d9d9;
+$color-light-grey-secondary  : #ebebeb;
+$color-middle-grey           : #afa7b0;
+$color-dark-grey             : #424242;
+
+$color-pink                  : #7d3c8c;
+$color-middle-pink           : #884c9b;
+$color-light-pink            : #be9dc6;
+$color-extra-light-purple    : #54345c;
+$color-light-purple          : #411f48;
+$color-middle-purple         : #38173f;
+$color-dark-purple           : #28102d;
+$color-extra-dark-purple     : #311437;
+$color-middle-green          : #1ed761;
+$color-light-green           : #29e568;
+
+$color-logo                  : $color-grey;
+$color-background            : $color-light-purple;
+$color-background-secondary  : $color-middle-purple;
+$color-background-tertiary   : $color-dark-purple;
+$color-background-quaternary : $color-extra-dark-purple;
+$color-block-header          : $color-extra-light-grey;
+$color-menu                  : $color-pink;
+$color-footer-public         : $color-extra-light-grey;
+$color-footer-dev-dashboard  : $color-dark-purple;
+$color-highlight             : $color-grey;
+$color-action-text           : $color-pink;
+$color-subtitle              : $color-grey;
+$color-menu-items            : $color-grey;
+$color-button                : $color-pink;
+$color-button-hover          : $color-middle-pink;
+$color-input                 : $color-white;
+$color-input-border          : $color-grey;
+$color-input-hover           : $color-pink;
+$color-block-lines           : $color-grey;
+$color-lines                 : $color-extra-light-purple;
+$color-block                 : $color-white;
+$color-block-border          : $color-light-grey-secondary;
+$color-success               : $color-middle-green;
+$color-success-hover         : $color-light-green ;
+$color-decline               : $color-pink;
+
+$color-text                  : $color-dark-grey;
+$color-text-secondary        : $color-white;
+
+// Public extra colors
+$color-border-bottom         : $color-light-grey-secondary;
+
+// fonts
+$font-size-base              : 10px;
+
+$font-size-0                 : $font-size-base * 6;			// 60px
+$font-size-1                 : $font-size-base * 3; 		// 30px
+$font-size-2                 : $font-size-base * 1.8; 		// 18px
+$font-size-3                 : $font-size-base * 1.6; 		// 16px
+$font-size-4                 : $font-size-base * 1.4; 		// 14px
+$font-size-5                 : $font-size-base * 1.2; 		// 12px
+
+// Public extra font
+$font-size-25                : $font-size-base * 2.5; // 25px
+
+$font-size-body              : $font-size-3;
+$font-size-header-extra-large: $font-size-0;
+$font-size-header-large      : $font-size-1;
+$font-size-header-medium     : $font-size-2;
+$font-size-header-small      : $font-size-3;
+$font-size-header-extra-small: $font-size-4;
+$font-size-page-subtitle     : $font-size-4;
+$font-size-public-subtitle   : $font-size-25;
+$font-size-menu-subpage      : $font-size-4;
+$font-size-button            : $font-size-4;
+$font-size-meta              : $font-size-4;
+
+$font-body                   : "corbel", "Open Sans", "Helvetica", sans-serif;
+$font-header-secondary       : "corbel", "Open Sans", "Helvetica", sans-serif;
+$font-header                 : "brandon-bold", sans-serif;
+
+// Font-weights
+$font-weight-regular         : 400;
+$font-weight-semibold        : 600;
+$font-weight-bold            : 700;
+
+// Line-heights
+$line-height                 : 1.5;
+$line-height-small           : 1.3;
+$line-height-headers         : 1.35;
+
+// Letter spacing
+$letter-spacing-1            : 1px;
+$letter-spacing-2            : 2px;
+$letter-spacing-3            : 3px;
+
+// Variables for margins mixin
+$margins-presets             : ();
+$margin-min                  : 0px;
+$margin-max                  : 60px;
+$margin-step                 : 5px;
+$margin-slug                 : margin !default;  // result: .margin-5 {margin: 5px} .....  OR
+$margin-positions            : (h, v, t, r, b, l); // result .margin-v-10 { margi-top: 10px;
+
+// margins
+$margin-5                    : 5px;
+$margin-10                   : 10px;
+$margin-15                   : 15px;
+$margin-20                   : 20px;
+$margin-25                   : 25px;
+$margin-30                   : 30px;
+$margin-40                   : 40px;
+$margin-50                   : 50px;
+$margin-60                   : 60px;
+
+$margin-base                 : $margin-20;
+$margin-p                    : $margin-20;
+$margin-p-secondary          : $margin-10;
+$margin-page                 : $margin-30;
+$margin-block                : $margin-20;
+$margin-block-bottom         : $margin-30;
+$margin-block-small          : $margin-15;
+$margin-block-extra-small    : $margin-10;
+$margin-header               : $margin-30;
+$margin-header-small         : $margin-10;
+$margin-header-extra-small   : $margin-5;
+$margin-subtitle             : $margin-15;
+$margin-item                 : $margin-15;
+$margin-table-row            : $margin-10;
+$margin-menu                 : $margin-20;
+$margin-menu-item            : $margin-15;
+$margin-input                : $margin-15;
+$margin-input-small          : $margin-5;
+$margin-icon                 : $margin-5;
+$margin-image                : $margin-15;
+$margin-modal                : $margin-40;
+$margin-filter-container     : $margin-40;
+
+// Public
+$margin-header               : $margin-40;
+
+$margin-button-H             : $margin-25;
+$margin-button-V             : $margin-10;
+
+// Transition times
+$transition-time-1           : 150ms;
+$transition-time-2           : 350ms;
+
+// Transitions
+$cubic-bezier-2              : cubic-bezier(.785,.135,.15,.86);

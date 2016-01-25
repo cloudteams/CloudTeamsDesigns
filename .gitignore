@@ -1,0 +1,14 @@
+# build files
+
+tmp/
+dist
+node_modules
+npm-debug.log
+npm-debug.log.*
+
+
+
+# user specific:
+
+package.user.json
+*.sublime-workspace

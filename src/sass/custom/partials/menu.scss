@@ -1,0 +1,123 @@
+body {
+	> header {
+		background: $color-pink;
+		height: 65px;
+
+		.global-nav {
+			.container {
+				height: 100%;
+				position: relative;
+
+				ul {
+					height: 65px;
+					position: relative;
+					text-align: right;
+					width: 100%;
+
+					li {
+						display: inline-block;
+						height: 100%;
+						margin-right: $margin-menu-item;
+
+						&:hover {
+							a {
+								color: $color-text-secondary;
+
+								.svg {
+									path {
+										fill: $color-text-secondary;
+									}
+								}
+
+								&:after {
+									display: none;
+								}
+							}
+						}
+
+						a {
+							&:focus {
+								.svg {
+									path {
+										fill: $color-text-secondary;
+									}
+								}
+							}
+
+							&.active {
+								color: $color-text-secondary;
+
+								.svg {
+									path {
+										fill: $color-text-secondary;
+									}
+								}
+							}
+						}
+
+						&.brand {
+							left: 0;
+							position: absolute;
+							top: 0;
+
+							.logo {
+								height: 45px;
+								margin-top: $margin-5;
+
+								path {
+									fill: $color-text-secondary;
+								}
+								tspan {
+									fill: $color-text-secondary;
+								}
+							}
+						}
+
+						&.search {
+							.icon-search {
+								cursor: pointer;
+								font-size: 15px;
+								height: 18px;
+								position: absolute;
+								right: 15px;
+								top: 23px;
+								width: 18px;
+
+								path {
+									fill: $color-menu-items;
+								}
+							}
+						}
+
+						&.profile {
+							margin-left: $margin-menu-item;
+							position: relative;
+
+							&:before {
+								background: $color-menu-items;
+								content: "";
+								display: inline-block;
+								height: 30px;
+								left: -15px;
+								margin-top: -15px;
+								position: absolute;
+								top: 50%;
+								width: 1px;
+							}
+
+							.fa-angle-down {
+								margin-left: $margin-5;
+								position: static;
+								transition: none;
+							}
+						}
+
+						.middle {
+							position: relative;
+						}
+					}
+				}
+			}
+		}
+	}
+}

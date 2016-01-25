@@ -1,0 +1,19 @@
+.developer-dashboard-notifications-content {
+	padding-top: 0 !important;
+
+	.legend {
+		@include marginV($margin-block);
+	}
+
+	.content {
+
+		article.notification {
+			@extend .notification;
+		}
+
+		a {
+			width: 100%;
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+section.public-page {
+	@include paddingV($margin-page);
+
+	header.main-header {
+		@extend .border-bottom;
+		@include paddingV($margin-header);
+		position: relative;
+		text-align: center;
+
+		&:after {
+			background: $color-border-bottom;
+			bottom: 0;
+			top: auto;
+		}
+	}
+}

@@ -1,0 +1,86 @@
+article.project {
+	height: auto;
+	margin-bottom: $margin-block-bottom;
+
+	header {
+		position: relative;
+
+		.open-tooltip-button {
+			display: block;
+			margin: 0;
+			position: absolute;
+			right: 15px;
+			top: 20px;
+		}
+
+		.custom-tooltip {
+			right: 10px;
+			top: 60px;
+		}
+
+		p {
+			line-height: $line-height-small;
+
+			&.highlight {
+				margin-bottom: $margin-header-extra-small;
+			}
+		}
+	}
+
+	.content {
+		table {
+			width: 100%;
+
+			p {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			tr {
+				td {
+					margin-bottom: $margin-table-row;
+
+					&:first-child {
+						padding-left: 0;
+						width: 50%;
+					}
+
+					&:last-child {
+						padding-right: 0;
+						text-align: right;
+						width: 50%;
+					}
+				}
+
+				&:last-child {
+					td {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.background {
+		background: $color-block;
+		border-radius: 5px;
+		height: 100%;
+		position: relative;
+
+		img {
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+
+		.svg.square {
+			margin: 0;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+	}
+}

@@ -1,0 +1,131 @@
+.developer-dashboard-project-messaging-content {
+	article.message {
+		display: table;
+		margin-bottom: $margin-block;
+
+		&:not(.comment) {
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.image-container {
+			display: inline-block;
+			vertical-align: top;
+			width: auto;
+
+			img {
+				width: 50px;
+			}
+
+			&.online-state {
+				&:after {
+					border-width: 2px;
+					bottom: 2px;
+					height: 12px;
+					right: 2px;
+					width: 12px;
+				}
+			}
+		}
+
+		.message-container {
+			display: inline-block;
+			float: right;
+			position: relative;
+			width: 85%;
+
+			&:before {
+				border-top: 8px solid transparent;
+				border-bottom: 8px solid transparent;
+				border-right: 13px solid $color-block;
+				content:"";
+				left: -6px;
+				margin-top: -8px;
+				position: absolute;
+				top: 25px;
+				transform: translateX(-50%);
+				transition: opacity $transition-time-1 $cubic-bezier-2;
+				z-index: 99;
+			}
+
+			.data {
+				margin-top: $margin-p-secondary;
+
+				.comment-trigger {
+					&:hover {
+						color: $color-text;
+
+						.svg {
+							path {
+								fill: $color-text;
+							}
+						}
+					}
+				}
+
+				> div {
+					display: inline-block;
+
+					&.right {
+						float: right;
+
+						p {
+							color: $color-pink;
+						}
+
+						.icon {
+							height: 30px;
+							width: 30px;
+
+							path {
+								fill: $color-pink;
+							}
+						}
+					}
+				}
+
+				p {
+					cursor: pointer;
+					display: inline-block;
+					margin: 0;
+					margin-right: $margin-p-secondary;
+
+					&:last-child {
+						margin-right: 0;
+					}
+
+					.icon {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.comments-message {
+		display: none;
+		opacity: 0;
+		text-align: right;
+
+		article.comment {
+			display: inline-block;
+			text-align: left;
+			width: 85%;
+
+			> .comments-message {
+				article.comment {
+					margin-bottom: 0;
+					margin-top: $margin-block;
+				}
+			}
+		}
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: table;
+		}
+	}
+
+
+}

@@ -1,0 +1,149 @@
+.developer-dashboard-project-documents-content {
+	aside {
+		header {
+			h2.header-medium {
+				color: $color-text-secondary;
+				margin-bottom: $margin-header;
+				margin-top: $margin-block;
+			}
+		}
+
+		ul {
+			li {
+				cursor: pointer;
+				margin-bottom: $margin-menu-item;
+				padding-left: 25px;
+				text-indent: -25px;
+
+				.icon {
+					height: 20px;
+					width: 20px;
+				}
+
+				&.active {
+					color: $color-text-secondary;
+					font-weight: $font-weight-bold;
+					letter-spacing: $letter-spacing-1;
+
+					.icon {
+						path {
+							fill: $color-text-secondary;
+						}
+					}
+				}
+
+				&:hover {
+					color: $color-text-secondary;
+
+					.icon {
+						path {
+							fill: $color-text-secondary;
+						}
+					}
+				}
+
+				&.add-folder {
+					color: $color-text-secondary;
+
+					.icon {
+						path {
+							fill: $color-text-secondary;
+						}
+					}
+				}
+
+				span {
+					float: right;
+				}
+			}
+		}
+	}
+
+	.subpage {
+		display: none;
+		opacity: 0;
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: block;
+		}
+
+		> article {
+			background: none;
+			@include paddingH($margin-block-small);
+			@include paddingV(0);
+
+			> .background {
+				background: $color-block;
+				border-radius: 5px;
+				padding: $margin-block;
+
+				> header {
+					h2 {
+						margin-bottom: $margin-header;
+					}
+				}
+
+				.document:not(.add-item) {
+					margin-bottom: $margin-block-bottom;
+
+					&:nth-last-of-type(-n+2) {
+						margin-bottom: 0;
+					}
+
+					@include breakpoint(phablet) {
+						&:nth-last-of-type(-n+2) {
+							margin-bottom: $margin-block-bottom;
+						}
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+
+					.background {
+						border: 1px solid $color-block-lines;
+						border-radius: 5px;
+						min-height: 124px;
+						padding: $margin-block-small;
+
+						h3 {
+							margin-bottom: $margin-p;
+						}
+
+						p {
+							display: inline-block;
+							margin-bottom: 0;
+						}
+
+						a {
+							float: right;
+						}
+					}
+				}
+
+				.document.add-item {
+					border: none;
+					margin-bottom: $margin-block-bottom;
+					@include paddingV(0);
+
+					.background {
+						height: 124px;
+					}
+
+					.add-project-button {
+						height: 40px;
+						margin-bottom: $margin-header-small;
+						width: 40px;
+					}
+
+					h3 {
+						color: $color-text;
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+
+}

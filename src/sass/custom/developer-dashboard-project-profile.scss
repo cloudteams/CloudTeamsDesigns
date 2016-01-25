@@ -1,0 +1,60 @@
+.developer-dashboard-project-profile-content {
+	article {
+		.content {
+			h2, label {
+				margin-bottom: $margin-header-small;
+			}
+
+			&.project-choices {
+				fieldset {
+					margin-bottom: $margin-block;
+					width: 50%;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			&.project-images {
+				.row {
+					> div {
+						&:first-child {
+							img {
+								margin-bottom: $margin-image;
+							}
+						}
+					}
+				}
+
+				img {
+					border-radius: 5px;
+				}
+
+				.img-edit-container {
+					position: relative;
+				}
+			}
+
+			&.project-description {
+				h2 {
+					display: inline-block;
+				}
+
+				p.highlight {
+					display: inline-block;
+					letter-spacing: 0;
+					margin-left: $margin-header-extra-small;
+				}
+
+				textarea {
+					padding-right: 45px;
+				}
+			}
+
+			&:last-child {
+				border: none;
+			}
+		}
+	}
+}

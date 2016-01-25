@@ -1,0 +1,53 @@
+.developer-dashboard-pending-invites-content {
+	padding-top: 0 !important;
+
+	.menu-subpage{
+		@extend .menu-subpage;
+	}
+
+	.subpage {
+		display: none;
+		opacity: 0;
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: block;
+		}
+
+		header {
+			.middle {
+				&:first-child {
+					width: 60px;
+				}
+
+				&:last-child {
+					text-align: right;
+				}
+			}
+
+			img {
+				height: 60px;
+				margin: 0;
+				padding-right: $margin-item;
+				width: auto;
+			}
+
+		}
+
+		article.invite {
+			.content {
+				.accepted {
+					right: 15px;
+					position: absolute;
+					top: 15px;
+
+					p {
+						display: inline-block;
+						letter-spacing: 2px;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

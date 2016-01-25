@@ -1,0 +1,30 @@
+.developer-dashboard-activities-content {
+	padding-top: 0 !important;
+
+	.menu-subpage {
+		@extend .menu-subpage;
+	}
+
+	.legend {
+		margin-bottom: $margin-block;
+	}
+
+	.subpage {
+		display: none;
+		opacity: 0;
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: block;
+		}
+
+		article.activity {
+			@extend .notification;
+		}
+
+		a {
+			width: 100%;
+		}
+	}
+
+}

@@ -1,0 +1,132 @@
+.dashboard-side-menu {
+	header {
+		.page-subtitle {
+			color: $color-menu-items;
+			letter-spacing: 1px;
+		}
+	}
+
+	.member {
+		@include paddingV($margin-block);
+		@extend .border-bottom;
+		position: relative;
+
+		&:after {
+			bottom: 0px;
+			left: 0;
+			top: auto;
+		}
+
+		.profile-picture {
+			float: none;
+			margin-right: 0;
+
+			img {
+				border-radius: 50%;
+			}
+		}
+
+		.information {
+			padding-left: 0;
+		}
+
+		ul {
+			li {
+				&:last-child {
+					a {
+						color: $color-text-secondary;
+					}
+				}
+			}
+		}
+	}
+
+	.side-menu {
+		> ul {
+			padding-top: $margin-block;
+
+			li {
+				margin-bottom: $margin-menu-item;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				a {
+					display: block;
+
+					&:focus, &.active {
+						color: $color-text-secondary;
+
+						.svg {
+							path {
+								fill: $color-text-secondary;
+							}
+						}
+					}
+				}
+
+				&:hover {
+					> a {
+						color: $color-text-secondary;
+
+						.svg {
+							path {
+								fill: $color-text-secondary;
+							}
+						}
+
+						&:after {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.dashboard-side-menu-extended {
+		padding: 0;
+
+		header, .member {
+			@include paddingH($margin-menu);
+		}
+
+		.side-menu {
+			> ul {
+				> li {
+					> a {
+						@include paddingH($margin-menu);
+					}
+
+					ul.side-menu-extended {
+						background: $color-background-quaternary;
+						margin-top: $margin-menu-item;
+						padding: $margin-menu;
+
+						li {
+
+							&.select-dropdown {
+								.fa-angle-down {
+									color: $color-text-secondary;
+								}
+
+								select {
+									border-radius: 0;
+									color: $color-text-secondary;
+									font-size: $font-size-button;
+									padding: $margin-input-small;
+
+									option {
+										color: $color-menu-items;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}

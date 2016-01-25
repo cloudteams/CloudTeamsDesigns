@@ -1,0 +1,80 @@
+.developer-dashboard-projects-content {
+	> .row {
+		@extend .flex;
+	}
+
+	article.project {
+		min-height: 476px;
+		@extend .clear-2;
+
+
+		&:nth-last-of-type(-n+2) {
+			margin-bottom: 0;
+		}
+
+		@include breakpoint(phablet) {
+			&:nth-last-of-type(-n+2) {
+				margin-bottom: $margin-block-bottom;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.background {
+			min-height: 476px;
+		}
+
+		header {
+			h2 {
+				max-width: 260px;
+			}
+		}
+
+		.content {
+			table {
+				tr {
+					td {
+						&:first-child {
+							width: 45%;
+						}
+
+						&:last-child {
+							width: 55%;
+						}
+					}
+				}
+			}
+		}
+
+		&.add-item {
+			height: 476px;
+			text-align: center;
+
+			.background {
+				background: none;
+//				background: url('../img/border.png')
+
+//				border-image: url("../img/border.png") 2 round;
+
+				// background-image: linear-gradient(to top, $color-white 0%, $color-white (100% / 6), transparent (100% / 6));
+				// background-position: top 0;
+				// background-size: 2px (6 + px);
+				// background-repeat: repeat-y;
+				border: 3px dashed $color-block-lines;
+				border-radius: 5px;
+				height: 100%;
+			}
+
+			.add-project-button {
+				background: $color-button;
+				border-radius: 50%;
+				cursor: pointer;
+				height: 60px;
+				margin: 0 auto $margin-base;
+				width: 60px;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+.overview-data {
+	margin-bottom: $margin-block-bottom;
+
+	h2.header-medium.secondary {
+		color: $color-text-secondary;
+		margin-bottom: $margin-header;
+		text-align: center;
+	}
+
+	table {
+		width: 100%;
+
+		tr {
+			td {
+				padding-bottom: $margin-table-row;
+
+				&:last-child {
+					float: right;
+
+					p {
+						font-weight: $font-weight-bold;
+					}
+				}
+
+				.icon {
+					margin-right: $margin-item;
+
+					path {
+						fill: $color-text-secondary;
+					}
+
+					ellipse {
+						stroke: $color-text-secondary;
+					}
+				}
+
+				p {
+					color: $color-text-secondary;
+					display: inline-block;
+				}
+			}
+
+			&:last-child {
+				td {
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+}
