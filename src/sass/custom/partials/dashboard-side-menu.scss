@@ -129,4 +129,51 @@
 		}
 	}
 
+	&.dashboard-side-menu-user {
+
+		.bottom {
+			bottom: 0;
+			left: 0;
+			@include paddingH($margin-menu);
+			position: absolute;
+			width: 100%;
+
+			.profile-completion {
+				border-bottom: 1px solid $color-lines;
+				border-top: 1px solid $color-lines;
+				@include paddingV($margin-block);
+
+				.progress-container {
+					margin-bottom: $margin-header-extra-small;
+
+					.percentage {
+						color: $color-menu-items;
+					}
+				}
+				p.update-profile {
+					color: $color-text-secondary;
+					font-family: $font-header-secondary;
+					font-size: $font-size-header-small;
+					font-weight: $font-weight-bold;
+					letter-spacing: $letter-spacing-1;
+					text-transform: uppercase;
+				}
+			}
+
+			.profile-information {
+				@include paddingV($margin-block);
+
+				h2 {
+					margin-bottom: $margin-item;
+				}
+
+				ul {
+					li {
+						margin-bottom: $margin-p-secondary;
+					}
+				}
+			}
+		}
+	}
+
 }

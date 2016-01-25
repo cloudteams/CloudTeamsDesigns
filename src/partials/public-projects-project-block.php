@@ -6,7 +6,7 @@
 		</div>
 
 		<header>
-			<h2 class="header-medium secondary">Project title</h2>
+			<h3 class="header-medium secondary">Project title</h3>
 			<p class="highlight bold">Team name</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut…</p>
 		</header>

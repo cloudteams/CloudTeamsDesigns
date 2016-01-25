@@ -494,6 +494,13 @@ select {
 		width: 25px;
 	}
 
+	&.filled {
+		path, circle {
+			fill: none;
+			stroke: $color-menu-items;
+		}
+	}
+
 	&.menu-icon {
 		path {
 			fill: $color-menu-items;
@@ -600,18 +607,32 @@ select {
 	}
 }
 
-.progress-wrap {
-	background: $color-light-grey;
-	border-radius: 5px;
-	overflow: hidden;
-	position: relative;
+.progress-container {
+	p {
+		display: inline-block;
+	}
 
-	.progress-bar {
-		background: $color-pink;
+	.progress-wrap {
+		background: $color-light-grey;
 		border-radius: 5px;
-		height: 6px;
-		width: 0;
-		transition: width $transition-time-1 $cubic-bezier-2;
+		display: inline-block;
+		overflow: hidden;
+		position: relative;
+		width: 70%;
+
+		.progress-bar {
+			background: $color-pink;
+			border-radius: 5px;
+			height: 6px;
+			width: 0;
+			transition: width $transition-time-1 $cubic-bezier-2;
+		}
+	}
+
+	.percentage {
+		float: right;
+		letter-spacing: $letter-spacing-1;
+		margin-bottom: 0;
 	}
 }
 

@@ -1,0 +1,82 @@
+.user-dashboard-projects-content {
+	> .row {
+		@extend .flex;
+		margin-bottom: $margin-block-bottom;
+
+		article.project {
+			@extend .clear-2;
+
+			&:nth-last-of-type(-n+2) {
+				margin-bottom: 0;
+			}
+
+			@include breakpoint(phablet) {
+				&:nth-last-of-type(-n+2) {
+					margin-bottom: $margin-block-bottom;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.recommended-projects {
+		h2 {
+			color: $color-text-secondary;
+			margin-bottom: $margin-header-small;
+		}
+	}
+
+	article.project {
+		min-height: 531px;
+
+		.background {
+			min-height: 531px;
+		}
+
+		&.add-item {
+			height: 531px;
+			text-align: center;
+
+			.background {
+				background: none;
+			}
+		}
+
+		.content {
+			table {
+				tr {
+					td {
+						&:first-child {
+							width: 75%;
+						}
+
+						&:last-child {
+							width: 25%;
+						}
+					}
+				}
+			}
+
+			&.last {
+				table {
+					tr {
+						td {
+							p {
+								border-bottom: 1px solid $color-text;
+							}
+
+							.svg {
+								path {
+									fill: $color-text;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

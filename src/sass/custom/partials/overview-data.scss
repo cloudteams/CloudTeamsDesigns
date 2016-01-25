@@ -1,5 +1,7 @@
 .overview-data {
+	border-bottom: 1px solid $color-lines;
 	margin-bottom: $margin-block-bottom;
+	padding-bottom: $margin-block-bottom;
 
 	h2.header-medium.secondary {
 		color: $color-text-secondary;

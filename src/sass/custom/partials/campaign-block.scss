@@ -1,0 +1,120 @@
+article.campaign {
+	height: auto;
+	margin-bottom: $margin-block-bottom;
+
+	&:nth-last-of-type(-n+2) {
+		margin-bottom: 0;
+	}
+
+	@include breakpoint(phablet) {
+		&:nth-last-of-type(-n+2) {
+			margin-bottom: $margin-block-bottom;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	header {
+		position: relative;
+
+		h2 {
+			max-width: 260px;
+		}
+
+		.tooltip-container {
+			display: block;
+			margin: 0;
+			position: absolute;
+			right: 15px;
+			top: 15px;
+		}
+
+		.custom-tooltip {
+			right: -5px;
+			top: 35px;
+		}
+	}
+
+	.content {
+		&.dates {
+			p {
+				display: inline-block;
+				font-weight: $font-weight-bold;
+				letter-spacing: 1px;
+				margin-bottom: 0;
+				margin-right: $margin-item;
+				vertical-align: middle;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		&.data {
+			table {
+				width: 100%;
+
+				p {
+					display: inline-block;
+					vertical-align: middle;
+				}
+
+				tr {
+					td {
+						margin-bottom: $margin-table-row;
+
+						&:first-child {
+							padding-left: 0;
+							width: 75%;
+						}
+
+						&:last-child {
+							padding-right: 0;
+							text-align: right;
+							width: 25%;
+						}
+					}
+
+					&:last-child {
+						td {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+
+		&.user {
+			.vertical-align {
+				@include marginH(-$margin-5);
+
+				.middle {
+					@include paddingH($margin-5);
+
+					&.image-container {
+						width: 15%;
+
+						img {
+							width: 50px;
+						}
+					}
+
+					&.data-container {
+						width: 85%;
+					}
+				}
+			}
+
+			.meta {
+				letter-spacing: 1px;
+			}
+		}
+	}
+
+	footer {
+		text-align: center;
+	}
+}

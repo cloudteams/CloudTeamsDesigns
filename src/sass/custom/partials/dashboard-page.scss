@@ -104,4 +104,70 @@ section.dashboard-page {
 			}
 		}
 	}
+
+	&.user-dashboard-page {
+		&.message {
+			&:after {
+				top: 99px;
+			}
+
+			&.top {
+				&:after {
+					top: 65px;
+				}
+			}
+		}
+
+		> .complete-profile {
+			display: none;
+			opacity: 0;
+
+			&.active {
+				animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+				display: block;
+			}
+		}
+
+		.complete-profile {
+			background: $color-dark-purple;
+			@include paddingV($margin-5);
+
+			.container {
+				@include paddingH($margin-menu);
+				position: relative;
+			}
+
+			.svg {
+				height: 17px;
+				width: 17px;
+
+				path {
+					fill: $color-text-secondary;
+				}
+			}
+
+			p {
+				color: $color-text-secondary;
+				display: inline-block;
+				margin-bottom: 0;
+			}
+
+			a {
+				border-bottom: 1px solid $color-text-secondary;
+				color: $color-text-secondary;
+				margin-left: $margin-p;
+			}
+
+			.close-message {
+				cursor: pointer;
+				position: absolute;
+				right: 25px;
+				top: 4px;
+
+				.svg {
+					vertical-align: middle;
+				}
+			}
+		}
+	}
 }

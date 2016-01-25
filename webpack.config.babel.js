@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 module.exports = (function() {
 	var Webpack              = require('webpack');
@@ -25,7 +25,8 @@ module.exports = (function() {
 		'developerdashboardprojectcustomerideas'   : './js/DeveloperDashboardProjectCustomerIdeas.js',
 		'developerdashboardprojectmessaging'       : './js/DeveloperDashboardProjectMessaging.js',
 		'developerdashboardprojectcampaignoverview': './js/DeveloperDashboardProjectCampaignOverview.js',
-		'developerdashboardprojectcampaigncreate'  : './js/DeveloperDashboardProjectCampaignCreate.js'
+		'developerdashboardprojectcampaigncreate'  : './js/DeveloperDashboardProjectCampaignCreate.js',
+		'userdashboardprojects'                    : './js/UserDashboardProjects.js'
 	};
 
 	function init() {

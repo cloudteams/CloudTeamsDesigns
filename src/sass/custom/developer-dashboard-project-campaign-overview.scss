@@ -1,4 +1,6 @@
 .developer-dashboard-project-campaign-overview-content {
+	padding-top: 0 !important;
+
 	.subpage, .subsection {
 		display: none;
 		opacity: 0;
@@ -6,6 +8,34 @@
 		&.active {
 			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
 			display: block;
+		}
+
+		.block {
+			p {
+				line-height: $line-height-small;
+			}
+		}
+
+		&#subpage-2 {
+			article.block {
+				margin-bottom: $margin-block-small;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		&#subpage-3 {
+			h2, .still-running p {
+				color: $color-text-secondary;
+				text-transform: none;
+			}
+
+			.still-running {
+				margin-top: 100px;
+				text-align: center;
+			}
 		}
 	}
 }

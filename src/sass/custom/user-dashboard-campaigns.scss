@@ -1,4 +1,4 @@
-.developer-dashboard-project-campaigns-content {
+.user-dashboard-campaigns-content {
 	padding-top: 0 !important;
 
 	> .row {
@@ -16,14 +16,10 @@
 	}
 
 	article.campaign {
-		min-height: 431px;
+		min-height: 297px;
 
 		.background {
-			min-height: 431px;
-		}
-
-		&.add-item {
-			height: 431px;
+			min-height: 297px;
 		}
 	}
 }

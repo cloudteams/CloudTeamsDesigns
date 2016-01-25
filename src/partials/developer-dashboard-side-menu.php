@@ -18,7 +18,7 @@
 						<div class="information col-xs-8 middle">
 							<ul>
 								<li class="meta big">Bobbyd123</li>
-								<li class="meta">Member</li>
+								<li class="meta">Project man.</li>
 								<li><a href="#nowhere">Edit profile</a></li>
 							</ul>
 						</div>

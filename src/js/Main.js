@@ -92,7 +92,6 @@
 		});
 	}
 
-
 	function moveProgressBar() {
 		var getPercent      = $('.progress-wrap').attr('data-progress-percent');
 		var getPercentWhole = (Number(getPercent) * 100).toFixed(0);
@@ -162,7 +161,6 @@
 				$(this).parent().removeClass('hover');
 			});
 	}
-
 
 	$(document).ready(function() {
 		changeSVG();

@@ -26,12 +26,6 @@
 			min-height: 476px;
 		}
 
-		header {
-			h2 {
-				max-width: 260px;
-			}
-		}
-
 		.content {
 			table {
 				tr {
@@ -62,9 +56,6 @@
 				// background-position: top 0;
 				// background-size: 2px (6 + px);
 				// background-repeat: repeat-y;
-				border: 3px dashed $color-block-lines;
-				border-radius: 5px;
-				height: 100%;
 			}
 
 			.add-project-button {

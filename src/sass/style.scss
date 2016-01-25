@@ -31,11 +31,19 @@
 @import "custom/developer-dashboard-project-messaging.scss";
 
 //---------------------
+// User Dashboard
+//---------------------
+@import "custom/user-dashboard-projects.scss";
+@import "custom/user-dashboard-campaigns.scss";
+
+//---------------------
 // Public Website
 //---------------------
 @import "custom/public-projects-logged-in.scss";
 
+//---------------------
 // custom partials
+//---------------------
 @import "custom/partials/animations.scss";
 
 @import "custom/partials/public-page.scss";
@@ -43,6 +51,7 @@
 @import "custom/partials/dashboard-side-menu.scss";
 @import "custom/partials/overview-data.scss";
 @import "custom/partials/project-block.scss";
+@import "custom/partials/campaign-block.scss";
 
 @import "custom/partials/menu.scss";
 @import "custom/partials/footer.scss";

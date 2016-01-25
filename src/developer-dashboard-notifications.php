@@ -5,7 +5,7 @@
 		<div class="content">
 
 			<div class="row">
-				<?php include("partials/dashboard-side-menu.php"); ?>
+				<?php include("partials/developer-dashboard-side-menu.php"); ?>
 
 				<main class="col-lg-9">
 					<header class="main-header">

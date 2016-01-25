@@ -1,5 +1,5 @@
 .header-extra-large, .header-large, .header-medium, .header-small {
-	color: $color-white;
+	color: $color-text-secondary;
 	font-weight: $font-weight-bold;
 	margin: 0;
 	text-transform: uppercase;
@@ -58,6 +58,14 @@
 	// @include breakpoint(mobileonly) {
 	// 	font-size: $font-size-header-small-mobile;
 	// }
+}
+
+.header-sidebar {
+	color: $color-menu-items;
+	font-family: $font-header-secondary;
+	font-weight: $font-weight-regular;
+	font-size: $font-size-body;
+	margin-bottom: $margin-header-extra-small;
 }
 
 .form-title {
