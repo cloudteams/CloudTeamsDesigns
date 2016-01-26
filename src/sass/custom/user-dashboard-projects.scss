@@ -1,7 +1,7 @@
 .user-dashboard-projects-content {
 	> .row {
 		@extend .flex;
-		margin-bottom: $margin-block-bottom;
+		margin-bottom: $margin-section * 2;
 
 		article.project {
 			@extend .clear-2;

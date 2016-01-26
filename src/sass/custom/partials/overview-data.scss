@@ -10,8 +10,6 @@
 	}
 
 	table {
-		width: 100%;
-
 		tr {
 			td {
 				padding-bottom: $margin-table-row;
@@ -39,6 +37,7 @@
 				p {
 					color: $color-text-secondary;
 					display: inline-block;
+					vertical-align: middle;
 				}
 			}
 

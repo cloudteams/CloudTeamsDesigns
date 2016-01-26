@@ -16,33 +16,6 @@
 	</head>
 	<body>
 		<header>
-
-<!-- 			<div class="mobile-header">
-				<div class="brand">
-					<a href="index.php">
-						<img src="[[../img/iq2.svg]]">
-					</a>
-				</div>
-
-				<div class="navbar-toggle">
-					<div class="icon-bar"></div>
-					<div class="icon-bar"></div>
-					<div class="icon-bar"></div>
-				</div>
-			</div> -->
-
-<!-- 			<div class="brand">
-				<div class="container">
-					<div class="logo-container">
-						<div class="vertical-align">
-							<div class="middle">
-								<img src="[[../img/logo-white.svg]]" alt="Cloudteams logo">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
 			<nav class="global-nav">
 				<div class="container">
 					<ul>

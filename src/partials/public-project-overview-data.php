@@ -1,40 +1,42 @@
-<div class="public-project-overview-data">
+<div class="public-overview-data public-project-overview-data">
 	<div class="container">
-		<h2 class="header-medium secondary">The project title</h2>
-
-		<div class="row">
-			<div class="col-sm-6">
+		<div class="vertical-align">
+			<div class="middle">
 				<table>
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../img/icons/icon-campaigns.svg]]">
-							<p>Campaigns</p>
+							<img class="icon svg" src="[[../img/icons/icon-pending.svg]]">
+							<p>My invites</p>
 						</td>
 						<td>
-							<p>8</p>
+							<p>2</p>
 						</td>
 					</tr>
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../img/icons/icon-team.svg]]">
-							<p>Team members</p>
+							<img class="icon svg" src="[[../img/icons/icon-rewards.svg]]">
+							<p>My rewards won</p>
 						</td>
 						<td>
-							<p>6</p>
+							<p>2</p>
 						</td>
 					</tr>
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../img/icons/icon-documents.svg]]">
-							<p>Documents</p>
+							<img class="icon svg" src="[[../img/icons/icon-campaign-participated.svg]]">
+							<p>My campaigns answered</p>
 						</td>
 						<td>
-							<p>6</p>
+							<p>5</p>
 						</td>
 					</tr>
+				</table>
+			</div>
 
+			<div class="middle">
+				<table>
 					<tr>
 						<td>
 							<img class="icon svg" src="[[../img/icons/icon-followers.svg]]">
@@ -44,51 +46,31 @@
 							<p>200</p>
 						</td>
 					</tr>
-				</table>
-			</div>
-
-			<div class="col-sm-6">
-				<table>
-					<tr>
-						<td>
-							<img class="icon svg" src="[[../img/icons/icon-blog.svg]]">
-							<p>Blog posts</p>
-						</td>
-						<td>
-							<p>6</p>
-						</td>
-					</tr>
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../img/icons/icon-messaging.svg]]">
-							<p>Messages</p>
+							<img class="icon svg" src="[[../img/icons/icon-campaigns.svg]]">
+							<p>Total campaigns</p>
 						</td>
 						<td>
-							<p>600</p>
-						</td>
-					</tr>
-
-					<tr>
-						<td>
-							<img class="icon svg" src="[[../img/icons/icon-idea.svg]]">
-							<p>Customer ideas</p>
-						</td>
-						<td>
-							<p>54</p>
+							<p>200</p>
 						</td>
 					</tr>
 
 					<tr>
 						<td>
 							<img class="icon svg" src="[[../img/icons/icon-seen.svg]]">
-							<p>Last seen</p>
+							<p>Last seen on</p>
 						</td>
 						<td>
-							<p><time datetime="2015-09-22">22/09/2015</time></p>
+							<p><time datetime="2015-09-22">22/01/2016</time></p>
 						</td>
 					</tr>
 				</table>
+			</div>
+
+			<div class="middle">
+				<a href="#nowhere" class="btn-transparent">Unfollow</a>
 			</div>
 		</div>
 	</div>

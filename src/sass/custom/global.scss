@@ -59,6 +59,10 @@ a {
 	}
 }
 
+table {
+	width: 100%;
+}
+
 input, textarea {
 	background: none;;
 	border: 1px solid $color-input-border;
@@ -579,6 +583,13 @@ select {
 		}
 	}
 
+	&.design, &.delete {
+		path, circle {
+			fill: none !important;
+			stroke: $color-text-secondary;
+		}
+	}
+
 	tspan {
 		font-family: $font-header;
 	}
@@ -670,6 +681,44 @@ select {
 //			color: $color-button;
 		}
 	}
+}
+
+.btn-transparent {
+	@extend .btn;
+	background: none;
+	color: $color-button;
+
+	&:hover {
+		background: $color-button;
+		color: $color-text-secondary;
+	}
+}
+
+.btn-grey {
+	@extend .btn;
+	background: $color-light-grey;
+	border-color: $color-light-grey;
+	color: $color-highlight;
+
+	.delete {
+		path {
+			stroke: $color-highlight;
+		}
+	}
+
+	&:hover {
+		background: $color-light-grey-secondary;
+		border-color: $color-light-grey;
+		color: $color-highlight !important;
+
+		.delete {
+			path {
+				stroke: $color-highlight;
+			}
+		}
+	}
+
+
 }
 
 .btn-confirm {

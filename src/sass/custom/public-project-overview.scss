@@ -1,7 +1,40 @@
+.page-public-project-overview {
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+
 .public-project-overview-content {
 	padding-top: 0 !important;
 
-	.subpage {
+	> header.main-header {
+		background: url("../img/background-project-overview.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 300px;
+		z-index: 0;
+
+		p {
+			color: $color-text-secondary !important;
+			font-weight: $font-weight-bold;
+			letter-spacing: $letter-spacing-1;
+			margin: 0;
+		}
+
+		&:before {
+			background: $color-middle-purple;
+			content: "";
+			display: inline-block;
+			height: 100%;
+			left: 0;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+		}
+	}
+
+	.subpage, .subsection {
 		display: none;
 		opacity: 0;
 
@@ -11,14 +44,148 @@
 		}
 	}
 
-	> .submenu {
-		@extend .border-bottom;
+	.submenu {
 		position: relative;
 
 		&:after {
 			background: $color-border-bottom;
 			bottom: 0;
 			top: auto;
+		}
+
+		.menu-subpage, .menu-subsection {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	.subpage {
+		> .container > .content {
+			margin-bottom: $margin-section;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			header.content-header {
+				margin-bottom: $margin-header;
+			}
+		}
+
+		.subsection {
+			margin-bottom: $margin-section;
+		}
+
+		&#subpage-1 {
+			.content {
+				&.about {
+					header {
+						h2 {
+							display: inline-block;
+							vertical-align: middle;
+						}
+
+						p.page-subtitle {
+							display: inline-block;
+							margin-bottom: 0;
+							@include marginH($margin-subtitle);
+							text-transform: uppercase;
+							vertical-align: middle;
+						}
+
+						.svg {
+							vertical-align: middle;
+						}
+					}
+
+					.project-images {
+						@include marginV($margin-block-bottom);
+
+						.row {
+							> div {
+								.img-edit-container {
+									img {
+										margin-bottom: $margin-image;
+									}
+
+									&:last-child {
+										img {
+											margin-bottom: 0;
+										}
+									}
+								}
+							}
+						}
+
+						img {
+							border-radius: 5px;
+						}
+
+						.img-edit-container {
+							position: relative;
+						}
+					}
+				}
+			}
+		}
+
+		&#subpage-2 {
+			@extend .border-bottom;
+			padding-top: $margin-header;
+			position: relative;
+
+			&:after {
+				background: $color-border-bottom;
+				top: 0;
+			}
+
+			.submenu {
+				@extend .border-bottom;
+				margin-bottom: $margin-header;
+
+				&:after {
+					background: $color-border-bottom;
+					bottom: 0;
+					top: auto;
+				}
+			}
+		}
+
+		&#subpage-5 {
+			@extend .border-bottom;
+			position: relative;
+
+			&:after {
+				background: $color-border-bottom;
+				top: 0;
+			}
+
+			.give-feedback {
+				@include paddingV($margin-subtitle);
+			}
+
+			.subsection {
+				.content {
+					header {
+						margin-bottom: $margin-header;
+					}
+				}
+
+				&#subsection-6 {
+					.still-running {
+						text-align: center;
+
+						img {
+							height: auto;
+							max-width: 300px;
+						}
+					}
+				}
+			}
+		}
+
+		&#subpage-3 {
+
 		}
 	}
 }

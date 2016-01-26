@@ -54,6 +54,21 @@
 
 				a {
 					display: block;
+					position: relative;
+
+					&.incoming {
+						&:after {
+							background: $color-salmon;
+							border-radius: 50%;
+							content: "";
+							display: inline-block;
+							height: 10px;
+							position: absolute;
+							right: 15px;
+							top: 9px;
+							width: 10px;
+						}
+					}
 
 					&:focus, &.active {
 						color: $color-text-secondary;

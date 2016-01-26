@@ -6,7 +6,7 @@
 					<img src="[[../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
 				</div>
 
-				<h2 class="header-medium secondary">John Mestra</h2>
+				<h3 class="header-medium secondary">John Mestra</h3>
 				<p class="meta big">Project manager</p>
 				<p class="meta thin">bobbyd123@gmail.com</p>
 			</div>

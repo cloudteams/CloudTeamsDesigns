@@ -26,7 +26,8 @@ module.exports = (function() {
 		'developerdashboardprojectmessaging'       : './js/DeveloperDashboardProjectMessaging.js',
 		'developerdashboardprojectcampaignoverview': './js/DeveloperDashboardProjectCampaignOverview.js',
 		'developerdashboardprojectcampaigncreate'  : './js/DeveloperDashboardProjectCampaignCreate.js',
-		'userdashboardprojects'                    : './js/UserDashboardProjects.js'
+		'userdashboardprojects'                    : './js/UserDashboardProjects.js',
+		'publicprojectoverview'                    : './js/PublicProjectOverview.js'
 	};
 
 	function init() {

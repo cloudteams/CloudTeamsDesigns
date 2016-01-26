@@ -19,7 +19,7 @@ article.campaign {
 	header {
 		position: relative;
 
-		h2 {
+		h2, h3 {
 			max-width: 260px;
 		}
 
@@ -116,5 +116,30 @@ article.campaign {
 
 	footer {
 		text-align: center;
+	}
+
+	&.public-campaign {
+		.background {
+			header, .content, footer {
+				border-left: 1px solid $color-block-border;
+				border-right: 1px solid $color-block-border;
+			}
+
+			header {
+				border-top: 1px solid $color-block-border;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+			}
+
+			footer {
+				border-bottom: 1px solid $color-block-border;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+			}
+		}
+
+		.btn {
+			margin-bottom: $margin-input-small;
+		}
 	}
 }

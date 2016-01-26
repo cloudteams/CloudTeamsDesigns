@@ -1,4 +1,4 @@
-.header-extra-large, .header-large, .header-medium, .header-small {
+.header-extra-large, .header-large, .header-medium, .header-small, .header-extra-small {
 	color: $color-text-secondary;
 	font-weight: $font-weight-bold;
 	margin: 0;
@@ -19,15 +19,14 @@
 .header-large {
 	font-size: $font-size-header-large;
 	letter-spacing: $letter-spacing-3;
+
+	&.secondary {
+		color: $color-text;
+	}
+
 	// @include breakpoint(mobileonly) {
 	// 	font-size: $font-size-header-large-mobile;
 	// }
-
-	&.secondary {
-		font-family: $font-header-secondary;
-		letter-spacing: $letter-spacing-2;
-		text-transform: none;
-	}
 }
 
 .header-medium {
@@ -54,6 +53,18 @@
 		font-family: $font-header-secondary;
 		letter-spacing: $letter-spacing-1;
 	}
+
+	// @include breakpoint(mobileonly) {
+	// 	font-size: $font-size-header-small-mobile;
+	// }
+}
+
+.header-extra-small {
+	color: $color-text;
+	font-family: $font-header-secondary;
+	font-size: $font-size-body;
+	letter-spacing: $letter-spacing-1;
+	text-transform: none;
 
 	// @include breakpoint(mobileonly) {
 	// 	font-size: $font-size-header-small-mobile;

@@ -1,0 +1,103 @@
+.public-overview-data {
+	background: $color-block-header;
+	margin-bottom: $margin-section;
+	@include paddingV($margin-block-bottom);
+
+	.vertical-align {
+		@include marginH(-$margin-block-small);
+		.middle {
+			@include paddingH($margin-block-small);
+
+			&:last-child {
+				text-align: center;
+			}
+
+			table {
+				tr {
+					&:last-child {
+						td {
+							padding-bottom: 0;
+						}
+					}
+
+					td {
+						padding-bottom: $margin-table-row;
+
+						&:first-child {
+							width: 75%;
+						}
+
+						&:last-child {
+							float: right;
+							width: 25%;
+
+							p {
+								font-weight: $font-weight-bold;
+							}
+						}
+
+						p {
+							display: inline-block;
+							vertical-align: middle;
+						}
+
+						.icon {
+							margin-right: $margin-item;
+
+							path {
+								fill: $color-text;
+							}
+
+							ellipse {
+								stroke: $color-text;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.public-project-overview-data {
+		.vertical-align {
+			.middle {
+				width: 33%;
+			}
+		}
+	}
+
+	&.public-project-campaign-overview-data {
+		.vertical-align {
+			.middle {
+				&:first-child {
+					width: 33%;
+				}
+
+				&:last-child {
+					width: 67%;
+				}
+
+				table {
+					tr {
+						td {
+							&:first-child {
+								width: 55%;
+							}
+
+							&:last-child {
+								width: 45%;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.btn-grey {
+			&:hover {
+				background: $color-light-grey;
+				cursor: default;
+			}
+		}
+	}
+}

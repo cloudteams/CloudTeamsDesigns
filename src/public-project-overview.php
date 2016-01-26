@@ -8,4 +8,6 @@
 		</div>
 </section>
 
+<script type="text/javascript" src="[[./js/publicprojectoverview-*.js]]"></script>
+
 <?php include("partials/footer-public.php"); ?>

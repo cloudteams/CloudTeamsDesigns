@@ -28,8 +28,8 @@
 		<h2 class="header-medium secondary">Recommended projects</h2>
 
 		<div class="row">
-			<?php include("partials/user-dashboard-project-block.php"); ?>
-			<?php include("partials/user-dashboard-project-block.php"); ?>
+			<?php include("partials/public-recommended-project-block.php"); ?>
+			<?php include("partials/public-recommended-project-block.php"); ?>
 		</div>
 	</div>
 </section>

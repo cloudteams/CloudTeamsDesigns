@@ -1,0 +1,25 @@
+article.reward {
+	margin-bottom: $margin-block;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	p {
+		line-height: $line-height-small;
+	}
+
+	.row {
+		> div {
+			&:last-child {
+				.background {
+					border: 1px solid $color-block-lines;
+					border-radius: 5px;
+					padding: $margin-block;
+				}
+			}
+		}
+	}
+
+
+}

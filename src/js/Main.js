@@ -1,4 +1,10 @@
 (function() {
+	var _lastSubsection;
+
+	function resetState() {
+		_lastSubsection = null;
+	}
+
 	function changeSVG() {
 		$('img.svg').each(function() {
 			var $img = $(this);
@@ -52,7 +58,7 @@
 
 	function openCloseSubpage(element) {
 		var currentSubpageLink = element;
-		var otherSubpageLinks  = $('.link-to-subpage').not(currentSubpageLink);
+		var otherSubpageLinks  = $('.link-to-subpage').not(currentSubpageLink, '#link-to-hidden-subpage-5');
 		var currentSubpageID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
 		var currentSubpage     = $('#subpage-' + currentSubpageID);
 		var otherSubpages      = $('.subpage').not(currentSubpage);
@@ -64,23 +70,36 @@
 	}
 
 	function runOpenCloseSubpage() {
-		var linkToSubpage = $('.menu-subpage .link-to-subpage');
+		var linkToSubpage = $('.link-to-subpage');
 
-		linkToSubpage.click(function() {
+		linkToSubpage.click(function(event) {
+			event.preventDefault();
+			resetState();
+
 			openCloseSubpage($(this));
 		});
 	}
 
 	function openCloseSubsection(element) {
 		var currentSubsectionLink = element;
-		var otherSubsectionLinks  = $('.link-to-subsection').not(currentSubsectionLink);
 		var currentSubsectionID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
 		var currentSubsection     = $('#subsection-' + currentSubsectionID);
-		var otherSubsections      = $('.subsection').not(currentSubsection);
+		var activeSubsection      = currentSubsection.parent().find('.active');
+		var activeSubsectionLink  = element.parent().find('.active');
 
 		if (!currentSubsection.hasClass('active')) {
-			closeItem(otherSubsections, otherSubsectionLinks);
-			openItem(currentSubsection, currentSubsectionLink);
+			if (_lastSubsection) {
+				var _lastSubsectionID   = parseInt(_lastSubsection.attr('id').replace(/[^\d]/g, ''), 10);
+				var _lastSubsectionLink = $('#link-to-subsection-' + _lastSubsectionID);
+
+				closeItem(_lastSubsection, _lastSubsectionLink);
+				openItem(currentSubsection, currentSubsectionLink);
+				_lastSubsection = currentSubsection;
+			} else {
+				closeItem(activeSubsection, activeSubsectionLink);
+				openItem(currentSubsection, currentSubsectionLink);
+				_lastSubsection = currentSubsection;
+			}
 		}
 	}
 

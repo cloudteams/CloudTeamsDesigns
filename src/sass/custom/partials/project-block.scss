@@ -87,4 +87,35 @@ article.project {
 			top: 10px;
 		}
 	}
+
+	&.public-project {
+		.content {
+			table {
+				tr {
+					td {
+						&:first-child {
+							width: 75%;
+						}
+
+						&:last-child {
+							width: 25%;
+						}
+					}
+				}
+			}
+		}
+
+		.background {
+			header, .content, footer {
+				border-left: 1px solid $color-block-border;
+				border-right: 1px solid $color-block-border;
+			}
+
+			footer {
+				border-bottom: 1px solid $color-block-border;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+			}
+		}
+	}
 }

@@ -13,10 +13,14 @@
 			width: 150px;
 		}
 
-		h2 {
+		h2.header-large {
+			color: $color-text-secondary;
 			display: inline-block;
+			font-family: $font-header-secondary;
+			letter-spacing: $letter-spacing-2;
 			margin-left: $margin-header;
 			margin-right: $margin-header-small;
+			text-transform: none;
 			vertical-align: middle;
 		}
 

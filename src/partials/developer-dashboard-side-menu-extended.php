@@ -126,7 +126,7 @@
 				</li>
 
 				<li>
-					<a href="developer-dashboard-notifications.php">
+					<a href="developer-dashboard-notifications.php" class="incoming">
 						<img class="icon menu-icon svg" src="[[../img/icons/icon-notifications.svg]]">
 						Notifications
 					</a>

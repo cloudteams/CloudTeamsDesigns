@@ -42,7 +42,7 @@
 				</li>
 
 				<li>
-					<a href="user-dashboard-notifications.php">
+					<a href="user-dashboard-notifications.php" class="incoming">
 						<img class="icon menu-icon svg" src="[[../img/icons/icon-notifications.svg]]">
 						Notifications
 					</a>

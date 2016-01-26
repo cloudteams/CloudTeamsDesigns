@@ -1,4 +1,4 @@
-<article class="project public-project col-lg-4 col-md-6 col-xs-12 block-line-half">
+<article class="project public-project col-md-6 col-xs-12 block-line-half">
 	<div class="background">
 		<div class="background-image">
 			<img src="[[../img/temp.jpg]]">
