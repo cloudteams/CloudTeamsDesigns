@@ -1,0 +1,80 @@
+article.idea {
+	border: 1px solid $color-block-border;
+	margin-bottom: $margin-block-bottom;
+	padding: 0;
+	position: relative;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.idea-container {
+		cursor: pointer;
+		padding-bottom: $margin-p-secondary;
+		padding-left: $margin-block * 2;
+		padding-right: $margin-block;
+		padding-top: $margin-block;
+	}
+
+	.fa-angle-right {
+		color: $color-pink;
+		font-size: 25px;
+		left: 15px;
+		position: absolute;
+		top: 34px;
+		z-index: 99;
+	}
+
+	.content {
+		height: 0px;
+		overflow: hidden;
+		position: relative;
+		transition: height $transition-time-2 $cubic-bezier-2;
+
+		&.extended {
+			overflow: none;
+
+			&:after {
+				opacity: 0;
+			}
+		}
+
+		&.active {
+			margin-top: $margin-p;
+		}
+	}
+
+	.data {
+		padding-bottom: $margin-block;
+		padding-left: $margin-block * 2;
+		padding-right: $margin-block;
+
+		p {
+			display: inline-block;
+			margin: 0;
+			margin-right: $margin-p-secondary;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		.right {
+			float: right;
+
+			.like-button {
+				color: $color-button;
+				cursor: pointer;
+
+				&.active {
+					.icon {
+						path {
+							fill: $color-like;
+							stroke: $color-like;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,99 @@
+// --------------------
+// Modals
+// --------------------
+#popup-tutorial-developer, #popup-tutorial-user {
+	.modal-content {
+		p {
+			line-height: $line-height-small;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		.modal-header {
+			border-bottom: 1px solid $color-block-border;
+			padding-bottom: $margin-block-bottom;
+
+			.vertical-align {
+				@include paddingH(-$margin-block);
+
+				> .middle {
+					@include paddingH($margin-block);
+					width: 50%;
+				}
+			}
+		}
+
+		.modal-body {
+			text-align: center;
+
+			p {
+				margin: 0 auto;
+				max-width: 600px;
+			}
+		}
+
+		.modal-footer {
+
+		}
+
+		.tutorial-step {
+			&#tutorial-step-1 {
+				.modal-body {
+					p {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			&#tutorial-step-2 {
+				.vertical-align {
+					> .middle {
+						position: relative;
+
+						&.explanation {
+							.icon {
+								height: 40px;
+								margin-right: $margin-block-bottom;
+								width: 40px;
+
+								path {
+									fill: $color-text;
+								}
+							}
+
+							> div {
+								&:first-child {
+									position: absolute;
+									top: 25px;
+								}
+
+								&:last-child {
+									bottom: 25px;
+									position: absolute;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			&#tutorial-step-3, &#tutorial-step-4 {
+				.vertical-align {
+					> .middle {
+						&.explanation {
+							p {
+								margin-bottom: $margin-modal;
+
+								&:last-child {
+									margin-bottom: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

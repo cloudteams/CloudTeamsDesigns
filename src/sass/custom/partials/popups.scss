@@ -1,0 +1,128 @@
+// --------------------
+// Modals
+// --------------------
+.modal-dialog {
+	&.small {
+		@media (min-width: 62em) {
+			max-width: 500px;
+		}
+	}
+
+	&.big {
+		@media (min-width: 62em) {
+			min-width: 900px;
+		}
+	}
+
+	@include breakpoint(tablet) {
+		width: 90% !important;
+	}
+
+	@include breakpoint(mobileonly) {
+		width: auto !important;
+	}
+}
+
+.modal {
+	h1, h2, h3 {
+		color: $color-text;
+	}
+
+	.modal-content {
+		border-radius: 5px;
+		padding: $margin-modal 0;
+		position: relative;
+
+		h1 {
+			margin-bottom: $margin-header-small;
+		}
+
+		.modal-step {
+			display: none;
+			opacity: 0;
+			transition: opacity $transition-time-2 $cubic-bezier-2;
+
+			&.active {
+				animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+				display: block;
+			}
+		}
+
+		.modal-header {
+			border: none;
+			margin-bottom: $margin-block-bottom;
+			padding: 0 $margin-modal;
+
+			.tooltip-container {
+				left: 15px;
+				position: absolute;
+				top: 15px;
+
+				.custom-tooltip {
+					left: 0;
+					top: 35px;
+
+					&:after {
+						left: 13px;
+						right: auto;
+					}
+				}
+			}
+
+			.close {
+				opacity: .6;
+				position: absolute;
+				right: 15px;
+				top: 15px;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+
+		.modal-body {
+			padding: 0 $margin-modal;
+		}
+
+		.modal-footer {
+			border: none;
+			margin-top: $margin-block-bottom;
+			padding: 0 $margin-modal;
+			text-align: center;
+
+			.tutorial-pagination {
+				margin-bottom: $margin-p;
+				text-align: center;
+
+				li {
+					background: $color-light-grey-secondary;
+					border-radius: 50%;
+					cursor: pointer;
+					display: inline-block;
+					height: 10px;
+					margin-bottom: 0 !important;
+					margin-right: $margin-p-secondary;
+					width: 10px;
+
+					&:last-child {
+						margin: 0;
+					}
+
+					&.active {
+						background: none;
+						border: 2px solid $color-button;
+					}
+				}
+			}
+
+			a {
+				width: 180px;
+
+				&:last-child {
+					margin-left: $margin-item;
+				}
+			}
+		}
+	}
+}
