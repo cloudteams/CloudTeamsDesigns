@@ -1,4 +1,4 @@
-<article class="campaign public-campaign block-line-half col-md-4 clear-3">
+<article class="campaign public-campaign block-line-half col-lg-4 col-md-6 clear-3">
 	<div class="background">
 		<header class="article-header">
 			<h3 class="header-medium secondary">Give feedback on our homepage and participate in...</h3>

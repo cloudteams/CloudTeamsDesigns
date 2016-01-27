@@ -25,4 +25,4 @@
 	</div>
 </section>
 
-<?php include("partials/footer-dashboard.php"); ?>
+<?php include("partials/footer-dashboard-developer.php"); ?>

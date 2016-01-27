@@ -1,8 +1,7 @@
 <article class="reward">
 	<div class="row">
 		<div class="col-sm-2">
-<!-- 			<img src="[[../img/campaign-reward.svg]]" alt="reward"> -->
-			<img src="[[../img/fanta-logo.png]]" alt="reward">
+			<img src="[[../img/campaign-reward.svg]]" alt="reward">
 		</div>
 
 		<div class="col-sm-10">

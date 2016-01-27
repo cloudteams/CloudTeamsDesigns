@@ -22,7 +22,9 @@
 						<li class="brand">
 							<div class="vertical-align">
 								<div class="middle">
-									<img src="[[../img/logo-white.svg]]" class="logo svg" alt="Cloudteams logo">
+									<a href="public-projects-logged-in.php" alt="home">
+										<img src="[[../img/logo-white.svg]]" class="logo svg" alt="Cloudteams logo">
+									</a>
 								</div>
 							</div>
 						</li>

@@ -68,6 +68,12 @@
 							top: 9px;
 							width: 10px;
 						}
+
+						&:hover {
+							&:after {
+								display: inline-block;
+							}
+						}
 					}
 
 					&:focus, &.active {

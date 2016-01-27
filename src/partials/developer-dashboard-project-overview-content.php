@@ -236,7 +236,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate…</p>
 
 					<div class="data">
-						<img class="icon like" src="[[../img/icons/icon-like-fill.svg]]">
+						<img class="icon like svg" src="[[../img/icons/icon-like.svg]]">
 						<p class="highlight">10</p>
 						<p class="highlight">Just now</p>
 					</div>

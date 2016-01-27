@@ -26,7 +26,6 @@
 @import "custom/developer-dashboard-project-campaign-create.scss";
 @import "custom/developer-dashboard-project-team.scss";
 @import "custom/developer-dashboard-project-documents.scss";
-@import "custom/developer-dashboard-project-blog.scss";
 @import "custom/developer-dashboard-project-customer-ideas.scss";
 @import "custom/developer-dashboard-project-messaging.scss";
 
@@ -47,7 +46,8 @@
 // custom partials
 //---------------------
 @import "custom/partials/animations.scss";
-
+@import "custom/partials/popups.scss";
+@import "custom/partials/popup-tutorial.scss";
 @import "custom/partials/public-page.scss";
 @import "custom/partials/dashboard-page.scss";
 @import "custom/partials/dashboard-side-menu.scss";
@@ -55,6 +55,8 @@
 @import "custom/partials/public-overview-data.scss";
 @import "custom/partials/project-block.scss";
 @import "custom/partials/campaign-block.scss";
+@import "custom/partials/blogpost-block.scss";
+@import "custom/partials/customer-idea-block.scss";
 @import "custom/partials/campaign-reward-block.scss";
 
 @import "custom/partials/menu.scss";

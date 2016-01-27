@@ -1,6 +1,6 @@
 <!-- Pop-up modal: team member full profile -->
 <div id="popup-team-member-full-profile" class="modal fade" role="dialog">
-	<div class="modal-dialog">
+	<div class="modal-dialog small">
 
 		<!-- Modal content-->
 		<div class="modal-content">

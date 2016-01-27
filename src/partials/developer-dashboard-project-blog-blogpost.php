@@ -5,7 +5,7 @@
 		<div class="content">
 			<div class="vertical-align">
 				<div class="middle">
-					<a href="developer-dashboard-project-overview.php" class="btn">Show project</a>
+					<a href="#nowhere" class="btn">Show blog post</a>
 				</div>
 			</div>
 		</div>

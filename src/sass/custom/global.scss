@@ -52,6 +52,10 @@ a {
 		text-decoration: none;
 	}
 
+	&:focus, &:active {
+		outline: 0 !important;
+	}
+
 	&:not(.btn):not(.btn-confirm):not(.btn-decline):not(.btn-download) {
 		&:hover, &:focus {
 			color: $color-text-secondary;
@@ -429,7 +433,6 @@ select {
 
 	&.active {
 		color: $color-text;
-		font-weight: $font-weight-bold;
 
 		.icon {
 			path {
@@ -531,11 +534,18 @@ select {
 
 	&.check {
 		path {
-			fill: $color-success;
+			stroke-width: 1.5px;
+		}
+	}
 
-			&:last-child {
-				fill: $color-text-secondary;
-			}
+	&.like-fill {
+		height: 15px;
+		width: 15px;
+
+		path {
+			fill: none;
+			stroke: $color-button;
+			transition: fill $transition-time-1 $cubic-bezier-2, stroke $transition-time-1 $cubic-bezier-2;
 		}
 	}
 
@@ -545,6 +555,7 @@ select {
 
 		path {
 			fill: $color-highlight;
+			stroke: $color-highlight;
 		}
 	}
 
@@ -672,14 +683,10 @@ select {
 	text-transform: uppercase;
 	transition: background $transition-time-1 $cubic-bezier-2, color $transition-time-1 $cubic-bezier-2;
 
-	&:hover {
+	&:hover, &:focus {
 		background: $color-button-hover;
 		border-color: $color-button-hover;
 		color: $color-text-secondary;
-
-		.fa {
-//			color: $color-button;
-		}
 	}
 }
 
@@ -717,8 +724,6 @@ select {
 			}
 		}
 	}
-
-
 }
 
 .btn-confirm {
@@ -731,6 +736,18 @@ select {
 		border-color: $color-success-hover;
 		color: $color-text-secondary;
 	}
+
+	.icon {
+		height: 10px;
+		width: 10px;
+
+		path {
+			fill: none;
+			stroke: $color-text-secondary;
+			stroke-width: 1.5px;
+
+		}
+	}
 }
 
 .btn-decline {
@@ -739,9 +756,25 @@ select {
 	border-color: $color-decline;
 	color: $color-decline;
 
+	.icon {
+		height: 10px;
+		width: 10px;
+
+		path {
+			fill: $color-button;
+			transition: fill $transition-time-1 $cubic-bezier-2;
+		}
+	}
+
 	&:hover {
 		background: $color-decline;
 		color: $color-text-secondary;
+
+		.icon {
+			path {
+				fill: $color-text-secondary;
+			}
+		}
 	}
 }
 
@@ -960,77 +993,4 @@ select {
 
 .angle-closed {
 	transform: rotate(0deg);
-}
-
-// --------------------
-// Modals
-// --------------------
-
-.modal-dialog {
-	@media (min-width: 62em) {
-		max-width: 500px;
-	}
-
-	@include breakpoint(tablet) {
-		width: 90% !important;
-	}
-
-	@include breakpoint(mobileonly) {
-		width: auto !important;
-	}
-}
-
-.modal {
-	.modal-content {
-		border-radius: 5px;
-		padding: $margin-modal;
-		position: relative;
-
-		.modal-content {
-
-		}
-
-		.modal-header {
-			border: none;
-			margin-bottom: $margin-block-bottom;
-			padding: 0;
-
-			.tooltip-container {
-				left: 15px;
-				position: absolute;
-				top: 15px;
-
-				.custom-tooltip {
-					left: 0;
-					top: 35px;
-
-					&:after {
-						left: 13px;
-						right: auto;
-					}
-				}
-			}
-
-			.close {
-				opacity: .6;
-				position: absolute;
-				right: 15px;
-				top: 15px;
-
-				&:hover {
-					opacity: 1;
-				}
-			}
-		}
-
-		.modal-body {
-			padding: 0;
-		}
-
-		.modal-footer {
-			border: none;
-			margin-top: $margin-block-bottom;
-			padding: 0;
-		}
-	}
 }

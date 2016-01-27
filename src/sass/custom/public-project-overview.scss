@@ -60,6 +60,8 @@
 	}
 
 	.subpage {
+		padding-bottom: $margin-section;
+
 		> .container > .content {
 			margin-bottom: $margin-section;
 
@@ -70,10 +72,6 @@
 			header.content-header {
 				margin-bottom: $margin-header;
 			}
-		}
-
-		.subsection {
-			margin-bottom: $margin-section;
 		}
 
 		&#subpage-1 {
@@ -151,6 +149,31 @@
 			}
 		}
 
+		&#subpage-3 {
+			padding-top: $margin-header;
+		}
+
+		&#subpage-4 {
+			padding-top: $margin-header;
+
+			header {
+				h2 {
+					display: inline-block;
+				}
+
+				a {
+					display: inline-block;
+					float: right;
+				}
+			}
+
+			article.idea {
+				&:last-child {
+					margin-bottom: $margin-block;
+				}
+			}
+		}
+
 		&#subpage-5 {
 			@extend .border-bottom;
 			position: relative;
@@ -177,7 +200,8 @@
 
 						img {
 							height: auto;
-							max-width: 300px;
+							margin-bottom: $margin-block-bottom;
+							max-width: 200px;
 						}
 					}
 				}

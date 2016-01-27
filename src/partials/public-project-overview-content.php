@@ -134,6 +134,42 @@
 		</section>
 	</section>
 
+	<section id="subpage-3" class="subpage">
+		<div class="container">
+			<div class="content about">
+				<header>
+					<h2 class="header-large secondary">Blog posts</h2>
+				</header>
+			</div>
+
+			<div class="row">
+				<?php include("partials/public-project-campaign-blogpost.php"); ?>
+				<?php include("partials/public-project-campaign-blogpost.php"); ?>
+				<?php include("partials/public-project-campaign-blogpost.php"); ?>
+				<?php include("partials/public-project-campaign-blogpost.php"); ?>
+				<?php include("partials/public-project-campaign-blogpost.php"); ?>
+				<?php include("partials/public-project-campaign-blogpost.php"); ?>
+			</div>
+		</div>
+	</section>
+
+	<section id="subpage-4" class="subpage">
+		<div class="container">
+			<div class="content about">
+				<header>
+					<h2 class="header-large secondary">Customer ideas</h2>
+					<a href="#nowhere" class="btn" alt="send idea">Send idea</a>
+				</header>
+			</div>
+
+			<?php include("partials/project-customer-idea.php"); ?>
+			<?php include("partials/project-customer-idea.php"); ?>
+			<?php include("partials/project-customer-idea.php"); ?>
+			<?php include("partials/project-customer-idea.php"); ?>
+			<?php include("partials/project-customer-idea.php"); ?>
+		</div>
+	</section>
+
 	<section id="subpage-5" class="subpage">
 		<div class="give-feedback">
 			<div class="container">
@@ -210,7 +246,7 @@
 					<div class="still-running">
 						<div class="vertical-align">
 							<div class="middle">
-								<img src="[[../img/fanta-logo.png]]" alt="reward">
+								<img src="[[../img/campaign-results.svg]]" alt="results">
 
 								<h3 class="header-medium secondary">This campaign is still running</h3>
 							</div>

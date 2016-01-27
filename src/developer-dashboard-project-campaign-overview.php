@@ -33,4 +33,4 @@
 
 <script type="text/javascript" src="[[./js/developerdashboardprojectcampaignoverview-*.js]]"></script>
 
-<?php include("partials/footer-dashboard.php"); ?>
+<?php include("partials/footer-dashboard-developer.php"); ?>

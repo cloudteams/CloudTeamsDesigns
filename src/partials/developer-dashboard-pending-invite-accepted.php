@@ -17,7 +17,7 @@
 		</div>
 	</header>
 	<div class="content">
-		<a href="developer-dashboard-project-overview.php"><h3 class="header-small secondary action-text">Project title</h3></a>
+		<a href="public-project-overview.php"><h3 class="header-small secondary action-text">Project title</h3></a>
 		<div class="accepted">
 			<img class="icon check svg" src="[[../img/icons/icon-check-fill.svg]]">
 			<p class="page-subtitle">Accepted</p>

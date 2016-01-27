@@ -5,6 +5,7 @@ require('bootstrap.min.js');
 
 require('./js/Main');
 require('./js/partials/Menu');
+require('./js/partials/Tutorial');
 require('./js/partials/Easing');
 
 /* PHP & HTML */

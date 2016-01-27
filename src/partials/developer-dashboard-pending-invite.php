@@ -17,13 +17,19 @@
 		</div>
 	</header>
 	<div class="content">
-		<a href="developer-dashboard-project-overview.php"><h3 class="header-small secondary action-text">Project title</h3></a>
+		<a href="public-project-overview.php"><h3 class="header-small secondary action-text">Project title</h3></a>
 		<h4 class="header-medium secondary">Help us create a better app</h4>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
 
 		<div class="buttons">
-			<a href="#nowhere" class="btn-decline">Decline</a>
-			<a href="#nowhere" class="btn-confirm">Confirm</a>
+			<a href="#nowhere" class="btn-decline">
+			<img class="icon svg" src="[[../img/icons/icon-close.svg]]">
+				Decline
+			</a>
+			<a href="#nowhere" class="btn-confirm">
+				<img class="icon svg" src="[[../img/icons/icon-check-single.svg]]">
+				Confirm
+			</a>
 		</div>
 	</div>
 </article>

@@ -2,20 +2,6 @@ article.campaign {
 	height: auto;
 	margin-bottom: $margin-block-bottom;
 
-	&:nth-last-of-type(-n+2) {
-		margin-bottom: 0;
-	}
-
-	@include breakpoint(phablet) {
-		&:nth-last-of-type(-n+2) {
-			margin-bottom: $margin-block-bottom;
-		}
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-
 	header {
 		position: relative;
 

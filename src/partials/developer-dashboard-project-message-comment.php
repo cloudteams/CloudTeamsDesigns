@@ -27,8 +27,8 @@
 				</div>
 
 				<div class="right">
-					<p>
-						<img class="icon like svg" src="[[../img/icons/icon-like.svg]]">
+					<p class="like-button">
+						<img class="icon like-fill svg" src="[[../img/icons/icon-like-fill.svg]]">
 						Like
 					</p>
 
@@ -69,8 +69,8 @@
 				</div>
 
 				<div class="right">
-					<p>
-						<img class="icon like svg" src="[[../img/icons/icon-like.svg]]">
+					<p class="like-button">
+						<img class="icon like-fill svg" src="[[../img/icons/icon-like-fill.svg]]">
 						Like
 					</p>
 

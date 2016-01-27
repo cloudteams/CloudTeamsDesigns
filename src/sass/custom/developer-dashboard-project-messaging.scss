@@ -74,12 +74,17 @@
 							color: $color-pink;
 						}
 
-						.icon {
-							height: 30px;
-							width: 30px;
+						.like-button, .reply-button {
+							color: $color-button;
+							cursor: pointer;
 
-							path {
-								fill: $color-pink;
+							&.active {
+								.icon {
+									path {
+										fill: $color-like;
+										stroke: $color-like;
+									}
+								}
 							}
 						}
 					}

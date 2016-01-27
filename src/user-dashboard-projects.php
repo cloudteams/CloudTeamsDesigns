@@ -40,4 +40,4 @@
 
 <script type="text/javascript" src="[[./js/userdashboardprojects-*.js]]"></script>
 
-<?php include("partials/footer-dashboard.php"); ?>
+<?php include("partials/footer-dashboard-user.php"); ?>

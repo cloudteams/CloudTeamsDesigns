@@ -74,7 +74,7 @@ footer#footer {
 		}
 	}
 
-	&.footer-developer-dashboard {
+	&.footer-dashboard-developer, &.footer-dashboard-user {
 		background: $color-footer-dev-dashboard;
 
 		ul {

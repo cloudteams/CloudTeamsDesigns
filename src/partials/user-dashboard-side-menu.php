@@ -74,15 +74,19 @@
 			<div class="profile-information">
 				<h2 class="header-sidebar">Profile information</h2>
 				<ul>
-
 					<li>
-						<img class="icon filled svg" src="[[../img/icons/icon-location.svg]]">
+						<img class="icon filled svg" src="[[../img/icons/icon-city.svg]]">
 						New York
 					</li>
 
 					<li>
 						<img class="icon filled svg" src="[[../img/icons/icon-work.svg]]">
 						Engineer
+					</li>
+
+					<li>
+						<img class="icon filled svg" src="[[../img/icons/icon-location.svg]]">
+						Manager
 					</li>
 
 					<li>
