@@ -33,6 +33,7 @@
 								</div>
 							</div>
 						</div>
+
 						<h2 class="header-small secondary">Invite new member</h2>
 					</div>
 				</div>

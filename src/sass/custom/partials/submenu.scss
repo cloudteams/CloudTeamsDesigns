@@ -1,0 +1,30 @@
+.menu-subpage:not(.sidebar), .menu-subsection {
+	@include paddingV($margin-block-extra-small);
+	margin-bottom: $margin-block-extra-small;
+
+	li {
+		border-bottom: 3px solid transparent;
+		cursor: pointer;
+		display: inline-block;
+		font-size: $font-size-menu-subpage;
+		font-weight: $font-weight-bold;
+		letter-spacing: 1px;
+		margin-right: $margin-menu-item;
+		padding-bottom: $margin-5;
+		text-transform: uppercase;
+		transition: all $transition-time-2 $cubic-bezier-2;
+
+		&.active {
+			color: $color-text-secondary;
+			border-bottom: 3px solid $color-pink;
+		}
+	}
+
+	&.public {
+		li {
+			&.active {
+				color: $color-text;
+			}
+		}
+	}
+}

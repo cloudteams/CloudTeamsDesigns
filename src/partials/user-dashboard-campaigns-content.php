@@ -20,7 +20,6 @@
 	</section>
 
 	<section id="subpage-3" class="subpage">
-
 		<div class="row">
 			<?php include("partials/user-dashboard-campaign-block.php"); ?>
 			<?php include("partials/user-dashboard-campaign-block.php"); ?>

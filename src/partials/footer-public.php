@@ -9,7 +9,7 @@
 							<li><a href="">Contact us</a></li>
 							<li><a href="">About CloudTeams</a></li>
 							<li><a href="">News</a></li>
-							<li><a href="">Help tour</a></li>
+							<li><a href="" id="tutorial-btn-to-step-1" class="tutorial-button" data-toggle="modal" data-target="#popup-tutorial-user">Help tour</a></li>
 							<li><a href="">Disclaimer</a></li>
 						</ul>
 					</div>
@@ -47,13 +47,15 @@
 							<li><a href="" alt="facebook"><i class="fa fa-facebook"></i></a></li>
 						</ul>
 					</div>
-
 				</div>
 			</div>
 
 			<div class="brand">
 				<img src="[[../img/logo-white.svg]]" class="logo svg" alt="Cloudteams logo">
 			</div>
+
+			<?php include("partials/popup-tutorial-developer.php"); ?>
+			<?php include("partials/popup-tutorial-user.php"); ?>
 		</footer>
 	</body>
 </html>

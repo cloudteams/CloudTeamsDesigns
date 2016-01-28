@@ -30,10 +30,20 @@
 	}
 
 	article.project {
-		min-height: 531px;
-
-		.background {
+		&:not(.public-project) {
 			min-height: 531px;
+
+			.background {
+				min-height: 531px;
+			}
+		}
+
+		&.public-project {
+			min-height: 500px;
+
+			.background {
+				min-height: 500px;
+			}
 		}
 
 		&.add-item {

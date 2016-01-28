@@ -18,13 +18,8 @@
 			display: block;
 		}
 
-		article.activity {
-			@extend .notification;
-		}
-
 		a {
 			width: 100%;
 		}
 	}
-
 }

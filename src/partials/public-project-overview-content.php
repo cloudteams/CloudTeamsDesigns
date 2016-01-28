@@ -184,7 +184,7 @@
 						<div class="select-dropdown">
 							<i class="fa fa-angle-down"></i>
 							<select name="visable-to" id="visable-to" onchange="" size="1">
-								<option value="Campaign title" disabled selected>Campaign title</option>
+								<option value="Campaign title" selected>Campaign title</option>
 								<option value="Campaign title">Campaign title 2</option>
 								<option value="Campaign title">Campaign title 3</option>
 							</select>
@@ -256,5 +256,4 @@
 			</div>
 		</section>
 	</section>
-
 </section>

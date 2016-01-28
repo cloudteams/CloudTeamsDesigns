@@ -1,6 +1,7 @@
+// ---------------
 // colors
+// ---------------
 $color-white                 : #fff;
-$color-black                 : #000;
 $color-grey                  : #b1b1b1;
 $color-extra-light-grey      : #f7f6f6;
 $color-light-grey            : #d9d9d9;
@@ -25,18 +26,17 @@ $color-background-secondary  : $color-middle-purple;
 $color-background-tertiary   : $color-dark-purple;
 $color-background-quaternary : $color-extra-dark-purple;
 $color-block-header          : $color-extra-light-grey;
+$color-subtitle              : $color-grey;
 $color-menu                  : $color-pink;
-$color-footer-public         : $color-extra-light-grey;
-$color-footer-dev-dashboard  : $color-dark-purple;
 $color-highlight             : $color-grey;
 $color-action-text           : $color-pink;
-$color-subtitle              : $color-grey;
 $color-menu-items            : $color-grey;
 $color-button                : $color-pink;
 $color-button-hover          : $color-middle-pink;
 $color-input                 : $color-white;
 $color-input-border          : $color-grey;
 $color-input-hover           : $color-pink;
+$color-checked               : $color-pink;
 $color-block-lines           : $color-grey;
 $color-lines                 : $color-extra-light-purple;
 $color-block                 : $color-white;
@@ -47,11 +47,19 @@ $color-decline               : $color-pink;
 $color-like                  : $color-salmon;
 $color-text                  : $color-dark-grey;
 $color-text-secondary        : $color-white;
-
-// Public extra colors
+$color-footer-public         : $color-extra-light-grey;
+$color-footer-dev-dashboard  : $color-dark-purple;
+// Public extra color
 $color-border-bottom         : $color-light-grey-secondary;
 
-// fonts
+// ---------------
+// Fonts
+// ---------------
+$font-body                   : "corbel", "Open Sans", "Helvetica", sans-serif;
+$font-header-secondary       : "corbel", "Open Sans", "Helvetica", sans-serif;
+$font-header                 : "brandon-bold", sans-serif;
+
+// Font sizes
 $font-size-base              : 10px;
 
 $font-size-0                 : $font-size-base * 6;			// 60px
@@ -60,9 +68,8 @@ $font-size-2                 : $font-size-base * 1.8; 		// 18px
 $font-size-3                 : $font-size-base * 1.6; 		// 16px
 $font-size-4                 : $font-size-base * 1.4; 		// 14px
 $font-size-5                 : $font-size-base * 1.2; 		// 12px
-
-// Public extra font
-$font-size-25                : $font-size-base * 2.5; // 25px
+// Public extra font size
+$font-size-25                : $font-size-base * 2.5; 		// 25px
 
 $font-size-body              : $font-size-3;
 $font-size-header-extra-large: $font-size-0;
@@ -71,15 +78,11 @@ $font-size-header-medium     : $font-size-2;
 $font-size-header-small      : $font-size-3;
 $font-size-header-extra-small: $font-size-4;
 $font-size-page-subtitle     : $font-size-4;
-$font-size-public-subtitle   : $font-size-25;
 $font-size-menu-subpage      : $font-size-4;
 $font-size-button            : $font-size-4;
 $font-size-meta              : $font-size-4;
 $font-size-social-media      : $font-size-1;
-
-$font-body                   : "corbel", "Open Sans", "Helvetica", sans-serif;
-$font-header-secondary       : "corbel", "Open Sans", "Helvetica", sans-serif;
-$font-header                 : "brandon-bold", sans-serif;
+$font-size-public-subtitle   : $font-size-25;
 
 // Font-weights
 $font-weight-regular         : 400;
@@ -96,15 +99,9 @@ $letter-spacing-1            : 1px;
 $letter-spacing-2            : 2px;
 $letter-spacing-3            : 3px;
 
-// Variables for margins mixin
-$margins-presets             : ();
-$margin-min                  : 0px;
-$margin-max                  : 60px;
-$margin-step                 : 5px;
-$margin-slug                 : margin !default;  // result: .margin-5 {margin: 5px} .....  OR
-$margin-positions            : (h, v, t, r, b, l); // result .margin-v-10 { margi-top: 10px;
-
+// ---------------
 // margins
+// ---------------
 $margin-5                    : 5px;
 $margin-10                   : 10px;
 $margin-15                   : 15px;
@@ -138,15 +135,18 @@ $margin-image                : $margin-15;
 $margin-modal                : $margin-40;
 $margin-filter-container     : $margin-40;
 $margin-section              : $margin-50;
-// Public
+
+// Public extra margin
 $margin-header-public        : $margin-40;
 
 $margin-button-H             : $margin-25;
 $margin-button-V             : $margin-10;
 
+// ---------------
+// Transitions
+// ---------------
+$cubic-bezier-2              : cubic-bezier(.785,.135,.15,.86);
+
 // Transition times
 $transition-time-1           : 150ms;
 $transition-time-2           : 350ms;
-
-// Transitions
-$cubic-bezier-2              : cubic-bezier(.785,.135,.15,.86);

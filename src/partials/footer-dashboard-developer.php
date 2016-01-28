@@ -47,7 +47,6 @@
 							<li><a href="" alt="facebook"><i class="fa fa-facebook"></i></a></li>
 						</ul>
 					</div>
-
 				</div>
 			</div>
 

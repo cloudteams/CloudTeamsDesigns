@@ -22,7 +22,6 @@
 						</div>
 					</header>
 
-					<?php include("partials/developer-dashboard-project-create-content.php"); ?>
 				</main>
 			</div>
 

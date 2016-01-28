@@ -15,7 +15,6 @@
 		item.removeClass('active');
 	}
 
-
 	function openCloseComment(element) {
 		var currentLinkID          = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
 		var currentMessageComments = $('#comments-message-' + currentLinkID);

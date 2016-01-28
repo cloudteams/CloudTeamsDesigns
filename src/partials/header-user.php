@@ -14,6 +14,7 @@
 		<script type="text/javascript" src="[[./js/global-*.js]]"></script>
 		<script type="text/javascript" src="[[./js/common-*.js]]"></script>
 	</head>
+
 	<body>
 		<header>
 			<nav class="global-nav">
@@ -63,7 +64,7 @@
 						<li class="profile">
 							<div class="vertical-align">
 								<div class="middle">
-									<a href="#nowhere">
+									<a href="user-profile.php">
 										<img class="icon menu-icon svg" src="[[../img/icons/icon-profile.svg]]">
 										Bobbyd123
 										<i class="fa fa-angle-down"></i>

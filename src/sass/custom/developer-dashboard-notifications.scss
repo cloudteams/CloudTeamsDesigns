@@ -6,14 +6,8 @@
 	}
 
 	.content {
-
-		article.notification {
-			@extend .notification;
-		}
-
 		a {
 			width: 100%;
 		}
 	}
-
 }

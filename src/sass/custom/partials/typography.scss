@@ -23,10 +23,6 @@
 	&.secondary {
 		color: $color-text;
 	}
-
-	// @include breakpoint(mobileonly) {
-	// 	font-size: $font-size-header-large-mobile;
-	// }
 }
 
 .header-medium {
@@ -39,10 +35,6 @@
 		letter-spacing: $letter-spacing-1;
 		text-transform: none;
 	}
-
-	// @include breakpoint(mobileonly) {
-	// 	font-size: $font-size-header-medium-mobile;
-	// }
 }
 
 .header-small {
@@ -53,10 +45,6 @@
 		font-family: $font-header-secondary;
 		letter-spacing: $letter-spacing-1;
 	}
-
-	// @include breakpoint(mobileonly) {
-	// 	font-size: $font-size-header-small-mobile;
-	// }
 }
 
 .header-extra-small {
@@ -65,10 +53,6 @@
 	font-size: $font-size-body;
 	letter-spacing: $letter-spacing-1;
 	text-transform: none;
-
-	// @include breakpoint(mobileonly) {
-	// 	font-size: $font-size-header-small-mobile;
-	// }
 }
 
 .header-sidebar {
@@ -84,7 +68,7 @@
 	text-transform: uppercase;
 	font-size: $font-size-header-extra-small;
 	font-weight: $font-weight-semibold;
-	@include marginB(10);
+	margin-bottom: $margin-p-secondary;
 }
 
 .page-subtitle {

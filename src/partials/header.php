@@ -14,6 +14,7 @@
 		<script type="text/javascript" src="[[./js/global-*.js]]"></script>
 		<script type="text/javascript" src="[[./js/common-*.js]]"></script>
 	</head>
+
 	<body>
 		<header>
 			<nav class="global-nav">

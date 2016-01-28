@@ -1,0 +1,29 @@
+.user-profile-content {
+	.subpage {
+		display: none;
+		opacity: 0;
+
+		&.active {
+			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+			display: block;
+		}
+	}
+
+	> header {
+		margin-bottom: $margin-header;
+		width: 60%;
+
+		.tooltip-container {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		h2.header-large {
+			color: $color-text-secondary;
+			display: inline-block;
+			font-family: $font-header-secondary;
+			text-transform: none;
+		}
+
+	}
+}

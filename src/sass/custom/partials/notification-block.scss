@@ -1,0 +1,18 @@
+.notification {
+	@extend .block;
+	margin-bottom: $margin-block;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.middle {
+		&:last-child {
+			text-align: right;
+		}
+	}
+
+	p {
+		display: inline-block;
+	}
+}

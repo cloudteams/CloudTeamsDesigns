@@ -1,18 +1,13 @@
 .developer-dashboard-project-profile-content {
 	article {
 		.content {
-			h2, label {
+			h2 {
 				margin-bottom: $margin-header-small;
 			}
 
 			&.project-choices {
 				fieldset {
-					margin-bottom: $margin-block;
 					width: 50%;
-
-					&:last-child {
-						margin-bottom: 0;
-					}
 				}
 			}
 

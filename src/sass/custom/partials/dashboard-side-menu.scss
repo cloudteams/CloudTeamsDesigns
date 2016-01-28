@@ -151,7 +151,6 @@
 	}
 
 	&.dashboard-side-menu-user {
-
 		.bottom {
 			bottom: 0;
 			left: 0;
@@ -171,6 +170,7 @@
 						color: $color-menu-items;
 					}
 				}
+
 				p.update-profile {
 					color: $color-text-secondary;
 					font-family: $font-header-secondary;
@@ -196,5 +196,4 @@
 			}
 		}
 	}
-
 }

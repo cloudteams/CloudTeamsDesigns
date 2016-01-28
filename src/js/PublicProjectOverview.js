@@ -2,7 +2,7 @@ import CustomerIdeas from 'partials/CustomerIdeas.js';
 
 (function() {
 	function activeSubpage() {
-		var campaignSubpageLink    = $('#link-to-subpage-2');
+		var campaignSubpageLink = $('#link-to-subpage-2');
 
 		campaignSubpageLink.addClass('active');
 	}
@@ -15,9 +15,19 @@ import CustomerIdeas from 'partials/CustomerIdeas.js';
 		});
 	}
 
+	function checkPageName() {
+		var url = window.location.hash.substr(1);
+		var campaignsTab = $('#link-to-subpage-2');
+
+		if (url === 'campaigns') {
+			campaignsTab.click();
+		}
+	}
+
 	function start() {
 		CustomerIdeas.run();
 		runActiveSubpage();
+		checkPageName();
 	}
 
 	$(document).ready(function() {

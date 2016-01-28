@@ -15,7 +15,6 @@
 // Developer Dashboard
 //---------------------
 @import "custom/developer-dashboard-projects.scss";
-@import "custom/developer-dashboard-project-create.scss";
 @import "custom/developer-dashboard-pending-invites.scss";
 @import "custom/developer-dashboard-activities.scss";
 @import "custom/developer-dashboard-notifications.scss";
@@ -27,7 +26,6 @@
 @import "custom/developer-dashboard-project-team.scss";
 @import "custom/developer-dashboard-project-documents.scss";
 @import "custom/developer-dashboard-project-customer-ideas.scss";
-@import "custom/developer-dashboard-project-messaging.scss";
 
 //---------------------
 // User Dashboard
@@ -35,6 +33,7 @@
 @import "custom/user-dashboard-projects.scss";
 @import "custom/user-dashboard-campaigns.scss";
 @import "custom/user-dashboard-notifications.scss";
+@import "custom/user-profile.scss";
 
 //---------------------
 // Public Website
@@ -46,19 +45,25 @@
 // custom partials
 //---------------------
 @import "custom/partials/animations.scss";
-@import "custom/partials/popups.scss";
-@import "custom/partials/popup-tutorial.scss";
-@import "custom/partials/public-page.scss";
+@import "custom/partials/buttons.scss";
 @import "custom/partials/dashboard-page.scss";
 @import "custom/partials/dashboard-side-menu.scss";
 @import "custom/partials/overview-data.scss";
+@import "custom/partials/popups.scss";
+@import "custom/partials/popup-tutorial.scss";
+@import "custom/partials/public-page.scss";
 @import "custom/partials/public-overview-data.scss";
+
+// Partials: dynamic blocks
 @import "custom/partials/project-block.scss";
 @import "custom/partials/campaign-block.scss";
+@import "custom/partials/notification-block.scss";
 @import "custom/partials/blogpost-block.scss";
 @import "custom/partials/customer-idea-block.scss";
+@import "custom/partials/message-block.scss";
 @import "custom/partials/campaign-reward-block.scss";
 
 @import "custom/partials/menu.scss";
+@import "custom/partials/submenu.scss";
 @import "custom/partials/footer.scss";
 @import "custom/partials/typography.scss";

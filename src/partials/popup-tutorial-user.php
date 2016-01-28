@@ -6,7 +6,7 @@
 		<div class="modal-content">
 			<div id="tutorial-step-1" class="tutorial-step modal-step active">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../img/icons/icon-close.svg]]"></i></button>
 
 					<header class="page-header">
 						<img src="[[../img/tutorial-user/tutorial-step-1.svg]]" class="tutorial-img">
@@ -35,7 +35,7 @@
 
 			<div id="tutorial-step-2" class="tutorial-step modal-step">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../img/icons/icon-close.svg]]"></i></button>
 
 					<header class="page-header">
 						<div class="vertical-align">
@@ -99,7 +99,7 @@
 
 			<div id="tutorial-step-3" class="tutorial-step modal-step">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../img/icons/icon-close.svg]]"></i></button>
 
 					<header class="page-header">
 						<div class="vertical-align">
@@ -140,7 +140,7 @@
 
 			<div id="tutorial-step-4" class="tutorial-step modal-step">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../img/icons/icon-close.svg]]"></i></button>
 
 					<header class="page-header">
 						<div class="vertical-align">

@@ -51,7 +51,7 @@
 		</div>
 
 		<footer>
-			<a href="developer-dashboard-project-campaign-overview.php" class="btn">Participate</a>
+			<a href="public-project-overview.php#campaigns" class="btn">Participate</a>
 		</footer>
 	</div>
 </article>

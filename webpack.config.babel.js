@@ -22,6 +22,7 @@ module.exports = (function() {
 	};
 
 	var ENTRY_POINTS = {
+		'developerdashboardprojects'               : './js/DeveloperDashboardProjects.js',
 		'developerdashboardprojectcustomerideas'   : './js/DeveloperDashboardProjectCustomerIdeas.js',
 		'developerdashboardprojectmessaging'       : './js/DeveloperDashboardProjectMessaging.js',
 		'developerdashboardprojectcampaignoverview': './js/DeveloperDashboardProjectCampaignOverview.js',

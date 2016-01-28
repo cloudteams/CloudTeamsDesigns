@@ -1,7 +1,7 @@
 <section class="public-projects-logged-in-content">
 	<header>
 		<h2 class="header-large public">Latest projects</h2>
-		<p class="header-small action-text"><a href="public-project-overview.php" alt="public-project-overview">See all</a></p>
+		<p class="header-small action-text"><a href="#nowhere">See all</a></p>
 
 		<div class="filter-container">
 			<label for="filter-projects">Filter projects</label>

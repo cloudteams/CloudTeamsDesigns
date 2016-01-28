@@ -21,8 +21,14 @@
 		});
 	}
 
+	function openTutorial() {
+		var userTutorial = $('#popup-tutorial-user');
+
+		userTutorial.modal('show');
+	}
 
 	$(document).ready(function() {
 		runOpenClose();
+		openTutorial();
 	});
 })();

@@ -1,0 +1,130 @@
+// ---------------------
+// Buttons
+// ---------------------
+
+.btn {
+	background: $color-button;
+	border: 1px solid $color-button;
+	border-radius: 5px;
+	color: $color-text-secondary;
+	font-size: $font-size-button;
+	font-weight: $font-weight-bold;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	@include paddingH($margin-button-H);
+	@include paddingV($margin-button-V);
+	text-transform: uppercase;
+	transition: background $transition-time-1 $cubic-bezier-2, color $transition-time-1 $cubic-bezier-2;
+
+	&:hover, &:focus {
+		background: $color-button-hover;
+		border-color: $color-button-hover;
+		color: $color-text-secondary;
+	}
+}
+
+.btn-transparent {
+	@extend .btn;
+	background: none;
+	color: $color-button;
+
+	&:hover {
+		background: $color-button;
+		color: $color-text-secondary;
+	}
+}
+
+.btn-grey {
+	@extend .btn;
+	background: $color-light-grey;
+	border-color: $color-light-grey;
+	color: $color-highlight;
+
+	.delete {
+		path {
+			stroke: $color-highlight;
+		}
+	}
+
+	&:hover {
+		background: $color-light-grey-secondary;
+		border-color: $color-light-grey;
+		color: $color-highlight !important;
+
+		.delete {
+			path {
+				stroke: $color-highlight;
+			}
+		}
+	}
+}
+
+.btn-confirm {
+	@extend .btn;
+	background: $color-success;
+	border-color: $color-success;
+
+	&:hover {
+		background: $color-success-hover;
+		border-color: $color-success-hover;
+		color: $color-text-secondary;
+	}
+
+	.icon {
+		height: 10px;
+		width: 10px;
+
+		path {
+			fill: none;
+			stroke: $color-text-secondary;
+			stroke-width: 1.5px;
+
+		}
+	}
+}
+
+.btn-decline {
+	@extend .btn;
+	background: none;
+	border-color: $color-decline;
+	color: $color-decline;
+
+	.icon {
+		height: 10px;
+		width: 10px;
+
+		path {
+			fill: $color-button;
+			transition: fill $transition-time-1 $cubic-bezier-2;
+		}
+	}
+
+	&:hover {
+		background: $color-decline;
+		color: $color-text-secondary;
+
+		.icon {
+			path {
+				fill: $color-text-secondary;
+			}
+		}
+	}
+}
+
+.btn-download {
+	color: $color-button;
+
+	.icon {
+		height: auto;
+		margin-left: $margin-icon;
+		width: 14px;
+
+		path {
+			fill: $color-button;
+		}
+	}
+
+	&:hover {
+		color: $color-button;
+	}
+}

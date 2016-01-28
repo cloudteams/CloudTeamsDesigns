@@ -42,7 +42,6 @@
 	</section>
 
 	<section id="subpage-3" class="subpage">
-
 		<div class="row">
 			<?php include("partials/developer-dashboard-project-campaign-block.php"); ?>
 			<?php include("partials/developer-dashboard-project-campaign-block.php"); ?>
