@@ -1,0 +1,62 @@
+.open-tooltip-button {
+	&.active {
+		.svg {
+			path {
+				fill: $color-pink;
+			}
+		}
+	}
+}
+
+.custom-tooltip {
+	background: $color-pink;
+	border-radius: 5px;
+	display: inline-block;
+	min-width: 160px;
+	opacity: 0;
+	padding: $margin-block-small;
+	position: absolute;
+	text-align: left;
+	transition: opacity $transition-time-1 $cubic-bezier-2;
+	visibility: hidden;
+	z-index: 99;
+
+	&:after {
+		border: solid;
+		border-color: $color-pink transparent;
+		border-width: 0 6px 6px 6px;
+		content:"";
+		right: 5px;
+		position: absolute;
+		top: -6px;
+		transform: translateX(-50%);
+		transition: opacity $transition-time-1 $cubic-bezier-2;
+		z-index: 99;
+	}
+
+	li {
+		line-height: $line-height-small;
+		margin-bottom: 5px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		color: $color-light-pink;
+
+		&:hover {
+			color: $color-text-secondary;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.active {
+		opacity: 1;
+		visibility: visible;
+	}
+}

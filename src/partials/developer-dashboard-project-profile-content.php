@@ -3,7 +3,7 @@
 		<form>
 			<div class="content project-choices">
 				<fieldset>
-					<label for="project-title" class="header-medium secondary">Project is visable to</label>
+					<label for="project-title" class="header-medium secondary">Project title</label>
 					<div class="input-container">
 						<img class="icon edit-action" src="[[../img/icons/icon-edit-action.svg]]">
 						<img class="svg edit" src="[[../img/icons/icon-edit.svg]]">
@@ -12,7 +12,7 @@
 				</fieldset>
 
 				<fieldset>
-					<label for="visibility" class="header-medium secondary">Project is visable to</label>
+					<label for="visibility" class="header-medium secondary">Project is visible to</label>
 					<div class="select-dropdown">
 						<i class="fa fa-angle-down"></i>
 						<select id="visibility">

@@ -34,6 +34,30 @@
 	}
 }
 
+.btn-green {
+	@extend .btn;
+	background: $color-success;
+	border-color: $color-success;
+	padding-left: $margin-button-V;
+
+	&:hover {
+		background: $color-success-hover;
+		border-color: $color-success-hover;
+		color: $color-text-secondary;
+	}
+
+	.icon.add {
+		height: 10px;
+		margin-right: $margin-button-V;
+		width: 10px;
+
+		path {
+			stroke: $color-text-secondary;
+			stroke-width: 1.5px;
+		}
+	}
+}
+
 .btn-grey {
 	@extend .btn;
 	background: $color-light-grey;
@@ -71,8 +95,8 @@
 	}
 
 	.icon {
-		height: 10px;
-		width: 10px;
+		height: 10px !important;
+		width: 10px !important;
 
 		path {
 			fill: none;
@@ -90,8 +114,8 @@
 	color: $color-decline;
 
 	.icon {
-		height: 10px;
-		width: 10px;
+		height: 10px !important;
+		width: 10px !important;
 
 		path {
 			fill: $color-button;
@@ -126,5 +150,46 @@
 
 	&:hover {
 		color: $color-button;
+	}
+}
+
+.btn-upload {
+	display: inline-block;
+	text-align: center;
+
+	.upload-image {
+		background: $color-text-secondary;
+		border: 3px solid $color-block-border;
+		border-radius: 5px;
+		height: 100px;
+		margin-bottom: $margin-item;
+		transition: background $transition-time-1 $cubic-bezier-2, border-color $transition-time-1 $cubic-bezier-2, color $transition-time-1 $cubic-bezier-2;
+		width: 100px;
+
+		.icon {
+			path {
+				fill: $color-button;
+			}
+		}
+	}
+
+	&:hover {
+		.upload-image {
+			background: $color-button;
+			border-color: $color-button;
+
+			.icon {
+				path {
+					fill: $color-text-secondary;
+				}
+			}
+		}
+
+		p {
+			&:after {
+				opacity: 1;
+				transition: opacity $transition-time-1 $cubic-bezier-2;
+			}
+		}
 	}
 }

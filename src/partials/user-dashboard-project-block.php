@@ -61,7 +61,7 @@
 				<tr class="row">
 					<td class="col-xs-5">
 						<img class="icon menu-icon svg" src="[[../img/icons/icon-pending-accepted.svg]]">
-						<p>Invites</p>
+						<p><a href="public-project-overview.php#campaigns" alt="invited">Invited</a></p>
 					</td>
 					<td class="col-xs-7">
 						<p class="bold">2</p>
@@ -71,7 +71,7 @@
 				<tr class="row">
 					<td class="col-xs-5">
 						<img class="icon menu-icon svg" src="[[../img/icons/icon-campaign-participated.svg]]">
-						<p>Completed campaigns</p>
+						<p><a href="public-project-overview.php#campaigns" alt="completed campaigns">Completed campaigns</a></p>
 					</td>
 					<td class="col-xs-7">
 						<p class="bold">4</p>

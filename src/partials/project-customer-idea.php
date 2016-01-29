@@ -1,7 +1,7 @@
 <article class="idea block">
 	<div class="idea-container">
 		<header>
-			<h3 class="header-medium secondary">The title of the app is nowhere visable? Make it appear when the apps start?</h3>
+			<h3 class="header-medium secondary">The title of the app is nowhere visible? Make it appear when the apps start?</h3>
 		</header>
 
 		<i class="fa fa-angle-right"></i>

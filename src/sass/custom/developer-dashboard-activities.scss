@@ -10,14 +10,6 @@
 	}
 
 	.subpage {
-		display: none;
-		opacity: 0;
-
-		&.active {
-			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
-			display: block;
-		}
-
 		a {
 			width: 100%;
 		}

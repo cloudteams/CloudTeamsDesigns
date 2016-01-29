@@ -29,18 +29,15 @@ article.idea {
 		height: 0px;
 		overflow: hidden;
 		position: relative;
-		transition: height $transition-time-2 $cubic-bezier-2;
+		transition: height $transition-time-2 $cubic-bezier-2, margin-top $transition-time-2 $cubic-bezier-2;
 
 		&.extended {
+			margin-top: $margin-p;
 			overflow: none;
 
 			&:after {
 				opacity: 0;
 			}
-		}
-
-		&.active {
-			margin-top: $margin-p;
 		}
 	}
 

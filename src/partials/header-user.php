@@ -64,13 +64,19 @@
 						<li class="profile">
 							<div class="vertical-align">
 								<div class="middle">
-									<a href="user-profile.php">
+									<a href="#nowhere">
 										<img class="icon menu-icon svg" src="[[../img/icons/icon-profile.svg]]">
 										Bobbyd123
 										<i class="fa fa-angle-down"></i>
 									</a>
 								</div>
 							</div>
+
+							<ul class="submenu">
+								<li><a href="user-profile.php">Edit profile</a></li>
+								<li><a href="user-settings.php">Settings</a></li>
+								<li><a href="#nowhere">Log out</a></li>
+							</ul>
 						</li>
 					</ul>
 				</div>

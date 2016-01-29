@@ -1,11 +1,25 @@
 .developer-dashboard-project-campaign-create-content {
-	.subpage, .subsection {
-		display: none;
-		opacity: 0;
+	.subpage {
+		fieldset {
+			&.time-frame {
+				.row {
+					margin-bottom: $margin-block;
 
-		&.active {
-			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
-			display: block;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			&.add-rewards {
+				.input-container {
+					margin-bottom: $margin-block;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
 		}
 	}
 }

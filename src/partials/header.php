@@ -71,6 +71,12 @@
 									</a>
 								</div>
 							</div>
+
+							<ul class="submenu">
+								<li><a href="developer-profile.php">Edit profile</a></li>
+								<li><a href="developer-settings.php">Settings</a></li>
+								<li><a href="#nowhere">Log out</a></li>
+							</ul>
 						</li>
 					</ul>
 				</div>

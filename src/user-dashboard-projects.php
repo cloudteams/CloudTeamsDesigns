@@ -4,7 +4,7 @@
 	<div class="complete-profile active">
 		<div class="container">
 			<img class="icon menu-icon svg" src="[[img/icons/icon-check.svg]]">
-			<p>Tell us more about yourself and complete your profile <a href="user-dashboard-profile">Go to your profile page</a></p>
+			<p>Tell us more about yourself and complete your profile <a href="user-profile.php" alt="user profile">Go to your profile page</a></p>
 			<div class="close-message">
 				<img class="icon close-item svg" src="[[img/icons/icon-close.svg]]">
 			</div>

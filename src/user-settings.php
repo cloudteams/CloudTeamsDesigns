@@ -1,9 +1,8 @@
 <?php include("partials/header-user.php"); ?>
 
-<section class="page page-user-dashboard-campaigns dashboard-page user-dashboard-page">
+<section class="page page-user-dashboard-projects dashboard-page user-dashboard-page">
 	<div class="container">
 		<div class="content">
-
 			<div class="row">
 				<?php include("partials/user-dashboard-side-menu.php"); ?>
 
@@ -11,21 +10,15 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<img class="svg" src="[[img/icons/icon-campaigns.svg]]">
-								<h1 class="header-large">Campaigns</h1>
-							</div>
-
-							<div class="middle last">
-								<p class="project-counter"><span>2</span></p>
-								<p class="project-counter">Campaigns</p>
+								<img class="svg" src="[[img/icons/icon-settings.svg]]">
+								<h1 class="header-large">Settings</h1>
 							</div>
 						</div>
 					</header>
 
-					<?php include("partials/user-dashboard-campaigns-content.php"); ?>
+					<?php include("partials/user-settings-content.php"); ?>
 				</main>
 			</div>
-
 		</div>
 	</div>
 </section>

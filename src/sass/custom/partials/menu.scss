@@ -8,7 +8,7 @@ body {
 				height: 100%;
 				position: relative;
 
-				ul {
+				> ul {
 					height: 65px;
 					position: relative;
 					text-align: right;
@@ -17,20 +17,46 @@ body {
 					li {
 						display: inline-block;
 						height: 100%;
-						margin-right: $margin-menu-item;
+						padding-right: $margin-menu-item;
+						position: relative;
+
+						ul.submenu {
+							background: $color-pink;
+							left: 0;
+							opacity: 0;
+							padding: 0 $margin-menu-item $margin-menu-item;
+							position: absolute;
+							text-align: left;
+							visibility: hidden;
+							width: 100%;
+							z-index: 99;
+
+							li {
+								display: block;
+							}
+						}
 
 						&:hover {
-							a {
-								color: $color-text-secondary;
+							ul.submenu {
+								opacity: 1;
+								visibility: visible;
+							}
 
-								.svg {
-									path {
-										fill: $color-text-secondary;
+							> div {
+								> div {
+									a {
+										color: $color-text-secondary;
+
+										.svg {
+											path {
+												fill: $color-text-secondary;
+											}
+										}
+
+										&:after {
+											display: none;
+										}
 									}
-								}
-
-								&:after {
-									display: none;
 								}
 							}
 						}
@@ -90,7 +116,7 @@ body {
 						}
 
 						&.profile {
-							margin-left: $margin-menu-item;
+							padding-left: $margin-menu-item;
 							position: relative;
 
 							&:before {
@@ -98,7 +124,7 @@ body {
 								content: "";
 								display: inline-block;
 								height: 30px;
-								left: -15px;
+								left: 0;
 								margin-top: -15px;
 								position: absolute;
 								top: 50%;

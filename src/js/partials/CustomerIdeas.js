@@ -5,9 +5,7 @@ export default (function() {
 
 		element.height(curHeight).addClass('extended').animate({
 			'height': autoHeight
-		}, 0, 'easeInOutCirc', function() {
-			element.addClass('active');
-		});
+		}, 0, 'easeInOutCirc');
 
 		if (element2) {
 			element2.removeClass('angle-closed').addClass('angle-open');
@@ -19,11 +17,7 @@ export default (function() {
 
 		element.removeClass('extended').animate({
 			'height': initialHeight
-		}, 0, 'easeInOutCirc', function() {
-			setTimeout(function() {
-				element.removeClass('active');
-			}, 300);
-		});
+		}, 0, 'easeInOutCirc');
 
 		if (element2) {
 			element2.removeClass('angle-open').addClass('angle-closed');

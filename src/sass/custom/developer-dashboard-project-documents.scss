@@ -22,8 +22,6 @@
 
 				&.active {
 					color: $color-text-secondary;
-					font-weight: $font-weight-bold;
-					letter-spacing: $letter-spacing-1;
 
 					.icon {
 						path {
@@ -60,14 +58,6 @@
 	}
 
 	.subpage {
-		display: none;
-		opacity: 0;
-
-		&.active {
-			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
-			display: block;
-		}
-
 		> article {
 			background: none;
 			@include paddingH($margin-block-small);

@@ -1,0 +1,21 @@
+.user-settings-content {
+	padding-top: 0 !important;
+
+	.subpage {
+		&#subpage-2 {
+			.vertical-align {
+				@include marginH(-$margin-block);
+
+				.middle {
+					@include paddingH($margin-block);
+
+					&:last-child {
+						text-align: right;
+					}
+				}
+
+				margin-bottom: $margin-block-bottom;
+			}
+		}
+	}
+}

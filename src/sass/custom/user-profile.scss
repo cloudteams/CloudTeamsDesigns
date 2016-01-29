@@ -1,14 +1,4 @@
 .user-profile-content {
-	.subpage {
-		display: none;
-		opacity: 0;
-
-		&.active {
-			animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
-			display: block;
-		}
-	}
-
 	> header {
 		margin-bottom: $margin-header;
 		width: 60%;
@@ -24,6 +14,41 @@
 			font-family: $font-header-secondary;
 			text-transform: none;
 		}
+	}
 
+	article.block-line {
+		> header {
+			padding-bottom: 0;
+			padding-top: 0;
+
+			.menu-subpage {
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+		}
+
+		.subpage {
+			&#subpage-3 {
+				fieldset {
+					> div {
+						> div {
+							margin-bottom: $margin-block;
+
+							&:nth-last-of-type(-n+2) {
+								margin-bottom: 0;
+							}
+
+							.select-dropdown {
+								margin-bottom: $margin-block;
+
+								&:last-child {
+									margin-bottom: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }

@@ -10,17 +10,18 @@
 
 	<form id="campaign-form">
 		<section id="subpage-1" class="subpage active">
-			<article class="block">
-				<div class="content">
+			<article class="block-line large">
+				<div class="content form-section">
 					<fieldset>
 						<label for="name-campaign" class="header-medium secondary">Name of the campaign</label>
+
 						<div class="input-container">
 							<input id="name-campaign" type="text" name="Name of campaign" placeholder="E.g. new promotional video">
 						</div>
 					</fieldset>
 
 					<fieldset>
-						<label for="about-project" class="header-medium secondary">About this project</label>
+						<label for="about-project" class="header-medium secondary">Add campaign description text</label>
 
 						<div class="input-container">
 							<textarea id="about-project" rows="7" placeholder="What is the campaign about?"></textarea>
@@ -28,14 +29,15 @@
 					</fieldset>
 
 					<fieldset>
-						<label for="author-campaign" class="header-medium secondary">Select author of the campaign</label>
+						<label for="author-campaign" class="header-medium secondary">Main author of the campaign</label>
+
 						<div class="input-container">
 							<input id="author-campaign" type="text" name="Main author of the campaign" placeholder="Jack Johnson">
 						</div>
 					</fieldset>
 
-					<fieldset>
-						<h2 class="header-medium secondary">Select a time frame</h2>
+					<fieldset class="time-frame">
+						<label class="header-medium secondary">Select a time frame</label>
 
 						<div class="row">
 							<div class="col-sm-2">
@@ -214,27 +216,32 @@
 		</section>
 
 		<section id="subpage-2" class="subpage">
-			<article class="block">
-				<div class="content">
+			<article class="block-line large">
+				<div class="content form-section">
 					<fieldset>
-						<label for="visable-to" class="header-medium secondary">Campaign is visable to</label>
+						<label for="visible-to" class="header-medium secondary">Campaign is visible to</label>
+
 							<div class="select-dropdown">
 								<i class="fa fa-angle-down"></i>
-								<select name="visable-to" id="visable-to" onchange="" size="1">
+								<select name="visible-to" id="visible-to" onchange="" size="1">
 									<option value="" disabled selected>Public</option>
 									<option value="2005">Only team members</option>
 									<option value="2004">Only me</option>
 								</select>
 							</div>
 					</fieldset>
+				</div>
 
-					<fieldset>
+				<div class="content form-section">
+					<fieldset class="add-rewards">
 						<label for="name-of-reward" class="header-medium secondary">Add rewards</label>
+
 						<div class="input-container">
 							<img class="icon edit-action" src="[[../img/icons/icon-edit-action.svg]]">
 							<img class="svg edit" src="[[../img/icons/icon-edit.svg]]">
 							<input type="text" id="name-of-reward" name="Name of the reward" placeholder="Name of the reward">
 						</div>
+
 						<div class="input-container">
 							<img class="icon edit-action" src="[[../img/icons/icon-edit-action.svg]]">
 							<img class="svg edit" src="[[../img/icons/icon-edit.svg]]">
@@ -244,12 +251,22 @@
 
 					<fieldset>
 						<div class="input-container upload-container">
-							<a href="#downloadlink" class="btn-download">Download <img class="icon svg" src="[[../img/icons/icon-download.svg]]"></a>
+							<a href="#nowhere" class="btn-upload">
+								<div class="upload-image">
+									<div class="vertical-align">
+										<div class="middle">
+											<img class="icon svg" src="[[../img/icons/icon-upload.svg]]">
+										</div>
+									</div>
+								</div>
+
+								<p class="header-extra-small"><span class="header-small action-text">Upload</span> reward image</p>
+							</a>
 						</div>
 					</fieldset>
 
-					<fieldset>
-						<h2 class="header-medium secondary">Select a reward time frame</h2>
+					<fieldset  class="time-frame">
+						<label class="header-medium secondary">Select a reward time frame</label>
 
 						<div class="row">
 							<div class="col-sm-2">
@@ -425,8 +442,111 @@
 					</fieldset>
 
 					<fieldset>
-						<div class="buttons">
-							<a href="#nowhere" class="btn-confirm">Add new reward</a>
+						<a href="#nowhere" class="btn-green"><img class="icon add svg" src="[[../img/icons/icon-add.svg]]">Add new reward</a>
+					</fieldset>
+				</div>
+
+				<div class="content form-section">
+					<fieldset>
+						<label for="campaign-results-when" class="header-medium secondary">When can respondents see the results?</label>
+
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="select-dropdown">
+									<i class="fa fa-angle-down"></i>
+
+									<select name="campaign-results-when" id="campaign-results-when" onchange="" size="1">
+										<option value="single" selected>At any time</option>
+										<option value="option 2">Option 2</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<label class="header-medium secondary">Add supporting downloads <span class="highlight">(PDF, Docx)</span></label>
+
+						<div class="vertical-align">
+							<div class="middle">
+								<div class="input-container upload-container">
+									<a href="#nowhere" class="btn-upload">
+										<div class="upload-image">
+											<div class="vertical-align">
+												<div class="middle">
+													<img class="icon svg" src="[[../img/icons/icon-upload.svg]]">
+												</div>
+											</div>
+										</div>
+
+										<p class="header-small action-text">Upload</p>
+									</a>
+								</div>
+							</div>
+
+							<div class="middle">
+								<div class="input-container upload-container">
+									<a href="#nowhere" class="btn-upload">
+										<div class="upload-image">
+											<div class="vertical-align">
+												<div class="middle">
+													<img class="icon svg" src="[[../img/icons/icon-upload.svg]]">
+												</div>
+											</div>
+										</div>
+
+										<p class="header-small action-text">Upload</p>
+									</a>
+								</div>
+							</div>
+
+							<div class="middle">
+								<div class="input-container upload-container">
+									<a href="#nowhere" class="btn-upload">
+										<div class="upload-image">
+											<div class="vertical-align">
+												<div class="middle">
+													<img class="icon svg" src="[[../img/icons/icon-upload.svg]]">
+												</div>
+											</div>
+										</div>
+
+										<p class="header-small action-text">Upload</p>
+									</a>
+								</div>
+							</div>
+
+							<div class="middle">
+								<div class="input-container upload-container">
+									<a href="#nowhere" class="btn-upload">
+										<div class="upload-image">
+											<div class="vertical-align">
+												<div class="middle">
+													<img class="icon svg" src="[[../img/icons/icon-upload.svg]]">
+												</div>
+											</div>
+										</div>
+
+										<p class="header-small action-text">Upload</p>
+									</a>
+								</div>
+							</div>
+
+							<div class="middle">
+								<div class="input-container upload-container">
+									<a href="#nowhere" class="btn-upload">
+										<div class="upload-image">
+											<div class="vertical-align">
+												<div class="middle">
+													<img class="icon svg" src="[[../img/icons/icon-upload.svg]]">
+												</div>
+											</div>
+										</div>
+
+										<p class="header-small action-text">Upload</p>
+									</a>
+								</div>
+							</div>
 						</div>
 					</fieldset>
 				</div>
@@ -435,7 +555,7 @@
 
 		<section id="subpage-3" class="subpage">
 			<article class="block">
-				<ul class="menu-subsection">
+				<ul class="menu-subsection public">
 					<li id="link-to-subsection-1" class="link-to-subsection active">General</li>
 					<li id="link-to-subsection-2" class="link-to-subsection">Questions</li>
 				</ul>
@@ -471,7 +591,7 @@
 							</div>
 						</fieldset>
 
-						<fieldset id="fieldset-access">
+						<fieldset id="fieldset-access" class="fieldset-radio">
 							<h2 class="form-title">Access</h2>
 
 							<div class="input-container">
@@ -485,7 +605,7 @@
 							</div>
 						</fieldset>
 
-						<fieldset id="fieldset-presentation">
+						<fieldset id="fieldset-presentation" class="fieldset-checkbox">
 							<h2 class="form-title">Presentation</h2>
 
 							<div class="input-container">
@@ -523,6 +643,7 @@
 					<div class="content">
 						<fieldset>
 							<label for="question-type" class="header-medium secondary">Question</label>
+
 							<div class="select-dropdown">
 								<i class="fa fa-angle-down"></i>
 								<select name="question-type" id="question-type" onchange="" size="1">
@@ -530,7 +651,9 @@
 									<option value="multi">Multiple choice</option>
 								</select>
 							</div>
+						</fieldset>
 
+						<fieldset class="fieldset-checkbox">
 							<div class="input-container">
 								<label for="responsive-mandatory"><input type="checkbox" name="mandatory-response" value='1' id="responsive-mandatory"><span></span>Response is mandatory</label>
 							</div>
@@ -599,7 +722,7 @@
 							</div>
 
 							<div class="buttons">
-								<a href="#nowhere" class="btn-confirm">Add question</a>
+								<a href="#nowhere" class="btn-green"><img class="icon add svg" src="[[../img/icons/icon-add.svg]]"> Add question</a>
 							</div>
 						</fieldset>
 					</div>
@@ -611,7 +734,7 @@
 			<article class="block">
 				<h2 class="form-title">Basic information</h2>
 
-				<fieldset>
+				<fieldset class="fieldset-radio">
 					<label for="target-group-female" class="header-medium secondary">Gender</label>
 					<div class="input-container">
 						<label for="target-group-female"><input type="radio" name="-target-group-gender" value='target-group-female' id="target-group-female" required autofocus><span></span>Female</label>
@@ -622,8 +745,9 @@
 					</div>
 				</fieldset>
 
-				<fieldset>
+				<fieldset class="fieldset-radio">
 					<label for="18-25" class="header-medium secondary">Age</label>
+
 					<div class="input-container">
 						<label for="18-25"><input type="radio" name="-target-group-age" value='18-25' id="18-25" required autofocus><span></span>18-25</label>
 

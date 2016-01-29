@@ -76,6 +76,14 @@
 						td {
 							p {
 								border-bottom: 1px solid $color-text;
+
+								a {
+									color: $color-text;
+
+									&:hover {
+										color: $color-text;
+									}
+								}
 							}
 
 							.svg {

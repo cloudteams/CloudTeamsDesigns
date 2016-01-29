@@ -1,4 +1,4 @@
-<section class="user-dashboard-projects-content">
+	<section class="user-dashboard-projects-content">
 	<div class="row">
 		<article class="project add-item col-md-6 col-xs-12">
 			<a href="public-projects-logged-in.php" alt="add new project">
