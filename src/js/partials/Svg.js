@@ -1,14 +1,14 @@
 export default (function() {
 	function changeSVG() {
 		$('img.svg').each(function() {
-			var $img = $(this);
-			var imgID = $img.attr('id');
-			var imgClass = $img.attr('class');
-			var imgURL = $img.attr('src');
+			const $img = $(this);
+			const imgID = $img.attr('id');
+			const imgClass = $img.attr('class');
+			const imgURL = $img.attr('src');
 
 			$.get(imgURL, function(data) {
 				// Get the SVG tag, ignore the rest
-				var $svg = $(data).find('svg');
+				let $svg = $(data).find('svg');
 
 				// Add replaced image's ID to the new SVG
 				if (typeof imgID !== 'undefined') {

@@ -1,5 +1,6 @@
 /* GLOBAL JS */
 import 'babel-polyfill';
+
 require('expose?jQuery!expose?$!jquery-2.1.4.min.js');
 require('bootstrap.min.js');
 

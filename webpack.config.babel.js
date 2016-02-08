@@ -1,27 +1,26 @@
-'use strict';
-
 module.exports = (function() {
-	var Webpack              = require('webpack');
-	var WebpackOnBuildPlugin = require('on-build-webpack');
-	var ExtractTextPlugin    = require('extract-text-webpack-plugin');
-	var PathRewriterPlugin   = require('webpack-path-rewriter');
-	var ChildProcess         = require('child_process');
-	var path                 = require('path');
 
-	var packageInformation   = require('./package.json');
-	var packageUserInformation	= require('./package.user.json');
+	const AutoPrefixer         = require('autoprefixer');
+	const Webpack              = require('webpack');
+	const WebpackOnBuildPlugin = require('on-build-webpack');
+	const ExtractTextPlugin    = require('extract-text-webpack-plugin');
+	const PathRewriterPlugin   = require('webpack-path-rewriter');
+	const ChildProcess         = require('child_process');
+	const Path                 = require('path');
+	// const CopyWebpackPlugin    = require('copy-webpack-plugin');
+	// const PurifyPlugin         = require('purifycss-webpack-plugin');
+	const packageInformation   = require('./package.json');
+	const packageUserInformation   = require('./package.user.json');
 
-	var PRODUCTION = process.env.NODE_ENV === 'production';
-	var HASH_FILE = PRODUCTION ? '[hash:8].[ext]' : '[name]-[hash:8].[ext]';
-	var HASH_BUNDLE = PRODUCTION ? '[name]-[chunkhash:8]' : '[name]-dev';
+	const PRODUCTION  = process.env.NODE_ENV === 'production';
+	const HASH_FILE   = PRODUCTION ? '[hash:8].[ext]' : '[name]-[hash:8].[ext]';
+	const HASH_BUNDLE = PRODUCTION ? '[name]-[chunkhash:8]' : '[name]-dev';
 
-	var CONFIG;
-
-	var ENTRY_POINT_GLOBAL = {
+	const ENTRY_POINT_GLOBAL = {
 		'global': './app.entry.js'
 	};
 
-	var ENTRY_POINTS = {
+	const ENTRY_POINTS = {
 		'developerdashboardprojects'               : './js/DeveloperDashboardProjects.js',
 		'developerdashboardprojectcustomerideas'   : './js/DeveloperDashboardProjectCustomerIdeas.js',
 		'developerdashboardprojectmessaging'       : './js/DeveloperDashboardProjectMessaging.js',
@@ -31,29 +30,25 @@ module.exports = (function() {
 		'publicprojectoverview'                    : './js/PublicProjectOverview.js'
 	};
 
-	function init() {
-		makeConfig();
-	}
-
 	function getAllEntryPoints() {
-		let allEntryPoints = {};
+		const allEntryPoints = {};
 
-		Object.keys(ENTRY_POINT_GLOBAL).forEach(el => {
-			allEntryPoints[el] = ENTRY_POINT_GLOBAL[el];
+		Object.keys(ENTRY_POINT_GLOBAL).forEach(key => {
+			allEntryPoints[key] = ENTRY_POINT_GLOBAL[key];
 		});
 
-		Object.keys(ENTRY_POINTS).forEach(el => {
-			allEntryPoints[el] = ENTRY_POINTS[el];
+		Object.keys(ENTRY_POINTS).forEach(key => {
+			allEntryPoints[key] = ENTRY_POINTS[key];
 		});
 
 		return allEntryPoints;
 	}
 
 	function loader(type, query, merge) {
-		for (let key in merge) {
-			if (merge.hasOwnProperty(key)) {
+		if (merge) {
+			Object.keys(merge).forEach(key => {
 				query[key] = merge[key];
-			}
+			});
 		}
 		return type + '?' + JSON.stringify(query);
 	}
@@ -63,7 +58,7 @@ module.exports = (function() {
 	}
 
 	function getBuildDate() {
-		var date = new Date();
+		const date = new Date();
 		return [date.getDate(), (date.getMonth() + 1), date.getFullYear()].join('-');
 	}
 
@@ -75,15 +70,21 @@ module.exports = (function() {
 	}
 
 	function makeConfig() {
-		CONFIG = {
+		return {
 			context: getOSBasedPath(__dirname + '/src'),
 			entry  : getAllEntryPoints(),
 			output : {
 				path    : './dist',
 				filename: './js/' + HASH_BUNDLE + '.js'
+				// publicPath: '/'
 			},
 			externals: {},
-			module   : {
+			postcss  : [
+				AutoPrefixer({
+					browsers: ['last 2 versions']
+				})
+			],
+			module: {
 				noParse: [
 				],
 				loaders: [
@@ -102,52 +103,23 @@ module.exports = (function() {
 						})
 					},
 					{
-						test  : /\.css$/,
-						loader: loader('file-loader', {
-							name: '[name].[ext]'
-						})
-					},
-					{
-						test   : /\.*$/,
-						include: [
-							path.resolve(__dirname + '/src/downloads')
-						],
-						loader: loader('file-loader', {
-							name: '[path][name].[ext]'
-						})
-					},
-					{
 						test  : /\.scss$/,
 						loader: ExtractTextPlugin.extract('style-loader', [
 							'css-loader',
-							'autoprefixer-loader?browsers=last 2 version',
+							'postcss-loader',
 							'sass-loader'
 						].join('!'), {
 							publicPath: '../'
 						})
-					}, {
-						test   : /\.png$/i,
-						exclude: [
-							path.resolve(__dirname + '/src/img')
-						],
-						loaders: [
-							loader('file-loader', {
-								name: '[name].[ext]'
-							}),
-							loader('image', {
-								bypassOnDebug    : true,
-								optimizationLevel: 7,
-								interlaced       : false
-							})
-						]
-					}, {
+					},
+					{
 						test   : /\.(jpe?g|png|gif|svg)$/i,
 						include: [
-							path.resolve(__dirname + '/src/img')
+							Path.resolve(__dirname + '/src/img')
 						],
 						loaders: [
 							loader('file-loader', {
-								name: 'img/' + HASH_FILE
+								name: './img/' + HASH_FILE
 							}),
 							loader('image', {
 								bypassOnDebug    : true,
@@ -164,9 +136,9 @@ module.exports = (function() {
 							name: 'fonts/' + HASH_FILE
 						})
 					}, {
-						test   : /\.(ttf|eot|svg)$/,
-						include: [
-							path.resolve(__dirname + '/src/fonts')
+						test  : /\.(ttf|eot|svg)$/,
+						exclude: [
+							Path.resolve(__dirname + '/src/img')
 						],
 						loader: loader('file-loader', {
 							name: 'fonts/' + HASH_FILE
@@ -184,7 +156,9 @@ module.exports = (function() {
 			},
 			plugins: [
 				new Webpack.optimize.DedupePlugin(),
+
 				new Webpack.OldWatchingPlugin(),
+
 				new Webpack.DefinePlugin({
 					'process.env': {
 						'NODE_ENV': '"' + process.env.NODE_ENV + '"'
@@ -197,10 +171,6 @@ module.exports = (function() {
 						'CREATION_DATE': '"' + getCreationDate() + '"',
 						'BUILD_DATE'   : '"' + getBuildDate() + '"'
 					}
-				}),
-
-				new PathRewriterPlugin({
-					emitStats: false
 				}),
 
 				new ExtractTextPlugin('./css/' + HASH_BUNDLE + '.css', {
@@ -219,13 +189,31 @@ module.exports = (function() {
 					filename: './js/' + HASH_BUNDLE + '.js'
 				}),
 
+				new PathRewriterPlugin({
+					emitStats: false
+				}),
+
+				// new PurifyPlugin({
+				// 	basePath: __dirname,
+				// 	paths   : [
+				// 		'/src/**/*.php',
+				// 		'/src/**/*.html'
+				// 	],
+				// 	purifyOptions: {
+				// 		info    : true,
+				// 		rejected: false
+				// 	}
+				// }),
+
+				// new CopyWebpackPlugin([
+				// 	{
+				// 		from: 'img/icons/',
+				// 		to  : '/'
+				// 	}
+				// ]),
+
 				new WebpackOnBuildPlugin(function() {
-					ChildProcess.exec('npm run onbuild', function(error, stdout, stderr) {
-						if (error !== null) {
-							console.log('exec error: ' + error);
-							console.log(stderr);
-						}
-					});
+					ChildProcess.exec('npm run onbuild');
 				}),
 
 				function() {
@@ -240,7 +228,6 @@ module.exports = (function() {
 		};
 	}
 
-	init();
+	return makeConfig();
 
-	return CONFIG;
 })();
