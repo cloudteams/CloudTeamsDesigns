@@ -14,62 +14,62 @@
 //---------------------
 // Developer Dashboard
 //---------------------
-@import "custom/developer-dashboard-projects.scss";
-@import "custom/developer-dashboard-pending-invites.scss";
-@import "custom/developer-dashboard-activities.scss";
-@import "custom/developer-dashboard-notifications.scss";
-@import "custom/developer-dashboard-project-overview.scss";
-@import "custom/developer-dashboard-project-profile.scss";
-@import "custom/developer-dashboard-project-campaigns.scss";
-@import "custom/developer-dashboard-project-campaign-overview.scss";
-@import "custom/developer-dashboard-project-campaign-create.scss";
-@import "custom/developer-dashboard-project-team.scss";
-@import "custom/developer-dashboard-project-documents.scss";
-@import "custom/developer-dashboard-project-customer-ideas.scss";
+@import "custom/developer/dashboard/projects.scss";
+@import "custom/developer/dashboard/invites.scss";
+@import "custom/developer/dashboard/activities.scss";
+@import "custom/developer/dashboard/notifications.scss";
+@import "custom/developer/dashboard/project/overview.scss";
+@import "custom/developer/dashboard/project/profile.scss";
+@import "custom/developer/dashboard/project/campaigns.scss";
+@import "custom/developer/dashboard/project/campaign-overview.scss";
+@import "custom/developer/dashboard/project/campaign-create.scss";
+@import "custom/developer/dashboard/project/team.scss";
+@import "custom/developer/dashboard/project/documents.scss";
+@import "custom/developer/dashboard/project/customer-ideas.scss";
 
 //---------------------
 // User Dashboard
 //---------------------
-@import "custom/user-dashboard-projects.scss";
-@import "custom/user-dashboard-campaigns.scss";
-@import "custom/user-dashboard-notifications.scss";
-@import "custom/user-profile.scss";
-@import "custom/user-settings.scss";
+@import "custom/user/dashboard/projects.scss";
+@import "custom/user/dashboard/campaigns.scss";
+@import "custom/user/dashboard/notifications.scss";
+@import "custom/user/profile.scss";
+@import "custom/user/settings.scss";
 
 //---------------------
 // Public Website
 //---------------------
-@import "custom/public-projects-logged-in.scss";
-@import "custom/public-project-overview.scss";
+@import "custom/public/projects.scss";
+@import "custom/public/overview.scss";
+@import "custom/public/page.scss";
+@import "custom/public/overview-data.scss";
 
 //---------------------
-// custom partials
+// Shared
 //---------------------
-@import "custom/partials/animations.scss";
-@import "custom/partials/blocks.scss";
-@import "custom/partials/buttons.scss";
-@import "custom/partials/dashboard-page.scss";
-@import "custom/partials/dashboard-side-menu.scss";
-@import "custom/partials/forms.scss";
-@import "custom/partials/icons.scss";
-@import "custom/partials/overview-data.scss";
-@import "custom/partials/popups.scss";
-@import "custom/partials/popup-tutorial.scss";
-@import "custom/partials/public-page.scss";
-@import "custom/partials/public-overview-data.scss";
-@import "custom/partials/tooltip.scss";
+@import "custom/shared/partials/animations.scss";
+@import "custom/shared/partials/buttons.scss";
+@import "custom/shared/dashboard/page.scss";
+@import "custom/shared/dashboard/side-menu.scss";
+@import "custom/shared/partials/forms.scss";
+@import "custom/shared/partials/icons.scss";
+@import "custom/shared/partials/overview-data.scss";
+@import "custom/shared/partials/popups.scss";
+@import "custom/shared/partials/popup-tutorial.scss";
+@import "custom/shared/partials/tooltip.scss";
 
 
 // Partials: dynamic blocks
-@import "custom/partials/project-block.scss";
-@import "custom/partials/campaign-block.scss";
-@import "custom/partials/notification-block.scss";
-@import "custom/partials/blogpost-block.scss";
-@import "custom/partials/customer-idea-block.scss";
-@import "custom/partials/message-block.scss";
-@import "custom/partials/campaign-reward-block.scss";
+@import "custom/shared/blocks/blocks.scss";
+@import "custom/shared/blocks/project.scss";
+@import "custom/shared/blocks/campaign.scss";
+@import "custom/shared/blocks/notification.scss";
+@import "custom/shared/blocks/blogpost.scss";
+@import "custom/shared/blocks/customer-idea.scss";
+@import "custom/shared/blocks/message.scss";
+@import "custom/shared/blocks/campaign-reward.scss";
 
-@import "custom/partials/menu.scss";
-@import "custom/partials/submenu.scss";
-@import "custom/partials/footer.scss";
-@import "custom/partials/typography.scss";
+@import "custom/shared/partials/menu.scss";
+@import "custom/shared/partials/submenu.scss";
+@import "custom/shared/partials/footer.scss";
+@import "custom/shared/partials/typography.scss";

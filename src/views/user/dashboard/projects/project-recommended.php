@@ -1,8 +1,8 @@
 <article class="project public-project col-md-6 col-xs-12 block-line-half">
 	<div class="background">
 		<div class="background-image">
-			<img src="[[../img/temp.jpg]]">
-			<img class="square svg" src="[[../img/icons/icon-folders.svg]]">
+			<img src="[[../../../../img/temp.jpg]]">
+			<img class="square svg" src="[[../../../../img/icons/icon-folders.svg]]">
 		</div>
 
 		<header>
@@ -15,7 +15,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../img/icons/icon-followers.svg]]">
+						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-followers.svg]]">
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -25,7 +25,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../img/icons/icon-campaigns.svg]]">
+						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
 						<p>Running campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -35,7 +35,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../img/icons/icon-rewards.svg]]">
+						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-rewards.svg]]">
 						<p>Rewards</p>
 					</td>
 					<td class="col-xs-7">

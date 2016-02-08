@@ -28,8 +28,8 @@
 		<h2 class="header-medium secondary">Recommended projects</h2>
 
 		<div class="row">
-			<?php include("../../../public/projects/project/project-recommended.php"); ?>
-			<?php include("../../../public/projects/project/project-recommended.php"); ?>
+			<?php include("project-recommended.php"); ?>
+			<?php include("project-recommended.php"); ?>
 		</div>
 	</div>
 </section>
