@@ -4,8 +4,8 @@
 	}
 
 	function openClose(element) {
-		var message   = element.parent().parent();
-		var dashboard = $('.dashboard-page');
+		const message   = element.parent().parent();
+		const dashboard = $('.dashboard-page');
 
 		if (message.hasClass('active')) {
 			closeItem(message);
@@ -14,7 +14,7 @@
 	}
 
 	function runOpenClose() {
-		var close = $('.close-message');
+		const close = $('.close-message');
 
 		close.click(function() {
 			openClose($(this));
@@ -22,7 +22,7 @@
 	}
 
 	function openTutorial() {
-		var userTutorial = $('#popup-tutorial-user');
+		const userTutorial = $('#popup-tutorial-user');
 
 		userTutorial.modal('show');
 	}

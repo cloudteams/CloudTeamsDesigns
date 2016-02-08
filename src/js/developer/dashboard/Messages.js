@@ -16,8 +16,8 @@
 	}
 
 	function openCloseComment(element) {
-		var currentLinkID          = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		var currentMessageComments = $('#comments-message-' + currentLinkID);
+		const currentLinkID          = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
+		const currentMessageComments = $('#comments-message-' + currentLinkID);
 
 		if (!currentMessageComments.hasClass('active')) {
 			openItem(currentMessageComments);
@@ -29,7 +29,7 @@
 	}
 
 	function runOpenCloseComment() {
-		var commentTrigger = $('.comment-trigger');
+		const commentTrigger = $('.comment-trigger');
 
 		commentTrigger.click(function() {
 			openCloseComment($(this));
@@ -45,7 +45,7 @@
 	}
 
 	function runLikeButton() {
-		var likeButton = $('.like-button');
+		const likeButton = $('.like-button');
 
 		likeButton.click(function() {
 			like($(this));

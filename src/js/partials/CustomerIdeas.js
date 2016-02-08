@@ -1,7 +1,7 @@
 export default (function() {
 	function openElement(element, element2) {
-		var curHeight  = element.height();
-		var autoHeight = element.css('height', 'auto').height();
+		const curHeight  = element.height();
+		const autoHeight = element.css('height', 'auto').height();
 
 		element.height(curHeight).addClass('extended').animate({
 			'height': autoHeight
@@ -13,7 +13,7 @@ export default (function() {
 	}
 
 	function closeElement(element, element2) {
-		var initialHeight = '0px';
+		const initialHeight = '0px';
 
 		element.removeClass('extended').animate({
 			'height': initialHeight
@@ -25,8 +25,8 @@ export default (function() {
 	}
 
 	function openCloseElement(element) {
-		var content = element.find('.content');
-		var angle   = content.prev('.fa-angle-right');
+		const content = element.find('.content');
+		const angle   = content.prev('.fa-angle-right');
 
 		if (!content.hasClass('extended')) {
 			openElement(content, angle);
@@ -36,7 +36,7 @@ export default (function() {
 	}
 
 	function runOpenCloseElement() {
-		var idea = $('.idea .idea-container');
+		const idea = $('.idea .idea-container');
 
 		idea.click(function() {
 			openCloseElement($(this));
@@ -52,7 +52,7 @@ export default (function() {
 	}
 
 	function runLikeButton() {
-		var likeButton = $('.like-button');
+		const likeButton = $('.like-button');
 
 		likeButton.click(function() {
 			like($(this));

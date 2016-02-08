@@ -1,7 +1,10 @@
+import 'partials/Menu';
+import 'partials/Tutorial';
+import 'partials/Easing';
 import Svg from 'partials/Svg.js';
 
 (function() {
-	var _lastSubsection;
+	let _lastSubsection;
 
 	function resetState() {
 		_lastSubsection = null;
@@ -24,11 +27,11 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function openCloseSubpage(element) {
-		var currentSubpageLink = element;
-		var otherSubpageLinks  = $('.link-to-subpage').not(currentSubpageLink, '#link-to-hidden-subpage-5');
-		var currentSubpageID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		var currentSubpage     = $('#subpage-' + currentSubpageID);
-		var otherSubpages      = $('.subpage').not(currentSubpage);
+		const currentSubpageLink = element;
+		const otherSubpageLinks  = $('.link-to-subpage').not(currentSubpageLink, '#link-to-hidden-subpage-5');
+		const currentSubpageID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
+		const currentSubpage     = $('#subpage-' + currentSubpageID);
+		const otherSubpages      = $('.subpage').not(currentSubpage);
 
 		if (!currentSubpage.hasClass('active')) {
 			closeItem(otherSubpages, otherSubpageLinks);
@@ -37,7 +40,7 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function runOpenCloseSubpage() {
-		var linkToSubpage = $('.link-to-subpage');
+		const linkToSubpage = $('.link-to-subpage');
 
 		linkToSubpage.click(function(event) {
 			event.preventDefault();
@@ -48,16 +51,16 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function openCloseSubsection(element) {
-		var currentSubsectionLink = element;
-		var currentSubsectionID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		var currentSubsection     = $('#subsection-' + currentSubsectionID);
-		var activeSubsection      = currentSubsection.parent().find('.active');
-		var activeSubsectionLink  = element.parent().find('.active');
+		const currentSubsectionLink = element;
+		const currentSubsectionID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
+		const currentSubsection     = $('#subsection-' + currentSubsectionID);
+		const activeSubsection      = currentSubsection.parent().find('.active');
+		const activeSubsectionLink  = element.parent().find('.active');
 
 		if (!currentSubsection.hasClass('active')) {
 			if (_lastSubsection) {
-				var _lastSubsectionID   = parseInt(_lastSubsection.attr('id').replace(/[^\d]/g, ''), 10);
-				var _lastSubsectionLink = $('#link-to-subsection-' + _lastSubsectionID);
+				const _lastSubsectionID   = parseInt(_lastSubsection.attr('id').replace(/[^\d]/g, ''), 10);
+				const _lastSubsectionLink = $('#link-to-subsection-' + _lastSubsectionID);
 
 				closeItem(_lastSubsection, _lastSubsectionLink);
 				openItem(currentSubsection, currentSubsectionLink);
@@ -71,7 +74,7 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function runOpenCloseSubsection() {
-		var linkToSubsection = $('.menu-subsection .link-to-subsection');
+		const linkToSubsection = $('.menu-subsection .link-to-subsection');
 
 		linkToSubsection.click(function() {
 			openCloseSubsection($(this));
@@ -79,15 +82,15 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function moveProgressBar() {
-		var getPercent      = $('.progress-wrap').attr('data-progress-percent');
-		var getPercentWhole = (Number(getPercent) * 100).toFixed(0);
+		const getPercent      = $('.progress-wrap').attr('data-progress-percent');
+		const getPercentWhole = (Number(getPercent) * 100).toFixed(0);
 
 		$('.progress-bar').css('width', getPercentWhole + '%');
 	}
 
 	function openCloseTooltip(element) {
-		var currentButton  = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		var currentTooltip = $('#custom-tooltip-' + currentButton);
+		const currentButton  = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
+		const currentTooltip = $('#custom-tooltip-' + currentButton);
 
 		if (!currentTooltip.hasClass('active')) {
 			openItem(element, currentTooltip);
@@ -97,17 +100,17 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function runOpenCloseTooltip() {
-		var moreOptions = $('.open-tooltip-button');
-		var tooltips    = $('.custom-tooltip');
+		const moreOptions = $('.open-tooltip-button');
+		const tooltips    = $('.custom-tooltip');
 
 		moreOptions.each(function(index) {
-			var button = $(this);
+			const button = $(this);
 
 			button.attr('id', 'open-tooltip-button-' + (index + 1));
 		});
 
 		tooltips.each(function(index) {
-			var tooltip = $(this);
+			const tooltip = $(this);
 
 			tooltip.attr('id', 'custom-tooltip-' + (index + 1));
 		});
@@ -120,8 +123,8 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function hoverStates() {
-		var input  = $('input, textarea');
-		var select = $('select');
+		const input  = $('input, textarea');
+		const select = $('select');
 
 		input
 			.mouseover(function() {

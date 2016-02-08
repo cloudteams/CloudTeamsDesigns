@@ -38,6 +38,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/userdashboardprojects-*.js]]"></script>
+<script type="text/javascript" src="[[./js/user/dashboard/projects-*.js]]"></script>
 
 <?php include("../partials/footer.php"); ?>

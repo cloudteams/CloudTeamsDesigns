@@ -1,6 +1,6 @@
 (function() {
 	function openTutorial() {
-		var developerTutorial = $('#popup-tutorial-developer');
+		const developerTutorial = $('#popup-tutorial-developer');
 
 		developerTutorial.modal('show');
 	}

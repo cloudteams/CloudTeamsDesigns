@@ -21,13 +21,13 @@ module.exports = (function() {
 	};
 
 	const ENTRY_POINTS = {
-		'developerdashboardprojects'               : './js/DeveloperDashboardProjects.js',
-		'developerdashboardprojectcustomerideas'   : './js/DeveloperDashboardProjectCustomerIdeas.js',
-		'developerdashboardprojectmessaging'       : './js/DeveloperDashboardProjectMessaging.js',
-		'developerdashboardprojectcampaignoverview': './js/DeveloperDashboardProjectCampaignOverview.js',
-		'developerdashboardprojectcampaigncreate'  : './js/DeveloperDashboardProjectCampaignCreate.js',
-		'userdashboardprojects'                    : './js/UserDashboardProjects.js',
-		'publicprojectoverview'                    : './js/PublicProjectOverview.js'
+		'developer/dashboard/projects'         : './js/developer/dashboard/Projects.js',
+		'developer/dashboard/customer-ideas'   : './js/developer/dashboard/CustomerIdeas.js',
+		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
+		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
+		'developer/dashboard/campaign-create'  : './js/developer/dashboard/CampaignCreate.js',
+		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
+		'public/project'                       : './js/public/Project.js'
 	};
 
 	function getAllEntryPoints() {
@@ -80,7 +80,7 @@ module.exports = (function() {
 			},
 			externals: {},
 			postcss  : [
-				AutoPrefixer({
+				new AutoPrefixer({
 					browsers: ['last 2 versions']
 				})
 			],
@@ -136,7 +136,7 @@ module.exports = (function() {
 							name: 'fonts/' + HASH_FILE
 						})
 					}, {
-						test  : /\.(ttf|eot|svg)$/,
+						test   : /\.(ttf|eot|svg)$/,
 						exclude: [
 							Path.resolve(__dirname + '/src/img')
 						],

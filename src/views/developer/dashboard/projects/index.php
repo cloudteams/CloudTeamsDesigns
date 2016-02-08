@@ -30,6 +30,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/developerdashboardprojects-*.js]]"></script>
+<script type="text/javascript" src="[[./js/developer/dashboard/projects-*.js]]"></script>
 
 <?php include("../partials/footer.php"); ?>

@@ -16,9 +16,9 @@
 	}
 
 	function openCloseTutorial(element) {
-		var currentTutorialPageID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		var currentTutorialPage     = $('#tutorial-step-' + currentTutorialPageID);
-		var otherTutorialPages      = $('.tutorial-step').not(currentTutorialPage);
+		const currentTutorialPageID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
+		const currentTutorialPage     = $('#tutorial-step-' + currentTutorialPageID);
+		const otherTutorialPages      = $('.tutorial-step').not(currentTutorialPage);
 
 		if (!currentTutorialPage.hasClass('active')) {
 			closeItem(otherTutorialPages);
@@ -27,7 +27,7 @@
 	}
 
 	function runOpenCloseTutorial() {
-		var linkToTutorialPage = $('.tutorial-button');
+		const linkToTutorialPage = $('.tutorial-button');
 
 		linkToTutorialPage.click(function(event) {
 			event.preventDefault();
