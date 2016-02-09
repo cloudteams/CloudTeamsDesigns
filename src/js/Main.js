@@ -1,7 +1,7 @@
 import 'partials/Menu';
 import 'partials/Tutorial';
 import 'partials/Easing';
-import Svg from 'partials/Svg.js';
+// import Svg from 'partials/Svg.js';
 
 (function() {
 	let _lastSubsection;
@@ -152,7 +152,7 @@ import Svg from 'partials/Svg.js';
 	}
 
 	function start() {
-		Svg.run();
+		// Svg.run();
 		runOpenCloseSubpage();
 		runOpenCloseSubsection();
 		moveProgressBar();

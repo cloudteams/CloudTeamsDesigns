@@ -19,7 +19,7 @@
 	<div class="content">
 		<a href="public-project-overview.php"><h3 class="header-small secondary action-text">Project title</h3></a>
 		<div class="accepted">
-			<img class="icon check svg" src="[[../../../../img/icons/icon-check-fill.svg]]">
+			<div class="icon-states-approved"></div>
 			<p class="page-subtitle">Accepted</p>
 		</div>
 		<h4 class="header-medium secondary">Help us create a better app</h4>

@@ -1,7 +1,7 @@
 <section class="user-dashboard-notifications-content">
 	<div class="legend">
-		<p class="legend-item"><img class="icon legend-icon legend-icon-check svg" src="[[../../../../img/icons/icon-check.svg]]"> Action</p>
-		<p class="legend-item"><img class="icon legend-icon legend-icon-time svg" src="[[../../../../img/icons/icon-time.svg]]"> Date</p>
+		<p class="legend-item"><div class="icon-approved"></div> Action</p>
+		<p class="legend-item"><div class="icon-timedate"></div> Date</p>
 	</div>
 
 	<section class="content">

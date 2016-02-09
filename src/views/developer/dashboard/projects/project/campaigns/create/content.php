@@ -237,14 +237,14 @@
 						<label for="name-of-reward" class="header-medium secondary">Add rewards</label>
 
 						<div class="input-container">
-							<img class="icon edit-action" src="[[../../../../../../../img/icons/icon-edit-action.svg]]">
-							<img class="svg edit" src="[[../../../../../../../img/icons/icon-edit.svg]]">
+							<div class="icon-states-edit"></div>
+							<div class="icon-edit"></div>
 							<input type="text" id="name-of-reward" name="Name of the reward" placeholder="Name of the reward">
 						</div>
 
 						<div class="input-container">
-							<img class="icon edit-action" src="[[../../../../../../../img/icons/icon-edit-action.svg]]">
-							<img class="svg edit" src="[[../../../../../../../img/icons/icon-edit.svg]]">
+							<div class="icon-states-edit"></div>
+							<div class="icon-edit"></div>
 							<textarea id="description-reward" rows="7" placeholder="Description of the rewards"></textarea>
 						</div>
 					</fieldset>
@@ -255,7 +255,7 @@
 								<div class="upload-image">
 									<div class="vertical-align">
 										<div class="middle">
-											<img class="icon svg" src="[[../../../../../../../img/icons/icon-upload.svg]]">
+											<div class="icon-upload"></div>
 										</div>
 									</div>
 								</div>
@@ -442,7 +442,7 @@
 					</fieldset>
 
 					<fieldset>
-						<a href="#nowhere" class="btn-green"><img class="icon add svg" src="[[../../../../../../../img/icons/icon-add.svg]]">Add new reward</a>
+						<a href="#nowhere" class="btn-green"><div class="icon-add"></div>Add new reward</a>
 					</fieldset>
 				</div>
 
@@ -474,7 +474,7 @@
 										<div class="upload-image">
 											<div class="vertical-align">
 												<div class="middle">
-													<img class="icon svg" src="[[../../../../../../../img/icons/icon-upload.svg]]">
+													<div class="icon-upload"></div>
 												</div>
 											</div>
 										</div>
@@ -490,7 +490,7 @@
 										<div class="upload-image">
 											<div class="vertical-align">
 												<div class="middle">
-													<img class="icon svg" src="[[../../../../../../../img/icons/icon-upload.svg]]">
+													<div class="icon-upload"></div>
 												</div>
 											</div>
 										</div>
@@ -506,7 +506,7 @@
 										<div class="upload-image">
 											<div class="vertical-align">
 												<div class="middle">
-													<img class="icon svg" src="[[../../../../../../../img/icons/icon-upload.svg]]">
+													<div class="icon-upload"></div>
 												</div>
 											</div>
 										</div>
@@ -522,7 +522,7 @@
 										<div class="upload-image">
 											<div class="vertical-align">
 												<div class="middle">
-													<img class="icon svg" src="[[../../../../../../../img/icons/icon-upload.svg]]">
+													<div class="icon-upload"></div>
 												</div>
 											</div>
 										</div>
@@ -538,7 +538,7 @@
 										<div class="upload-image">
 											<div class="vertical-align">
 												<div class="middle">
-													<img class="icon svg" src="[[../../../../../../../img/icons/icon-upload.svg]]">
+													<div class="icon-upload"></div>
 												</div>
 											</div>
 										</div>
@@ -722,7 +722,7 @@
 							</div>
 
 							<div class="buttons">
-								<a href="#nowhere" class="btn-green"><img class="icon add svg" src="[[../../../../../../../img/icons/icon-add.svg]]"> Add question</a>
+								<a href="#nowhere" class="btn-green"><div class="icon-add"></div>div> Add question</a>
 							</div>
 						</fieldset>
 					</div>

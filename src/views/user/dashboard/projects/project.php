@@ -2,14 +2,14 @@
 	<div class="background">
 		<div class="background-image">
 			<img src="[[../../../../img/temp.jpg]]">
-			<img class="square svg" src="[[../../../../img/icons/icon-folders.svg]]">
+			<div class="square icon-folder"></div>
 		</div>
 
 		<header>
 			<h3 class="header-medium secondary">New MINI website UX/UI research</h3>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../img/icons/icon-more-options.svg]]"></a>
+				<a href="#nowhere" class="open-tooltip-button"><div class="icon-more-options"></div></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -26,7 +26,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-followers.svg]]">
+						<div class="icon-followers"></div>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -36,7 +36,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+						<div class="icon-campaign"></div>
 						<p>Running campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -46,7 +46,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-rewards.svg]]">
+						<div class="icon-reward"></div>
 						<p>Rewards</p>
 					</td>
 					<td class="col-xs-7">
@@ -60,7 +60,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-pending-accepted.svg]]">
+						<div class="icon-invite"></div>
 						<p><a href="public-project-overview.php#campaigns" alt="invited">Invited</a></p>
 					</td>
 					<td class="col-xs-7">
@@ -70,7 +70,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaign-participated.svg]]">
+						<div class="icon-campaigncompleted"></div>
 						<p><a href="public-project-overview.php#campaigns" alt="completed campaigns">Completed campaigns</a></p>
 					</td>
 					<td class="col-xs-7">

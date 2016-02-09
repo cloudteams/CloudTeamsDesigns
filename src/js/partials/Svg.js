@@ -1,3 +1,4 @@
+/*
 export default (function() {
 	function changeSVG() {
 		$('img.svg').each(function() {
@@ -41,3 +42,4 @@ export default (function() {
 		run: run
 	};
 })();
+*/

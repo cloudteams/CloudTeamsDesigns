@@ -14,15 +14,15 @@
 	</div>
 
 	<div class="data">
-		<img class="icon like svg" src="[[../../../../../../img/icons/icon-like.svg]]">
+		<div class="icon-like"></div>
 		<p class="highlight">10</p>
 
-		<img class="icon time svg" src="[[../../../../../../img/icons/icon-time.svg]]">
+		<div class="icon-timedate"></div>
 		<p class="highlight">Just now</p>
 
 		<div class="right">
 			<p class="like-button">
-				<img class="icon like-fill svg" src="[[../../../../../../img/icons/icon-like-fill.svg]]">
+				<div class="icon-states-liked"></div>
 				Like
 			</p>
 		</div>

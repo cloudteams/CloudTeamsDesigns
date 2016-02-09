@@ -15,24 +15,24 @@
 		<div class="data">
 			<div class="left">
 				<p class="highlight">
-					<img class="icon like svg" src="[[../../../../../../img/icons/icon-like.svg]]">
+					<div class="icon-like"></div>
 					10
 				</p>
 
 				<p id="comment-trigger-1" class="highlight comment-trigger">
-					<img class="icon messaging svg" src="[[../../../../../../img/icons/icon-messaging.svg]]">
+					<div class="icon-message"></div>
 					2 Comments
 				</p>
 			</div>
 
 			<div class="right">
 				<p class="like-button">
-					<img class="icon like-fill svg" src="[[../../../../../../img/icons/icon-like-fill.svg]]">
+					<div class="icon-states-liked"></div>
 					Like
 				</p>
 
 				<p>
-					<img class="icon reply svg" src="[[../../../../../../img/icons/icon-reply.svg]]">
+					<div class="icon-reply"></div>
 					Reply
 				</p>
 			</div>

@@ -30,7 +30,7 @@
 		<ul>
 			<li class="projects">
 				<a href="developer-dashboard-projects.php">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-projects.svg]]">
+					<div class="icon-sidepanel-project"></div>
 					Projects
 				</a>
 
@@ -48,63 +48,63 @@
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-seen.svg]]">
+							<div class="icon-sidepanel-seen"></div>
 							Overview
 						</a>
 					</li>
 
 					<li>
-						<a href="/views/developer/dashboard/projects/project/services">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-activities.svg]]">
+						<a href="/views/developer/dashboard/projects/project/service">
+							<div class="icon-sidepanel-services"></div>
 							External services
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/profile">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-project-profile.svg]]">
+							<div class="icon-sidepanel-profile"></div>
 							Project profile
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/campaigns">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+							<div class="icon-sidepanel-campaign"></div>
 							Campaigns
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/team">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-team.svg]]">
+							<div class="icon-sidepanel-team"></div>
 							Team
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/documents">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-documents.svg]]">
+							<div class="icon-sidepanel-document"></div>
 							Documents
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/blog">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-blog.svg]]">
+							<div class="icon-sidepanel-blog"></div>
 							Blog
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/messages">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-messaging.svg]]">
+							<div class="icon-sidepanel-message"></div>
 							Messages
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/customer-ideas">
-							<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-idea.svg]]">
+							<div class="icon-sidepanel-customeridea"></div>
 							Customer ideas
 						</a>
 					</li>
@@ -113,21 +113,21 @@
 
 			<li>
 				<a href="/views/developer/dashboard/invites">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-pending.svg]]">
+					<div class="icon-sidepanel-invite"></div>
 					Pending invites
 				</a>
 			</li>
 
 			<li>
-				<a href="/views/developer/dashboard/activities">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-activities.svg]]">
+				<a href="/views/developer/dashboard/activity">
+					<div class="icon-sidepanel-activity"></div>
 					Activities
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/notifications" class="incoming">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-notifications.svg]]">
+					<div class="icon-sidepanel-notification"></div>
 					Notifications
 				</a>
 			</li>

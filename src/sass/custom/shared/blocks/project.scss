@@ -80,7 +80,8 @@ article.project {
 			border-top-right-radius: 5px;
 		}
 
-		.svg.square {
+		.square {
+			background-color: $color-background;
 			margin: 0;
 			position: absolute;
 			right: 10px;

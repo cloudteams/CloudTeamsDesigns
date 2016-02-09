@@ -17,7 +17,7 @@
 			<time datetime="2015-08-25" class="meta">25/08/2015</time>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../../../img/icons/icon-more-options.svg]]"></a>
+				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>

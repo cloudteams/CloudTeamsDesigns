@@ -23,11 +23,11 @@
 
 		<div class="buttons">
 			<a href="#nowhere" class="btn-decline">
-			<img class="icon svg" src="[[../../../../img/icons/icon-close.svg]]">
+			<div class="icon-close"></div>
 				Decline
 			</a>
 			<a href="#nowhere" class="btn-confirm">
-				<img class="icon svg" src="[[../../../../img/icons/icon-check-single.svg]]">
+				<div class="icon-approved"></div>
 				Confirm
 			</a>
 		</div>

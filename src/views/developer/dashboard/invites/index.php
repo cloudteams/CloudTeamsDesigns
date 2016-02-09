@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<img class="svg" src="[[../../../../img/icons/icon-pending.svg]]">
+								<div class="icon-big icon-dashboard-invites"></div>
 								<h1 class="header-large">Pending invites</h1>
 							</div>
 

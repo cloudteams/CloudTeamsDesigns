@@ -5,7 +5,7 @@
 		<main>
 			<?php include("content.php"); ?>
 		</main>
-		</div>
+	</div>
 </section>
 
 <script type="text/javascript" src="[[./js/public/project-*.js]]"></script>

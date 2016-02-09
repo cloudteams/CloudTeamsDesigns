@@ -5,8 +5,8 @@
 				<fieldset>
 					<label for="project-title" class="header-medium secondary">Project title</label>
 					<div class="input-container">
-						<img class="icon edit-action" src="[[../../../../../../img/icons/icon-edit-action.svg]]">
-						<img class="svg edit" src="[[../../../../../../img/icons/icon-edit.svg]]">
+						<div class="icon-edit"></div>
+						<div class="icon-states-edit"></div>
 						<input id="project-title" type="text" name="project title" value="Project 1" placeholder="Project title">
 					</div>
 				</fieldset>
@@ -41,24 +41,24 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="img-edit-container">
-							<img class="icon edit-action" src="[[../../../../../../img/icons/icon-edit-action.svg]]">
+							<div class="icon-states-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 
 						<div class="img-edit-container">
-							<img class="icon edit-action" src="[[../../../../../../img/icons/icon-edit-action.svg]]">
+							<div class="icon-states-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 
 						<div class="img-edit-container">
-							<img class="icon edit-action" src="[[../../../../../../img/icons/icon-edit-action.svg]]">
+							<div class="icon-states-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 					</div>
 
 					<div class="col-sm-9">
 						<div class="img-edit-container">
-							<img class="icon edit-action" src="[[../../../../../../img/icons/icon-edit-action.svg]]">
+							<div class="icon-states-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 					</div>
@@ -71,8 +71,8 @@
 					<p class="highlight">(max 100 words)</p>
 
 					<div class="input-container">
-						<img class="icon edit-action" src="[[../../../../../../img/icons/icon-edit-action.svg]]">
-						<img class="svg edit" src="[[../../../../../../img/icons/icon-edit.svg]]">
+						<div class="icon-edit"></div>
+						<div class="icon-states-edit"></div>
 						<textarea id="project-description" rows="7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</textarea>
 					</div>
 				</fieldset>

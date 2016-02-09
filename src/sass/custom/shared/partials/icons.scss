@@ -1,154 +1,1661 @@
-.svg {
-	&.icon {
-		display: inline-block;
-		height: 25px;
-		margin-right: $margin-5;
-		vertical-align: middle;
-		width: 25px;
-	}
-
-	&.filled {
-		path, circle {
-			fill: none;
-			stroke: $color-menu-items;
-		}
-	}
-
-	&.menu-icon {
-		path {
-			fill: $color-menu-items;
-		}
-	}
-
-	&.more-options {
-		cursor: pointer;
-		height: 25px;
-		width: 25px;
-
-		path {
-			fill: $color-text;
-		}
-	}
-
-	&.check {
-		path {
-			fill: $color-success;
-			stroke: $color-success;
-			stroke-width: 1.5px;
-
-			&:last-child {
-				fill: none;
-				stroke: $color-text-secondary;
-			}
-		}
-	}
-
-	&.reply {
-		path {
-			fill: $color-pink;
-		}
-	}
-
-	&.add {
-		path {
-			fill: $color-pink;
-		}
-	}
-
-	&.like-fill {
-		height: 15px;
-		width: 15px;
-
-		path {
-			fill: none;
-			stroke: $color-button;
-			transition: fill $transition-time-1 $cubic-bezier-2, stroke $transition-time-1 $cubic-bezier-2;
-		}
-	}
-
-	&.icon.like, &.messaging {
-		height: 20px;
-		width: 20px;
-
-		path {
-			fill: $color-highlight;
-			stroke: $color-highlight;
-		}
-	}
-
-	&.edit {
-		height: 20px;
-		position: absolute;
-		right: 15px;
-		top: 10px;
-		width: 20px;
-
-		path {
-			fill: $color-text;
-		}
-	}
-
-	&.close-item {
-		position: absolute;
-		right: 0;
-		top: 0;
-
-		path {
-			fill: $color-pink;
-		}
-	}
-
-	&.square {
-		background: $color-button;
-		border-radius: 5px;
-		height: 35px;
-		padding: $margin-5;
-		width: 35px;
-
-		path {
-			fill: $color-text-secondary;
-		}
-	}
-
-	&.design, &.delete {
-		path, circle {
-			fill: none !important;
-			stroke: $color-text-secondary;
-		}
-	}
-
-	tspan {
-		font-family: $font-header;
-	}
+%svg-common {
+	background: url(../img/icons.svg) no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
 }
 
-.icon {
-	&.like {
-		display: inline-block;
-		height: 12px;
-		margin-right: $margin-5;
-		vertical-align: middle;
-		width: 12px;
-	}
-
-	&.time {
-		display: inline-block;
-		height: 12px;
-		margin-right: $margin-5;
-		vertical-align: middle;
-		width: 12px;
-
-		path {
-			fill: $color-highlight;
-		}
-	}
-
-	&.edit-action {
-		height: 25px;
-		margin-bottom: 0;
-		position: absolute;
-		right: -10px;
-		top: -10px;
-		width: 25px;
-	}
+.icon-big {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
 }
+
+
+
+
+// ICONS
+
+
+
+.icon-activity {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 25.423728813559322%;
+}
+
+.icon-activity-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-add {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 74.57627118644068%;
+}
+
+.icon-add-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-addmember {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 33.898305084745765%;
+}
+
+.icon-addmember-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-allprojects {
+	@extend %svg-common;
+	background-position: 0 49.152542372881356%;
+}
+
+.icon-allprojects-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-approved {
+	@extend %svg-common;
+	background-position: 36.92307692307692% 18.64406779661017%;
+}
+
+.icon-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-art {
+	@extend %svg-common;
+	background-position: 36.92307692307692% 27.11864406779661%;
+}
+
+.icon-art-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-blog {
+	@extend %svg-common;
+	background-position: 0 40.67796610169491%;
+}
+
+.icon-blog-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-campaign {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 40.67796610169491%;
+}
+
+.icon-campaign-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-campaigncompleted {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 40.67796610169491%;
+}
+
+.icon-campaigncompleted-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-city {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 40.67796610169491%;
+}
+
+.icon-city-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-close {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 40.67796610169491%;
+}
+
+.icon-close-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-close2 {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 40.67796610169491%;
+}
+
+.icon-close2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-closedelete {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 0;
+}
+
+.icon-closedelete-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-customeridea {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 8.474576271186441%;
+}
+
+.icon-customeridea-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-dashboard {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 16.949152542372882%;
+}
+
+.icon-dashboard-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-dashboard-activity {
+	@extend %svg-common;
+	background-position: 28.125% 0;
+}
+
+.icon-dashboard-activity-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-addmember {
+	@extend %svg-common;
+	background-position: 0 10.344827586206897%;
+}
+
+.icon-dashboard-addmember-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-allprojects {
+	@extend %svg-common;
+	background-position: 9.375% 10.344827586206897%;
+}
+
+.icon-dashboard-allprojects-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-blog {
+	@extend %svg-common;
+	background-position: 18.75% 0;
+}
+
+.icon-dashboard-blog-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-campaign {
+	@extend %svg-common;
+	background-position: 18.75% 10.344827586206897%;
+}
+
+.icon-dashboard-campaign-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-city {
+	@extend %svg-common;
+	background-position: 0 20.689655172413794%;
+}
+
+.icon-dashboard-city-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-customeridea {
+	@extend %svg-common;
+	background-position: 9.375% 20.689655172413794%;
+}
+
+.icon-dashboard-customeridea-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-document {
+	@extend %svg-common;
+	background-position: 18.75% 20.689655172413794%;
+}
+
+.icon-dashboard-document-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-gender {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.icon-dashboard-gender-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-location {
+	@extend %svg-common;
+	background-position: 28.125% 10.344827586206897%;
+}
+
+.icon-dashboard-location-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-message {
+	@extend %svg-common;
+	background-position: 28.125% 20.689655172413794%;
+}
+
+.icon-dashboard-message-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-notification {
+	@extend %svg-common;
+	background-position: 0 31.03448275862069%;
+}
+
+.icon-dashboard-notification-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-profile {
+	@extend %svg-common;
+	background-position: 9.375% 31.03448275862069%;
+}
+
+.icon-dashboard-profile-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-project {
+	@extend %svg-common;
+	background-position: 18.75% 31.03448275862069%;
+}
+
+.icon-dashboard-project-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-seen {
+	@extend %svg-common;
+	background-position: 28.125% 31.03448275862069%;
+}
+
+.icon-dashboard-seen-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-team {
+	@extend %svg-common;
+	background-position: 37.5% 0;
+}
+
+.icon-dashboard-team-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-dashboard-work {
+	@extend %svg-common;
+	background-position: 9.375% 0;
+}
+
+.icon-dashboard-work-dims {
+	width: 30px;
+	height: 30px;
+}
+
+.icon-design {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 49.152542372881356%;
+}
+
+.icon-design-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-developer {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 49.152542372881356%;
+}
+
+.icon-developer-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-document {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 49.152542372881356%;
+}
+
+.icon-document-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-download {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 49.152542372881356%;
+}
+
+.icon-download-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-download2 {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 49.152542372881356%;
+}
+
+.icon-download2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-edit {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 49.152542372881356%;
+}
+
+.icon-edit-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-film {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 0;
+}
+
+.icon-film-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-folder {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 8.474576271186441%;
+}
+
+.icon-folder-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-followers {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 16.949152542372882%;
+}
+
+.icon-followers-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-food {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 25.423728813559322%;
+}
+
+.icon-food-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-games {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 33.898305084745765%;
+}
+
+.icon-games-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-gender {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 42.3728813559322%;
+}
+
+.icon-gender-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-activity {
+	@extend %svg-common;
+	background-position: 0 57.6271186440678%;
+}
+
+.icon-inactive-activity-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-add {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 57.6271186440678%;
+}
+
+.icon-inactive-add-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-addmember {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 57.6271186440678%;
+}
+
+.icon-inactive-addmember-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-allprojects {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 57.6271186440678%;
+}
+
+.icon-inactive-allprojects-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-approved {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 57.6271186440678%;
+}
+
+.icon-inactive-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-art {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 57.6271186440678%;
+}
+
+.icon-inactive-art-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-blog {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 57.6271186440678%;
+}
+
+.icon-inactive-blog-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-campaign {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 57.6271186440678%;
+}
+
+.icon-inactive-campaign-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-campaigncompleted {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 0;
+}
+
+.icon-inactive-campaigncompleted-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-city {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 8.474576271186441%;
+}
+
+.icon-inactive-city-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-close {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 16.949152542372882%;
+}
+
+.icon-inactive-close-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-close2 {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 25.423728813559322%;
+}
+
+.icon-inactive-close2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-closedelete {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 33.898305084745765%;
+}
+
+.icon-inactive-closedelete-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-customeridea {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 42.3728813559322%;
+}
+
+.icon-inactive-customeridea-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-dashboard {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 50.847457627118644%;
+}
+
+.icon-inactive-dashboard-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-design {
+	@extend %svg-common;
+	background-position: 0 66.10169491525424%;
+}
+
+.icon-inactive-design-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-developer {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 66.10169491525424%;
+}
+
+.icon-inactive-developer-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-document {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 66.10169491525424%;
+}
+
+.icon-inactive-document-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-download {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 66.10169491525424%;
+}
+
+.icon-inactive-download-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-download2 {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 66.10169491525424%;
+}
+
+.icon-inactive-download2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-edit {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 66.10169491525424%;
+}
+
+.icon-inactive-edit-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-film {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 66.10169491525424%;
+}
+
+.icon-inactive-film-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-folder {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 66.10169491525424%;
+}
+
+.icon-inactive-folder-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-followers {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 66.10169491525424%;
+}
+
+.icon-inactive-followers-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-food {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 0;
+}
+
+.icon-inactive-food-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-games {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 8.474576271186441%;
+}
+
+.icon-inactive-games-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-gender {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 16.949152542372882%;
+}
+
+.icon-inactive-gender-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-journalism {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 25.423728813559322%;
+}
+
+.icon-inactive-journalism-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-like {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 33.898305084745765%;
+}
+
+.icon-inactive-like-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-location {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 42.3728813559322%;
+}
+
+.icon-inactive-location-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-locked {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 50.847457627118644%;
+}
+
+.icon-inactive-locked-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-mail {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 59.32203389830509%;
+}
+
+.icon-inactive-mail-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-mainauthor {
+	@extend %svg-common;
+	background-position: 0 74.57627118644068%;
+}
+
+.icon-inactive-mainauthor-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-menu {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 74.57627118644068%;
+}
+
+.icon-inactive-menu-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-message {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 74.57627118644068%;
+}
+
+.icon-inactive-message-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-moreoptions {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 74.57627118644068%;
+}
+
+.icon-inactive-moreoptions-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-music {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 74.57627118644068%;
+}
+
+.icon-inactive-music-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-notification {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 74.57627118644068%;
+}
+
+.icon-inactive-notification-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-object {
+	@extend %svg-common;
+	background-position: 36.92307692307692% 10.169491525423728%;
+}
+
+.icon-inactive-object-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-overview {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 74.57627118644068%;
+}
+
+.icon-inactive-overview-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-invite {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 74.57627118644068%;
+}
+
+.icon-inactive-invite-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-photography {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 74.57627118644068%;
+}
+
+.icon-inactive-photography-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-profile {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 0;
+}
+
+.icon-inactive-profile-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-project {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 8.474576271186441%;
+}
+
+.icon-inactive-project-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-publishing {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 16.949152542372882%;
+}
+
+.icon-inactive-publishing-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-reply {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 25.423728813559322%;
+}
+
+.icon-inactive-reply-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-reward {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 33.898305084745765%;
+}
+
+.icon-inactive-reward-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-search {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 42.3728813559322%;
+}
+
+.icon-inactive-search-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-seen {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 50.847457627118644%;
+}
+
+.icon-inactive-seen-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-send {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 59.32203389830509%;
+}
+
+.icon-inactive-send-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-settings {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 67.79661016949153%;
+}
+
+.icon-inactive-settings-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-signout {
+	@extend %svg-common;
+	background-position: 0 83.05084745762711%;
+}
+
+.icon-inactive-signout-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-sport {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 83.05084745762711%;
+}
+
+.icon-inactive-sport-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-start {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 83.05084745762711%;
+}
+
+.icon-inactive-start-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-team {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 83.05084745762711%;
+}
+
+.icon-inactive-team-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-technology {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 83.05084745762711%;
+}
+
+.icon-inactive-technology-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-timedate {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 83.05084745762711%;
+}
+
+.icon-inactive-timedate-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-upload {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 83.05084745762711%;
+}
+
+.icon-inactive-upload-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-user {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 83.05084745762711%;
+}
+
+.icon-inactive-user-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-inactive-work {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 83.05084745762711%;
+}
+
+.icon-inactive-work-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-journalism {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 83.05084745762711%;
+}
+
+.icon-journalism-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-like {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 83.05084745762711%;
+}
+
+.icon-like-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-location {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 0;
+}
+
+.icon-location-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-locked {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 8.474576271186441%;
+}
+
+.icon-locked-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-mail {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 16.949152542372882%;
+}
+
+.icon-mail-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-mainauthor {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 25.423728813559322%;
+}
+
+.icon-mainauthor-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 33.898305084745765%;
+}
+
+.icon-menu-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-dashboard {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 42.3728813559322%;
+}
+
+.icon-menu-dashboard-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-notification {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 50.847457627118644%;
+}
+
+.icon-menu-notification-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-search {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 59.32203389830509%;
+}
+
+.icon-menu-search-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-settings {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 67.79661016949153%;
+}
+
+.icon-menu-settings-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-signout {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 76.27118644067797%;
+}
+
+.icon-menu-signout-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-user {
+	@extend %svg-common;
+	background-position: 0 91.52542372881356%;
+}
+
+.icon-menu-user-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-message {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 91.52542372881356%;
+}
+
+.icon-message-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-moreoptions {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 91.52542372881356%;
+}
+
+.icon-moreoptions-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-music {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 91.52542372881356%;
+}
+
+.icon-music-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-notification {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 91.52542372881356%;
+}
+
+.icon-notification-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-object {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 91.52542372881356%;
+}
+
+.icon-object-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-overview {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 91.52542372881356%;
+}
+
+.icon-overview-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-invite {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 91.52542372881356%;
+}
+
+.icon-invite-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-photography {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 91.52542372881356%;
+}
+
+.icon-photography-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-profile {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 91.52542372881356%;
+}
+
+.icon-profile-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-project {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 91.52542372881356%;
+}
+
+.icon-project-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-publishing {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 91.52542372881356%;
+}
+
+.icon-publishing-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-reply {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 0;
+}
+
+.icon-reply-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-reward {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 8.474576271186441%;
+}
+
+.icon-reward-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-search {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 16.949152542372882%;
+}
+
+.icon-search-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-seen {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 25.423728813559322%;
+}
+
+.icon-seen-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-send {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 33.898305084745765%;
+}
+
+.icon-send-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-settings {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 42.3728813559322%;
+}
+
+.icon-settings-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-activity {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 50.847457627118644%;
+}
+
+.icon-sidepanel-activity-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-addmember {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 59.32203389830509%;
+}
+
+.icon-sidepanel-addmember-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-allprojects {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 67.79661016949153%;
+}
+
+.icon-sidepanel-allprojects-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-blog {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 76.27118644067797%;
+}
+
+.icon-sidepanel-blog-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-campaign {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 84.7457627118644%;
+}
+
+.icon-sidepanel-campaign-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-city {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.icon-sidepanel-city-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-customeridea {
+	@extend %svg-common;
+	background-position: 7.6923076923076925% 100%;
+}
+
+.icon-sidepanel-customeridea-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-document {
+	@extend %svg-common;
+	background-position: 15.384615384615385% 100%;
+}
+
+.icon-sidepanel-document-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-gender {
+	@extend %svg-common;
+	background-position: 23.076923076923077% 100%;
+}
+
+.icon-sidepanel-gender-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-location {
+	@extend %svg-common;
+	background-position: 30.76923076923077% 100%;
+}
+
+.icon-sidepanel-location-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-message {
+	@extend %svg-common;
+	background-position: 38.46153846153846% 100%;
+}
+
+.icon-sidepanel-message-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-notification {
+	@extend %svg-common;
+	background-position: 46.15384615384615% 100%;
+}
+
+.icon-sidepanel-notification-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-profile {
+	@extend %svg-common;
+	background-position: 53.84615384615385% 100%;
+}
+
+.icon-sidepanel-profile-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-project {
+	@extend %svg-common;
+	background-position: 61.53846153846154% 100%;
+}
+
+.icon-sidepanel-project-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-seen {
+	@extend %svg-common;
+	background-position: 69.23076923076923% 100%;
+}
+
+.icon-sidepanel-seen-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-team {
+	@extend %svg-common;
+	background-position: 76.92307692307692% 100%;
+}
+
+.icon-sidepanel-team-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-work {
+	@extend %svg-common;
+	background-position: 84.61538461538461% 100%;
+}
+
+.icon-sidepanel-work-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-signout {
+	@extend %svg-common;
+	background-position: 92.3076923076923% 100%;
+}
+
+.icon-signout-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sport {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.icon-sport-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-start {
+	@extend %svg-common;
+	background-position: 100% 8.474576271186441%;
+}
+
+.icon-start-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-states-approve {
+	@extend %svg-common;
+	background-position: 100% 16.949152542372882%;
+}
+
+.icon-states-approve-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-states-approved {
+	@extend %svg-common;
+	background-position: 100% 25.423728813559322%;
+}
+
+.icon-states-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-states-editstate {
+	@extend %svg-common;
+	background-position: 100% 33.898305084745765%;
+}
+
+.icon-states-editstate-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-states-liked {
+	@extend %svg-common;
+	background-position: 100% 42.3728813559322%;
+}
+
+.icon-states-liked-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-team {
+	@extend %svg-common;
+	background-position: 100% 50.847457627118644%;
+}
+
+.icon-team-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-technology {
+	@extend %svg-common;
+	background-position: 100% 59.32203389830509%;
+}
+
+.icon-technology-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-timedate {
+	@extend %svg-common;
+	background-position: 100% 67.79661016949153%;
+}
+
+.icon-timedate-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-upload {
+	@extend %svg-common;
+	background-position: 100% 76.27118644067797%;
+}
+
+.icon-upload-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-user {
+	@extend %svg-common;
+	background-position: 100% 84.7457627118644%;
+}
+
+.icon-user-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-work {
+	@extend %svg-common;
+	background-position: 100% 93.22033898305085%;
+}
+
+.icon-work-dims {
+	width: 25px;
+	height: 25px;
+}
+

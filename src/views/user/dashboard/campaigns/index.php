@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<img class="svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+								<div class="icon-big icon-dashboard-campaign"></div>
 								<h1 class="header-large">Campaigns</h1>
 							</div>
 

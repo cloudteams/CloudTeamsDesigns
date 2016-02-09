@@ -35,7 +35,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<input class="input-search" type="text" name="search" placeholder="Search projects">
-										<img src="[[../../../img/icons/icon-search.svg]]" class="icon-search svg" alt="Search icon">
+									<div class="icon-menu-search"></div>
 								</div>
 							</div>
 						</li>
@@ -44,7 +44,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="/views/user/dashboard/projects">
-										<img class="icon menu-icon svg" src="[[../../../img/icons/icon-dashboard.svg]]">
+										<div class="icon-menu-dashboard"></div>
 										Dashboard
 									</a>
 								</div>
@@ -55,7 +55,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="/views/user/dashboard/notifications">
-										<img class="icon menu-icon svg" src="[[../../../img/icons/icon-notifications.svg]]">
+										<div class="icon-menu-notification"></div>
 										Notifications
 									</a>
 								</div>
@@ -66,7 +66,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="#nowhere">
-										<img class="icon menu-icon svg" src="[[../../../img/icons/icon-profile.svg]]">
+										<div class="icon-menu-profile"></div>
 										Bobbyd123
 										<i class="fa fa-angle-down"></i>
 									</a>

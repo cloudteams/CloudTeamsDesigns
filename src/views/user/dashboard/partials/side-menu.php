@@ -29,28 +29,28 @@
 		<ul>
 			<li class="active">
 				<a href="/views/user/dashboard/projects">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-projects.svg]]">
+					<div class="icon-sidepanel-project"></div>
 					Projects
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/user/dashboard/campaigns">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+					<div class="icon-sidepanel-campaign"></div>
 					Campaigns
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/user/dashboard/notifications" class="incoming">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-notifications.svg]]">
+					<div class="icon-sidepanel-notification"></div>
 					Notifications
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/public/projects">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-explore.svg]]">
+					<div class="icon-sidepanel-allprojects"></div>
 					All projects
 				</a>
 			</li>
@@ -75,22 +75,22 @@
 			<h2 class="header-sidebar">Profile information</h2>
 			<ul>
 				<li>
-					<img class="icon filled svg" src="[[../../../../img/icons/icon-city.svg]]">
+					<div class="icon-sidepanel-city"></div>
 					New York
 				</li>
 
 				<li>
-					<img class="icon filled svg" src="[[../../../../img/icons/icon-work.svg]]">
+					<div class="icon-sidepanel-work"></div>
 					Engineer
 				</li>
 
 				<li>
-					<img class="icon filled svg" src="[[../../../../img/icons/icon-location.svg]]">
+					<div class="icon-sidepanel-location"></div>
 					Manager
 				</li>
 
 				<li>
-					<img class="icon filled svg" src="[[../../../../img/icons/icon-gender.svg]]">
+					<div class="icon-sidepanel-gender"></div>
 					Male
 				</li>
 			</ul>

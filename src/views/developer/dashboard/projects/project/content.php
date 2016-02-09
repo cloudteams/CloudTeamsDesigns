@@ -6,7 +6,7 @@
 		<header class="article-header">
 			<div class="vertical-align">
 				<div class="middle">
-					<img class="icon svg" src="[[../../../../../img/icons/icon-activities.svg]]">
+					<div class="icon-activity"></div>
 					<h2 class="header-medium secondary">Activity</h2>
 				</div>
 				<div class="middle">
@@ -25,7 +25,7 @@
 		<header class="article-header">
 			<div class="vertical-align">
 				<div class="middle">
-					<img class="icon svg" src="[[../../../../../img/icons/icon-project-profile.svg]]">
+					<div class="icon-profile"></div>
 					<h2 class="header-medium secondary">Project profile</h2>
 				</div>
 				<div class="middle">
@@ -39,7 +39,7 @@
 
 			<div class="category">
 				<p class="page-subtitle">Publishing</p>
-				<img class="icon square svg" src="[[../../../../../img/icons/icon-folders.svg]]">
+				<div class="icon-folder"></div>
 			</div>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
@@ -57,7 +57,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<img class="icon svg" src="[[../../../../../img/icons/icon-campaigns.svg]]">
+							<div class="icon-campaign"></div>
 							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
 						<div class="middle">
@@ -90,7 +90,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<img class="icon svg" src="[[../../../../../img/icons/icon-team.svg]]">
+							<div class="icon-team"></div>
 							<h2 class="header-medium secondary">Team</h2>
 						</div>
 						<div class="middle">
@@ -145,7 +145,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<img class="icon svg" src="[[../../../../../img/icons/icon-documents.svg]]">
+							<div class="icon-document"></div>
 							<h2 class="header-medium secondary">Documents</h2>
 						</div>
 						<div class="middle">
@@ -158,13 +158,13 @@
 					<div class="document">
 						<h3 class="header-medium secondary">Document title with second row option</h3>
 						<p class="highlight">Docx</p>
-						<a href="#downloadlink" class="btn-download">Download <img class="icon svg" src="[[../../../../../img/icons/icon-download.svg]]"></a>
+						<a href="#downloadlink" class="btn-download">Download <div class="icon-download"></div></a>
 					</div>
 
 					<div class="document">
 						<h3 class="header-medium secondary">Document title with second row option</h3>
 						<p class="highlight">PDF</p>
-						<a href="#downloadlink" class="btn-download">Download <img class="icon svg" src="[[../../../../../img/icons/icon-download.svg]]"></a>
+						<a href="#downloadlink" class="btn-download">Download <div class="icon-download"></div></a>
 					</div>
 				</div>
 		</article>
@@ -174,7 +174,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<img class="icon svg" src="[[../../../../../img/icons/icon-blog.svg]]">
+							<div class="icon-blog"></div>
 							<h2 class="header-medium secondary">Blog</h2>
 						</div>
 						<div class="middle">
@@ -198,7 +198,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<img class="icon svg" src="[[../../../../../img/icons/icon-messaging.svg]]">
+							<div class="icon-message"></div>
 							<h2 class="header-medium secondary">Messaging</h2>
 						</div>
 						<div class="middle">
@@ -223,7 +223,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<img class="icon svg" src="[[../../../../../img/icons/icon-idea.svg]]">
+							<div class="icon-customeridea"></div>
 							<h2 class="header-medium secondary">Customer ideas</h2>
 						</div>
 						<div class="middle">
@@ -236,7 +236,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate…</p>
 
 					<div class="data">
-						<img class="icon like svg" src="[[../../../../../img/icons/icon-like.svg]]">
+						<div class="icon-like"></div>
 						<p class="highlight">10</p>
 						<p class="highlight">Just now</p>
 					</div>

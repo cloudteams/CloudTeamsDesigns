@@ -30,28 +30,28 @@
 		<ul>
 			<li class="active">
 				<a href="/views/developer/dashboard/projects">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-projects.svg]]">
+					<div class="icon-sidepanel-project"></div>
 					Projects
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/invites">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-pending.svg]]">
+				<div class="icon-sidepanel-addmember"></div>
 					Pending invites
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/activities">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-activities.svg]]">
+					<div class="icon-sidepanel-activity"></div>
 					Activities
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/notifications" class="incoming">
-					<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-notifications.svg]]">
+					<div class="icon-sidepanel-notification"></div>
 					Notifications
 				</a>
 			</li>

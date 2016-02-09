@@ -5,7 +5,7 @@
 			<p class="highlight bold">Project title</p>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../img/icons/icon-more-options.svg]]"></a>
+				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -19,10 +19,10 @@
 		</header>
 
 		<div class="content dates">
-			<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-date-start.svg]]">
+			<div class="icon-start"></div>
 			<p><time datetime="2016-02-30">30/02/2016</time></p>
 
-			<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-date-end.svg]]">
+			<div class="icon-close2"></div>
 			<p><time datetime="2016-05-17">17/05/2016</time></p>
 		</div>
 
@@ -30,7 +30,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-pending-accepted.svg]]">
+						<div class="icon-addmember"></div>
 						<p>Participants</p>
 					</td>
 					<td class="col-xs-7">
@@ -40,7 +40,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-time.svg]]">
+						<div class="icon-timedate"></div>
 						<p>Days left</p>
 					</td>
 					<td class="col-xs-7">

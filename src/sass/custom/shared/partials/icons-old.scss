@@ -1,0 +1,154 @@
+.svg {
+	&.icon {
+		display: inline-block;
+		height: 25px;
+		margin-right: $margin-5;
+		vertical-align: middle;
+		width: 25px;
+	}
+
+	&.filled {
+		path, circle {
+			fill: none;
+			stroke: $color-menu-items;
+		}
+	}
+
+	&.menu-icon {
+		path {
+			fill: $color-menu-items;
+		}
+	}
+
+	&.more-options {
+		cursor: pointer;
+		height: 25px;
+		width: 25px;
+
+		path {
+			fill: $color-text;
+		}
+	}
+
+	&.check {
+		path {
+			fill: $color-success;
+			stroke: $color-success;
+			stroke-width: 1.5px;
+
+			&:last-child {
+				fill: none;
+				stroke: $color-text-secondary;
+			}
+		}
+	}
+
+	&.reply {
+		path {
+			fill: $color-pink;
+		}
+	}
+
+	&.add {
+		path {
+			fill: $color-pink;
+		}
+	}
+
+	&.like-fill {
+		height: 15px;
+		width: 15px;
+
+		path {
+			fill: none;
+			stroke: $color-button;
+			transition: fill $transition-time-1 $cubic-bezier-2, stroke $transition-time-1 $cubic-bezier-2;
+		}
+	}
+
+	&.icon.like, &.messaging {
+		height: 20px;
+		width: 20px;
+
+		path {
+			fill: $color-highlight;
+			stroke: $color-highlight;
+		}
+	}
+
+	&.edit {
+		height: 20px;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+		width: 20px;
+
+		path {
+			fill: $color-text;
+		}
+	}
+
+	&.close-item {
+		position: absolute;
+		right: 0;
+		top: 0;
+
+		path {
+			fill: $color-pink;
+		}
+	}
+
+	&.square {
+		background: $color-button;
+		border-radius: 5px;
+		height: 35px;
+		padding: $margin-5;
+		width: 35px;
+
+		path {
+			fill: $color-text-secondary;
+		}
+	}
+
+	&.design, &.delete {
+		path, circle {
+			fill: none !important;
+			stroke: $color-text-secondary;
+		}
+	}
+
+	tspan {
+		font-family: $font-header;
+	}
+}
+
+.icon {
+	&.like {
+		display: inline-block;
+		height: 12px;
+		margin-right: $margin-5;
+		vertical-align: middle;
+		width: 12px;
+	}
+
+	&.time {
+		display: inline-block;
+		height: 12px;
+		margin-right: $margin-5;
+		vertical-align: middle;
+		width: 12px;
+
+		path {
+			fill: $color-highlight;
+		}
+	}
+
+	&.edit-action {
+		height: 25px;
+		margin-bottom: 0;
+		position: absolute;
+		right: -10px;
+		top: -10px;
+		width: 25px;
+	}
+}

@@ -10,7 +10,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<img class="svg" src="[[../../../../img/icons/icon-profile.svg]]">
+								<div class="icon-big icon-profile"></div>
 								<h1 class="header-large">Profile</h1>
 							</div>
 						</div>

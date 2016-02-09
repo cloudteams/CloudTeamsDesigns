@@ -2,7 +2,7 @@
 	<div class="background">
 		<div class="background-image">
 			<img src="[[../../../../img/temp.jpg]]">
-			<img class="square svg" src="[[../../../../img/icons/icon-folders.svg]]">
+			<div class="square icon-folder"></div>
 		</div>
 
 		<header>
@@ -15,7 +15,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-followers.svg]]">
+						<div class="icon-followers"></div>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -25,7 +25,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+						<div class="icon-campaign"></div>
 						<p>Running campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -35,7 +35,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-rewards.svg]]">
+						<div class="icon-reward"></div>
 						<p>Rewards</p>
 					</td>
 					<td class="col-xs-7">

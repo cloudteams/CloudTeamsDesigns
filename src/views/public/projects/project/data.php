@@ -5,7 +5,7 @@
 				<table>
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-pending.svg]]">
+							<div class="icon-invite"></div>
 							<p>My invites</p>
 						</td>
 						<td>
@@ -15,7 +15,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-rewards.svg]]">
+							<div class="icon-reward"></div>
 							<p>My rewards won</p>
 						</td>
 						<td>
@@ -25,7 +25,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-campaign-participated.svg]]">
+							<div class="icon-campaigncompleted"></div>
 							<p>My campaigns answered</p>
 						</td>
 						<td>
@@ -39,7 +39,7 @@
 				<table>
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-followers.svg]]">
+							<div class="icon-followers"></div>
 							<p>Followers</p>
 						</td>
 						<td>
@@ -49,7 +49,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+							<div class="icon-campaign"></div>
 							<p>Total campaigns</p>
 						</td>
 						<td>
@@ -59,7 +59,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-seen.svg]]">
+							<div class="icon-seen"></div>
 							<p>Last seen on</p>
 						</td>
 						<td>

@@ -2,13 +2,13 @@
 	<div class="background">
 		<div class="background-image">
 			<img src="[[../../../../img/temp.jpg]]">
-			<img class="square svg" src="[[../../../../img/icons/icon-folders.svg]]">
+			<div class="square icon-games"></div>
 		</div>
 
 		<header>
 			<h3 class="header-medium secondary">New MINI website UX/UI research</h3>
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../img/icons/icon-more-options.svg]]"></a>
+				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -25,7 +25,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-activities.svg]]">
+						<div class="icon-activity"></div>
 						<p>Status</p>
 					</td>
 					<td class="col-xs-7">
@@ -35,7 +35,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-followers.svg]]">
+						<div class="icon-followers"></div>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -45,7 +45,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-campaigns.svg]]">
+						<div class="icon-campaign"></div>
 						<p>Campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -55,7 +55,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-seen.svg]]">
+						<div class="icon-seen"></div>
 						<p>Last seen on</p>
 					</td>
 					<td class="col-xs-7">

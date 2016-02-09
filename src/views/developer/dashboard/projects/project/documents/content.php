@@ -6,31 +6,31 @@
 			</header>
 			<ul class="menu-subpage sidebar">
 				<li id="link-to-subpage-1" class="link-to-subpage active">
-					<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-folder.svg]]">
+					<div class="icon-folder"></div>
 					Folder title
 					<span>5</span>
 				</li>
 
 				<li id="link-to-subpage-2" class="link-to-subpage">
-					<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-folder.svg]]">
+					<div class="icon-folder"></div>
 					Folder title
 					<span>3</span>
 				</li>
 
 				<li id="link-to-subpage-3" class="link-to-subpage">
-					<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-folder.svg]]">
+					<div class="icon-folder"></div>
 					Folder title
 					<span>0</span>
 				</li>
 
 				<li id="link-to-subpage-4" class="link-to-subpage">
-					<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-folder.svg]]">
+					<div class="icon-folder"></div>
 					Folder title
 					<span>0</span>
 				</li>
 
 				<li class="add-folder">
-					<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-folder.svg]]">
+					<div class="icon-folder"></div>
 					Create new folder
 				</li>
 			</ul>

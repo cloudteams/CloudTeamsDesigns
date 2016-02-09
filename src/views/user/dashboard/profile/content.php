@@ -11,7 +11,7 @@
 						<h2 class="header-large secondary">James Wade</h2>
 
 						<div class="tooltip-container">
-							<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../img/icons/icon-more-options.svg]]"></a>
+							<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
 							<div class="custom-tooltip">
 								<ul>
 									<li>
@@ -60,8 +60,8 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-container">
-										<img class="icon edit-action" src="[[../../../../img/icons/icon-edit-action.svg]]">
-										<img class="svg edit" src="[[../../../../img/icons/icon-edit.svg]]">
+										<div class="icon-states-edit"></div>
+										<div class="icon-edit"></div>
 										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
 									</div>
 								</div>
@@ -74,8 +74,8 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-container">
-										<img class="icon edit-action" src="[[../../../../img/icons/icon-edit-action.svg]]">
-										<img class="svg edit" src="[[../../../../img/icons/icon-edit.svg]]">
+										<div class="icon-states-edit"></div>
+										<div class="icon-edit"></div>
 										<input id="last-name" type="text" name="last-name" value="Mestra" placeholder="Last name">
 									</div>
 								</div>

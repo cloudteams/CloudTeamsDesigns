@@ -6,7 +6,7 @@
 		<div class="modal-content">
 			<div id="tutorial-step-1" class="tutorial-step modal-step active">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../../../../img/icons/icon-close.svg]]"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><div class="icon-close"></div></button>
 
 					<header class="page-header">
 						<img src="[[../../../../img/tutorial-user/tutorial-step-1.svg]]" class="tutorial-img">
@@ -35,7 +35,7 @@
 
 			<div id="tutorial-step-2" class="tutorial-step modal-step">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../../../../img/icons/icon-close.svg]]"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><div class="icon-close"></div></button>
 
 					<header class="page-header">
 						<div class="vertical-align">
@@ -46,7 +46,7 @@
 							<div class="middle explanation">
 								<div>
 									<div class="middle">
-										<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-dashboard.svg]]">
+										<div class="icon-dashboard"></div>
 									</div>
 
 									<div class="middle">
@@ -56,7 +56,7 @@
 
 								<div>
 									<div class="middle">
-										<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-notifications.svg]]">
+										<div class="icon-notification"></div>
 									</div>
 
 									<div class="middle">
@@ -66,7 +66,7 @@
 
 								<div>
 									<div class="middle">
-										<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-profile.svg]]">
+										<div class="icon-profile"></div>
 									</div>
 
 									<div class="middle">
@@ -99,7 +99,7 @@
 
 			<div id="tutorial-step-3" class="tutorial-step modal-step">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../../../../img/icons/icon-close.svg]]"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><div class="icon-close"></div></button>
 
 					<header class="page-header">
 						<div class="vertical-align">
@@ -140,7 +140,7 @@
 
 			<div id="tutorial-step-4" class="tutorial-step modal-step">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><img class="icon close-item svg" src="[[../../../../img/icons/icon-close.svg]]"></i></button>
+					<button type="button" class="close" data-dismiss="modal"><div class="icon-close"></div></button>
 
 					<header class="page-header">
 						<div class="vertical-align">

@@ -6,7 +6,7 @@
 			<table>
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../../../img/icons/icon-author.svg]]">
+						<div class="icon-user"></div>
 						<p>Main author</p>
 					</td>
 					<td>
@@ -16,7 +16,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../../../img/icons/icon-pending.svg]]">
+						<div class="icon-invite"></div>
 						<p>Invited</p>
 					</td>
 					<td>
@@ -26,7 +26,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../../../img/icons/icon-pending-accepted.svg]]">
+						<div class="icon-addmember"></div>
 						<p>Accepted</p>
 					</td>
 					<td>
@@ -40,7 +40,7 @@
 			<table>
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../../../img/icons/icon-campaign-participated.svg]]">
+						<div class="icon-campaigncompleted"></div>
 						<p>Participated</p>
 					</td>
 					<td>
@@ -50,7 +50,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../../../img/icons/icon-date-start.svg]]">
+						<div class="icon-start"></div>
 						<p>Date opened</p>
 					</td>
 					<td>
@@ -60,7 +60,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../../../img/icons/icon-date-end.svg]]">
+						<div class="icon-close2"></div>
 						<p>Date closed</p>
 					</td>
 					<td>

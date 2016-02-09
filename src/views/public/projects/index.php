@@ -14,7 +14,7 @@
 				<?php include("content.php"); ?>
 			</div>
 		</main>
-		</div>
+	</div>
 </section>
 
 <?php include("../partials/footer.php"); ?>

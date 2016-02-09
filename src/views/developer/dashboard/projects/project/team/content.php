@@ -4,7 +4,7 @@
 		<h2 class="header-large secondary">Fanta Design Department</h2>
 
 		<div class="tooltip-container">
-			<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../../../img/icons/icon-more-options.svg]]"></a>
+			<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
 			<div class="custom-tooltip">
 				<ul>
 					<li>

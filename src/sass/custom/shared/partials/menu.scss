@@ -100,18 +100,19 @@ body {
 						}
 
 						&.search {
-							.icon-search {
+							.icon-menu-search {
 								cursor: pointer;
-								font-size: 15px;
-								height: 18px;
+								//font-size: 15px;
+								// height: 18px;
 								position: absolute;
-								right: 15px;
-								top: 23px;
-								width: 18px;
+								right: 10px;
+								top: 20px;
+								//top: 23px;
+								// width: 18px;
 
-								path {
-									fill: $color-menu-items;
-								}
+								// path {
+									//fill: $color-menu-items;
+								//}
 							}
 						}
 

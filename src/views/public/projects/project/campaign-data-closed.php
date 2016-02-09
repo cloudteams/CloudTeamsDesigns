@@ -5,7 +5,7 @@
 				<table>
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-activities.svg]]">
+							<div class="icon-activity"></div>
 							<p>Status</p>
 						</td>
 						<td>
@@ -15,7 +15,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-pending-accepted.svg]]">
+							<div class="icon-addmember"></div>
 							<p>Participated</p>
 						</td>
 						<td>
@@ -25,7 +25,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-date-start.svg]]">
+							<div class="icon-start"></div>
 							<p>Date opened</p>
 						</td>
 						<td>
@@ -35,7 +35,7 @@
 
 					<tr>
 						<td>
-							<img class="icon svg" src="[[../../../../img/icons/icon-date-end.svg]]">
+							<div class="icon-close2"></div>
 							<p>Date closed</p>
 						</td>
 						<td>
@@ -47,7 +47,7 @@
 
 			<div class="middle">
 				<a href="#nowhere" class="btn-grey">
-					<img class="icon svg delete" src="[[../../../../img/icons/icon-delete.svg]]">
+					<div class="icon-closedelete"></div>
 					Closed
 				</a>
 			</div>

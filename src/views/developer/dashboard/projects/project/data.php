@@ -6,7 +6,7 @@
 			<table>
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-campaigns.svg]]">
+						<div class="icon-campaign"></div>
 						<p>Campaigns</p>
 					</td>
 					<td>
@@ -16,7 +16,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-team.svg]]">
+						<div class="icon-team"></div>
 						<p>Team members</p>
 					</td>
 					<td>
@@ -26,7 +26,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-documents.svg]]">
+						<div class="icon-document"></div>
 						<p>Documents</p>
 					</td>
 					<td>
@@ -36,7 +36,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-followers.svg]]">
+						<div class="icon-followers"></div>
 						<p>Followers</p>
 					</td>
 					<td>
@@ -50,7 +50,7 @@
 			<table>
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-blog.svg]]">
+						<div class="icon-blog"></div>
 						<p>Blog posts</p>
 					</td>
 					<td>
@@ -60,7 +60,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-messaging.svg]]">
+						<div class="icon-message"></div>
 						<p>Messages</p>
 					</td>
 					<td>
@@ -70,7 +70,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-idea.svg]]">
+						<div class="icon-customeridea"></div>
 						<p>Customer ideas</p>
 					</td>
 					<td>
@@ -80,7 +80,7 @@
 
 				<tr>
 					<td>
-						<img class="icon svg" src="[[../../../../../img/icons/icon-seen.svg]]">
+						<div class="icon-seen"></div>
 						<p>Last seen</p>
 					</td>
 					<td>

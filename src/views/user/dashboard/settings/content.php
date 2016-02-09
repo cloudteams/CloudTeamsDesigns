@@ -15,7 +15,6 @@
 							<div class="col-sm-6">
 								<div class="select-dropdown">
 									<i class="fa fa-angle-down"></i>
-
 									<select name="receiving-notifications" id="receiving-notifications" onchange="" size="1">
 										<option value="immediately" selected>Immediately</option>
 										<option value="2">Option 2</option>
@@ -70,7 +69,7 @@
 						</div>
 					</div>
 
-					<a href="#nowhere" class="btn-green"><img class="icon add svg" src="[[../../../../img/icons/icon-add.svg]]">Add service</a>
+					<a href="#nowhere" class="btn-green"><div class="icon-add"></div>Add service</a>
 				</div>
 			</article>
 		</section>

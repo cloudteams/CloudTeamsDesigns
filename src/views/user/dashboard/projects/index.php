@@ -3,10 +3,10 @@
 <section class="page page-user-dashboard-projects dashboard-page user-dashboard-page message">
 	<div class="complete-profile active">
 		<div class="container">
-			<img class="icon menu-icon svg" src="[[../../../../img/icons/icon-check.svg]]">
+			<div class="icon-approved"></div>
 			<p>Tell us more about yourself and complete your profile <a href="user-profile.php" alt="user profile">Go to your profile page</a></p>
 			<div class="close-message">
-				<img class="icon close-item svg" src="[[../../../../img/icons/icon-close.svg]]">
+				<div class="icon-close"></div>
 			</div>
 		</div>
 	</div>
@@ -20,7 +20,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<img class="svg" src="[[../../../../img/icons/icon-projects.svg]]">
+								<div class="icon-big icon-dashboard-project"></div>
 								<h1 class="header-large">Projects</h1>
 							</div>
 

@@ -4,7 +4,7 @@
 			<h2 class="header-medium secondary">Give feedback on our homepage and participate in...</h2>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><img class="more-options svg" src="[[../../../../../../img/icons/icon-more-options.svg]]"></a>
+				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -18,10 +18,10 @@
 		</header>
 
 		<div class="content dates">
-			<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-date-start.svg]]">
+			<div class="icon-start"></div>
 			<p><time datetime="2016-02-30">30/02/2016</time></p>
 
-			<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-date-end.svg]]">
+			<div class="icon-close2"></div>
 			<p><time datetime="2016-05-17">17/05/2016</time></p>
 		</div>
 
@@ -29,7 +29,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-pending.svg]]">
+						<div class="icon-invite"></div>
 						<p>Invited</p>
 					</td>
 					<td class="col-xs-7">
@@ -39,7 +39,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-pending-accepted.svg]]">
+						<div class="icon-addmember"></div>
 						<p>Accepted</p>
 					</td>
 					<td class="col-xs-7">
@@ -49,7 +49,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<img class="icon menu-icon svg" src="[[../../../../../../img/icons/icon-campaign-participated.svg]]">
+						<div class="icon-campaigncompleted"></div>
 						<p>Participated</p>
 					</td>
 					<td class="col-xs-7">
@@ -62,7 +62,7 @@
 		<div class="content user">
 			<div class="vertical-align">
 				<div class="middle image-container">
-					<img src="[[../../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+					<div class="icon-profile"></div>
 				</div>
 
 				<div class="middle data-container">
