@@ -1,13 +1,37 @@
-@font-face{
-	font-family: 'brandon-bold';
-	src: url('../fonts/brandon-bold/brandon_bld-webfont.eot');
-	src: url('../fonts/brandon-bold/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/brandon-bold/brandon_bld-webfont.woff') format('woff'),
-	     url('../fonts/brandon-bold/brandon_bld-webfont.ttf') format('truetype'),
-	     url('../fonts/brandon-bold/brandon_bld-webfont.svg#webfont') format('svg');
-}
+//@import url("http://hello.myfonts.net/count/2df0eb");
 
-@font-face{
-	font-family: 'corbel';
-	src: url('../fonts/corbel/corbel.ttf') format('truetype');
+@font-face {
+	font-family: 'Corbel';
+	src: url('../fonts/2DF0EB_0_0.eot');
+	src: url('../fonts/2DF0EB_0_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DF0EB_0_0.woff2') format('woff2'), url('../fonts/2DF0EB_0_0.woff') format('woff'), url('../fonts/2DF0EB_0_0.ttf') format('truetype');
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Corbel';
+	src: url('../fonts/2DF0EB_1_0.eot');
+	src: url('../fonts/2DF0EB_1_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DF0EB_1_0.woff2') format('woff2'), url('../fonts/2DF0EB_1_0.woff') format('woff'), url('../fonts/2DF0EB_1_0.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Corbel';
+	src: url('../fonts/2DF0EB_2_0.eot');
+	src: url('../fonts/2DF0EB_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DF0EB_2_0.woff2') format('woff2'), url('../fonts/2DF0EB_2_0.woff') format('woff'), url('../fonts/2DF0EB_2_0.ttf') format('truetype');
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Corbel';
+	src: url('../fonts/2DF0EB_3_0.eot');
+	src: url('../fonts/2DF0EB_3_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DF0EB_3_0.woff2') format('woff2'), url('../fonts/2DF0EB_3_0.woff') format('woff'), url('../fonts/2DF0EB_3_0.ttf') format('truetype');
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'BrandonGrotesque';
+	src: url('../fonts/2DF0EB_4_0.eot');
+	src: url('../fonts/2DF0EB_4_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2DF0EB_4_0.woff2') format('woff2'), url('../fonts/2DF0EB_4_0.woff') format('woff'), url('../fonts/2DF0EB_4_0.ttf') format('truetype');
+	font-style: normal;
+	font-weight: bold;
 }

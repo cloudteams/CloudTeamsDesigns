@@ -1,6 +1,22 @@
-// ---------------
-// colors
-// ---------------
+// new color pallette
+
+$color-white          : #fff;
+$color-flashy-purple  : #7d3c8c;
+$color-night-black    : #424242;
+$color-clear-gray     : #b1b1b1;
+$color-smooth-gray    : #e4e4e4;
+$color-grass-green    : #1ed761;
+$color-deep-red       : #ff5071;
+$color-solid-purple   : #411f48;
+$color-imperial-purple: #38173f;
+$color-pitch-purple   : #28102d;
+$color-soft-gray      : #f7f6f6;
+$color-shading-purple : #afa7b0;
+$color-candy-cyan     : #cc99cc;
+
+
+// color definitions
+
 $color-white                 : #fff;
 $color-grey                  : #b1b1b1;
 $color-extra-light-grey      : #f7f6f6;
@@ -55,9 +71,9 @@ $color-border-bottom         : $color-light-grey-secondary;
 // ---------------
 // Fonts
 // ---------------
-$font-body                   : "corbel", "Open Sans", "Helvetica", sans-serif;
-$font-header-secondary       : "corbel", "Open Sans", "Helvetica", sans-serif;
-$font-header                 : "brandon-bold", sans-serif;
+$font-body                   : "Corbel", "Open Sans", "Helvetica", sans-serif;
+$font-header-secondary       : "Corbel", "Open Sans", "Helvetica", sans-serif;
+$font-header                 : "BrandonGrotesque", sans-serif;
 
 // Font sizes
 $font-size-base              : 10px;
