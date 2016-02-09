@@ -126,16 +126,9 @@
 		padding: $margin-block-extra-small $margin-block-small;
 
 		.middle {
-			&:first-child {
-				.icon {
-					path {
-						fill: $color-text;
-					}
-
-					+ h2 {
-						display: inline-block;
-					}
-				}
+			div + h2 {
+				display: inline-block;
+				line-height: 25px;
 			}
 
 			&:last-child {

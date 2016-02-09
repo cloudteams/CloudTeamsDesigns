@@ -4,7 +4,7 @@
 	<div class="complete-profile active">
 		<div class="container">
 			<div class="icon-approved"></div>
-			<p>Tell us more about yourself and complete your profile <a href="user-profile.php" alt="user profile">Go to your profile page</a></p>
+			<p>Tell us more about yourself and complete your profile <a href="/views/user/dashboard/profile" alt="user profile">Go to your profile page</a></p>
 			<div class="close-message">
 				<div class="icon-close"></div>
 			</div>

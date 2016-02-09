@@ -1,7 +1,7 @@
 <section class="developer-dashboard-projects-content">
 	<div class="row">
 		<article class="project add-item col-md-6 col-xs-12">
-			<a href="developer-dashboard-project-create.php" alt="create new project">
+			<a href="/views/developer/dashboard/projects/create" alt="create new project">
 				<div class="background">
 					<div class="vertical-align">
 						<div class="middle">

@@ -45,39 +45,21 @@ body {
 							> div {
 								> div {
 									a {
-										color: $color-text-secondary;
-
-										.svg {
-											path {
-												fill: $color-text-secondary;
-											}
-										}
-
-										&:after {
-											display: none;
-										}
+										color: $color-candy-cyan;
 									}
 								}
 							}
 						}
 
 						a {
+							color: $color-candy-cyan;
+
 							&:focus {
-								.svg {
-									path {
-										fill: $color-text-secondary;
-									}
-								}
+
 							}
 
 							&.active {
-								color: $color-text-secondary;
-
-								.svg {
-									path {
-										fill: $color-text-secondary;
-									}
-								}
+								color: $color-candy-cyan
 							}
 						}
 
@@ -89,17 +71,16 @@ body {
 							.logo {
 								height: 45px;
 								margin-top: $margin-5;
-
-								path {
-									fill: $color-text-secondary;
-								}
-								tspan {
-									fill: $color-text-secondary;
-								}
 							}
 						}
 
 						&.search {
+
+							input.input-search {
+								color: $color-candy-cyan;
+								border-color: $color-candy-cyan;
+							}
+
 							.icon-menu-search {
 								cursor: pointer;
 								//font-size: 15px;
@@ -121,7 +102,7 @@ body {
 							position: relative;
 
 							&:before {
-								background: $color-menu-items;
+								background-color: $color-candy-cyan;
 								content: "";
 								display: inline-block;
 								height: 30px;

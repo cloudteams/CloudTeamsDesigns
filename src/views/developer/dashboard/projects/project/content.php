@@ -1,4 +1,4 @@
-<section class="developer-dashboard-project-overview-content">
+<section class="developer-dashboard/project-overview-content">
 
 	<?php include("data.php"); ?>
 
@@ -10,7 +10,7 @@
 					<h2 class="header-medium secondary">Activity</h2>
 				</div>
 				<div class="middle">
-					<p class="header-small"><a href="developer-dashboard-activities.php"><span class="header-small action-text">See all</span></a></p>
+					<p class="header-small"><a href="/views/developer/dashboard/activities"><span class="header-small action-text">See all</span></a></p>
 				</div>
 			</div>
 		</header>
@@ -29,7 +29,7 @@
 					<h2 class="header-medium secondary">Project profile</h2>
 				</div>
 				<div class="middle">
-					<p class="header-small"><a href="developer-dashboard-project-profile.php"><span class="header-small action-text">See all</span></a></p>
+					<p class="header-small"><a href="/views/developer/dashboard/projects/profile"><span class="header-small action-text">See all</span></a></p>
 				</div>
 			</div>
 		</header>
@@ -61,7 +61,7 @@
 							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="developer-dashboard-project-campaigns.php"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">See all</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -94,7 +94,7 @@
 							<h2 class="header-medium secondary">Team</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="developer-dashboard-project-team.php"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/team"><span class="header-small action-text">See all</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -149,7 +149,7 @@
 							<h2 class="header-medium secondary">Documents</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="developer-dashboard-project-documents.php"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/documents"><span class="header-small action-text">See all</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -178,7 +178,7 @@
 							<h2 class="header-medium secondary">Blog</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="developer-dashboard-project-blog.php"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/blog"><span class="header-small action-text">See all</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -202,7 +202,7 @@
 							<h2 class="header-medium secondary">Messaging</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="developer-dashboard-project-messaging.php"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/messages"><span class="header-small action-text">See all</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -227,7 +227,7 @@
 							<h2 class="header-medium secondary">Customer ideas</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="developer-dashboard-project-customer-ideas.php"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/customer-ideas"><span class="header-small action-text">See all</span></a></p>
 						</div>
 					</div>
 				</header>

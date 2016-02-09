@@ -11,7 +11,6 @@
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="stylesheet" href="[[./css/global-*.css]]">
 		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="[[./js/global-*.js]]"></script>
 		<script type="text/javascript" src="[[./js/common-*.js]]"></script>
 	</head>

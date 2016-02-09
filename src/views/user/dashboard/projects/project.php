@@ -71,7 +71,7 @@
 				<tr class="row">
 					<td class="col-xs-5">
 						<div class="icon-campaigncompleted"></div>
-						<p><a href="public-project-overview.php#campaigns" alt="completed campaigns">Completed campaigns</a></p>
+						<p><a href="/views/public/projects/project#campaigns" alt="completed campaigns">Completed campaigns</a></p>
 					</td>
 					<td class="col-xs-7">
 						<p class="bold">4</p>

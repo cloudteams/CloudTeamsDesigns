@@ -34,7 +34,7 @@
 			li {
 				&:last-child {
 					a {
-						color: $color-text-secondary;
+						color: $color-shading-purple;
 					}
 				}
 			}
@@ -55,6 +55,7 @@
 				a {
 					display: block;
 					position: relative;
+					color: $color-shading-purple;
 
 					&.incoming {
 						&:after {
@@ -77,29 +78,13 @@
 					}
 
 					&:focus, &.active {
-						color: $color-text-secondary;
-
-						.svg {
-							path {
-								fill: $color-text-secondary;
-							}
-						}
+						color: $color-shading-purple;
 					}
 				}
 
 				&:hover {
 					> a {
-						color: $color-text-secondary;
-
-						.svg {
-							path {
-								fill: $color-text-secondary;
-							}
-						}
-
-						&:after {
-							display: none;
-						}
+						color: $color-shading-purple;
 					}
 				}
 			}
@@ -129,12 +114,12 @@
 
 							&.select-dropdown {
 								.fa-angle-down {
-									color: $color-text-secondary;
+									color: $color-shading-purple;
 								}
 
 								select {
 									border-radius: 0;
-									color: $color-text-secondary;
+									color: $color-shading-purple;
 									font-size: $font-size-button;
 									padding: $margin-input-small;
 
@@ -172,7 +157,7 @@
 				}
 
 				p.update-profile {
-					color: $color-text-secondary;
+					color: $color-shading-purple;
 					font-family: $font-header-secondary;
 					font-size: $font-size-header-small;
 					font-weight: $font-weight-bold;

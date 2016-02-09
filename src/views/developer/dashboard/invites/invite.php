@@ -17,7 +17,7 @@
 		</div>
 	</header>
 	<div class="content">
-		<a href="public-project-overview.php"><h3 class="header-small secondary action-text">Project title</h3></a>
+		<a href="/views/public/projects/project"><h3 class="header-small secondary action-text">Project title</h3></a>
 		<h4 class="header-medium secondary">Help us create a better app</h4>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
 

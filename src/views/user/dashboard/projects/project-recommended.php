@@ -46,7 +46,7 @@
 		</div>
 
 		<footer>
-			<a href="public-project-overview.php" class="btn">Show project</a>
+			<a href="/views/public/projects/project" class="btn">Show project</a>
 		</footer>
 	</div>
 </article>
