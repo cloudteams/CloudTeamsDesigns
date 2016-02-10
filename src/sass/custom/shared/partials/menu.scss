@@ -77,8 +77,10 @@ body {
 						&.search {
 
 							input.input-search {
-								color: $color-candy-cyan;
+								color: $color-white;
 								border-color: $color-candy-cyan;
+								@include placeholderColor($color-candy-cyan);
+								padding-bottom: 4px;
 							}
 
 							.icon-menu-search {

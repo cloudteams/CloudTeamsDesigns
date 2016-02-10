@@ -42,3 +42,34 @@
 	padding-top: #{$padding};
 	padding-bottom: #{$padding};
 }
+
+@mixin placeholderColor($color) {
+
+  -moz-appearance   : textfield;
+  -webkit-appearance: textfield;
+  appearance        : textfield;
+
+  &::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: $color;
+  }
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: $color;
+    opacity: 1;
+  }
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: $color;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color;
+  }
+  &:placeholder-shown {
+    /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+    color: $color;
+  }
+
+}
