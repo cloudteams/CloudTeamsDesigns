@@ -136,10 +136,10 @@ import 'partials/Easing';
 
 		input
 			.focusin(function() {
-				$(this).parent().addClass('display-none');
+				$(this).parent().addClass('focused');
 			})
 			.focusout(function() {
-				$(this).parent().removeClass('display-none');
+				$(this).parent().removeClass('focused');
 			});
 
 		select

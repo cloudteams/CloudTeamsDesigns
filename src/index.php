@@ -1,4 +1,4 @@
-<?php include("views/public/partials/header.php"); ?>
+<?php include("views/logged-in/partials/header.php"); ?>
 
 <section class="page page-public-projects-logged-in public-page">
 	<div class="content">
@@ -18,11 +18,12 @@
 
 					<div class="row">
 						<article class="col-lg-4 col-md-6 col-xs-12">
-							<ul>
-								<li><a href="views/public/projects">Public Projects</a></li>
-								<li><a href="views/developer/dashboard/projects">Developer Dashboard</a></li>
-								<li><a href="views/user/dashboard/projects">User Dashboard</a></li>
-							</ul>
+							<p>
+								<a href="/views/logged-in/projects">Public (logged out)</a><br />
+								<a href="/views/logged-in/projects">Public (logged in)</a><br />
+								<a href="/views/developer/dashboard/projects">Developer Dashboard</a><br />
+								<a href="/views/user/dashboard/projects">User Dashboard</a><br />
+							</p>
 						</article>
 					</div>
 				</section>
@@ -31,4 +32,4 @@
 	</div>
 </section>
 
-<?php include("views/public/partials/footer.php"); ?>
+<?php include("views/logged-in/partials/footer.php"); ?>

@@ -164,14 +164,16 @@ select {
 .input-container {
 	position: relative;
 
+	/*
 	.svg {
 		path {
 			transition: fill $transition-time-2 $cubic-bezier-2;
 		}
 	}
+	*/
 
-	.edit-action {
-		display: none;
+	.icon-active {
+		visibility: hidden;
 	}
 
 	&.hover {
@@ -182,13 +184,13 @@ select {
 		}
 	}
 
-	&.display-none {
-		.edit {
-			display: none;
+	&.focused {
+		.icon-inactive {
+			visibility: hidden;
 		}
 
-		.edit-action {
-			display: block;
+		.icon-active {
+			visibility: visible;
 		}
 	}
 }

@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-big icon-dashboard-notification"></div>
+								<div class="icon-size-m icon-white-notification"></div>
 								<h1 class="header-large">Notifications</h1>
 							</div>
 						</div>

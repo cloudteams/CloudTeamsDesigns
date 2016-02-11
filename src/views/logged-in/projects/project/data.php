@@ -39,7 +39,7 @@
 				<table>
 					<tr>
 						<td>
-							<div class="icon-followers"></div>
+							<div class="icon-follower"></div>
 							<p>Followers</p>
 						</td>
 						<td>

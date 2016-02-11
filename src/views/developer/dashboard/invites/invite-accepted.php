@@ -17,7 +17,7 @@
 		</div>
 	</header>
 	<div class="content">
-		<a href="/views/public/projects/project"><h3 class="header-small secondary action-text">Project title</h3></a>
+		<a href="/views/logged-in/projects/project"><h3 class="header-small secondary action-text">Project title</h3></a>
 		<div class="accepted">
 			<div class="icon-states-approved"></div>
 			<p class="page-subtitle">Accepted</p>

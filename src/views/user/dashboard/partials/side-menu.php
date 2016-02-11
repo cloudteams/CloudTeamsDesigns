@@ -49,7 +49,7 @@
 			</li>
 
 			<li>
-				<a href="/views/public/projects">
+				<a href="/views/logged-in/projects">
 					<div class="icon-sidepanel-allprojects"></div>
 					All projects
 				</a>

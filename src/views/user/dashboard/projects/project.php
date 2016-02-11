@@ -26,7 +26,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-followers"></div>
+						<div class="icon-follower"></div>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -61,7 +61,7 @@
 				<tr class="row">
 					<td class="col-xs-5">
 						<div class="icon-invite"></div>
-						<p><a href="public-project-overview.php#campaigns" alt="invited">Invited</a></p>
+						<p><a href="/views/logged-in/projects/project#campaigns" alt="invited">Invited</a></p>
 					</td>
 					<td class="col-xs-7">
 						<p class="bold">2</p>
@@ -71,7 +71,7 @@
 				<tr class="row">
 					<td class="col-xs-5">
 						<div class="icon-campaigncompleted"></div>
-						<p><a href="/views/public/projects/project#campaigns" alt="completed campaigns">Completed campaigns</a></p>
+						<p><a href="/views/logged-in/projects/project#campaigns" alt="completed campaigns">Completed campaigns</a></p>
 					</td>
 					<td class="col-xs-7">
 						<p class="bold">4</p>

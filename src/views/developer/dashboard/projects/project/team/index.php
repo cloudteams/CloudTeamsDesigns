@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-big icon-dashboard-team"></div>
+								<div class="icon-size-m icon-white-team"></div>
 								<h1 class="header-large">Team</h1>
 								<p class="header-medium secondary">Project title</p>
 							</div>

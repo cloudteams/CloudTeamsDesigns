@@ -45,7 +45,7 @@ body {
 							> div {
 								> div {
 									a {
-										color: $color-candy-cyan;
+										color: $color-white;
 									}
 								}
 							}
@@ -54,8 +54,8 @@ body {
 						a {
 							color: $color-candy-cyan;
 
-							&:focus {
-
+							&:focus, &:hover {
+								color: $color-white;
 							}
 
 							&.active {

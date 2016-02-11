@@ -1,5 +1,6 @@
 footer#footer {
 	padding-top: $margin-50;
+	@include antialiasText();
 
 	ul {
 		&.social-media {

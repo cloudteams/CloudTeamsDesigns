@@ -5,8 +5,8 @@
 				<fieldset>
 					<label for="project-title" class="header-medium secondary">Project title</label>
 					<div class="input-container">
-						<div class="icon-edit"></div>
-						<div class="icon-states-edit"></div>
+						<div class="icon-edit icon-inactive"></div>
+						<div class="icon-color-editing icon-active"></div>
 						<input id="project-title" type="text" name="project title" value="Project 1" placeholder="Project title">
 					</div>
 				</fieldset>

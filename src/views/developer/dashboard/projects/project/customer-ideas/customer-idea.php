@@ -17,7 +17,7 @@
 		<div class="icon-like"></div>
 		<p class="highlight">10</p>
 
-		<div class="icon-timedate"></div>
+		<div class="icon-time"></div>
 		<p class="highlight">Just now</p>
 
 		<div class="right">

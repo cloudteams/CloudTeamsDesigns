@@ -35,7 +35,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-followers"></div>
+						<div class="icon-follower"></div>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">

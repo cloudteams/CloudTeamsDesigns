@@ -2,6 +2,7 @@
 	border-bottom: 1px solid $color-lines;
 	margin-bottom: $margin-block-bottom;
 	padding-bottom: $margin-block-bottom;
+	@include antialiasText();
 
 	h2.header-medium.secondary {
 		color: $color-text-secondary;

@@ -1,19 +1,19 @@
  @mixin breakpoint($point) {
-   @if $point == desktop {
-     @media (min-width: 75em) { @content ; }
-  }
-   @else if $point == laptop {
-     @media (max-width: 75em) { @content ; }
-  }
-    @else if $point == tablet {
-     @media (max-width: 62em) { @content ; }
-  }
-   @else if $point == phablet {
-     @media (max-width: 48em)  { @content ; }
-  }
-  @else if $point == mobileonly {
-     @media (max-width: 34em)  { @content ; }
-  }
+	 @if $point == desktop {
+		 @media (min-width: 75em) { @content ; }
+	}
+	 @else if $point == laptop {
+		 @media (max-width: 75em) { @content ; }
+	}
+		@else if $point == tablet {
+		 @media (max-width: 62em) { @content ; }
+	}
+	 @else if $point == phablet {
+		 @media (max-width: 48em)  { @content ; }
+	}
+	@else if $point == mobileonly {
+		 @media (max-width: 34em)  { @content ; }
+	}
 }
 
 @mixin antialiasText($arguments: antialiased) {
@@ -45,31 +45,38 @@
 
 @mixin placeholderColor($color) {
 
-  -moz-appearance   : textfield;
-  -webkit-appearance: textfield;
-  appearance        : textfield;
+	-moz-appearance   : textfield;
+	-webkit-appearance: textfield;
+	appearance        : textfield;
 
-  &::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
-    color: $color;
-  }
-  &:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: $color;
-    opacity: 1;
-  }
-  &::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: $color;
-    opacity: 1;
-  }
-  &:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: $color;
-  }
-  &:placeholder-shown {
-    /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
-    color: $color;
-  }
+	&::-webkit-input-placeholder {
+		/* WebKit, Blink, Edge */
+		color: $color;
+	}
+	&:-moz-placeholder {
+		/* Mozilla Firefox 4 to 18 */
+		color: $color;
+		opacity: 1;
+	}
+	&::-moz-placeholder {
+		/* Mozilla Firefox 19+ */
+		color: $color;
+		opacity: 1;
+	}
+	&:-ms-input-placeholder {
+		/* Internet Explorer 10-11 */
+		color: $color;
+	}
+	&:placeholder-shown {
+		/* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+		color: $color;
+	}
 
+}
+
+@mixin antialiasText($arguments: antialiased) {
+	-webkit-font-smoothing: $arguments;
+	-moz-font-smoothing: $arguments;
+	-ms-font-smoothing: $arguments;
+	font-smoothing: $arguments;
 }

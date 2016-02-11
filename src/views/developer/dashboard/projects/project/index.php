@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-big icon-dashboard-seen"></div>
+								<div class="icon-size-m icon-white-seen"></div>
 								<h1 class="header-large">Overview</h1>
 							</div>
 						</div>

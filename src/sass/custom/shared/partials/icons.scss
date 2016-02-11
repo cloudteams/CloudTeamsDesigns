@@ -1,14 +1,29 @@
+$sprite-sheet-background-width: 400px;
+$sprite-sheet-background-height: 400px;
+$sprite-sheet-icon-size: 25px;
+$sprite-sheet-icon-size-m: 30px;
+$sprite-sheet-icon-size-xl: 60px;
+
 %svg-common {
 	background: url(../img/icons.svg) no-repeat;
 	display: inline-block;
-	width: 25px;
-	height: 25px;
+	width: $sprite-sheet-icon-size;
+	height: $sprite-sheet-icon-size;
 	vertical-align: bottom;
+	background-size: $sprite-sheet-background-width $sprite-sheet-background-height;
 }
 
-.icon-big {
-	width: 30px;
-	height: 30px;
+.icon-size-m {
+	background-size: ($sprite-sheet-background-width * $sprite-sheet-icon-size-m / $sprite-sheet-icon-size) ($sprite-sheet-background-height * $sprite-sheet-icon-size-m / $sprite-sheet-icon-size);
+	width: $sprite-sheet-icon-size-m;
+	height: $sprite-sheet-icon-size-m;
+	vertical-align: middle;
+}
+
+.icon-size-xl {
+	background-size: ($sprite-sheet-background-width * $sprite-sheet-icon-size-xl / $sprite-sheet-icon-size) ($sprite-sheet-background-height * $sprite-sheet-icon-size-xl / $sprite-sheet-icon-size);
+	width: $sprite-sheet-icon-size-xl;
+	height: $sprite-sheet-icon-size-xl;
 	vertical-align: middle;
 }
 
@@ -21,7 +36,7 @@
 
 .icon-activity {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 25.423728813559322%;
+	background-position: 6.666666666666667% 0;
 }
 
 .icon-activity-dims {
@@ -31,7 +46,7 @@
 
 .icon-add {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 74.57627118644068%;
+	background-position: 73.33333333333333% 6.666666666666667%;
 }
 
 .icon-add-dims {
@@ -41,7 +56,7 @@
 
 .icon-addmember {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 33.898305084745765%;
+	background-position: 0 6.666666666666667%;
 }
 
 .icon-addmember-dims {
@@ -51,7 +66,7 @@
 
 .icon-allprojects {
 	@extend %svg-common;
-	background-position: 0 49.152542372881356%;
+	background-position: 6.666666666666667% 6.666666666666667%;
 }
 
 .icon-allprojects-dims {
@@ -61,7 +76,7 @@
 
 .icon-approved {
 	@extend %svg-common;
-	background-position: 36.92307692307692% 18.64406779661017%;
+	background-position: 13.333333333333334% 0;
 }
 
 .icon-approved-dims {
@@ -71,7 +86,7 @@
 
 .icon-art {
 	@extend %svg-common;
-	background-position: 36.92307692307692% 27.11864406779661%;
+	background-position: 13.333333333333334% 6.666666666666667%;
 }
 
 .icon-art-dims {
@@ -81,7 +96,7 @@
 
 .icon-blog {
 	@extend %svg-common;
-	background-position: 0 40.67796610169491%;
+	background-position: 0 13.333333333333334%;
 }
 
 .icon-blog-dims {
@@ -91,7 +106,7 @@
 
 .icon-campaign {
 	@extend %svg-common;
-	background-position: 7.6923076923076925% 40.67796610169491%;
+	background-position: 6.666666666666667% 13.333333333333334%;
 }
 
 .icon-campaign-dims {
@@ -101,7 +116,7 @@
 
 .icon-campaigncompleted {
 	@extend %svg-common;
-	background-position: 15.384615384615385% 40.67796610169491%;
+	background-position: 13.333333333333334% 13.333333333333334%;
 }
 
 .icon-campaigncompleted-dims {
@@ -111,7 +126,7 @@
 
 .icon-city {
 	@extend %svg-common;
-	background-position: 23.076923076923077% 40.67796610169491%;
+	background-position: 20% 0;
 }
 
 .icon-city-dims {
@@ -121,7 +136,7 @@
 
 .icon-close {
 	@extend %svg-common;
-	background-position: 30.76923076923077% 40.67796610169491%;
+	background-position: 20% 6.666666666666667%;
 }
 
 .icon-close-dims {
@@ -131,7 +146,7 @@
 
 .icon-close2 {
 	@extend %svg-common;
-	background-position: 38.46153846153846% 40.67796610169491%;
+	background-position: 20% 13.333333333333334%;
 }
 
 .icon-close2-dims {
@@ -141,7 +156,7 @@
 
 .icon-closedelete {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 0;
+	background-position: 0 20%;
 }
 
 .icon-closedelete-dims {
@@ -149,9 +164,59 @@
 	height: 25px;
 }
 
+.icon-color-add {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 20%;
+}
+
+.icon-color-add-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-color-approve {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 20%;
+}
+
+.icon-color-approve-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-color-approved {
+	@extend %svg-common;
+	background-position: 20% 20%;
+}
+
+.icon-color-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-color-editing {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 0;
+}
+
+.icon-color-editing-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-color-liked {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 6.666666666666667%;
+}
+
+.icon-color-liked-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-customeridea {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 8.474576271186441%;
+	background-position: 26.666666666666668% 13.333333333333334%;
 }
 
 .icon-customeridea-dims {
@@ -161,7 +226,7 @@
 
 .icon-dashboard {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 16.949152542372882%;
+	background-position: 26.666666666666668% 20%;
 }
 
 .icon-dashboard-dims {
@@ -169,179 +234,9 @@
 	height: 25px;
 }
 
-.icon-dashboard-activity {
-	@extend %svg-common;
-	background-position: 28.125% 0;
-}
-
-.icon-dashboard-activity-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-addmember {
-	@extend %svg-common;
-	background-position: 0 10.344827586206897%;
-}
-
-.icon-dashboard-addmember-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-allprojects {
-	@extend %svg-common;
-	background-position: 9.375% 10.344827586206897%;
-}
-
-.icon-dashboard-allprojects-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-blog {
-	@extend %svg-common;
-	background-position: 18.75% 0;
-}
-
-.icon-dashboard-blog-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-campaign {
-	@extend %svg-common;
-	background-position: 18.75% 10.344827586206897%;
-}
-
-.icon-dashboard-campaign-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-city {
-	@extend %svg-common;
-	background-position: 0 20.689655172413794%;
-}
-
-.icon-dashboard-city-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-customeridea {
-	@extend %svg-common;
-	background-position: 9.375% 20.689655172413794%;
-}
-
-.icon-dashboard-customeridea-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-document {
-	@extend %svg-common;
-	background-position: 18.75% 20.689655172413794%;
-}
-
-.icon-dashboard-document-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-gender {
-	@extend %svg-common;
-	background-position: 0 0;
-}
-
-.icon-dashboard-gender-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-location {
-	@extend %svg-common;
-	background-position: 28.125% 10.344827586206897%;
-}
-
-.icon-dashboard-location-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-message {
-	@extend %svg-common;
-	background-position: 28.125% 20.689655172413794%;
-}
-
-.icon-dashboard-message-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-notification {
-	@extend %svg-common;
-	background-position: 0 31.03448275862069%;
-}
-
-.icon-dashboard-notification-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-profile {
-	@extend %svg-common;
-	background-position: 9.375% 31.03448275862069%;
-}
-
-.icon-dashboard-profile-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-project {
-	@extend %svg-common;
-	background-position: 18.75% 31.03448275862069%;
-}
-
-.icon-dashboard-project-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-seen {
-	@extend %svg-common;
-	background-position: 28.125% 31.03448275862069%;
-}
-
-.icon-dashboard-seen-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-team {
-	@extend %svg-common;
-	background-position: 37.5% 0;
-}
-
-.icon-dashboard-team-dims {
-	width: 30px;
-	height: 30px;
-}
-
-.icon-dashboard-work {
-	@extend %svg-common;
-	background-position: 9.375% 0;
-}
-
-.icon-dashboard-work-dims {
-	width: 30px;
-	height: 30px;
-}
-
 .icon-design {
 	@extend %svg-common;
-	background-position: 7.6923076923076925% 49.152542372881356%;
+	background-position: 0 26.666666666666668%;
 }
 
 .icon-design-dims {
@@ -351,7 +246,7 @@
 
 .icon-developer {
 	@extend %svg-common;
-	background-position: 15.384615384615385% 49.152542372881356%;
+	background-position: 6.666666666666667% 26.666666666666668%;
 }
 
 .icon-developer-dims {
@@ -361,7 +256,7 @@
 
 .icon-document {
 	@extend %svg-common;
-	background-position: 23.076923076923077% 49.152542372881356%;
+	background-position: 13.333333333333334% 26.666666666666668%;
 }
 
 .icon-document-dims {
@@ -371,7 +266,7 @@
 
 .icon-download {
 	@extend %svg-common;
-	background-position: 30.76923076923077% 49.152542372881356%;
+	background-position: 20% 26.666666666666668%;
 }
 
 .icon-download-dims {
@@ -381,7 +276,7 @@
 
 .icon-download2 {
 	@extend %svg-common;
-	background-position: 38.46153846153846% 49.152542372881356%;
+	background-position: 26.666666666666668% 26.666666666666668%;
 }
 
 .icon-download2-dims {
@@ -391,7 +286,7 @@
 
 .icon-edit {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 49.152542372881356%;
+	background-position: 33.333333333333336% 0;
 }
 
 .icon-edit-dims {
@@ -401,7 +296,7 @@
 
 .icon-film {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 0;
+	background-position: 33.333333333333336% 6.666666666666667%;
 }
 
 .icon-film-dims {
@@ -411,7 +306,7 @@
 
 .icon-folder {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 8.474576271186441%;
+	background-position: 33.333333333333336% 13.333333333333334%;
 }
 
 .icon-folder-dims {
@@ -419,19 +314,19 @@
 	height: 25px;
 }
 
-.icon-followers {
+.icon-follower {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 16.949152542372882%;
+	background-position: 33.333333333333336% 20%;
 }
 
-.icon-followers-dims {
+.icon-follower-dims {
 	width: 25px;
 	height: 25px;
 }
 
 .icon-food {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 25.423728813559322%;
+	background-position: 33.333333333333336% 26.666666666666668%;
 }
 
 .icon-food-dims {
@@ -441,7 +336,7 @@
 
 .icon-games {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 33.898305084745765%;
+	background-position: 0 33.333333333333336%;
 }
 
 .icon-games-dims {
@@ -451,7 +346,7 @@
 
 .icon-gender {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 42.3728813559322%;
+	background-position: 6.666666666666667% 33.333333333333336%;
 }
 
 .icon-gender-dims {
@@ -459,609 +354,19 @@
 	height: 25px;
 }
 
-.icon-inactive-activity {
+.icon-invite {
 	@extend %svg-common;
-	background-position: 0 57.6271186440678%;
+	background-position: 13.333333333333334% 33.333333333333336%;
 }
 
-.icon-inactive-activity-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-add {
-	@extend %svg-common;
-	background-position: 7.6923076923076925% 57.6271186440678%;
-}
-
-.icon-inactive-add-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-addmember {
-	@extend %svg-common;
-	background-position: 15.384615384615385% 57.6271186440678%;
-}
-
-.icon-inactive-addmember-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-allprojects {
-	@extend %svg-common;
-	background-position: 23.076923076923077% 57.6271186440678%;
-}
-
-.icon-inactive-allprojects-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-approved {
-	@extend %svg-common;
-	background-position: 30.76923076923077% 57.6271186440678%;
-}
-
-.icon-inactive-approved-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-art {
-	@extend %svg-common;
-	background-position: 38.46153846153846% 57.6271186440678%;
-}
-
-.icon-inactive-art-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-blog {
-	@extend %svg-common;
-	background-position: 46.15384615384615% 57.6271186440678%;
-}
-
-.icon-inactive-blog-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-campaign {
-	@extend %svg-common;
-	background-position: 53.84615384615385% 57.6271186440678%;
-}
-
-.icon-inactive-campaign-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-campaigncompleted {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 0;
-}
-
-.icon-inactive-campaigncompleted-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-city {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 8.474576271186441%;
-}
-
-.icon-inactive-city-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-close {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 16.949152542372882%;
-}
-
-.icon-inactive-close-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-close2 {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 25.423728813559322%;
-}
-
-.icon-inactive-close2-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-closedelete {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 33.898305084745765%;
-}
-
-.icon-inactive-closedelete-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-customeridea {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 42.3728813559322%;
-}
-
-.icon-inactive-customeridea-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-dashboard {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 50.847457627118644%;
-}
-
-.icon-inactive-dashboard-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-design {
-	@extend %svg-common;
-	background-position: 0 66.10169491525424%;
-}
-
-.icon-inactive-design-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-developer {
-	@extend %svg-common;
-	background-position: 7.6923076923076925% 66.10169491525424%;
-}
-
-.icon-inactive-developer-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-document {
-	@extend %svg-common;
-	background-position: 15.384615384615385% 66.10169491525424%;
-}
-
-.icon-inactive-document-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-download {
-	@extend %svg-common;
-	background-position: 23.076923076923077% 66.10169491525424%;
-}
-
-.icon-inactive-download-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-download2 {
-	@extend %svg-common;
-	background-position: 30.76923076923077% 66.10169491525424%;
-}
-
-.icon-inactive-download2-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-edit {
-	@extend %svg-common;
-	background-position: 38.46153846153846% 66.10169491525424%;
-}
-
-.icon-inactive-edit-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-film {
-	@extend %svg-common;
-	background-position: 46.15384615384615% 66.10169491525424%;
-}
-
-.icon-inactive-film-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-folder {
-	@extend %svg-common;
-	background-position: 53.84615384615385% 66.10169491525424%;
-}
-
-.icon-inactive-folder-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-followers {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 66.10169491525424%;
-}
-
-.icon-inactive-followers-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-food {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 0;
-}
-
-.icon-inactive-food-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-games {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 8.474576271186441%;
-}
-
-.icon-inactive-games-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-gender {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 16.949152542372882%;
-}
-
-.icon-inactive-gender-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-journalism {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 25.423728813559322%;
-}
-
-.icon-inactive-journalism-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-like {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 33.898305084745765%;
-}
-
-.icon-inactive-like-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-location {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 42.3728813559322%;
-}
-
-.icon-inactive-location-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-locked {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 50.847457627118644%;
-}
-
-.icon-inactive-locked-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-mail {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 59.32203389830509%;
-}
-
-.icon-inactive-mail-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-mainauthor {
-	@extend %svg-common;
-	background-position: 0 74.57627118644068%;
-}
-
-.icon-inactive-mainauthor-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-menu {
-	@extend %svg-common;
-	background-position: 7.6923076923076925% 74.57627118644068%;
-}
-
-.icon-inactive-menu-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-message {
-	@extend %svg-common;
-	background-position: 15.384615384615385% 74.57627118644068%;
-}
-
-.icon-inactive-message-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-moreoptions {
-	@extend %svg-common;
-	background-position: 23.076923076923077% 74.57627118644068%;
-}
-
-.icon-inactive-moreoptions-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-music {
-	@extend %svg-common;
-	background-position: 30.76923076923077% 74.57627118644068%;
-}
-
-.icon-inactive-music-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-notification {
-	@extend %svg-common;
-	background-position: 38.46153846153846% 74.57627118644068%;
-}
-
-.icon-inactive-notification-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-object {
-	@extend %svg-common;
-	background-position: 36.92307692307692% 10.169491525423728%;
-}
-
-.icon-inactive-object-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-overview {
-	@extend %svg-common;
-	background-position: 53.84615384615385% 74.57627118644068%;
-}
-
-.icon-inactive-overview-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-invite {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 74.57627118644068%;
-}
-
-.icon-inactive-invite-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-photography {
-	@extend %svg-common;
-	background-position: 69.23076923076923% 74.57627118644068%;
-}
-
-.icon-inactive-photography-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-profile {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 0;
-}
-
-.icon-inactive-profile-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-project {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 8.474576271186441%;
-}
-
-.icon-inactive-project-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-publishing {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 16.949152542372882%;
-}
-
-.icon-inactive-publishing-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-reply {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 25.423728813559322%;
-}
-
-.icon-inactive-reply-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-reward {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 33.898305084745765%;
-}
-
-.icon-inactive-reward-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-search {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 42.3728813559322%;
-}
-
-.icon-inactive-search-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-seen {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 50.847457627118644%;
-}
-
-.icon-inactive-seen-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-send {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 59.32203389830509%;
-}
-
-.icon-inactive-send-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-settings {
-	@extend %svg-common;
-	background-position: 76.92307692307692% 67.79661016949153%;
-}
-
-.icon-inactive-settings-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-signout {
-	@extend %svg-common;
-	background-position: 0 83.05084745762711%;
-}
-
-.icon-inactive-signout-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-sport {
-	@extend %svg-common;
-	background-position: 7.6923076923076925% 83.05084745762711%;
-}
-
-.icon-inactive-sport-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-start {
-	@extend %svg-common;
-	background-position: 15.384615384615385% 83.05084745762711%;
-}
-
-.icon-inactive-start-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-team {
-	@extend %svg-common;
-	background-position: 23.076923076923077% 83.05084745762711%;
-}
-
-.icon-inactive-team-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-technology {
-	@extend %svg-common;
-	background-position: 30.76923076923077% 83.05084745762711%;
-}
-
-.icon-inactive-technology-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-timedate {
-	@extend %svg-common;
-	background-position: 38.46153846153846% 83.05084745762711%;
-}
-
-.icon-inactive-timedate-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-upload {
-	@extend %svg-common;
-	background-position: 46.15384615384615% 83.05084745762711%;
-}
-
-.icon-inactive-upload-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-user {
-	@extend %svg-common;
-	background-position: 53.84615384615385% 83.05084745762711%;
-}
-
-.icon-inactive-user-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-inactive-work {
-	@extend %svg-common;
-	background-position: 61.53846153846154% 83.05084745762711%;
-}
-
-.icon-inactive-work-dims {
+.icon-invite-dims {
 	width: 25px;
 	height: 25px;
 }
 
 .icon-journalism {
 	@extend %svg-common;
-	background-position: 69.23076923076923% 83.05084745762711%;
+	background-position: 20% 33.333333333333336%;
 }
 
 .icon-journalism-dims {
@@ -1071,7 +376,7 @@
 
 .icon-like {
 	@extend %svg-common;
-	background-position: 76.92307692307692% 83.05084745762711%;
+	background-position: 26.666666666666668% 33.333333333333336%;
 }
 
 .icon-like-dims {
@@ -1081,7 +386,7 @@
 
 .icon-location {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 0;
+	background-position: 33.333333333333336% 33.333333333333336%;
 }
 
 .icon-location-dims {
@@ -1091,7 +396,7 @@
 
 .icon-locked {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 8.474576271186441%;
+	background-position: 40% 0;
 }
 
 .icon-locked-dims {
@@ -1101,7 +406,7 @@
 
 .icon-mail {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 16.949152542372882%;
+	background-position: 40% 6.666666666666667%;
 }
 
 .icon-mail-dims {
@@ -1111,7 +416,7 @@
 
 .icon-mainauthor {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 25.423728813559322%;
+	background-position: 40% 13.333333333333334%;
 }
 
 .icon-mainauthor-dims {
@@ -1121,7 +426,7 @@
 
 .icon-menu {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 33.898305084745765%;
+	background-position: 40% 20%;
 }
 
 .icon-menu-dims {
@@ -1129,9 +434,149 @@
 	height: 25px;
 }
 
+.icon-menu-activity {
+	@extend %svg-common;
+	background-position: 40% 26.666666666666668%;
+}
+
+.icon-menu-activity-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-add {
+	@extend %svg-common;
+	background-position: 40% 33.333333333333336%;
+}
+
+.icon-menu-add-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-addmember {
+	@extend %svg-common;
+	background-position: 0 40%;
+}
+
+.icon-menu-addmember-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-allprojects {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 40%;
+}
+
+.icon-menu-allprojects-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-approved {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 40%;
+}
+
+.icon-menu-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-art {
+	@extend %svg-common;
+	background-position: 20% 40%;
+}
+
+.icon-menu-art-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-blog {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 40%;
+}
+
+.icon-menu-blog-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-campaign {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 40%;
+}
+
+.icon-menu-campaign-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-campaigncompleted {
+	@extend %svg-common;
+	background-position: 40% 40%;
+}
+
+.icon-menu-campaigncompleted-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-city {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 0;
+}
+
+.icon-menu-city-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-close {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 6.666666666666667%;
+}
+
+.icon-menu-close-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-close2 {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 13.333333333333334%;
+}
+
+.icon-menu-close2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-closedelete {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 20%;
+}
+
+.icon-menu-closedelete-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-customeridea {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 26.666666666666668%;
+}
+
+.icon-menu-customeridea-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-dashboard {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 42.3728813559322%;
+	background-position: 46.666666666666664% 33.333333333333336%;
 }
 
 .icon-menu-dashboard-dims {
@@ -1139,9 +584,239 @@
 	height: 25px;
 }
 
+.icon-menu-design {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 40%;
+}
+
+.icon-menu-design-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-developer {
+	@extend %svg-common;
+	background-position: 0 46.666666666666664%;
+}
+
+.icon-menu-developer-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-document {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 46.666666666666664%;
+}
+
+.icon-menu-document-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-download {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 46.666666666666664%;
+}
+
+.icon-menu-download-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-download2 {
+	@extend %svg-common;
+	background-position: 20% 46.666666666666664%;
+}
+
+.icon-menu-download2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-edit {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 46.666666666666664%;
+}
+
+.icon-menu-edit-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-film {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 46.666666666666664%;
+}
+
+.icon-menu-film-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-folder {
+	@extend %svg-common;
+	background-position: 40% 46.666666666666664%;
+}
+
+.icon-menu-folder-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-follower {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 46.666666666666664%;
+}
+
+.icon-menu-follower-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-food {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 0;
+}
+
+.icon-menu-food-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-games {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 6.666666666666667%;
+}
+
+.icon-menu-games-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-gender {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 13.333333333333334%;
+}
+
+.icon-menu-gender-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-invite {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 20%;
+}
+
+.icon-menu-invite-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-journalism {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 26.666666666666668%;
+}
+
+.icon-menu-journalism-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-like {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 33.333333333333336%;
+}
+
+.icon-menu-like-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-location {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 40%;
+}
+
+.icon-menu-location-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-locked {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 46.666666666666664%;
+}
+
+.icon-menu-locked-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-mail {
+	@extend %svg-common;
+	background-position: 0 53.333333333333336%;
+}
+
+.icon-menu-mail-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-mainauthor {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 53.333333333333336%;
+}
+
+.icon-menu-mainauthor-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-menu {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 53.333333333333336%;
+}
+
+.icon-menu-menu-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-message {
+	@extend %svg-common;
+	background-position: 20% 53.333333333333336%;
+}
+
+.icon-menu-message-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-moreoptions {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 53.333333333333336%;
+}
+
+.icon-menu-moreoptions-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-music {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 53.333333333333336%;
+}
+
+.icon-menu-music-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-notification {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 50.847457627118644%;
+	background-position: 40% 53.333333333333336%;
 }
 
 .icon-menu-notification-dims {
@@ -1149,9 +824,89 @@
 	height: 25px;
 }
 
+.icon-menu-object {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 53.333333333333336%;
+}
+
+.icon-menu-object-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-overview {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 53.333333333333336%;
+}
+
+.icon-menu-overview-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-photography {
+	@extend %svg-common;
+	background-position: 60% 0;
+}
+
+.icon-menu-photography-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-profile {
+	@extend %svg-common;
+	background-position: 60% 6.666666666666667%;
+}
+
+.icon-menu-profile-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-project {
+	@extend %svg-common;
+	background-position: 60% 13.333333333333334%;
+}
+
+.icon-menu-project-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-publishing {
+	@extend %svg-common;
+	background-position: 60% 20%;
+}
+
+.icon-menu-publishing-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-reply {
+	@extend %svg-common;
+	background-position: 60% 26.666666666666668%;
+}
+
+.icon-menu-reply-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-reward {
+	@extend %svg-common;
+	background-position: 60% 33.333333333333336%;
+}
+
+.icon-menu-reward-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-search {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 59.32203389830509%;
+	background-position: 60% 40%;
 }
 
 .icon-menu-search-dims {
@@ -1159,9 +914,29 @@
 	height: 25px;
 }
 
+.icon-menu-seen {
+	@extend %svg-common;
+	background-position: 60% 46.666666666666664%;
+}
+
+.icon-menu-seen-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-send {
+	@extend %svg-common;
+	background-position: 60% 53.333333333333336%;
+}
+
+.icon-menu-send-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-settings {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 67.79661016949153%;
+	background-position: 0 60%;
 }
 
 .icon-menu-settings-dims {
@@ -1171,7 +946,7 @@
 
 .icon-menu-signout {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 76.27118644067797%;
+	background-position: 6.666666666666667% 60%;
 }
 
 .icon-menu-signout-dims {
@@ -1179,9 +954,69 @@
 	height: 25px;
 }
 
+.icon-menu-sport {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 60%;
+}
+
+.icon-menu-sport-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-start {
+	@extend %svg-common;
+	background-position: 20% 60%;
+}
+
+.icon-menu-start-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-team {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 60%;
+}
+
+.icon-menu-team-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-technology {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 60%;
+}
+
+.icon-menu-technology-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-time {
+	@extend %svg-common;
+	background-position: 40% 60%;
+}
+
+.icon-menu-time-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-menu-upload {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 60%;
+}
+
+.icon-menu-upload-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-user {
 	@extend %svg-common;
-	background-position: 0 91.52542372881356%;
+	background-position: 53.333333333333336% 60%;
 }
 
 .icon-menu-user-dims {
@@ -1189,9 +1024,19 @@
 	height: 25px;
 }
 
+.icon-menu-work {
+	@extend %svg-common;
+	background-position: 60% 60%;
+}
+
+.icon-menu-work-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-message {
 	@extend %svg-common;
-	background-position: 7.6923076923076925% 91.52542372881356%;
+	background-position: 66.66666666666667% 0;
 }
 
 .icon-message-dims {
@@ -1201,7 +1046,7 @@
 
 .icon-moreoptions {
 	@extend %svg-common;
-	background-position: 15.384615384615385% 91.52542372881356%;
+	background-position: 66.66666666666667% 6.666666666666667%;
 }
 
 .icon-moreoptions-dims {
@@ -1211,7 +1056,7 @@
 
 .icon-music {
 	@extend %svg-common;
-	background-position: 23.076923076923077% 91.52542372881356%;
+	background-position: 66.66666666666667% 13.333333333333334%;
 }
 
 .icon-music-dims {
@@ -1221,7 +1066,7 @@
 
 .icon-notification {
 	@extend %svg-common;
-	background-position: 30.76923076923077% 91.52542372881356%;
+	background-position: 66.66666666666667% 20%;
 }
 
 .icon-notification-dims {
@@ -1231,7 +1076,7 @@
 
 .icon-object {
 	@extend %svg-common;
-	background-position: 38.46153846153846% 91.52542372881356%;
+	background-position: 66.66666666666667% 26.666666666666668%;
 }
 
 .icon-object-dims {
@@ -1241,7 +1086,7 @@
 
 .icon-overview {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 91.52542372881356%;
+	background-position: 66.66666666666667% 33.333333333333336%;
 }
 
 .icon-overview-dims {
@@ -1249,19 +1094,9 @@
 	height: 25px;
 }
 
-.icon-invite {
-	@extend %svg-common;
-	background-position: 53.84615384615385% 91.52542372881356%;
-}
-
-.icon-invite-dims {
-	width: 25px;
-	height: 25px;
-}
-
 .icon-photography {
 	@extend %svg-common;
-	background-position: 61.53846153846154% 91.52542372881356%;
+	background-position: 66.66666666666667% 40%;
 }
 
 .icon-photography-dims {
@@ -1271,7 +1106,7 @@
 
 .icon-profile {
 	@extend %svg-common;
-	background-position: 69.23076923076923% 91.52542372881356%;
+	background-position: 66.66666666666667% 46.666666666666664%;
 }
 
 .icon-profile-dims {
@@ -1281,7 +1116,7 @@
 
 .icon-project {
 	@extend %svg-common;
-	background-position: 76.92307692307692% 91.52542372881356%;
+	background-position: 66.66666666666667% 53.333333333333336%;
 }
 
 .icon-project-dims {
@@ -1291,7 +1126,7 @@
 
 .icon-publishing {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 91.52542372881356%;
+	background-position: 66.66666666666667% 60%;
 }
 
 .icon-publishing-dims {
@@ -1301,7 +1136,7 @@
 
 .icon-reply {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 0;
+	background-position: 0 66.66666666666667%;
 }
 
 .icon-reply-dims {
@@ -1311,7 +1146,7 @@
 
 .icon-reward {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 8.474576271186441%;
+	background-position: 6.666666666666667% 66.66666666666667%;
 }
 
 .icon-reward-dims {
@@ -1321,7 +1156,7 @@
 
 .icon-search {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 16.949152542372882%;
+	background-position: 13.333333333333334% 66.66666666666667%;
 }
 
 .icon-search-dims {
@@ -1331,7 +1166,7 @@
 
 .icon-seen {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 25.423728813559322%;
+	background-position: 20% 66.66666666666667%;
 }
 
 .icon-seen-dims {
@@ -1341,7 +1176,7 @@
 
 .icon-send {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 33.898305084745765%;
+	background-position: 26.666666666666668% 66.66666666666667%;
 }
 
 .icon-send-dims {
@@ -1351,7 +1186,7 @@
 
 .icon-settings {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 42.3728813559322%;
+	background-position: 33.333333333333336% 66.66666666666667%;
 }
 
 .icon-settings-dims {
@@ -1361,7 +1196,7 @@
 
 .icon-sidepanel-activity {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 50.847457627118644%;
+	background-position: 40% 66.66666666666667%;
 }
 
 .icon-sidepanel-activity-dims {
@@ -1369,9 +1204,19 @@
 	height: 25px;
 }
 
+.icon-sidepanel-add {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 66.66666666666667%;
+}
+
+.icon-sidepanel-add-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-addmember {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 59.32203389830509%;
+	background-position: 53.333333333333336% 66.66666666666667%;
 }
 
 .icon-sidepanel-addmember-dims {
@@ -1381,7 +1226,7 @@
 
 .icon-sidepanel-allprojects {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 67.79661016949153%;
+	background-position: 60% 66.66666666666667%;
 }
 
 .icon-sidepanel-allprojects-dims {
@@ -1389,9 +1234,29 @@
 	height: 25px;
 }
 
+.icon-sidepanel-approved {
+	@extend %svg-common;
+	background-position: 66.66666666666667% 66.66666666666667%;
+}
+
+.icon-sidepanel-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-art {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 0;
+}
+
+.icon-sidepanel-art-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-blog {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 76.27118644067797%;
+	background-position: 0 0;
 }
 
 .icon-sidepanel-blog-dims {
@@ -1401,7 +1266,7 @@
 
 .icon-sidepanel-campaign {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 84.7457627118644%;
+	background-position: 73.33333333333333% 13.333333333333334%;
 }
 
 .icon-sidepanel-campaign-dims {
@@ -1409,9 +1274,19 @@
 	height: 25px;
 }
 
+.icon-sidepanel-campaigncompleted {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 20%;
+}
+
+.icon-sidepanel-campaigncompleted-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-city {
 	@extend %svg-common;
-	background-position: 0 100%;
+	background-position: 73.33333333333333% 26.666666666666668%;
 }
 
 .icon-sidepanel-city-dims {
@@ -1419,9 +1294,39 @@
 	height: 25px;
 }
 
+.icon-sidepanel-close {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 33.333333333333336%;
+}
+
+.icon-sidepanel-close-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-close2 {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 40%;
+}
+
+.icon-sidepanel-close2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-closedelete {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 46.666666666666664%;
+}
+
+.icon-sidepanel-closedelete-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-customeridea {
 	@extend %svg-common;
-	background-position: 7.6923076923076925% 100%;
+	background-position: 73.33333333333333% 53.333333333333336%;
 }
 
 .icon-sidepanel-customeridea-dims {
@@ -1429,9 +1334,39 @@
 	height: 25px;
 }
 
+.icon-sidepanel-dashboard {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 60%;
+}
+
+.icon-sidepanel-dashboard-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-design {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 66.66666666666667%;
+}
+
+.icon-sidepanel-design-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-developer {
+	@extend %svg-common;
+	background-position: 0 73.33333333333333%;
+}
+
+.icon-sidepanel-developer-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-document {
 	@extend %svg-common;
-	background-position: 15.384615384615385% 100%;
+	background-position: 6.666666666666667% 73.33333333333333%;
 }
 
 .icon-sidepanel-document-dims {
@@ -1439,9 +1374,89 @@
 	height: 25px;
 }
 
+.icon-sidepanel-download {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 73.33333333333333%;
+}
+
+.icon-sidepanel-download-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-download2 {
+	@extend %svg-common;
+	background-position: 20% 73.33333333333333%;
+}
+
+.icon-sidepanel-download2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-edit {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 73.33333333333333%;
+}
+
+.icon-sidepanel-edit-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-film {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 73.33333333333333%;
+}
+
+.icon-sidepanel-film-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-folder {
+	@extend %svg-common;
+	background-position: 40% 73.33333333333333%;
+}
+
+.icon-sidepanel-folder-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-follower {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 73.33333333333333%;
+}
+
+.icon-sidepanel-follower-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-food {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 73.33333333333333%;
+}
+
+.icon-sidepanel-food-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-games {
+	@extend %svg-common;
+	background-position: 60% 73.33333333333333%;
+}
+
+.icon-sidepanel-games-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-gender {
 	@extend %svg-common;
-	background-position: 23.076923076923077% 100%;
+	background-position: 66.66666666666667% 73.33333333333333%;
 }
 
 .icon-sidepanel-gender-dims {
@@ -1449,9 +1464,39 @@
 	height: 25px;
 }
 
+.icon-sidepanel-invite {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 73.33333333333333%;
+}
+
+.icon-sidepanel-invite-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-journalism {
+	@extend %svg-common;
+	background-position: 80% 0;
+}
+
+.icon-sidepanel-journalism-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-like {
+	@extend %svg-common;
+	background-position: 80% 6.666666666666667%;
+}
+
+.icon-sidepanel-like-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-location {
 	@extend %svg-common;
-	background-position: 30.76923076923077% 100%;
+	background-position: 80% 13.333333333333334%;
 }
 
 .icon-sidepanel-location-dims {
@@ -1459,9 +1504,49 @@
 	height: 25px;
 }
 
+.icon-sidepanel-locked {
+	@extend %svg-common;
+	background-position: 80% 20%;
+}
+
+.icon-sidepanel-locked-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-mail {
+	@extend %svg-common;
+	background-position: 80% 26.666666666666668%;
+}
+
+.icon-sidepanel-mail-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-mainauthor {
+	@extend %svg-common;
+	background-position: 80% 33.333333333333336%;
+}
+
+.icon-sidepanel-mainauthor-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-menu {
+	@extend %svg-common;
+	background-position: 80% 40%;
+}
+
+.icon-sidepanel-menu-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-message {
 	@extend %svg-common;
-	background-position: 38.46153846153846% 100%;
+	background-position: 80% 46.666666666666664%;
 }
 
 .icon-sidepanel-message-dims {
@@ -1469,9 +1554,29 @@
 	height: 25px;
 }
 
+.icon-sidepanel-moreoptions {
+	@extend %svg-common;
+	background-position: 80% 53.333333333333336%;
+}
+
+.icon-sidepanel-moreoptions-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-music {
+	@extend %svg-common;
+	background-position: 80% 60%;
+}
+
+.icon-sidepanel-music-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-notification {
 	@extend %svg-common;
-	background-position: 46.15384615384615% 100%;
+	background-position: 80% 66.66666666666667%;
 }
 
 .icon-sidepanel-notification-dims {
@@ -1479,9 +1584,39 @@
 	height: 25px;
 }
 
+.icon-sidepanel-object {
+	@extend %svg-common;
+	background-position: 80% 73.33333333333333%;
+}
+
+.icon-sidepanel-object-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-overview {
+	@extend %svg-common;
+	background-position: 0 80%;
+}
+
+.icon-sidepanel-overview-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-photography {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 80%;
+}
+
+.icon-sidepanel-photography-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-profile {
 	@extend %svg-common;
-	background-position: 53.84615384615385% 100%;
+	background-position: 13.333333333333334% 80%;
 }
 
 .icon-sidepanel-profile-dims {
@@ -1491,7 +1626,7 @@
 
 .icon-sidepanel-project {
 	@extend %svg-common;
-	background-position: 61.53846153846154% 100%;
+	background-position: 20% 80%;
 }
 
 .icon-sidepanel-project-dims {
@@ -1499,9 +1634,49 @@
 	height: 25px;
 }
 
+.icon-sidepanel-publishing {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 80%;
+}
+
+.icon-sidepanel-publishing-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-reply {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 80%;
+}
+
+.icon-sidepanel-reply-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-reward {
+	@extend %svg-common;
+	background-position: 40% 80%;
+}
+
+.icon-sidepanel-reward-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-search {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 80%;
+}
+
+.icon-sidepanel-search-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-seen {
 	@extend %svg-common;
-	background-position: 69.23076923076923% 100%;
+	background-position: 53.333333333333336% 80%;
 }
 
 .icon-sidepanel-seen-dims {
@@ -1509,9 +1684,59 @@
 	height: 25px;
 }
 
+.icon-sidepanel-send {
+	@extend %svg-common;
+	background-position: 60% 80%;
+}
+
+.icon-sidepanel-send-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-settings {
+	@extend %svg-common;
+	background-position: 66.66666666666667% 80%;
+}
+
+.icon-sidepanel-settings-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-signout {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 80%;
+}
+
+.icon-sidepanel-signout-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-sport {
+	@extend %svg-common;
+	background-position: 80% 80%;
+}
+
+.icon-sidepanel-sport-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-start {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 0;
+}
+
+.icon-sidepanel-start-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-team {
 	@extend %svg-common;
-	background-position: 76.92307692307692% 100%;
+	background-position: 86.66666666666667% 6.666666666666667%;
 }
 
 .icon-sidepanel-team-dims {
@@ -1519,9 +1744,49 @@
 	height: 25px;
 }
 
+.icon-sidepanel-technology {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 13.333333333333334%;
+}
+
+.icon-sidepanel-technology-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-time {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 20%;
+}
+
+.icon-sidepanel-time-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-upload {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 26.666666666666668%;
+}
+
+.icon-sidepanel-upload-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-sidepanel-user {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 33.333333333333336%;
+}
+
+.icon-sidepanel-user-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-work {
 	@extend %svg-common;
-	background-position: 84.61538461538461% 100%;
+	background-position: 86.66666666666667% 40%;
 }
 
 .icon-sidepanel-work-dims {
@@ -1531,7 +1796,7 @@
 
 .icon-signout {
 	@extend %svg-common;
-	background-position: 92.3076923076923% 100%;
+	background-position: 86.66666666666667% 46.666666666666664%;
 }
 
 .icon-signout-dims {
@@ -1541,7 +1806,7 @@
 
 .icon-sport {
 	@extend %svg-common;
-	background-position: 100% 0;
+	background-position: 86.66666666666667% 53.333333333333336%;
 }
 
 .icon-sport-dims {
@@ -1551,7 +1816,7 @@
 
 .icon-start {
 	@extend %svg-common;
-	background-position: 100% 8.474576271186441%;
+	background-position: 86.66666666666667% 60%;
 }
 
 .icon-start-dims {
@@ -1559,49 +1824,9 @@
 	height: 25px;
 }
 
-.icon-states-approve {
-	@extend %svg-common;
-	background-position: 100% 16.949152542372882%;
-}
-
-.icon-states-approve-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-states-approved {
-	@extend %svg-common;
-	background-position: 100% 25.423728813559322%;
-}
-
-.icon-states-approved-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-states-editstate {
-	@extend %svg-common;
-	background-position: 100% 33.898305084745765%;
-}
-
-.icon-states-editstate-dims {
-	width: 25px;
-	height: 25px;
-}
-
-.icon-states-liked {
-	@extend %svg-common;
-	background-position: 100% 42.3728813559322%;
-}
-
-.icon-states-liked-dims {
-	width: 25px;
-	height: 25px;
-}
-
 .icon-team {
 	@extend %svg-common;
-	background-position: 100% 50.847457627118644%;
+	background-position: 86.66666666666667% 66.66666666666667%;
 }
 
 .icon-team-dims {
@@ -1611,7 +1836,7 @@
 
 .icon-technology {
 	@extend %svg-common;
-	background-position: 100% 59.32203389830509%;
+	background-position: 86.66666666666667% 73.33333333333333%;
 }
 
 .icon-technology-dims {
@@ -1619,19 +1844,19 @@
 	height: 25px;
 }
 
-.icon-timedate {
+.icon-time {
 	@extend %svg-common;
-	background-position: 100% 67.79661016949153%;
+	background-position: 86.66666666666667% 80%;
 }
 
-.icon-timedate-dims {
+.icon-time-dims {
 	width: 25px;
 	height: 25px;
 }
 
 .icon-upload {
 	@extend %svg-common;
-	background-position: 100% 76.27118644067797%;
+	background-position: 0 86.66666666666667%;
 }
 
 .icon-upload-dims {
@@ -1641,7 +1866,7 @@
 
 .icon-user {
 	@extend %svg-common;
-	background-position: 100% 84.7457627118644%;
+	background-position: 6.666666666666667% 86.66666666666667%;
 }
 
 .icon-user-dims {
@@ -1649,13 +1874,612 @@
 	height: 25px;
 }
 
+.icon-white-activity {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 86.66666666666667%;
+}
+
+.icon-white-activity-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-add {
+	@extend %svg-common;
+	background-position: 20% 86.66666666666667%;
+}
+
+.icon-white-add-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-addmember {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 86.66666666666667%;
+}
+
+.icon-white-addmember-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-allprojects {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 86.66666666666667%;
+}
+
+.icon-white-allprojects-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-approved {
+	@extend %svg-common;
+	background-position: 40% 86.66666666666667%;
+}
+
+.icon-white-approved-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-art {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 86.66666666666667%;
+}
+
+.icon-white-art-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-blog {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 86.66666666666667%;
+}
+
+.icon-white-blog-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-campaign {
+	@extend %svg-common;
+	background-position: 60% 86.66666666666667%;
+}
+
+.icon-white-campaign-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-campaigncompleted {
+	@extend %svg-common;
+	background-position: 66.66666666666667% 86.66666666666667%;
+}
+
+.icon-white-campaigncompleted-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-city {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 86.66666666666667%;
+}
+
+.icon-white-city-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-close {
+	@extend %svg-common;
+	background-position: 80% 86.66666666666667%;
+}
+
+.icon-white-close-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-close2 {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 86.66666666666667%;
+}
+
+.icon-white-close2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-closedelete {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 0;
+}
+
+.icon-white-closedelete-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-customeridea {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 6.666666666666667%;
+}
+
+.icon-white-customeridea-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-dashboard {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 13.333333333333334%;
+}
+
+.icon-white-dashboard-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-design {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 20%;
+}
+
+.icon-white-design-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-developer {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 26.666666666666668%;
+}
+
+.icon-white-developer-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-document {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 33.333333333333336%;
+}
+
+.icon-white-document-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-download {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 40%;
+}
+
+.icon-white-download-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-download2 {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 46.666666666666664%;
+}
+
+.icon-white-download2-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-edit {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 53.333333333333336%;
+}
+
+.icon-white-edit-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-film {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 60%;
+}
+
+.icon-white-film-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-folder {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 66.66666666666667%;
+}
+
+.icon-white-folder-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-follower {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 73.33333333333333%;
+}
+
+.icon-white-follower-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-food {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 80%;
+}
+
+.icon-white-food-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-games {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 86.66666666666667%;
+}
+
+.icon-white-games-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-gender {
+	@extend %svg-common;
+	background-position: 0 93.33333333333333%;
+}
+
+.icon-white-gender-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-invite {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 93.33333333333333%;
+}
+
+.icon-white-invite-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-journalism {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 93.33333333333333%;
+}
+
+.icon-white-journalism-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-like {
+	@extend %svg-common;
+	background-position: 20% 93.33333333333333%;
+}
+
+.icon-white-like-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-location {
+	@extend %svg-common;
+	background-position: 26.666666666666668% 93.33333333333333%;
+}
+
+.icon-white-location-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-locked {
+	@extend %svg-common;
+	background-position: 33.333333333333336% 93.33333333333333%;
+}
+
+.icon-white-locked-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-mail {
+	@extend %svg-common;
+	background-position: 40% 93.33333333333333%;
+}
+
+.icon-white-mail-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-mainauthor {
+	@extend %svg-common;
+	background-position: 46.666666666666664% 93.33333333333333%;
+}
+
+.icon-white-mainauthor-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-menu {
+	@extend %svg-common;
+	background-position: 53.333333333333336% 93.33333333333333%;
+}
+
+.icon-white-menu-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-message {
+	@extend %svg-common;
+	background-position: 60% 93.33333333333333%;
+}
+
+.icon-white-message-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-moreoptions {
+	@extend %svg-common;
+	background-position: 66.66666666666667% 93.33333333333333%;
+}
+
+.icon-white-moreoptions-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-music {
+	@extend %svg-common;
+	background-position: 73.33333333333333% 93.33333333333333%;
+}
+
+.icon-white-music-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-notification {
+	@extend %svg-common;
+	background-position: 80% 93.33333333333333%;
+}
+
+.icon-white-notification-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-object {
+	@extend %svg-common;
+	background-position: 86.66666666666667% 93.33333333333333%;
+}
+
+.icon-white-object-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-overview {
+	@extend %svg-common;
+	background-position: 93.33333333333333% 93.33333333333333%;
+}
+
+.icon-white-overview-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-photography {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.icon-white-photography-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-profile {
+	@extend %svg-common;
+	background-position: 100% 6.666666666666667%;
+}
+
+.icon-white-profile-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-project {
+	@extend %svg-common;
+	background-position: 100% 13.333333333333334%;
+}
+
+.icon-white-project-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-publishing {
+	@extend %svg-common;
+	background-position: 100% 20%;
+}
+
+.icon-white-publishing-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-reply {
+	@extend %svg-common;
+	background-position: 100% 26.666666666666668%;
+}
+
+.icon-white-reply-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-reward {
+	@extend %svg-common;
+	background-position: 100% 33.333333333333336%;
+}
+
+.icon-white-reward-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-search {
+	@extend %svg-common;
+	background-position: 100% 40%;
+}
+
+.icon-white-search-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-seen {
+	@extend %svg-common;
+	background-position: 100% 46.666666666666664%;
+}
+
+.icon-white-seen-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-send {
+	@extend %svg-common;
+	background-position: 100% 53.333333333333336%;
+}
+
+.icon-white-send-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-settings {
+	@extend %svg-common;
+	background-position: 100% 60%;
+}
+
+.icon-white-settings-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-signout {
+	@extend %svg-common;
+	background-position: 100% 66.66666666666667%;
+}
+
+.icon-white-signout-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-sport {
+	@extend %svg-common;
+	background-position: 100% 73.33333333333333%;
+}
+
+.icon-white-sport-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-start {
+	@extend %svg-common;
+	background-position: 100% 80%;
+}
+
+.icon-white-start-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-team {
+	@extend %svg-common;
+	background-position: 100% 86.66666666666667%;
+}
+
+.icon-white-team-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-technology {
+	@extend %svg-common;
+	background-position: 100% 93.33333333333333%;
+}
+
+.icon-white-technology-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-time {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.icon-white-time-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-upload {
+	@extend %svg-common;
+	background-position: 6.666666666666667% 100%;
+}
+
+.icon-white-upload-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-user {
+	@extend %svg-common;
+	background-position: 13.333333333333334% 100%;
+}
+
+.icon-white-user-dims {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-white-work {
+	@extend %svg-common;
+	background-position: 20% 100%;
+}
+
+.icon-white-work-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-work {
 	@extend %svg-common;
-	background-position: 100% 93.22033898305085%;
+	background-position: 26.666666666666668% 100%;
 }
 
 .icon-work-dims {
 	width: 25px;
 	height: 25px;
 }
-

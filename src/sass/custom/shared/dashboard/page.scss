@@ -54,6 +54,8 @@ section.dashboard-page {
 					}
 
 					> header.main-header {
+						@include antialiasText();
+						/*
 						.svg {
 							display: inline-block;
 							height: 25px;
@@ -66,6 +68,7 @@ section.dashboard-page {
 								fill: $color-text-secondary;
 							}
 						}
+						*/
 
 						h1 {
 							display: inline-block;
@@ -119,6 +122,7 @@ section.dashboard-page {
 		}
 
 		> .complete-profile {
+			@include antialiasText();
 			display: none;
 			opacity: 0;
 

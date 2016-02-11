@@ -1,4 +1,6 @@
 .dashboard-side-menu {
+	@include antialiasText();
+
 	header {
 		.page-subtitle {
 			color: $color-menu-items;
@@ -30,6 +32,13 @@
 			padding-left: 0;
 		}
 
+		ul li a {
+			&:focus, &:hover {
+				color: $color-white;
+			}
+		}
+
+		/*
 		ul {
 			li {
 				&:last-child {
@@ -39,6 +48,7 @@
 				}
 			}
 		}
+		*/
 	}
 
 	.side-menu {
@@ -77,14 +87,14 @@
 						}
 					}
 
-					&:focus, &.active {
-						color: $color-shading-purple;
+					&:focus, &:hover {
+						color: $color-white;
 					}
 				}
 
 				&:hover {
 					> a {
-						color: $color-shading-purple;
+						color: $color-white;
 					}
 				}
 			}

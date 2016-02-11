@@ -40,7 +40,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-timedate"></div>
+						<div class="icon-time"></div>
 						<p>Days left</p>
 					</td>
 					<td class="col-xs-7">

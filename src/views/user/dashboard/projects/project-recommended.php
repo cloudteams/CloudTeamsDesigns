@@ -15,7 +15,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-followers"></div>
+						<div class="icon-follower"></div>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -46,7 +46,7 @@
 		</div>
 
 		<footer>
-			<a href="/views/public/projects/project" class="btn">Show project</a>
+			<a href="/views/logged-in/projects/project" class="btn">Show project</a>
 		</footer>
 	</div>
 </article>

@@ -20,7 +20,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-big icon-dashboard-project"></div>
+								<div class="icon-size-m icon-white-project"></div>
 								<h1 class="header-large">Projects</h1>
 							</div>
 

@@ -46,10 +46,20 @@ a {
 		outline: 0 !important;
 	}
 
+	/*
 	&:not(.btn):not(.btn-confirm):not(.btn-decline):not(.btn-download) {
 		&:hover, &:focus {
 			color: $color-text-secondary;
 		}
+	}
+	*/
+}
+
+p a, {
+	color: $color-flashy-purple;
+
+	&:focus, &:active, &:hover {
+		color: $color-shading-purple;
 	}
 }
 
