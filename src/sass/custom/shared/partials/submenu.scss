@@ -1,6 +1,7 @@
 .menu-subpage:not(.sidebar), .menu-subsection {
 	@include paddingV($margin-block-extra-small);
 	margin-bottom: $margin-block-extra-small;
+	@include antialiasText();
 
 	li {
 		border-bottom: 3px solid transparent;
@@ -13,6 +14,7 @@
 		padding-bottom: $margin-5;
 		text-transform: uppercase;
 		transition: all $transition-time-2 $cubic-bezier-2;
+		color: $color-shading-purple;
 
 		&.active {
 			color: $color-text-secondary;

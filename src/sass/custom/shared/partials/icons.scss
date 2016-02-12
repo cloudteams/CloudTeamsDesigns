@@ -1,8 +1,9 @@
-$sprite-sheet-background-width: 400px;
+$sprite-sheet-background-width: 425px;
 $sprite-sheet-background-height: 400px;
 $sprite-sheet-icon-size: 25px;
-$sprite-sheet-icon-size-m: 30px;
-$sprite-sheet-icon-size-xl: 60px;
+$sprite-sheet-icon-size-s: 20px;
+$sprite-sheet-icon-size-m: 40px;
+$sprite-sheet-icon-size-xl: 80px;
 
 %svg-common {
 	background: url(../img/icons.svg) no-repeat;
@@ -13,18 +14,43 @@ $sprite-sheet-icon-size-xl: 60px;
 	background-size: $sprite-sheet-background-width $sprite-sheet-background-height;
 }
 
+.icon-size-s {
+	background-size: ($sprite-sheet-background-width * $sprite-sheet-icon-size-s / $sprite-sheet-icon-size) ($sprite-sheet-background-height * $sprite-sheet-icon-size-s / $sprite-sheet-icon-size);
+	width: $sprite-sheet-icon-size-s;
+	height: $sprite-sheet-icon-size-s;
+	vertical-align: middle;
+	// display: inline-block;
+}
+
 .icon-size-m {
 	background-size: ($sprite-sheet-background-width * $sprite-sheet-icon-size-m / $sprite-sheet-icon-size) ($sprite-sheet-background-height * $sprite-sheet-icon-size-m / $sprite-sheet-icon-size);
 	width: $sprite-sheet-icon-size-m;
 	height: $sprite-sheet-icon-size-m;
 	vertical-align: middle;
+	// display: inline-block;
 }
 
 .icon-size-xl {
 	background-size: ($sprite-sheet-background-width * $sprite-sheet-icon-size-xl / $sprite-sheet-icon-size) ($sprite-sheet-background-height * $sprite-sheet-icon-size-xl / $sprite-sheet-icon-size);
 	width: $sprite-sheet-icon-size-xl;
 	height: $sprite-sheet-icon-size-xl;
-	vertical-align: middle;
+	// vertical-align: middle;
+	// display: inline-block;
+}
+
+.icon-arrowdown {
+	@extend .icon-arrowright;
+	transform: rotate(90deg);
+}
+
+.icon-menu-arrowdown {
+	@extend .icon-menu-arrowright;
+	transform: rotate(90deg);
+}
+
+.icon-sidepanel-arrowdown {
+	@extend .icon-sidepanel-arrowright;
+	transform: rotate(90deg);
 }
 
 
@@ -36,7 +62,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-activity {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 0;
+	background-position: 6.25% 0;
 }
 
 .icon-activity-dims {
@@ -46,7 +72,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-add {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 6.666666666666667%;
+	background-position: 68.75% 46.666666666666664%;
 }
 
 .icon-add-dims {
@@ -66,7 +92,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-allprojects {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 6.666666666666667%;
+	background-position: 6.25% 6.666666666666667%;
 }
 
 .icon-allprojects-dims {
@@ -76,7 +102,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-approved {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 0;
+	background-position: 12.5% 0;
 }
 
 .icon-approved-dims {
@@ -84,9 +110,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-arrowright {
+	@extend %svg-common;
+	background-position: 12.5% 6.666666666666667%;
+}
+
+.icon-arrowright-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-art {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 6.666666666666667%;
+	background-position: 0 13.333333333333334%;
 }
 
 .icon-art-dims {
@@ -96,7 +132,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-blog {
 	@extend %svg-common;
-	background-position: 0 13.333333333333334%;
+	background-position: 6.25% 13.333333333333334%;
 }
 
 .icon-blog-dims {
@@ -106,7 +142,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-campaign {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 13.333333333333334%;
+	background-position: 12.5% 13.333333333333334%;
 }
 
 .icon-campaign-dims {
@@ -116,7 +152,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-campaigncompleted {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 13.333333333333334%;
+	background-position: 18.75% 0;
 }
 
 .icon-campaigncompleted-dims {
@@ -126,7 +162,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-city {
 	@extend %svg-common;
-	background-position: 20% 0;
+	background-position: 18.75% 6.666666666666667%;
 }
 
 .icon-city-dims {
@@ -136,7 +172,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-close {
 	@extend %svg-common;
-	background-position: 20% 6.666666666666667%;
+	background-position: 18.75% 13.333333333333334%;
 }
 
 .icon-close-dims {
@@ -146,7 +182,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-close2 {
 	@extend %svg-common;
-	background-position: 20% 13.333333333333334%;
+	background-position: 0 20%;
 }
 
 .icon-close2-dims {
@@ -156,7 +192,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-closedelete {
 	@extend %svg-common;
-	background-position: 0 20%;
+	background-position: 6.25% 20%;
 }
 
 .icon-closedelete-dims {
@@ -166,7 +202,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-color-add {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 20%;
+	background-position: 12.5% 20%;
 }
 
 .icon-color-add-dims {
@@ -176,7 +212,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-color-approve {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 20%;
+	background-position: 18.75% 20%;
 }
 
 .icon-color-approve-dims {
@@ -186,7 +222,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-color-approved {
 	@extend %svg-common;
-	background-position: 20% 20%;
+	background-position: 25% 0;
 }
 
 .icon-color-approved-dims {
@@ -196,7 +232,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-color-editing {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 0;
+	background-position: 25% 6.666666666666667%;
 }
 
 .icon-color-editing-dims {
@@ -206,7 +242,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-color-liked {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 6.666666666666667%;
+	background-position: 25% 13.333333333333334%;
 }
 
 .icon-color-liked-dims {
@@ -216,7 +252,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-customeridea {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 13.333333333333334%;
+	background-position: 25% 20%;
 }
 
 .icon-customeridea-dims {
@@ -226,7 +262,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-dashboard {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 20%;
+	background-position: 0 26.666666666666668%;
 }
 
 .icon-dashboard-dims {
@@ -236,7 +272,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-design {
 	@extend %svg-common;
-	background-position: 0 26.666666666666668%;
+	background-position: 6.25% 26.666666666666668%;
 }
 
 .icon-design-dims {
@@ -246,7 +282,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-developer {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 26.666666666666668%;
+	background-position: 12.5% 26.666666666666668%;
 }
 
 .icon-developer-dims {
@@ -256,7 +292,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-document {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 26.666666666666668%;
+	background-position: 18.75% 26.666666666666668%;
 }
 
 .icon-document-dims {
@@ -266,7 +302,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-download {
 	@extend %svg-common;
-	background-position: 20% 26.666666666666668%;
+	background-position: 25% 26.666666666666668%;
 }
 
 .icon-download-dims {
@@ -276,7 +312,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-download2 {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 26.666666666666668%;
+	background-position: 31.25% 0;
 }
 
 .icon-download2-dims {
@@ -286,7 +322,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-edit {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 0;
+	background-position: 31.25% 6.666666666666667%;
 }
 
 .icon-edit-dims {
@@ -294,9 +330,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-facebook {
+	@extend %svg-common;
+	background-position: 31.25% 13.333333333333334%;
+}
+
+.icon-facebook-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-film {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 6.666666666666667%;
+	background-position: 31.25% 20%;
 }
 
 .icon-film-dims {
@@ -306,7 +352,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-folder {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 13.333333333333334%;
+	background-position: 31.25% 26.666666666666668%;
 }
 
 .icon-folder-dims {
@@ -316,7 +362,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-follower {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 20%;
+	background-position: 0 33.333333333333336%;
 }
 
 .icon-follower-dims {
@@ -326,7 +372,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-food {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 26.666666666666668%;
+	background-position: 6.25% 33.333333333333336%;
 }
 
 .icon-food-dims {
@@ -336,7 +382,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-games {
 	@extend %svg-common;
-	background-position: 0 33.333333333333336%;
+	background-position: 12.5% 33.333333333333336%;
 }
 
 .icon-games-dims {
@@ -346,7 +392,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-gender {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 33.333333333333336%;
+	background-position: 18.75% 33.333333333333336%;
 }
 
 .icon-gender-dims {
@@ -356,7 +402,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-invite {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 33.333333333333336%;
+	background-position: 25% 33.333333333333336%;
 }
 
 .icon-invite-dims {
@@ -366,7 +412,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-journalism {
 	@extend %svg-common;
-	background-position: 20% 33.333333333333336%;
+	background-position: 31.25% 33.333333333333336%;
 }
 
 .icon-journalism-dims {
@@ -376,7 +422,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-like {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 33.333333333333336%;
+	background-position: 37.5% 0;
 }
 
 .icon-like-dims {
@@ -386,7 +432,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-location {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 33.333333333333336%;
+	background-position: 37.5% 6.666666666666667%;
 }
 
 .icon-location-dims {
@@ -396,7 +442,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-locked {
 	@extend %svg-common;
-	background-position: 40% 0;
+	background-position: 37.5% 13.333333333333334%;
 }
 
 .icon-locked-dims {
@@ -406,7 +452,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-mail {
 	@extend %svg-common;
-	background-position: 40% 6.666666666666667%;
+	background-position: 37.5% 20%;
 }
 
 .icon-mail-dims {
@@ -416,7 +462,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-mainauthor {
 	@extend %svg-common;
-	background-position: 40% 13.333333333333334%;
+	background-position: 37.5% 26.666666666666668%;
 }
 
 .icon-mainauthor-dims {
@@ -426,7 +472,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu {
 	@extend %svg-common;
-	background-position: 40% 20%;
+	background-position: 37.5% 33.333333333333336%;
 }
 
 .icon-menu-dims {
@@ -436,7 +482,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-activity {
 	@extend %svg-common;
-	background-position: 40% 26.666666666666668%;
+	background-position: 0 40%;
 }
 
 .icon-menu-activity-dims {
@@ -446,7 +492,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-add {
 	@extend %svg-common;
-	background-position: 40% 33.333333333333336%;
+	background-position: 6.25% 40%;
 }
 
 .icon-menu-add-dims {
@@ -456,7 +502,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-addmember {
 	@extend %svg-common;
-	background-position: 0 40%;
+	background-position: 12.5% 40%;
 }
 
 .icon-menu-addmember-dims {
@@ -466,7 +512,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-allprojects {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 40%;
+	background-position: 18.75% 40%;
 }
 
 .icon-menu-allprojects-dims {
@@ -476,7 +522,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-approved {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 40%;
+	background-position: 25% 40%;
 }
 
 .icon-menu-approved-dims {
@@ -484,9 +530,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-menu-arrowright {
+	@extend %svg-common;
+	background-position: 31.25% 40%;
+}
+
+.icon-menu-arrowright-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-art {
 	@extend %svg-common;
-	background-position: 20% 40%;
+	background-position: 37.5% 40%;
 }
 
 .icon-menu-art-dims {
@@ -496,7 +552,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-blog {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 40%;
+	background-position: 43.75% 0;
 }
 
 .icon-menu-blog-dims {
@@ -506,7 +562,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-campaign {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 40%;
+	background-position: 43.75% 6.666666666666667%;
 }
 
 .icon-menu-campaign-dims {
@@ -516,7 +572,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-campaigncompleted {
 	@extend %svg-common;
-	background-position: 40% 40%;
+	background-position: 43.75% 13.333333333333334%;
 }
 
 .icon-menu-campaigncompleted-dims {
@@ -526,7 +582,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-city {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 0;
+	background-position: 43.75% 20%;
 }
 
 .icon-menu-city-dims {
@@ -536,7 +592,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-close {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 6.666666666666667%;
+	background-position: 43.75% 26.666666666666668%;
 }
 
 .icon-menu-close-dims {
@@ -546,7 +602,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-close2 {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 13.333333333333334%;
+	background-position: 43.75% 33.333333333333336%;
 }
 
 .icon-menu-close2-dims {
@@ -556,7 +612,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-closedelete {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 20%;
+	background-position: 43.75% 40%;
 }
 
 .icon-menu-closedelete-dims {
@@ -566,7 +622,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-customeridea {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 26.666666666666668%;
+	background-position: 0 46.666666666666664%;
 }
 
 .icon-menu-customeridea-dims {
@@ -576,7 +632,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-dashboard {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 33.333333333333336%;
+	background-position: 6.25% 46.666666666666664%;
 }
 
 .icon-menu-dashboard-dims {
@@ -586,7 +642,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-design {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 40%;
+	background-position: 12.5% 46.666666666666664%;
 }
 
 .icon-menu-design-dims {
@@ -596,7 +652,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-developer {
 	@extend %svg-common;
-	background-position: 0 46.666666666666664%;
+	background-position: 18.75% 46.666666666666664%;
 }
 
 .icon-menu-developer-dims {
@@ -606,7 +662,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-document {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 46.666666666666664%;
+	background-position: 25% 46.666666666666664%;
 }
 
 .icon-menu-document-dims {
@@ -616,7 +672,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-download {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 46.666666666666664%;
+	background-position: 31.25% 46.666666666666664%;
 }
 
 .icon-menu-download-dims {
@@ -626,7 +682,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-download2 {
 	@extend %svg-common;
-	background-position: 20% 46.666666666666664%;
+	background-position: 37.5% 46.666666666666664%;
 }
 
 .icon-menu-download2-dims {
@@ -636,7 +692,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-edit {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 46.666666666666664%;
+	background-position: 43.75% 46.666666666666664%;
 }
 
 .icon-menu-edit-dims {
@@ -644,9 +700,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-menu-facebook {
+	@extend %svg-common;
+	background-position: 50% 0;
+}
+
+.icon-menu-facebook-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-film {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 46.666666666666664%;
+	background-position: 50% 6.666666666666667%;
 }
 
 .icon-menu-film-dims {
@@ -656,7 +722,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-folder {
 	@extend %svg-common;
-	background-position: 40% 46.666666666666664%;
+	background-position: 50% 13.333333333333334%;
 }
 
 .icon-menu-folder-dims {
@@ -666,7 +732,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-follower {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 46.666666666666664%;
+	background-position: 50% 20%;
 }
 
 .icon-menu-follower-dims {
@@ -676,7 +742,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-food {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 0;
+	background-position: 50% 26.666666666666668%;
 }
 
 .icon-menu-food-dims {
@@ -686,7 +752,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-games {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 6.666666666666667%;
+	background-position: 50% 33.333333333333336%;
 }
 
 .icon-menu-games-dims {
@@ -696,7 +762,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-gender {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 13.333333333333334%;
+	background-position: 50% 40%;
 }
 
 .icon-menu-gender-dims {
@@ -706,7 +772,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-invite {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 20%;
+	background-position: 50% 46.666666666666664%;
 }
 
 .icon-menu-invite-dims {
@@ -716,7 +782,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-journalism {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 26.666666666666668%;
+	background-position: 0 53.333333333333336%;
 }
 
 .icon-menu-journalism-dims {
@@ -726,7 +792,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-like {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 33.333333333333336%;
+	background-position: 6.25% 53.333333333333336%;
 }
 
 .icon-menu-like-dims {
@@ -736,7 +802,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-location {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 40%;
+	background-position: 12.5% 53.333333333333336%;
 }
 
 .icon-menu-location-dims {
@@ -746,7 +812,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-locked {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 46.666666666666664%;
+	background-position: 18.75% 53.333333333333336%;
 }
 
 .icon-menu-locked-dims {
@@ -756,7 +822,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-mail {
 	@extend %svg-common;
-	background-position: 0 53.333333333333336%;
+	background-position: 25% 53.333333333333336%;
 }
 
 .icon-menu-mail-dims {
@@ -766,7 +832,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-mainauthor {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 53.333333333333336%;
+	background-position: 31.25% 53.333333333333336%;
 }
 
 .icon-menu-mainauthor-dims {
@@ -776,7 +842,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-menu {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 53.333333333333336%;
+	background-position: 37.5% 53.333333333333336%;
 }
 
 .icon-menu-menu-dims {
@@ -786,7 +852,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-message {
 	@extend %svg-common;
-	background-position: 20% 53.333333333333336%;
+	background-position: 43.75% 53.333333333333336%;
 }
 
 .icon-menu-message-dims {
@@ -796,7 +862,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-moreoptions {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 53.333333333333336%;
+	background-position: 50% 53.333333333333336%;
 }
 
 .icon-menu-moreoptions-dims {
@@ -806,7 +872,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-music {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 53.333333333333336%;
+	background-position: 56.25% 0;
 }
 
 .icon-menu-music-dims {
@@ -816,7 +882,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-notification {
 	@extend %svg-common;
-	background-position: 40% 53.333333333333336%;
+	background-position: 56.25% 6.666666666666667%;
 }
 
 .icon-menu-notification-dims {
@@ -826,7 +892,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-object {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 53.333333333333336%;
+	background-position: 56.25% 13.333333333333334%;
 }
 
 .icon-menu-object-dims {
@@ -836,7 +902,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-overview {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 53.333333333333336%;
+	background-position: 56.25% 20%;
 }
 
 .icon-menu-overview-dims {
@@ -846,7 +912,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-photography {
 	@extend %svg-common;
-	background-position: 60% 0;
+	background-position: 56.25% 26.666666666666668%;
 }
 
 .icon-menu-photography-dims {
@@ -856,7 +922,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-profile {
 	@extend %svg-common;
-	background-position: 60% 6.666666666666667%;
+	background-position: 56.25% 33.333333333333336%;
 }
 
 .icon-menu-profile-dims {
@@ -866,7 +932,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-project {
 	@extend %svg-common;
-	background-position: 60% 13.333333333333334%;
+	background-position: 56.25% 40%;
 }
 
 .icon-menu-project-dims {
@@ -876,7 +942,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-publishing {
 	@extend %svg-common;
-	background-position: 60% 20%;
+	background-position: 56.25% 46.666666666666664%;
 }
 
 .icon-menu-publishing-dims {
@@ -886,7 +952,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-reply {
 	@extend %svg-common;
-	background-position: 60% 26.666666666666668%;
+	background-position: 56.25% 53.333333333333336%;
 }
 
 .icon-menu-reply-dims {
@@ -896,7 +962,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-reward {
 	@extend %svg-common;
-	background-position: 60% 33.333333333333336%;
+	background-position: 0 60%;
 }
 
 .icon-menu-reward-dims {
@@ -906,7 +972,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-search {
 	@extend %svg-common;
-	background-position: 60% 40%;
+	background-position: 6.25% 60%;
 }
 
 .icon-menu-search-dims {
@@ -916,7 +982,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-seen {
 	@extend %svg-common;
-	background-position: 60% 46.666666666666664%;
+	background-position: 12.5% 60%;
 }
 
 .icon-menu-seen-dims {
@@ -926,7 +992,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-send {
 	@extend %svg-common;
-	background-position: 60% 53.333333333333336%;
+	background-position: 18.75% 60%;
 }
 
 .icon-menu-send-dims {
@@ -936,7 +1002,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-settings {
 	@extend %svg-common;
-	background-position: 0 60%;
+	background-position: 25% 60%;
 }
 
 .icon-menu-settings-dims {
@@ -946,7 +1012,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-signout {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 60%;
+	background-position: 31.25% 60%;
 }
 
 .icon-menu-signout-dims {
@@ -956,7 +1022,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-sport {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 60%;
+	background-position: 37.5% 60%;
 }
 
 .icon-menu-sport-dims {
@@ -966,7 +1032,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-start {
 	@extend %svg-common;
-	background-position: 20% 60%;
+	background-position: 43.75% 60%;
 }
 
 .icon-menu-start-dims {
@@ -976,7 +1042,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-team {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 60%;
+	background-position: 50% 60%;
 }
 
 .icon-menu-team-dims {
@@ -986,7 +1052,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-technology {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 60%;
+	background-position: 56.25% 60%;
 }
 
 .icon-menu-technology-dims {
@@ -996,7 +1062,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-time {
 	@extend %svg-common;
-	background-position: 40% 60%;
+	background-position: 62.5% 0;
 }
 
 .icon-menu-time-dims {
@@ -1004,9 +1070,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-menu-twitter {
+	@extend %svg-common;
+	background-position: 62.5% 6.666666666666667%;
+}
+
+.icon-menu-twitter-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-menu-upload {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 60%;
+	background-position: 62.5% 13.333333333333334%;
 }
 
 .icon-menu-upload-dims {
@@ -1016,7 +1092,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-user {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 60%;
+	background-position: 62.5% 20%;
 }
 
 .icon-menu-user-dims {
@@ -1026,7 +1102,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-menu-work {
 	@extend %svg-common;
-	background-position: 60% 60%;
+	background-position: 62.5% 26.666666666666668%;
 }
 
 .icon-menu-work-dims {
@@ -1036,7 +1112,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-message {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 0;
+	background-position: 62.5% 33.333333333333336%;
 }
 
 .icon-message-dims {
@@ -1046,7 +1122,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-moreoptions {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 6.666666666666667%;
+	background-position: 62.5% 40%;
 }
 
 .icon-moreoptions-dims {
@@ -1056,7 +1132,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-music {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 13.333333333333334%;
+	background-position: 62.5% 46.666666666666664%;
 }
 
 .icon-music-dims {
@@ -1066,7 +1142,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-notification {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 20%;
+	background-position: 62.5% 53.333333333333336%;
 }
 
 .icon-notification-dims {
@@ -1076,7 +1152,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-object {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 26.666666666666668%;
+	background-position: 62.5% 60%;
 }
 
 .icon-object-dims {
@@ -1086,7 +1162,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-overview {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 33.333333333333336%;
+	background-position: 0 66.66666666666667%;
 }
 
 .icon-overview-dims {
@@ -1096,7 +1172,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-photography {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 40%;
+	background-position: 6.25% 66.66666666666667%;
 }
 
 .icon-photography-dims {
@@ -1106,7 +1182,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-profile {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 46.666666666666664%;
+	background-position: 12.5% 66.66666666666667%;
 }
 
 .icon-profile-dims {
@@ -1116,7 +1192,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-project {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 53.333333333333336%;
+	background-position: 18.75% 66.66666666666667%;
 }
 
 .icon-project-dims {
@@ -1126,7 +1202,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-publishing {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 60%;
+	background-position: 25% 66.66666666666667%;
 }
 
 .icon-publishing-dims {
@@ -1136,7 +1212,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-reply {
 	@extend %svg-common;
-	background-position: 0 66.66666666666667%;
+	background-position: 31.25% 66.66666666666667%;
 }
 
 .icon-reply-dims {
@@ -1146,7 +1222,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-reward {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 66.66666666666667%;
+	background-position: 37.5% 66.66666666666667%;
 }
 
 .icon-reward-dims {
@@ -1156,7 +1232,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-search {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 66.66666666666667%;
+	background-position: 43.75% 66.66666666666667%;
 }
 
 .icon-search-dims {
@@ -1166,7 +1242,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-seen {
 	@extend %svg-common;
-	background-position: 20% 66.66666666666667%;
+	background-position: 50% 66.66666666666667%;
 }
 
 .icon-seen-dims {
@@ -1176,7 +1252,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-send {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 66.66666666666667%;
+	background-position: 56.25% 66.66666666666667%;
 }
 
 .icon-send-dims {
@@ -1186,7 +1262,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-settings {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 66.66666666666667%;
+	background-position: 62.5% 66.66666666666667%;
 }
 
 .icon-settings-dims {
@@ -1196,7 +1272,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-activity {
 	@extend %svg-common;
-	background-position: 40% 66.66666666666667%;
+	background-position: 68.75% 0;
 }
 
 .icon-sidepanel-activity-dims {
@@ -1206,7 +1282,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-add {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 66.66666666666667%;
+	background-position: 68.75% 6.666666666666667%;
 }
 
 .icon-sidepanel-add-dims {
@@ -1216,7 +1292,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-addmember {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 66.66666666666667%;
+	background-position: 68.75% 13.333333333333334%;
 }
 
 .icon-sidepanel-addmember-dims {
@@ -1226,7 +1302,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-allprojects {
 	@extend %svg-common;
-	background-position: 60% 66.66666666666667%;
+	background-position: 68.75% 20%;
 }
 
 .icon-sidepanel-allprojects-dims {
@@ -1236,7 +1312,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-approved {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 66.66666666666667%;
+	background-position: 68.75% 26.666666666666668%;
 }
 
 .icon-sidepanel-approved-dims {
@@ -1244,9 +1320,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-sidepanel-arrowright {
+	@extend %svg-common;
+	background-position: 68.75% 33.333333333333336%;
+}
+
+.icon-sidepanel-arrowright-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-art {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 0;
+	background-position: 68.75% 40%;
 }
 
 .icon-sidepanel-art-dims {
@@ -1266,7 +1352,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-campaign {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 13.333333333333334%;
+	background-position: 68.75% 53.333333333333336%;
 }
 
 .icon-sidepanel-campaign-dims {
@@ -1276,7 +1362,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-campaigncompleted {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 20%;
+	background-position: 68.75% 60%;
 }
 
 .icon-sidepanel-campaigncompleted-dims {
@@ -1286,7 +1372,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-city {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 26.666666666666668%;
+	background-position: 68.75% 66.66666666666667%;
 }
 
 .icon-sidepanel-city-dims {
@@ -1296,7 +1382,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-close {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 33.333333333333336%;
+	background-position: 0 73.33333333333333%;
 }
 
 .icon-sidepanel-close-dims {
@@ -1306,7 +1392,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-close2 {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 40%;
+	background-position: 6.25% 73.33333333333333%;
 }
 
 .icon-sidepanel-close2-dims {
@@ -1316,7 +1402,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-closedelete {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 46.666666666666664%;
+	background-position: 12.5% 73.33333333333333%;
 }
 
 .icon-sidepanel-closedelete-dims {
@@ -1326,7 +1412,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-customeridea {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 53.333333333333336%;
+	background-position: 18.75% 73.33333333333333%;
 }
 
 .icon-sidepanel-customeridea-dims {
@@ -1336,7 +1422,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-dashboard {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 60%;
+	background-position: 25% 73.33333333333333%;
 }
 
 .icon-sidepanel-dashboard-dims {
@@ -1346,7 +1432,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-design {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 66.66666666666667%;
+	background-position: 31.25% 73.33333333333333%;
 }
 
 .icon-sidepanel-design-dims {
@@ -1356,7 +1442,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-developer {
 	@extend %svg-common;
-	background-position: 0 73.33333333333333%;
+	background-position: 37.5% 73.33333333333333%;
 }
 
 .icon-sidepanel-developer-dims {
@@ -1366,7 +1452,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-document {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 73.33333333333333%;
+	background-position: 43.75% 73.33333333333333%;
 }
 
 .icon-sidepanel-document-dims {
@@ -1376,7 +1462,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-download {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 73.33333333333333%;
+	background-position: 50% 73.33333333333333%;
 }
 
 .icon-sidepanel-download-dims {
@@ -1386,7 +1472,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-download2 {
 	@extend %svg-common;
-	background-position: 20% 73.33333333333333%;
+	background-position: 56.25% 73.33333333333333%;
 }
 
 .icon-sidepanel-download2-dims {
@@ -1396,7 +1482,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-edit {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 73.33333333333333%;
+	background-position: 62.5% 73.33333333333333%;
 }
 
 .icon-sidepanel-edit-dims {
@@ -1404,9 +1490,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-sidepanel-facebook {
+	@extend %svg-common;
+	background-position: 68.75% 73.33333333333333%;
+}
+
+.icon-sidepanel-facebook-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-film {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 73.33333333333333%;
+	background-position: 75% 0;
 }
 
 .icon-sidepanel-film-dims {
@@ -1416,7 +1512,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-folder {
 	@extend %svg-common;
-	background-position: 40% 73.33333333333333%;
+	background-position: 75% 6.666666666666667%;
 }
 
 .icon-sidepanel-folder-dims {
@@ -1426,7 +1522,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-follower {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 73.33333333333333%;
+	background-position: 75% 13.333333333333334%;
 }
 
 .icon-sidepanel-follower-dims {
@@ -1436,7 +1532,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-food {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 73.33333333333333%;
+	background-position: 75% 20%;
 }
 
 .icon-sidepanel-food-dims {
@@ -1446,7 +1542,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-games {
 	@extend %svg-common;
-	background-position: 60% 73.33333333333333%;
+	background-position: 75% 26.666666666666668%;
 }
 
 .icon-sidepanel-games-dims {
@@ -1456,7 +1552,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-gender {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 73.33333333333333%;
+	background-position: 75% 33.333333333333336%;
 }
 
 .icon-sidepanel-gender-dims {
@@ -1466,7 +1562,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-invite {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 73.33333333333333%;
+	background-position: 75% 40%;
 }
 
 .icon-sidepanel-invite-dims {
@@ -1476,7 +1572,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-journalism {
 	@extend %svg-common;
-	background-position: 80% 0;
+	background-position: 75% 46.666666666666664%;
 }
 
 .icon-sidepanel-journalism-dims {
@@ -1486,7 +1582,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-like {
 	@extend %svg-common;
-	background-position: 80% 6.666666666666667%;
+	background-position: 75% 53.333333333333336%;
 }
 
 .icon-sidepanel-like-dims {
@@ -1496,7 +1592,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-location {
 	@extend %svg-common;
-	background-position: 80% 13.333333333333334%;
+	background-position: 75% 60%;
 }
 
 .icon-sidepanel-location-dims {
@@ -1506,7 +1602,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-locked {
 	@extend %svg-common;
-	background-position: 80% 20%;
+	background-position: 75% 66.66666666666667%;
 }
 
 .icon-sidepanel-locked-dims {
@@ -1516,7 +1612,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-mail {
 	@extend %svg-common;
-	background-position: 80% 26.666666666666668%;
+	background-position: 75% 73.33333333333333%;
 }
 
 .icon-sidepanel-mail-dims {
@@ -1526,7 +1622,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-mainauthor {
 	@extend %svg-common;
-	background-position: 80% 33.333333333333336%;
+	background-position: 0 80%;
 }
 
 .icon-sidepanel-mainauthor-dims {
@@ -1536,7 +1632,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-menu {
 	@extend %svg-common;
-	background-position: 80% 40%;
+	background-position: 6.25% 80%;
 }
 
 .icon-sidepanel-menu-dims {
@@ -1546,7 +1642,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-message {
 	@extend %svg-common;
-	background-position: 80% 46.666666666666664%;
+	background-position: 12.5% 80%;
 }
 
 .icon-sidepanel-message-dims {
@@ -1556,7 +1652,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-moreoptions {
 	@extend %svg-common;
-	background-position: 80% 53.333333333333336%;
+	background-position: 18.75% 80%;
 }
 
 .icon-sidepanel-moreoptions-dims {
@@ -1566,7 +1662,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-music {
 	@extend %svg-common;
-	background-position: 80% 60%;
+	background-position: 25% 80%;
 }
 
 .icon-sidepanel-music-dims {
@@ -1576,7 +1672,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-notification {
 	@extend %svg-common;
-	background-position: 80% 66.66666666666667%;
+	background-position: 31.25% 80%;
 }
 
 .icon-sidepanel-notification-dims {
@@ -1586,7 +1682,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-object {
 	@extend %svg-common;
-	background-position: 80% 73.33333333333333%;
+	background-position: 37.5% 80%;
 }
 
 .icon-sidepanel-object-dims {
@@ -1596,7 +1692,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-overview {
 	@extend %svg-common;
-	background-position: 0 80%;
+	background-position: 43.75% 80%;
 }
 
 .icon-sidepanel-overview-dims {
@@ -1606,7 +1702,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-photography {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 80%;
+	background-position: 50% 80%;
 }
 
 .icon-sidepanel-photography-dims {
@@ -1616,7 +1712,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-profile {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 80%;
+	background-position: 56.25% 80%;
 }
 
 .icon-sidepanel-profile-dims {
@@ -1626,7 +1722,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-project {
 	@extend %svg-common;
-	background-position: 20% 80%;
+	background-position: 62.5% 80%;
 }
 
 .icon-sidepanel-project-dims {
@@ -1636,7 +1732,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-publishing {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 80%;
+	background-position: 68.75% 80%;
 }
 
 .icon-sidepanel-publishing-dims {
@@ -1646,7 +1742,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-reply {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 80%;
+	background-position: 75% 80%;
 }
 
 .icon-sidepanel-reply-dims {
@@ -1656,7 +1752,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-reward {
 	@extend %svg-common;
-	background-position: 40% 80%;
+	background-position: 81.25% 0;
 }
 
 .icon-sidepanel-reward-dims {
@@ -1666,7 +1762,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-search {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 80%;
+	background-position: 81.25% 6.666666666666667%;
 }
 
 .icon-sidepanel-search-dims {
@@ -1676,7 +1772,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-seen {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 80%;
+	background-position: 81.25% 13.333333333333334%;
 }
 
 .icon-sidepanel-seen-dims {
@@ -1686,7 +1782,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-send {
 	@extend %svg-common;
-	background-position: 60% 80%;
+	background-position: 81.25% 20%;
 }
 
 .icon-sidepanel-send-dims {
@@ -1696,7 +1792,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-settings {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 80%;
+	background-position: 81.25% 26.666666666666668%;
 }
 
 .icon-sidepanel-settings-dims {
@@ -1706,7 +1802,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-signout {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 80%;
+	background-position: 81.25% 33.333333333333336%;
 }
 
 .icon-sidepanel-signout-dims {
@@ -1716,7 +1812,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-sport {
 	@extend %svg-common;
-	background-position: 80% 80%;
+	background-position: 81.25% 40%;
 }
 
 .icon-sidepanel-sport-dims {
@@ -1726,7 +1822,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-start {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 0;
+	background-position: 81.25% 46.666666666666664%;
 }
 
 .icon-sidepanel-start-dims {
@@ -1736,7 +1832,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-team {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 6.666666666666667%;
+	background-position: 81.25% 53.333333333333336%;
 }
 
 .icon-sidepanel-team-dims {
@@ -1746,7 +1842,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-technology {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 13.333333333333334%;
+	background-position: 81.25% 60%;
 }
 
 .icon-sidepanel-technology-dims {
@@ -1756,7 +1852,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-time {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 20%;
+	background-position: 81.25% 66.66666666666667%;
 }
 
 .icon-sidepanel-time-dims {
@@ -1764,9 +1860,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-sidepanel-twitter {
+	@extend %svg-common;
+	background-position: 81.25% 73.33333333333333%;
+}
+
+.icon-sidepanel-twitter-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-sidepanel-upload {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 26.666666666666668%;
+	background-position: 81.25% 80%;
 }
 
 .icon-sidepanel-upload-dims {
@@ -1776,7 +1882,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-user {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 33.333333333333336%;
+	background-position: 0 86.66666666666667%;
 }
 
 .icon-sidepanel-user-dims {
@@ -1786,7 +1892,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sidepanel-work {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 40%;
+	background-position: 6.25% 86.66666666666667%;
 }
 
 .icon-sidepanel-work-dims {
@@ -1796,7 +1902,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-signout {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 46.666666666666664%;
+	background-position: 12.5% 86.66666666666667%;
 }
 
 .icon-signout-dims {
@@ -1806,7 +1912,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-sport {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 53.333333333333336%;
+	background-position: 18.75% 86.66666666666667%;
 }
 
 .icon-sport-dims {
@@ -1816,7 +1922,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-start {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 60%;
+	background-position: 25% 86.66666666666667%;
 }
 
 .icon-start-dims {
@@ -1826,7 +1932,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-team {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 66.66666666666667%;
+	background-position: 31.25% 86.66666666666667%;
 }
 
 .icon-team-dims {
@@ -1836,7 +1942,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-technology {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 73.33333333333333%;
+	background-position: 37.5% 86.66666666666667%;
 }
 
 .icon-technology-dims {
@@ -1846,7 +1952,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-time {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 80%;
+	background-position: 43.75% 86.66666666666667%;
 }
 
 .icon-time-dims {
@@ -1854,9 +1960,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-twitter {
+	@extend %svg-common;
+	background-position: 50% 86.66666666666667%;
+}
+
+.icon-twitter-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-upload {
 	@extend %svg-common;
-	background-position: 0 86.66666666666667%;
+	background-position: 56.25% 86.66666666666667%;
 }
 
 .icon-upload-dims {
@@ -1866,7 +1982,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-user {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 86.66666666666667%;
+	background-position: 62.5% 86.66666666666667%;
 }
 
 .icon-user-dims {
@@ -1876,7 +1992,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-activity {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 86.66666666666667%;
+	background-position: 68.75% 86.66666666666667%;
 }
 
 .icon-white-activity-dims {
@@ -1886,7 +2002,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-add {
 	@extend %svg-common;
-	background-position: 20% 86.66666666666667%;
+	background-position: 75% 86.66666666666667%;
 }
 
 .icon-white-add-dims {
@@ -1896,7 +2012,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-addmember {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 86.66666666666667%;
+	background-position: 81.25% 86.66666666666667%;
 }
 
 .icon-white-addmember-dims {
@@ -1906,7 +2022,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-allprojects {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 86.66666666666667%;
+	background-position: 87.5% 0;
 }
 
 .icon-white-allprojects-dims {
@@ -1916,7 +2032,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-approved {
 	@extend %svg-common;
-	background-position: 40% 86.66666666666667%;
+	background-position: 87.5% 6.666666666666667%;
 }
 
 .icon-white-approved-dims {
@@ -1924,9 +2040,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-white-arrowright {
+	@extend %svg-common;
+	background-position: 87.5% 13.333333333333334%;
+}
+
+.icon-white-arrowright-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-white-art {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 86.66666666666667%;
+	background-position: 87.5% 20%;
 }
 
 .icon-white-art-dims {
@@ -1936,7 +2062,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-blog {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 86.66666666666667%;
+	background-position: 87.5% 26.666666666666668%;
 }
 
 .icon-white-blog-dims {
@@ -1946,7 +2072,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-campaign {
 	@extend %svg-common;
-	background-position: 60% 86.66666666666667%;
+	background-position: 87.5% 33.333333333333336%;
 }
 
 .icon-white-campaign-dims {
@@ -1956,7 +2082,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-campaigncompleted {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 86.66666666666667%;
+	background-position: 87.5% 40%;
 }
 
 .icon-white-campaigncompleted-dims {
@@ -1966,7 +2092,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-city {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 86.66666666666667%;
+	background-position: 87.5% 46.666666666666664%;
 }
 
 .icon-white-city-dims {
@@ -1976,7 +2102,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-close {
 	@extend %svg-common;
-	background-position: 80% 86.66666666666667%;
+	background-position: 87.5% 53.333333333333336%;
 }
 
 .icon-white-close-dims {
@@ -1986,7 +2112,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-close2 {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 86.66666666666667%;
+	background-position: 87.5% 60%;
 }
 
 .icon-white-close2-dims {
@@ -1996,7 +2122,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-closedelete {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 0;
+	background-position: 87.5% 66.66666666666667%;
 }
 
 .icon-white-closedelete-dims {
@@ -2006,7 +2132,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-customeridea {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 6.666666666666667%;
+	background-position: 87.5% 73.33333333333333%;
 }
 
 .icon-white-customeridea-dims {
@@ -2016,7 +2142,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-dashboard {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 13.333333333333334%;
+	background-position: 87.5% 80%;
 }
 
 .icon-white-dashboard-dims {
@@ -2026,7 +2152,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-design {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 20%;
+	background-position: 87.5% 86.66666666666667%;
 }
 
 .icon-white-design-dims {
@@ -2036,7 +2162,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-developer {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 26.666666666666668%;
+	background-position: 0 93.33333333333333%;
 }
 
 .icon-white-developer-dims {
@@ -2046,7 +2172,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-document {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 33.333333333333336%;
+	background-position: 6.25% 93.33333333333333%;
 }
 
 .icon-white-document-dims {
@@ -2056,7 +2182,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-download {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 40%;
+	background-position: 12.5% 93.33333333333333%;
 }
 
 .icon-white-download-dims {
@@ -2066,7 +2192,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-download2 {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 46.666666666666664%;
+	background-position: 18.75% 93.33333333333333%;
 }
 
 .icon-white-download2-dims {
@@ -2076,7 +2202,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-edit {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 53.333333333333336%;
+	background-position: 25% 93.33333333333333%;
 }
 
 .icon-white-edit-dims {
@@ -2084,9 +2210,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-white-facebook {
+	@extend %svg-common;
+	background-position: 31.25% 93.33333333333333%;
+}
+
+.icon-white-facebook-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-white-film {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 60%;
+	background-position: 37.5% 93.33333333333333%;
 }
 
 .icon-white-film-dims {
@@ -2096,7 +2232,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-folder {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 66.66666666666667%;
+	background-position: 43.75% 93.33333333333333%;
 }
 
 .icon-white-folder-dims {
@@ -2106,7 +2242,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-follower {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 73.33333333333333%;
+	background-position: 50% 93.33333333333333%;
 }
 
 .icon-white-follower-dims {
@@ -2116,7 +2252,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-food {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 80%;
+	background-position: 56.25% 93.33333333333333%;
 }
 
 .icon-white-food-dims {
@@ -2126,7 +2262,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-games {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 86.66666666666667%;
+	background-position: 62.5% 93.33333333333333%;
 }
 
 .icon-white-games-dims {
@@ -2136,7 +2272,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-gender {
 	@extend %svg-common;
-	background-position: 0 93.33333333333333%;
+	background-position: 68.75% 93.33333333333333%;
 }
 
 .icon-white-gender-dims {
@@ -2146,7 +2282,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-invite {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 93.33333333333333%;
+	background-position: 75% 93.33333333333333%;
 }
 
 .icon-white-invite-dims {
@@ -2156,7 +2292,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-journalism {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 93.33333333333333%;
+	background-position: 81.25% 93.33333333333333%;
 }
 
 .icon-white-journalism-dims {
@@ -2166,7 +2302,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-like {
 	@extend %svg-common;
-	background-position: 20% 93.33333333333333%;
+	background-position: 87.5% 93.33333333333333%;
 }
 
 .icon-white-like-dims {
@@ -2176,7 +2312,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-location {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 93.33333333333333%;
+	background-position: 93.75% 0;
 }
 
 .icon-white-location-dims {
@@ -2186,7 +2322,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-locked {
 	@extend %svg-common;
-	background-position: 33.333333333333336% 93.33333333333333%;
+	background-position: 93.75% 6.666666666666667%;
 }
 
 .icon-white-locked-dims {
@@ -2196,7 +2332,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-mail {
 	@extend %svg-common;
-	background-position: 40% 93.33333333333333%;
+	background-position: 93.75% 13.333333333333334%;
 }
 
 .icon-white-mail-dims {
@@ -2206,7 +2342,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-mainauthor {
 	@extend %svg-common;
-	background-position: 46.666666666666664% 93.33333333333333%;
+	background-position: 93.75% 20%;
 }
 
 .icon-white-mainauthor-dims {
@@ -2216,7 +2352,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-menu {
 	@extend %svg-common;
-	background-position: 53.333333333333336% 93.33333333333333%;
+	background-position: 93.75% 26.666666666666668%;
 }
 
 .icon-white-menu-dims {
@@ -2226,7 +2362,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-message {
 	@extend %svg-common;
-	background-position: 60% 93.33333333333333%;
+	background-position: 93.75% 33.333333333333336%;
 }
 
 .icon-white-message-dims {
@@ -2236,7 +2372,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-moreoptions {
 	@extend %svg-common;
-	background-position: 66.66666666666667% 93.33333333333333%;
+	background-position: 93.75% 40%;
 }
 
 .icon-white-moreoptions-dims {
@@ -2246,7 +2382,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-music {
 	@extend %svg-common;
-	background-position: 73.33333333333333% 93.33333333333333%;
+	background-position: 93.75% 46.666666666666664%;
 }
 
 .icon-white-music-dims {
@@ -2256,7 +2392,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-notification {
 	@extend %svg-common;
-	background-position: 80% 93.33333333333333%;
+	background-position: 93.75% 53.333333333333336%;
 }
 
 .icon-white-notification-dims {
@@ -2266,7 +2402,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-object {
 	@extend %svg-common;
-	background-position: 86.66666666666667% 93.33333333333333%;
+	background-position: 93.75% 60%;
 }
 
 .icon-white-object-dims {
@@ -2276,7 +2412,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-overview {
 	@extend %svg-common;
-	background-position: 93.33333333333333% 93.33333333333333%;
+	background-position: 93.75% 66.66666666666667%;
 }
 
 .icon-white-overview-dims {
@@ -2286,7 +2422,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-photography {
 	@extend %svg-common;
-	background-position: 100% 0;
+	background-position: 93.75% 73.33333333333333%;
 }
 
 .icon-white-photography-dims {
@@ -2296,7 +2432,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-profile {
 	@extend %svg-common;
-	background-position: 100% 6.666666666666667%;
+	background-position: 93.75% 80%;
 }
 
 .icon-white-profile-dims {
@@ -2306,7 +2442,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-project {
 	@extend %svg-common;
-	background-position: 100% 13.333333333333334%;
+	background-position: 93.75% 86.66666666666667%;
 }
 
 .icon-white-project-dims {
@@ -2316,7 +2452,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-publishing {
 	@extend %svg-common;
-	background-position: 100% 20%;
+	background-position: 93.75% 93.33333333333333%;
 }
 
 .icon-white-publishing-dims {
@@ -2326,7 +2462,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-reply {
 	@extend %svg-common;
-	background-position: 100% 26.666666666666668%;
+	background-position: 0 100%;
 }
 
 .icon-white-reply-dims {
@@ -2336,7 +2472,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-reward {
 	@extend %svg-common;
-	background-position: 100% 33.333333333333336%;
+	background-position: 6.25% 100%;
 }
 
 .icon-white-reward-dims {
@@ -2346,7 +2482,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-search {
 	@extend %svg-common;
-	background-position: 100% 40%;
+	background-position: 12.5% 100%;
 }
 
 .icon-white-search-dims {
@@ -2356,7 +2492,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-seen {
 	@extend %svg-common;
-	background-position: 100% 46.666666666666664%;
+	background-position: 18.75% 100%;
 }
 
 .icon-white-seen-dims {
@@ -2366,7 +2502,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-send {
 	@extend %svg-common;
-	background-position: 100% 53.333333333333336%;
+	background-position: 25% 100%;
 }
 
 .icon-white-send-dims {
@@ -2376,7 +2512,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-settings {
 	@extend %svg-common;
-	background-position: 100% 60%;
+	background-position: 31.25% 100%;
 }
 
 .icon-white-settings-dims {
@@ -2386,7 +2522,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-signout {
 	@extend %svg-common;
-	background-position: 100% 66.66666666666667%;
+	background-position: 37.5% 100%;
 }
 
 .icon-white-signout-dims {
@@ -2396,7 +2532,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-sport {
 	@extend %svg-common;
-	background-position: 100% 73.33333333333333%;
+	background-position: 43.75% 100%;
 }
 
 .icon-white-sport-dims {
@@ -2406,7 +2542,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-start {
 	@extend %svg-common;
-	background-position: 100% 80%;
+	background-position: 50% 100%;
 }
 
 .icon-white-start-dims {
@@ -2416,7 +2552,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-team {
 	@extend %svg-common;
-	background-position: 100% 86.66666666666667%;
+	background-position: 56.25% 100%;
 }
 
 .icon-white-team-dims {
@@ -2426,7 +2562,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-technology {
 	@extend %svg-common;
-	background-position: 100% 93.33333333333333%;
+	background-position: 62.5% 100%;
 }
 
 .icon-white-technology-dims {
@@ -2436,7 +2572,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-time {
 	@extend %svg-common;
-	background-position: 0 100%;
+	background-position: 68.75% 100%;
 }
 
 .icon-white-time-dims {
@@ -2444,9 +2580,19 @@ $sprite-sheet-icon-size-xl: 60px;
 	height: 25px;
 }
 
+.icon-white-twitter {
+	@extend %svg-common;
+	background-position: 75% 100%;
+}
+
+.icon-white-twitter-dims {
+	width: 25px;
+	height: 25px;
+}
+
 .icon-white-upload {
 	@extend %svg-common;
-	background-position: 6.666666666666667% 100%;
+	background-position: 81.25% 100%;
 }
 
 .icon-white-upload-dims {
@@ -2456,7 +2602,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-user {
 	@extend %svg-common;
-	background-position: 13.333333333333334% 100%;
+	background-position: 87.5% 100%;
 }
 
 .icon-white-user-dims {
@@ -2466,7 +2612,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-white-work {
 	@extend %svg-common;
-	background-position: 20% 100%;
+	background-position: 93.75% 100%;
 }
 
 .icon-white-work-dims {
@@ -2476,7 +2622,7 @@ $sprite-sheet-icon-size-xl: 60px;
 
 .icon-work {
 	@extend %svg-common;
-	background-position: 26.666666666666668% 100%;
+	background-position: 100% 0;
 }
 
 .icon-work-dims {

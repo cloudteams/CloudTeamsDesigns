@@ -5,8 +5,8 @@
 	</ul>
 
 	<div class="legend">
-		<p class="legend-item"><div class="icon-white-approved"></div> Action</p>
-		<p class="legend-item"><div class="icon-white-time"></div> Date</p>
+		<div class="legend-item"><div class="icon-white-approved"></div> Action</div>
+		<div class="legend-item"><div class="icon-white-time"></div> Date</div>
 	</div>
 
 	<section id="subpage-1" class="subpage active">

@@ -4,7 +4,7 @@
 			<h3 class="header-medium secondary">The title of the app is nowhere visible? Make it appear when the apps start?</h3>
 		</header>
 
-		<i class="fa fa-angle-right"></i>
+		<div class="icon-arrowright"></div>
 
 		<div class="content">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla. pariatur.</p>
@@ -21,10 +21,10 @@
 		<p class="highlight">Just now</p>
 
 		<div class="right">
-			<p class="like-button">
-				<div class="icon-states-liked"></div>
+			<div class="like-button">
+				<div class="icon-like"></div>
 				Like
-			</p>
+			</div>
 		</div>
 	</div>
 </article>

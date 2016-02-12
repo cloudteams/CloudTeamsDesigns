@@ -14,7 +14,7 @@
 				<fieldset>
 					<label for="visibility" class="header-medium secondary">Project is visible to</label>
 					<div class="select-dropdown">
-						<i class="fa fa-angle-down"></i>
+						<div class="icon-size-s icon-arrowdown"></div>
 						<select id="visibility">
 							<option value="All users" selected>All users</option>
 							<option value="Only team members">Only team members</option>
@@ -26,7 +26,7 @@
 				<fieldset>
 					<label for="visible-in-all-projects" class="header-medium secondary">Project is visible in 'All projects'</label>
 					<div class="select-dropdown">
-						<i class="fa fa-angle-down"></i>
+						<div class="icon-size-s icon-arrowdown"></div>
 						<select id="visible-in-all-projects">
 							<option value="Yes" selected>Yes</option>
 							<option value="No">No</option>
@@ -41,24 +41,24 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="img-edit-container">
-							<div class="icon-states-edit"></div>
+							<div class="icon-color-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 
 						<div class="img-edit-container">
-							<div class="icon-states-edit"></div>
+							<div class="icon-color-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 
 						<div class="img-edit-container">
-							<div class="icon-states-edit"></div>
+							<div class="icon-color-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 					</div>
 
 					<div class="col-sm-9">
 						<div class="img-edit-container">
-							<div class="icon-states-edit"></div>
+							<div class="icon-color-edit"></div>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 					</div>
@@ -72,7 +72,7 @@
 
 					<div class="input-container">
 						<div class="icon-edit"></div>
-						<div class="icon-states-edit"></div>
+						<div class="icon-color-edit"></div>
 						<textarea id="project-description" rows="7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</textarea>
 					</div>
 				</fieldset>

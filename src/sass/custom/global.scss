@@ -76,41 +76,43 @@ table {
 }
 
 .legend-item {
-	color: $color-menu-items;
+	color: $color-white;
 	display: inline-block;
 	font-size: $font-size-header-medium;
 	font-weight: $font-weight-bold;
+	vertical-align: middle;
 	letter-spacing: 1px;
 	margin: 0;
+	@include antialiasText();
 
 	&:last-child {
 		float: right;
 	}
 
-	.icon.legend-icon {
-		height: 20px;
-		width: 20px;
+	// .icon.legend-icon {
+	// 	height: 20px;
+	// 	width: 20px;
 
-		path {
-			fill: $color-menu-items;
-			stroke: $color-menu-items;
-			stroke-width: 1.5px;
-		}
+	// 	// path {
+	// 	// 	fill: $color-menu-items;
+	// 	// 	stroke: $color-menu-items;
+	// 	// 	stroke-width: 1.5px;
+	// 	// }
 
-		&.legend-icon-check {
-			height: 28px;
-			width: 28px;
+	// 	&.legend-icon-check {
+	// 		height: 28px;
+	// 		width: 28px;
 
-			path {
-				fill: none;
-			}
+	// 		// path {
+	// 		// 	fill: none;
+	// 		// }
 
-			circle {
-				fill: none;
-				stroke: $color-menu-items;
-			}
-		}
-	}
+	// 		// circle {
+	// 		// 	fill: none;
+	// 		// 	stroke: $color-menu-items;
+	// 		// }
+	// 	}
+	// }
 }
 
 .highlight {
@@ -170,6 +172,7 @@ table {
 	}
 }
 
+/*
 .fa-search {
 	color: $color-menu-items;
 	cursor: pointer;
@@ -189,6 +192,14 @@ table {
 
 .fa-angle-right {
 	transition: transform $transition-time-2 $cubic-bezier-2;
+}
+*/
+
+.icon-arrowdown, .icon-sidepanel-arrowdown {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	transition: color $transition-time-2 $cubic-bezier-2;
 }
 
 .progress-container {
@@ -330,29 +341,29 @@ table {
 	}
 
 	.add-project-button {
-		background: $color-button;
-		border-radius: 50%;
+		// background: $color-button;
+		// border-radius: 50%;
 		cursor: pointer;
-		height: 60px;
+		// height: 60px;
 		margin: 0 auto $margin-base;
-		width: 60px;
+		// width: 60px;
 	}
 
-	.svg {
-		path {
-			fill: $color-text-secondary;
-		}
-	}
+	// .svg {
+	// 	path {
+	// 		fill: $color-text-secondary;
+	// 	}
+	// }
 
 	&:not(.document) {
 		&:hover {
 			.background {
-				background: $color-block !important;
-				border: 3px dashed $color-block !important;
+				background: $color-flashy-purple !important;
+				border: 3px dashed $color-flashy-purple !important;
 
-				h2 {
-					color: $color-text;
-				}
+				// h2 {
+					// color: $color-text;
+				// }
 			}
 		}
 	}
@@ -360,8 +371,10 @@ table {
 
 .angle-open {
 	transform: rotate(90deg) !important;
+	transition: transform $transition-time-2 $cubic-bezier-2;
 }
 
 .angle-closed {
 	transform: rotate(0deg);
+	transition: transform $transition-time-2 $cubic-bezier-2;
 }

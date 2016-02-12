@@ -81,7 +81,7 @@
 		</div>
 
 		<footer>
-			<a href="public-project-overview.php" class="btn">Show project</a>
+			<a href="/views/logged-in/projects/project" class="btn">Show project</a>
 		</footer>
 	</div>
 </article>

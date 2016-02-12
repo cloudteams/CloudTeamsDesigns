@@ -43,8 +43,8 @@
 					<div class="col-sm-4">
 						<ul class="social-media">
 							<li><h2 class="header-small">Connect</h2></li>
-							<li><a href="" alt="twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="" alt="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="" alt="twitter"><div class="icon-size-m icon-sidepanel-twitter"></div></a></li>
+							<li><a href="" alt="facebook"><div class="icon-size-m icon-sidepanel-facebook"></div></a></li>
 						</ul>
 					</div>
 				</div>

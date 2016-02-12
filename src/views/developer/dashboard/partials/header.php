@@ -10,7 +10,6 @@
 		<base href="/">
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="stylesheet" href="[[./css/global-*.css]]">
-		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
 		<script type="text/javascript" src="[[./js/global-*.js]]"></script>
 		<script type="text/javascript" src="[[./js/common-*.js]]"></script>
 	</head>
@@ -67,15 +66,15 @@
 									<a href="#nowhere">
 										<div class="icon-menu-user"></div>
 										Bobbyd123
-										<i class="fa fa-angle-down"></i>
+										<div class="icon-size-s icon-menu-arrowdown"></div>
 									</a>
 								</div>
 							</div>
 
 							<ul class="submenu">
-								<li><a href="/views/developer/dashboard/profile">Edit profile</a></li>
-								<li><a href="/views/developer/dashboard/settings">Settings</a></li>
-								<li><a href="#nowhere">Log out</a></li>
+								<li><a href="/views/developer/dashboard/profile"><div class="icon-menu-user"></div>Edit profile</a></li>
+								<li><a href="/views/developer/dashboard/settings"><div class="icon-menu-settings"></div>Settings</a></li>
+								<li><a href="#nowhere"><div class="icon-menu-signout"></div>Log out</a></li>
 							</ul>
 						</li>
 					</ul>

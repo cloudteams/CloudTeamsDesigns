@@ -36,7 +36,7 @@
 
 				<ul class="side-menu-extended">
 					<li class="select-dropdown">
-						<i class="fa fa-angle-down"></i>
+						<div class="icon-size-s icon-sidepanel-arrowdown"></div>
 						<select class="projects-dropdown">
 							<option value="Project 1" selected>Project 1</option>
 							<option value="Project 1">Project 2</option>
@@ -119,7 +119,7 @@
 			</li>
 
 			<li>
-				<a href="/views/developer/dashboard/activity">
+				<a href="/views/developer/dashboard/activities">
 					<div class="icon-sidepanel-activity"></div>
 					Activities
 				</a>

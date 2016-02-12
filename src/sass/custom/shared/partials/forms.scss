@@ -198,6 +198,7 @@ select {
 .select-dropdown {
 	position: relative;
 
+	/*
 	&.hover {
 		.fa-angle-down {
 			color: $color-input-hover;
@@ -208,4 +209,5 @@ select {
 		color: $color-text;
 		font-weight: $font-weight-bold;
 	}
+	*/
 }

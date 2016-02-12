@@ -8,7 +8,7 @@
 							<div class="add-project-button">
 								<div class="vertical-align">
 									<div class="middle">
-										<img class="icon" src="[[../../../../img/icons/icon-add-fill.svg]]">
+										<div class="icon-size-xl icon-color-add"></div>
 									</div>
 								</div>
 							</div>

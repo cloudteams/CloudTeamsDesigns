@@ -26,7 +26,7 @@ export default (function() {
 
 	function openCloseElement(element) {
 		const content = element.find('.content');
-		const angle   = content.prev('.fa-angle-right');
+		const angle   = content.prev('.icon-arrowright');
 
 		if (!content.hasClass('extended')) {
 			openElement(content, angle);

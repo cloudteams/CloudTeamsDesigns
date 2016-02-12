@@ -16,12 +16,12 @@ article.idea {
 		padding-top: $margin-block;
 	}
 
-	.fa-angle-right {
-		color: $color-pink;
-		font-size: 25px;
-		left: 15px;
+	.icon-arrowright {
+		//color: $color-pink;
+		//font-size: 25px;
+		left: 10px;
 		position: absolute;
-		top: 34px;
+		top: 18px;
 		z-index: 99;
 	}
 
@@ -64,11 +64,8 @@ article.idea {
 				cursor: pointer;
 
 				&.active {
-					.icon {
-						// path {
-						// 	fill: $color-like;
-						// 	stroke: $color-like;
-						// }
+					.icon-like {
+						@extend .icon-color-liked;
 					}
 				}
 			}

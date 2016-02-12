@@ -14,7 +14,7 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="select-dropdown">
-									<i class="fa fa-angle-down"></i>
+									<div class="icon-size-s icon-arrowdown"></div>
 									<select name="receiving-notifications" id="receiving-notifications" onchange="" size="1">
 										<option value="immediately" selected>Immediately</option>
 										<option value="2">Option 2</option>
@@ -55,7 +55,7 @@
 								<label for="syncing-receiving-notifications" class="header-medium secondary">Receiving notifications</label>
 
 								<div class="select-dropdown">
-									<i class="fa fa-angle-down"></i>
+									<div class="icon-size-s icon-arrowdown"></div>
 									<select name="syncing-receiving-notifications" id="syncing-receiving-notifications" onchange="" size="1">
 										<option value="facebook" selected>Facebook</option>
 										<option value="2">Option 2</option>

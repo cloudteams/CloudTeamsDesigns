@@ -46,7 +46,7 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-container">
-										<div class="icon-states-edit"></div>
+										<div class="icon-color-edit"></div>
 										<div class="icon-edit"></div>
 										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
 									</div>
@@ -60,7 +60,7 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-container">
-										<div class="icon-states-edit"></div>
+										<div class="icon-color-edit"></div>
 										<div class="icon-edit"></div>
 										<input id="last-name" type="text" name="last-name" value="Mestra" placeholder="Last name">
 									</div>
@@ -74,7 +74,7 @@
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="fa fa-angle-down"></i>
+										<div class="icon-size-s icon-arrowdown"></div>
 										<select name="birth-year" id="birth-year" onchange="" size="1">
 											<option value="" disabled selected>Year</option>
 											<option value="2016">2016</option>
@@ -132,7 +132,7 @@
 
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="fa fa-angle-down"></i>
+										<div class="icon-size-s icon-arrowdown"></div>
 										<select name="birth-month" id="birth-month" onchange="" size="1">
 											<option value="" disabled selected>Month</option>
 											<option value="1">January</option>
@@ -153,7 +153,7 @@
 
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="fa fa-angle-down"></i>
+										<div class="icon-size-s icon-arrowdown"></div>
 										<select name="birth-day" id="birth-day" onchange="" size="1">
 											<option value="" disabled selected>Day</option>
 											<option value="01">1</option>
@@ -215,7 +215,7 @@
 									<label for="country" class="header-medium secondary">Country</label>
 
 									<div class="select-dropdown">
-										<i class="fa fa-angle-down"></i>
+										<div class="icon-size-s icon-arrowdown"></div>
 										<select name="country" id="country" onchange="" size="1">
 											<option value="single" disabled>Country</option>
 											<option value="us" selected>United States</option>
@@ -228,7 +228,7 @@
 									<label for="city" class="header-medium secondary">City</label>
 
 									<div class="select-dropdown">
-										<i class="fa fa-angle-down"></i>
+										<div class="icon-size-s icon-arrowdown"></div>
 										<select name="city" id="city" onchange="" size="1">
 											<option value="single" disabled>City</option>
 											<option value="ny" selected>New York</option>

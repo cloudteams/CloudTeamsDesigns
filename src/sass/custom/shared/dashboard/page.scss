@@ -73,6 +73,7 @@ section.dashboard-page {
 						h1 {
 							display: inline-block;
 							vertical-align: middle;
+							margin-top: 5px;
 						}
 
 						p.header-medium.secondary {
@@ -91,11 +92,13 @@ section.dashboard-page {
 					}
 
 					.project-counter {
-						color: $color-subtitle;
+						// color: $color-subtitle;
+						color: $color-shading-purple;
 						display: inline-block;
 						font-weight: $font-weight-bold;
 						margin: 0;
 						vertical-align: middle;
+						@include antialiasText();
 
 						span {
 							font-size: $font-size-header-large;
