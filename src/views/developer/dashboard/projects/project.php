@@ -8,7 +8,7 @@
 		<header>
 			<h3 class="header-medium secondary">New MINI website UX/UI research</h3>
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
+				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -25,7 +25,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-activity"></div>
+						<i class="icon icon-activity"></i>
 						<p>Status</p>
 					</td>
 					<td class="col-xs-7">
@@ -35,7 +35,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-follower"></div>
+						<i class="icon icon-follower"></i>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -45,7 +45,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-campaign"></div>
+						<i class="icon icon-campaign"></i>
 						<p>Campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -55,7 +55,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-seen"></div>
+						<i class="icon icon-seen"></i>
 						<p>Last seen on</p>
 					</td>
 					<td class="col-xs-7">

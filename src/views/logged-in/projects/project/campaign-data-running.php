@@ -5,7 +5,7 @@
 				<table>
 					<tr>
 						<td>
-							<div class="icon-activity"></div>
+							<i class="icon icon-activity"></i>
 							<p>Status</p>
 						</td>
 						<td>
@@ -15,7 +15,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-addmember"></div>
+							<i class="icon icon-addmember"></i>
 							<p>Participated</p>
 						</td>
 						<td>
@@ -25,7 +25,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-start"></div>
+							<i class="icon icon-start"></i>
 							<p>Date opened</p>
 						</td>
 						<td>
@@ -35,7 +35,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-close2"></div>
+							<i class="icon icon-close2"></i>
 							<p>Date closed</p>
 						</td>
 						<td>

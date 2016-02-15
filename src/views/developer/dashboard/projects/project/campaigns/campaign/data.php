@@ -6,7 +6,7 @@
 			<table>
 				<tr>
 					<td>
-						<div class="icon-white-user"></div>
+						<i class="icon icon-user"></i>
 						<p>Main author</p>
 					</td>
 					<td>
@@ -16,7 +16,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-invite"></div>
+						<i class="icon icon-invite"></i>
 						<p>Invited</p>
 					</td>
 					<td>
@@ -26,7 +26,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-addmember"></div>
+						<i class="icon icon-addmember"></i>
 						<p>Accepted</p>
 					</td>
 					<td>
@@ -40,7 +40,7 @@
 			<table>
 				<tr>
 					<td>
-						<div class="icon-white-campaigncompleted"></div>
+						<i class="icon icon-campaigncompleted"></i>
 						<p>Participated</p>
 					</td>
 					<td>
@@ -50,7 +50,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-start"></div>
+						<i class="icon icon-start"></i>
 						<p>Date opened</p>
 					</td>
 					<td>
@@ -60,7 +60,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-close2"></div>
+						<i class="icon icon-close2"></i>
 						<p>Date closed</p>
 					</td>
 					<td>

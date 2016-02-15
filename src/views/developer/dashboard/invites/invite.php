@@ -23,11 +23,11 @@
 
 		<div class="buttons">
 			<a href="#nowhere" class="btn-decline">
-			<div class="icon-size-s icon-close"></div>
+			<i class="icon icon-size-s icon-close"></i>
 				Decline
 			</a>
 			<a href="#nowhere" class="btn-confirm">
-				<div class="icon-size-s icon-white-approved"></div>
+				<i class="icon icon-size-s icon-approved"></i>
 				Confirm
 			</a>
 		</div>

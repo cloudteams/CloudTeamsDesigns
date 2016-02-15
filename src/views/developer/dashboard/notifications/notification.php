@@ -1,7 +1,7 @@
 <article class="notification">
 	<div class="vertical-align">
 		<div class="middle">
-			<div class="icon-color-approved"></div>
+			<i class="icon-color icon-approved"></i>
 			<p>You accepted the invite from <a href=""><span class="header-small action-text">Dell</span></a></p>
 		</div>
 

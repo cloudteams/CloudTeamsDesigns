@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
+				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>

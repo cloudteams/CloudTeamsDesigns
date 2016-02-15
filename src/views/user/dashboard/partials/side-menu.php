@@ -29,28 +29,28 @@
 		<ul>
 			<li class="active">
 				<a href="/views/user/dashboard/projects">
-					<div class="icon-sidepanel-project"></div>
+					<i class="icon icon-project"></i>
 					Projects
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/user/dashboard/campaigns">
-					<div class="icon-sidepanel-campaign"></div>
+					<i class="icon icon-campaign"></i>
 					Campaigns
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/user/dashboard/notifications" class="incoming">
-					<div class="icon-sidepanel-notification"></div>
+					<i class="icon icon-notification"></i>
 					Notifications
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/logged-in/projects">
-					<div class="icon-sidepanel-allprojects"></div>
+					<i class="icon icon-allprojects"></i>
 					All projects
 				</a>
 			</li>
@@ -75,22 +75,22 @@
 			<h2 class="header-sidebar">Profile information</h2>
 			<ul>
 				<li>
-					<div class="icon-sidepanel-city"></div>
+					<i class="icon icon-city"></i>
 					New York
 				</li>
 
 				<li>
-					<div class="icon-sidepanel-work"></div>
+					<i class="icon icon-work"></i>
 					Engineer
 				</li>
 
 				<li>
-					<div class="icon-sidepanel-location"></div>
+					<i class="icon icon-location"></i>
 					Manager
 				</li>
 
 				<li>
-					<div class="icon-sidepanel-gender"></div>
+					<i class="icon icon-gender"></i>
 					Male
 				</li>
 			</ul>

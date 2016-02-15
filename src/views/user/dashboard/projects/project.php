@@ -9,7 +9,7 @@
 			<h3 class="header-medium secondary">New MINI website UX/UI research</h3>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><div class="icon-more-options"></div></a>
+				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -26,7 +26,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-follower"></div>
+						<i class="icon icon-follower"></i>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -36,7 +36,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-campaign"></div>
+						<i class="icon icon-campaign"></i>
 						<p>Running campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -46,7 +46,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-reward"></div>
+						<i class="icon icon-reward"></i>
 						<p>Rewards</p>
 					</td>
 					<td class="col-xs-7">
@@ -60,7 +60,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-invite"></div>
+						<i class="icon icon-invite"></i>
 						<p><a href="/views/logged-in/projects/project#campaigns" alt="invited">Invited</a></p>
 					</td>
 					<td class="col-xs-7">
@@ -70,7 +70,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-campaigncompleted"></div>
+						<i class="icon icon-campaigncompleted"></i>
 						<p><a href="/views/logged-in/projects/project#campaigns" alt="completed campaigns">Completed campaigns</a></p>
 					</td>
 					<td class="col-xs-7">

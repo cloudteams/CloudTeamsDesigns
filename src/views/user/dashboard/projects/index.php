@@ -3,10 +3,10 @@
 <section class="page page-user-dashboard-projects dashboard-page user-dashboard-page message">
 	<div class="complete-profile active">
 		<div class="container">
-			<div class="icon-approved"></div>
+			<i class="icon icon-approved"></i>
 			<p>Tell us more about yourself and complete your profile <a href="/views/user/dashboard/profile" alt="user profile">Go to your profile page</a></p>
 			<div class="close-message">
-				<div class="icon-close"></div>
+				<i class="icon icon-close"></i>
 			</div>
 		</div>
 	</div>
@@ -20,7 +20,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-size-m icon-white-project"></div>
+								<i class="icon icon-size-m icon-project"></i>
 								<h1 class="header-large">Projects</h1>
 							</div>
 

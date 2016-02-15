@@ -5,7 +5,7 @@
 				<table>
 					<tr>
 						<td>
-							<div class="icon-invite"></div>
+							<i class="icon icon-invite"></i>
 							<p>My invites</p>
 						</td>
 						<td>
@@ -15,7 +15,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-reward"></div>
+							<i class="icon icon-reward"></i>
 							<p>My rewards won</p>
 						</td>
 						<td>
@@ -25,7 +25,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-campaigncompleted"></div>
+							<i class="icon icon-campaigncompleted"></i>
 							<p>My campaigns answered</p>
 						</td>
 						<td>
@@ -39,7 +39,7 @@
 				<table>
 					<tr>
 						<td>
-							<div class="icon-follower"></div>
+							<i class="icon icon-follower"></i>
 							<p>Followers</p>
 						</td>
 						<td>
@@ -49,7 +49,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-campaign"></div>
+							<i class="icon icon-campaign"></i>
 							<p>Total campaigns</p>
 						</td>
 						<td>
@@ -59,7 +59,7 @@
 
 					<tr>
 						<td>
-							<div class="icon-seen"></div>
+							<i class="icon icon-seen"></i>
 							<p>Last seen on</p>
 						</td>
 						<td>

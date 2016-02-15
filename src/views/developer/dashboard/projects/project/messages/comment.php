@@ -16,24 +16,24 @@
 			<div class="data">
 				<div class="left">
 					<p class="highlight">
-						<div class="icon-like"></div>
+						<i class="icon icon-like"></i>
 						10
 					</p>
 
 					<p id="comment-trigger-2" class="highlight comment-trigger">
-						<div class="icon-message"></div>
+						<i class="icon icon-message"></i>
 						1 Comment
 					</p>
 				</div>
 
 				<div class="right">
 					<p class="like-button">
-						<div class="icon-color-liked"></div>
+						<i class="icon-color icon-liked"></i>
 						Like
 					</p>
 
 					<p>
-						<div class="icon-reply"></div>
+						<i class="icon icon-reply"></i>
 						Reply
 					</p>
 				</div>
@@ -58,24 +58,24 @@
 			<div class="data">
 				<div class="left">
 					<p class="highlight">
-						<div class="icon-like"></div>
+						<i class="icon icon-like"></i>
 						10
 					</p>
 
 					<p id="comment-trigger-2" class="highlight comment-trigger">
-						<div class="icon-message"></div>
+						<i class="icon icon-message"></i>
 						1 Comment
 					</p>
 				</div>
 
 				<div class="right">
 					<p class="like-button">
-						<div class="icon-color-liked"></div>
+						<i class="icon-color icon-liked"></i>
 						Like
 					</p>
 
 					<p>
-						<div class="icon-reply"></div>
+						<i class="icon icon-reply"></i>
 						Reply
 					</p>
 				</div>

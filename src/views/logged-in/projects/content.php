@@ -6,7 +6,7 @@
 		<div class="filter-container">
 			<label for="filter-projects">Filter projects</label>
 			<div class="select-dropdown">
-				<div class="icon-size-s icon-arrowdown"></div>
+				<i class="icon icon-size-s icon-arrowdown"></i>
 				<select name="filter-projects" id="filter-projects" onchange="" size="1">
 					<option value="all-projects" selected>All projects</option>
 					<option value="filter-1">Filter 2</option>

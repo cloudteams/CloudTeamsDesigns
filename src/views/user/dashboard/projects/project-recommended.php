@@ -15,7 +15,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-follower"></div>
+						<i class="icon icon-follower"></i>
 						<p>Followers</p>
 					</td>
 					<td class="col-xs-7">
@@ -25,7 +25,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-campaign"></div>
+						<i class="icon icon-campaign"></i>
 						<p>Running campaigns</p>
 					</td>
 					<td class="col-xs-7">
@@ -35,7 +35,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-reward"></div>
+						<i class="icon icon-reward"></i>
 						<p>Rewards</p>
 					</td>
 					<td class="col-xs-7">

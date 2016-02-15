@@ -14,7 +14,7 @@
 				<p class="meta thin">bobbyd123@gmail.com</p>
 
 				<div class="tooltip-container">
-					<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
+					<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
 					<div class="custom-tooltip">
 						<ul>
 							<li>
@@ -31,7 +31,7 @@
 				</div>
 
 				<div class="close" data-dismiss="modal">
-					<div class="icon-close"></div>
+					<i class="icon icon-close"></i>
 				</div>
 			</div>
 

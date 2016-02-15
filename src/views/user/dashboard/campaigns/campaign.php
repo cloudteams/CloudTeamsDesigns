@@ -4,7 +4,7 @@
 			<h2 class="header-medium secondary">Give feedback on our homepage and participate in...</h2>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
+				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -19,10 +19,10 @@
 		</header>
 
 		<div class="content dates">
-			<div class="icon-start"></div>
+			<i class="icon icon-start"></i>
 			<p><time datetime="2016-02-30">30/02/2016</time></p>
 
-			<div class="icon-close2"></div>
+			<i class="icon icon-close2"></i>
 			<p><time datetime="2016-05-17">17/05/2016</time></p>
 		</div>
 
@@ -30,7 +30,7 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-addmember"></div>
+						<i class="icon icon-addmember"></i>
 						<p>Participants</p>
 					</td>
 					<td class="col-xs-7">
@@ -40,7 +40,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<div class="icon-time"></div>
+						<i class="icon icon-time"></i>
 						<p>Days left</p>
 					</td>
 					<td class="col-xs-7">

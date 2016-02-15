@@ -126,7 +126,11 @@
 		padding: $margin-block-extra-small $margin-block-small;
 
 		.middle {
-			div + h2 {
+			i {
+				margin-top: -4px;
+			}
+
+			i + h2 {
 				display: inline-block;
 				line-height: 25px;
 			}

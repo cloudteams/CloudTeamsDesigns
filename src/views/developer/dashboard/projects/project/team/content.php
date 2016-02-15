@@ -4,7 +4,7 @@
 		<h2 class="header-large secondary">Fanta Design Department</h2>
 
 		<div class="tooltip-container">
-			<a href="#nowhere" class="open-tooltip-button"><div class="icon-moreoptions"></div></a>
+			<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
 			<div class="custom-tooltip">
 				<ul>
 					<li>
@@ -29,7 +29,7 @@
 						<div class="add-project-button">
 							<div class="vertical-align">
 								<div class="middle">
-									<div class="icon-size-xl icon-color-add"></div>
+									<i class="icon icon-size-xl icon-color-add"></i>
 								</div>
 							</div>
 						</div>

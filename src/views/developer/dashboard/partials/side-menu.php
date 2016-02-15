@@ -30,28 +30,28 @@
 		<ul>
 			<li class="active">
 				<a href="/views/developer/dashboard/projects">
-					<div class="icon-sidepanel-project"></div>
+					<i class="icon icon-project"></i>
 					Projects
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/invites">
-				<div class="icon-sidepanel-addmember"></div>
+				<i class="icon icon-addmember"></i>
 					Pending invites
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/activities">
-					<div class="icon-sidepanel-activity"></div>
+					<i class="icon icon-activity"></i>
 					Activities
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/notifications" class="incoming">
-					<div class="icon-sidepanel-notification"></div>
+					<i class="icon icon-notification"></i>
 					Notifications
 				</a>
 			</li>

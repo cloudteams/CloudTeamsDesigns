@@ -33,6 +33,7 @@ body {
 
 							li {
 								display: block;
+								white-space: nowrap;
 							}
 						}
 
@@ -83,7 +84,8 @@ body {
 								padding-bottom: 4px;
 							}
 
-							.icon-menu-search {
+							.icon-search {
+								color: $color-candy-cyan;
 								cursor: pointer;
 								//font-size: 15px;
 								// height: 18px;

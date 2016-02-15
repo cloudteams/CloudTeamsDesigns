@@ -16,19 +16,19 @@
 			<div class="data">
 				<div class="left">
 					<p class="highlight">
-						<div class="icon-like"></div>
+						<i class="icon icon-like"></i>
 						10
 					</p>
 				</div>
 
 				<div class="right">
 					<p class="like-button">
-						<div class="icon-color-liked"></div>
+						<i class="icon-color icon-liked"></i>
 						Like
 					</p>
 
 					<p>
-						<div class="icon-reply"></div>
+						<i class="icon icon-reply"></i>
 						Reply
 					</p>
 				</div>

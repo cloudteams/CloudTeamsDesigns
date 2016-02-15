@@ -6,7 +6,7 @@
 			<table>
 				<tr>
 					<td>
-						<div class="icon-white-campaign"></div>
+						<i class="icon icon-campaign"></i>
 						<p>Campaigns</p>
 					</td>
 					<td>
@@ -16,7 +16,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-team"></div>
+						<i class="icon icon-team"></i>
 						<p>Team members</p>
 					</td>
 					<td>
@@ -26,7 +26,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-document"></div>
+						<i class="icon icon-document"></i>
 						<p>Documents</p>
 					</td>
 					<td>
@@ -36,7 +36,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-follower"></div>
+						<i class="icon icon-follower"></i>
 						<p>Followers</p>
 					</td>
 					<td>
@@ -50,7 +50,7 @@
 			<table>
 				<tr>
 					<td>
-						<div class="icon-white-blog"></div>
+						<i class="icon icon-blog"></i>
 						<p>Blog posts</p>
 					</td>
 					<td>
@@ -60,7 +60,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-message"></div>
+						<i class="icon icon-message"></i>
 						<p>Messages</p>
 					</td>
 					<td>
@@ -70,7 +70,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-customeridea"></div>
+						<i class="icon icon-customeridea"></i>
 						<p>Customer ideas</p>
 					</td>
 					<td>
@@ -80,7 +80,7 @@
 
 				<tr>
 					<td>
-						<div class="icon-white-seen"></div>
+						<i class="icon icon-seen"></i>
 						<p>Last seen</p>
 					</td>
 					<td>

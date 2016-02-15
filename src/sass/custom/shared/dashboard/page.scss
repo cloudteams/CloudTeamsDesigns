@@ -55,6 +55,12 @@ section.dashboard-page {
 
 					> header.main-header {
 						@include antialiasText();
+
+						.icon {
+							color: $color-white;
+							margin-top: -8px;
+							font-size: $font-size-header-large;
+						}
 						/*
 						.svg {
 							display: inline-block;

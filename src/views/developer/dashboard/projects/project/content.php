@@ -6,7 +6,7 @@
 		<header class="article-header">
 			<div class="vertical-align">
 				<div class="middle">
-					<div class="icon-activity"></div>
+					<i class="icon icon-activity"></i>
 					<h2 class="header-medium secondary">Activity</h2>
 				</div>
 				<div class="middle">
@@ -25,7 +25,7 @@
 		<header class="article-header">
 			<div class="vertical-align">
 				<div class="middle">
-					<div class="icon-profile"></div>
+					<i class="icon icon-profile"></i>
 					<h2 class="header-medium secondary">Project profile</h2>
 				</div>
 				<div class="middle">
@@ -39,7 +39,7 @@
 
 			<div class="category">
 				<p class="page-subtitle">Publishing</p>
-				<div class="icon-folder"></div>
+				<i class="icon icon-folder"></i>
 			</div>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
@@ -57,7 +57,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<div class="icon-campaign"></div>
+							<i class="icon icon-campaign"></i>
 							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
 						<div class="middle">
@@ -90,7 +90,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<div class="icon-team"></div>
+							<i class="icon icon-team"></i>
 							<h2 class="header-medium secondary">Team</h2>
 						</div>
 						<div class="middle">
@@ -146,7 +146,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<div class="icon-document"></div>
+							<i class="icon icon-document"></i>
 							<h2 class="header-medium secondary">Documents</h2>
 						</div>
 						<div class="middle">
@@ -159,13 +159,13 @@
 					<div class="document">
 						<h3 class="header-medium secondary">Document title with second row option</h3>
 						<p class="highlight">Docx</p>
-						<a href="#downloadlink" class="btn-download">Download <div class="icon-download"></div></a>
+						<a href="#downloadlink" class="btn-download">Download <i class="icon icon-download"></i></a>
 					</div>
 
 					<div class="document">
 						<h3 class="header-medium secondary">Document title with second row option</h3>
 						<p class="highlight">PDF</p>
-						<a href="#downloadlink" class="btn-download">Download <div class="icon-download"></div></a>
+						<a href="#downloadlink" class="btn-download">Download <i class="icon icon-download"></i></a>
 					</div>
 				</div>
 		</article>
@@ -175,7 +175,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<div class="icon-blog"></div>
+							<i class="icon icon-blog"></i>
 							<h2 class="header-medium secondary">Blog</h2>
 						</div>
 						<div class="middle">
@@ -199,7 +199,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<div class="icon-message"></div>
+							<i class="icon icon-message"></i>
 							<h2 class="header-medium secondary">Messages</h2>
 						</div>
 						<div class="middle">
@@ -224,7 +224,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<div class="icon-customeridea"></div>
+							<i class="icon icon-customeridea"></i>
 							<h2 class="header-medium secondary">Customer ideas</h2>
 						</div>
 						<div class="middle">
@@ -237,7 +237,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate…</p>
 
 					<div class="data">
-						<div class="icon-like"></div>
+						<i class="icon icon-like"></i>
 						<p class="highlight">10</p>
 						<p class="highlight">Just now</p>
 					</div>

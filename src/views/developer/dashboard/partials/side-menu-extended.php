@@ -30,13 +30,13 @@
 		<ul>
 			<li class="projects">
 				<a href="developer-dashboard-projects.php">
-					<div class="icon-sidepanel-project"></div>
+					<i class="icon icon-project"></i>
 					Projects
 				</a>
 
 				<ul class="side-menu-extended">
 					<li class="select-dropdown">
-						<div class="icon-size-s icon-sidepanel-arrowdown"></div>
+						<i class="icon icon-size-s icon-sidepanel-arrowdown"></i>
 						<select class="projects-dropdown">
 							<option value="Project 1" selected>Project 1</option>
 							<option value="Project 1">Project 2</option>
@@ -48,63 +48,63 @@
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project">
-							<div class="icon-sidepanel-seen"></div>
+							<i class="icon icon-seen"></i>
 							Overview
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/service">
-							<div class="icon-sidepanel-services"></div>
+							<i class="icon icon-services"></i>
 							External services
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/profile">
-							<div class="icon-sidepanel-profile"></div>
+							<i class="icon icon-profile"></i>
 							Project profile
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/campaigns">
-							<div class="icon-sidepanel-campaign"></div>
+							<i class="icon icon-campaign"></i>
 							Campaigns
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/team">
-							<div class="icon-sidepanel-team"></div>
+							<i class="icon icon-team"></i>
 							Team
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/documents">
-							<div class="icon-sidepanel-document"></div>
+							<i class="icon icon-document"></i>
 							Documents
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/blog">
-							<div class="icon-sidepanel-blog"></div>
+							<i class="icon icon-blog"></i>
 							Blog
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/messages">
-							<div class="icon-sidepanel-message"></div>
+							<i class="icon icon-message"></i>
 							Messages
 						</a>
 					</li>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/customer-ideas">
-							<div class="icon-sidepanel-customeridea"></div>
+							<i class="icon icon-customeridea"></i>
 							Customer ideas
 						</a>
 					</li>
@@ -113,21 +113,21 @@
 
 			<li>
 				<a href="/views/developer/dashboard/invites">
-					<div class="icon-sidepanel-invite"></div>
+					<i class="icon icon-invite"></i>
 					Pending invites
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/activities">
-					<div class="icon-sidepanel-activity"></div>
+					<i class="icon icon-activity"></i>
 					Activities
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/notifications" class="incoming">
-					<div class="icon-sidepanel-notification"></div>
+					<i class="icon icon-notification"></i>
 					Notifications
 				</a>
 			</li>

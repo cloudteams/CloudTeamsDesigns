@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-size-m icon-white-campaign"></div>
+								<i class="icon icon-size-m icon-campaign"></i>
 								<h1 class="header-large">Campaigns</h1>
 							</div>
 

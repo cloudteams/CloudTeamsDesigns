@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-size-m icon-white-customeridea"></div>
+								<i class="icon icon-size-m icon-customeridea"></i>
 								<h1 class="header-large">Customer ideas</h1>
 								<p class="header-medium secondary">Project title</p>
 							</div>

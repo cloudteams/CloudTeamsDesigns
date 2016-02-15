@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-size-m icon-white-settings"></div>
+								<i class="icon icon-size-m icon-settings"></i>
 								<h1 class="header-large">Settings</h1>
 							</div>
 						</div>

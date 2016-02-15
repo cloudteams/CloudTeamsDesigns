@@ -33,7 +33,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<input class="input-search" type="text" name="search" placeholder="Search projects">
-									<div class="icon-menu-search"></div>
+									<i class="icon icon-search"></i>
 								</div>
 							</div>
 						</li>
@@ -42,7 +42,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="/views/user/dashboard/projects">
-										<div class="icon-menu-dashboard"></div>
+										<i class="icon icon-dashboard"></i>
 										Dashboard
 									</a>
 								</div>
@@ -53,7 +53,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="/views/user/dashboard/notifications">
-										<div class="icon-menu-notification"></div>
+										<i class="icon icon-notification"></i>
 										Notifications
 									</a>
 								</div>
@@ -64,17 +64,17 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="#nowhere">
-										<div class="icon-menu-profile"></div>
+										<i class="icon icon-profile"></i>
 										Bobbyd123
-										<div class="icon-size-s icon-menu-arrowdown"></div>
+										<i class="icon icon-size-s icon-menu-arrowdown"></i>
 									</a>
 								</div>
 							</div>
 
 							<ul class="submenu">
-								<li><a href="/views/user/dashboard/profile"><div class="icon-menu-user"></div> Edit profile</a></li>
-								<li><a href="/views/user/dashboard/settings"><div class="icon-menu-settings"></div> Settings</a></li>
-								<li><a href="#nowhere"><div class="icon-menu-signout"></div> Log out</a></li>
+								<li><a href="/views/user/dashboard/profile"><i class="icon icon-user"></i> Edit profile</a></li>
+								<li><a href="/views/user/dashboard/settings"><i class="icon icon-settings"></i> Settings</a></li>
+								<li><a href="#nowhere"><i class="icon icon-signout"></i> Log out</a></li>
 							</ul>
 						</li>
 					</ul>
