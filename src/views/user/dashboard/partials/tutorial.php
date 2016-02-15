@@ -46,7 +46,7 @@
 							<div class="middle explanation">
 								<div>
 									<div class="middle">
-										<div class="icon-size-m icon-dashboard"></div>
+										<div class="icon icon-size-m icon-dashboard"></div>
 									</div>
 
 									<div class="middle">
@@ -56,7 +56,7 @@
 
 								<div>
 									<div class="middle">
-										<div class="icon-size-m icon-notification"></div>
+										<div class="icon icon-size-m icon-notification"></div>
 									</div>
 
 									<div class="middle">
@@ -66,7 +66,7 @@
 
 								<div>
 									<div class="middle">
-										<div class="icon-size-m icon-profile"></div>
+										<div class="icon icon-size-m icon-user"></div>
 									</div>
 
 									<div class="middle">

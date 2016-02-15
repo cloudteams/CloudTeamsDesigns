@@ -122,11 +122,11 @@ table {
 	&.active {
 		color: $color-text;
 
-		.icon {
-			path {
-				fill: $color-text;
-			}
-		}
+		// .icon {
+		// 	path {
+		// 		fill: $color-text;
+		// 	}
+		// }
 	}
 }
 
@@ -187,11 +187,11 @@ table {
 	position: absolute;
 	right: 15px;
 	top: 10px;
-	transition: color $transition-time-2 $cubic-bezier-2;
+	transition: color $transition-time-2 $easing-1;
 }
 
 .fa-angle-right {
-	transition: transform $transition-time-2 $cubic-bezier-2;
+	transition: transform $transition-time-2 $easing-1;
 }
 */
 
@@ -199,7 +199,7 @@ table {
 	position: absolute;
 	top: 10px;
 	right: 15px;
-	transition: color $transition-time-2 $cubic-bezier-2;
+	transition: color $transition-time-2 $easing-1;
 }
 
 .progress-container {
@@ -220,7 +220,7 @@ table {
 			border-radius: 5px;
 			height: 6px;
 			width: 0;
-			transition: width $transition-time-1 $cubic-bezier-2;
+			transition: width $transition-time-1 $easing-1;
 		}
 	}
 
@@ -239,7 +239,7 @@ table {
 	opacity: 0;
 
 	&.active {
-		animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+		animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 		display: block;
 	}
 }
@@ -333,11 +333,11 @@ table {
 		border: 3px dashed $color-block-lines;
 		border-radius: 5px;
 		height: 100%;
-		transition: background $transition-time-2 $cubic-bezier-2, border-color $transition-time-2 $cubic-bezier-2;
+		transition: background $transition-time-2 $easing-1, border-color $transition-time-2 $easing-1;
 	}
 
 	h2 {
-		transition: color $transition-time-2 $cubic-bezier-2;
+		transition: color $transition-time-2 $easing-1;
 	}
 
 	.add-project-button {
@@ -371,10 +371,10 @@ table {
 
 .angle-open {
 	transform: rotate(90deg) !important;
-	transition: transform $transition-time-2 $cubic-bezier-2;
+	transition: transform $transition-time-2 $easing-1;
 }
 
 .angle-closed {
 	transform: rotate(0deg);
-	transition: transform $transition-time-2 $cubic-bezier-2;
+	transition: transform $transition-time-2 $easing-1;
 }

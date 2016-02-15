@@ -6,31 +6,31 @@
 			</header>
 			<ul class="menu-subpage sidebar">
 				<li id="link-to-subpage-1" class="link-to-subpage active">
-					<div class="icon-folder"></div>
+					<div class="icon-white-folder"></div>
 					Folder title
 					<span>5</span>
 				</li>
 
 				<li id="link-to-subpage-2" class="link-to-subpage">
-					<div class="icon-folder"></div>
+					<div class="icon-white-folder"></div>
 					Folder title
 					<span>3</span>
 				</li>
 
 				<li id="link-to-subpage-3" class="link-to-subpage">
-					<div class="icon-folder"></div>
+					<div class="icon-white-folder"></div>
 					Folder title
 					<span>0</span>
 				</li>
 
 				<li id="link-to-subpage-4" class="link-to-subpage">
-					<div class="icon-folder"></div>
+					<div class="icon-white-folder"></div>
 					Folder title
 					<span>0</span>
 				</li>
 
 				<li class="add-folder">
-					<div class="icon-folder"></div>
+					<div class="icon-white-folder"></div>
 					Create new folder
 				</li>
 			</ul>
@@ -52,11 +52,11 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<div class="icon-size-xl icon-color-add"></div>
+														<div class="icon-size-m icon-color-add"></div>
 													</div>
 												</div>
 											</div>
-											<h3 class="header-small secondary">Create new document</h3>
+											<h3 class="header-small secondary">Add document</h3>
 										</div>
 									</div>
 								</div>
@@ -89,11 +89,11 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<div class="icon-size-xl icon-color-add"></div>
+														<div class="icon-size-m icon-color-add"></div>
 													</div>
 												</div>
 											</div>
-											<h3 class="header-small secondary">Create new document</h3>
+											<h3 class="header-small secondary">Add document</h3>
 										</div>
 									</div>
 								</div>
@@ -124,11 +124,11 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<div class="icon-size-xl icon-color-add"></div>
+														<div class="icon-size-m icon-color-add"></div>
 													</div>
 												</div>
 											</div>
-											<h3 class="header-small secondary">Create new document</h3>
+											<h3 class="header-small secondary">Add document</h3>
 										</div>
 									</div>
 								</div>
@@ -155,11 +155,11 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<div class="icon-size-xl icon-color-add"></div>
+														<div class="icon-size-m icon-color-add"></div>
 													</div>
 												</div>
 											</div>
-											<h3 class="header-small secondary">Create new document</h3>
+											<h3 class="header-small secondary">Add document</h3>
 										</div>
 									</div>
 								</div>

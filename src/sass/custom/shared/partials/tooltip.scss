@@ -1,12 +1,12 @@
-.open-tooltip-button {
-	&.active {
-		.svg {
-			path {
-				fill: $color-pink;
-			}
-		}
-	}
-}
+// .open-tooltip-button {
+// 	&.active {
+// 		.svg {
+// 			path {
+// 				fill: $color-pink;
+// 			}
+// 		}
+// 	}
+// }
 
 .custom-tooltip {
 	background: $color-pink;
@@ -17,7 +17,7 @@
 	padding: $margin-block-small;
 	position: absolute;
 	text-align: left;
-	transition: opacity $transition-time-1 $cubic-bezier-2;
+	transition: opacity $transition-time-1 $easing-1;
 	visibility: hidden;
 	z-index: 99;
 
@@ -25,12 +25,12 @@
 		border: solid;
 		border-color: $color-pink transparent;
 		border-width: 0 6px 6px 6px;
-		content:"";
+		content: "";
 		right: 5px;
 		position: absolute;
 		top: -6px;
 		transform: translateX(-50%);
-		transition: opacity $transition-time-1 $cubic-bezier-2;
+		transition: opacity $transition-time-1 $easing-1;
 		z-index: 99;
 	}
 

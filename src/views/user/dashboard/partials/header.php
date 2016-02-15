@@ -72,9 +72,9 @@
 							</div>
 
 							<ul class="submenu">
-								<li><a href="/views/user/dashboard/profile"><div class="icon-menu-user"></div>Edit profile</a></li>
-								<li><a href="/views/user/dashboard/settings"><div class="icon-menu-settings"></div>Settings</a></li>
-								<li><a href="#nowhere"><div class="icon-menu-signout"></div>Log out</a></li>
+								<li><a href="/views/user/dashboard/profile"><div class="icon-menu-user"></div> Edit profile</a></li>
+								<li><a href="/views/user/dashboard/settings"><div class="icon-menu-settings"></div> Settings</a></li>
+								<li><a href="#nowhere"><div class="icon-menu-signout"></div> Log out</a></li>
 							</ul>
 						</li>
 					</ul>

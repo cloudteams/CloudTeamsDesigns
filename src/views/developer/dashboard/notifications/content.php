@@ -1,7 +1,7 @@
 <section class="developer-dashboard-notifications-content">
 	<div class="legend">
-		<p class="legend-item"><div class="icon-approved"></div> Action</p>
-		<p class="legend-item"><div class="icon-time"></div> Date</p>
+		<div class="legend-item"><div class="icon-white-approved"></div> Action</div>
+		<div class="legend-item"><div class="icon-white-time"></div> Date</div>
 	</div>
 
 	<section class="content">

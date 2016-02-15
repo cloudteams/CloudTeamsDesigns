@@ -32,7 +32,7 @@ article.blogpost {
 			width: 100%;
 
 			&.active {
-				animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+				animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 				display: block;
 
 				&:after {

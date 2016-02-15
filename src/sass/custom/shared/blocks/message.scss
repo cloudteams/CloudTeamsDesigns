@@ -44,7 +44,7 @@ article.message {
 			position: absolute;
 			top: 25px;
 			transform: translateX(-50%);
-			transition: opacity $transition-time-1 $cubic-bezier-2;
+			transition: opacity $transition-time-1 $easing-1;
 			z-index: 99;
 		}
 
@@ -55,11 +55,11 @@ article.message {
 				&:hover {
 					color: $color-text;
 
-					.svg {
-						path {
-							fill: $color-text;
-						}
-					}
+					// .svg {
+					// 	path {
+					// 		fill: $color-text;
+					// 	}
+					// }
 				}
 			}
 
@@ -77,14 +77,14 @@ article.message {
 						color: $color-button;
 						cursor: pointer;
 
-						&.active {
-							.icon {
-								path {
-									fill: $color-like;
-									stroke: $color-like;
-								}
-							}
-						}
+						// &.active {
+						// 	.icon {
+						// 		path {
+						// 			fill: $color-like;
+						// 			stroke: $color-like;
+						// 		}
+						// 	}
+						// }
 					}
 				}
 			}
@@ -126,7 +126,7 @@ article.message {
 	}
 
 	&.active {
-		animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+		animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 		display: table;
 	}
 }

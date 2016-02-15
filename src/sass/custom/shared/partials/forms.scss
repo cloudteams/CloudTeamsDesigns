@@ -37,7 +37,7 @@ input, textarea {
 	color: $color-text;
 	font-size: $font-size-body;
 	padding: $margin-input-small $margin-input;
-	transition: border-color $transition-time-2 $cubic-bezier-2;
+	transition: border-color $transition-time-2 $easing-1;
 	width: 100%;
 
 	&:not(.input-search) {
@@ -143,7 +143,7 @@ select {
 	-webkit-appearance: none;
 	appearance: none;
 	padding: $margin-input-small $margin-input;
-	transition: border-color $transition-time-2 $cubic-bezier-2;
+	transition: border-color $transition-time-2 $easing-1;
 	width: 100%;
 
 	&::-ms-expand {
@@ -167,7 +167,7 @@ select {
 	/*
 	.svg {
 		path {
-			transition: fill $transition-time-2 $cubic-bezier-2;
+			transition: fill $transition-time-2 $easing-1;
 		}
 	}
 	*/
@@ -176,13 +176,13 @@ select {
 		visibility: hidden;
 	}
 
-	&.hover {
-		.edit {
-			path {
-				fill: $color-input-hover !important;
-			}
-		}
-	}
+	// &.hover {
+	// 	.edit {
+	// 		path {
+	// 			fill: $color-input-hover !important;
+	// 		}
+	// 	}
+	// }
 
 	&.focused {
 		.icon-inactive {

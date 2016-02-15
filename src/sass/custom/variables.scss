@@ -127,6 +127,7 @@ $margin-30                   : 30px;
 $margin-40                   : 40px;
 $margin-50                   : 50px;
 $margin-60                   : 60px;
+$margin-80                   : 80px;
 
 $margin-base                 : $margin-20;
 $margin-p                    : $margin-20;
@@ -161,7 +162,8 @@ $margin-button-V             : $margin-10;
 // ---------------
 // Transitions
 // ---------------
-$cubic-bezier-2              : cubic-bezier(.785,.135,.15,.86);
+// $easing-1              : cubic-bezier(.785,.135,.15,.86);
+$easing-1: cubic-bezier(0.5, 0.35, 0, 1);
 
 // Transition times
 $transition-time-1           : 150ms;

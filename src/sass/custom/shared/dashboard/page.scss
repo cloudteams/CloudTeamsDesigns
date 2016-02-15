@@ -130,7 +130,7 @@ section.dashboard-page {
 			opacity: 0;
 
 			&.active {
-				animation: fadeIn $transition-time-2 $cubic-bezier-2 1 normal forwards;
+				animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 				display: block;
 			}
 		}
@@ -144,14 +144,14 @@ section.dashboard-page {
 				position: relative;
 			}
 
-			.svg {
-				height: 17px;
-				width: 17px;
+			// .svg {
+			// 	height: 17px;
+			// 	width: 17px;
 
-				path {
-					fill: $color-text-secondary;
-				}
-			}
+			// 	path {
+			// 		fill: $color-text-secondary;
+			// 	}
+			// }
 
 			p {
 				color: $color-text-secondary;
@@ -171,9 +171,9 @@ section.dashboard-page {
 				right: 25px;
 				top: 4px;
 
-				.svg {
-					vertical-align: middle;
-				}
+				// .svg {
+				// 	vertical-align: middle;
+				// }
 			}
 		}
 	}

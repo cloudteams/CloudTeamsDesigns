@@ -29,7 +29,7 @@ article.idea {
 		height: 0px;
 		overflow: hidden;
 		position: relative;
-		transition: height $transition-time-2 $cubic-bezier-2, margin-top $transition-time-2 $cubic-bezier-2;
+		transition: height $transition-time-2 $easing-1, margin-top $transition-time-2 $easing-1;
 
 		&.extended {
 			margin-top: $margin-p;

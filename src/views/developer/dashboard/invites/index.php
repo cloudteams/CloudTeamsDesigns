@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<div class="icon-size-m icon-white-invites"></div>
+								<div class="icon-size-m icon-white-invite"></div>
 								<h1 class="header-large">Pending invites</h1>
 							</div>
 

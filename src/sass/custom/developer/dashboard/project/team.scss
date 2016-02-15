@@ -30,11 +30,11 @@
 			position: relative;
 			vertical-align: middle;
 
-			.more-options {
-				path {
-					fill: $color-text-secondary;
-				}
-			}
+			// .more-options {
+			// 	path {
+			// 		fill: $color-text-secondary;
+			// 	}
+			// }
 
 			.custom-tooltip {
 				right: -5px;
@@ -57,8 +57,7 @@
 
 		.image-container {
 			height: auto;
-			margin: 0 auto;
-			margin-bottom: $margin-image;
+			margin: 0 auto $margin-image;
 			width: 100px;
 
 			&.online-state {

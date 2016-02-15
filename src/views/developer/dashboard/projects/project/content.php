@@ -1,4 +1,4 @@
-<section class="developer-dashboard/project-overview-content">
+<section class="developer-dashboard-project-overview-content">
 
 	<?php include("data.php"); ?>
 
@@ -102,7 +102,7 @@
 				<div class="content">
 					<div class="row">
 						<div class="col-xs-4">
-							<div class="img-container online">
+							<div class="img-container online-state">
 								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
 							</div>
 						</div>
@@ -132,12 +132,13 @@
 						</div>
 
 						<div class="col-xs-4">
-							<div class="img-container online">
+							<div class="img-container online-state">
 								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half documents">
@@ -199,7 +200,7 @@
 					<div class="vertical-align">
 						<div class="middle">
 							<div class="icon-message"></div>
-							<h2 class="header-medium secondary">Messaging</h2>
+							<h2 class="header-medium secondary">Messages</h2>
 						</div>
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/messages"><span class="header-small action-text">See all</span></a></p>

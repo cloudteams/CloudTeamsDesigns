@@ -62,7 +62,7 @@
 		path {
 			fill: none;
 			stroke: $color-button;
-			transition: fill $transition-time-1 $cubic-bezier-2, stroke $transition-time-1 $cubic-bezier-2;
+			transition: fill $transition-time-1 $easing-1, stroke $transition-time-1 $easing-1;
 		}
 	}
 
