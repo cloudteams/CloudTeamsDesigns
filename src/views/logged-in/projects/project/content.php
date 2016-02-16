@@ -30,7 +30,7 @@
 							<div class="vertical-align">
 								<h2 class="header-large secondary">About this project</h2>
 								<p class="page-subtitle">Design</p>
-								<div class="square icon-design"></div>
+								<div class="square icon icon-design"></div>
 							</div>
 						</header>
 

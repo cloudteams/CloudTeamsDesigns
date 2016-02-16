@@ -135,6 +135,10 @@ section.dashboard-page {
 			display: none;
 			opacity: 0;
 
+			.icon {
+				color: $color-white;
+			}
+
 			&.active {
 				animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 				display: block;

@@ -87,11 +87,16 @@ article.project {
 		}
 
 		.square {
-			background-color: $color-background;
+			background-color: $color-flashy-purple;
 			margin: 0;
 			position: absolute;
 			right: 10px;
 			top: 10px;
+			padding: 4px;
+			border-radius: 2px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+
+			color: $color-white;
 		}
 	}
 

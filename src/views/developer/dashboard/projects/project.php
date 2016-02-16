@@ -2,7 +2,7 @@
 	<div class="background">
 		<div class="background-image">
 			<img src="[[../../../../img/temp.jpg]]">
-			<div class="square icon-games"></div>
+			<div class="square icon icon-games"></div>
 		</div>
 
 		<header>

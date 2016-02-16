@@ -2,7 +2,7 @@
 	<div class="background">
 		<div class="background-image">
 			<img src="[[../../../../img/temp.jpg]]">
-			<div class="square icon-folder"></div>
+			<div class="square icon icon-folder"></div>
 		</div>
 
 		<header>

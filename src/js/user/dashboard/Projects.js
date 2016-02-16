@@ -29,7 +29,7 @@
 		userTutorial.modal('show');
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		runOpenClose();
 		openTutorial();
 	});

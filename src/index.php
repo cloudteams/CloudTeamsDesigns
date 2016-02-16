@@ -19,8 +19,8 @@
 					<div class="row">
 						<article class="col-lg-4 col-md-6 col-xs-12">
 							<p>
-								<a href="/views/logged-in/projects">Public (logged out)</a><br />
-								<a href="/views/logged-in/projects">Public (logged in)</a><br />
+								<a href="/views/logged-in/">Public (logged out)</a><br />
+								<a href="/views/logged-in/">Public (logged in)</a><br />
 								<a href="/views/developer/dashboard/projects">Developer Dashboard</a><br />
 								<a href="/views/user/dashboard/projects">User Dashboard</a><br />
 							</p>

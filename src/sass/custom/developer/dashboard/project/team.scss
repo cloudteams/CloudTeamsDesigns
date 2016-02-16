@@ -83,6 +83,12 @@
 			top: 15px;
 			right: 15px;
 
+			a {
+				i {
+					color: $color-text;
+				}
+			}
+
 			.custom-tooltip {
 				left: -2px;
 				top: 35px;
