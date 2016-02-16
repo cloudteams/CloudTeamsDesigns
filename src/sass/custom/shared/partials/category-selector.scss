@@ -46,6 +46,43 @@
 		}
 	}
 
+	.list {
+		position: absolute;
+		left: 50%;
+		width: 100%;
+		margin-left: -50%;
+		top: $margin-40;
+		text-align: center;
+		z-index: 10;
+
+		ul {
+			display: inline-block;
+			margin: 0 auto;
+			background-color: $color-white;
+			padding: $margin-30 $margin-60 $margin-30 $margin-40;
+			list-style-type: none;
+			font-size: $font-size-2;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+			text-align: left;
+
+			li {
+				margin: 0 0 $margin-10;
+				padding: 0;
+				color: $color-clear-gray;
+				text-transform: uppercase;
+				transition: color $transition-time-2 $easing-1;
+
+				&:hover {
+					color: $color-flashy-purple;
+					cursor: pointer;
+					transition-duration: 0;
+				}
+			}
+		}
+	}
+
+
 	p {
 		padding-top: $margin-5;
 		text-align: center;

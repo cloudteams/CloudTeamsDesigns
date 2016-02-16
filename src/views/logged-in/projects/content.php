@@ -11,6 +11,22 @@
 						</div>
 					</div>
 					<p>Design <i class="icon icon-arrowdown"></i></p>
+					<div class="list">
+						<ul>
+							<li><i class="icon icon-art"></i> art</li>
+							<li><i class="icon icon-business"></i> business</li>
+							<li><i class="icon icon-design"></i> design</li>
+							<li><i class="icon icon-film"></i> film</li>
+							<li><i class="icon icon-food"></i> food</li>
+							<li><i class="icon icon-games"></i> games</li>
+							<li><i class="icon icon-journalism"></i> journalism</li>
+							<li><i class="icon icon-music"></i> music</li>
+							<li><i class="icon icon-photography"></i> photography</li>
+							<li><i class="icon icon-publishing"></i> publishing</li>
+							<li><i class="icon icon-technology"></i> technology</li>
+							<li><i class="icon icon-sport"></i> sport</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

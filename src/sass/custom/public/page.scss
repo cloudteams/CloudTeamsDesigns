@@ -7,6 +7,14 @@ section.public-page {
 		position: relative;
 		text-align: center;
 
+		&.header-all-projects {
+			padding: 200px 0 100px;
+			background-image: url(../img/hands.svg);
+			background-position: 50% 100%;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
 		&:after {
 			background: $color-border-bottom;
 			bottom: 0;

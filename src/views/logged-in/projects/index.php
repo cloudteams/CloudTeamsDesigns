@@ -3,7 +3,7 @@
 <section class="page page-public-projects-logged-in public-page">
 	<div class="content">
 		<main>
-			<header class="main-header">
+			<header class="main-header header-all-projects">
 				<div class="container">
 					<h1 class="header-extra-large public">All Projects</h1>
 					<p class="public-page-subtitle">Explore 888 projects</p>
