@@ -164,6 +164,24 @@ select {
 .input-container {
 	position: relative;
 
+	.icon {
+		position: absolute;
+		top: 0;
+		right: 4px;
+		padding: 3px 4px 4px;
+		transition: all $transition-time-2 $easing-1;
+		border-radius: 50%;
+		background-color: transparent;
+	}
+
+	&.hover, &.active {
+		.icon {
+			color: $color-white;
+			background-color: $color-flashy-purple;
+			transform: translate3d(0, -14px, 0);
+		}
+	}
+
 	/*
 	.svg {
 		path {
@@ -172,9 +190,9 @@ select {
 	}
 	*/
 
-	.icon-active {
-		visibility: hidden;
-	}
+	// .icon-active {
+	// 	visibility: hidden;
+	// }
 
 	// &.hover {
 	// 	.edit {
@@ -184,15 +202,15 @@ select {
 	// 	}
 	// }
 
-	&.focused {
-		.icon-inactive {
-			visibility: hidden;
-		}
+	// &.focused {
+	// 	.icon-inactive {
+	// 		visibility: hidden;
+	// 	}
 
-		.icon-active {
-			visibility: visible;
-		}
-	}
+	// 	.icon-active {
+	// 		visibility: visible;
+	// 	}
+	// }
 }
 
 .select-dropdown {

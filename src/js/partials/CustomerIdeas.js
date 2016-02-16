@@ -1,3 +1,5 @@
+/* global $ */
+
 export default (function() {
 	function openElement(element, element2) {
 		const curHeight  = element.height();

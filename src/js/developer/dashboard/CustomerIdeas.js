@@ -1,3 +1,5 @@
+/* global $ */
+
 import CustomerIdeas from 'partials/CustomerIdeas.js';
 
 (function() {

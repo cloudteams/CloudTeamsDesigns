@@ -1,3 +1,5 @@
+/* global $ */
+
 (function() {
 	function openItem(item) {
 		item.removeClass('passive').addClass('active');

@@ -1,3 +1,5 @@
+/* global $ */
+
 (function() {
 	function activeMenuItem() {
 		const navLink  = $('.global-nav li a');

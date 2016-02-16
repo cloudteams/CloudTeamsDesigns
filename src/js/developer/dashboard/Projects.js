@@ -1,3 +1,5 @@
+/* global $ */
+
 (function() {
 	function openTutorial() {
 		const developerTutorial = $('#popup-tutorial-developer');

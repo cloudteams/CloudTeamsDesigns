@@ -1,3 +1,5 @@
+/* global $ */
+
 (function() {
 	function openItem(item, item2) {
 		item.addClass('active');

@@ -1,3 +1,5 @@
+/* global $ */
+
 import 'partials/Menu';
 import 'partials/Tutorial';
 import 'partials/Easing';
@@ -160,7 +162,5 @@ import 'partials/Easing';
 		hoverStates();
 	}
 
-	$(document).ready(function() {
-		start();
-	});
+	$(document).ready(start);
 })();

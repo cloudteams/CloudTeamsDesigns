@@ -1,3 +1,5 @@
+/* global $ */
+
 (function() {
 	function closeItem(item) {
 		item.removeClass('active');

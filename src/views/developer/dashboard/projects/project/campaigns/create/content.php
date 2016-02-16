@@ -237,13 +237,11 @@
 						<label for="name-of-reward" class="header-medium secondary">Add rewards</label>
 
 						<div class="input-container">
-							<i class="icon-color icon-edit"></i>
 							<i class="icon icon-edit"></i>
 							<input type="text" id="name-of-reward" name="Name of the reward" placeholder="Name of the reward">
 						</div>
 
 						<div class="input-container">
-							<i class="icon-color icon-edit"></i>
 							<i class="icon icon-edit"></i>
 							<textarea id="description-reward" rows="7" placeholder="Description of the rewards"></textarea>
 						</div>

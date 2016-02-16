@@ -5,8 +5,7 @@
 				<fieldset>
 					<label for="project-title" class="header-medium secondary">Project title</label>
 					<div class="input-container">
-						<i class="icon icon-edit icon-inactive"></i>
-						<i class="icon-color icon-editing icon-active"></i>
+						<i class="icon icon-edit"></i>
 						<input id="project-title" type="text" name="project title" value="Project 1" placeholder="Project title">
 					</div>
 				</fieldset>
@@ -41,24 +40,24 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="img-edit-container">
-							<i class="icon-color icon-edit"></i>
+							<i class="icon icon-edit"></i>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 
 						<div class="img-edit-container">
-							<i class="icon-color icon-edit"></i>
+							<i class="icon icon-edit"></i>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 
 						<div class="img-edit-container">
-							<i class="icon-color icon-edit"></i>
+							<i class="icon icon-edit"></i>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 					</div>
 
 					<div class="col-sm-9">
 						<div class="img-edit-container">
-							<i class="icon-color icon-edit"></i>
+							<i class="icon icon-edit"></i>
 							<img src="[[../../../../../../img/temp.jpg]]">
 						</div>
 					</div>
@@ -72,7 +71,7 @@
 
 					<div class="input-container">
 						<i class="icon icon-edit"></i>
-						<i class="icon-color icon-edit"></i>
+						<i class="icon icon-edit"></i>
 						<textarea id="project-description" rows="7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</textarea>
 					</div>
 				</fieldset>

@@ -60,7 +60,6 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-container">
-										<i class="icon-color icon-edit"></i>
 										<i class="icon icon-edit"></i>
 										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
 									</div>
@@ -74,7 +73,6 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="input-container">
-										<i class="icon-color icon-edit"></i>
 										<i class="icon icon-edit"></i>
 										<input id="last-name" type="text" name="last-name" value="Mestra" placeholder="Last name">
 									</div>

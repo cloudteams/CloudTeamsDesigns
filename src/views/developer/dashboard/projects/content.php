@@ -8,7 +8,7 @@
 							<div class="add-project-button">
 								<div class="vertical-align">
 									<div class="middle">
-										<i class="icon-color icon-add icon-size-xl"></i>
+										<i class="icon icon-add"></i>
 									</div>
 								</div>
 							</div>

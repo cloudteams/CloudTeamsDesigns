@@ -6,6 +6,12 @@
 		.tooltip-container {
 			display: inline-block;
 			vertical-align: middle;
+
+			a {
+				i {
+					color: $color-white;
+				}
+			}
 		}
 
 		h2.header-large {
