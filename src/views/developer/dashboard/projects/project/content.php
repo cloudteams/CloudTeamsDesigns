@@ -224,7 +224,7 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<i class="icon icon-customeridea"></i>
+							<i class="icon icon-customer-idea"></i>
 							<h2 class="header-medium secondary">Customer ideas</h2>
 						</div>
 						<div class="middle">

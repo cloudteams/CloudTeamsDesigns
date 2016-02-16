@@ -25,7 +25,7 @@
 
 					<tr>
 						<td>
-							<i class="icon icon-campaigncompleted"></i>
+							<i class="icon icon-campaign-completed"></i>
 							<p>My campaigns answered</p>
 						</td>
 						<td>

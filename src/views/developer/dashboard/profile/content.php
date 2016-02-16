@@ -11,7 +11,7 @@
 							<h2 class="header-large secondary">James Wade</h2>
 
 							<div class="tooltip-container">
-								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 								<div class="custom-tooltip">
 									<ul>
 										<li>
@@ -72,7 +72,7 @@
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="icon icon-arrowdown"></i>
+										<i class="icon icon-arrow-down"></i>
 										<select name="birth-year" id="birth-year" onchange="" size="1">
 											<option value="" disabled selected>Year</option>
 											<option value="2016">2016</option>
@@ -130,7 +130,7 @@
 
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="icon icon-arrowdown"></i>
+										<i class="icon icon-arrow-down"></i>
 										<select name="birth-month" id="birth-month" onchange="" size="1">
 											<option value="" disabled selected>Month</option>
 											<option value="1">January</option>
@@ -151,7 +151,7 @@
 
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="icon icon-arrowdown"></i>
+										<i class="icon icon-arrow-down"></i>
 										<select name="birth-day" id="birth-day" onchange="" size="1">
 											<option value="" disabled selected>Day</option>
 											<option value="01">1</option>
@@ -213,7 +213,7 @@
 									<label for="country" class="header-medium secondary">Country</label>
 
 									<div class="select-dropdown">
-										<i class="icon icon-arrowdown"></i>
+										<i class="icon icon-arrow-down"></i>
 										<select name="country" id="country" onchange="" size="1">
 											<option value="single" disabled>Country</option>
 											<option value="us" selected>United States</option>
@@ -226,7 +226,7 @@
 									<label for="city" class="header-medium secondary">City</label>
 
 									<div class="select-dropdown">
-										<i class="icon icon-arrowdown"></i>
+										<i class="icon icon-arrow-down"></i>
 										<select name="city" id="city" onchange="" size="1">
 											<option value="single" disabled>City</option>
 											<option value="ny" selected>New York</option>

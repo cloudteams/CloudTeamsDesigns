@@ -11,7 +11,7 @@
 						<h2 class="header-large secondary">James Wade</h2>
 
 						<div class="tooltip-container">
-							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 							<div class="custom-tooltip">
 								<ul>
 									<li>
@@ -86,7 +86,7 @@
 							<div class="row">
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="birth-year" id="birth-year" onchange="" size="1">
 											<option value="" disabled selected>Year</option>
@@ -145,7 +145,7 @@
 
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="birth-month" id="birth-month" onchange="" size="1">
 											<option value="" disabled selected>Month</option>
@@ -167,7 +167,7 @@
 
 								<div class="col-sm-4">
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="birth-day" id="birth-day" onchange="" size="1">
 											<option value="" disabled selected>Day</option>
@@ -225,7 +225,7 @@
 								<div class="col-sm-6">
 									<label for="country" class="header-medium secondary">Country</label>
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 										<select name="country" id="country" onchange="" size="1">
 											<option value="single" disabled>Country</option>
 											<option value="us" selected>United States</option>
@@ -237,7 +237,7 @@
 								<div class="col-sm-6">
 									<label for="city" class="header-medium secondary">City</label>
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 										<select name="city" id="city" onchange="" size="1">
 											<option value="single" disabled>City</option>
 											<option value="ny" selected>New York</option>
@@ -290,7 +290,7 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 										<select name="business-factor" id="business-factor" onchange="" size="1">
 											<option value="single" disabled>Business factor</option>
 											<option value="accountent" selected>Accountent</option>
@@ -307,7 +307,7 @@
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 										<select name="business-position" id="business-position" onchange="" size="1">
 											<option value="single" disabled>Position</option>
 											<option value="manager" selected>Manager</option>
@@ -466,7 +466,7 @@
 									<label for="brands-like-1" class="header-medium secondary">3 brands you like?</label>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="brands-like-1" id="brands-like-1" onchange="" size="1">
 											<option value="" disabled>Brand</option>
@@ -477,7 +477,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="brands-dislike-2" id="brands-like-2" onchange="" size="1">
 											<option value="" disabled>Brand</option>
@@ -488,7 +488,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="brands-dislike-3" id="brands-like-3" onchange="" size="1">
 											<option value="" disabled>Brand</option>
@@ -503,7 +503,7 @@
 									<label for="brands-dislike-1" class="header-medium secondary">3 brands you dislike?</label>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="brands-dislike-1" id="brands-dislike-1" onchange="" size="1">
 											<option value="" disabled>Brand</option>
@@ -514,7 +514,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="brands-dislike-2" id="brands-dislike-2" onchange="" size="1">
 											<option value="" disabled>Brand</option>
@@ -525,7 +525,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="brands-dislike-3" id="brands-dislike-3" onchange="" size="1">
 											<option value="" disabled>Brand</option>
@@ -540,7 +540,7 @@
 									<label for="products-like-1" class="header-medium secondary">3 products you like?</label>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="products-like-1" id="products-like-1" onchange="" size="1">
 											<option value="" disabled>Product</option>
@@ -551,7 +551,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="products-like-2" id="products-like-2" onchange="" size="1">
 											<option value="" disabled>Product</option>
@@ -562,7 +562,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="products-like-3" id="products-like-3" onchange="" size="1">
 											<option value="" disabled>Product</option>
@@ -577,7 +577,7 @@
 									<label for="products-dislike-1" class="header-medium secondary">3 products you dislike?</label>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="products-dislike-1" id="products-dislike-1" onchange="" size="1">
 											<option value="" disabled>Product</option>
@@ -588,7 +588,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="products-dislike-2" id="products-like-2" onchange="" size="1">
 											<option value="" disabled>Product</option>
@@ -599,7 +599,7 @@
 									</div>
 
 									<div class="select-dropdown">
-										<i class="icon icon-size-s icon-arrowdown"></i>
+										<i class="icon icon-size-s icon-arrow-down"></i>
 
 										<select name="products-dislike-3" id="products-like-3" onchange="" size="1">
 											<option value="" disabled>Product</option>

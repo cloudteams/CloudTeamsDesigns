@@ -10,11 +10,11 @@
 							<div class="icon icon-design"></div>
 						</div>
 					</div>
-					<p>Design <i class="icon icon-arrowdown"></i></p>
+					<p>Design <i class="icon icon-arrow-down"></i></p>
 					<div class="list">
 						<ul>
 							<li><i class="icon icon-art"></i> art</li>
-							<li><i class="icon icon-business"></i> business</li>
+							<li><i class="icon icon-city"></i> business</li>
 							<li><i class="icon icon-design"></i> design</li>
 							<li><i class="icon icon-film"></i> film</li>
 							<li><i class="icon icon-food"></i> food</li>
@@ -36,7 +36,7 @@
 		<header>
 			<div class="filter-container">
 				<div class="select-dropdown">
-					<i class="icon icon-size-s icon-arrowdown"></i>
+					<i class="icon icon-size-s icon-arrow-down"></i>
 					<select name="filter-projects" id="filter-projects" onchange="" size="1">
 						<option value="all-projects" selected>Latest</option>
 						<option value="filter-1">Filter 2</option>
@@ -45,7 +45,7 @@
 					</select>
 				</div>
 				<div class="select-dropdown">
-					<i class="icon icon-size-s icon-arrowdown"></i>
+					<i class="icon icon-size-s icon-arrow-down"></i>
 					<select name="filter-projects" id="filter-projects" onchange="" size="1">
 						<option value="all-projects" selected>Most popular</option>
 						<option value="filter-1">Filter 2</option>

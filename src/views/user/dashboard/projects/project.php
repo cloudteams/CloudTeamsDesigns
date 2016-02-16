@@ -70,7 +70,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<i class="icon icon-campaigncompleted"></i>
+						<i class="icon icon-campaign-completed"></i>
 						<p><a href="/views/logged-in/projects/project#campaigns" alt="completed campaigns">Completed campaigns</a></p>
 					</td>
 					<td class="col-xs-7">

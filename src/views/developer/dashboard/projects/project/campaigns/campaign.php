@@ -4,7 +4,7 @@
 			<h2 class="header-medium secondary">Give feedback on our homepage and participate in...</h2>
 
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
+				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>
@@ -39,7 +39,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<i class="icon icon-addmember"></i>
+						<i class="icon icon-add-member"></i>
 						<p>Accepted</p>
 					</td>
 					<td class="col-xs-7">
@@ -49,7 +49,7 @@
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<i class="icon icon-campaigncompleted"></i>
+						<i class="icon icon-campaign-completed"></i>
 						<p>Participated</p>
 					</td>
 					<td class="col-xs-7">

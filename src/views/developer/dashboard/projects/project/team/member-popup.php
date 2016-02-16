@@ -14,7 +14,7 @@
 				<p class="meta thin">bobbyd123@gmail.com</p>
 
 				<div class="tooltip-container">
-					<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
+					<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 					<div class="custom-tooltip">
 						<ul>
 							<li>

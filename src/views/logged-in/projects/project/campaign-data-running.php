@@ -15,7 +15,7 @@
 
 					<tr>
 						<td>
-							<i class="icon icon-addmember"></i>
+							<i class="icon icon-add-member"></i>
 							<p>Participated</p>
 						</td>
 						<td>

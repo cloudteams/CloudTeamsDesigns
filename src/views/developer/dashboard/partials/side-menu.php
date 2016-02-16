@@ -37,7 +37,7 @@
 
 			<li>
 				<a href="/views/developer/dashboard/invites">
-				<i class="icon icon-addmember"></i>
+				<i class="icon icon-add-member"></i>
 					Pending invites
 				</a>
 			</li>

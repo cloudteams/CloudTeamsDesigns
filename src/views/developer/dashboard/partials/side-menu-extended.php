@@ -55,7 +55,7 @@
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/service">
-							<i class="icon icon-services"></i>
+							<i class="icon icon-external-service"></i>
 							External services
 						</a>
 					</li>
@@ -104,7 +104,7 @@
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project/customer-ideas">
-							<i class="icon icon-customeridea"></i>
+							<i class="icon icon-customer-idea"></i>
 							Customer ideas
 						</a>
 					</li>

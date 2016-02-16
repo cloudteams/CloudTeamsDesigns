@@ -70,7 +70,7 @@
 
 				<tr>
 					<td>
-						<i class="icon icon-customeridea"></i>
+						<i class="icon icon-customer-idea"></i>
 						<p>Customer ideas</p>
 					</td>
 					<td>

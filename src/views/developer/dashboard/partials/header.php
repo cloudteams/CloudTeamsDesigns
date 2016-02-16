@@ -74,7 +74,7 @@
 							<ul class="submenu">
 								<li><a href="/views/developer/dashboard/profile"><i class="icon icon-user"></i> Edit profile</a></li>
 								<li><a href="/views/developer/dashboard/settings"><i class="icon icon-settings"></i> Settings</a></li>
-								<li><a href="#nowhere"><i class="icon icon-signout"></i> Log out</a></li>
+								<li><a href="#nowhere"><i class="icon icon-sign-out"></i> Log out</a></li>
 							</ul>
 						</li>
 					</ul>

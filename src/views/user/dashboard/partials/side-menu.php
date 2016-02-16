@@ -50,7 +50,7 @@
 
 			<li>
 				<a href="/views/logged-in/projects">
-					<i class="icon icon-allprojects"></i>
+					<i class="icon icon-all-projects"></i>
 					All projects
 				</a>
 			</li>

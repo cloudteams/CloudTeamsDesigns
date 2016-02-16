@@ -15,7 +15,7 @@
 
 					<tr>
 						<td>
-							<i class="icon icon-addmember"></i>
+							<i class="icon icon-add-member"></i>
 							<p>Participated</p>
 						</td>
 						<td>
@@ -47,7 +47,7 @@
 
 			<div class="middle">
 				<a href="#nowhere" class="btn-grey">
-					<i class="icon icon-closedelete"></i>
+					<i class="icon icon-close-delete"></i>
 					Closed
 				</a>
 			</div>

@@ -51,17 +51,6 @@
 		border-color: $color-success-hover;
 		color: $color-text-secondary;
 	}
-
-	// .icon.add {
-	// 	height: 10px;
-	// 	margin-right: $margin-button-V;
-	// 	width: 10px;
-
-	// 	path {
-	// 		stroke: $color-text-secondary;
-	// 		stroke-width: 1.5px;
-	// 	}
-	// }
 }
 
 .btn-grey {
@@ -70,22 +59,10 @@
 	border-color: $color-light-grey;
 	color: $color-highlight;
 
-	// .delete {
-	// 	path {
-	// 		stroke: $color-highlight;
-	// 	}
-	// }
-
 	&:hover {
 		background: $color-light-grey-secondary;
 		border-color: $color-light-grey;
 		color: $color-highlight !important;
-
-		// .delete {
-		// 	path {
-		// 		stroke: $color-highlight;
-		// 	}
-		// }
 	}
 }
 
@@ -99,18 +76,6 @@
 		border-color: $color-success-hover;
 		color: $color-text-secondary;
 	}
-
-	// .icon {
-	// 	height: 10px !important;
-	// 	width: 10px !important;
-
-	// 	path {
-	// 		fill: none;
-	// 		stroke: $color-text-secondary;
-	// 		stroke-width: 1.5px;
-
-	// 	}
-	// }
 }
 
 .btn-decline {
@@ -119,40 +84,14 @@
 	border-color: $color-decline;
 	color: $color-decline;
 
-	// .icon {
-	// 	height: 10px !important;
-	// 	width: 10px !important;
-
-	// 	path {
-	// 		fill: $color-button;
-	// 		transition: fill $transition-time-1 $easing-1;
-	// 	}
-	// }
-
 	&:hover {
 		background: $color-decline;
 		color: $color-text-secondary;
-
-		// .icon {
-		// 	path {
-		// 		fill: $color-text-secondary;
-		// 	}
-		// }
 	}
 }
 
 .btn-download {
 	color: $color-button;
-
-	// .icon {
-	// 	height: auto;
-	// 	margin-left: $margin-icon;
-	// 	width: 14px;
-
-	// 	path {
-	// 		fill: $color-button;
-	// 	}
-	// }
 
 	&:hover {
 		color: $color-button;
@@ -172,11 +111,17 @@
 		transition: background $transition-time-1 $easing-1, border-color $transition-time-1 $easing-1, color $transition-time-1 $easing-1;
 		width: 100px;
 
-		// .icon {
-		// 	path {
-		// 		fill: $color-button;
-		// 	}
-		// }
+		.icon {
+			position: relative;
+			top: auto;
+			left: auto;
+			right: auto;
+			bottom: auto;
+			margin: 0;
+			padding: 0;
+			font-size: $font-size-1;
+			color: $color-button;
+		}
 	}
 
 	&:hover {
@@ -184,11 +129,9 @@
 			background: $color-button;
 			border-color: $color-button;
 
-			// .icon {
-			// 	path {
-			// 		fill: $color-text-secondary;
-			// 	}
-			// }
+			.icon {
+				color: $color-white;
+			}
 		}
 
 		p {

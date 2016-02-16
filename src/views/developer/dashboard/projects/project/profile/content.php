@@ -13,7 +13,7 @@
 				<fieldset>
 					<label for="visibility" class="header-medium secondary">Project is visible to</label>
 					<div class="select-dropdown">
-						<i class="icon icon-size-s icon-arrowdown"></i>
+						<i class="icon icon-size-s icon-arrow-down"></i>
 						<select id="visibility">
 							<option value="All users" selected>All users</option>
 							<option value="Only team members">Only team members</option>
@@ -25,7 +25,7 @@
 				<fieldset>
 					<label for="visible-in-all-projects" class="header-medium secondary">Project is visible in 'All projects'</label>
 					<div class="select-dropdown">
-						<i class="icon icon-size-s icon-arrowdown"></i>
+						<i class="icon icon-size-s icon-arrow-down"></i>
 						<select id="visible-in-all-projects">
 							<option value="Yes" selected>Yes</option>
 							<option value="No">No</option>

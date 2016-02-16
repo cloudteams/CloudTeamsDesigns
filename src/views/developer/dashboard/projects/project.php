@@ -8,7 +8,7 @@
 		<header>
 			<h3 class="header-medium secondary">New MINI website UX/UI research</h3>
 			<div class="tooltip-container">
-				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
+				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 				<div class="custom-tooltip">
 					<ul>
 						<li>

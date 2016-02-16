@@ -6,7 +6,7 @@ footer#footer {
 		&.social-media {
 			li {
 				a {
-					.fa {
+					i {
 						font-size: $font-size-social-media;
 					}
 				}
@@ -41,10 +41,6 @@ footer#footer {
 			&.social-media {
 				li {
 					a {
-						.fa {
-							color: $color-menu-items;
-						}
-
 						&:hover {
 							&:after {
 								display: none;
@@ -76,7 +72,7 @@ footer#footer {
 		ul {
 			li {
 				a {
-					color: $color-menu-items;
+					color: $color-shading-purple;
 
 					&:hover {
 						color: $color-text-secondary;

@@ -26,7 +26,7 @@
 
 				<tr>
 					<td>
-						<i class="icon icon-addmember"></i>
+						<i class="icon icon-add-member"></i>
 						<p>Accepted</p>
 					</td>
 					<td>
@@ -40,7 +40,7 @@
 			<table>
 				<tr>
 					<td>
-						<i class="icon icon-campaigncompleted"></i>
+						<i class="icon icon-campaign-completed"></i>
 						<p>Participated</p>
 					</td>
 					<td>

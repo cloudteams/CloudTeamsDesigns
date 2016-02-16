@@ -4,7 +4,7 @@
 		<h2 class="header-large secondary">Fanta Design Department</h2>
 
 		<div class="tooltip-container">
-			<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-moreoptions"></i></a>
+			<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 			<div class="custom-tooltip">
 				<ul>
 					<li>
