@@ -174,7 +174,7 @@ select {
 		background-color: transparent;
 	}
 
-	&.hover, &.active {
+	&.hover, &.active, &.focused {
 		.icon {
 			color: $color-white;
 			background-color: $color-flashy-purple;

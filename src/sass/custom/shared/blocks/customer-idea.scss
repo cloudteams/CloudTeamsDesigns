@@ -16,12 +16,12 @@ article.idea {
 		padding-top: $margin-block;
 	}
 
-	.icon-arrowright {
+	.icon-arrow-right {
 		//color: $color-pink;
 		//font-size: 25px;
 		left: 10px;
 		position: absolute;
-		top: 18px;
+		top: 25px;
 		z-index: 99;
 	}
 
@@ -62,12 +62,28 @@ article.idea {
 			.like-button {
 				color: $color-button;
 				cursor: pointer;
+				user-select: none;
+				transition: color $transition-time-1 $easing-1;
+
+				i {
+					color: $color-smooth-gray;
+					transition: color $transition-time-1 $easing-1;
+				}
 
 				&.active {
-					.icon-like {
-						@extend .icon-color-liked;
+					color: $color-deep-red;
+
+					i {
+						color: $color-deep-red;
+						animation: pop $transition-time-2 $easing-1;
 					}
 				}
+
+				// &.active {
+				// 	.icon-like {
+				// 		@extend .icon-color-liked;
+				// 	}
+				// }
 			}
 		}
 	}
