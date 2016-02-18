@@ -128,13 +128,13 @@ import 'partials/Easing';
 		const input  = $('input, textarea');
 		const select = $('select');
 
-		input
-			.mouseover(function() {
-				$(this).parent().addClass('hover');
-			})
-			.mouseout(function() {
-				$(this).parent().removeClass('hover');
-			});
+		// input
+		// 	.mouseover(function() {
+		// 		$(this).parent().addClass('hover');
+		// 	})
+		// 	.mouseout(function() {
+		// 		$(this).parent().removeClass('hover');
+		// 	});
 
 		input
 			.focusin(function() {
@@ -144,13 +144,13 @@ import 'partials/Easing';
 				$(this).parent().removeClass('focused');
 			});
 
-		select
-			.mouseover(function() {
-				$(this).parent().addClass('hover');
-			})
-			.mouseout(function() {
-				$(this).parent().removeClass('hover');
-			});
+		// select
+		// 	.mouseover(function() {
+		// 		$(this).parent().addClass('hover');
+		// 	})
+		// 	.mouseout(function() {
+		// 		$(this).parent().removeClass('hover');
+		// 	});
 	}
 
 	function start() {

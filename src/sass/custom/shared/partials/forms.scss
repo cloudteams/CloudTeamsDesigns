@@ -31,7 +31,7 @@ input, select, select option, textarea, button {
 }
 
 input, textarea {
-	background: none;;
+	background: none;
 	border: 1px solid $color-input-border;
 	border-radius: 5px;
 	color: $color-text;
@@ -39,10 +39,13 @@ input, textarea {
 	padding: $margin-input-small $margin-input;
 	transition: border-color $transition-time-2 $easing-1;
 	width: 100%;
+	transition: all $transition-time-2 $easing-1;
 
 	&:not(.input-search) {
-		&:hover, &:focus {
+		&:focus {
 			border-color: $color-input-hover;
+			box-shadow: 0 0 1px 1px $color-checked !important;
+			background-color: $color-soft-gray;
 		}
 	}
 }
@@ -155,8 +158,9 @@ select {
 	}
 
 	&:not(.projects-dropdown) {
-		&:hover, &:focus {
+		&:focus {
 			border-color: $color-input-hover;
+			box-shadow: 0 0 1px 1px $color-checked !important;
 		}
 	}
 }
@@ -166,7 +170,7 @@ select {
 
 	.icon {
 		position: absolute;
-		top: 5px;
+		top: 10px;
 		right: 4px;
 		padding: 3px 4px 4px;
 		transition: all $transition-time-2 $easing-1;
@@ -174,11 +178,11 @@ select {
 		background-color: transparent;
 	}
 
-	&.hover, &.active, &.focused {
+	&.active, &.focused {
 		.icon {
 			color: $color-white;
 			background-color: $color-flashy-purple;
-			transform: translate3d(0, -12px, 0);
+			transform: translate3d(0, -19px, 0);
 		}
 	}
 
@@ -218,7 +222,7 @@ select {
 
 	.icon {
 		position: absolute;
-		top: 5px;
+		top: 10px;
 		right: 4px;
 		padding: 4px 4px 4px;
 		// transition: all $transition-time-2 $easing-1;

@@ -7,6 +7,12 @@ section.public-page {
 		position: relative;
 		text-align: center;
 
+		&.login {
+			&:after {
+				display: none;
+			}
+		}
+
 		&.header-all-projects {
 			padding: 200px 0 100px;
 			background-image: url(../img/hands.svg);
@@ -29,6 +35,23 @@ section.public-page {
 		.btn {
 			font-size: $font-size-2;
 			padding: 20px 40px;
+		}
+
+		p {
+			margin-top: $margin-40;
+			// font-family: $font-header;
+			font-size: $font-size-2;
+			letter-spacing: $letter-spacing-1;
+
+			a {
+				// font-family: $font-header;
+				text-transform: uppercase;
+				font-weight: $font-weight-bold;
+
+				&:hover {
+					color: $color-button-hover;
+				}
+			}
 		}
 	}
 }

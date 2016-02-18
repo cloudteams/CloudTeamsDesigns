@@ -36,7 +36,7 @@
 
 				<ul class="side-menu-extended">
 					<li class="select-dropdown">
-						<i class="icon icon-size-s icon-sidepanel-arrowdown"></i>
+						<i class="icon icon-arrow-down"></i>
 						<select class="projects-dropdown">
 							<option value="Project 1" selected>Project 1</option>
 							<option value="Project 1">Project 2</option>

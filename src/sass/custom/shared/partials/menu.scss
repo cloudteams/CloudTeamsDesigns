@@ -3,6 +3,21 @@ body {
 		background: $color-pink;
 		height: 65px;
 
+		&.no-menu {
+			background: $color-white;
+			text-align: left;
+
+			a {
+				display: inline-block;
+			}
+			.logo {
+				width: auto;
+				height: 80px;
+			}
+
+			margin: $margin-20 auto $margin-60;
+		}
+
 		.global-nav {
 			.container {
 				height: 100%;
@@ -32,8 +47,11 @@ body {
 							z-index: 99;
 
 							li {
-								display: block;
-								white-space: nowrap;
+								a {
+									display: block;
+									white-space: nowrap;
+									padding-bottom: 4px;
+								}
 							}
 						}
 
