@@ -217,6 +217,25 @@ select {
 	// }
 }
 
+.terms-and-conditions {
+	// padding: $margin-10;
+	margin-bottom: $margin-40;
+
+	.content {
+		height: 150px;
+		overflow-y: scroll;
+	}
+
+	&:after {
+		content: '';
+		width: 100%;
+		height: 1px;
+		margin-top: $margin-20;
+		display: block;
+		background-color: $color-smooth-gray;
+	}
+}
+
 .select-dropdown {
 	position: relative;
 

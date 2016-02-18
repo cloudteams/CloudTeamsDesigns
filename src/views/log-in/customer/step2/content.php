@@ -23,6 +23,23 @@
 							<input type="password" id="password" name="password" placeholder="Secret">
 						</div>
 					</fieldset>
+
+					<fieldset>
+						<label for="password2" class="header-medium secondary">Password confirmation</label>
+
+						<div class="input-container">
+							<i class="icon icon-edit"></i>
+							<input type="password" id="password2" name="password2" placeholder="Secret">
+						</div>
+					</fieldset>
+
+					<fieldset class="fieldset-checkbox">
+						<div class="input-container">
+							<label for="remember">
+								<input type="checkbox" name="remember" value='0' id="remember"><span></span>Remember me
+							</label>
+						</div>
+					</fieldset>
 				</div>
 
 			</div>
@@ -34,8 +51,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="button-end">
-					<a href="/views/log-in/choose" class="btn big">Log in</a>
-					<p>Not sure which account is right for you? <a href="#nowhere">Learn more</a></p>
+					<a href="/views/logged-in" class="btn big">Log in</a>
 				</div>
 			</div>
 		</div>
