@@ -2,7 +2,7 @@
 	<div class="container">
 		<header>
 			<h2 class="header-large public">Latest projects</h2>
-			<p class="header-small action-text"><a href="/views/logged-in/projects">See all</a></p>
+			<p class="header-small action-text"><a href="/views/logged-out/projects">See all</a></p>
 
 			<div class="filter-container">
 				<label for="filter-projects">Filter projects</label>

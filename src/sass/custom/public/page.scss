@@ -21,6 +21,12 @@ section.public-page {
 			background-repeat: no-repeat;
 		}
 
+		&.header-all-projects-logged-out {
+			img {
+				transform: translate(0, -$margin-40);
+			}
+		}
+
 		&:after {
 			background: $color-border-bottom;
 			bottom: 0;

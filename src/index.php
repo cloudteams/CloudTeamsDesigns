@@ -21,6 +21,7 @@
 							<p>
 								<a href="/views/log-in">Log in</a><br />
 								<a href="/views/logged-in">Public (logged in)</a><br />
+								<a href="/views/logged-out">Public (logged out)</a><br />
 								<a href="/views/developer/dashboard/projects">Developer Dashboard</a><br />
 								<a href="/views/user/dashboard/projects">User Dashboard</a><br />
 								<a href="/views/shared/404">404 Error</a><br />
