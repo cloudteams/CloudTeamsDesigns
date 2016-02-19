@@ -9,7 +9,13 @@ body {
 
 			a {
 				display: inline-block;
+
+				&.login {
+					margin-top: $margin-20;
+					float: right;
+				}
 			}
+
 			.logo {
 				width: auto;
 				height: 70px;

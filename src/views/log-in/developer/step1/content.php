@@ -46,7 +46,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="button-end">
-					<a href="/views/log-in/user/step2" class="btn big">Register</a>
+					<a href="/views/log-in/developer/step2" class="btn big">Register</a>
 				</div>
 			</div>
 		</div>

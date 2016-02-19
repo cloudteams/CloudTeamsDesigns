@@ -48,9 +48,21 @@ section.public-page {
 				}
 			}
 		}
+
+		&.choice {
+			text-align: right;
+
+			a:first-child {
+				margin-right: $margin-10;
+			}
+		}
 	}
 
 	&.page-login {
+
+		h1 {
+			text-transform: uppercase;
+		}
 
 		.role {
 			text-align: center;
