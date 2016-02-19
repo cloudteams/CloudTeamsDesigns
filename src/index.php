@@ -19,10 +19,11 @@
 					<div class="row">
 						<article class="col-lg-4 col-md-6 col-xs-12">
 							<p>
-								<a href="/views/logged-in/">Public (logged out)</a><br />
-								<a href="/views/logged-in/">Public (logged in)</a><br />
+								<a href="/views/log-in">Log in</a><br />
+								<a href="/views/logged-in">Public (logged in)</a><br />
 								<a href="/views/developer/dashboard/projects">Developer Dashboard</a><br />
 								<a href="/views/user/dashboard/projects">User Dashboard</a><br />
+								<a href="/views/shared/404">404 Error</a><br />
 							</p>
 						</article>
 					</div>
