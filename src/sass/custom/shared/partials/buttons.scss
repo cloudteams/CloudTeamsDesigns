@@ -17,6 +17,11 @@
 	text-transform: uppercase;
 	transition: background $transition-time-1 $easing-1, color $transition-time-1 $easing-1;
 
+	&.big {
+		font-size: $font-size-2;
+		padding: 20px 40px;
+	}
+
 	.icon-size-s {
 		margin-top: -1px;
 	}

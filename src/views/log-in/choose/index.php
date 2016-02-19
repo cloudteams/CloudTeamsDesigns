@@ -1,12 +1,12 @@
-<?php include("./partials/header.php"); ?>
+<?php include("../partials/header.php"); ?>
 
 <section class="page page-login public-page">
 	<div class="content">
 		<main>
 			<header class="main-header login">
 				<div class="container">
-					<h1 class="header-extra-large public">Welcome</h1>
-					<p class="public-page-subtitle">Please log in or register to continue</p>
+					<h1 class="header-extra-large public">Who are you</h1>
+					<p class="public-page-subtitle">Please pick your role</p>
 				</div>
 			</header>
 
@@ -15,4 +15,4 @@
 	</div>
 </section>
 
-<?php include("./partials/footer.php"); ?>
+<?php include("../partials/footer.php"); ?>

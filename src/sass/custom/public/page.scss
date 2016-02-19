@@ -32,11 +32,6 @@ section.public-page {
 		text-align: center;
 		margin: $margin-80 0;
 
-		.btn {
-			font-size: $font-size-2;
-			padding: 20px 40px;
-		}
-
 		p {
 			margin-top: $margin-40;
 			// font-family: $font-header;
@@ -52,6 +47,38 @@ section.public-page {
 					color: $color-button-hover;
 				}
 			}
+		}
+	}
+
+	&.page-login {
+
+		.role {
+			text-align: center;
+
+			img {
+				width: 85%;
+			}
+
+			&.role-user {
+				img {
+					transform: rotate(-15deg) translate(0, -$margin-40);
+				}
+			}
+
+			&.role-developer {
+				img {
+					transform: rotate(15deg) translate(0, -$margin-40);
+				}
+			}
+
+			.btn {
+				margin-top: $margin-20;
+			}
+
+			.image:hover {
+				animation: pop-small $transition-time-2 $easing-1;
+			}
+
 		}
 	}
 }
