@@ -13,7 +13,7 @@ section.public-page {
 			}
 		}
 
-		&.header-all-projects {
+		&.header-all-projects, &.header-tutorial {
 			padding: 200px 0 100px;
 			background-image: url(../img/hands.svg);
 			background-position: 50% 100%;
@@ -21,16 +21,30 @@ section.public-page {
 			background-repeat: no-repeat;
 		}
 
-		&.header-all-projects-logged-out {
-			img {
-				transform: translate(0, -$margin-40);
-			}
-		}
+		// &.header-all-projects-logged-out {
+		// 	img {
+		// 		transform: translate(0, -$margin-40);
+		// 	}
+		// }
 
 		&:after {
 			background: $color-border-bottom;
 			bottom: 0;
 			top: auto;
+		}
+	}
+
+	&.no-border {
+		header.main-header {
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	.choice {
+		a:first-child {
+			margin-right: $margin-10;
 		}
 	}
 
@@ -57,10 +71,6 @@ section.public-page {
 
 		&.choice {
 			text-align: right;
-
-			a:first-child {
-				margin-right: $margin-10;
-			}
 		}
 	}
 
@@ -104,6 +114,76 @@ section.public-page {
 		.main-header {
 			img {
 				margin-bottom: $margin-40;
+			}
+		}
+	}
+
+	.incentive {
+		background-color: $color-footer-public;
+		padding: $margin-30 0;
+		text-align: center;
+		margin: $margin-60 0 0;
+
+		p {
+			font-size: $font-size-2;
+
+			a {
+				text-transform: uppercase;
+				font-weight: $font-weight-bold;
+				color: $color-button;
+				letter-spacing: $letter-spacing-1;
+
+				&:focus, &:active, &:hover {
+					color: $color-button-hover;
+				}
+			}
+		}
+	}
+
+	&.page-tutorial {
+
+		h2, h3 {
+			text-transform: uppercase;
+			letter-spacing: $letter-spacing-2;
+		}
+
+		section.intro, section.steps, section.introduction {
+			padding-bottom: $margin-120;
+			border-bottom: 1px solid $color-border-bottom;
+		}
+
+		.button-end {
+			h3 {
+				margin-bottom: $margin-20;
+			}
+		}
+
+		section.intro {
+			margin-bottom: $margin-120;
+			text-align: center;
+			img {
+				margin-bottom: $margin-40;
+			}
+		}
+
+		section.steps {
+			margin-bottom: $margin-120;
+
+			.step {
+				p {
+					text-align: center;
+				}
+			}
+		}
+
+		section.introduction {
+			ul.steps {
+				li {
+					font-size: $font-size-2;
+					color: $color-text;
+					font-weight: $font-weight-bold;
+					margin-bottom: $margin-20;
+				}
 			}
 		}
 	}

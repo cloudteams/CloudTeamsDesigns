@@ -51,11 +51,9 @@
 			</div>
 
 			<div class="brand">
-				<img src="[[../../../img/logo-black.svg]]" class="logo svg" alt="Cloudteams logo">
+				<a href="/"><img src="[[../../../img/logo-black.svg]]" class="logo svg" alt="Cloudteams logo"></a>
 			</div>
 
-			<?php //include("../partials/popup-tutorial-developer.php"); ?>
-			<?php //include("../partials/popup-tutorial-user.php"); ?>
 		</footer>
 	</body>
 </html>
