@@ -153,12 +153,19 @@ import 'partials/Easing';
 		// 	});
 	}
 
+	function runMinizeSideMenu() {
+		$('.minimize-sidepanel').on('click', () => {
+			$('section.dashboard-page').toggleClass('minimized');
+		});
+	}
+
 	function start() {
 		// Svg.run();
 		runOpenCloseSubpage();
 		runOpenCloseSubsection();
 		moveProgressBar();
 		runOpenCloseTooltip();
+		runMinizeSideMenu();
 		hoverStates();
 	}
 

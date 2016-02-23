@@ -1,9 +1,12 @@
-<aside class="dashboard-side-menu dashboard-side-menu-user col-lg-3">
+<aside class="dashboard-side-menu dashboard-side-menu-user">
 	<header>
 		<div class="vertical-align">
-			<div class="middle">
+			<div class="middle hide-minimized">
 				<h1 class="header-small">Dashboard</h1>
-				<p class="page-subtitle">&lt; Fold back</p>
+				<p class="page-subtitle minimize-sidepanel"><i class="icon icon-arrow-left"></i> Fold back</p>
+			</div>
+			<div class="middle show-minimized">
+				<p class="page-subtitle minimize-sidepanel"><i class="icon icon-arrow-right"></i></p>
 			</div>
 		</div>
 	</header>
@@ -15,7 +18,7 @@
 						<img src="[[../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
 					</div>
 
-					<div class="information col-xs-8 middle">
+					<div class="information col-xs-8 middle hide-minimized">
 						<ul>
 							<li class="meta big">James Wade</li>
 							<li><a href="#nowhere">Edit profile</a></li>
@@ -30,34 +33,34 @@
 			<li class="active">
 				<a href="/views/user/dashboard/projects">
 					<i class="icon icon-project"></i>
-					Projects
+					<span>Projects</span>
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/user/dashboard/campaigns">
 					<i class="icon icon-campaign"></i>
-					Campaigns
+					<span>Campaigns</span>
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/user/dashboard/notifications" class="incoming">
 					<i class="icon icon-notification"></i>
-					Notifications
+					<span>Notifications</span>
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/logged-in/projects">
 					<i class="icon icon-all-projects"></i>
-					All projects
+					<span>All projects</span>
 				</a>
 			</li>
 		</ul>
 	</nav>
 
-	<div class="bottom">
+	<div class="bottom hide-minimized">
 		<div class="profile-completion">
 			<h2 class="header-sidebar">Profile completion</h2>
 

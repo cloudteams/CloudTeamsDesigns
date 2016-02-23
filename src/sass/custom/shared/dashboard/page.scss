@@ -7,6 +7,85 @@ section.dashboard-page {
 	padding: 0;
 	position: relative;
 
+	> .container {
+		> .content {
+			> .row {
+				> aside {
+					@extend .col-lg-3;
+
+					.show-minimized {
+						display: none;
+					}
+
+				}
+
+				> main {
+					@extend .col-lg-9;
+				}
+
+			}
+
+		}
+
+	}
+
+	&.minimized {
+		> .container {
+			> .content {
+				> .row {
+					> aside {
+						@extend .col-lg-1;
+
+						.hide-minimized {
+							display: none;
+						}
+
+						.show-minimized {
+							display: block;
+						}
+
+						.minimize-sidepanel {
+							text-align: center;
+							margin: $margin-10 auto;
+						}
+
+						i {
+							font-size: $font-size-7;
+						}
+
+						nav.side-menu {
+							text-align: center;
+
+							li {
+								span {
+									display: none;
+								}
+
+							}
+
+						}
+
+						ul.side-menu-extended {
+							background: $color-background-quaternary;
+							margin-top: $margin-menu-item;
+							padding-top: $margin-menu-item;
+							padding-bottom: $margin-menu-item;
+						}
+
+					}
+
+					> main {
+						@extend .col-lg-11;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
 	&:before {
 		background: $color-background-secondary;
 		content: "";
@@ -65,20 +144,6 @@ section.dashboard-page {
 							font-size: $font-size-header-large;
 						}
 
-						/*
-						.svg {
-							display: inline-block;
-							height: 25px;
-							margin-right: $margin-5;
-							margin-top: -5px;
-							vertical-align: middle;
-							width: 25px;
-
-							path {
-								fill: $color-text-secondary;
-							}
-						}
-						*/
 						h1 {
 							display: inline-block;
 							vertical-align: middle;
@@ -103,7 +168,6 @@ section.dashboard-page {
 					}
 
 					.project-counter {
-						// color: $color-subtitle;
 						color: $color-shading-purple;
 						display: inline-block;
 						font-weight: $font-weight-bold;

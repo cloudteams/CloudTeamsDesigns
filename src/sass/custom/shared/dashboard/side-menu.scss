@@ -7,6 +7,10 @@
 			letter-spacing: 1px;
 		}
 
+		.minimize-sidepanel {
+			cursor: pointer;
+		}
+
 	}
 
 	.member {
@@ -64,13 +68,17 @@
 						&:after {
 							background: $color-deep-red;
 							border-radius: 50%;
-							content: "";
+							content: '';
 							display: inline-block;
 							height: 10px;
 							position: absolute;
-							right: 15px;
-							top: 9px;
+							top: 8px;
 							width: 10px;
+
+							.dashboard-page:not(.minimized) & {
+								right: 15px;
+							}
+
 						}
 
 						&:hover {
@@ -102,7 +110,7 @@
 
 	}
 
-	&.dashboard-side-menu-extended {
+	.dashboard-page:not(.minimized) &.dashboard-side-menu-extended {
 		padding: 0;
 
 		header,

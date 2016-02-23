@@ -7,7 +7,7 @@
 			<div class="row">
 				<?php include("../../partials/side-menu.php"); ?>
 
-				<main class="col-lg-9">
+				<main>
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">

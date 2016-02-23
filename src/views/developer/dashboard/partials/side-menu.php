@@ -1,9 +1,12 @@
-<aside class="dashboard-side-menu col-lg-3">
+<aside class="dashboard-side-menu">
 	<header>
 		<div class="vertical-align">
-			<div class="middle">
+			<div class="middle hide-minimized">
 				<h1 class="header-small">Dashboard</h1>
-				<p class="page-subtitle">&lt; Fold back</p>
+				<p class="page-subtitle minimize-sidepanel"><i class="icon icon-arrow-left"></i> Fold back</p>
+			</div>
+			<div class="middle show-minimized">
+				<p class="page-subtitle minimize-sidepanel"><i class="icon icon-arrow-right"></i></p>
 			</div>
 		</div>
 	</header>
@@ -15,7 +18,7 @@
 						<img src="[[../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
 					</div>
 
-					<div class="information col-xs-8 middle">
+					<div class="information col-xs-8 middle hide-minimized">
 						<ul>
 							<li class="meta big">Bobbyd123</li>
 							<li class="meta">Project man.</li>
@@ -31,28 +34,28 @@
 			<li class="active">
 				<a href="/views/developer/dashboard/projects">
 					<i class="icon icon-project"></i>
-					Projects
+					<span>Projects</span>
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/invites">
 				<i class="icon icon-add-member"></i>
-					Pending invites
+					<span>Pending invites</span>
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/activities">
 					<i class="icon icon-activity"></i>
-					Activities
+					<span>Activities</span>
 				</a>
 			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/notifications" class="incoming">
 					<i class="icon icon-notification"></i>
-					Notifications
+					<span>Notifications</span>
 				</a>
 			</li>
 		</ul>
