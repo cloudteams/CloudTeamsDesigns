@@ -6,6 +6,7 @@ article.message {
 		&:last-child {
 			margin-bottom: 0;
 		}
+
 	}
 
 	.image-container {
@@ -25,7 +26,9 @@ article.message {
 				right: 2px;
 				width: 12px;
 			}
+
 		}
+
 	}
 
 	.message-container {
@@ -38,7 +41,7 @@ article.message {
 			border-top: 8px solid transparent;
 			border-bottom: 8px solid transparent;
 			border-right: 13px solid $color-block;
-			content:"";
+			content: "";
 			left: -6px;
 			margin-top: -8px;
 			position: absolute;
@@ -54,13 +57,8 @@ article.message {
 			.comment-trigger {
 				&:hover {
 					color: $color-text;
-
-					// .svg {
-					// 	path {
-					// 		fill: $color-text;
-					// 	}
-					// }
 				}
+
 			}
 
 			> div {
@@ -70,23 +68,17 @@ article.message {
 					float: right;
 
 					p {
-						color: $color-pink;
+						color: $color-flashy-purple;
 					}
 
-					.like-button, .reply-button {
+					.like-button,
+					.reply-button {
 						color: $color-button;
 						cursor: pointer;
-
-						// &.active {
-						// 	.icon {
-						// 		path {
-						// 			fill: $color-like;
-						// 			stroke: $color-like;
-						// 		}
-						// 	}
-						// }
 					}
+
 				}
+
 			}
 
 			p {
@@ -102,9 +94,13 @@ article.message {
 				.icon {
 					margin-right: 0;
 				}
+
 			}
+
 		}
+
 	}
+
 }
 
 .comments-message {
@@ -122,11 +118,14 @@ article.message {
 				margin-bottom: 0;
 				margin-top: $margin-block;
 			}
+
 		}
+
 	}
 
 	&.active {
 		animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 		display: table;
 	}
+
 }

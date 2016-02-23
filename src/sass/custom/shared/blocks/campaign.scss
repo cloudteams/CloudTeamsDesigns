@@ -5,7 +5,8 @@ article.campaign {
 	header {
 		position: relative;
 
-		h2, h3 {
+		h2,
+		h3 {
 			max-width: 260px;
 		}
 
@@ -20,13 +21,16 @@ article.campaign {
 				i {
 					color: $color-text;
 				}
+
 			}
+
 		}
 
 		.custom-tooltip {
 			right: -5px;
 			top: 35px;
 		}
+
 	}
 
 	.content {
@@ -42,7 +46,9 @@ article.campaign {
 				&:last-child {
 					margin-right: 0;
 				}
+
 			}
+
 		}
 
 		&.data {
@@ -68,15 +74,20 @@ article.campaign {
 							text-align: right;
 							width: 25%;
 						}
+
 					}
 
 					&:last-child {
 						td {
 							margin-bottom: 0;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
 
 		&.user {
@@ -92,18 +103,23 @@ article.campaign {
 						img {
 							width: 50px;
 						}
+
 					}
 
 					&.data-container {
 						width: 85%;
 					}
+
 				}
+
 			}
 
 			.meta {
 				letter-spacing: 1px;
 			}
+
 		}
+
 	}
 
 	footer {
@@ -112,7 +128,9 @@ article.campaign {
 
 	&.public-campaign {
 		.background {
-			header, .content, footer {
+			header,
+			.content,
+			footer {
 				border-left: 1px solid $color-block-border;
 				border-right: 1px solid $color-block-border;
 			}
@@ -128,10 +146,13 @@ article.campaign {
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
 			}
+
 		}
 
 		.btn {
 			margin-bottom: $margin-input-small;
 		}
+
 	}
+
 }

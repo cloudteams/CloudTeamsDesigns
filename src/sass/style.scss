@@ -1,19 +1,13 @@
-//---------------------
 // reset
-//---------------------
 @import "bootstrap/bootstrap.scss";
 
-//---------------------
-// custom styling
-//---------------------
+// custom
 @import "custom/variables.scss";
 @import "custom/mixins.scss";
 @import "custom/fonts.scss";
 @import "custom/global.scss";
 
-//---------------------
-// Developer Dashboard
-//---------------------
+// developer dashboard
 @import "custom/developer/dashboard/projects.scss";
 @import "custom/developer/dashboard/invites.scss";
 @import "custom/developer/dashboard/activities.scss";
@@ -27,26 +21,20 @@
 @import "custom/developer/dashboard/project/documents.scss";
 @import "custom/developer/dashboard/project/customer-ideas.scss";
 
-//---------------------
-// User Dashboard
-//---------------------
+// user dashboard
 @import "custom/user/dashboard/projects.scss";
 @import "custom/user/dashboard/campaigns.scss";
 @import "custom/user/dashboard/notifications.scss";
 @import "custom/user/profile.scss";
 @import "custom/user/settings.scss";
 
-//---------------------
-// Public Website
-//---------------------
+//public
 @import "custom/public/projects.scss";
 @import "custom/public/overview.scss";
 @import "custom/public/page.scss";
 @import "custom/public/overview-data.scss";
 
-//---------------------
-// Shared
-//---------------------
+// shared
 @import "custom/shared/partials/animations.scss";
 @import "custom/shared/partials/buttons.scss";
 @import "custom/shared/dashboard/page.scss";
@@ -60,8 +48,7 @@
 @import "custom/shared/partials/popup-tutorial.scss";
 @import "custom/shared/partials/tooltip.scss";
 
-
-// Partials: dynamic blocks
+// partials
 @import "custom/shared/blocks/blocks.scss";
 @import "custom/shared/blocks/project.scss";
 @import "custom/shared/blocks/campaign.scss";

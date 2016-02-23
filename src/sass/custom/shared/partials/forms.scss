@@ -1,6 +1,3 @@
-// ---------------------
-// Form styles
-// ---------------------
 fieldset {
 	margin-bottom: $margin-block;
 
@@ -8,29 +5,41 @@ fieldset {
 		// margin-bottom: 0;
 	}
 
-	&.fieldset-radio, &.fieldset-checkbox {
+	&.fieldset-radio,
+	&.fieldset-checkbox {
 		label {
 			cursor: pointer;
 			margin-right: $margin-p;
 		}
+
 	}
+
 }
 
-label, label.header-medium {
+label,
+label.header-medium {
 	margin-bottom: $margin-header-small;
 }
 
-input, select, select option, textarea, button {
+input,
+select,
+select option,
+textarea,
+button {
 	border-radius: 0;
 	outline: 0 !important;
 
-	&:checked, &:focus, &:active {
+	&:checked,
+	&:focus,
+	&:active {
 		box-shadow: none !important;
 		outline: 0 !important;
 	}
+
 }
 
-input, textarea {
+input,
+textarea {
 	background: none;
 	border: 1px solid $color-input-border;
 	border-radius: 5px;
@@ -47,11 +56,14 @@ input, textarea {
 			box-shadow: 0 0 1px 1px $color-checked !important;
 			background-color: $color-soft-gray;
 		}
+
 	}
+
 }
 
 input {
-	&[type=checkbox], &[type=radio] {
+	&[type=checkbox],
+	&[type=radio] {
 		opacity: 0;
 		position: absolute;
 		left: -1000px;
@@ -72,12 +84,13 @@ input {
 				height: 30px;
 			}
 
-			&:after, &:before {
+			&:after,
+			&:before {
 				content: "";
 				display: block;
 				position: absolute;
 				opacity: 0;
-				transition: all .250s cubic-bezier(.49,.05,.32,1.04);
+				transition: all .250s cubic-bezier(.49, .05, .32, 1.04);
 			}
 
 			&:before {
@@ -85,12 +98,14 @@ input {
 				transform-origin: 50% 50%;
 				-webkit-transform-origin: 50% 50%;
 			}
+
 		}
 
 		&:focus {
 			+ span {
 				border-color: $color-checked;
 			}
+
 		}
 
 		&:checked + span {
@@ -98,7 +113,9 @@ input {
 				opacity: 1;
 				transform: scale(1);
 			}
+
 		}
+
 	}
 
 	&[type="radio"] {
@@ -114,7 +131,9 @@ input {
 				top: 2px;
 				right: 2px;
 			}
+
 		}
+
 	}
 
 	&[type="checkbox"] {
@@ -129,8 +148,11 @@ input {
 				top: 2px;
 				right: 2px;
 			}
+
 		}
+
 	}
+
 }
 
 select {
@@ -162,7 +184,9 @@ select {
 			border-color: $color-input-hover;
 			box-shadow: 0 0 1px 1px $color-checked !important;
 		}
+
 	}
+
 }
 
 .input-container {
@@ -178,47 +202,19 @@ select {
 		background-color: transparent;
 	}
 
-	&.active, &.focused {
+	&.active,
+	&.focused {
 		.icon {
 			color: $color-white;
 			background-color: $color-flashy-purple;
 			transform: translate3d(0, -19px, 0);
 		}
+
 	}
 
-	/*
-	.svg {
-		path {
-			transition: fill $transition-time-2 $easing-1;
-		}
-	}
-	*/
-
-	// .icon-active {
-	// 	visibility: hidden;
-	// }
-
-	// &.hover {
-	// 	.edit {
-	// 		path {
-	// 			fill: $color-input-hover !important;
-	// 		}
-	// 	}
-	// }
-
-	// &.focused {
-	// 	.icon-inactive {
-	// 		visibility: hidden;
-	// 	}
-
-	// 	.icon-active {
-	// 		visibility: visible;
-	// 	}
-	// }
 }
 
 .terms-and-conditions {
-	// padding: $margin-10;
 	margin: $margin-20 auto $margin-60;
 	position: relative;
 
@@ -234,11 +230,12 @@ select {
 		left: 0;
 		width: 100%;
 		height: 120px;
-		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 75%);
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);
 		display: block;
 		border-bottom: 1px solid $color-smooth-gray;
 		pointer-events: none;
 	}
+
 }
 
 .select-dropdown {
@@ -250,21 +247,6 @@ select {
 		right: 4px;
 		padding: 4px 4px 4px;
 		pointer-events: none;
-		// transition: all $transition-time-2 $easing-1;
-		// border-radius: 50%;
-		// background-color: transparent;
 	}
 
-	/*
-	&.hover {
-		.fa-angle-down {
-			color: $color-input-hover;
-		}
-	}
-
-	.fa-angle-down {
-		color: $color-text;
-		font-weight: $font-weight-bold;
-	}
-	*/
 }

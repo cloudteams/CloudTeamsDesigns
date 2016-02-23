@@ -1,18 +1,16 @@
-// --------------------
-// Popups
-// --------------------
-
 .modal-dialog {
 	&.small {
-		@media (min-width: 62em) {
+		@media (min-width:62em) {
 			max-width: 500px;
 		}
+
 	}
 
 	&.big {
-		@media (min-width: 62em) {
+		@media (min-width:62em) {
 			min-width: 900px;
 		}
+
 	}
 
 	@include breakpoint(tablet) {
@@ -22,10 +20,13 @@
 	@include breakpoint(mobileonly) {
 		width: auto !important;
 	}
+
 }
 
 .modal {
-	h1, h2, h3 {
+	h1,
+	h2,
+	h3 {
 		color: $color-text;
 	}
 
@@ -47,6 +48,7 @@
 				animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 				display: block;
 			}
+
 		}
 
 		.modal-header {
@@ -73,7 +75,9 @@
 						left: 13px;
 						right: auto;
 					}
+
 				}
+
 			}
 
 			.close {
@@ -85,7 +89,9 @@
 				&:hover {
 					opacity: 1;
 				}
+
 			}
+
 		}
 
 		.modal-body {
@@ -103,7 +109,7 @@
 				text-align: center;
 
 				li {
-					background: $color-light-grey-secondary;
+					background: $color-smooth-gray;
 					border-radius: 50%;
 					cursor: pointer;
 					display: inline-block;
@@ -120,7 +126,9 @@
 						background: none;
 						border: 2px solid $color-button;
 					}
+
 				}
+
 			}
 
 			a {
@@ -129,7 +137,11 @@
 				&:last-child {
 					margin-left: $margin-item;
 				}
+
 			}
+
 		}
+
 	}
+
 }

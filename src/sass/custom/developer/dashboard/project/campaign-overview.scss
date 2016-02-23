@@ -1,7 +1,8 @@
 .developer-dashboard-project-campaign-overview-content {
 	padding-top: 0 !important;
 
-	.subpage, .subsection {
+	.subpage,
+	.subsection {
 		display: none;
 		opacity: 0;
 
@@ -17,11 +18,14 @@
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 			}
+
 		}
 
 		&#subpage-3 {
-			h2, .still-running p {
+			h2,
+			.still-running p {
 				color: $color-text-secondary;
 				text-transform: none;
 			}
@@ -30,6 +34,9 @@
 				margin-top: 100px;
 				text-align: center;
 			}
+
 		}
+
 	}
+
 }

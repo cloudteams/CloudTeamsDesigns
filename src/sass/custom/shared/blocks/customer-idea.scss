@@ -17,8 +17,6 @@ article.idea {
 	}
 
 	.icon-arrow-right {
-		//color: $color-pink;
-		//font-size: 25px;
 		left: 10px;
 		position: absolute;
 		top: 25px;
@@ -38,7 +36,9 @@ article.idea {
 			&:after {
 				opacity: 0;
 			}
+
 		}
+
 	}
 
 	.data {
@@ -54,6 +54,7 @@ article.idea {
 			&:last-child {
 				margin-right: 0;
 			}
+
 		}
 
 		.right {
@@ -77,14 +78,13 @@ article.idea {
 						color: $color-deep-red;
 						animation: pop $transition-time-2 $easing-1;
 					}
+
 				}
 
-				// &.active {
-				// 	.icon-like {
-				// 		@extend .icon-color-liked;
-				// 	}
-				// }
 			}
+
 		}
+
 	}
+
 }

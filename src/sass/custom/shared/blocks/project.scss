@@ -20,7 +20,9 @@ article.project {
 				i {
 					color: $color-text;
 				}
+
 			}
+
 		}
 
 		.custom-tooltip {
@@ -34,7 +36,9 @@ article.project {
 			&.highlight {
 				margin-bottom: $margin-header-extra-small;
 			}
+
 		}
+
 	}
 
 	.content {
@@ -60,15 +64,20 @@ article.project {
 						text-align: right;
 						width: 50%;
 					}
+
 				}
 
 				&:last-child {
 					td {
 						margin-bottom: 0;
 					}
+
 				}
+
 			}
+
 		}
+
 	}
 
 	footer {
@@ -95,9 +104,9 @@ article.project {
 			padding: 4px;
 			border-radius: 2px;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
-
 			color: $color-white;
 		}
+
 	}
 
 	&.public-project {
@@ -112,13 +121,19 @@ article.project {
 						&:last-child {
 							width: 25%;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
 
 		.background {
-			header, .content, footer {
+			header,
+			.content,
+			footer {
 				border-left: 1px solid $color-block-border;
 				border-right: 1px solid $color-block-border;
 			}
@@ -128,6 +143,9 @@ article.project {
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
 			}
+
 		}
+
 	}
+
 }

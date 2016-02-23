@@ -45,14 +45,6 @@ a {
 	&:focus, &:active {
 		outline: 0 !important;
 	}
-
-	/*
-	&:not(.btn):not(.btn-confirm):not(.btn-decline):not(.btn-download) {
-		&:hover, &:focus {
-			color: $color-text-secondary;
-		}
-	}
-	*/
 }
 
 p a, {
@@ -68,9 +60,9 @@ table {
 }
 
 
-// ---------------------
-// Common styles
-// ---------------------
+
+
+
 .page-content {
 	@include paddingV($margin-block);
 }
@@ -88,31 +80,6 @@ table {
 	&:last-child {
 		float: right;
 	}
-
-	// .icon.legend-icon {
-	// 	height: 20px;
-	// 	width: 20px;
-
-	// 	// path {
-	// 	// 	fill: $color-menu-items;
-	// 	// 	stroke: $color-menu-items;
-	// 	// 	stroke-width: 1.5px;
-	// 	// }
-
-	// 	&.legend-icon-check {
-	// 		height: 28px;
-	// 		width: 28px;
-
-	// 		// path {
-	// 		// 	fill: none;
-	// 		// }
-
-	// 		// circle {
-	// 		// 	fill: none;
-	// 		// 	stroke: $color-menu-items;
-	// 		// }
-	// 	}
-	// }
 }
 
 .highlight {
@@ -121,12 +88,6 @@ table {
 
 	&.active {
 		color: $color-text;
-
-		// .icon {
-		// 	path {
-		// 		fill: $color-text;
-		// 	}
-		// }
 	}
 }
 
@@ -172,33 +133,7 @@ table {
 	}
 }
 
-/*
-.fa-search {
-	color: $color-menu-items;
-	cursor: pointer;
-	font-size: 15px;
-	position: absolute;
-	right: 15px;
-	top: 10px;
-}
-
-.fa-angle-down {
-	font-size: 15px;
-	position: absolute;
-	right: 15px;
-	top: 10px;
-	transition: color $transition-time-2 $easing-1;
-}
-
-.fa-angle-right {
-	transition: transform $transition-time-2 $easing-1;
-}
-*/
-
 .icon-arrow-down {
-	//position: absolute;
-	//top: 10px;
-	//right: 15px;
 	transition: color $transition-time-2 $easing-1;
 }
 
@@ -207,8 +142,8 @@ table {
 		display: inline-block;
 	}
 
-	.progress-wrap {
-		background: $color-light-grey;
+.progress-wrap {
+		background: $color-smooth-gray;
 		border-radius: 5px;
 		display: inline-block;
 		overflow: hidden;
@@ -216,7 +151,7 @@ table {
 		width: 70%;
 
 		.progress-bar {
-			background: $color-pink;
+			background: $color-flashy-purple;
 			border-radius: 5px;
 			height: 6px;
 			width: 0;
@@ -231,9 +166,11 @@ table {
 	}
 }
 
-// ---------------------
-// Extensions
-// ---------------------
+
+
+
+
+
 .subpage, .subsection {
 	display: none;
 	opacity: 0;
@@ -294,7 +231,7 @@ table {
 	position: relative;
 
 	&:after {
-		background: $color-middle-green;
+		background: $color-grass-green;
 		border: 3px solid $color-white;
 		border-radius: 50%;
 		bottom: 5px;
@@ -355,21 +292,11 @@ table {
 		}
 	}
 
-	// .svg {
-	// 	path {
-	// 		fill: $color-text-secondary;
-	// 	}
-	// }
-
 	&:not(.document) {
 		&:hover {
 			.background {
 				background: $color-flashy-purple !important;
 				border: 3px dashed $color-flashy-purple !important;
-
-				// h2 {
-					// color: $color-text;
-				// }
 			}
 		}
 	}

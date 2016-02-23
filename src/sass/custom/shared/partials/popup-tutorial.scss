@@ -1,8 +1,5 @@
-// --------------------
-// Popups tutorials
-// --------------------
-
-#popup-tutorial-developer, #popup-tutorial-user {
+#popup-tutorial-developer,
+#popup-tutorial-user {
 	.modal-content {
 		p {
 			line-height: $line-height-small;
@@ -23,7 +20,9 @@
 					@include paddingH($margin-block);
 					width: 50%;
 				}
+
 			}
+
 		}
 
 		.modal-body {
@@ -33,6 +32,7 @@
 				margin: 0 auto;
 				max-width: 600px;
 			}
+
 		}
 
 		.tutorial-step {
@@ -41,7 +41,9 @@
 					p {
 						margin-bottom: 0;
 					}
+
 				}
+
 			}
 
 			&#tutorial-step-2 {
@@ -51,13 +53,7 @@
 
 						&.explanation {
 							.icon {
-								// height: 40px;
 								margin-right: $margin-block-bottom;
-								// width: 40px;
-
-								// //path {
-								// 	fill: $color-text;
-								// }
 							}
 
 							> div {
@@ -70,13 +66,19 @@
 									bottom: 25px;
 									position: absolute;
 								}
+
 							}
+
 						}
+
 					}
+
 				}
+
 			}
 
-			&#tutorial-step-3, &#tutorial-step-4 {
+			&#tutorial-step-3,
+			&#tutorial-step-4 {
 				.vertical-align {
 					> .middle {
 						&.explanation {
@@ -86,11 +88,19 @@
 								&:last-child {
 									margin-bottom: 0;
 								}
+
 							}
+
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

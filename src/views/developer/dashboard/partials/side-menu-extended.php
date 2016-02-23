@@ -29,7 +29,7 @@
 	<nav class="side-menu">
 		<ul>
 			<li class="projects">
-				<a href="developer-dashboard-projects.php">
+				<a href="/views/developer/dashboard/projects">
 					<i class="icon icon-project"></i>
 					Projects
 				</a>

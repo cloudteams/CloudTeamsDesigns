@@ -6,6 +6,7 @@
 				margin-bottom: $margin-header;
 				margin-top: $margin-block;
 			}
+
 		}
 
 		ul {
@@ -22,39 +23,24 @@
 
 				&.active {
 					color: $color-text-secondary;
-
-					// .icon {
-					// 	path {
-					// 		fill: $color-text-secondary;
-					// 	}
-					// }
 				}
 
 				&:hover {
 					color: $color-text-secondary;
-
-					// .icon {
-					// 	path {
-					// 		fill: $color-text-secondary;
-					// 	}
-					// }
 				}
 
 				&.add-folder {
 					color: $color-text-secondary;
-
-					// .icon {
-					// 	path {
-					// 		fill: $color-text-secondary;
-					// 	}
-					// }
 				}
 
 				span {
 					float: right;
 				}
+
 			}
+
 		}
+
 	}
 
 	.subpage {
@@ -72,6 +58,7 @@
 					h2 {
 						margin-bottom: $margin-header;
 					}
+
 				}
 
 				.document:not(.add-item) {
@@ -89,6 +76,7 @@
 						&:last-child {
 							margin-bottom: 0;
 						}
+
 					}
 
 					.background {
@@ -109,7 +97,9 @@
 						a {
 							float: right;
 						}
+
 					}
+
 				}
 
 				.document.add-item {
@@ -122,17 +112,20 @@
 					}
 
 					.add-project-button {
-						//height: 40px;
 						margin-bottom: $margin-header-small;
-						//width: 40px;
 					}
 
 					h3 {
 						color: $color-text;
 						margin-bottom: 0;
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

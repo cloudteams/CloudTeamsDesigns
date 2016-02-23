@@ -6,6 +6,7 @@
 			color: $color-menu-items;
 			letter-spacing: 1px;
 		}
+
 	}
 
 	.member {
@@ -26,6 +27,7 @@
 			img {
 				border-radius: 50%;
 			}
+
 		}
 
 		.information {
@@ -33,22 +35,13 @@
 		}
 
 		ul li a {
-			&:focus, &:hover {
+			&:focus,
+			&:hover {
 				color: $color-white;
 			}
+
 		}
 
-		/*
-		ul {
-			li {
-				&:last-child {
-					a {
-						color: $color-shading-purple;
-					}
-				}
-			}
-		}
-		*/
 	}
 
 	.side-menu {
@@ -69,7 +62,7 @@
 
 					&.incoming {
 						&:after {
-							background: $color-salmon;
+							background: $color-deep-red;
 							border-radius: 50%;
 							content: "";
 							display: inline-block;
@@ -84,27 +77,36 @@
 							&:after {
 								display: inline-block;
 							}
+
 						}
+
 					}
 
-					&:focus, &:hover {
+					&:focus,
+					&:hover {
 						color: $color-white;
 					}
+
 				}
 
 				&:hover {
 					> a {
 						color: $color-white;
 					}
+
 				}
+
 			}
+
 		}
+
 	}
 
 	&.dashboard-side-menu-extended {
 		padding: 0;
 
-		header, .member {
+		header,
+		.member {
 			@include paddingH($margin-menu);
 		}
 
@@ -121,12 +123,7 @@
 						padding: $margin-menu;
 
 						li {
-
 							&.select-dropdown {
-								//.fa-angle-down {
-								//	color: $color-shading-purple;
-								//}
-
 								select {
 									border-radius: 0;
 									color: $color-shading-purple;
@@ -136,13 +133,21 @@
 									option {
 										color: $color-menu-items;
 									}
+
 								}
+
 							}
+
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
 
 	&.dashboard-side-menu-user {
@@ -164,6 +169,7 @@
 					.percentage {
 						color: $color-menu-items;
 					}
+
 				}
 
 				p.update-profile {
@@ -174,6 +180,7 @@
 					letter-spacing: $letter-spacing-1;
 					text-transform: uppercase;
 				}
+
 			}
 
 			.profile-information {
@@ -187,8 +194,13 @@
 					li {
 						margin-bottom: $margin-p-secondary;
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

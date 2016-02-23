@@ -30,17 +30,13 @@
 			position: relative;
 			vertical-align: middle;
 
-			// .more-options {
-			// 	path {
-			// 		fill: $color-text-secondary;
-			// 	}
-			// }
-
 			.custom-tooltip {
 				right: -5px;
 				top: 35px;
 			}
+
 		}
+
 	}
 
 	article.team-member {
@@ -65,7 +61,9 @@
 					height: 20px;
 					width: 20px;
 				}
+
 			}
+
 		}
 
 		&.add-item {
@@ -76,6 +74,7 @@
 				margin: 0 auto;
 				max-width: 175px;
 			}
+
 		}
 
 		.tooltip-container {
@@ -87,6 +86,7 @@
 				i {
 					color: $color-text;
 				}
+
 			}
 
 			.custom-tooltip {
@@ -97,8 +97,11 @@
 					left: 15px;
 					right: auto;
 				}
+
 			}
+
 		}
+
 	}
 
 	.modal#popup-team-member-full-profile {
@@ -116,8 +119,11 @@
 						height: 20px;
 						width: 20px;
 					}
+
 				}
+
 			}
+
 		}
 
 		.modal-body {
@@ -128,8 +134,13 @@
 					&:nth-last-of-type(-n+2) {
 						margin-bottom: 0;
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

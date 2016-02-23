@@ -7,7 +7,7 @@
 	padding-top: 0 !important;
 
 	> header.main-header {
-		background: url("../img/background-project-overview.jpg");
+		background: url(../img/background-project-overview.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 300px;
@@ -21,7 +21,7 @@
 		}
 
 		&:before {
-			background: $color-middle-purple;
+			background: $color-imperial-purple;
 			content: "";
 			display: inline-block;
 			height: 100%;
@@ -32,9 +32,11 @@
 			width: 100%;
 			z-index: -1;
 		}
+
 	}
 
-	.subpage, .subsection {
+	.subpage,
+	.subsection {
 		display: none;
 		opacity: 0;
 
@@ -42,6 +44,7 @@
 			animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 			display: block;
 		}
+
 	}
 
 	.submenu {
@@ -53,10 +56,12 @@
 			top: auto;
 		}
 
-		.menu-subpage, .menu-subsection {
+		.menu-subpage,
+		.menu-subsection {
 			margin-bottom: 0;
 			padding-bottom: 0;
 		}
+
 	}
 
 	.subpage {
@@ -72,6 +77,7 @@
 			header.content-header {
 				margin-bottom: $margin-header;
 			}
+
 		}
 
 		&#subpage-1 {
@@ -91,9 +97,6 @@
 							vertical-align: middle;
 						}
 
-						// .svg {
-						// 	vertical-align: middle;
-						// }
 					}
 
 					.project-images {
@@ -110,9 +113,13 @@
 										img {
 											margin-bottom: 0;
 										}
+
 									}
+
 								}
+
 							}
+
 						}
 
 						img {
@@ -122,9 +129,13 @@
 						.img-edit-container {
 							position: relative;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
 
 		&#subpage-2 {
@@ -146,7 +157,9 @@
 					bottom: 0;
 					top: auto;
 				}
+
 			}
+
 		}
 
 		&#subpage-3 {
@@ -165,13 +178,16 @@
 					display: inline-block;
 					float: right;
 				}
+
 			}
 
 			article.idea {
 				&:last-child {
 					margin-bottom: $margin-block;
 				}
+
 			}
+
 		}
 
 		&#subpage-5 {
@@ -192,6 +208,7 @@
 					header {
 						margin-bottom: $margin-header;
 					}
+
 				}
 
 				&#subsection-6 {
@@ -203,9 +220,15 @@
 							margin-bottom: $margin-block-bottom;
 							max-width: 200px;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

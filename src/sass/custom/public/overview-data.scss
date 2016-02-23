@@ -5,6 +5,7 @@
 
 	.vertical-align {
 		@include marginH(-$margin-block-small);
+
 		.middle {
 			@include paddingH($margin-block-small);
 
@@ -18,6 +19,7 @@
 						td {
 							padding-bottom: 0;
 						}
+
 					}
 
 					td {
@@ -34,6 +36,7 @@
 							p {
 								font-weight: $font-weight-bold;
 							}
+
 						}
 
 						p {
@@ -43,19 +46,16 @@
 
 						.icon {
 							margin-right: $margin-item;
-
-							// path {
-							// 	fill: $color-text;
-							// }
-
-							// ellipse {
-							// 	stroke: $color-text;
-							// }
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
 
 	&.public-project-overview-data {
@@ -63,7 +63,9 @@
 			.middle {
 				width: 33%;
 			}
+
 		}
+
 	}
 
 	&.public-project-campaign-overview-data {
@@ -87,17 +89,25 @@
 							&:last-child {
 								width: 45%;
 							}
+
 						}
+
 					}
+
 				}
+
 			}
+
 		}
 
 		.btn-grey {
 			&:hover {
-				background: $color-light-grey;
+				background: $color-smooth-gray;
 				cursor: default;
 			}
+
 		}
+
 	}
+
 }

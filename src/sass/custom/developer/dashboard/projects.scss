@@ -7,7 +7,6 @@
 		min-height: 476px;
 		@extend .clear-2;
 
-
 		&:nth-last-of-type(-n+2) {
 			margin-bottom: 0;
 		}
@@ -20,6 +19,7 @@
 			&:last-child {
 				margin-bottom: 0;
 			}
+
 		}
 
 		.background {
@@ -37,9 +37,13 @@
 						&:last-child {
 							width: 55%;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
 
 		&.add-item {
@@ -48,24 +52,15 @@
 
 			.background {
 				background: none;
-//				background: url('../img/border.png')
-
-//				border-image: url("../img/border.png") 2 round;
-
-				// background-image: linear-gradient(to top, $color-white 0%, $color-white (100% / 6), transparent (100% / 6));
-				// background-position: top 0;
-				// background-size: 2px (6 + px);
-				// background-repeat: repeat-y;
 			}
 
 			.add-project-button {
-				//background: $color-button;
-				//border-radius: 50%;
 				cursor: pointer;
-				//height: 60px;
 				margin: 0 auto $margin-base;
-				//width: 60px;
 			}
+
 		}
+
 	}
+
 }

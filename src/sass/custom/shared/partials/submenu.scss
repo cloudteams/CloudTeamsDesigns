@@ -1,4 +1,4 @@
-.menu-subpage:not(.sidebar), .menu-subsection {
+.menu-subpage:not(.sidebar),.menu-subsection {
 	@include paddingV($margin-block-extra-small);
 	margin-bottom: $margin-block-extra-small;
 	@include antialiasText();
@@ -18,8 +18,9 @@
 
 		&.active {
 			color: $color-text-secondary;
-			border-bottom: 3px solid $color-pink;
+			border-bottom: 3px solid $color-flashy-purple;
 		}
+
 	}
 
 	&.public {
@@ -27,6 +28,9 @@
 			&.active {
 				color: $color-text;
 			}
+
 		}
+
 	}
+
 }

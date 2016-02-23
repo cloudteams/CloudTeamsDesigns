@@ -18,8 +18,11 @@
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 			}
+
 		}
+
 	}
 
 	.recommended-projects {
@@ -27,6 +30,7 @@
 			color: $color-text-secondary;
 			margin-bottom: $margin-header-small;
 		}
+
 	}
 
 	article.project {
@@ -36,6 +40,7 @@
 			.background {
 				min-height: 531px;
 			}
+
 		}
 
 		&.public-project {
@@ -44,6 +49,7 @@
 			.background {
 				min-height: 500px;
 			}
+
 		}
 
 		&.add-item {
@@ -53,6 +59,7 @@
 			.background {
 				background: none;
 			}
+
 		}
 
 		.content {
@@ -66,8 +73,11 @@
 						&:last-child {
 							width: 25%;
 						}
+
 					}
+
 				}
+
 			}
 
 			&.last {
@@ -83,18 +93,21 @@
 									&:hover {
 										color: $color-text;
 									}
+
 								}
+
 							}
 
-							// .svg {
-							// 	path {
-							// 		fill: $color-text;
-							// 	}
-							// }
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

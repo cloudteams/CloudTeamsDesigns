@@ -20,12 +20,14 @@ section.dashboard-page {
 		@include breakpoint(tablet) {
 			display: none;
 		}
+
 	}
 
 	> .container {
 		> .content {
 			> .row {
-				> main, > aside {
+				> main,
+				> aside {
 					min-height: 100vh;
 					min-height: calc(100vh - 65px);
 					@include paddingH($margin-page);
@@ -39,6 +41,7 @@ section.dashboard-page {
 					@include breakpoint(tablet) {
 						min-height: auto;
 					}
+
 				}
 
 				> aside {
@@ -61,6 +64,7 @@ section.dashboard-page {
 							margin-top: -8px;
 							font-size: $font-size-header-large;
 						}
+
 						/*
 						.svg {
 							display: inline-block;
@@ -75,7 +79,6 @@ section.dashboard-page {
 							}
 						}
 						*/
-
 						h1 {
 							display: inline-block;
 							vertical-align: middle;
@@ -94,7 +97,9 @@ section.dashboard-page {
 							&.last {
 								text-align: right;
 							}
+
 						}
+
 					}
 
 					.project-counter {
@@ -111,10 +116,15 @@ section.dashboard-page {
 							line-height: 1;
 							margin-right: $margin-5;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
 
 	&.user-dashboard-page {
@@ -127,7 +137,9 @@ section.dashboard-page {
 				&:after {
 					top: 65px;
 				}
+
 			}
+
 		}
 
 		> .complete-profile {
@@ -143,25 +155,17 @@ section.dashboard-page {
 				animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 				display: block;
 			}
+
 		}
 
 		.complete-profile {
-			background: $color-dark-purple;
+			background: $color-pitch-purple;
 			@include paddingV($margin-5);
 
 			.container {
 				@include paddingH($margin-menu);
 				position: relative;
 			}
-
-			// .svg {
-			// 	height: 17px;
-			// 	width: 17px;
-
-			// 	path {
-			// 		fill: $color-text-secondary;
-			// 	}
-			// }
 
 			p {
 				color: $color-text-secondary;
@@ -180,11 +184,10 @@ section.dashboard-page {
 				position: absolute;
 				right: 25px;
 				top: 4px;
-
-				// .svg {
-				// 	vertical-align: middle;
-				// }
 			}
+
 		}
+
 	}
+
 }

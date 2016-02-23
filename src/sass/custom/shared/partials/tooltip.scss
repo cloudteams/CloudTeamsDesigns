@@ -1,15 +1,5 @@
-// .open-tooltip-button {
-// 	&.active {
-// 		.svg {
-// 			path {
-// 				fill: $color-pink;
-// 			}
-// 		}
-// 	}
-// }
-
 .custom-tooltip {
-	background: $color-pink;
+	background: $color-flashy-purple;
 	border-radius: 5px;
 	display: inline-block;
 	min-width: 160px;
@@ -23,7 +13,7 @@
 
 	&:after {
 		border: solid;
-		border-color: $color-pink transparent;
+		border-color: $color-flashy-purple transparent;
 		border-width: 0 6px 6px 6px;
 		content: "";
 		right: 5px;
@@ -41,10 +31,11 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+
 	}
 
 	a {
-		color: $color-light-pink;
+		color: $color-candy-purple;
 
 		&:hover {
 			color: $color-text-secondary;
@@ -52,11 +43,14 @@
 			&:after {
 				display: none;
 			}
+
 		}
+
 	}
 
 	&.active {
 		opacity: 1;
 		visibility: visible;
 	}
+
 }

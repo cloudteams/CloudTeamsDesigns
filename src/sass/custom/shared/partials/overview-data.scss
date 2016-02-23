@@ -22,18 +22,11 @@
 					p {
 						font-weight: $font-weight-bold;
 					}
+
 				}
 
 				.icon {
 					margin-right: $margin-item;
-
-					// path {
-					// 	fill: $color-text-secondary;
-					// }
-
-					// ellipse {
-					// 	stroke: $color-text-secondary;
-					// }
 				}
 
 				p {
@@ -41,13 +34,18 @@
 					display: inline-block;
 					vertical-align: middle;
 				}
+
 			}
 
 			&:last-child {
 				td {
 					padding-bottom: 0;
 				}
+
 			}
+
 		}
+
 	}
+
 }

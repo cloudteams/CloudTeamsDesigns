@@ -1,6 +1,6 @@
 body {
 	> header {
-		background: $color-pink;
+		background: $color-flashy-purple;
 		height: 65px;
 
 		&.no-menu {
@@ -14,6 +14,7 @@ body {
 					margin-top: $margin-20;
 					float: right;
 				}
+
 			}
 
 			.logo {
@@ -21,7 +22,7 @@ body {
 				height: 70px;
 			}
 
-			margin: $margin-20 auto 0;//$margin-60;
+			margin: $margin-20 auto 0;
 		}
 
 		.global-nav {
@@ -42,7 +43,7 @@ body {
 						position: relative;
 
 						ul.submenu {
-							background: $color-pink;
+							background: $color-flashy-purple;
 							left: 0;
 							opacity: 0;
 							padding: 0 $margin-menu-item $margin-menu-item;
@@ -58,7 +59,9 @@ body {
 									white-space: nowrap;
 									padding-bottom: 4px;
 								}
+
 							}
+
 						}
 
 						&:hover {
@@ -72,20 +75,25 @@ body {
 									a {
 										color: $color-white;
 									}
+
 								}
+
 							}
+
 						}
 
 						a {
-							color: $color-candy-cyan;
+							color: $color-candy-purple;
 
-							&:focus, &:hover {
+							&:focus,
+							&:hover {
 								color: $color-white;
 							}
 
 							&.active {
-								color: $color-candy-cyan
+								color: $color-candy-purple
 							}
+
 						}
 
 						&.brand {
@@ -97,32 +105,25 @@ body {
 								height: 45px;
 								// margin-top: $margin-5;
 							}
+
 						}
 
 						&.search {
-
 							input.input-search {
 								color: $color-white;
-								border-color: $color-candy-cyan;
-								@include placeholderColor($color-candy-cyan);
-								padding-bottom: 4px;
+								border-color: $color-candy-purple;
+								@include placeholderColor($color-candy-purple);
+								padding-bottom: 6px;
 							}
 
 							.icon-search {
-								color: $color-candy-cyan;
+								color: $color-candy-purple;
 								cursor: pointer;
-								//font-size: 15px;
-								// height: 18px;
 								position: absolute;
 								right: 10px;
 								top: 25px;
-								//top: 23px;
-								// width: 18px;
-
-								// path {
-									//fill: $color-menu-items;
-								//}
 							}
+
 						}
 
 						&.profile {
@@ -130,7 +131,7 @@ body {
 							position: relative;
 
 							&:before {
-								background-color: $color-candy-cyan;
+								background-color: $color-candy-purple;
 								content: "";
 								display: inline-block;
 								height: 30px;
@@ -141,19 +142,20 @@ body {
 								width: 1px;
 							}
 
-							// .fa-angle-down {
-							// 	margin-left: $margin-5;
-							// 	position: static;
-							// 	transition: none;
-							// }
 						}
 
 						.middle {
 							position: relative;
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

@@ -1,4 +1,8 @@
-.header-extra-large, .header-large, .header-medium, .header-small, .header-extra-small {
+.header-extra-large,
+.header-large,
+.header-medium,
+.header-small,
+.header-extra-small {
 	color: $color-text-secondary;
 	font-weight: $font-weight-bold;
 	margin: 0;
@@ -8,6 +12,7 @@
 	&.public {
 		color: $color-text;
 	}
+
 }
 
 .header-extra-large {
@@ -23,6 +28,7 @@
 	&.secondary {
 		color: $color-text;
 	}
+
 }
 
 .header-medium {
@@ -35,6 +41,7 @@
 		letter-spacing: $letter-spacing-1;
 		text-transform: none;
 	}
+
 }
 
 .header-small {
@@ -45,6 +52,7 @@
 		font-family: $font-header-secondary;
 		letter-spacing: $letter-spacing-1;
 	}
+
 }
 
 .header-extra-small {

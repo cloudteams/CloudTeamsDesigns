@@ -11,9 +11,11 @@ section.public-page {
 			&:after {
 				display: none;
 			}
+
 		}
 
-		&.header-all-projects, &.header-tutorial {
+		&.header-all-projects,
+		&.header-tutorial {
 			padding: 200px 0 100px;
 			background-image: url(../img/hands.svg);
 			background-position: 50% 100%;
@@ -21,17 +23,12 @@ section.public-page {
 			background-repeat: no-repeat;
 		}
 
-		// &.header-all-projects-logged-out {
-		// 	img {
-		// 		transform: translate(0, -$margin-40);
-		// 	}
-		// }
-
 		&:after {
 			background: $color-border-bottom;
 			bottom: 0;
 			top: auto;
 		}
+
 	}
 
 	&.no-border {
@@ -39,13 +36,16 @@ section.public-page {
 			&:after {
 				display: none;
 			}
+
 		}
+
 	}
 
 	.choice {
 		a:first-child {
 			margin-right: $margin-10;
 		}
+
 	}
 
 	.button-end {
@@ -54,28 +54,28 @@ section.public-page {
 
 		p {
 			margin-top: $margin-40;
-			// font-family: $font-header;
 			font-size: $font-size-2;
 			letter-spacing: $letter-spacing-1;
 
 			a {
-				// font-family: $font-header;
 				text-transform: uppercase;
 				font-weight: $font-weight-bold;
 
 				&:hover {
 					color: $color-button-hover;
 				}
+
 			}
+
 		}
 
 		&.choice {
 			text-align: right;
 		}
+
 	}
 
 	&.page-login {
-
 		h1 {
 			text-transform: uppercase;
 		}
@@ -91,12 +91,14 @@ section.public-page {
 				img {
 					transform: rotate(-15deg) translate(0, -$margin-40);
 				}
+
 			}
 
 			&.role-developer {
 				img {
 					transform: rotate(15deg) translate(0, -$margin-40);
 				}
+
 			}
 
 			.btn {
@@ -108,6 +110,7 @@ section.public-page {
 			}
 
 		}
+
 	}
 
 	&.page-error {
@@ -115,7 +118,9 @@ section.public-page {
 			img {
 				margin-bottom: $margin-40;
 			}
+
 		}
+
 	}
 
 	.incentive {
@@ -133,21 +138,28 @@ section.public-page {
 				color: $color-button;
 				letter-spacing: $letter-spacing-1;
 
-				&:focus, &:active, &:hover {
+				&:focus,
+				&:active,
+				&:hover {
 					color: $color-button-hover;
 				}
+
 			}
+
 		}
+
 	}
 
 	&.page-tutorial {
-
-		h2, h3 {
+		h2,
+		h3 {
 			text-transform: uppercase;
 			letter-spacing: $letter-spacing-2;
 		}
 
-		section.intro, section.steps, section.introduction {
+		section.intro,
+		section.steps,
+		section.introduction {
 			padding-bottom: $margin-120;
 			border-bottom: 1px solid $color-border-bottom;
 		}
@@ -156,14 +168,17 @@ section.public-page {
 			h3 {
 				margin-bottom: $margin-20;
 			}
+
 		}
 
 		section.intro {
 			margin-bottom: $margin-120;
 			text-align: center;
+
 			img {
 				margin-bottom: $margin-40;
 			}
+
 		}
 
 		section.steps {
@@ -173,7 +188,9 @@ section.public-page {
 				p {
 					text-align: center;
 				}
+
 			}
+
 		}
 
 		section.introduction {
@@ -184,7 +201,11 @@ section.public-page {
 					font-weight: $font-weight-bold;
 					margin-bottom: $margin-20;
 				}
+
 			}
+
 		}
+
 	}
+
 }

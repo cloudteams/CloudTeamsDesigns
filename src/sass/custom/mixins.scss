@@ -1,18 +1,18 @@
- @mixin breakpoint($point) {
-	 @if $point == desktop {
-		 @media (min-width: 75em) { @content ; }
+@mixin breakpoint($point) {
+	@if $point == desktop {
+		@media (min-width: 75em) { @content ; }
 	}
-	 @else if $point == laptop {
-		 @media (max-width: 75em) { @content ; }
+	@else if $point == laptop {
+		@media (max-width: 75em) { @content ; }
 	}
 		@else if $point == tablet {
-		 @media (max-width: 62em) { @content ; }
+		@media (max-width: 62em) { @content ; }
 	}
-	 @else if $point == phablet {
-		 @media (max-width: 48em)  { @content ; }
+	@else if $point == phablet {
+		@media (max-width: 48em)  { @content ; }
 	}
 	@else if $point == mobileonly {
-		 @media (max-width: 34em)  { @content ; }
+		@media (max-width: 34em)  { @content ; }
 	}
 }
 
@@ -44,7 +44,6 @@
 }
 
 @mixin placeholderColor($color) {
-
 	-moz-appearance   : textfield;
 	-webkit-appearance: textfield;
 	appearance        : textfield;
@@ -71,7 +70,6 @@
 		/* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
 		color: $color;
 	}
-
 }
 
 @mixin antialiasText($arguments: antialiased) {

@@ -43,7 +43,9 @@
 			.icon {
 				margin-top: 2px;
 			}
+
 		}
+
 	}
 
 	.list {
@@ -78,10 +80,12 @@
 					cursor: pointer;
 					transition-duration: 0;
 				}
-			}
-		}
-	}
 
+			}
+
+		}
+
+	}
 
 	p {
 		padding-top: $margin-5;
@@ -92,4 +96,5 @@
 		font-weight: $font-weight-bold;
 		letter-spacing: $letter-spacing-1;
 	}
+
 }

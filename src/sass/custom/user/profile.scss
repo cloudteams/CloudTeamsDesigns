@@ -11,7 +11,9 @@
 				i {
 					color: $color-white;
 				}
+
 			}
+
 		}
 
 		h2.header-large {
@@ -20,6 +22,7 @@
 			font-family: $font-header-secondary;
 			text-transform: none;
 		}
+
 	}
 
 	article.block-line {
@@ -31,6 +34,7 @@
 				margin-bottom: 0;
 				padding-bottom: 0;
 			}
+
 		}
 
 		.subpage {
@@ -50,11 +54,19 @@
 								&:last-child {
 									margin-bottom: 0;
 								}
+
 							}
+
 						}
+
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

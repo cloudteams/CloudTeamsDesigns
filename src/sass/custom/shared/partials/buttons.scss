@@ -1,7 +1,3 @@
-// ---------------------
-// Buttons
-// ---------------------
-
 .btn {
 	@include antialiasText();
 	background: $color-button;
@@ -32,18 +28,21 @@
 			background-color: $color-white;
 			color: $color-button-hover;
 		}
+
 	}
 
 	.icon-size-s {
 		margin-top: -1px;
 	}
 
-	&:hover, &:focus {
+	&:hover,
+	&:focus {
 		background: $color-button-hover;
 		border-color: $color-button-hover;
 		color: $color-text-secondary;
 		transition: background $transition-time-1 $easing-1, color $transition-time-1 $easing-1;
 	}
+
 }
 
 .btn-transparent {
@@ -56,6 +55,7 @@
 		background: $color-button;
 		color: $color-text-secondary;
 	}
+
 }
 
 .btn-green {
@@ -69,19 +69,21 @@
 		border-color: $color-success-hover;
 		color: $color-text-secondary;
 	}
+
 }
 
 .btn-grey {
 	@extend .btn;
-	background: $color-light-grey;
-	border-color: $color-light-grey;
+	background: $color-smooth-gray;
+	border-color: $color-smooth-gray;
 	color: $color-highlight;
 
 	&:hover {
-		background: $color-light-grey-secondary;
-		border-color: $color-light-grey;
+		background: $color-smooth-gray;
+		border-color: $color-smooth-gray;
 		color: $color-highlight !important;
 	}
+
 }
 
 .btn-confirm {
@@ -94,6 +96,7 @@
 		border-color: $color-success-hover;
 		color: $color-text-secondary;
 	}
+
 }
 
 .btn-decline {
@@ -106,6 +109,7 @@
 		background: $color-decline;
 		color: $color-text-secondary;
 	}
+
 }
 
 .btn-download {
@@ -114,6 +118,7 @@
 	&:hover {
 		color: $color-button;
 	}
+
 }
 
 .btn-upload {
@@ -140,6 +145,7 @@
 			font-size: $font-size-1;
 			color: $color-button;
 		}
+
 	}
 
 	&:hover {
@@ -150,6 +156,7 @@
 			.icon {
 				color: $color-white;
 			}
+
 		}
 
 		p {
@@ -157,6 +164,9 @@
 				opacity: 1;
 				transition: opacity $transition-time-1 $easing-1;
 			}
+
 		}
+
 	}
+
 }

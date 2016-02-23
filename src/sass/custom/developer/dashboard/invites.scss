@@ -1,7 +1,7 @@
 .developer-dashboard-pending-invites-content {
 	padding-top: 0 !important;
 
-	.menu-subpage{
+	.menu-subpage {
 		@extend .menu-subpage;
 	}
 
@@ -15,6 +15,7 @@
 				&:last-child {
 					text-align: right;
 				}
+
 			}
 
 			img {
@@ -38,8 +39,13 @@
 						letter-spacing: 2px;
 						text-transform: uppercase;
 					}
+
 				}
+
 			}
+
 		}
+
 	}
+
 }

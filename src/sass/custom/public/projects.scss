@@ -9,6 +9,7 @@
 		p.action-text {
 			margin-left: $margin-p-secondary;
 		}
+
 	}
 
 	.filter-container {
@@ -25,7 +26,9 @@
 			select {
 				max-width: 200px;
 			}
+
 		}
+
 	}
 
 	> .row {
@@ -38,5 +41,7 @@
 		.background {
 			min-height: 487px;
 		}
+
 	}
+
 }

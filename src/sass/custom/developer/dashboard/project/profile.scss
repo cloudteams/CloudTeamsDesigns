@@ -9,6 +9,7 @@
 				fieldset {
 					width: 50%;
 				}
+
 			}
 
 			&.project-images {
@@ -18,8 +19,11 @@
 							img {
 								margin-bottom: $margin-image;
 							}
+
 						}
+
 					}
+
 				}
 
 				img {
@@ -38,7 +42,9 @@
 						border-radius: 50%;
 						color: $color-flashy-purple;
 					}
+
 				}
+
 			}
 
 			&.project-description {
@@ -55,11 +61,15 @@
 				textarea {
 					padding-right: 45px;
 				}
+
 			}
 
 			&:last-child {
 				border: none;
 			}
+
 		}
+
 	}
+
 }
