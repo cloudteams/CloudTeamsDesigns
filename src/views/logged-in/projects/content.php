@@ -36,7 +36,7 @@
 		<header>
 			<div class="filter-container">
 				<div class="select-dropdown">
-					<i class="icon icon-size-s icon-arrow-down"></i>
+					<i class="icon icon-arrow-down"></i>
 					<select name="filter-projects" id="filter-projects" onchange="" size="1">
 						<option value="all-projects" selected>Latest</option>
 						<option value="filter-1">Filter 2</option>
@@ -45,7 +45,7 @@
 					</select>
 				</div>
 				<div class="select-dropdown">
-					<i class="icon icon-size-s icon-arrow-down"></i>
+					<i class="icon icon-arrow-down"></i>
 					<select name="filter-projects" id="filter-projects" onchange="" size="1">
 						<option value="all-projects" selected>Most popular</option>
 						<option value="filter-1">Filter 2</option>

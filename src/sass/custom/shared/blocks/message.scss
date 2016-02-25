@@ -71,10 +71,32 @@ article.message {
 						color: $color-flashy-purple;
 					}
 
-					.like-button,
 					.reply-button {
 						color: $color-button;
 						cursor: pointer;
+					}
+
+					.like-button {
+						color: $color-button;
+						cursor: pointer;
+						user-select: none;
+						transition: color $transition-time-1 $easing-1;
+
+						i {
+							color: $color-smooth-gray;
+							transition: color $transition-time-1 $easing-1;
+						}
+
+						&.active {
+							color: $color-deep-red;
+
+							i {
+								color: $color-deep-red;
+								animation: pop $transition-time-2 $easing-1;
+							}
+
+						}
+
 					}
 
 				}

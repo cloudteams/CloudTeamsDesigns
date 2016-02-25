@@ -182,7 +182,7 @@
 						<label>Select an other campaign</label>
 
 						<div class="select-dropdown">
-							<i class="icon icon-size-s icon-arrow-down"></i>
+							<i class="icon icon-arrow-down"></i>
 							<select name="visible-to" id="visible-to" onchange="" size="1">
 								<option value="Campaign title" selected>Campaign title</option>
 								<option value="Campaign title">Campaign title 2</option>

@@ -28,7 +28,7 @@
 
 				<div class="right">
 					<p class="like-button">
-						<i class="icon-color icon-liked"></i>
+						<i class="icon icon-like-fill"></i>
 						Like
 					</p>
 
@@ -70,7 +70,7 @@
 
 				<div class="right">
 					<p class="like-button">
-						<i class="icon-color icon-liked"></i>
+						<i class="icon icon-like-fill"></i>
 						Like
 					</p>
 

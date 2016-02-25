@@ -48,7 +48,7 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
 												<option value="" disabled selected>Year</option>
 												<option value="2006">2016</option>
@@ -63,7 +63,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="month" id="month" onchange="" size="1">
 												<option value="" disabled selected>Month</option>
 												<option value="1">January</option>
@@ -84,7 +84,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="day" id="day" onchange="" size="1">
 												<option value="" disabled selected>Day</option>
 												<option value="01">1</option>
@@ -134,7 +134,7 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="campaign-end-year" id="campaign-end-year" onchange="" size="1">
 												<option value="" disabled selected>Year</option>
 												<option value="2006">2016</option>
@@ -149,7 +149,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="month" id="month" onchange="" size="1">
 												<option value="" disabled selected>Month</option>
 												<option value="1">January</option>
@@ -170,7 +170,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="day" id="day" onchange="" size="1">
 												<option value="" disabled selected>Day</option>
 												<option value="01">1</option>
@@ -222,7 +222,7 @@
 						<label for="visible-to" class="header-medium secondary">Campaign is visible to</label>
 
 							<div class="select-dropdown">
-								<i class="icon icon-size-s icon-arrow-down"></i>
+								<i class="icon icon-arrow-down"></i>
 								<select name="visible-to" id="visible-to" onchange="" size="1">
 									<option value="" disabled selected>Public</option>
 									<option value="2005">Only team members</option>
@@ -275,7 +275,7 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="reward-start-year" id="reward-start-year" onchange="" size="1">
 												<option value="" disabled selected>Year</option>
 												<option value="2006">2016</option>
@@ -290,7 +290,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="month" id="month" onchange="" size="1">
 												<option value="" disabled selected>Month</option>
 												<option value="1">January</option>
@@ -311,7 +311,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="day" id="day" onchange="" size="1">
 												<option value="" disabled selected>Day</option>
 												<option value="01">1</option>
@@ -361,7 +361,7 @@
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="reward-end-year" id="reward-end-year" onchange="" size="1">
 												<option value="" disabled selected>Year</option>
 												<option value="2006">2016</option>
@@ -376,7 +376,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="month" id="month" onchange="" size="1">
 												<option value="" disabled selected>Month</option>
 												<option value="1">January</option>
@@ -397,7 +397,7 @@
 
 									<div class="col-sm-4">
 										<div class="select-dropdown">
-											<i class="icon icon-size-s icon-arrow-down"></i>
+											<i class="icon icon-arrow-down"></i>
 											<select name="day" id="day" onchange="" size="1">
 												<option value="" disabled selected>Day</option>
 												<option value="01">1</option>
@@ -440,7 +440,7 @@
 					</fieldset>
 
 					<fieldset>
-						<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i>Add new reward</a>
+						<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i> Add new reward</a>
 					</fieldset>
 				</div>
 
@@ -451,7 +451,7 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="select-dropdown">
-									<i class="icon icon-size-s icon-arrow-down"></i>
+									<i class="icon icon-arrow-down"></i>
 
 									<select name="campaign-results-when" id="campaign-results-when" onchange="" size="1">
 										<option value="single" selected>At any time</option>
@@ -643,7 +643,7 @@
 							<label for="question-type" class="header-medium secondary">Question</label>
 
 							<div class="select-dropdown">
-								<i class="icon icon-size-s icon-arrow-down"></i>
+								<i class="icon icon-arrow-down"></i>
 								<select name="question-type" id="question-type" onchange="" size="1">
 									<option value="single" selected>Single choice</option>
 									<option value="multi">Multiple choice</option>
@@ -712,7 +712,7 @@
 						<fieldset class="fieldset-add-question">
 							<label for="add-question" class="header-medium secondary">Add question</label>
 							<div class="select-dropdown">
-								<i class="icon icon-size-s icon-arrow-down"></i>
+								<i class="icon icon-arrow-down"></i>
 								<select name="add-question" id="add-question" onchange="" size="1">
 									<option value="single" selected>Single choice</option>
 									<option value="multi">Multiple choice</option>
@@ -778,7 +778,7 @@
 						<div class="col-md-6">
 							<label for="target-group-nationality" class="header-medium secondary">Nationality</label>
 							<div class="select-dropdown">
-								<i class="icon icon-size-s icon-arrow-down"></i>
+								<i class="icon icon-arrow-down"></i>
 								<select name="target-group-nationality" id="target-group-nationality" onchange="" size="1">
 									<option value="single" disabled selected>Select nationality</option>
 									<option value="us">US</option>
@@ -790,7 +790,7 @@
 						<div class="col-md-6">
 							<label for="target-group-city" class="header-medium secondary">City</label>
 							<div class="select-dropdown">
-								<i class="icon icon-size-s icon-arrow-down"></i>
+								<i class="icon icon-arrow-down"></i>
 								<select name="target-group-city" id="target-group-city" onchange="" size="1">
 									<option value="single" disabled selected>Select ciry</option>
 									<option value="us">New York</option>

@@ -52,7 +52,7 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<i class="icon icon-size-m icon-color-add"></i>
+														<i class="icon icon-plus"></i>
 													</div>
 												</div>
 											</div>
@@ -89,7 +89,7 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<i class="icon icon-size-m icon-color-add"></i>
+														<i class="icon icon-plus"></i>
 													</div>
 												</div>
 											</div>
@@ -124,7 +124,7 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<i class="icon icon-size-m icon-color-add"></i>
+														<i class="icon icon-plus"></i>
 													</div>
 												</div>
 											</div>
@@ -155,7 +155,7 @@
 											<div class="add-project-button">
 												<div class="vertical-align">
 													<div class="middle">
-														<i class="icon icon-size-m icon-color-add"></i>
+														<i class="icon icon-plus"></i>
 													</div>
 												</div>
 											</div>

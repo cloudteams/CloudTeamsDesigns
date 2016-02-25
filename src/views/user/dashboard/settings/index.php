@@ -10,7 +10,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-size-m icon-settings"></i>
+								<i class="icon icon-settings"></i>
 								<h1 class="header-large">Settings</h1>
 							</div>
 						</div>

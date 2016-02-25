@@ -66,7 +66,7 @@
 									<a href="#nowhere">
 										<i class="icon icon-profile"></i>
 										Bobbyd123
-										<i class="icon icon-size-s icon-menu-arrowdown"></i>
+										<i class="icon icon-arrow-down"></i>
 									</a>
 								</div>
 							</div>

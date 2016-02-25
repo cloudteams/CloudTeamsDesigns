@@ -14,7 +14,7 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="select-dropdown">
-									<i class="icon icon-size-s icon-arrow-down"></i>
+									<i class="icon icon-arrow-down"></i>
 									<select name="receiving-notifications" id="receiving-notifications" onchange="" size="1">
 										<option value="immediately" selected>Immediately</option>
 										<option value="2">Option 2</option>
@@ -55,7 +55,7 @@
 								<label for="syncing-receiving-notifications" class="header-medium secondary">Receiving notifications</label>
 
 								<div class="select-dropdown">
-									<i class="icon icon-size-s icon-arrow-down"></i>
+									<i class="icon icon-arrow-down"></i>
 									<select name="syncing-receiving-notifications" id="syncing-receiving-notifications" onchange="" size="1">
 										<option value="facebook" selected>Facebook</option>
 										<option value="2">Option 2</option>
@@ -69,7 +69,7 @@
 						</div>
 					</div>
 
-					<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i>Add service</a>
+					<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i> Add service</a>
 				</div>
 			</article>
 		</section>

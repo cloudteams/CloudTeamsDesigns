@@ -10,7 +10,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-size-m icon-profile"></i>
+								<i class="icon icon-profile"></i>
 								<h1 class="header-large">Profile</h1>
 							</div>
 						</div>

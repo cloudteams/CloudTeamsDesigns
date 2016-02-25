@@ -8,7 +8,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="select-dropdown">
-								<i class="icon icon-size-s icon-arrow-down"></i>
+								<i class="icon icon-arrow-down"></i>
 								<select name="receiving-notifications" id="receiving-notifications" onchange="" size="1">
 									<option value="immediately" selected>Immediately</option>
 									<option value="2">Option 2</option>

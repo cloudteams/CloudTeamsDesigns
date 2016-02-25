@@ -19,7 +19,7 @@
 	<div class="content">
 		<a href="/views/logged-in/projects/project"><h3 class="header-small secondary action-text">Project title</h3></a>
 		<div class="accepted">
-			<i class="icon-color icon-approved"></i>
+			<i class="icon-approved"></i>
 			<p class="page-subtitle">Accepted</p>
 		</div>
 		<h4 class="header-medium secondary">Help us create a better app</h4>
