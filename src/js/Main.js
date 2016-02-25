@@ -153,9 +153,16 @@ import 'partials/Easing';
 		// 	});
 	}
 
-	function runMinizeSideMenu() {
+	function runMinimizeSideMenu() {
 		$('.minimize-sidepanel').on('click', () => {
 			$('section.dashboard-page').toggleClass('minimized');
+		});
+	}
+
+	function runCategorySelector() {
+		$('.category-selector, .category-selector .categories').on('click', e => {
+			e.stopPropagation();
+			$('.category-selector .list').slideToggle(250);
 		});
 	}
 
@@ -165,7 +172,8 @@ import 'partials/Easing';
 		runOpenCloseSubsection();
 		moveProgressBar();
 		runOpenCloseTooltip();
-		runMinizeSideMenu();
+		runMinimizeSideMenu();
+		runCategorySelector();
 		hoverStates();
 	}
 
