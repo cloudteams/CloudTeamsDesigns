@@ -1,16 +1,5 @@
 .developer-dashboard-project-overview-content {
-	> .row {
-		@include marginH(-10px);
-		@extend .flex;
-	}
-
 	article {
-		min-height: 268px;
-
-		.background {
-			min-height: 268px;
-		}
-
 		&.block-fill-half {
 			@include paddingH($margin-block-extra-small);
 
@@ -92,11 +81,6 @@
 						margin-top: $margin-block / 2;
 						margin-bottom: $margin-block / 2;
 						text-align: center;
-
-						// &:nth-last-child(-n+3) {
-						// 	margin-bottom: 0;
-						// }
-
 					}
 
 				}
@@ -105,11 +89,13 @@
 					&.online {
 						@extend .online-state;
 					}
+
 				}
 
 				.img-circle {
 					width: 100%;
-					padding-bottom: 100%; // height = 100% of width
+					padding-bottom: 100%;
+					// height = 100% of width
 					background-size: cover;
 				}
 

@@ -1,10 +1,6 @@
 .developer-dashboard-project-team-content {
 	padding-bottom: 0 !important;
 
-	> .row {
-		@extend .flex;
-	}
-
 	header {
 		margin-bottom: $margin-header;
 
@@ -40,7 +36,6 @@
 	}
 
 	article.team-member {
-		@extend .clear-3;
 		height: auto;
 		min-height: 224px;
 		margin-bottom: $margin-block-bottom;

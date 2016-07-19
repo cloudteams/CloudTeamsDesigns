@@ -31,17 +31,4 @@
 
 	}
 
-	> .row {
-		@extend .flex;
-	}
-
-	article.project {
-		min-height: 487px;
-
-		.background {
-			min-height: 487px;
-		}
-
-	}
-
 }

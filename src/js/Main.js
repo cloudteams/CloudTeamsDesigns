@@ -3,6 +3,7 @@
 import 'partials/Menu';
 import 'partials/Tutorial';
 import 'partials/Easing';
+import 'partials/AddItemDimensions';
 // import Svg from 'partials/Svg.js';
 
 (function() {

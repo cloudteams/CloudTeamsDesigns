@@ -1,11 +1,8 @@
 .user-dashboard-projects-content {
 	> .row {
-		@extend .flex;
 		margin-bottom: $margin-section * 2;
 
 		article.project {
-			@extend .clear-2;
-
 			&:nth-last-of-type(-n+2) {
 				margin-bottom: 0;
 			}
@@ -34,26 +31,7 @@
 	}
 
 	article.project {
-		&:not(.public-project) {
-			min-height: 531px;
-
-			.background {
-				min-height: 531px;
-			}
-
-		}
-
-		&.public-project {
-			min-height: 500px;
-
-			.background {
-				min-height: 500px;
-			}
-
-		}
-
 		&.add-item {
-			height: 531px;
 			text-align: center;
 
 			.background {

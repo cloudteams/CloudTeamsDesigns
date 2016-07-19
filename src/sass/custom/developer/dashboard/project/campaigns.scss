@@ -1,21 +1,3 @@
 .developer-dashboard-project-campaigns-content {
 	padding-top: 0 !important;
-
-	> .row {
-		@extend .flex;
-	}
-
-	article.campaign {
-		min-height: 431px;
-
-		.background {
-			min-height: 431px;
-		}
-
-		&.add-item {
-			height: 431px;
-		}
-
-	}
-
 }

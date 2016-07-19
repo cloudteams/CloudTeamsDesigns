@@ -1,12 +1,6 @@
 .developer-dashboard-projects-content {
-	> .row {
-		@extend .flex;
-	}
 
 	article.project {
-		min-height: 476px;
-		@extend .clear-2;
-
 		&:nth-last-of-type(-n+2) {
 			margin-bottom: 0;
 		}
@@ -20,10 +14,6 @@
 				margin-bottom: 0;
 			}
 
-		}
-
-		.background {
-			min-height: 476px;
 		}
 
 		.content {
@@ -47,7 +37,6 @@
 		}
 
 		&.add-item {
-			height: 476px;
 			text-align: center;
 
 			.background {
