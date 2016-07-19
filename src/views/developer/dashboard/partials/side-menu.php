@@ -15,7 +15,7 @@
 		<div class="row">
 			<div class="vertical-align">
 					<div class="profile-picture col-xs-4 middle">
-						<img src="[[../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+						<div class="img-circle" style='background-image: url("[[../../../../img/profile-picture.jpg]]")'></div>
 					</div>
 
 					<div class="information col-xs-8 middle hide-minimized">

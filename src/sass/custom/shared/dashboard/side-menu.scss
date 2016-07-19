@@ -28,8 +28,13 @@
 			float: none;
 			margin-right: 0;
 
-			img {
+			div.img-circle {
+				vertical-align: middle;
 				border-radius: 50%;
+				background-size: cover;
+				display: inline-block;
+				width: 100%;
+				padding-bottom: 100%; // height = 100% of width
 			}
 
 		}

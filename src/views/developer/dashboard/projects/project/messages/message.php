@@ -1,6 +1,6 @@
 <article class="message">
 	<div class="image-container online-state">
-		<img src="[[../../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+		<div class="img-circle" style='background-image: url("[[../../../../../../img/profile-picture.jpg]]")'></div>
 	</div>
 
 	<div class="message-container block">

@@ -56,6 +56,12 @@
 			margin: 0 auto $margin-image;
 			width: 100px;
 
+			.img-circle {
+				width: 100%;
+				padding-bottom: 100%; // same height as width
+				background-size: cover;
+			}
+
 			&.online-state {
 				&:after {
 					height: 20px;
@@ -113,6 +119,12 @@
 				margin: 0 auto;
 				margin-bottom: $margin-image;
 				width: 100px;
+
+				.img-circle {
+					width: 100%;
+					padding-bottom: 100%; // same height as width
+					background-size: cover;
+				}
 
 				&.online-state {
 					&:after {

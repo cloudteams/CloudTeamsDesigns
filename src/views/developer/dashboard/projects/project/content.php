@@ -103,37 +103,37 @@
 					<div class="row">
 						<div class="col-xs-4">
 							<div class="img-container online-state">
-								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 
 						<div class="col-xs-4">
 							<div class="img-container">
-								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 
 						<div class="col-xs-4">
 							<div class="img-container">
-								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 
 						<div class="col-xs-4">
 							<div class="img-container">
-								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 
 						<div class="col-xs-4">
 							<div class="img-container">
-								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 
 						<div class="col-xs-4">
 							<div class="img-container online-state">
-								<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 					</div>
@@ -210,7 +210,7 @@
 
 				<div class="content">
 					<div class="data">
-						<img src="[[../../../../../img/profile-picture.jpg]]" class="img-circle" alt="Profile picture">
+						<div class="img-circle" style='background-image:url("[[../../../../../img/profile-picture.jpg]]")'></div>
 						<p class="bold">John Mestra</p>
 						<p class="highlight">32 min ago</p>
 					</div>

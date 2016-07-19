@@ -14,8 +14,11 @@ article.message {
 		vertical-align: top;
 		width: auto;
 
-		img {
+		.img-circle {
 			width: 50px;
+			height: 50px;
+			background-size: cover;
+			display: inline-block;
 		}
 
 		&.online-state {

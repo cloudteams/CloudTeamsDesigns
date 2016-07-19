@@ -105,11 +105,12 @@
 					&.online {
 						@extend .online-state;
 					}
-
 				}
 
-				img {
-					max-width: 80px;
+				.img-circle {
+					width: 100%;
+					padding-bottom: 100%; // height = 100% of width
+					background-size: cover;
 				}
 
 			}
@@ -162,8 +163,12 @@
 					margin: 0 0 $margin-p-secondary;
 					text-align: center;
 
-					img {
+					div.img-circle {
 						width: 80px;
+						height: 80px;
+						background-size: cover;
+						margin: 0 auto $margin-5;
+						display: inline-block;
 					}
 
 					p {
