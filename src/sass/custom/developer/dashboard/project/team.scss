@@ -4,9 +4,13 @@
 	header {
 		margin-bottom: $margin-header;
 
-		img {
-			height: auto;
+		div.icon {
 			width: 150px;
+			height: 150px;
+			background-size: contain;
+			border-radius: 50%;
+			background-image: url('../img/placeholders/team_cover.svg');
+			background-position: center;
 		}
 
 		h2.header-large {
@@ -55,6 +59,8 @@
 				width: 100%;
 				padding-bottom: 100%; // same height as width
 				background-size: cover;
+				background-image: url('../img/placeholders/team_user.svg');
+				background-position: center;
 			}
 
 			&.online-state {

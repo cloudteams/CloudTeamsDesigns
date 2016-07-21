@@ -25,6 +25,7 @@
 								<a href="/views/developer/dashboard/projects">Developer Dashboard</a><br />
 								<a href="/views/user/dashboard/projects">User Dashboard</a><br />
 								<a href="/views/shared/404">404 Error</a><br />
+								<a href="/views/shared/loaders">Loaders</a><br />
 							</p>
 						</article>
 					</div>

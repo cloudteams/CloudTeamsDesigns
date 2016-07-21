@@ -21,7 +21,7 @@
 
 		<?php include("project.php"); ?>
 		<?php include("project.php"); ?>
-		<?php include("project.php"); ?>
+		<?php include("project-no-image.php"); ?>
 		<?php include("project.php"); ?>
 		<?php include("project.php"); ?>
 	</div>

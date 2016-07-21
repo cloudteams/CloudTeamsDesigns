@@ -18,7 +18,7 @@
 		</article>
 
 		<?php include("blogpost.php"); ?>
-		<?php include("blogpost.php"); ?>
+		<?php include("blogpost-no-picture.php"); ?>
 		<?php include("blogpost.php"); ?>
 		<?php include("blogpost.php"); ?>
 		<?php include("blogpost.php"); ?>

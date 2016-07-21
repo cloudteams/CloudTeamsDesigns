@@ -27,7 +27,8 @@ module.exports = (function() {
 		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
 		'developer/dashboard/campaign-create'  : './js/developer/dashboard/CampaignCreate.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
-		'public/project'                       : './js/public/Project.js'
+		'public/project'                       : './js/public/Project.js',
+		'shared/loaders'                       : './js/shared/Loaders.js'
 	};
 
 	function getAllEntryPoints() {

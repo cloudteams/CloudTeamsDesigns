@@ -1,6 +1,7 @@
 <section class="developer-dashboard-project-team-content">
 	<header>
-		<img class="icon" src="[[../../../../../../img/fanta-logo.png]]">
+		<!-- <div class="icon" style='background-image: url("[[../../../../../../img/fanta-logo.png]]")'></div> -->
+		<div class="icon"></div>
 		<h2 class="header-large secondary">Fanta Design Department</h2>
 
 		<div class="tooltip-container">
@@ -42,7 +43,7 @@
 
 		<?php include("member.php"); ?>
 		<?php include("member.php"); ?>
-		<?php include("member.php"); ?>
+		<?php include("member-no-picture.php"); ?>
 		<?php include("member.php"); ?>
 		<?php include("member.php"); ?>
 	</div>

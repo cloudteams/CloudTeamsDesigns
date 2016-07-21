@@ -1,6 +1,6 @@
 <article class="project col-md-6 col-xs-12 block-line-half">
 	<div class="background">
-		<div class="background-image" style='background-image: url("[[../../../../img/temp.jpg]]");'>
+		<div class="background-image">
 			<div class="square icon icon-games"></div>
 		</div>
 

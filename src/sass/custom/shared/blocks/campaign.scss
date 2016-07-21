@@ -151,6 +151,10 @@ article.campaign {
 
 		.btn {
 			margin-bottom: $margin-input-small;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
 		}
 
 	}

@@ -19,6 +19,8 @@ article.message {
 			height: 50px;
 			background-size: cover;
 			display: inline-block;
+			background-image: url('../img/placeholders/team_user.svg');
+			background-position: center;
 		}
 
 		&.online-state {

@@ -90,10 +90,10 @@ article.project {
 		height: 100%;
 		position: relative;
 
-		img {
-			border-top-left-radius: 5px;
-			border-top-right-radius: 5px;
-		}
+		// img {
+		// 	border-top-left-radius: 5px;
+		// 	border-top-right-radius: 5px;
+		// }
 
 		.square {
 			background-color: $color-flashy-purple;
@@ -107,6 +107,15 @@ article.project {
 			color: $color-white;
 		}
 
+	}
+
+	.background-image {
+		height: 160px;
+		background-size: cover;
+		background-position: center;
+		background-image: url(../img/placeholders/project_thumbnail.svg);
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
 	}
 
 	&.public-project {

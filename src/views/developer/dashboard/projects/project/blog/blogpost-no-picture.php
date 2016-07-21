@@ -1,5 +1,5 @@
 <article class="blogpost col-lg-6 block-image">
-	<div class="background-image" style='background-image: url("[[../../../../../../img/temp.jpg]]");'>
+	<div class="background-image">
 		<div class="content">
 			<div class="vertical-align">
 				<div class="middle">

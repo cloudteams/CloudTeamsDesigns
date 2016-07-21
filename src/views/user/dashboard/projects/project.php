@@ -1,7 +1,6 @@
 <article class="project col-lg-6 col-xs-12 block-line-half">
 	<div class="background">
-		<div class="background-image">
-			<img src="[[../../../../img/temp.jpg]]">
+		<div class="background-image" style='background-image: url("[[../../../../img/temp.jpg]]");'>
 			<div class="square icon icon-folder"></div>
 		</div>
 

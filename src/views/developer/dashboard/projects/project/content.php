@@ -115,13 +115,13 @@
 
 						<div class="col-xs-4">
 							<div class="img-container">
-								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
+								<div class="img-circle"></div>
 							</div>
 						</div>
 
 						<div class="col-xs-4">
 							<div class="img-container">
-								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
+								<div class="img-circle"></div>
 							</div>
 						</div>
 
