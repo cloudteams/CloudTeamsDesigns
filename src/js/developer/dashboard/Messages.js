@@ -46,6 +46,19 @@
 		}
 	}
 
+	function runReply() {
+		$('p.reply').click(e => {
+			const $message = $(e.currentTarget).closest('article.message');
+			console.log($message);
+			if ($message) {
+				const $reply = $message.next('article.reply');
+				if ($reply) {
+					$reply.toggleClass('active');
+				}
+			}
+		});
+	}
+
 	function runLikeButton() {
 		const likeButton = $('.like-button');
 
@@ -57,5 +70,6 @@
 	$(document).ready(function() {
 		runOpenCloseComment();
 		runLikeButton();
+		runReply();
 	});
 })();

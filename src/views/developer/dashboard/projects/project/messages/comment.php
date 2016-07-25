@@ -7,6 +7,7 @@
 		<div class="message-container block">
 			<header>
 				<h2 class="header-medium secondary">John Mestra</h2>
+				<div class="time-data">31 min ago <i class="icon icon-edit"></i></div>
 			</header>
 
 			<div class="content">
@@ -22,7 +23,7 @@
 
 					<p id="comment-trigger-2" class="highlight comment-trigger">
 						<i class="icon icon-message"></i>
-						1 Comment
+						1 comment
 					</p>
 				</div>
 
@@ -32,13 +33,25 @@
 						Like
 					</p>
 
-					<p>
+					<p class="reply">
 						<i class="icon icon-reply"></i>
 						Reply
 					</p>
 				</div>
 			</div>
 		</div>
+	</article>
+
+	<article class="reply block">
+
+		<div class="message-form">
+			<textarea placeholder="Leave a message…"></textarea>
+		</div>
+
+		<div class="actions">
+			<a href="#nowhere" class="btn">Send</a>
+		</div>
+
 	</article>
 
 	<article class="message comment">
@@ -74,14 +87,26 @@
 						Like
 					</p>
 
-					<p>
+					<p class="reply">
 						<i class="icon icon-reply"></i>
 						Reply
 					</p>
 				</div>
 			</div>
 		</div>
-
-		<?php include("comment-comment.php"); ?>
 	</article>
+
+	<article class="reply block">
+
+		<div class="message-form">
+			<textarea placeholder="Leave a message…"></textarea>
+		</div>
+
+		<div class="actions">
+			<a href="#nowhere" class="btn">Send</a>
+		</div>
+
+	</article>
+
+	<?php include("comment-comment.php"); ?>
 </div>

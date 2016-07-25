@@ -13,6 +13,7 @@ article.message {
 		display: inline-block;
 		vertical-align: top;
 		width: auto;
+		float: left;
 
 		.img-circle {
 			width: 50px;
@@ -38,9 +39,32 @@ article.message {
 
 	.message-container {
 		display: inline-block;
-		float: right;
 		position: relative;
-		width: 85%;
+		width: calc(100% - 70px);
+		float: right;
+		padding: 0;
+
+		.content {
+			padding: $margin-20 $margin-20 $margin-15;
+		}
+
+		header {
+			border-bottom: 1px solid $color-smooth-gray;
+			padding: $margin-10 $margin-20;
+
+			@include clearfix();
+
+			h2 {
+				width: 65%;
+				overflow: hidden;
+				float: left;
+			}
+
+			.time-data {
+				float: right;
+				color: $color-clear-gray;
+			}
+		}
 
 		&:before {
 			border-top: 8px solid transparent;
@@ -57,7 +81,14 @@ article.message {
 		}
 
 		.data {
-			margin-top: $margin-p-secondary;
+			// margin-top: $margin-p-secondary;
+			padding: 0 $margin-20 $margin-10;
+
+			.left {
+				i {
+					font-size: $font-size-2;
+				}
+			}
 
 			.comment-trigger {
 				&:hover {
@@ -125,34 +156,134 @@ article.message {
 			}
 
 		}
-
 	}
 
+	& + .comments-message {
+		margin-top: -$margin-10;
+
+		.message-container + .comments-message {
+			padding-top: $margin-10;
+		}
+	}
+
+	& + article.reply {
+		margin-top: -$margin-10;
+	}
 }
 
-.comments-message {
-	display: none;
-	opacity: 0;
-	text-align: right;
+.new-message {
+	width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	margin-bottom: $margin-20;
+	padding-bottom: $margin-20;
 
-	article.comment {
-		display: inline-block;
-		text-align: left;
-		width: 85%;
+	.message {
+		width: 100%;
+	}
 
-		> .comments-message {
-			article.comment {
-				margin-bottom: 0;
-				margin-top: $margin-block;
-			}
+	h2.header-medium.secondary {
+		color: $color-white;
+	}
 
+	& > h2 {
+		margin-bottom: $margin-20;
+	}
+
+	article {
+		h2 {
+			margin-left: 50px;
+			padding: $margin-10;
+			padding-top: $margin-10 + 2px;
+		}
+	}
+
+	.message-form {
+		position: relative;
+
+		&:before {
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-bottom: 13px solid $color-block;
+			content: "";
+			left: 17px;
+			//margin-top: -8px;
+			position: absolute;
+			top: -13px;
+			// transform: translateX(-50%);
+			// transition: opacity $transition-time-1 $easing-1;
+			z-index: 99;
 		}
 
+		textarea {
+			width: 100%;
+			height: $line-height * $font-size-4 * 7;
+			background-color: $color-white;
+			border: none;
+			margin-top: $margin-25;
+			margin-bottom: $margin-10;
+			display: block;
+		}
 	}
+
+	.actions {
+		text-align: right;
+	}
+}
+
+article.reply {
+	width: calc(100% - 70px);
+	// border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	margin-top: $margin-10;
+	margin-bottom: $margin-20;
+	padding: $margin-20;
+	margin-left: 70px;
+	display: none;
+	opacity: 0;
+	border-radius: 5px;
 
 	&.active {
 		animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 		display: table;
 	}
 
+	.message-form {
+		textarea {
+			border: 1px solid $color-clear-gray;
+			width: 100%;
+			height: $line-height * $font-size-4 * 7;
+			background-color: $color-white;
+			margin-bottom: $margin-10;
+			display: block;
+		}
+	}
+
+	.actions {
+		text-align: right;
+	}
+}
+
+.comments-message {
+	display: none;
+	opacity: 0;
+	text-align: right;
+	margin-left: 70px;
+
+	article.comment {
+		text-align: left;
+		margin-bottom: 10px;
+
+		& + article.reply {
+			margin-top: 0;
+		}
+	}
+
+	&.active {
+		animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
+		display: table;
+	}
+}
+
+.btn.full-width {
+	margin-top: $margin-30;
+	width: 100%;
 }
