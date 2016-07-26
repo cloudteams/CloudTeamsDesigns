@@ -30,34 +30,31 @@ export default (function() {
 		const content = element.find('.content');
 		const angle   = content.prev('.icon-arrow-right');
 
-		if (!content.hasClass('extended')) {
-			openElement(content, angle);
-		} else {
+		if (content.hasClass('extended')) {
 			closeElement(content, angle);
+		} else {
+			openElement(content, angle);
 		}
 	}
 
 	function runOpenCloseElement() {
 		const idea = $('.idea .idea-container');
 
-		idea.click(function() {
-			openCloseElement($(this));
+		idea.click(e => {
+			openCloseElement($(e.currentTarget));
 		});
 	}
 
-	function like(element) {
-		if (!element.hasClass('active')) {
-			element.addClass('active');
-		} else {
-			element.removeClass('active');
-		}
-	}
-
 	function runLikeButton() {
-		const likeButton = $('.like-button');
+		$('.like-button').click(e => {
+			const $el = $(e.currentTarget);
+			$el.toggleClass('active');
 
-		likeButton.click(function() {
-			like($(this));
+			const isActive = $el.hasClass('active');
+
+			$el.find('i')
+				.toggleClass('icon-like', !isActive)
+				.toggleClass('icon-like-fill', isActive);
 		});
 	}
 
@@ -67,6 +64,6 @@ export default (function() {
 	}
 
 	return {
-		run: run
+		run
 	};
 })();

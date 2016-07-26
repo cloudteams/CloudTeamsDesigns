@@ -24,7 +24,7 @@
 
 				<div class="right">
 					<p class="like-button">
-						<i class="icon icon-like-fill"></i>
+						<i class="icon icon-like"></i>
 						Like
 					</p>
 

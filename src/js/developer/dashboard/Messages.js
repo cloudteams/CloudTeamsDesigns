@@ -1,55 +1,26 @@
 /* global $ */
 
 (function() {
-	function openItem(item) {
-		item.removeClass('passive').addClass('active');
-	}
-
-	function closeItem(item) {
-		item.removeClass('active').addClass('passive');
-	}
-
-	function active(item) {
-		item.addClass('active');
-	}
-
-	function passive(item) {
-		item.removeClass('active');
-	}
-
 	function openCloseComment(element) {
 		const currentLinkID          = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		const currentMessageComments = $('#comments-message-' + currentLinkID);
+		const currentMessageComments = $(`#comments-message-${currentLinkID}`);
+		const isActive = currentMessageComments.hasClass('active');
 
-		if (!currentMessageComments.hasClass('active')) {
-			openItem(currentMessageComments);
-			active(element);
-		} else {
-			closeItem(currentMessageComments);
-			passive(element);
-		}
+		$(element).toggleClass('active', isActive);
+		$(element).toggleClass('passive', !isActive);
 	}
 
 	function runOpenCloseComment() {
 		const commentTrigger = $('.comment-trigger');
 
-		commentTrigger.click(function() {
-			openCloseComment($(this));
+		commentTrigger.click(e => {
+			openCloseComment($(e.currentTarget));
 		});
-	}
-
-	function like(element) {
-		if (!element.hasClass('active')) {
-			active(element);
-		} else {
-			passive(element);
-		}
 	}
 
 	function runReply() {
 		$('p.reply').click(e => {
 			const $message = $(e.currentTarget).closest('article.message');
-			console.log($message);
 			if ($message) {
 				const $reply = $message.next('article.reply');
 				if ($reply) {
@@ -60,14 +31,19 @@
 	}
 
 	function runLikeButton() {
-		const likeButton = $('.like-button');
+		$('.like-button').click(e => {
+			const $el = $(e.currentTarget);
+			$el.toggleClass('active');
 
-		likeButton.click(function() {
-			like($(this));
+			const isActive = $el.hasClass('active');
+
+			$el.find('i')
+				.toggleClass('icon-like', !isActive)
+				.toggleClass('icon-like-fill', isActive);
 		});
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		runOpenCloseComment();
 		runLikeButton();
 		runReply();
