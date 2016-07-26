@@ -1,6 +1,6 @@
 article.idea {
 	border: 1px solid $color-block-border;
-	margin-bottom: $margin-block-bottom;
+	margin-bottom: $margin-20;
 	padding: 0;
 	position: relative;
 
@@ -11,16 +11,18 @@ article.idea {
 	.idea-container {
 		cursor: pointer;
 		padding-bottom: $margin-p-secondary;
-		padding-left: $margin-block * 2;
+		padding-left: $margin-50;
 		padding-right: $margin-block;
 		padding-top: $margin-block;
+		user-select: none;
 	}
 
 	.icon-arrow-right {
-		left: 10px;
+		left: $margin-10;
 		position: absolute;
-		top: 25px;
+		top: $margin-25;
 		z-index: 99;
+		font-size: $font-size-2;
 	}
 
 	.content {
@@ -42,41 +44,56 @@ article.idea {
 	}
 
 	.data {
-		padding-bottom: $margin-block;
-		padding-left: $margin-block * 2;
-		padding-right: $margin-block;
+		// margin-top: $margin-p-secondary;
+		padding: 0 $margin-20 $margin-10 $margin-50;
 
-		p {
-			display: inline-block;
-			margin: 0;
-			margin-right: $margin-p-secondary;
+		.left {
+			i {
+				font-size: $font-size-2;
+			}
+		}
 
-			&:last-child {
-				margin-right: 0;
+		.comment-trigger {
+			&:hover {
+				color: $color-text;
 			}
 
 		}
 
-		.right {
-			float: right;
+		> div {
+			display: inline-block;
 
-			.like-button {
-				color: $color-button;
-				cursor: pointer;
-				user-select: none;
-				transition: color $transition-time-1 $easing-1;
+			&.right {
+				float: right;
 
-				i {
-					// color: $color-smooth-gray;
-					transition: color $transition-time-1 $easing-1;
+				p {
+					color: $color-flashy-purple;
 				}
 
-				&.active {
-					color: $color-deep-red;
+				.reply-button {
+					color: $color-button;
+					cursor: pointer;
+				}
+
+				.like-button {
+					color: $color-button;
+					cursor: pointer;
+					user-select: none;
+					transition: color $transition-time-1 $easing-1;
 
 					i {
+						// color: $color-smooth-gray;
+						transition: color $transition-time-1 $easing-1;
+					}
+
+					&.active {
 						color: $color-deep-red;
-						animation: pop $transition-time-2 $easing-1;
+
+						i {
+							color: $color-deep-red;
+							animation: pop $transition-time-2 $easing-1;
+						}
+
 					}
 
 				}
@@ -85,6 +102,45 @@ article.idea {
 
 		}
 
+		p {
+			cursor: pointer;
+			display: inline-block;
+			margin: 0;
+			margin-right: $margin-p-secondary;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			.icon {
+				margin-right: 0;
+			}
+
+		}
+
 	}
 
+	& + article.reply {
+		margin-top: -$margin-10;
+	}
+
+}
+
+.btn.full-width {
+	margin-top: $margin-30;
+	width: 100%;
+}
+
+.page-developer-dashboard-customer-ideas {
+	.comments-message {
+		margin-left: 0;
+	}
+
+	article.message {
+		.message-container {
+			&:before {
+				content: none;
+			}
+		}
+	}
 }

@@ -6,5 +6,5 @@
 	<?php include("message.php"); ?>
 	<?php include("message.php"); ?>
 	<?php include("message.php"); ?>
-	<a href="/views/logged-in/projects" class="btn big full-width">Load more</a>
+	<a href="#nowhere" class="btn big full-width">Load more</a>
 </section>

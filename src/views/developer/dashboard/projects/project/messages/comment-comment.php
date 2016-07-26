@@ -40,7 +40,7 @@
 	<article class="reply block">
 
 		<div class="message-form">
-			<textarea placeholder="Leave a message…"></textarea>
+			<textarea placeholder="Leave a message…" rows="5"></textarea>
 		</div>
 
 		<div class="actions">

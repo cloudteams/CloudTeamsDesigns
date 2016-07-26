@@ -246,19 +246,34 @@ article.reply {
 		display: table;
 	}
 
-	.message-form {
-		textarea {
-			border: 1px solid $color-clear-gray;
-			width: 100%;
-			height: $line-height * $font-size-4 * 7;
-			background-color: $color-white;
-			margin-bottom: $margin-10;
-			display: block;
-		}
+	// .message-form {
+	textarea {
+		border: 1px solid $color-clear-gray;
+		width: 100%;
+		// height: $line-height * $font-size-4 * 7;
+		background-color: $color-white;
+		margin-bottom: $margin-10;
+		display: block;
+		padding: $margin-20;
 	}
+	// }
 
 	.actions {
 		text-align: right;
+	}
+
+	&.small {
+		textarea {
+			// height: $line-height * $font-size-4 * 1;
+		}
+	}
+
+	& + .comments-message {
+		margin-top: -$margin-10;
+	}
+
+	&.active + .comments-message {
+		margin-top: 0;
 	}
 }
 

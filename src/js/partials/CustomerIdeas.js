@@ -1,47 +1,45 @@
 /* global $ */
 
 export default (function() {
-	function openElement(element, element2) {
-		const curHeight  = element.height();
-		const autoHeight = element.css('height', 'auto').height();
 
-		element.height(curHeight).addClass('extended').animate({
-			'height': autoHeight
-		}, 0, 'easeInOutCirc');
-
-		if (element2) {
-			element2.removeClass('angle-closed').addClass('angle-open');
-		}
-	}
-
-	function closeElement(element, element2) {
-		const initialHeight = '0px';
-
-		element.removeClass('extended').animate({
-			'height': initialHeight
-		}, 0, 'easeInOutCirc');
-
-		if (element2) {
-			element2.removeClass('angle-open').addClass('angle-closed');
-		}
-	}
-
-	function openCloseElement(element) {
-		const content = element.find('.content');
-		const angle   = content.prev('.icon-arrow-right');
-
-		if (content.hasClass('extended')) {
-			closeElement(content, angle);
-		} else {
-			openElement(content, angle);
-		}
+	function runOpenCloseComment() {
+		$('.comment-trigger').click(e => {
+			const currentLinkID = parseInt($(e.currentTarget).attr('id').replace(/[^\d]/g, ''), 10);
+			const $currentMessageComments = $(`#comments-message-${currentLinkID}`);
+			$currentMessageComments.toggleClass('active');
+			$currentMessageComments.toggleClass('passive', !$currentMessageComments.hasClass('active'));
+		});
 	}
 
 	function runOpenCloseElement() {
-		const idea = $('.idea .idea-container');
+		$('.idea .idea-container').click(e => {
+			const $element   = $(e.currentTarget);
+			const $content   = $element.find('.content');
+			const $angle     = $content.prev('.icon-arrow-right');
 
-		idea.click(e => {
-			openCloseElement($(e.currentTarget));
+			$content.toggleClass('extended');
+			const isExtended = $content.hasClass('extended');
+
+			let h;
+
+			if (isExtended) {
+				const currentHeight = $content.height();
+				const autoHeight = $content.css('height', 'auto').height();
+				h = autoHeight;
+				$content.height(currentHeight);
+			} else {
+				h = 0;
+			}
+
+			$content
+				.toggleClass('extended', isExtended)
+				.animate({
+					'height': h
+				}, 0, 'easeInOutCirc');
+
+			$angle
+				.toggleClass('angle-open', isExtended)
+				.toggleClass('angle-closed', !isExtended);
 		});
 	}
 
@@ -58,9 +56,23 @@ export default (function() {
 		});
 	}
 
+	function runReply() {
+		$('p.reply').click(e => {
+			const $message = $(e.currentTarget).closest('article.idea');
+			if ($message) {
+				const $reply = $message.next('article.reply');
+				if ($reply) {
+					$reply.toggleClass('active');
+				}
+			}
+		});
+	}
+
 	function run() {
 		runOpenCloseElement();
+		runOpenCloseComment();
 		runLikeButton();
+		runReply();
 	}
 
 	return {

@@ -1,20 +1,12 @@
 /* global $ */
 
 (function() {
-	function openCloseComment(element) {
-		const currentLinkID          = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
-		const currentMessageComments = $(`#comments-message-${currentLinkID}`);
-		const isActive = currentMessageComments.hasClass('active');
-
-		$(element).toggleClass('active', isActive);
-		$(element).toggleClass('passive', !isActive);
-	}
-
 	function runOpenCloseComment() {
-		const commentTrigger = $('.comment-trigger');
-
-		commentTrigger.click(e => {
-			openCloseComment($(e.currentTarget));
+		$('.comment-trigger').click(e => {
+			const currentLinkID = parseInt($(e.currentTarget).attr('id').replace(/[^\d]/g, ''), 10);
+			const $currentMessageComments = $(`#comments-message-${currentLinkID}`);
+			$currentMessageComments.toggleClass('active');
+			$currentMessageComments.toggleClass('passive', !$currentMessageComments.hasClass('active'));
 		});
 	}
 

@@ -14,17 +14,33 @@
 	</div>
 
 	<div class="data">
-		<i class="icon icon-like"></i>
-		<p class="highlight">10</p>
+		<div class="left">
+			<p class="highlight">
+				<i class="icon icon-like"></i>
+				10
+			</p>
 
-		<i class="icon icon-time"></i>
-		<p class="highlight">Just now</p>
+			<p>
+				<i class="icon icon-time"></i>
+				just now
+			</p>
+
+			<p id="comment-trigger-1" class="highlight comment-trigger">
+				<i class="icon icon-message"></i>
+				2 comments
+			</p>
+		</div>
 
 		<div class="right">
-			<div class="like-button">
+			<p class="like-button">
 				<i class="icon icon-like"></i>
 				Like
-			</div>
+			</p>
+
+			<p class="reply">
+				<i class="icon icon-reply"></i>
+				Reply
+			</p>
 		</div>
 	</div>
 </article>
