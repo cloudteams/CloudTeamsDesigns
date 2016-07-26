@@ -1,0 +1,62 @@
+div.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+	background-color: rgba($color-pitch-purple, 0.75);
+	opacity: 0;
+	display: none;
+
+	div.overlay {
+		width: 100%;
+		height: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		overflow: hidden;
+
+		div.content {
+			background-color: $color-white;
+			padding: $margin-20;
+			position: relative;
+			opacity: 0;
+			transform: translate3d(0, -$margin-80, 0);
+			transition: transform $transition-time-1 $easing-1;
+
+			&.active {
+				transform: translate3d(0, 0, 0);
+			}
+
+			&.closing {
+				transform: scale(0.85);
+				transition: transform $transition-time-1 $easing-2;
+			}
+
+			h2 {
+
+			}
+
+			i.close-modal {
+				position: absolute;
+				padding: $margin-20;
+				position: absolute;
+				top: 0;
+				right: 0;
+				cursor: pointer;
+				z-index: 10;
+			}
+
+			div.actions {
+				text-align: center;
+			}
+
+		}
+
+	}
+
+	&.active {
+		display: table;
+	}
+
+}

@@ -1,6 +1,9 @@
 /* global $ */
 
+import Modal from 'partials/Modal';
+
 export default (function() {
+	const _modalNewIdea = new Modal('#modal-new-idea');
 
 	function runOpenCloseComment() {
 		$('.comment-trigger').click(e => {
@@ -68,11 +71,20 @@ export default (function() {
 		});
 	}
 
+	function runModal() {
+		$('a[href="#modal-send-idea"]').click(e => {
+			e.preventDefault();
+			e.stopPropagation();
+			_modalNewIdea.show();
+		});
+	}
+
 	function run() {
 		runOpenCloseElement();
 		runOpenCloseComment();
 		runLikeButton();
 		runReply();
+		runModal();
 	}
 
 	return {

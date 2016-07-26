@@ -20,26 +20,17 @@
 				10
 			</p>
 
-			<p>
+			<p class="highlight">
 				<i class="icon icon-time"></i>
 				just now
 			</p>
 
-			<p id="comment-trigger-1" class="highlight comment-trigger">
-				<i class="icon icon-message"></i>
-				2 comments
-			</p>
 		</div>
 
 		<div class="right">
 			<p class="like-button">
 				<i class="icon icon-like"></i>
 				Like
-			</p>
-
-			<p class="reply">
-				<i class="icon icon-reply"></i>
-				Reply
 			</p>
 		</div>
 	</div>

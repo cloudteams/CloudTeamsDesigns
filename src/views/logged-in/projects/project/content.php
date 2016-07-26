@@ -158,7 +158,7 @@
 			<div class="content about">
 				<header>
 					<h2 class="header-large secondary">Customer ideas</h2>
-					<a href="#nowhere" class="btn" alt="send idea">Send idea</a>
+					<a href="#modal-send-idea" class="btn" alt="send idea">Send idea</a>
 				</header>
 			</div>
 
@@ -257,3 +257,5 @@
 		</section>
 	</section>
 </section>
+
+<?php include("modal/new-idea.php"); ?>
