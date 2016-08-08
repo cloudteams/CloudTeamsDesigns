@@ -1,0 +1,60 @@
+#create-project {
+	margin: $margin-30 0;
+
+	.form-group.required .control-label:after { 
+	   content:"*";
+	   color: $color-required;
+	}
+
+	.add-image-button {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		margin: -4px auto $margin-10;
+		background-color: $color-soft-gray;
+	}
+
+	.fieldset-upload {
+		width: 400px;
+		height: 230px;
+	}
+
+	.file-upload-image {
+		border: 3px dotted $color-input-border;
+		width: 400px;
+		height: 200px;
+		text-align: center;
+		cursor: pointer;
+		transition: background $transition-time-2 $easing-1;
+		transition: border $transition-time-2 $easing-1;
+
+		&:hover {
+			border: 3px solid $color-soft-gray;
+			background: $color-soft-gray;
+		}
+
+	}
+
+	.file-upload-image .icon {
+		position: relative;
+		color: $color-white;
+		font-size: 60px;
+	}
+
+	#file-upload {
+		display: none;
+	}
+
+	.form-submit {
+		text-align: right;
+	}
+
+	fieldset {
+		+ hr {
+			// Dirty, look at it later
+			min-width: 690px; // container width;
+			margin-left: -20px;
+		}
+	}
+
+}

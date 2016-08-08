@@ -111,7 +111,11 @@
 
 	}
 
-	.modal#popup-team-member-full-profile {
+	.modal-dialog.medium {
+		min-width: 800px;
+	}
+
+	.modal.popup-team-member-full-profile {
 		.modal-header {
 			text-align: center;
 
@@ -150,6 +154,112 @@
 
 				}
 
+			}
+
+		}
+
+	}
+
+	.modal.popup-team-member-add-new {
+
+
+		header.modal-header {
+			margin-bottom: 0;
+
+			.icon {
+				margin-top: 0;
+			}
+		}
+
+		.modal-body {
+			padding-top: 0;
+
+			.menu-subpage {
+				padding-bottom: 0;
+				+ hr {
+					margin-top: 0;
+				}
+			}
+
+			ul {
+				padding: $margin-10;
+			}
+
+			li.active {
+				color: $color-text;
+			}
+
+			.subpage {
+				padding: $margin-10;
+			}
+
+			.pop-up {
+				text-align: center;
+
+				i {
+					color: $color-button 
+				}
+			}
+
+			fieldset {
+				+ hr {
+					// Dirty, look at it later
+					min-width: 800px;
+					margin-left: -10px;
+				}
+			}
+
+			fieldset:not(.form-submit) {
+				max-width: 60%;
+				padding: 0 $margin-10;
+			}
+
+
+			.form-group.required .control-label:after {
+			  content: "*";
+			  color: $color-required;
+			}
+
+			.form-submit {
+				text-align: right;
+			}
+
+			.search-member-container {
+				min-width: 602px;
+				margin-right: $margin-20;
+			}
+
+			select {
+				option {
+					font-size: $font-size-header-medium;
+				}
+			}
+
+			.load-more {
+				text-align: center;
+				color: $color-action-text;
+			}
+
+			.team-member-invite {
+				.img-circle {
+					width: 50px;
+					height: 50px;
+				}
+
+				.middle {
+					padding: $margin-block;
+					padding-top: 0;
+				}
+				.member-name {
+					width: 200px;
+					max-width: 200px;
+
+					h2 {
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						overflow: hidden;
+					}
+				}
 			}
 
 		}

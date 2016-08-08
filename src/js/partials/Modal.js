@@ -15,34 +15,12 @@ export default function(id) {
 			e.stopPropagation();
 		});
 
-		_$modal.find('.languages a').click(e => {
-			e.preventDefault();
-			e.stopPropagation();
-			const $el = $(e.currentTarget);
-			$el.addClass('active').siblings().removeClass('active');
-		});
-
-		_$modal.find('a[href="#select-all"]').click(selectAll);
-		_$modal.find('a[href="#select-none"]').click(selectNone);
-
 		_$modal.find('.close-modal').click(e => {
 			e.preventDefault();
 			e.stopPropagation();
 
 			hide();
 		});
-	}
-
-	function selectAll(e) {
-		e.preventDefault();
-		e.stopPropagation();
-		_$modalContent.find('input').prop('checked', true);
-	}
-
-	function selectNone(e) {
-		e.preventDefault();
-		e.stopPropagation();
-		_$modalContent.find('input').prop('checked', false);
 	}
 
 	function show() {

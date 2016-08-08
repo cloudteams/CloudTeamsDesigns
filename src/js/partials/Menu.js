@@ -6,11 +6,11 @@
 		const url      = $(location).attr('href');
 		const pageName = url.substr(url.lastIndexOf('/') + 1);
 
-		navLink.each(function() {
-			const linkHref = $(this).attr('href');
+		navLink.each((i, el) => {
+			const linkHref = $(el).attr('href');
 
 			if (linkHref === pageName || linkHref === '') {
-				$(this).addClass('active');
+				$(el).addClass('active');
 			}
 		});
 	}
@@ -20,18 +20,19 @@
 		const url      = $(location).attr('href');
 		const pageName = url.substr(url.lastIndexOf('/') + 1);
 
-		navLink.each(function() {
-			const linkHref = $(this).attr('href');
-			const parentLinkHref = $(this).parent().parent().prev('a');
+		navLink.each((i, el) => {
+			const linkHref = $(el).attr('href');
+			const parentLinkHref = $(el).parent().parent()
+				.prev('a');
 
 			if (linkHref === pageName || linkHref === '') {
-				$(this).addClass('active');
+				$(el).addClass('active');
 				parentLinkHref.addClass('active');
 			}
 		});
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		activeMenuItem();
 		activeSubMenuItem();
 	});

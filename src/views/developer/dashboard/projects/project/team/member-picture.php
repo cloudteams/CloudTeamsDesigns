@@ -1,5 +1,5 @@
 <article class="team-member col-lg-4 col-sm-6 col-xs-12 block-half">
-	<a href="#nowhere" data-toggle="modal" data-target="#popup-team-member-full-profile">
+	<a href="#nowhere" data-toggle="modal" data-target=".popup-team-member-full-profile">
 		<div class="background">
 			<div class="content">
 				<div class="image-container online-state">
@@ -16,13 +16,16 @@
 				<div class="custom-tooltip">
 					<ul>
 						<li>
-							<a href="">Remove team member</a>
+							<a href="">See full profile</a>
 						</li>
 						<li>
-							<a href="">Lorem ipsum</a>
+							<a href="">Send message</a>
 						</li>
 						<li>
-							<a href="">Lorem ipsum</a>
+							<a href="">Edit member</a>
+						</li>
+						<li>
+							<a href="">Remove member</a>
 						</li>
 					</ul>
 				</div>

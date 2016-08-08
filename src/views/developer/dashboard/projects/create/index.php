@@ -22,6 +22,8 @@
 						</div>
 					</header>
 
+					<?php include("content.php"); ?>
+
 				</main>
 			</div>
 

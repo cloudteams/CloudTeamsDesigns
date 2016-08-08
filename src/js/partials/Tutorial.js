@@ -31,8 +31,8 @@
 	function runOpenCloseTutorial() {
 		const linkToTutorialPage = $('.tutorial-button');
 
-		linkToTutorialPage.click(function(event) {
-			event.preventDefault();
+		linkToTutorialPage.click(function(e) {
+			e.preventDefault();
 
 			openCloseTutorial($(this));
 		});

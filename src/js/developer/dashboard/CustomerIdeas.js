@@ -7,7 +7,7 @@ import CustomerIdeas from 'partials/CustomerIdeas.js';
 		CustomerIdeas.run();
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		start();
 	});
 })();

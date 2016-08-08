@@ -23,28 +23,18 @@
 	</header>
 
 	<div class="row">
-		<article class="team-member add-item col-lg-4 col-sm-6 col-xs-12">
-			<div class="background">
-				<div class="vertical-align">
-					<div class="middle">
-						<div class="add-project-button">
-							<div class="vertical-align">
-								<div class="middle">
-									<i class="icon icon-plus"></i>
-								</div>
-							</div>
-						</div>
 
-						<h2 class="header-small secondary">Invite new member</h2>
-					</div>
-				</div>
-			</div>
-		</article>
+		<?php include("member-new.php"); ?>
 
-		<?php include("member.php"); ?>
-		<?php include("member.php"); ?>
+		<?php include("member-picture.php"); ?>
 		<?php include("member-no-picture.php"); ?>
-		<?php include("member.php"); ?>
-		<?php include("member.php"); ?>
+		<?php include("member-no-picture.php"); ?>
+		<?php include("member-picture.php"); ?>
+		<?php include("member-picture.php"); ?>
+		<?php include("member-no-picture.php"); ?>
+
+		<?php include("member-popup.php"); ?>
+		<?php include("member-new-popup.php"); ?>
+
 	</div>
 </section>

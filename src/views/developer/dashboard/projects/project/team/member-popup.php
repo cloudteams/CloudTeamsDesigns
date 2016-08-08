@@ -1,5 +1,5 @@
 <!-- Pop-up modal: team member full profile -->
-<div id="popup-team-member-full-profile" class="modal fade" role="dialog">
+<div id="user-51" class="popup-team-member-full-profile modal fade" role="dialog">
 	<div class="modal-dialog small">
 
 		<!-- Modal content-->
@@ -18,13 +18,16 @@
 					<div class="custom-tooltip">
 						<ul>
 							<li>
-								<a href="">Remove team member</a>
+								<a href="">See full profile</a>
 							</li>
 							<li>
-								<a href="">Lorem ipsum</a>
+								<a href="">Send message</a>
 							</li>
 							<li>
-								<a href="">Lorem ipsum</a>
+								<a href="">Edit member</a>
+							</li>
+							<li>
+								<a href="">Remove member</a>
 							</li>
 						</ul>
 					</div>

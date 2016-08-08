@@ -12,7 +12,7 @@ import CustomerIdeas from 'partials/CustomerIdeas.js';
 	function runActiveSubpage() {
 		const subpageLink = $('.link-to-hidden-subpage');
 
-		subpageLink.click(function() {
+		subpageLink.click(() => {
 			activeSubpage();
 		});
 	}
@@ -32,7 +32,7 @@ import CustomerIdeas from 'partials/CustomerIdeas.js';
 		checkPageName();
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		start();
 	});
 })();

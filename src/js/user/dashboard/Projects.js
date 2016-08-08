@@ -18,7 +18,7 @@
 	function runOpenClose() {
 		const close = $('.close-message');
 
-		close.click(function() {
+		close.click(() => {
 			openClose($(this));
 		});
 	}

@@ -2,7 +2,7 @@
 	<div class="row">
 		<aside class="col-lg-3">
 			<header>
-				<h2 class="header-medium secondary">Folder</h2>
+				<a href="#nowhere" class="btn" alt="new folder">New folder</a>
 			</header>
 			<ul class="menu-subpage sidebar">
 				<li id="link-to-subpage-1" class="link-to-subpage active">
@@ -20,18 +20,13 @@
 				<li id="link-to-subpage-3" class="link-to-subpage">
 					<i class="icon icon-folder"></i>
 					Folder title
-					<span>0</span>
+					<span>2</span>
 				</li>
 
 				<li id="link-to-subpage-4" class="link-to-subpage">
 					<i class="icon icon-folder"></i>
 					Folder title
-					<span>0</span>
-				</li>
-
-				<li class="add-folder">
-					<i class="icon icon-folder"></i>
-					Create new folder
+					<span>1</span>
 				</li>
 			</ul>
 		</aside>

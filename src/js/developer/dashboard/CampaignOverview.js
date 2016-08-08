@@ -7,7 +7,7 @@
 		navLink.addClass('active');
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		activeSubMenuItem();
 	});
 })();

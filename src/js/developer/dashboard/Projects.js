@@ -7,7 +7,7 @@
 		developerTutorial.modal('show');
 	}
 
-	$(document).ready(function() {
+	$(document).ready(() => {
 		openTutorial();
 	});
 })();
