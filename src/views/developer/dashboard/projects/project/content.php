@@ -26,6 +26,10 @@
 			<div class="vertical-align">
 				<div class="middle">
 					<i class="icon icon-profile"></i>
+				</div>
+			</div>
+			<div class="vertical-align">
+				<div class="middle">
 					<h2 class="header-medium secondary">Project profile</h2>
 				</div>
 				<div class="middle">

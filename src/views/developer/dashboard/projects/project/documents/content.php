@@ -32,36 +32,25 @@
 		</aside>
 
 		<section id="subpage-1" class="subpage col-lg-9 active">
-			<article class="block block large">
+			<article class="block large">
+
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-folder"></i>
+							<h2 class="header-medium secondary">Documents</h2>
+						</div>
+					</div>
+
+				</header>
+
 				<div class="background">
-					<header>
-						<h2 class="header-medium secondary">Documents</h2>
-					</header>
 
 					<div class="content documents">
 						<div class="row">
-							<article class="document add-item col-sm-6 clear-2">
-								<div class="background">
-									<div class="vertical-align">
-										<div class="middle">
-											<div class="add-project-button">
-												<div class="vertical-align">
-													<div class="middle">
-														<i class="icon icon-plus"></i>
-													</div>
-												</div>
-											</div>
-											<h3 class="header-small secondary">Add document</h3>
-										</div>
-									</div>
-								</div>
+							<article class="document add-item col-lg-6 clear-2">
+								<a href="#nowhere" class="btn" alt="new folder">Add document</a>
 							</article>
-
-							<?php include("document.php"); ?>
-							<?php include("document.php"); ?>
-							<?php include("document.php"); ?>
-							<?php include("document.php"); ?>
-							<?php include("document.php"); ?>
 						</div>
 					</div>
 				</div>
@@ -69,34 +58,17 @@
 		</section>
 
 		<section id="subpage-2" class="subpage col-md-9">
-			<article class="block block large">
+			<article class="block large">
 				<div class="background">
-					<header>
+					<header class="content-header">
 						<h2 class="header-medium secondary">Documents</h2>
 					</header>
 
 					<div class="content documents">
 						<div class="row">
 							<article class="document add-item col-lg-6 clear-2">
-								<div class="background">
-									<div class="vertical-align">
-										<div class="middle">
-											<div class="add-project-button">
-												<div class="vertical-align">
-													<div class="middle">
-														<i class="icon icon-plus"></i>
-													</div>
-												</div>
-											</div>
-											<h3 class="header-small secondary">Add document</h3>
-										</div>
-									</div>
-								</div>
+								<a href="#nowhere" class="btn" alt="new folder">Add document</a>
 							</article>
-
-							<?php include("document.php"); ?>
-							<?php include("document.php"); ?>
-							<?php include("document.php"); ?>
 						</div>
 					</div>
 				</div>
@@ -104,9 +76,9 @@
 		</section>
 
 		<section id="subpage-3" class="subpage col-md-9">
-			<article class="block block large">
+			<article class="block large">
 				<div class="background">
-					<header>
+					<header class="content-header">
 						<h2 class="header-medium secondary">Documents</h2>
 					</header>
 
@@ -135,7 +107,7 @@
 		</section>
 
 		<section id="subpage-4" class="subpage col-md-9">
-			<article class="block block large">
+			<article class="block large">
 				<div class="background">
 					<header>
 						<h2 class="header-medium secondary">Documents</h2>

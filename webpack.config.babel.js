@@ -7,6 +7,8 @@ module.exports = (function() {
 	const PathRewriterPlugin   = require('webpack-path-rewriter');
 	const ChildProcess         = require('child_process');
 	const Path                 = require('path');
+	const BrowserSyncPlugin    = require('browser-sync-webpack-plugin');
+
 	// const CopyWebpackPlugin    = require('copy-webpack-plugin');
 	// const PurifyPlugin         = require('purifycss-webpack-plugin');
 	const packageInformation   = require('./package.json');
@@ -15,6 +17,8 @@ module.exports = (function() {
 	const PRODUCTION  = process.env.NODE_ENV === 'production';
 	const HASH_FILE   = PRODUCTION ? '[hash:8].[ext]' : '[name]-[hash:8].[ext]';
 	const HASH_BUNDLE = PRODUCTION ? '[name]-[chunkhash:8]' : '[name]-dev';
+
+	const LIVE_RELOAD = process.env.LIVE_RELOAD === 'true'; // change to false when not using BrowserSyncPlugin
 
 	const ENTRY_POINT_GLOBAL = {
 		'global': './app.entry.js'
@@ -25,7 +29,7 @@ module.exports = (function() {
 		'developer/dashboard/customer-ideas'   : './js/developer/dashboard/CustomerIdeas.js',
 		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
 		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
-		'developer/dashboard/campaign-create'  : './js/developer/dashboard/CampaignCreate.js',
+		'developer/dashboard/team'             : './js/developer/dashboard/Team.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
 		'public/project'                       : './js/public/Project.js',
 		'shared/loaders'                       : './js/shared/Loaders.js'
@@ -51,6 +55,7 @@ module.exports = (function() {
 				query[key] = merge[key];
 			});
 		}
+
 		return type + '?' + JSON.stringify(query);
 	}
 
@@ -60,6 +65,7 @@ module.exports = (function() {
 
 	function getBuildDate() {
 		const date = new Date();
+
 		return [date.getDate(), (date.getMonth() + 1), date.getFullYear()].join('-');
 	}
 
@@ -67,7 +73,83 @@ module.exports = (function() {
 		if (packageUserInformation.OS && packageUserInformation.OS === 'windows') {
 			return path.replace(/\//g, '\\');
 		}
+
 		return path;
+	}
+
+	function getPlugins() {
+		const result = [
+
+			new Webpack.optimize.DedupePlugin(),
+
+			new Webpack.OldWatchingPlugin(),
+
+			new Webpack.DefinePlugin({
+				'process.env': {
+					'NODE_ENV': '"' + process.env.NODE_ENV + '"'
+				},
+				'PACKAGE': {
+					'NAME'         : '"' + packageInformation.name + '"',
+					'DESCRIPTION'  : '"' + packageInformation.description + '"',
+					'VERSION'      : '"' + packageInformation.version + '"',
+					'AUTHOR'       : '"' + packageInformation.author + '"',
+					'CREATION_DATE': '"' + getCreationDate() + '"',
+					'BUILD_DATE'   : '"' + getBuildDate() + '"'
+				}
+			}),
+
+			new ExtractTextPlugin('./css/' + HASH_BUNDLE + '.css', {
+				allChunks: true
+			}),
+
+			new Webpack.optimize.CommonsChunkPlugin({
+				name    : 'global',
+				chunks  : Object.keys(ENTRY_POINT_GLOBAL),
+				filename: './js/' + HASH_BUNDLE + '.js'
+			}),
+
+			new Webpack.optimize.CommonsChunkPlugin({
+				name    : 'common',
+				chunks  : Object.keys(ENTRY_POINTS),
+				filename: './js/' + HASH_BUNDLE + '.js'
+			}),
+
+			new PathRewriterPlugin({
+				emitStats: false
+			}),
+
+			new WebpackOnBuildPlugin(() => {
+				ChildProcess.exec('npm run onbuild');
+			})
+		];
+
+		if (LIVE_RELOAD) {
+			result.push(
+				new BrowserSyncPlugin(
+					{
+						host : 'localhost',
+						port : 3000,
+						proxy: 'http://localhost:80/'
+					},
+					{
+						reload: true
+					}
+				)
+			);
+		}
+
+		result.push(
+			function() {
+				this.plugin('done', stats => {
+					require('fs').writeFileSync(
+						[__dirname, 'tmp', 'stats.json'].join('/'),
+						JSON.stringify(stats.toJson(), null, '\t')
+					);
+				});
+			}
+		);
+
+		return result;
 	}
 
 	function makeConfig() {
@@ -155,80 +237,11 @@ module.exports = (function() {
 				extensions: ['', '.js'],
 				alias     : {}
 			},
-			plugins: [
-				new Webpack.optimize.DedupePlugin(),
 
-				new Webpack.OldWatchingPlugin(),
+			plugins: getPlugins(),
 
-				new Webpack.DefinePlugin({
-					'process.env': {
-						'NODE_ENV': '"' + process.env.NODE_ENV + '"'
-					},
-					'PACKAGE': {
-						'NAME'         : '"' + packageInformation.name + '"',
-						'DESCRIPTION'  : '"' + packageInformation.description + '"',
-						'VERSION'      : '"' + packageInformation.version + '"',
-						'AUTHOR'       : '"' + packageInformation.author + '"',
-						'CREATION_DATE': '"' + getCreationDate() + '"',
-						'BUILD_DATE'   : '"' + getBuildDate() + '"'
-					}
-				}),
-
-				new ExtractTextPlugin('./css/' + HASH_BUNDLE + '.css', {
-					allChunks: true
-				}),
-
-				new Webpack.optimize.CommonsChunkPlugin({
-					name    : 'global',
-					chunks  : Object.keys(ENTRY_POINT_GLOBAL),
-					filename: './js/' + HASH_BUNDLE + '.js'
-				}),
-
-				new Webpack.optimize.CommonsChunkPlugin({
-					name    : 'common',
-					chunks  : Object.keys(ENTRY_POINTS),
-					filename: './js/' + HASH_BUNDLE + '.js'
-				}),
-
-				new PathRewriterPlugin({
-					emitStats: false
-				}),
-
-				// new PurifyPlugin({
-				// 	basePath: __dirname,
-				// 	paths   : [
-				// 		'/src/**/*.php',
-				// 		'/src/**/*.html'
-				// 	],
-				// 	purifyOptions: {
-				// 		info    : true,
-				// 		rejected: false
-				// 	}
-				// }),
-
-				// new CopyWebpackPlugin([
-				// 	{
-				// 		from: 'img/icons/',
-				// 		to  : '/'
-				// 	}
-				// ]),
-
-				new WebpackOnBuildPlugin(function() {
-					ChildProcess.exec('npm run onbuild');
-				}),
-
-				function() {
-					this.plugin('done', function(stats) {
-						require('fs').writeFileSync(
-							[__dirname, 'tmp', 'stats.json'].join('/'),
-							JSON.stringify(stats.toJson(), null, '\t')
-						);
-					});
-				}
-			]
 		};
 	}
 
 	return makeConfig();
-
 })();

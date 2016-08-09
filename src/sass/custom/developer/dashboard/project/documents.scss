@@ -43,6 +43,22 @@
 	}
 
 	.subpage {
+		.article-header {
+			background-color: $color-soft-gray;
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+			padding: $margin-header-small;
+			
+			h2 {
+				max-width: 50px;
+			}
+
+			i {
+				float: left;
+			}
+
+		}
+
 		> article {
 			background: none;
 			@include paddingH($margin-block-small);
@@ -50,7 +66,8 @@
 
 			> .background {
 				background: $color-block;
-				border-radius: 5px;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
 				padding: $margin-block;
 
 				> header {

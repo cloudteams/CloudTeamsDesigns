@@ -14,15 +14,17 @@
     "clean": "rimraf ./dist/* && rimraf ./dist/.[!.]* && rimraf ./tmp/*",
     "predebug": "npm run clean",
     "debug": "cross-env NODE_ENV=debug webpack -d --debug",
-    "postdebug": "npm run sync",
+    "#postdebug": "npm run sync",
     "preproduction": "npm run clean",
     "production": "cross-env NODE_ENV=production webpack -p --progress",
     "postproduction": "npm run sync",
-    "sync": "sync-files ./dist `json -f package.user.json sync-dir`",
+    "#sync": "sync-files ./dist `json -f package.user.json sync-dir`",
     "prewatch": "npm run clean",
-    "watch": "cross-env NODE_ENV=debug webpack -d --watch",
-    "onbuild": "npm run sync",
-    "upload": "ftpsync"
+    "watch": "cross-env NODE_ENV=debug LIVE_RELOAD=false webpack -d --watch",
+    "upload": "ftpsync",
+    "prewatch-live": "npm run clean",
+    "watch-live": "cross-env NODE_ENV=debug LIVE_RELOAD=true webpack -d --watch",
+    "onbuild": "echo succes"
   },
   "author": "Booreiland",
   "license": "ISC",
@@ -52,6 +54,7 @@
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
-    "webpack-path-rewriter": "^1.1.4"
+    "webpack-path-rewriter": "^1.1.4",
+    "browser-sync-webpack-plugin": "^1.1.2"
   }
 }
