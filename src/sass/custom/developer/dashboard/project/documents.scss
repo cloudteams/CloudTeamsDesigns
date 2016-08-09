@@ -49,14 +49,34 @@
 			border-top-left-radius: 5px;
 			padding: $margin-header-small;
 			
+			.tooltip-container > a {
+				color: $color-text;
+			}
+
 			h2 {
-				max-width: 50px;
+				display: inline-block;
+				margin: $margin-header-extra-small;
 			}
 
-			i {
-				float: left;
+			.tooltip-container {
+				text-align: right;
 			}
 
+			.custom-tooltip {
+				top: 47px;
+				right: 36px;
+				min-width: 100px;
+			}
+
+		}
+
+		.document .add-item {
+			margin-bottom: $margin-10;
+		}
+
+		hr { 
+			margin: 0 0 0 -20px;
+			min-width: 480px;
 		}
 
 		> article {
@@ -68,7 +88,7 @@
 				background: $color-block;
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
-				padding: $margin-block;
+				padding: 0 $margin-block;
 
 				> header {
 					h2 {
@@ -99,7 +119,7 @@
 						border: 1px solid $color-block-lines;
 						border-radius: 5px;
 						min-height: 124px;
-						padding: $margin-block-small;
+						padding: 0 $margin-block-small;
 
 						h3 {
 							margin-bottom: $margin-p;
@@ -120,7 +140,7 @@
 
 				.document.add-item {
 					border: none;
-					margin-bottom: $margin-block-bottom;
+					margin: $margin-10 0;
 					@include paddingV(0);
 
 					.background {
@@ -138,6 +158,22 @@
 
 				}
 
+			}
+
+			.document-row-item {
+				padding: $margin-10;
+			    white-space: nowrap;
+			    overflow: hidden;
+			    text-overflow: ellipsis; 
+			}
+
+			.icon-container {
+				display: inline-block;
+				text-align: right;
+			}
+			a > i {
+				color: $color-text;
+				transform: scaleX(1);
 			}
 
 		}

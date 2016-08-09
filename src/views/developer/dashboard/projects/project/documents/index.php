@@ -31,4 +31,4 @@
 	</div>
 </section>
 
-<?php include("../../../partials/footer-dashboard-developer.php"); ?>
+<?php include("../../../partials/footer.php"); ?>

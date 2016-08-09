@@ -38,8 +38,23 @@
 					<div class="vertical-align">
 						<div class="middle">
 							<i class="icon icon-folder"></i>
-							<h2 class="header-medium secondary">Documents</h2>
+							<h2 class="header-medium secondary">Folder title</h2>
 						</div>
+						<div class="middle tooltip-container">
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+						</div>
+
+						<div class="custom-tooltip" id="folder-options-1">
+							<ul>
+								<li>
+									<a href="">Edit</a>
+								</li>
+								<li>
+									<a href="">Delete</a>
+								</li>
+							</ul>
+						</div>
+
 					</div>
 
 				</header>
@@ -48,93 +63,128 @@
 
 					<div class="content documents">
 						<div class="row">
-							<article class="document add-item col-lg-6 clear-2">
-								<a href="#nowhere" class="btn" alt="new folder">Add document</a>
+							<article class="document add-item col-lg-5">
+								<a href="#nowhere" class="btn" alt="add document">Add document</a>
+							</article>
+
+							<article class="document add-item col-lg-5">
+								<a href="#nowhere" class="btn" alt="add url">Add URL</a>
 							</article>
 						</div>
+						<hr>
+						<div class="row">
+							<article class="document document-row-item col-lg-2">
+								<p>DOCX</p>
+							</article>
+							<article class="document document-row-item col-lg-8">
+								<p>final_draft_1st_quarter_2016</p>
+							</article>
+
+							<article class="document document-row-item col-lg-2">
+								<div class="middle tooltip-container icon-container">
+									<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								</div>
+								<div class="icon-container">
+									<i class="icon icon-arrow-up"></i>
+								</div>
+								<div class="custom-tooltip" id="folder-options-1">
+									<ul>
+										<li>
+											<a href="">Open</a>
+										</li>
+										<li>
+											<a href="">Edit</a>
+										</li>
+										<li>
+											<a href="">Delete</a>
+										</li>
+									</ul>
+								</div>
+							</article>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<article class="document document-row-item col-lg-2">
+								<p>URL</p>
+							</article>
+							<article class="document document-row-item col-lg-8">
+								<p><a href="">http://booreiland.nl/en/cloudteams</a></p>
+							</article>
+							<article class="document document-row-item col-lg-2">
+								<div class="middle tooltip-container icon-container">
+									<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								</div>
+								<div class="icon-container">
+									<i class="icon icon-arrow-up"></i>
+								</div>
+								<div class="custom-tooltip" id="folder-options-1">
+									<ul>
+										<li>
+											<a href="">Open</a>
+										</li>
+										<li>
+											<a href="">Edit</a>
+										</li>
+										<li>
+											<a href="">Delete</a>
+										</li>
+									</ul>
+								</div>
+							</article>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<article class="document document-row-item col-lg-2">
+								<p>PDF</p>
+							</article>
+							<article class="document document-row-item col-lg-8">
+								<p>styleguide_cloudteams</p>
+							</article>
+							<article class="document document-row-item col-lg-2">
+								<div class="middle tooltip-container icon-container">
+									<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								</div>
+								<div class="icon-container">
+									<i class="icon icon-arrow-up"></i>
+								</div>
+								<div class="custom-tooltip" id="folder-options-1">
+									<ul>
+										<li>
+											<a href="">Open</a>
+										</li>
+
+										<li>
+											<a href="">Edit</a>
+										</li>
+										<li>
+											<a href="">Delete</a>
+										</li>
+									</ul>
+								</div>
+							</article>
+						</div>
+
+						<hr>
+
 					</div>
 				</div>
 			</article>
 		</section>
 
 		<section id="subpage-2" class="subpage col-md-9">
-			<article class="block large">
-				<div class="background">
-					<header class="content-header">
-						<h2 class="header-medium secondary">Documents</h2>
-					</header>
-
-					<div class="content documents">
-						<div class="row">
-							<article class="document add-item col-lg-6 clear-2">
-								<a href="#nowhere" class="btn" alt="new folder">Add document</a>
-							</article>
-						</div>
-					</div>
-				</div>
-			</article>
+			
 		</section>
 
 		<section id="subpage-3" class="subpage col-md-9">
-			<article class="block large">
-				<div class="background">
-					<header class="content-header">
-						<h2 class="header-medium secondary">Documents</h2>
-					</header>
-
-					<div class="content documents">
-						<div class="row">
-							<article class="document add-item col-lg-6 clear-2">
-								<div class="background">
-									<div class="vertical-align">
-										<div class="middle">
-											<div class="add-project-button">
-												<div class="vertical-align">
-													<div class="middle">
-														<i class="icon icon-plus"></i>
-													</div>
-												</div>
-											</div>
-											<h3 class="header-small secondary">Add document</h3>
-										</div>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</article>
+			
 		</section>
 
 		<section id="subpage-4" class="subpage col-md-9">
-			<article class="block large">
-				<div class="background">
-					<header>
-						<h2 class="header-medium secondary">Documents</h2>
-					</header>
-
-					<div class="content documents">
-						<div class="row">
-							<article class="document add-item col-lg-6 clear-2">
-								<div class="background">
-									<div class="vertical-align">
-										<div class="middle">
-											<div class="add-project-button">
-												<div class="vertical-align">
-													<div class="middle">
-														<i class="icon icon-plus"></i>
-													</div>
-												</div>
-											</div>
-											<h3 class="header-small secondary">Add document</h3>
-										</div>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</article>
+			
 		</section>
 	</div>
 </section>
