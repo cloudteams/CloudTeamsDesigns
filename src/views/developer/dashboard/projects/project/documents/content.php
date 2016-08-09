@@ -2,8 +2,10 @@
 	<div class="row">
 		<aside class="col-lg-3">
 			<header>
-				<a href="#nowhere" class="btn" alt="new folder">New folder</a>
+				<a href="#nowhere" data-toggle="modal" data-target=".popup-team-member-full-profile" class="btn" alt="new folder">New folder</a>
 			</header>
+
+
 			<ul class="menu-subpage sidebar">
 				<li id="link-to-subpage-1" class="link-to-subpage active">
 					<i class="icon icon-folder"></i>
@@ -52,8 +54,6 @@
 								</li>
 							</ul>
 						</div>
-						</div>
-
 					</div>
 
 				</header>
@@ -88,19 +88,6 @@
 								<div class="icon-container">
 									<i class="icon icon-arrow-up"></i>
 								</div>
-								<div class="custom-tooltip" id="folder-options-1">
-									<ul>
-										<li>
-											<a href="">Open</a>
-										</li>
-										<li>
-											<a href="">Edit</a>
-										</li>
-										<li>
-											<a href="">Delete</a>
-										</li>
-									</ul>
-								</div>
 							</article>
 
 						</div>
@@ -122,9 +109,6 @@
 									<i class="icon icon-arrow-up"></i>
 								</div>
 							</article>
-							<div class="custom-tooltip item-option-tooltip" id="item-options-3">
-
-							</div>
 						</div>
 
 						<hr>
@@ -144,9 +128,6 @@
 									<i class="icon icon-arrow-up"></i>
 								</div>
 							</article>
-							<div class="custom-tooltip item-option-tooltip" id="item-options-3">
-
-							</div>
 						</div>
 
 						<hr>
