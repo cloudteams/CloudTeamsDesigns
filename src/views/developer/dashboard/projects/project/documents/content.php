@@ -73,7 +73,7 @@
 						</div>
 						<hr>
 						<div class="row">
-							<article class="document document-row-item col-lg-2">
+							<article class="document document-row-item document-row-type col-lg-2">
 								<p>DOCX</p>
 							</article>
 							<article class="document document-row-item col-lg-8">
@@ -106,7 +106,7 @@
 						<hr>
 
 						<div class="row">
-							<article class="document document-row-item col-lg-2">
+							<article class="document document-row-item document-row-type col-lg-2">
 								<p>URL</p>
 							</article>
 							<article class="document document-row-item col-lg-8">
@@ -138,7 +138,7 @@
 						<hr>
 
 						<div class="row">
-							<article class="document document-row-item col-lg-2">
+							<article class="document document-row-item document-row-type col-lg-2">
 								<p>PDF</p>
 							</article>
 							<article class="document document-row-item col-lg-8">
