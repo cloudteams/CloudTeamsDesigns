@@ -43,6 +43,13 @@
 	}
 
 	.subpage {
+
+		.item-options-tooltip {
+			margin-right: -50px;
+			min-width: 100px;
+			position: fixed;
+		}
+
 		.article-header {
 			background-color: $color-soft-gray;
 			border-top-right-radius: 5px;

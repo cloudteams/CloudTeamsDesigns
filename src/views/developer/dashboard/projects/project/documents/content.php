@@ -42,8 +42,6 @@
 						</div>
 						<div class="middle tooltip-container">
 							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
-						</div>
-
 						<div class="custom-tooltip" id="folder-options-1">
 							<ul>
 								<li>
@@ -53,6 +51,7 @@
 									<a href="">Delete</a>
 								</li>
 							</ul>
+						</div>
 						</div>
 
 					</div>
@@ -71,7 +70,9 @@
 								<a href="#nowhere" class="btn" alt="add url">Add URL</a>
 							</article>
 						</div>
+
 						<hr>
+
 						<div class="row">
 							<article class="document document-row-item document-row-type col-lg-2">
 								<p>DOCX</p>
@@ -101,6 +102,7 @@
 									</ul>
 								</div>
 							</article>
+
 						</div>
 
 						<hr>
@@ -119,20 +121,10 @@
 								<div class="icon-container">
 									<i class="icon icon-arrow-up"></i>
 								</div>
-								<div class="custom-tooltip" id="folder-options-1">
-									<ul>
-										<li>
-											<a href="">Open</a>
-										</li>
-										<li>
-											<a href="">Edit</a>
-										</li>
-										<li>
-											<a href="">Delete</a>
-										</li>
-									</ul>
-								</div>
 							</article>
+							<div class="custom-tooltip item-option-tooltip" id="item-options-3">
+
+							</div>
 						</div>
 
 						<hr>
@@ -151,21 +143,10 @@
 								<div class="icon-container">
 									<i class="icon icon-arrow-up"></i>
 								</div>
-								<div class="custom-tooltip" id="folder-options-1">
-									<ul>
-										<li>
-											<a href="">Open</a>
-										</li>
-
-										<li>
-											<a href="">Edit</a>
-										</li>
-										<li>
-											<a href="">Delete</a>
-										</li>
-									</ul>
-								</div>
 							</article>
+							<div class="custom-tooltip item-option-tooltip" id="item-options-3">
+
+							</div>
 						</div>
 
 						<hr>

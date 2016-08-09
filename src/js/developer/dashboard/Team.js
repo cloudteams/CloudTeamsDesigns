@@ -8,16 +8,7 @@
 		const confirmSection = $('.confirm-wrapper');
 		const sendingSection = $('.sending-wrapper');
 
-		confirmButton.click(e => {
-			e.preventDefault();
-
-			const height = subpageSection.css('height');
-			subpageSection.css('height', `${height}`);
-
-			contentSection.fadeOut(() => {
-				sendingSection.fadeIn();
-			});
-
+		function fadeDelay() {
 			setTimeout(() => {
 				sendingSection.fadeOut(() => {
 					confirmSection.fadeIn();
@@ -29,6 +20,19 @@
 					contentSection.fadeIn();
 				});
 			}, 4000);
+		}
+
+		confirmButton.click(e => {
+			e.preventDefault();
+
+			const height = subpageSection.css('height');
+			subpageSection.css('height', `${height}`);
+
+			contentSection.fadeOut(() => {
+				sendingSection.fadeIn();
+			});
+
+			fadeDelay();
 		});
 	}
 
@@ -44,8 +48,8 @@
 
 			target
 				.css({
-					'width': width,
-					'height': height
+					'width' : width,
+					'height' : height
 				})
 				.html('<i style="display: none;" class="icon icon-check">')
 				.off()
