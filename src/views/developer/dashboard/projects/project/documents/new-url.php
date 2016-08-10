@@ -34,10 +34,10 @@
 					</fieldset>
 
 					<fieldset>
-						<label for="description-project" class="header-medium secondary">Description</label>
+						<label for="description-url" class="header-medium secondary">Description</label>
 
 						<div class="input-container">
-							<textarea id="description-project" rows="5" placeholder="Project description"></textarea>
+							<textarea id="description-url" rows="5" placeholder="Project description"></textarea>
 						</div>
 					</fieldset>
 
@@ -58,10 +58,10 @@
 					</fieldset>	
 
 					<fieldset>
-						<label for="description-project" class="header-medium secondary">Tags</label>
+						<label for="tags-url" class="header-medium secondary">Tags</label>
 
 						<div class="input-container">
-							<input type="text" id="description-project" placeholder="Seperate by commas or spaces"></textarea>
+							<input type="text" id="tags-url" placeholder="Seperate by commas or spaces"></textarea>
 						</div>
 					</fieldset>
 
@@ -69,7 +69,7 @@
 				<div class="col-md-12">
 					<fieldset class="form-group form-submit">
 						<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-						<a href="#nowhere" class="btn confirm-button" alt="create">Create</a>
+						<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="create">Create</a>
 					</fieldset>
 				</div>
 

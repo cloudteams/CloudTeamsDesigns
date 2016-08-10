@@ -15,7 +15,27 @@
 			</header>
 
 			<div class="modal-body">
-				
+				<div class="col-md-6">
+
+					<fieldset>
+						<label for="add-folder-name" class="header-medium secondary">Name</label>
+
+						<div class="input-container">
+							<input type="text" id="add-folder-name"  placeholder="Name your URL"></textarea>
+						</div>
+					</fieldset>
+
+				</div>
+				<div class="col-md-6">
+
+				</div>
+				<div class="col-md-12">
+					<fieldset class="form-group form-submit">
+						<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+						<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="create">Create</a>
+					</fieldset>
+				</div>
+
 			</div>
 
 		</div>
