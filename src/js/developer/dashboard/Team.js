@@ -25,7 +25,7 @@
 		confirmButton.click(e => {
 			e.preventDefault();
 
-			const height = subpageSection.css('height');
+			const height = subpageSection.height();
 			subpageSection.css('height', `${height}`);
 
 			contentSection.fadeOut(() => {
@@ -43,8 +43,8 @@
 			e.preventDefault();
 
 			const target = $(e.target);
-			const width = target.css('width');
-			const height = target.css('height');
+			const width = target.width();
+			const height = target.height();
 
 			target
 				.css({

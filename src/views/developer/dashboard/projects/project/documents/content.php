@@ -2,9 +2,8 @@
 	<div class="row">
 		<aside class="col-lg-3">
 			<header>
-				<a href="#nowhere" data-toggle="modal" data-target=".popup-team-member-full-profile" class="btn" alt="new folder">New folder</a>
+				<a href="#nowhere" data-toggle="modal" data-target=".popup-new-folder" class="btn" alt="new folder">New folder</a>
 			</header>
-
 
 			<ul class="menu-subpage sidebar">
 				<li id="link-to-subpage-1" class="link-to-subpage active">
@@ -63,11 +62,11 @@
 					<div class="content documents">
 						<div class="row">
 							<article class="document add-item col-lg-5">
-								<a href="#nowhere" class="btn" alt="add document">Add document</a>
+								<a href="#nowhere" data-toggle="modal" data-target=".popup-new-document" class="btn" alt="new document">Add document</a>							
 							</article>
 
 							<article class="document add-item col-lg-5">
-								<a href="#nowhere" class="btn" alt="add url">Add URL</a>
+								<a href="#nowhere" data-toggle="modal" data-target=".popup-new-url" class="btn" alt="add url">Add URL</a>
 							</article>
 						</div>
 
@@ -148,5 +147,10 @@
 		<section id="subpage-4" class="subpage col-md-9">
 			
 		</section>
+
+		<?php include("new-folder.php"); ?>
+		<?php include("new-document.php"); ?>
+		<?php include("new-url.php"); ?>
+		
 	</div>
 </section>
