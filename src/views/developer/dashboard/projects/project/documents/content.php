@@ -53,12 +53,15 @@
 		<section id="subpage-4" class="subpage col-md-9">
 
 			<?php include("folder-content.php"); ?>
-		
+
 		</section>
 
 		<?php include("new-folder.php"); ?>
 		<?php include("new-document.php"); ?>
 		<?php include("new-url.php"); ?>
+		<?php include("edit-folder.php"); ?>
+		<?php include("edit-document.php"); ?>
+		<?php include("edit-url.php"); ?>
 
 	</div>
 </section>

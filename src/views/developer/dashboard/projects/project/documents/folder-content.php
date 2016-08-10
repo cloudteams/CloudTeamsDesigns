@@ -11,7 +11,7 @@
 			<div class="custom-tooltip" id="custom-tooltip-1">
 				<ul>
 					<li>
-						<a href="">Edit</a>
+						<a data-toggle="modal" data-target=".popup-edit-folder" href="">Edit</a>
 					</li>
 					<li>
 						<a href="">Delete</a>
@@ -61,7 +61,7 @@
 							<a data-target="extend-row" href="">Open</a>
 						</li>
 						<li>
-							<a href="">Edit</a>
+							<a data-toggle="modal" data-target=".popup-edit-document" href="">Edit</a>
 						</li>
 						<li>
 							<a href="">Delete</a>
@@ -73,7 +73,7 @@
 
 			<div style="display:none;" class="document-row-options row">
 				<article class="document document-row-item document-row-type col-lg-3">
-					<p>Tags</p>
+					<p class="black">Tags</p>
 				</article>
 				<article class="document document-row-item col-lg-9">
 					<section class="item-tag">lorem</section>
@@ -84,7 +84,7 @@
 					<section class="item-tag">dolor</section>
 				</article>
 				<article class="document document-row-item document-row-type col-lg-3">
-					<p>Description</p>
+					<p class="black">Description</p>
 				</article>
 				<article class="document document-row-item col-lg-9">
 					<p>Final draft of the first quarter in 2016 over the presentation regarding the images in the front end template</p>
@@ -116,7 +116,7 @@
 							<a data-target="extend-row" href="">Open</a>
 						</li>
 						<li>
-							<a href="">Edit</a>
+							<a data-toggle="modal" data-target=".popup-edit-url" href="">Edit</a>
 						</li>
 						<li>
 							<a href="">Delete</a>
@@ -127,7 +127,35 @@
 			</div>
 
 			<div style="display:none;" class="document-row-options row">
-				<p> hello world </p>
+				<article class="document document-row-item document-row-type col-lg-3">
+					<p class="black">Name</p>
+				</article>
+				<article class="document document-row-item col-lg-9">
+					<p>Booreiland website link</p>
+				</article>
+				<article class="document document-row-item document-row-type col-lg-3">
+					<p class="black">Tags</p>
+				</article>
+				<article class="document document-row-item col-lg-9">
+					<section class="item-tag">lorem</section>
+					<section class="item-tag">ipsum</section>
+					<section class="item-tag">dolor</section>
+					<section class="item-tag">dolor</section>
+					<section class="item-tag">dolor</section>
+					<section class="item-tag">dolor</section>
+				</article>
+				<article class="document document-row-item document-row-type col-lg-3">
+					<p class="black">Description</p>
+				</article>
+				<article class="document document-row-item col-lg-9">
+					<p>Final draft of the first quarter in 2016 over the presentation regarding the images in the front end template</p>
+				</article>
+				<article class="document document-row-item document-row-type col-lg-3">
+					<p class="black">Rating</p>
+				</article>
+				<article class="document document-row-item col-lg-9">
+					<p>Good</p>
+				</article>
 			</div>
 
 			<hr>
@@ -155,7 +183,7 @@
 							<a data-target="extend-row" href="">Open</a>
 						</li>
 						<li>
-							<a href="">Edit</a>
+							<a data-toggle="modal" data-target=".popup-edit-document" href="">Edit</a>
 						</li>
 						<li>
 							<a href="">Delete</a>
@@ -166,7 +194,23 @@
 			</div>
 
 			<div style="display:none;" class="document-row-options row">
-				<p> hello world </p>
+				<article class="document document-row-item document-row-type col-lg-3">
+					<p class="black">Tags</p>
+				</article>
+				<article class="document document-row-item col-lg-9">
+					<section class="item-tag">lorem</section>
+					<section class="item-tag">ipsum</section>
+					<section class="item-tag">dolor</section>
+					<section class="item-tag">dolor</section>
+					<section class="item-tag">dolor</section>
+					<section class="item-tag">dolor</section>
+				</article>
+				<article class="document document-row-item document-row-type col-lg-3">
+					<p class="black">Description</p>
+				</article>
+				<article class="document document-row-item col-lg-9">
+					<p>Final draft of the first quarter in 2016 over the presentation regarding the images in the front end template</p>
+				</article>
 			</div>
 
 			<hr>

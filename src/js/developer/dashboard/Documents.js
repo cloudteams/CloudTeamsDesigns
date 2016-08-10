@@ -54,6 +54,12 @@
 		sibling.fadeOut();
 	}
 
+	function blockDefault() {
+		$('a[data-target]').click(e => {
+			e.preventDefault();
+		});
+	}
+
 	function removeTags() {
 		$('.item-tag').click(e => {
 			$(e.target).remove();
@@ -62,6 +68,7 @@
 
 	$(document).ready(() => {
 		selectAllOptionsOpen();
+		blockDefault();
 		removeTags();
 	});
 })();

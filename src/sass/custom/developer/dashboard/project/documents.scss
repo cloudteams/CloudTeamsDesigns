@@ -1,6 +1,6 @@
 .developer-dashboard-project-documents-content {
 
-	.popup-new-folder {
+	.popup-new-folder, .popup-edit-folder {
 		.modal-body {
 			height: 180px !important;
 		}
@@ -253,6 +253,10 @@
 
 				.document-row-item {
 					white-space: normal;
+				}
+
+				.black {
+					color: $color-text;
 				}
 
 				.item-tag {
