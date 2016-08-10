@@ -235,11 +235,59 @@
 				padding: $margin-10;
 			    white-space: nowrap;
 			    overflow: hidden;
-			    text-overflow: ellipsis; 
+			    text-overflow: ellipsis;
+
+				+ .custom-tooltip {
+					margin-top: 39px;
+					margin-left: -201px;
+				}
+
 			}
 
 			.document-row-type {
 				color: $color-highlight;
+			}
+
+			.document-row-options {
+				display: none;
+
+				.document-row-item {
+					white-space: normal;
+				}
+
+				.item-tag {
+					border-radius: 5px;
+					background-color: $color-soft-gray;
+					padding: 2px 10px;
+					margin-right: 7px;
+					margin-bottom: 5px;
+					float: left;
+				}
+				
+				.item-tag:after {
+					background-color: $color-soft-gray;
+					margin-left: 3px;
+					font-family: "cloudteams-icons";
+					cursor: pointer;
+					content: "\f111";
+					font-size: 1em;
+					display:inline-block;
+					vertical-align:middle;
+					line-height:1;
+					font-weight:normal;
+					font-style:normal;
+					speak:none;
+					text-decoration:inherit;
+					text-transform:none;
+					text-rendering:auto;
+					-webkit-font-smoothing:antialiased;
+					-moz-osx-font-smoothing:grayscale;
+				}
+
+			}
+
+			.document-row-options.active {
+				display: block;
 			}
 
 			.icon-container {
