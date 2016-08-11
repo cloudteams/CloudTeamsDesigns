@@ -82,6 +82,13 @@
 					</li>
 
 					<li>
+						<a href="/views/developer/dashboard/projects/project/personas">
+							<i class="icon icon-user"></i>
+							<span>Personas</span>
+						</a>
+					</li>
+
+					<li>
 						<a href="/views/developer/dashboard/projects/project/team">
 							<i class="icon icon-team"></i>
 							<span>Team</span>
