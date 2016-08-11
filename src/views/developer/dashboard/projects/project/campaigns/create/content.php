@@ -720,7 +720,7 @@
 							</div>
 
 							<div class="buttons">
-								<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i>div> Add question</a>
+								<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i>Add question</a>
 							</div>
 						</fieldset>
 					</div>

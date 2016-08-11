@@ -8,19 +8,13 @@
 			e.preventDefault();
 
 			const row = $(e.target)
-				.parent()
-				.parent()
-				.parent()
-				.parent()
+				.closest('.row')
 				.next();
 
 			row.fadeIn();
 
 			const arrow = $(e.target)
-				.parent()
-				.parent()
-				.parent()
-				.parent()
+				.closest('.row')
 				.find('i.icon-arrow-up');
 
 			arrow.css({
@@ -62,10 +56,10 @@
 
 	function removeTags() {
 		$('.item-tag').click(e => {
-			$(e.target).remove();
+			const target = $(e.target);
+			target.remove();
 		});
 	}
-
 	$(document).ready(() => {
 		selectAllOptionsOpen();
 		blockDefault();
