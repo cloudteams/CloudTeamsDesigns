@@ -12,7 +12,7 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-seen"></i>
-								<h1 class="header-large">Overview</h1>
+								<h1 class="header-large">wOverview</h1>
 							</div>
 						</div>
 					</header>
