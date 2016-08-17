@@ -11,8 +11,8 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-seen"></i>
-								<h1 class="header-large">wOverview</h1>
+								<i class="icon icon-user"></i>
+								<h1 class="header-large">Personas</h1>
 							</div>
 						</div>
 					</header>
@@ -20,10 +20,13 @@
 					<?php include("content.php"); ?>
 
 				</main>
+
 			</div>
 
 		</div>
 	</div>
 </section>
+
+<script type="text/javascript" src="[[./js/developer/dashboard/personas-*.js]]"></script>
 
 <?php include("../../../partials/footer.php"); ?>

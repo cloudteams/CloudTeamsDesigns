@@ -108,7 +108,8 @@ section.dashboard-page {
 				> main,
 				> aside {
 					min-height: 100vh;
-					min-height: calc(100vh - 65px);
+					// Should fix the pages with short content
+					// min-height: calc(100vh - 65px);
 					@include paddingH($margin-page);
 
 					> header {

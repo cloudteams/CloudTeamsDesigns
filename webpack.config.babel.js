@@ -30,6 +30,7 @@ module.exports = (function() {
 		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
 		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
 		'developer/dashboard/team'             : './js/developer/dashboard/Team.js',
+		'developer/dashboard/personas'         : './js/developer/dashboard/Personas.js',
 		'developer/dashboard/documents'        : './js/developer/dashboard/Documents.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
 		'public/project'                       : './js/public/Project.js',
