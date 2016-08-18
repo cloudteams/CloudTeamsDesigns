@@ -1,3 +1,89 @@
 .page-developer-dashboard-project-personas {
 
+	.modal-dialog.medium {
+		min-width: 800px;
+
+		.modal-body {
+			height: 480px;
+			
+			.link-to-subpage.active {
+				color: $color-text !important;
+			}
+			
+		}
+
+		.form-group.required .control-label:after { 
+		   content:"*";
+		   color: $color-required;
+		}
+
+		.add-image-button {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			margin: -4px auto $margin-10;
+			background-color: $color-soft-gray;
+		}
+
+		.fieldset-upload {
+			width: 100%;
+			height: 100%;
+		}
+
+		.file-upload-image {
+			border: 3px dotted $color-input-border;
+			width: 100%;
+			height: 200px;
+			text-align: center;
+			cursor: pointer;
+			transition: background $transition-time-2 $easing-1;
+			transition: border $transition-time-2 $easing-1;
+
+			&:hover {
+				border: 3px solid $color-soft-gray;
+				background: $color-soft-gray;
+			}
+
+		}
+
+		.file-upload-image .icon {
+			position: relative;
+			color: $color-white;
+			font-size: 60px;
+		}
+
+		#file-upload {
+			display: none;
+		}
+
+		.form-submit {
+			text-align: right;
+		}
+
+	}
+
+	.persona-add-button {
+		margin: $margin-input-small 0;
+	}
+
+	.persona-add-button:after {
+		content: " ";
+		background: $color-transparent-white;
+		width: 100vw;
+		height: 1px;
+		position: fixed;
+		top: 200px;
+		left: -30px;
+		z-index: 10;
+	}
+
+	.create-new-persona {
+		margin: $margin-block 0;
+
+		.background {
+			padding: 50px 0;
+		}
+	}
+
+	
 }

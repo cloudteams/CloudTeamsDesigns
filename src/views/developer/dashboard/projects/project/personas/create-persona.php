@@ -1,73 +1,74 @@
 <!-- Pop-up modal: team member full profile -->
-<div id="user-51" class="popup-create-new-persona modal fade" role="dialog">
-	<div class="modal-dialog small">
-
-		<!-- Modal content-->
-		<div class="modal-content">
-			<div class="modal-header">
-
-				<h2 class="header-medium secondary">John Mestra</h2>
-				<p class="meta big">Project manager</p>
-				<p class="meta thin">bobbyd123@gmail.com</p>
-
-				<div class="tooltip-container">
-					<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
-					<div class="custom-tooltip">
-						<ul>
-							<li>
-								<a href="">See full profile</a>
-							</li>
-							<li>
-								<a href="">Send message</a>
-							</li>
-							<li>
-								<a href="">Edit member</a>
-							</li>
-							<li>
-								<a href="">Remove member</a>
-							</li>
-						</ul>
+<div id="new" class="popup-create-new-persona modal fade" role="dialog">
+	<div class="modal-dialog medium">
+		<div class="block block-fill">
+			<header class="modal-header">
+				<div class="vertical-align">
+					<div class="middle">
+						<i class="icon icon-user"></i>
+						<h2 class="header-medium secondary">Create a new persona</h2>
+					</div>
+					<div class="close" data-dismiss="modal">
+						<i class="icon icon-close"></i>
 					</div>
 				</div>
-
-				<div class="close" data-dismiss="modal">
-					<i class="icon icon-close"></i>
-				</div>
-			</div>
+			</header>
 
 			<div class="modal-body">
-				<div class="row">
-					<div class="col-sm-6">
-						<h3 class="header-medium secondary">Firstname</h3>
-						<p>Johnny</p>
-					</div>
+				<ul class="menu-subpage">
+					<li id="link-to-subpage-1" class="link-to-subpage active">Basic information</li>
+					<li id="link-to-subpage-2" class="link-to-subpage">Properties</li>
+				</ul>
 
-					<div class="col-sm-6">
-						<h3 class="header-medium secondary">Last name</h3>
-						<p>Mestra</p>
-					</div>
+				<section id="subpage-1" class="subpage active">
 
-					<div class="col-sm-6">
-						<h3 class="header-medium secondary">Year of birth</h3>
-						<p><time datetime="1986-09-15">15/09/1986</time></p>
-					</div>
+					<div class="col-md-6">
+						<fieldset class="form-group fieldset-upload">
 
-					<div class="col-sm-6">
-						<h3 class="header-medium secondary">Gender</h3>
-						<p>Male</p>
-					</div>
+							<div class="input-container">
+								<label class="file-upload-image" for="file-upload">
+									<div class="vertical-align">
+										<div class="middle">
+											<div class="add-image-button">
+												<i class="icon icon-plus"></i>
+											</div>
+											<p class="meta big">Add picture</p>
+										</div>
+									</div>
+								</label>
+								<input type="file" name="file-upload" id="file-upload"/>
+							</div>
+						</fieldset>
 
-					<div class="col-sm-6">
-						<h3 class="header-medium secondary">Country</h3>
-						<p>United States</p>
 					</div>
+					<div class="col-md-6">
+						
+						<fieldset>
+							<label for="add-document-name" class="header-medium secondary">Name</label>
 
-					<div class="col-sm-6">
-						<h3 class="header-medium secondary">City</h3>
-						<p>Washington</p>
+							<div class="input-container">
+								<input type="text" id="add-document-name"  placeholder="Name your URL"></textarea>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<label for="tags-document" class="header-medium secondary">Tags</label>
+
+							<div class="input-container">
+								<input type="text" id="tags-document" placeholder="Seperate by commas or spaces"></textarea>
+							</div>
+						</fieldset>
+
 					</div>
-				</div>
+					<div class="col-md-12">
+						<fieldset class="form-group form-submit">
+							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="create">Create</a>
+						</fieldset>
+					</div>
+				</section>
 			</div>
+
 		</div>
 	</div>
 </div>

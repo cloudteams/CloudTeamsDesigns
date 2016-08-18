@@ -43,8 +43,8 @@
 			e.preventDefault();
 
 			const target = $(e.target);
-			const width = target.width();
-			const height = target.height();
+			const width = target.outerWidth();
+			const height = target.outerHeight();
 
 			target
 				.css({
