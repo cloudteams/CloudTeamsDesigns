@@ -4,12 +4,23 @@
 		min-width: 800px;
 
 		.modal-body {
-			height: 480px;
 			
 			.link-to-subpage.active {
 				color: $color-text !important;
 			}
-			
+
+			#subpage-1 {
+				height: 320px;
+			}
+
+			#subpage-2 {
+				height: 570px;
+			}
+
+			.inform-block {
+				margin-bottom: $margin-10;
+			}
+
 		}
 
 		.form-group.required .control-label:after { 
@@ -70,7 +81,7 @@
 		content: " ";
 		background: $color-transparent-white;
 		width: 100vw;
-		height: 1px;
+		height: 0px; // broken for now
 		position: fixed;
 		top: 200px;
 		left: -30px;

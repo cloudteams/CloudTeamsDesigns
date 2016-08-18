@@ -3,7 +3,7 @@
 (function() {
 	function initClicks() {
 		$('main a').click(e => {
-			console.log('intervented')
+			console.log('intervented');
 			e.preventDefault();
 		});
 	}
