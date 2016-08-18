@@ -105,38 +105,70 @@
 							<label for="persona-tech-level" class="header-medium secondary">Tech level</label>
 
 							<div class="input-container">
-								<input type="text" id="apersona-tech-level" placeholder="Tech level of persona"></textarea>
+								<input type="text" id="persona-tech-level" placeholder="Tech level of persona"></textarea>
 							</div>
 						</fieldset>
 
 						<fieldset>
-							<label for="add-url-name" class="header-medium secondary">Name</label>
+							<label for="persona-platform" class="header-medium secondary">Platform</label>
 
 							<div class="input-container">
-								<input type="text" id="add-url-name" placeholder="Name your URL"></textarea>
+								<input type="text" id="persona-platform" placeholder=""></textarea>
 							</div>
 						</fieldset>
 
 						<fieldset>
-							<label for="add-url-name" class="header-medium secondary">Name</label>
+							<label for="persona-age" class="header-medium secondary">Age</label>
 
 							<div class="input-container">
-								<input type="text" id="add-url-name" placeholder="Name your URL"></textarea>
+								<input type="number" id="persona-age" placeholder=""></textarea>
 							</div>
 						</fieldset>
 
 						<fieldset>
-							<label for="add-url-name" class="header-medium secondary">Name</label>
+							<label for="persona-sector" class="header-medium secondary"> Business sector</label>
 
 							<div class="input-container">
-								<input type="text" id="add-url-name" placeholder="Name your URL"></textarea>
+								<input type="text" id="persona-sector" placeholder=""></textarea>
 							</div>
 						</fieldset>
 
 					</div>
 
 					<div class="col-md-6">
-					
+
+						<fieldset>
+							<label for="persona-activity" class="header-medium secondary">Activity</label>
+
+							<div class="input-container">
+								<input type="text" id="persona-activity" placeholder="Persona activity"></textarea>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<label for="persona-device" class="header-medium secondary">Device</label>
+
+							<div class="input-container">
+								<input type="text" id="persona-device" placeholder=""></textarea>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<label for="persona-influence" class="header-medium secondary">Influence</label>
+
+							<div class="input-container">
+								<input type="text" id="persona-influence" placeholder=""></textarea>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<label for="persona-activity-time" class="header-medium secondary">Activity time</label>
+
+							<div class="input-container">
+								<input type="text" id="persona-activity-time" placeholder=""></textarea>
+							</div>
+						</fieldset>
+
 					</div>
 
 					<div class="col-md-12">
