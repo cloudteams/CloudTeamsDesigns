@@ -1,6 +1,60 @@
 .developer-dashboard-project-campaign-overview-content {
 	padding-top: 0 !important;
 
+	.modal-dialog.medium {
+		min-width: 800px;
+	}
+
+	.added-persona-container {
+		margin: $margin-40 0;
+		border-radius: 5px;
+
+		header {
+			overflow: hidden;
+		}
+
+		img {
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+			max-height: 140px;
+		}
+
+		section {
+			background: $color-white;
+			padding: $margin-15 $margin-10;
+			border-radius: 5px;
+
+			.header-medium.secondary:nth-of-type(2) {
+				text-transform: none;
+				color: $color-clear-gray;
+				font-size: $font-size-3;
+			}
+
+			p {
+				color: $color-text !important;
+				margin: $margin-20 0;
+			}
+
+			.persona-rating {
+				margin: $margin-20 0;
+
+				> div {
+					padding: 0;
+
+					&:nth-of-type(2) {
+						text-align: right;
+					}
+				}
+			}
+
+			a {
+				margin: auto;
+				display: block
+			}
+		}
+
+	}
+
 	.subpage,
 	.subsection {
 		display: none;
@@ -30,35 +84,6 @@
 
 			h2 > a {
 				float: right;
-			}
-
-			.added-persona-container {
-				margin: $margin-40 0;
-				border-radius: 5px;
-
-				header {
-					overflow: hidden;
-					background: $color-white;
-				}
-
-				img {
-					border-top-right-radius: 5px;
-					border-top-left-radius: 5px;
-					max-height: 140px;
-				}
-
-				section {
-					background: $color-white;
-					padding: $margin-5;
-					border-radius: 5px;
-
-
-					a {
-						margin: auto;
-						display: block
-					}
-				}
-
 			}
 
 		}

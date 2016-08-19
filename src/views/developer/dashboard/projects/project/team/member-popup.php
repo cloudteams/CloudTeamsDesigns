@@ -41,7 +41,7 @@
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-sm-6">
-						<h3 class="header-medium secondary">Firstname</h3>
+						<h3 class="header-medium secondary">First name</h3>
 						<p>Johnny</p>
 					</div>
 
