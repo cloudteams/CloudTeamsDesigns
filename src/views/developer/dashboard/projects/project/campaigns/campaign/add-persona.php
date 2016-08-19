@@ -22,12 +22,61 @@
 				<div class="row">
 
 					<div class="col-md-12">
-						<p>hello</p>
+						<p>You can click on a persona from below to use in your campaign as they are. You can customize it to match your customer segments<br></p>
 					</div>
-					<div class="col-md-12">
-						<fieldset class="form-group form-submit">
-							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Skip</a>
-							<a href="#nowhere" class="btn confirm-button" alt="submit invite">Send invite</a>
+
+					<div class="row added-persona-container">
+						<div class="col-md-4 added-persona">
+							<section class="added-persona__image">
+								<img src="https://unsplash.it/500">
+							</section>
+							<section class="added-persona__body">
+								<h3 class="header-medium secondary">Tech savy senior</h2>
+								<h3 class="header-medium secondary">Public persona</h3>
+								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+								<div class="row persona-rating">
+									<div class="col-md-6">Rating:</div>
+									<div class="col-md-6"><strong>Positive</strong></div>
+								</div>
+								<a href="#nowhere" class="btn add-persona" alt="add persona">Select persona</a>
+							</section>
+						</div>
+						<div class="col-md-4 added-persona">
+							<section class="added-persona__image">
+								<img src="https://unsplash.it/500">
+							</section>
+							<section class="added-persona__body">
+								<h3 class="header-medium secondary">Tech savy senior</h2>
+								<h3 class="header-medium secondary">Public persona</h3>
+								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+								<div class="row persona-rating">
+									<div class="col-md-6">Rating:</div>
+									<div class="col-md-6"><strong>Positive</strong></div>
+								</div>
+								<a href="#nowhere" class="btn add-persona" alt="add persona">Select persona</a>
+							</section>
+						</div>
+						<div class="col-md-4 added-persona">
+							<section class="added-persona__image">
+								<img src="https://unsplash.it/500">
+							</section>
+							<section class="added-persona__body">
+								<h3 class="header-medium secondary">Tech savy senior</h2>
+								<h3 class="header-medium secondary">Public persona</h3>
+								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+								<div class="row persona-rating">
+									<div class="col-md-6">Rating:</div>
+									<div class="col-md-6"><strong>Positive</strong></div>
+								</div>
+								<a href="#nowhere" class="btn add-persona" alt="add persona">Select persona</a>
+							</section>
+						</div>
+					</div>
+
+					<div class="col-md-12 form-submit">
+						<fieldset>
+							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="add persona">Add</a>
 						</fieldset>
 					</div>
 				</div>

@@ -5,11 +5,15 @@
 		min-width: 800px;
 	}
 
+	.form-submit {
+		text-align: right;
+	}
+
 	.added-persona-container {
 		margin: $margin-40 0;
 		border-radius: 5px;
 
-		header {
+		.added-persona__image {
 			overflow: hidden;
 		}
 
