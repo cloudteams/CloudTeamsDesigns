@@ -26,13 +26,34 @@
 
 				<tr>
 					<td>
-						<i class="icon icon-add-member"></i>
-						<p>Accepted</p>
+						<i class="icon icon-campaign-completed"></i>
+						<p>Participated</p>
 					</td>
 					<td>
-						<p>2</p>
+						<p>12</p>
 					</td>
 				</tr>
+				
+				<tr>
+					<td>
+						<i class="icon icon-document"></i>
+						<p>Documents</p>
+					</td>
+					<td>
+						<p>5</p>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<i class="icon icon-seen"></i>
+						<p>Campaign visibility</p>
+					</td>
+					<td>
+						<p>Private</p>
+					</td>
+				</tr>
+
 			</table>
 		</div>
 
@@ -40,8 +61,8 @@
 			<table>
 				<tr>
 					<td>
-						<i class="icon icon-campaign-completed"></i>
-						<p>Participated</p>
+						<i class="icon icon-time"></i>
+						<p>Duration in days</p>
 					</td>
 					<td>
 						<p>12</p>
@@ -67,6 +88,26 @@
 						<p><time datetime="2015-12-29">29/12/2015</time></p>
 					</td>
 				</tr>
+
+				<tr>
+					<td>
+						<i class="icon icon-activity"></i>
+						<p>Status</p>
+					</td>
+					<td>
+						<p>Draft</p>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<i class="icon icon-seen"></i>
+						<p>Project visibility</p>
+					</td>
+					<td>
+						<p>Private</p>
+					</td>
+				</tr>				
 			</table>
 		</div>
 	</div>

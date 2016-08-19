@@ -25,7 +25,7 @@
 		confirmButton.click(e => {
 			e.preventDefault();
 
-			const height = subpageSection.height();
+			const height = subpageSection.outerHeight();
 			subpageSection.css('height', `${height}`);
 
 			contentSection.fadeOut(() => {

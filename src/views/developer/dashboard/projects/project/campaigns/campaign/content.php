@@ -1,8 +1,9 @@
 <section class="developer-dashboard-project-campaign-overview-content">
 	<ul class="menu-subpage">
-		<li id="link-to-subpage-1" class="link-to-subpage active">About campaign</li>
+		<li id="link-to-subpage-1" class="link-to-subpage active">About</li>
 		<li id="link-to-subpage-2" class="link-to-subpage">Rewards</li>
-		<li id="link-to-subpage-3" class="link-to-subpage">Results</li>
+		<li id="link-to-subpage-3" class="link-to-subpage">Personas</li>		
+		<li id="link-to-subpage-4" class="link-to-subpage">Results</li>
 	</ul>
 
 	<?php include("data.php"); ?>
@@ -42,8 +43,38 @@
 	</section>
 
 	<section id="subpage-3" class="subpage">
-		<h2 class="header-medium secondary">Results</h2>
+		<h2 class="header-medium secondary">1 persona added to this campaign
+		<a href="#nowhere" class="btn add-persona" alt="add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add a persona</a></h2>
 
+		<div class="content">
+			<div class="row added-persona-container">
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+					<section class="added-persona__body">
+						<h2 class="header-medium">Tech savy senior</h2>
+						<h3 class="header-medium secondary">Public persona</h3>
+						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+						<a href="#nowhere" class="btn add-persona" alt="add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+					</section>
+				</div>
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+				</div>
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="subpage-4" class="subpage">
+		<h2 class="header-medium secondary">Results</h2>
 		<div class="content">
 			<div class="still-running">
 				<p class="header-medium secondary">This campaign is still running</p>

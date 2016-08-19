@@ -21,6 +21,15 @@
 				margin-bottom: $margin-10;
 			}
 
+			.confirm-wrapper, .sending-wrapper {
+				margin-top: 20%;
+				text-align: center;
+
+				i {
+					color: $color-solid-purple;
+				}
+			}
+
 		}
 
 		.form-group.required .control-label:after { 
