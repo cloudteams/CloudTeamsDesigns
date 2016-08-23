@@ -44,7 +44,7 @@
 
 	<section id="subpage-3" class="subpage">
 		<h2 class="header-medium secondary">1 persona added to this campaign
-		<a href="#nowhere" class="btn add-persona" alt="add persona" data-toggle="modal" data-target=".add-new-persona-to-campaign">Add a persona</a></h2>
+		<a href="#nowhere" class="btn add-new-persona" alt="add persona" data-toggle="modal" data-target=".add-new-persona-to-campaign">Add a persona</a></h2>
 
 		<div class="content">
 			<div class="row added-persona-container">
@@ -60,7 +60,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn add-persona" alt="add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -75,7 +75,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn add-persona" alt="add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -90,7 +90,54 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn add-persona" alt="add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+					</section>
+				</div>
+			</div>
+			<div class="row added-persona-container">
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+					<section class="added-persona__body">
+						<h3 class="header-medium secondary">Tech savy senior</h2>
+						<h3 class="header-medium secondary">Public persona</h3>
+						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+						<div class="row persona-rating">
+							<div class="col-md-6">Rating:</div>
+							<div class="col-md-6"><strong>Positive</strong></div>
+						</div>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+					</section>
+				</div>
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+					<section class="added-persona__body">
+						<h3 class="header-medium secondary">Tech savy senior</h2>
+						<h3 class="header-medium secondary">Public persona</h3>
+						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+						<div class="row persona-rating">
+							<div class="col-md-6">Rating:</div>
+							<div class="col-md-6"><strong>Positive</strong></div>
+						</div>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+					</section>
+				</div>
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+					<section class="added-persona__body">
+						<h3 class="header-medium secondary">Tech savy senior</h2>
+						<h3 class="header-medium secondary">Public persona</h3>
+						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+						<div class="row persona-rating">
+							<div class="col-md-6">Rating:</div>
+							<div class="col-md-6"><strong>Positive</strong></div>
+						</div>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
 					</section>
 				</div>
 			</div>

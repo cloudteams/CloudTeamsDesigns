@@ -1,9 +1,8 @@
 /* global $ */
 
 (function() {
-
 	function confirmButtons() {
-		const allButtons = $('a.btn.invite-button');
+		const allButtons = $('a.btn-transparent.add-persona');
 
 		allButtons.click(e => {
 			e.preventDefault();
