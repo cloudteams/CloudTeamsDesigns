@@ -85,7 +85,24 @@
 						<img src="https://unsplash.it/500">
 					</header>
 					<section class="added-persona__body">
-						<h3 class="header-medium secondary">Tech savy senior</h3>
+						<h3 class="header-medium secondary">Tech savy senior
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</h3>
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
@@ -100,7 +117,24 @@
 						<img src="https://unsplash.it/500">
 					</header>
 					<section class="added-persona__body">
-						<h3 class="header-medium secondary">Tech savy senior</h3>
+						<h3 class="header-medium secondary">Tech savy senior
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</h3>
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
