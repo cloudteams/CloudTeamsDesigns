@@ -9,9 +9,26 @@
 		text-align: right;
 	}
 
+	.rate-this-persona {
+		text-align: center;
+	}
+
 	.added-persona-container {
 		margin: $margin-40 0;
 		border-radius: 5px;
+
+		.tooltip-container {
+			float: right;
+
+			a.open-tooltip-button {
+				color: $color-night-black;
+			}
+
+			.custom-tooltip {
+				left: 45px;
+				top: 183px;
+			}
+		}
 
 		.added-persona__image {
 			overflow: hidden;

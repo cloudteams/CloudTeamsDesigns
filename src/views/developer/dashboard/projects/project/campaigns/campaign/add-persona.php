@@ -121,7 +121,7 @@
 					<div class="col-md-12 form-submit">
 						<fieldset>
 							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-							<a href="#nowhere" data-dismiss="modal" class="btn-transparent confirm-button" alt="add persona">Add</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="add persona">Add</a>
 						</fieldset>
 					</div>
 				</div>
