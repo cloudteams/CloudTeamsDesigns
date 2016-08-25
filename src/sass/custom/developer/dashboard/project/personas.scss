@@ -17,6 +17,10 @@
 				height: 570px;
 			}
 
+			#subpage-3 {
+				height: 350px;
+			}
+
 			.inform-block {
 				margin-bottom: $margin-10;
 			}
@@ -86,6 +90,10 @@
 		margin: $margin-input-small 0;
 	}
 
+	.persona-download a {
+		color: $color-action-text;
+	}
+
 	.persona-add-button:after {
 		content: " ";
 		background: $color-transparent-white;
@@ -105,5 +113,116 @@
 		}
 	}
 
-	
+	.persona-property-column {
+		height: 50px;
+		text-align: center;
+	}
+
+	.percentage-wrapper {
+		padding: $margin-10;
+	}
+
+	.persona-percentage-block {
+		float: left;
+		height: 50px;
+		cursor: pointer;
+		font-size: $font-size-menu-subpage;
+		color: $color-subtitle;		
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		@include paddingV($margin-10);
+
+		&:first-of-type > .persona-percentage-item {
+			border-top-left-radius: 15px;
+			border-bottom-left-radius: 15px;
+		}
+
+		&:last-of-type > .persona-percentage-item {
+			border-top-right-radius: 15px;
+			border-bottom-right-radius: 15px;
+		}
+
+		.persona-percentage-context {
+			display: block;
+			text-align: center;
+		}
+
+		.persona-percentage-item {
+			height: 15px;
+			width: 100%;
+			border-width: 0px;
+		}
+
+		.item-1 {
+			background-color: #8F498F;
+			border-color: #8F498F;
+		}
+
+		.item-2 {
+			background-color: #712555;
+			border-color: #712555;
+		}
+
+		.item-3 {
+			background-color: #E16D60;
+			border-color: #E16D60;
+		}
+
+		.item-4 {
+			background-color: #E19B60;
+			border-color: #E19B60;
+		}
+
+		.item-5 {
+			background-color: #B83C5E;
+			border-color: #B83C5E;
+		}
+
+		.item-6 {
+			background-color: #314DA0;
+			border-color: #314DA0;
+		}
+		
+		&:hover > .persona-block-popup {
+			display: block;
+		}
+
+		&:hover > .persona-percentage-context {
+			display: none;
+		}
+
+		.persona-block-popup  {
+			z-index: 10;
+			border-radius: $margin-5;
+			border-width: 1px;
+			border-style: solid;
+			position: absolute;
+			background-color: $color-white;
+			align-self: center;
+			top: 44px;
+			display: none;
+			white-space: nowrap;
+			@include paddingH($margin-5);
+
+			&:before {
+			    content: "";
+			    width: 10px;
+			    position: absolute;
+			    height: 10px;
+			    margin: auto;
+			    background-color: #FFF;
+			    transform: rotate(45deg);
+			    border-top: 1px solid;
+			    border-left: 1px solid;
+			    border-color: inherit;
+			    z-index: -1;
+			    top: -5px;
+			    left: 0;
+			    right: 0;
+			}
+		}
+
+	}
+
 }

@@ -19,6 +19,7 @@
 				<ul class="menu-subpage">
 					<li id="link-to-subpage-1" class="link-to-subpage active">Basic information</li>
 					<li id="link-to-subpage-2" class="link-to-subpage">Properties</li>
+					<li id="link-to-subpage-3" class="link-to-subpage">Persona overview</li>
 				</ul>
 
 				<section class="entire-section">
@@ -181,6 +182,197 @@
 						</div>
 
 					</section>
+
+					<section id="subpage-3" class="subpage">
+						<div class="row">
+							<div class="col-md-2 persona-property-column">
+								<div class="vertical-align">
+									<div class="middle">
+										<strong>Device</strong>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-10">
+								<div class="row percentage-wrapper">
+									<div style="width:8%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-1"></div>
+										<div class="persona-percentage-context">Computer</div>
+										<div class="persona-block-popup item-1">Computer : 8% (2)</div>
+									</div>
+									<div style="width:18%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-2"></div>
+										<div class="persona-percentage-context">Nintendo DS</div>
+										<div class="persona-block-popup item-2">Nintendo DS : 18% (4)</div>
+									</div>
+									<div style="width:29%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-3"></div>
+										<div class="persona-percentage-context">iPhone</div>
+										<div class="persona-block-popup item-3">iPhone : 29% (6)</div>
+									</div>
+									<div style="width:21%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-4"></div>
+										<div class="persona-percentage-context">Samsung</div>
+										<div class="persona-block-popup item-4">Samsung : 21% (5)</div>
+									</div>
+									<div style="width:13%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-5"></div>
+										<div class="persona-percentage-context">Screenreader</div>
+										<div class="persona-block-popup item-5">Screenreader : 13% (3)</div>
+									</div>
+									<div style="width:11%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-6"></div>
+										<div class="persona-percentage-context">iPad</div>
+										<div class="persona-block-popup item-6">iPad  : 11% (3)</div>
+									</div>
+								</div>															
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-2 persona-property-column">
+								<div class="vertical-align">
+									<div class="middle">
+										<strong>Gender</strong>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-10">
+								<div class="row percentage-wrapper">
+									<div style="width:11%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-1"></div>
+										<div class="persona-percentage-context">lorem</div>
+										<div class="persona-block-popup item-1">I am the lorem ipsum</div>
+									</div>
+									<div style="width:8%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-2"></div>
+										<div class="persona-percentage-context">ipsum</div>
+										<div class="persona-block-popup item-2">I am the lorem ipsum</div>
+									</div>
+									<div style="width:30%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-3"></div>
+										<div class="persona-percentage-context">dolor</div>
+										<div class="persona-block-popup item-3">I am the lorem ipsum</div>
+									</div>
+									<div style="width:21%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-4"></div>
+										<div class="persona-percentage-context">sic</div>
+										<div class="persona-block-popup item-4">I am the lorem ipsum</div>
+									</div>
+									<div style="width:13%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-5"></div>
+										<div class="persona-percentage-context">amit</div>
+										<div class="persona-block-popup item-5">I am the lorem ipsum</div>
+									</div>
+									<div style="width:17%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-6"></div>
+										<div class="persona-percentage-context">omnium</div>
+										<div class="persona-block-popup item-6">I am the lorem ipsum</div>
+									</div>
+								</div>															
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-2 persona-property-column">
+								<div class="vertical-align">
+									<div class="middle">
+										<strong>Age</strong>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-10">
+								<div class="row percentage-wrapper">
+									<div style="width:5%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-1"></div>
+										<div class="persona-percentage-context">lorem</div>
+										<div class="persona-block-popup item-1">I am the lorem ipsum</div>
+									</div>
+									<div style="width:17%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-2"></div>
+										<div class="persona-percentage-context">ipsum</div>
+										<div class="persona-block-popup item-2">I am the lorem ipsum</div>
+									</div>
+									<div style="width:18%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-3"></div>
+										<div class="persona-percentage-context">dolor</div>
+										<div class="persona-block-popup item-3">I am the lorem ipsum</div>
+									</div>
+									<div style="width:18%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-4"></div>
+										<div class="persona-percentage-context">sic</div>
+										<div class="persona-block-popup item-4">I am the lorem ipsum</div>
+									</div>
+									<div style="width:23%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-5"></div>
+										<div class="persona-percentage-context">amit</div>
+										<div class="persona-block-popup item-5">I am the lorem ipsum</div>
+									</div>
+									<div style="width:19%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-6"></div>
+										<div class="persona-percentage-context">omnium</div>
+										<div class="persona-block-popup item-6">I am the lorem ipsum</div>
+									</div>
+								</div>															
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-2 persona-property-column">
+								<div class="vertical-align">
+									<div class="middle">
+										<strong>Platform</strong>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-10">
+								<div class="row percentage-wrapper">
+									<div style="width:21%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-1"></div>
+										<div class="persona-percentage-context">lorem</div>
+										<div class="persona-block-popup item-1">I am the lorem ipsum</div>
+									</div>
+									<div style="width:11%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-2"></div>
+										<div class="persona-percentage-context">ipsum</div>
+										<div class="persona-block-popup item-2">I am the lorem ipsum</div>
+									</div>
+									<div style="width:18%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-3"></div>
+										<div class="persona-percentage-context">dolor</div>
+										<div class="persona-block-popup item-3">I am the lorem ipsum</div>
+									</div>
+									<div style="width:8%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-4"></div>
+										<div class="persona-percentage-context">sic</div>
+										<div class="persona-block-popup item-4">I am the lorem ipsum</div>
+									</div>
+									<div style="width:13%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-5"></div>
+										<div class="persona-percentage-context">amit</div>
+										<div class="persona-block-popup item-5">I am the lorem ipsum</div>
+									</div>
+									<div style="width:29%" class="persona-percentage-block">
+										<div class="persona-percentage-item item-6"></div>
+										<div class="persona-percentage-context">omnium</div>
+										<div class="persona-block-popup item-6">I am the lorem ipsum</div>
+									</div>
+								</div>															
+							</div>
+
+						</div>
+
+						<div class="col-md-12 persona-download">
+							<a href="#nowhere"><i class="icon icon-download"></i>Download the detailed users profiles file</a>
+						</div>
+
+						<div class="col-md-12">
+							<fieldset class="form-group form-submit">
+								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+								<a href="#nowhere" class="btn confirm-button" alt="create">Create</a>
+							</fieldset>
+						</div>
+
+					</section>
 				</section>
 
 				<div class="col-md-12">
@@ -202,6 +394,7 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>

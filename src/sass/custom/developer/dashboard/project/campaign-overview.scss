@@ -9,8 +9,6 @@
 		text-align: right;
 	}
 
-
-
 	.rate-persona-to-campaign {
 
 		.rate-this-persona {
@@ -19,6 +17,7 @@
 		}
 
 		li {
+
 			&.select-dropdown {
 				text-align: left;
 				border: solid 1px $color-menu-items;
@@ -63,7 +62,7 @@
 						text-overflow: ellipsis;
 						white-space: nowrap;
 						overflow: hidden;
-						
+
 						&:hover {
 							color: $color-button-hover;
 						}
