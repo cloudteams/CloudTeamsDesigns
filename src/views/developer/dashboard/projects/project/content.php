@@ -42,7 +42,7 @@
 							<h2 class="header-medium secondary">Project logo</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">EDIT</span></a></p>
+							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">EDIT</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -95,7 +95,7 @@
 							<h2 class="header-medium secondary">Team</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">Add</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/team"><span class="header-small action-text">Add</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -123,6 +123,35 @@
 						</div>
 					</div>
 				</div>
+			</div>			
+		</article>
+
+		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half connectors">
+			<div class="background">
+
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-external-services"></i>
+							<h2 class="header-medium secondary">Connectors</h2>
+						</div>
+						<div class="middle">
+							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">Connect</span></a></p>
+						</div>
+					</div>
+				</header>
+
+				<div class="content">
+					<div class="container">
+						<p class="highlight bold">Total</p>
+						<p class="bold">4</p>
+					</div>
+					<div class="container">
+						<p class="highlight bold">Total</p>
+						<p class="bold">4</p>
+					</div>
+				</div>
+
 			</div>			
 		</article>
 
