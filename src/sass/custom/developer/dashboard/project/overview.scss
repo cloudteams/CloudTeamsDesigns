@@ -71,34 +71,42 @@
 
 		}
 
-		&.team {
+		&.project-logo {
 			.content {
-				padding-top: $margin-block-small - $margin-block / 2;
-				padding-bottom: $margin-block-small - $margin-block / 2;
+				padding: 0;
+				text-align: middle;
 
-				.row {
-					> div {
-						margin-top: $margin-block / 2;
-						margin-bottom: $margin-block / 2;
-						text-align: center;
+				> img {
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+				}
+			}
+		}
+
+		&.team {
+
+			.row {
+				> div {
+					&:not(:last-child) {
+						border-right: 1px solid $color-block-lines;
 					}
 
 				}
 
-				.img-container {
-					&.online {
-						@extend .online-state;
+			}
+
+			.content {
+				@include paddingV(48px);
+				text-align: center;
+
+				p {
+					margin-bottom: 0;
+
+					&:last-child {
+						color: $color-flashy-purple;
+						font-size: 70px;
 					}
 
-				}
-
-				.img-circle {
-					width: 100%;
-					padding-bottom: 100%;
-					// height = 100% of width
-					background-image: url('../img/placeholders/team_user.svg');
-					background-position: center;
-					background-size: cover;
 				}
 
 			}

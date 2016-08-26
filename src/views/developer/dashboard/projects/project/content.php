@@ -2,25 +2,6 @@
 
 	<?php include("data.php"); ?>
 
-	<article class="block block-fill activity">
-		<header class="article-header">
-			<div class="vertical-align">
-				<div class="middle">
-					<i class="icon icon-activity"></i>
-					<h2 class="header-medium secondary">Activity</h2>
-				</div>
-				<div class="middle">
-					<p class="header-small"><a href="/views/developer/dashboard/activities"><span class="header-small action-text">See all</span></a></p>
-				</div>
-			</div>
-		</header>
-
-		<div class="content">
-			<h3 class="header-medium secondary">Title lorem ipsum</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-		</div>
-	</article>
-
 	<article class="block block-fill project-profile">
 		<header class="article-header">
 			<div class="vertical-align">
@@ -52,6 +33,25 @@
 	</article>
 
 	<div class="row block-row">
+		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half project-logo">
+			<div class="background">
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-campaign"></i>
+							<h2 class="header-medium secondary">Project logo</h2>
+						</div>
+						<div class="middle">
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">EDIT</span></a></p>
+						</div>
+					</div>
+				</header>
+
+				<div class="content">
+					<img src="https://unsplash.it/500/300" alt="project logo">
+				</div>
+		</article>
+
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half campaigns">
 			<div class="background">
 				<header class="article-header">
@@ -61,7 +61,7 @@
 							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">Create</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -83,6 +83,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half team">
@@ -90,55 +91,39 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<i class="icon icon-team"></i>
+							<i class="icon icon-campaign"></i>
 							<h2 class="header-medium secondary">Team</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/team"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">Add</span></a></p>
 						</div>
 					</div>
 				</header>
 
 				<div class="content">
-					<div class="row">
-						<div class="col-xs-4">
-							<div class="img-container online-state">
-								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
-							</div>
-						</div>
+					<div class="vertical-align">
+						<div class="middle">
+							<div class="row">
+								<div class="col-xs-4">
+									<p class="highlight bold">Total</p>
+									<p class="bold">4</p>
+								</div>
 
-						<div class="col-xs-4">
-							<div class="img-container">
-								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
-							</div>
-						</div>
+								<div class="col-xs-4">
+									<p class="highlight bold">Online</p>
+									<p class="bold">2</p>
+								</div>
 
-						<div class="col-xs-4">
-							<div class="img-container">
-								<div class="img-circle"></div>
-							</div>
-						</div>
+								<div class="col-xs-4">
+									<p class="highlight bold">Invited</p>
+									<p class="bold">3</p>
+								</div>
 
-						<div class="col-xs-4">
-							<div class="img-container">
-								<div class="img-circle"></div>
-							</div>
-						</div>
-
-						<div class="col-xs-4">
-							<div class="img-container">
-								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
-							</div>
-						</div>
-
-						<div class="col-xs-4">
-							<div class="img-container online-state">
-								<div class="img-circle" style='background-image: url("[[../../../../../img/profile-picture.jpg]]")'></div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>			
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half documents">
