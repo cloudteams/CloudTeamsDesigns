@@ -111,7 +111,7 @@
 
 								<div class="col-xs-4">
 									<p class="highlight bold">Online</p>
-									<p class="bold">2</p>
+									<p class="bold">12</p>
 								</div>
 
 								<div class="col-xs-4">
@@ -136,19 +136,22 @@
 							<h2 class="header-medium secondary">Connectors</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">Connect</span></a></p>
+							<p class="header-small"><a href="#nowhere">
+								<span class="header-small action-text">Connect</span>
+							</a></p>
 						</div>
 					</div>
 				</header>
 
 				<div class="content">
-					<div class="container">
-						<p class="highlight bold">Total</p>
-						<p class="bold">4</p>
+					<div class="container-fluid">
+						<p class="bold flashy">Connect to GitHub</p>
+						<p class="highlight bold">Connect your project to a GitHub account</p>
 					</div>
-					<div class="container">
-						<p class="highlight bold">Total</p>
-						<p class="bold">4</p>
+					<hr>
+					<div class="container-fluid">
+						<p class="bold flashy">Connect to SonarQube</p>
+						<p class="highlight bold">Connect your project to a SonarQube instance</p>
 					</div>
 				</div>
 
@@ -157,6 +160,7 @@
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half documents">
 			<div class="background">
+
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
@@ -164,48 +168,58 @@
 							<h2 class="header-medium secondary">Documents</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/documents"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="#nowhere">
+								<span class="header-small action-text">See all</span>
+							</a></p>
 						</div>
 					</div>
 				</header>
 
 				<div class="content">
-					<div class="document">
-						<h3 class="header-medium secondary">Document title with second row option</h3>
-						<p class="highlight">Docx</p>
-						<a href="#downloadlink" class="btn-download">Download <i class="icon icon-download"></i></a>
+					<div class="container-fluid">
+						<p class="bold flashy">Annual report July 2016</p>
+						<p class="highlight bold">Description of the document that comes here</p>
 					</div>
-
-					<div class="document">
-						<h3 class="header-medium secondary">Document title with second row option</h3>
-						<p class="highlight">PDF</p>
-						<a href="#downloadlink" class="btn-download">Download <i class="icon icon-download"></i></a>
+					<hr>
+					<div class="container-fluid">
+						<p class="bold flashy">Annual report July 2016</p>
+						<p class="highlight bold">Description of the document that comes here</p>
 					</div>
 				</div>
+
+			</div>			
 		</article>
 
-		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half blog">
+		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half customer-ideas">
 			<div class="background">
+
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<i class="icon icon-blog"></i>
-							<h2 class="header-medium secondary">Blog</h2>
+							<i class="icon icon-document"></i>
+							<h2 class="header-medium secondary">Documents</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/blog"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="#nowhere">
+								<span class="header-small action-text">See all</span>
+							</a></p>
 						</div>
 					</div>
 				</header>
 
-				<div class="blog-image">
-					<img src="[[../../../../../img/temp.jpg]]">
+				<div class="content">
+					<div class="container-fluid">
+						<p class="bold flashy">Button usage is not obvious for user</p>
+						<p class="highlight bold">Description of the problem that comes here</p>
+					</div>
+					<hr>
+					<div class="container-fluid">
+						<p class="bold flashy">1px offset on header mobile</p>
+						<p class="highlight bold">Description of the problem that comes here</p>
+					</div>
 				</div>
 
-				<div class="content">
-					<h3 class="header-medium secondary">How to get an older target group more interested in your project</h3>
-					<time datetime="2015-08-25" class="highlight">25/08/2015</time>
-				</div>
+			</div>			
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half messaging">
@@ -217,7 +231,7 @@
 							<h2 class="header-medium secondary">Messages</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/messages"><span class="header-small action-text">See all</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/messages"><span class="header-small action-text">Compose</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -231,32 +245,7 @@
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sint occaecat cupidatat non...</p>
 				</div>
+			</div>
 		</article>
-
-		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half customer-ideas">
-			<div class="background">
-				<header class="article-header">
-					<div class="vertical-align">
-						<div class="middle">
-							<i class="icon icon-customer-idea"></i>
-							<h2 class="header-medium secondary">Customer ideas</h2>
-						</div>
-						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/customer-ideas"><span class="header-small action-text">See all</span></a></p>
-						</div>
-					</div>
-				</header>
-
-				<div class="content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate…</p>
-
-					<div class="data">
-						<i class="icon icon-like"></i>
-						<p class="highlight">10</p>
-						<p class="highlight">Just now</p>
-					</div>
-				</div>
-		</article>
-
 	</div>
 </section>

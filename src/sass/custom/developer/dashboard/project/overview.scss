@@ -71,7 +71,16 @@
 
 		}
 
+		&.connectors {
+			.flashy {
+				color: $color-flashy-purple;
+				margin-bottom: $margin-5;
+			}
+		}
+
+
 		&.project-logo {
+
 			.content {
 				padding: 0;
 				text-align: middle;
@@ -81,6 +90,7 @@
 					border-bottom-right-radius: 5px;
 				}
 			}
+			
 		}
 
 		&.team {
@@ -114,35 +124,10 @@
 		}
 
 		&.documents {
-			.content {
-				padding: 0 0 $margin-block;
-
-				.document {
-					border-bottom: 1px solid $color-block-lines;
-					padding: $margin-block-extra-small $margin-block $margin-block-extra-small;
-
-					&:first-child {
-						padding-top: $margin-block;
-					}
-
-					&:last-child {
-						border: none;
-						padding-bottom: 0;
-					}
-
-					p {
-						display: inline-block;
-						margin-bottom: 0;
-					}
-
-					a {
-						float: right;
-					}
-
-				}
-
+			.flashy {
+				color: $color-flashy-purple;
+				margin-bottom: $margin-5;
 			}
-
 		}
 
 		&.blog {
@@ -157,7 +142,6 @@
 			.content {
 				.data {
 					margin: 0 0 $margin-p-secondary;
-					text-align: center;
 
 					div.img-circle {
 						width: 80px;
@@ -165,10 +149,16 @@
 						background-size: cover;
 						margin: 0 auto $margin-5;
 						display: inline-block;
+						float: left;
 					}
 
 					p {
 						margin-bottom: 0;
+						margin-left: 100px;
+					}
+
+					& + p {
+						margin-top: 50px;
 					}
 
 				}
@@ -178,19 +168,10 @@
 		}
 
 		&.customer-ideas {
-			.data {
-				p {
-					display: inline-block;
-					margin-bottom: 0;
-
-					&:last-child {
-						margin-left: $margin-p-secondary;
-					}
-
-				}
-
+			.flashy {
+				color: $color-flashy-purple;
+				margin-bottom: $margin-5;
 			}
-
 		}
 
 	}
