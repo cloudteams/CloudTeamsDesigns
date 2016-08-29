@@ -2,7 +2,7 @@
 	<ul class="menu-subpage">
 		<li id="link-to-subpage-1" class="link-to-subpage active">Basic</li>
 		<li id="link-to-subpage-2" class="link-to-subpage">Specifics</li>
-		<li id="link-to-subpage-3" class="link-to-subpage">Questions</li>
+		<li id="link-to-subpage-3" class="link-to-subpage">Questionnaire</li>
 		<li id="link-to-subpage-4" class="link-to-subpage">Target group</li>
 		<li id="link-to-subpage-5" class="link-to-subpage">Search results</li>
 		<li id="link-to-subpage-6" class="link-to-subpage">Publish</li>
@@ -560,6 +560,11 @@
 
 				<section id="subsection-1" class="subsection active">
 					<div class="content">
+
+						<div style="text-align: left; margin-bottom: 10px;" class="buttons">
+							<a href="#nowhere" class="btn-grey"><i class="icon icon-add"></i>Add questionnaire from templates</a>
+						</div>
+
 						<fieldset>
 							<label for="name-question" class="header-medium secondary">Name</label>
 							<div class="input-container">
@@ -721,6 +726,7 @@
 
 							<div class="buttons">
 								<a href="#nowhere" class="btn-green"><i class="icon icon-add"></i>Add question</a>
+								<a href="#nowhere" class="btn-grey"><i class="icon icon-add"></i>Save as a template</a>
 							</div>
 						</fieldset>
 					</div>
