@@ -15,21 +15,11 @@
 
 	`npm install`
 
-3. Working with project
+3a. Working with project
 
 	`npm run watch`
 
-4. Change webpack.config.babel.js BrowserSyncPlugin for livereload
+3b. For working with a browser sync / livereload
 
-	```javascript
-	new BrowserSyncPlugin(
-		{
-			host : 'localhost', 
-			port : 3000,
-			proxy: 'http://localhost:80/'
-		},
-		{
-			reload: true
-		}
-	),
-	```
+	`npm run watch-live`
+
