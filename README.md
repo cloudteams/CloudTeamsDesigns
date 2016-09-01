@@ -15,11 +15,11 @@
 
 	`npm install`
 
-3a. Working with project
+3. (a) Working with project 
 
 	`npm run watch`
 
-3b. For working with a browser sync / livereload
+3. (b) For working with a browser sync / livereload
 
 	`npm run watch-live`
 
