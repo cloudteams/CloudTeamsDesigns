@@ -18,13 +18,13 @@
     "preproduction": "npm run clean",
     "production": "cross-env NODE_ENV=production webpack -p --progress",
     "postproduction": "npm run sync",
-    "#sync": "sync-files ./dist `json -f package.user.json sync-dir`",
+    "sync": "sync-files ./dist `json -f package.user.json sync-dir`",
     "prewatch": "npm run clean",
     "watch": "cross-env NODE_ENV=debug LIVE_RELOAD=false webpack -d --watch",
     "upload": "ftpsync",
     "prewatch-live": "npm run clean",
     "watch-live": "cross-env NODE_ENV=debug LIVE_RELOAD=true webpack -d --watch",
-    "onbuild": "echo succes"
+    "onbuild": "npm run sync"
   },
   "author": "Booreiland",
   "license": "ISC",
