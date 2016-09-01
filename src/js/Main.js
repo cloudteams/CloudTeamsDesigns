@@ -5,6 +5,7 @@ import 'partials/Menu';
 import 'partials/Tutorial';
 import 'partials/Easing';
 import 'partials/AddItemDimensions';
+// import 'partials/InjectSelect2';
 
 (function() {
 	let _lastSubsection;
