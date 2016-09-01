@@ -1,5 +1,6 @@
 /* global $ */
 
+import 'partials/Select2';
 import 'partials/Menu';
 import 'partials/Tutorial';
 import 'partials/Easing';
