@@ -32,8 +32,13 @@
 		});
 	}
 
+	function activateSelect2() {
+		console.log('hi there!')
+	}
+
 	$(document).ready(() => {
 		activeMenuItem();
 		activeSubMenuItem();
+		activateSelect2();
 	});
 })();
