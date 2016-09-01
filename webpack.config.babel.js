@@ -86,6 +86,13 @@ module.exports = (function() {
 
 			new Webpack.OldWatchingPlugin(),
 
+			new Webpack.ProvidePlugin({
+				$              : 'jquery',
+				jQuery         : 'jquery',
+				'window.jQuery': 'jquery',
+				'window.Tether': 'tether'
+			}),
+
 			new Webpack.DefinePlugin({
 				'process.env': {
 					'NODE_ENV': '"' + process.env.NODE_ENV + '"'

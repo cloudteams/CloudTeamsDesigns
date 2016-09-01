@@ -1,4 +1,5 @@
 /* global $ */
+import $ from 'jquery';
 
 import 'partials/Menu';
 import 'partials/Tutorial';
