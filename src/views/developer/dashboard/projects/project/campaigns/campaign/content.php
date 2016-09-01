@@ -3,7 +3,8 @@
 		<li id="link-to-subpage-1" class="link-to-subpage active">About</li>
 		<li id="link-to-subpage-2" class="link-to-subpage">Rewards</li>
 		<li id="link-to-subpage-3" class="link-to-subpage">Personas</li>		
-		<li id="link-to-subpage-4" class="link-to-subpage">Results</li>
+		<li id="link-to-subpage-4" class="link-to-subpage">CloudCoins</li>
+		<li id="link-to-subpage-5" class="link-to-subpage">Results</li>
 	</ul>
 
 	<?php include("data.php"); ?>
@@ -197,6 +198,38 @@
 	</section>
 
 	<section id="subpage-4" class="subpage">
+		<article class="block block-fill project-profile">
+			<header class="article-header">
+				<div class="vertical-align">
+					<div class="middle">
+						<i class="icon icon-user"></i>
+						<h2 class="header-medium secondary">CloudCoins</h2>
+					</div>
+					<div class="middle">
+						<p class="header-small"><a href="/views/developer/dashboard/projects/profile"><span class="header-small action-text">See all</span></a></p>
+					</div>
+				</div>
+			</header>
+
+			<div class="content">
+				<h3 class="header-medium secondary">About this campaign</h3>
+
+				<div class="category">
+					<p class="page-subtitle">Publishing</p>
+					<i class="icon icon-folder"></i>
+				</div>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+
+				<div class="data">
+					<p class="bold"><span class="highlight">Visible to</span> All users</p>
+					<p class="bold"><span class="highlight">Visible in 'All projects'</span> Yes</p>
+				</div>
+			</div>
+		</article>
+	</section>
+
+	<section id="subpage-5" class="subpage">
 		<h2 class="header-medium secondary">Results</h2>
 		<div class="content">
 			<div class="still-running">

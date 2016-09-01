@@ -201,6 +201,13 @@
 
 			}
 
+			.cloudcoins {
+				span + span {
+					position: absolute;
+					right: 0;
+				}
+			}
+
 		}
 
 	}

@@ -89,6 +89,13 @@
 					</li>
 
 					<li>
+						<a href="/views/developer/dashboard/projects/project/rewards">
+							<i class="icon icon-reward"></i>
+							<span>Rewards</span>
+						</a>
+					</li>
+
+					<li>
 						<a href="/views/developer/dashboard/projects/project/team">
 							<i class="icon icon-team"></i>
 							<span>Team</span>
@@ -145,6 +152,21 @@
 					<span>Notifications</span>
 				</a>
 			</li>
+			
+			<hr>
+			
+			<li class="cloudcoins">
+				<a href="#"><span>CloudCoins</span><span>100</span></a>
+			</li>
+			
+			<li class="cloudcoins">
+				<a href="/views/developer/dashboard/cloudcoins">
+					<span>Top-up CloudCoins</span>
+				</a>
+			</li>
+
+			<hr>
+
 		</ul>
 	</nav>
 </aside>
