@@ -40,17 +40,13 @@
 				<ul class="side-menu-extended">
 
 					<li class="select-dropdown hide-minimized">
-						<a href="#nowhere">
-							Current Project
-							<i class="icon icon-arrow-down"></i>
-						</a>
-
-						<ul class="submenu">
-							<li><a href="#nowhere">A very long project name</a></li>
-							<li><a href="#nowhere">Which can be extended even further</a></li>
-							<li><a href="#nowhere">Testing project purpose</a></li>
-							<li><a href="#nowhere">You should eat healthy-project</a></li>
-						</ul>
+						<select class="submenu">
+							<option>Current Project</option>
+							<option>A very long project name</option>
+							<option>Which can be extended even further</option>
+							<option>Testing project purpose</option>
+							<option>You should eat healthy-project</option>
+						</select>
 					</li>
 
 					<li>
