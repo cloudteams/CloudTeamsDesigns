@@ -139,7 +139,6 @@
 
 						li {
 							&.select-dropdown {
-								border: solid 1px $color-menu-items;
 								border-radius: 5px;
 								font-size: $font-size-menu-subpage;
 								z-index: 1;
@@ -163,7 +162,6 @@
 									position: absolute;
 									left: 0px;
 									border-radius: 5px;
-									border: solid 1px $color-menu-items;
 									border-top: 0;
 									width: 170px;
 
