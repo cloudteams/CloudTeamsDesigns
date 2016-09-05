@@ -40,7 +40,7 @@
 				<ul class="side-menu-extended">
 
 					<li class="select-dropdown hide-minimized">
-						<select class="submenu">
+						<select id="main-select-project-navigation" class="submenu">
 							<option>Current Project</option>
 							<option>A very long project name</option>
 							<option>Which can be extended even further</option>
@@ -48,6 +48,7 @@
 							<option>You should eat healthy-project</option>
 						</select>
 					</li>
+					<div id="main-select-project-holder"></div>
 
 					<li>
 						<a href="/views/developer/dashboard/projects/project">
