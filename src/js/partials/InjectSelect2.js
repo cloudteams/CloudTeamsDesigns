@@ -3,7 +3,7 @@
 import 'select2';
 
 (function() {
-	function activateSelect2() {
+	const activateSelect2 = () => {
 		// Main conversion for select tags
 		$('select').select2({
 			minimumResultsForSearch: Infinity
@@ -14,7 +14,7 @@ import 'select2';
 			minimumResultsForSearch: Infinity,
 			dropdownParent         : $('#main-select-project-holder')
 		});
-	}
+	};
 
 	$(document).ready(() => {
 		activateSelect2();

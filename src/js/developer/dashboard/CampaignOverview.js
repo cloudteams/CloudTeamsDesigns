@@ -1,7 +1,7 @@
 /* global $ */
 
 (function() {
-	function confirmButtons() {
+	const confirmButtons = () => {
 		const allButtons = $('a.btn-transparent.add-persona');
 
 		allButtons.click(e => {
@@ -13,8 +13,8 @@
 
 			target
 				.css({
-					'width' : width,
-					'height' : height
+					width,
+					height
 				})
 				.html('<i style="display: none;" class="icon icon-check">')
 				.off()
@@ -24,13 +24,13 @@
 				.find('i')
 				.fadeIn();
 		});
-	}
+	};
 
-	function activeSubMenuItem() {
+	const activeSubMenuItem = () => {
 		const navLink = $('.side-menu > ul > li a[href="developer-dashboard-project-campaigns.php"]');
 
 		navLink.addClass('active');
-	}
+	};
 
 	$(document).ready(() => {
 		activeSubMenuItem();

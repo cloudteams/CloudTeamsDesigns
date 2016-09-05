@@ -3,9 +3,9 @@
 import CustomerIdeas from 'partials/CustomerIdeas.js';
 
 (function() {
-	function start() {
+	const start = () => {
 		CustomerIdeas.run();
-	}
+	};
 
 	$(document).ready(() => {
 		start();
