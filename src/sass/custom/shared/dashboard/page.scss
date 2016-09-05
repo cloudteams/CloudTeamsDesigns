@@ -131,6 +131,7 @@ section.dashboard-page {
 
 				> main {
 					background: $color-background;
+					min-height: 1000px;
 
 					> section {
 						@include paddingV($margin-page);
