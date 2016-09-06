@@ -1,7 +1,7 @@
 /* global $ */
 
 (function() {
-	const closeOptions = el => {
+	function closeOptions(el) {
 		const _el = $(el);
 
 		_el.css({
@@ -18,9 +18,9 @@
 				.next();
 
 		sibling.fadeOut();
-	};
+	}
 
-	const selectAllOptionsOpen = () => {
+	function selectAllOptionsOpen() {
 		const edit = $('a[data-target="extend-row"]');
 
 		edit.click(e => {
@@ -46,20 +46,20 @@
 				closeOptions(ev.target);
 			});
 		});
-	};
+	}
 
-	const blockDefault = () => {
+	function blockDefault() {
 		$('a[data-target]').click(e => {
 			e.preventDefault();
 		});
-	};
+	}
 
-	const removeTags = () => {
+	function removeTags() {
 		$('.item-tag').click(e => {
 			const target = $(e.target);
 			target.remove();
 		});
-	};
+	}
 
 	$(document).ready(() => {
 		selectAllOptionsOpen();

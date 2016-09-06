@@ -202,30 +202,44 @@
 			<header class="article-header">
 				<div class="vertical-align">
 					<div class="middle">
-						<i class="icon icon-user"></i>
+						<i class="icon icon-cloudcoins"></i>
 						<h2 class="header-medium secondary">CloudCoins</h2>
 					</div>
 					<div class="middle">
-						<p class="header-small"><a href="/views/developer/dashboard/projects/profile"><span class="header-small action-text">See all</span></a></p>
 					</div>
 				</div>
 			</header>
 
-			<div class="content">
-				<h3 class="header-medium secondary">About this campaign</h3>
-
-				<div class="category">
-					<p class="page-subtitle">Publishing</p>
-					<i class="icon icon-folder"></i>
+			<div class="content row">
+				<div class="col-lg-8">
+					<p class="context-input">Set up an amount of total CloudCoins for this campaign:</p>
 				</div>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-
-				<div class="data">
-					<p class="bold"><span class="highlight">Visible to</span> All users</p>
-					<p class="bold"><span class="highlight">Visible in 'All projects'</span> Yes</p>
+				<div class="col-lg-4">
+					<input type="number" value="200">
 				</div>
 			</div>
+			<hr>
+			<div class="content row">
+				<div class="col-lg-11">
+					<h2 class="header-medium secondary options">People invited</h2>
+				</div>
+				<div class="col-lg-1">
+					<p class="options text-right">25</p>
+				</div>
+				<div class="col-lg-11">
+					<h2 class="header-medium secondary options">Each person will receive</h2>
+				</div>
+				<div class="col-lg-1">
+					<p class="options text-right">8</p>
+				</div>
+			</div>
+			<hr>
+			<div class="content row">
+				<div class="col-lg-12">
+					<a href="#">Go to Personas to invite people</a>
+				</div>
+			</div>
+
 		</article>
 	</section>
 
@@ -240,6 +254,8 @@
 
 	<?php include("add-persona.php"); ?>
 	<?php include("rate-persona.php"); ?>
+	<?php include("top-up-cloudcoins.php"); ?>
+
 
 </section>
 

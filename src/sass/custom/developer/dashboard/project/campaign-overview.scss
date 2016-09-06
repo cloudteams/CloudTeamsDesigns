@@ -187,6 +187,28 @@
 
 		}
 
+		&#subpage-4 {
+			.context-input {
+				line-height: $line-height-large;
+			}
+
+			hr {
+				margin: 0;
+			}
+
+			.options {
+				@include paddingV($margin-block);
+			}
+
+			a {
+				color: $color-action-text;
+				@include hover-focus {
+					color: $color-footer-dev-dashboard;
+				}
+			}
+
+		}
+
 		&#subpage-5 {
 			h2,
 			.still-running p {

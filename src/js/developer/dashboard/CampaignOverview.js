@@ -1,7 +1,7 @@
 /* global $ */
 
 (function() {
-	const confirmButtons = () => {
+	function confirmButtons() {
 		const allButtons = $('a.btn-transparent.add-persona');
 
 		allButtons.click(e => {
@@ -24,13 +24,13 @@
 				.find('i')
 				.fadeIn();
 		});
-	};
+	}
 
-	const activeSubMenuItem = () => {
+	function activeSubMenuItem() {
 		const navLink = $('.side-menu > ul > li a[href="developer-dashboard-project-campaigns.php"]');
 
 		navLink.addClass('active');
-	};
+	}
 
 	$(document).ready(() => {
 		activeSubMenuItem();
