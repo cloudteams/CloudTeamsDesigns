@@ -1,6 +1,13 @@
 /* global $ */
 
 (function() {
+	function preventClicks() {
+		$('a[href="#nowhere"]').click(e => {
+			e.preventDefault();
+			console.log('we saved the click');
+		});
+	}
+
 	function confirmButtons() {
 		const allButtons = $('a.btn-transparent.add-persona');
 
@@ -35,5 +42,6 @@
 	$(document).ready(() => {
 		activeSubMenuItem();
 		confirmButtons();
+		preventClicks();
 	});
 })();

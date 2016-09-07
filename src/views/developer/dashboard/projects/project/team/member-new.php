@@ -16,5 +16,3 @@
 		</div>
 	</div>
 </article>
-
-<?php include("member-new-popup.php"); ?>
