@@ -20,11 +20,13 @@
 
 			<div class="modal-body">
 				<div class="row">
-					<ul class="menu-subpage">
-						<li id="link-to-subpage-1" class="link-to-subpage active">Manually</li>
-						<li id="link-to-subpage-2" class="link-to-subpage">Address book</li>
-						<li id="link-to-subpage-3" class="link-to-subpage">Search</li>
-					</ul>
+					<div class="col-lg-12">
+						<ul class="menu-subpage">
+							<li id="link-to-subpage-1" class="link-to-subpage active">Manually</li>
+							<li id="link-to-subpage-2" class="link-to-subpage">Address book</li>
+							<li id="link-to-subpage-3" class="link-to-subpage">Search</li>
+						</ul>
+					</div>
 					<hr>
 					<section id="subpage-1" class="subpage active">
 						<div class="subpage-wrapper">

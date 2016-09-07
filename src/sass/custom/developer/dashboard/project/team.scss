@@ -165,17 +165,23 @@
 
 		header.modal-header {
 			margin-bottom: 0;
+			padding: $margin-10 17px;
 
 			.icon {
 				margin-top: 0;
 			}
+
+			h2 {
+				margin-left: 10px;
+			}
+
 		}
 
 		.modal-body {
 			padding-top: 0;
 
 			.menu-subpage {
-				padding-bottom: 0;
+				padding: $margin-5;
 				+ hr {
 					margin-top: 0;
 				}
@@ -214,6 +220,9 @@
 				padding: 0 $margin-10;
 			}
 
+			.input-search {
+				border-radius: $margin-5;
+			}
 
 			.form-group.required .control-label:after {
 			  content: "*";
@@ -222,6 +231,12 @@
 
 			.form-submit {
 				text-align: right;
+				margin: 0;
+
+				a:not(:first-of-type) {
+					margin-left: $margin-10;
+				}
+ 
 			}
 
 			.search-member-container {
