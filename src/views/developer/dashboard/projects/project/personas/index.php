@@ -10,7 +10,7 @@
 				<main>
 					<header class="main-header">
 						<div class="vertical-align">
-							<div class="middle">
+							<div class=" middle">
 								<i class="icon icon-user"></i>
 								<h1 class="header-large">Personas</h1>
 							</div>

@@ -1,4 +1,27 @@
+#page-developer-dashboard-project-create {
+
+}
+
 #create-project {
+
+	.article-header {
+
+		.icon {
+			float: left;
+			padding-top: $margin-5;
+		}
+
+		h2 {
+			float: left;
+			margin-left: 10px;
+		}
+
+		.header-small {
+			float: right;
+		}
+
+	}
+
 	margin: $margin-30 0;
 
 	.form-group.required .control-label:after { 

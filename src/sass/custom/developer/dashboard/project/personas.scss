@@ -88,6 +88,10 @@
 
 	.persona-add-button {
 		margin: $margin-input-small 0;
+
+		> a {
+			margin-top: $margin-10;
+		}
 	}
 
 	.persona-download a {
@@ -106,7 +110,7 @@
 	}
 
 	.create-new-persona {
-		margin: $margin-block 0;
+		margin: $margin-10 0;
 
 		.background {
 			padding: 50px 0;

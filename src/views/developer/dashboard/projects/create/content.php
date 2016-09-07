@@ -1,5 +1,17 @@
 <form id="create-project">
 	<article class="block-line large">
+		<header class="article-header">
+			<div class="vertical-align">
+				<div class="middle">
+					<i class="icon icon-profile"></i>
+					<h2 class="header-medium secondary">Project profile</h2>
+				</div>
+				<div class="middle">
+					<p class="header-small"><a href="/views/developer/dashboard/projects/profile"><span class="header-small action-text">See all</span></a></p>
+				</div>
+			</div>
+		</header>
+
 		<div class="content form-section">
 			<fieldset class="form-group required">
 				<label for="name-project" class="control-label header-medium secondary">Name</label>
