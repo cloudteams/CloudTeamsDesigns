@@ -52,8 +52,8 @@
 
 									<div class="select-dropdown">
 										<i class="icon icon-arrow-down"></i>
-										<select name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
-											<option value="" disabled hidden selected>Assign a role</option>
+										<select class="disabled-select" name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
+											<option value="" disabled hidden selected>Assign aaa role</option>
 											<option value="front">Front-end Developer</option>
 											<option value="back">Back-end Developer</option>
 											<option value="manager">Project Manager</option>

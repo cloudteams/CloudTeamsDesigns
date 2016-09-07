@@ -250,6 +250,10 @@
 				}
 			}
 
+			.disabled-select {
+				color: $color-subtitle;
+			}
+
 			.load-more {
 				text-align: center;
 				color: $color-action-text;
