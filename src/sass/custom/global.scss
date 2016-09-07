@@ -267,7 +267,7 @@ table {
 
 	.background {
 		background: none;
-		border: 3px dashed $color-block-lines;
+		border: 2px dashed $color-block-lines;
 		border-radius: 5px;
 		height: 100%;
 		transition: background $transition-time-2 $easing-1, border-color $transition-time-2 $easing-1;
@@ -296,7 +296,7 @@ table {
 		&:hover {
 			.background {
 				background: $color-flashy-purple !important;
-				border: 3px dashed $color-flashy-purple !important;
+				border: 2px dashed $color-flashy-purple !important;
 			}
 		}
 	}

@@ -20,7 +20,7 @@
 	}
 
 	.file-upload-image {
-		border: 3px dashed $color-input-border;
+		border: 2px dashed $color-input-border;
 		width: 400px;
 		height: 200px;
 		text-align: center;
@@ -33,11 +33,15 @@
 			background: $color-soft-gray;
 		}
 
+		p.meta.big {
+			font-weight: 400;
+		}
+
 	}
 
 	.file-upload-image .icon {
 		position: relative;
-		color: $color-white;
+		color: $color-clear-gray;
 		font-size: 60px;
 	}
 
@@ -47,6 +51,11 @@
 
 	.form-submit {
 		text-align: right;
+		margin: 0;
+
+		a:not(:first-of-type) {
+			margin-left: $margin-10;
+		}
 	}
 
 	fieldset {
