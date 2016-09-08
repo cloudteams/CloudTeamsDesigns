@@ -95,6 +95,10 @@
 		margin: $margin-40 0;
 		border-radius: 5px;
 
+		h3:first-child {
+			float: left;
+		}
+
 		.tooltip-container {
 			float: right;
 
@@ -105,6 +109,16 @@
 			.custom-tooltip {
 				left: 45px;
 				top: 183px;
+			}
+		}
+
+		.added-persona {
+			&__body {
+				border-left: 1px solid $color-input-border;
+				border-right: 1px solid $color-input-border;
+				border-bottom: 1px solid $color-input-border;
+				border-bottom-right-radius: $margin-5;
+				border-bottom-left-radius: $margin-5;
 			}
 		}
 
@@ -121,7 +135,6 @@
 		section {
 			background: $color-white;
 			padding: $margin-15 $margin-10;
-			border-radius: 5px;
 
 			.header-medium.secondary:nth-of-type(2) {
 				text-transform: none;
@@ -225,4 +238,66 @@
 
 	}
 
+}
+
+.developer-dashboard-project-campaign-overview-content {
+	#new-team-member {
+
+		.added-persona {
+			cursor: pointer;
+
+			&:hover {
+				* {
+					border-color: $color-input-hover !important;
+				}
+				footer {
+					background-color: $color-input-hover !important;
+					color: $color-white !important;
+				}
+			}
+		}
+
+		.added-persona__image {
+			padding: 0;
+			border: 1px solid $color-input-border;
+			border-top-left-radius: $margin-5;
+			border-top-right-radius: $margin-5;
+		}
+
+		.added-persona__body {
+			padding: $margin-10 0 0;
+			margin: 0 0 $margin-15;
+
+			> *:not(section) {
+				min-width: 100%;
+				padding-left: $margin-15;
+				padding-right: $margin-15;
+				box-sizing: border-box;
+			}
+
+			> h3:last-of-type {
+				padding-bottom: $margin-10;
+				border-bottom: 1px solid $color-input-border;
+			}
+
+			> p {
+				margin: 10px 0 0;
+				padding-bottom: 10px;
+				border-bottom: 1px solid $color-input-border;
+			}
+
+			> div {
+				border-bottom: 1px solid $color-input-border;
+				margin: 10px 0 0;
+				padding-bottom: 10px;
+				border-bottom: 1px solid $color-input-border;
+			}
+
+			> footer {
+				border-radius: 0;
+				border: 0;
+			}
+
+		}		
+	}
 }

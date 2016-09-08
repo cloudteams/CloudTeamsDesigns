@@ -38,7 +38,7 @@
 									<div class="col-md-6">Rating:</div>
 									<div class="col-md-6"><strong>Positive</strong></div>
 								</div>
-								<a href="#nowhere" class="btn-transparent add-persona" alt="add persona">Select persona</a>
+								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a>
 							</section>
 						</div>
 						<div class="col-md-4 added-persona">
@@ -53,7 +53,7 @@
 									<div class="col-md-6">Rating:</div>
 									<div class="col-md-6"><strong>Positive</strong></div>
 								</div>
-								<a href="#nowhere" class="btn-transparent add-persona" alt="add persona">Select persona</a>
+								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a>
 							</section>
 						</div>
 						<div class="col-md-4 added-persona">
@@ -68,7 +68,7 @@
 									<div class="col-md-6">Rating:</div>
 									<div class="col-md-6"><strong>Positive</strong></div>
 								</div>
-								<a href="#nowhere" class="btn-transparent add-persona" alt="add persona">Select persona</a>
+								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a>
 							</section>
 						</div>
 						<div class="col-md-4 added-persona">
@@ -83,7 +83,7 @@
 									<div class="col-md-6">Rating:</div>
 									<div class="col-md-6"><strong>Positive</strong></div>
 								</div>
-								<a href="#nowhere" class="btn-transparent add-persona" alt="add persona">Select persona</a>
+								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a>
 							</section>
 						</div>
 						<div class="col-md-4 added-persona">
@@ -98,7 +98,7 @@
 									<div class="col-md-6">Rating:</div>
 									<div class="col-md-6"><strong>Positive</strong></div>
 								</div>
-								<a href="#nowhere" class="btn-transparent add-persona" alt="add persona">Select persona</a>
+								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a>
 							</section>
 						</div>
 						<div class="col-md-4 added-persona">
@@ -113,7 +113,7 @@
 									<div class="col-md-6">Rating:</div>
 									<div class="col-md-6"><strong>Positive</strong></div>
 								</div>
-								<a href="#nowhere" class="btn-transparent add-persona" alt="add persona">Select persona</a>
+								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a>
 							</section>
 						</div>
 					</div>

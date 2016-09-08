@@ -80,6 +80,7 @@
 							</fieldset>
 
 						</div>
+			    		
 						<div class="col-md-12">
 							<fieldset class="form-group form-submit">
 								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
@@ -364,14 +365,6 @@
 						<div class="col-md-12 persona-download">
 							<a href="#nowhere"><i class="icon icon-download"></i>Download the detailed users profiles file</a>
 						</div>
-
-						<div class="col-md-12">
-							<fieldset class="form-group form-submit">
-								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-								<a href="#nowhere" class="btn confirm-button" alt="create">Create</a>
-							</fieldset>
-						</div>
-
 					</section>
 				</section>
 
