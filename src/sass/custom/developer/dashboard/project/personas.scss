@@ -3,8 +3,21 @@
 	.modal-dialog.medium {
 		min-width: 800px;
 
+		.modal-header {
+			padding: 10px 25px;
+
+			h2 {
+				margin-left: 10px;
+			}
+		}
+
 		.modal-body {
-			
+			padding: 0 15px 15px;
+
+			.menu-subpage {
+				padding: 10px 0.9rem;
+			}
+
 			.link-to-subpage.active {
 				color: $color-text !important;
 			}
@@ -82,6 +95,12 @@
 
 		.form-submit {
 			text-align: right;
+			margin: 0;
+
+			a:not(:first-of-type) {
+				margin-left: $margin-10;
+			}
+
 		}
 
 	}
