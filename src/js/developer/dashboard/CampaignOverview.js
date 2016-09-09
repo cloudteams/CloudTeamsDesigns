@@ -4,25 +4,21 @@
 	function preventClicks() {
 		$('a[href="#nowhere"]').click(e => {
 			e.preventDefault();
-			console.log('we saved the click');
 		});
 	}
 
 	function confirmButtons() {
-		const allButtons = $('a.btn-transparent.add-persona');
+		const allButtons = $('.added-persona-container .added-persona');
+
+		console.log(allButtons);
 
 		allButtons.click(e => {
 			e.preventDefault();
+			e.stopPropagation();
 
-			const target = $(e.target);
-			const width = target.outerWidth();
-			const height = target.outerHeight();
+			const target = $(e.target).closest('.added-persona').find('footer');
 
 			target
-				.css({
-					width,
-					height
-				})
 				.html('<i style="display: none;" class="icon icon-check">')
 				.off()
 				.click(event => {
