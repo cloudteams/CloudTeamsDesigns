@@ -12,6 +12,9 @@
 		min-width: 800px;
 
 		.modal-header {
+			h2 {
+				margin-left: $margin-10;
+			}
 			.close {
 				margin-top: 5px;
 			}
@@ -24,6 +27,15 @@
 		.form-group.required .control-label:after { 
 		   content:"*";
 		   color: $color-required;
+		}
+
+		.form-submit {
+			text-align: right;
+			margin: 0;
+
+			a:not(:first-of-type) {
+				margin-left: $margin-10;
+			}
 		}
 
 		.add-image-button {
@@ -57,7 +69,7 @@
 
 		.file-upload-image .icon {
 			position: relative;
-			color: $color-white;
+			color: $color-clear-gray;
 			font-size: 60px;
 		}
 
@@ -156,7 +168,7 @@
 		}
 
 		hr { 
-			margin: 0 0 0 -20px;
+			margin: 5px 0 5px -20px;
 			min-width: 480px;
 		}
 

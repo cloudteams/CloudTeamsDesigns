@@ -33,14 +33,6 @@
 						</div>
 					</fieldset>
 
-					<fieldset>
-						<label for="description-url" class="header-medium secondary">Description</label>
-
-						<div class="input-container">
-							<textarea id="description-url" rows="5" placeholder="Project description"></textarea>
-						</div>
-					</fieldset>
-
 				</div>
 				<div class="col-md-6">
 					
@@ -59,13 +51,25 @@
 
 					<fieldset>
 						<label for="tags-url" class="header-medium secondary">Tags</label>
-
 						<div class="input-container">
 							<input type="text" id="tags-url" placeholder="Seperate by commas or spaces"></textarea>
 						</div>
 					</fieldset>
 
 				</div>
+
+				<div class="col-md-12">
+
+					<fieldset>
+						<label for="description-url" class="header-medium secondary">Description</label>
+
+						<div class="input-container">
+							<textarea id="description-url" rows="5" placeholder="Project description"></textarea>
+						</div>
+					</fieldset>
+					
+				</div>
+
 				<div class="col-md-12">
 					<fieldset class="form-group form-submit">
 						<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>

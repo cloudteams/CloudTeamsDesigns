@@ -1,6 +1,5 @@
 <div id="new-document" class="popup-new-folder modal fade" role="dialog">
 	<div class="modal-dialog medium">
-
 		<div class="block block-fill">
 			<header class="modal-header">
 				<div class="vertical-align">
@@ -13,7 +12,6 @@
 					</div>
 				</div>
 			</header>
-
 			<div class="modal-body">
 				<div class="col-md-6">
 
@@ -35,9 +33,7 @@
 						<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="create">Create</a>
 					</fieldset>
 				</div>
-
 			</div>
-
 		</div>
 	</div>
 </div>
