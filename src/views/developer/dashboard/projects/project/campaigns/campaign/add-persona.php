@@ -23,6 +23,13 @@
 
 					<div class="col-md-12">
 						<p>You can click on a persona from below to use in your campaign as they are. You can customize it to match your customer segments<br></p>
+
+						<fieldset>
+							<div class="input-container">
+								<input id="search-persona" type="text" name="Search for a persona" placeholder="Search for a public persona">
+							</div>
+						</fieldset>
+
 					</div>
 
 					<div class="row added-persona-container">
@@ -118,8 +125,8 @@
 						</div>
 					</div>
 
-					<div class="col-md-12 form-submit">
-						<fieldset>
+					<div class="col-md-12">
+						<fieldset class="form-submit">
 							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
 							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="add persona">Add</a>
 						</fieldset>

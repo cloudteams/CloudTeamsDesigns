@@ -51,15 +51,12 @@
 						<a href="#nowhere" class="open-tooltip-button"><i id="row-tooltip-1" class="icon icon-more-options"></i></a>
 					</div>
 					<div class="icon-container">
-						<i class="icon icon-arrow-up"></i>
+						<a data-target="extend-row" href=""><i class="icon icon-arrow-down"></i></a>
 					</div>
 				</article>
 
 				<div class="custom-tooltip" id="custom-tooltip-2">
 					<ul>
-						<li>
-							<a data-target="extend-row" href="">Open</a>
-						</li>
 						<li>
 							<a data-toggle="modal" data-target=".popup-edit-document" href="">Edit</a>
 						</li>
@@ -106,15 +103,12 @@
 						<a href="#nowhere" class="open-tooltip-button"><i id="row-tooltip-2" class="icon icon-more-options"></i></a>
 					</div>
 					<div class="icon-container">
-						<i class="icon icon-arrow-up"></i>
+						<a data-target="extend-row" href="#"><i class="icon icon-arrow-down"></i></a>
 					</div>
 				</article>
 
 				<div class="custom-tooltip" id="custom-tooltip-3">
 					<ul>
-						<li>
-							<a data-target="extend-row" href="">Open</a>
-						</li>
 						<li>
 							<a data-toggle="modal" data-target=".popup-edit-url" href="">Edit</a>
 						</li>
@@ -173,15 +167,12 @@
 						<a href="#nowhere" class="open-tooltip-button"><i id="row-tooltip-3" class="icon icon-more-options"></i></a>
 					</div>
 					<div class="icon-container">
-						<i class="icon icon-arrow-up"></i>
+						<a data-target="extend-row" href="#"><i class="icon icon-arrow-down"></i></a>
 					</div>
 				</article>
 
 				<div class="custom-tooltip" id="custom-tooltip-4">
 					<ul>
-						<li>
-							<a data-target="extend-row" href="">Open</a>
-						</li>
 						<li>
 							<a data-toggle="modal" data-target=".popup-edit-document" href="">Edit</a>
 						</li>

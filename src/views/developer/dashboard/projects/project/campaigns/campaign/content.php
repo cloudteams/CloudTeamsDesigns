@@ -63,6 +63,37 @@
 										<a href="#nowhere" alt="edit persona">Edit persona</a>
 									</li>
 									<li>
+										<a href="#" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="delete persona">Delete persona</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<h3 class="header-medium secondary">Public persona</h3>
+						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+						<div class="row persona-rating">
+							<div class="col-md-6">Rating:</div>
+							<div class="col-md-6"><strong>Positive</strong></div>
+						</div>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+					</section>
+				</div>
+				<div class="col-md-4 added-persona">
+					<header class="added-persona__image">
+						<img src="https://unsplash.it/500">
+					</header>
+					<section class="added-persona__body">
+						<h3 class="header-medium secondary">Tech savy senior</h3>
+						<div class="tooltip-container">
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+							<div class="custom-tooltip">
+								<ul>
+									<li>
+										<a href="#nowhere" alt="edit persona">Edit persona</a>
+									</li>
+									<li>
 										<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
 									</li>
 									<li>
@@ -85,56 +116,23 @@
 						<img src="https://unsplash.it/500">
 					</header>
 					<section class="added-persona__body">
-						<h3 class="header-medium secondary">Tech savy senior
-							<div class="tooltip-container">
-								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
-								<div class="custom-tooltip">
-									<ul>
-										<li>
-											<a href="#nowhere" alt="edit persona">Edit persona</a>
-										</li>
-										<li>
-											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
-										</li>
-										<li>
-											<a href="#nowhere" alt="delete persona">Delete persona</a>
-										</li>
-									</ul>
-								</div>
+						<h3 class="header-medium secondary">Tech savy senior</h3>
+						<div class="tooltip-container">
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+							<div class="custom-tooltip">
+								<ul>
+									<li>
+										<a href="#nowhere" alt="edit persona">Edit persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="delete persona">Delete persona</a>
+									</li>
+								</ul>
 							</div>
-						</h3>
-						<h3 class="header-medium secondary">Public persona</h3>
-						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
-						<div class="row persona-rating">
-							<div class="col-md-6">Rating:</div>
-							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
-					</section>
-				</div>
-				<div class="col-md-4 added-persona">
-					<header class="added-persona__image">
-						<img src="https://unsplash.it/500">
-					</header>
-					<section class="added-persona__body">
-						<h3 class="header-medium secondary">Tech savy senior
-							<div class="tooltip-container">
-								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
-								<div class="custom-tooltip">
-									<ul>
-										<li>
-											<a href="#nowhere" alt="edit persona">Edit persona</a>
-										</li>
-										<li>
-											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
-										</li>
-										<li>
-											<a href="#nowhere" alt="delete persona">Delete persona</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</h3>
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
@@ -152,7 +150,22 @@
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
-
+						<div class="tooltip-container">
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+							<div class="custom-tooltip">
+								<ul>
+									<li>
+										<a href="#nowhere" alt="edit persona">Edit persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="delete persona">Delete persona</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
@@ -168,7 +181,23 @@
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
-						<h3 class="header-medium secondary">Public persona</h3>
+						<div class="tooltip-container">
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+							<div class="custom-tooltip">
+								<ul>
+									<li>
+										<a href="#nowhere" alt="edit persona">Edit persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="delete persona">Delete persona</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+							<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
@@ -183,6 +212,22 @@
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
+						<div class="tooltip-container">
+							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+							<div class="custom-tooltip">
+								<ul>
+									<li>
+										<a href="#nowhere" alt="edit persona">Edit persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+									</li>
+									<li>
+										<a href="#nowhere" alt="delete persona">Delete persona</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">

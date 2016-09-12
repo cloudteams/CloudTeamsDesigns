@@ -21,7 +21,7 @@
 						<label for="add-folder-name" class="header-medium secondary">Name</label>
 
 						<div class="input-container">
-							<input type="text" id="add-folder-name"  placeholder="Name your URL"></textarea>
+							<input type="text" id="add-folder-name"  placeholder="Name your folder"></textarea>
 						</div>
 					</fieldset>
 

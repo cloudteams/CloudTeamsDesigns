@@ -10,8 +10,6 @@
 	function confirmButtons() {
 		const allButtons = $('.added-persona-container .added-persona');
 
-		console.log(allButtons);
-
 		allButtons.click(e => {
 			e.preventDefault();
 			e.stopPropagation();

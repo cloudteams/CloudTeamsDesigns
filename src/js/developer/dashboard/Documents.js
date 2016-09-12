@@ -4,20 +4,21 @@
 	function closeOptions(el) {
 		const _el = $(el);
 
-		_el.css({
-			'transform': 'scaleY(1)',
-			'cursor'   : 'default'
-		})
-			.off();
+		console.log(_el);
+
+		_el
+			.off()
+			.css({
+				'transform': 'scaleY(1)'
+			});
 
 		const sibling =
 			_el
-				.parent()
-				.parent()
-				.parent()
+				.closest('.row')
 				.next();
 
 		sibling.fadeOut();
+		selectAllOptionsOpen();
 	}
 
 	function selectAllOptionsOpen() {
@@ -34,14 +35,14 @@
 
 			const arrow = $(e.target)
 				.closest('.row')
-				.find('i.icon-arrow-up');
+				.find('i.icon-arrow-down');
 
-			arrow.css({
-				'transform': 'scaleY(-1)',
-				'cursor'   : 'pointer'
-			});
+			arrow
+				.css({
+					'transform': 'scaleY(-1)'
+				});
 
-			arrow.click(ev => {
+			arrow.parent().off().click(ev => {
 				ev.preventDefault();
 				closeOptions(ev.target);
 			});
