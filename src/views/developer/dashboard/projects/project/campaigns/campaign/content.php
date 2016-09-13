@@ -5,6 +5,7 @@
 		<li id="link-to-subpage-3" class="link-to-subpage">Personas</li>		
 		<li id="link-to-subpage-4" class="link-to-subpage">CloudCoins</li>
 		<li id="link-to-subpage-5" class="link-to-subpage">Results</li>
+		<li id="link-to-subpage-6" class="link-to-subpage">Questionnaire</li>
 	</ul>
 
 	<?php include("data.php"); ?>
@@ -288,6 +289,15 @@
 	</section>
 
 	<section id="subpage-5" class="subpage">
+		<h2 class="header-medium secondary">Results</h2>
+		<div class="content">
+			<div class="still-running">
+				<p class="header-medium secondary">This campaign is still running</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="subpage-6" class="subpage">
 		<h2 class="header-medium secondary">Results</h2>
 		<div class="content">
 			<div class="still-running">

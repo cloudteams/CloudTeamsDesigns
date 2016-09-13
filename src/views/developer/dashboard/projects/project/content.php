@@ -29,6 +29,11 @@
 				<p class="bold"><span class="highlight">Visible to</span> All users</p>
 				<p class="bold"><span class="highlight">Visible in 'All projects'</span> Yes</p>
 			</div>
+
+			<fieldset class="form-submit">
+				<a href="#" class="btn">Unpublish</a>
+			</fieldset>
+
 		</div>
 	</article>
 
