@@ -87,7 +87,7 @@
 		.tooltip-container {
 			position: absolute;
 			top: 15px;
-			right: 15px;
+			right: 5px;
 
 			a {
 				i {
@@ -141,6 +141,14 @@
 
 			}
 
+			a {
+				i {
+					color: $color-text;
+				}
+
+			}
+			
+
 		}
 
 		.modal-body {
@@ -161,7 +169,6 @@
 	}
 
 	.modal.popup-team-member-add-new {
-
 
 		header.modal-header {
 			margin-bottom: 0;
@@ -209,7 +216,6 @@
 
 			fieldset {
 				+ hr {
-					// Dirty, look at it later
 					min-width: 800px;
 					margin-left: -10px;
 				}
