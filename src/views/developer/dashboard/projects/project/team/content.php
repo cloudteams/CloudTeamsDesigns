@@ -1,21 +1,14 @@
 <section class="developer-dashboard-project-team-content">
 	<header>
 		<!-- <div class="icon" style='background-image: url("[[../../../../../../img/fanta-logo.png]]")'></div> -->
-		<div class="icon"></div>
+		<div class="icon icon-edit-image"></div>
 		<h2 class="header-large secondary">Fanta Design Department</h2>
-
 		<div class="tooltip-container">
 			<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 			<div class="custom-tooltip">
 				<ul>
 					<li>
-						<a href="">Delete project</a>
-					</li>
-					<li>
-						<a href="">Lorem ipsum</a>
-					</li>
-					<li>
-						<a href="">Lorem ipsum</a>
+						<a href="#">Change team name</a>
 					</li>
 				</ul>
 			</div>

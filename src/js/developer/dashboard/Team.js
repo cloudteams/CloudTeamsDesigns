@@ -3,7 +3,7 @@
 (function() {
 	function confirmMessage() {
 		const subpageSection = $('#subpage-1');
-		const confirmButton = $('.confirm-button');
+		const confirmButton  = $('.confirm-button');
 		const contentSection = $('.subpage-wrapper .form-group');
 		const confirmSection = $('.confirm-wrapper');
 		const sendingSection = $('.sending-wrapper');

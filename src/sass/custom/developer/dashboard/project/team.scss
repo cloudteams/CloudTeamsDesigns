@@ -11,7 +11,26 @@
 			border-radius: 50%;
 			background-image: url('../img/placeholders/team_cover.svg');
 			background-position: center;
+			position: relative;
+			cursor: pointer;
 		}
+
+		.icon-edit-image:after {
+			content:"\f11b";
+			position: absolute;
+			border: 3px solid $color-button;
+			background-color: $color-button;
+			border-radius: 50%;
+			color: $color-white;
+			margin-top: 113px;
+			margin-left: 113px;
+		}
+
+		&:hover .icon-edit-image:after {
+			background-color: $color-button-hover;
+			border-color: $color-button-hover;
+		}
+
 
 		h2.header-large {
 			color: $color-text-secondary;
@@ -26,9 +45,19 @@
 
 		.tooltip-container {
 			display: inline-block;
-			font-size: 0;
 			position: relative;
 			vertical-align: middle;
+			margin-top: 3px;
+
+			a {
+				i {
+					color: $color-subtitle;
+				}
+
+				&:hover i {
+					color: $color-white;	
+				}
+			}
 
 			.custom-tooltip {
 				right: -5px;
