@@ -48,8 +48,8 @@
 
 			target
 				.css({
-					'width' : width,
-					'height' : height
+					width,
+					height
 				})
 				.html('<i style="display: none;" class="icon icon-check">')
 				.off()
@@ -64,10 +64,7 @@
 	function removeDisabledColor() {
 		const allSelect = $('.disabled-select');
 
-		console.log(allSelect);
-
 		allSelect.click(e => {
-			console.log(e.target);
 			$(e.target).removeClass('disabled-select');
 		});
 	}
