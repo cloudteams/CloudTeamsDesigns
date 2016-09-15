@@ -47,7 +47,7 @@
 							<h2 class="header-medium secondary">Project logo</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">EDIT</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/profile/"><span class="header-small action-text">EDIT</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -66,7 +66,7 @@
 							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns"><span class="header-small action-text">Create</span></a></p>
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns/create"><span class="header-small action-text">Create</span></a></p>
 						</div>
 					</div>
 				</header>
@@ -173,7 +173,7 @@
 							<h2 class="header-medium secondary">Documents</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="#nowhere">
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/documents">
 								<span class="header-small action-text">See all</span>
 							</a></p>
 						</div>
@@ -201,11 +201,11 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<i class="icon icon-document"></i>
-							<h2 class="header-medium secondary">Documents</h2>
+							<i class="icon icon-customer-idea"></i>
+							<h2 class="header-medium secondary">Customer ideas</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="#nowhere">
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/customer-ideas">
 								<span class="header-small action-text">See all</span>
 							</a></p>
 						</div>
