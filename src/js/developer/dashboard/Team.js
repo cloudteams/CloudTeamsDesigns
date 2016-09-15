@@ -51,7 +51,7 @@
 					width,
 					height
 				})
-				.html('<i style="display: none;" class="icon icon-check">')
+				.html(' <i style="display: none;" class="icon icon-check"> ')
 				.off()
 				.click(event => {
 					event.preventDefault();
