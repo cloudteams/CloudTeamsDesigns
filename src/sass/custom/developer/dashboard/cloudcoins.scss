@@ -74,9 +74,19 @@
 
 	.modal-dialog.medium {
 		min-width: 800px;
+		color: $color-night-black;
+
+		.meta {
+			margin-top: $margin-10;
+			font-size: $font-size-header-small;
+		}
+
+		.close {
+			margin-top: 2px;
+		}
 
 		> .block {
-			height: 765px;
+			height: 295px;
 		}
 
 		.form-group.required .control-label:after { 
