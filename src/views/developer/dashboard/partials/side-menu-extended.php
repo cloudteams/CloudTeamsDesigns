@@ -153,7 +153,7 @@
 			<hr>
 			
 			<li class="cloudcoins">
-				<a href="#"><span>CloudCoins</span><span>100</span></a>
+				<a href=""><span>CloudCoins</span><span>100</span></a>
 			</li>
 			
 			<li class="cloudcoins">

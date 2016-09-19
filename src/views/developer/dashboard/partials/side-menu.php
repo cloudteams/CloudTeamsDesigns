@@ -39,6 +39,13 @@
 			</li>
 
 			<li>
+				<a href="/views/developer/dashboard/cloudcoins">
+				<i class="icon icon-cloudcoins"></i>
+					<span>CloudCoins</span>
+				</a>
+			</li>
+
+			<li>
 				<a href="/views/developer/dashboard/invites">
 				<i class="icon icon-add-member"></i>
 					<span>Pending invites</span>
