@@ -1,6 +1,20 @@
 .developer-dashboard-project-campaign-overview-content {
 	padding-top: 0 !important;
 
+	#top-up-cloudcoins {
+		.top-up-options {
+			margin-top: $margin-30;
+		}
+		.pop-up {
+			margin-top: $margin-30;
+			text-align: center;
+
+			i {
+				color: $color-button 
+			}
+		}
+	}
+
 	.modal-dialog.medium {
 		min-width: 800px;
 
@@ -252,7 +266,6 @@
 
 .developer-dashboard-project-campaign-overview-content {
 	#new-team-member {
-
 		.added-persona {
 			cursor: pointer;
 

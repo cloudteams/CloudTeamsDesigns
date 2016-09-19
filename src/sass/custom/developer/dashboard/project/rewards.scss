@@ -1,0 +1,118 @@
+.page-developer-dashboard-project-rewards {
+
+	.reward {
+
+		h2.header-medium.secondary {
+			margin: $margin-10;
+			color: $color-white !important;
+			line-height: 185%;
+
+			a {
+				float: right;
+			}
+		}
+
+	}
+
+	.modal-dialog.medium {
+		min-width: 800px;
+
+		.modal-header {
+			padding: $margin-10 $margin-25;;
+		}
+
+		.modal-body {
+			padding: 0 15px 15px;
+
+			.menu-subpage {
+				padding: 10px 0.9rem;
+			}
+
+			.link-to-subpage.active {
+				color: $color-text !important;
+			}
+
+			#subpage-1 {
+				height: 320px;
+			}
+
+			#subpage-2 {
+				height: 570px;
+			}
+
+			#subpage-3 {
+				height: 350px;
+			}
+
+			.inform-block {
+				margin-bottom: $margin-10;
+			}
+
+			.confirm-wrapper, .sending-wrapper {
+				margin-top: 20%;
+				text-align: center;
+
+				i {
+					color: $color-solid-purple;
+				}
+			}
+
+		}
+
+		.form-group.required .control-label:after { 
+		   content:"*";
+		   color: $color-required;
+		}
+
+		.add-image-button {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			margin: -4px auto $margin-10;
+			background-color: $color-soft-gray;
+		}
+
+		.fieldset-upload {
+			width: 100%;
+			height: 100%;
+		}
+
+		.file-upload-image {
+			border: 2px dashed $color-input-border;
+			width: 100%;
+			height: 200px;
+			text-align: center;
+			cursor: pointer;
+			transition: background $transition-time-2 $easing-1;
+			transition: border $transition-time-2 $easing-1;
+
+			&:hover {
+				border: 3px solid $color-soft-gray;
+				background: $color-soft-gray;
+			}
+
+		}
+
+		.file-upload-image .icon {
+			position: relative;
+			color: $color-white;
+			font-size: 60px;
+		}
+
+		#file-upload {
+			display: none;
+		}
+
+		.form-submit {
+			text-align: right;
+			margin: 0;
+
+			a:not(:first-of-type) {
+				margin-left: $margin-10;
+			}
+
+		}
+
+	}
+
+}

@@ -1,4 +1,9 @@
 .developer-dashboard-project-overview-content {
+
+	.content-wrapper {
+		padding: 0 .35rem;
+	}
+
 	article {
 		&.block-fill-half {
 			@include paddingH($margin-block-extra-small);

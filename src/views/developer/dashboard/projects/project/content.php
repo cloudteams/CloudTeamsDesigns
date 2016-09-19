@@ -37,7 +37,7 @@
 		</div>
 	</article>
 
-	<div class="row block-row">
+	<div class="row block-row content-wrapper">
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half project-logo">
 			<div class="background">
 				<header class="article-header">

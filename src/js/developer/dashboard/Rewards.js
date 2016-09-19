@@ -1,6 +1,7 @@
 /* global $ */
 
 (function() {
+
 	function confirmMessage() {
 		const confirmButton = $('.confirm-button');
 		const contentSection = $('.entire-section');

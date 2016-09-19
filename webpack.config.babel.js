@@ -18,7 +18,7 @@ module.exports = (function() {
 	const HASH_FILE   = PRODUCTION ? '[hash:8].[ext]' : '[name]-[hash:8].[ext]';
 	const HASH_BUNDLE = PRODUCTION ? '[name]-[chunkhash:8]' : '[name]-dev';
 
-	const LIVE_RELOAD = process.env.LIVE_RELOAD === 'true'; // change to false when not using BrowserSyncPlugin
+	const LIVE_RELOAD = process.env.LIVE_RELOAD === 'true';
 
 	const ENTRY_POINT_GLOBAL = {
 		'global': './app.entry.js'
@@ -31,6 +31,7 @@ module.exports = (function() {
 		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
 		'developer/dashboard/team'             : './js/developer/dashboard/Team.js',
 		'developer/dashboard/personas'         : './js/developer/dashboard/Personas.js',
+		'developer/dashboard/rewards'          : './js/developer/dashboard/Rewards.js',
 		'developer/dashboard/documents'        : './js/developer/dashboard/Documents.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
 		'public/project'                       : './js/public/Project.js',
