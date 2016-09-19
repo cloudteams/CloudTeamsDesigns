@@ -14,49 +14,47 @@
 
 	}
 
+	.added-reward {
+		background-color: $color-white;
+		border-radius: $margin-5;
+		padding: 0;
+		margin-top: $margin-10;
+
+		.reward-header {
+			background-color: $color-soft-gray;
+			padding: $margin-10;
+			border-top-right-radius: $margin-5;
+			border-top-left-radius: $margin-5;
+		}
+
+		.reward-content {
+
+		}
+	}
+
 	.modal-dialog.medium {
 		min-width: 800px;
+
+		> .block {
+			height: 765px;
+		}
 
 		.modal-header {
 			padding: $margin-10 $margin-25;;
 		}
 
+		.form-group.required .control-label:after { 
+		   content:"*";
+		   color: $color-required;
+		}
+
 		.modal-body {
-			padding: 0 15px 15px;
+			padding: 0 $margin-15 $margin-15;
 
-			.menu-subpage {
-				padding: 10px 0.9rem;
-			}
+		}
 
-			.link-to-subpage.active {
-				color: $color-text !important;
-			}
-
-			#subpage-1 {
-				height: 320px;
-			}
-
-			#subpage-2 {
-				height: 570px;
-			}
-
-			#subpage-3 {
-				height: 350px;
-			}
-
-			.inform-block {
-				margin-bottom: $margin-10;
-			}
-
-			.confirm-wrapper, .sending-wrapper {
-				margin-top: 20%;
-				text-align: center;
-
-				i {
-					color: $color-solid-purple;
-				}
-			}
-
+		.input-container a {
+			color: $color-flashy-purple;
 		}
 
 		.form-group.required .control-label:after { 
@@ -80,7 +78,7 @@
 		.file-upload-image {
 			border: 2px dashed $color-input-border;
 			width: 100%;
-			height: 200px;
+			height: 270px;
 			text-align: center;
 			cursor: pointer;
 			transition: background $transition-time-2 $easing-1;

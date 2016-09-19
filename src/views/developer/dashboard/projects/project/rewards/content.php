@@ -10,7 +10,13 @@
 
 	<div class="row">
 		<div class="col-md-4 added-reward">
-		Hello world
+			<header class="reward-header">
+				<strong>Reward 1#</strong>
+			</header>
+			<hr>
+			<section class="reward-body">
+				<img src="https://unsplash.it/200/">
+			</section>
 		</div>
 	</div>
 
