@@ -1,14 +1,10 @@
-<section class="developer-dashboard-pending-invites-content">
-	<ul class="menu-subpage">
-		<li id="link-to-subpage-1" class="link-to-subpage active">All invites</li>
-		<li id="link-to-subpage-2" class="link-to-subpage">Accepted</li>
-	</ul>
+<div class="container">
+	<div class="row">
+		<article class="col-lg-12 cloudcoins cloudcoins-add-button col-md-12">
 
-	<section id="subpage-1" class="subpage active">
+			<h2 class="header-medium secondary">You currently have 3 projects <a href="#" class="btn add-new-cloudcoins" alt="add cloudcoins" data-toggle="modal" data-target=".add-new-cloudcoins-to-project">Transfer CloudCoins</a></h2>
 
-	</section>
+		</article>
+	</div>
+</div>
 
-	<section id="subpage-2" class="subpage">
-
-	</section>
-</section>
