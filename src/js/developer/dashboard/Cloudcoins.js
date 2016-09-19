@@ -1,0 +1,7 @@
+/* global $ */
+
+(function() {
+	$(document).ready(() => {
+
+	});
+})();

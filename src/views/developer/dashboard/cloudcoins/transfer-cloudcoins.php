@@ -1,5 +1,5 @@
-<!-- Pop-up modal: add reward -->
-<div class="add-new-reward-to-project modal fade" role="dialog">
+<!-- Pop-up modal: transfer cloudcoins -->
+<div class="transfer-cloudcoins-to-project modal fade" role="dialog">
 	<a href="#nowhere"></a>
 
 	<div class="modal-dialog medium">
@@ -8,8 +8,8 @@
 			<header class="modal-header">
 				<div class="vertical-align">
 					<div class="middle">
-						<i class="icon icon-reward"></i>
-						<h2 class="header-medium secondary">Add reward</h2>
+						<i class="icon icon-cloudcoins"></i>
+						<h2 class="header-medium secondary">Add new document</h2>
 					</div>
 					<div class="close" data-dismiss="modal">
 						<i class="icon icon-close"></i>
