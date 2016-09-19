@@ -20,6 +20,26 @@
 		padding: 0;
 		margin-top: $margin-10;
 
+		.open-tooltip-button {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+
+			a {
+				color: $color-flashy-purple;
+			}
+		}
+
+		.custom-tooltip {
+			position: absolute;
+			right: 6px;
+			top: 39px;
+		}
+
+		hr {
+			margin: 0;
+		}
+
 		.reward-header {
 			background-color: $color-soft-gray;
 			padding: $margin-10;
@@ -28,7 +48,15 @@
 		}
 
 		.reward-content {
+			padding: $margin-10;
 
+			.meta {
+				margin: $margin-10 0;
+			}
+
+			p > span {
+				float: right;
+			}
 		}
 	}
 
