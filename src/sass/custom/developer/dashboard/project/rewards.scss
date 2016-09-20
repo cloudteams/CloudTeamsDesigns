@@ -61,12 +61,16 @@
 		min-width: 800px;
 
 		> .block {
-			height: 765px;
+			height: 785px;
 		}
 
 		.form-group.required .control-label:after { 
 		   content:"*";
 		   color: $color-required;
+		}
+
+		.modal-header {
+			margin-bottom: $margin-20;
 		}
 
 		.modal-body {
