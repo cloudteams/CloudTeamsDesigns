@@ -51,7 +51,7 @@
 		transition: border $transition-time-2 $easing-1;
 
 		&:hover {
-			border: 3px solid $color-soft-gray;
+			border: 3px dashed $color-soft-gray;
 			background: $color-soft-gray;
 		}
 
