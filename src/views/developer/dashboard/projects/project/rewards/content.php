@@ -17,17 +17,12 @@
 					<div class="custom-tooltip">
 						<ul>
 							<li>
-								<a href="">See full profile</a>
+								<a href="">Edit reward</a>
 							</li>
 							<li>
-								<a href="">Send message</a>
+								<a href="">Remove reward</a>
 							</li>
-							<li>
-								<a href="">Edit member</a>
-							</li>
-							<li>
-								<a href="">Remove member</a>
-							</li>
+
 						</ul>
 					</div>
 				</div>
