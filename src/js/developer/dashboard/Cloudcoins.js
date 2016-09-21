@@ -27,6 +27,8 @@
 		confirmButton.click(e => {
 			e.preventDefault();
 
+			console.log('hello')
+
 			const height = modalBody.outerHeight();
 			modalBody.css('height', `${height}`);
 

@@ -11,6 +11,15 @@
 			border-color: $color-transparent-white !important;
 		}
 
+		.pop-up {
+			margin-top: $margin-30;
+			text-align: center;
+
+			i {
+				color: $color-button 
+			}
+		}
+
 		.cloudcoins-row {
 			border-radius: $margin-5;
 			padding: $margin-10;
