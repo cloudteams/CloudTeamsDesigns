@@ -42,7 +42,7 @@
 									<p class="meta-big">Total CloudCoins given</h1>
 								</div>
 								<div class="col-lg-2">
-									<strong>9600</strong>
+									<strong>3000</strong>
 								</div>
 							</div>
 						</div>

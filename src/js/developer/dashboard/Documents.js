@@ -4,8 +4,6 @@
 	function closeOptions(el) {
 		const _el = $(el);
 
-		console.log(_el);
-
 		_el
 			.off()
 			.css({

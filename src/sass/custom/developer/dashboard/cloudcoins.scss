@@ -10,9 +10,23 @@
 		hr {
 			border-color: $color-transparent-white !important;
 		}
+
+		.cloudcoins-row {
+			border-radius: $margin-5;
+			padding: $margin-10;
+			background-color: $color-white;
+			color: $color-text;
+			margin-top: $margin-10;
+
+			a {
+				color: $color-text;
+			}
+		}
+
 	}
 
 	.cloudcoins {
+		margin-bottom: $margin-15;
 
 		h2.header-medium.secondary {
 			margin: $margin-10;

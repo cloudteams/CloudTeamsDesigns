@@ -152,6 +152,7 @@
 		font-size: $font-size-menu-subpage;
 		color: $color-subtitle;		
 		display: flex;
+		display: -webkit-flex;
 		flex-flow: row wrap;
 		justify-content: center;
 		@include paddingV($margin-10);
@@ -208,7 +209,8 @@
 		}
 		
 		&:hover > .persona-block-popup {
-			display: block;
+			display: flex;
+			display: -webkit-flex;
 		}
 
 		&:hover > .persona-percentage-context {
@@ -220,11 +222,13 @@
 			border-radius: $margin-5;
 			border-width: 1px;
 			border-style: solid;
-			position: absolute;
+			position: relative;
 			background-color: $color-white;
 			align-self: center;
-			top: 44px;
+			-webkit-align-self: center;
+			top: 10px;;
 			display: none;
+			float: left;
 			white-space: nowrap;
 			@include paddingH($margin-5);
 
@@ -243,6 +247,7 @@
 			    top: -5px;
 			    left: 0;
 			    right: 0;
+			    float: left;
 			}
 		}
 
