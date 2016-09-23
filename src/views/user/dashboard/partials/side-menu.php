@@ -45,6 +45,13 @@
 			</li>
 
 			<li>
+				<a href="/views/user/dashboard/cloudcoins">
+					<i class="icon icon-cloudcoins"></i>
+					<span>CloudCoins</span>
+				</a>
+			</li>
+
+			<li>
 				<a href="/views/user/dashboard/notifications" class="incoming">
 					<i class="icon icon-notification"></i>
 					<span>Notifications</span>
