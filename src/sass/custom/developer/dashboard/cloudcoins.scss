@@ -32,6 +32,58 @@
 			}
 		}
 
+		.cloudcoins-content-row {
+			margin-top: -5px;
+			padding: $margin-5 0; // $margin-10;
+			color: $color-text;
+			background-color: $color-white;
+			border-bottom-left-radius: $margin-5;
+			border-bottom-right-radius: $margin-5;
+
+			&:last-child {
+				margin-bottom: $margin-10;
+			}
+
+			article {
+				padding-bottom: $margin-5;
+			}
+		}
+
+		.cloudcoins-row-header {
+			color: $color-clear-gray;
+			height: 50px;
+			padding-top: $margin-10;
+			line-height: 160%;
+			border-bottom: 1px solid $color-clear-gray;
+			border-top: 1px solid $color-clear-gray;		
+		}
+
+		.cloudcoins-row-content {
+			height: 50px;
+			padding: $margin-10 0;
+			line-height: 160%;
+			border-bottom: 1px solid $color-clear-gray;
+		}
+
+		.cloudcoins-row-total {
+			height: 45px;
+			padding: $margin-10 0 0;
+			line-height: 160%;
+			font-weight: 700;
+		}
+
+
+		.cloudcoins-row {
+			.cloudcoins-row-item {
+				padding-left: $margin-5;
+				padding-right: $margin-5;
+			}
+		}
+
+		.cloudcoins-align-right {
+			text-align: right;
+		}
+
 	}
 
 	.cloudcoins {
