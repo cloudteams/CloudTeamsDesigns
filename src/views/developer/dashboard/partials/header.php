@@ -65,7 +65,7 @@
 								<div class="middle">
 									<a href="#nowhere">
 										<i class="icon icon-user"></i>
-											<span class="user-email">Bobbyd123</span>
+ 											<span class="user-email">Bobbyd123</span>
 										<i class="icon icon-arrow-down"></i>
 									</a>
 								</div>
