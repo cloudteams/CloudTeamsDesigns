@@ -107,21 +107,21 @@
 					</li>
 
 					<li>
-						<a href="/views/developer/dashboard/projects/project/blog">
+						<a class="incoming" href="/views/developer/dashboard/projects/project/blog">
 							<i class="icon icon-blog"></i>
 							<span>Blog</span>
 						</a>
 					</li>
 
 					<li>
-						<a href="/views/developer/dashboard/projects/project/messages">
+						<a class="incoming" href="/views/developer/dashboard/projects/project/messages">
 							<i class="icon icon-message"></i>
 							<span>Messages</span>
 						</a>
 					</li>
 
 					<li>
-						<a href="/views/developer/dashboard/projects/project/customer-ideas">
+						<a class="incoming" href="/views/developer/dashboard/projects/project/customer-ideas">
 							<i class="icon icon-customer-idea"></i>
 							<span>Customer ideas</span>
 						</a>
@@ -137,7 +137,7 @@
 			</li>
 
 			<li>
-				<a href="/views/developer/dashboard/activities">
+				<a class="incoming" href="/views/developer/dashboard/activities">
 					<i class="icon icon-activity"></i>
 					<span>Activities</span>
 				</a>
