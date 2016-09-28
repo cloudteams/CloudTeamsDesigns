@@ -83,7 +83,7 @@
 							width: 10px;
 
 							.dashboard-page:not(.minimized) & {
-								right: 15px;
+								right: 0;
 							}
 
 						}
@@ -212,7 +212,7 @@
 
 	&.dashboard-side-menu-user {
 		.bottom {
-			bottom: 0;
+			margin-top: $margin-menu;
 			left: 0;
 			@include paddingH($margin-menu);
 			position: absolute;
