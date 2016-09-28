@@ -62,8 +62,8 @@
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<i class="icon icon-campaign"></i>
-							<h2 class="header-medium secondary">Campaigns</h2>
+							<a href="/views/developer/dashboard/projects/project/campaigns/"><i class="icon icon-campaign"></i>
+							<h2 class="header-medium secondary">Campaigns</h2></a>
 						</div>
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns/create"><span class="header-small action-text">Create</span></a></p>
@@ -77,12 +77,12 @@
 							<div class="row">
 								<div class="col-xs-6">
 									<p class="highlight bold">Open</p>
-									<p class="bold">4</p>
+									<a href="/views/developer/dashboard/projects/project/campaigns/"><p class="bold">4</p></a>
 								</div>
 
 								<div class="col-xs-6">
 									<p class="highlight bold">Closed</p>
-									<p class="bold">2</p>
+									<a href="/views/developer/dashboard/projects/project/campaigns/"><p class="bold">2</p></a>
 								</div>
 							</div>
 						</div>
