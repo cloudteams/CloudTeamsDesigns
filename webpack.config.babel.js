@@ -30,6 +30,7 @@ module.exports = (function() {
 		'developer/dashboard/cloudcoins'   	   : './js/developer/dashboard/Cloudcoins.js',
 		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
 		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
+		'developer/dashboard/campaign-create'  : './js/developer/dashboard/CampaignCreate.js',
 		'developer/dashboard/team'             : './js/developer/dashboard/Team.js',
 		'developer/dashboard/personas'         : './js/developer/dashboard/Personas.js',
 		'developer/dashboard/rewards'          : './js/developer/dashboard/Rewards.js',

@@ -3,7 +3,7 @@
 		<li id="link-to-subpage-1" class="link-to-subpage active">Basic</li>
 		<li id="link-to-subpage-2" class="link-to-subpage">Specifics</li>
 		<li id="link-to-subpage-3" class="link-to-subpage">Questionnaire</li>
-		<li id="link-to-subpage-4" class="link-to-subpage">Target group</li>
+		<li id="link-to-subpage-4" class="link-to-subpage">Personas</li>
 		<li id="link-to-subpage-5" class="link-to-subpage">Search results</li>
 		<li id="link-to-subpage-6" class="link-to-subpage">Publish</li>
 	</ul>
@@ -735,79 +735,198 @@
 		</section>
 
 		<section id="subpage-4" class="subpage">
-			<article class="block">
-				<h2 class="form-title">Basic information</h2>
-
-				<fieldset class="fieldset-radio">
-					<label for="target-group-female" class="header-medium secondary">Gender</label>
-					<div class="input-container">
-						<label for="target-group-female"><input type="radio" name="-target-group-gender" value='target-group-female' id="target-group-female" required autofocus><span></span>Female</label>
-
-						<label for="target-group-male"><input type="radio" name="-target-group-gender" value='target-group-male' id="target-group-male" required autofocus><span></span>Male</label>
-
-						<label for="target-group-both"><input type="radio" name="-target-group-gender" value='target-group-both' id="target-group-both" required autofocus><span></span>Both</label>
-					</div>
-				</fieldset>
-
-				<fieldset class="fieldset-radio">
-					<label for="18-25" class="header-medium secondary">Age</label>
-
-					<div class="input-container">
-						<label for="18-25"><input type="radio" name="-target-group-age" value='18-25' id="18-25" required autofocus><span></span>18-25</label>
-
-						<label for="26-30"><input type="radio" name="-target-group-age" value='26-30' id="26-30" required autofocus><span></span>26-30</label>
-
-						<label for="31-35"><input type="radio" name="-target-group-age" value='31-35' id="31-35" required autofocus><span></span>31-35</label>
-
-						<label for="36-40"><input type="radio" name="-target-group-age" value='36-40' id="36-40" required autofocus><span></span>36-40</label>
-
-						<label for="41-45"><input type="radio" name="-target-group-age" value='41-45' id="41-45" required autofocus><span></span>41-45</label>
-
-						<label for="46-50"><input type="radio" name="-target-group-age" value='46-50' id="46-50" required autofocus><span></span>46-50</label>
-
-						<label for="51-55"><input type="radio" name="-target-group-age" value='51-55' id="51-55" required autofocus><span></span>51-55</label>
-
-						<label for="56-60"><input type="radio" name="-target-group-age" value='56-60' id="56-60" required autofocus><span></span>56-60</label>
-
-						<label for="61-65"><input type="radio" name="-target-group-age" value='61-65' id="61-65" required autofocus><span></span>61-65</label>
-
-						<label for="66-70"><input type="radio" name="-target-group-age" value='66-70' id="66-70" required autofocus><span></span>66-70</label>
-
-						<label for="71-75"><input type="radio" name="-target-group-age" value='71-75' id="71-75" required autofocus><span></span>71-75</label>
-
-						<label for="76-80"><input type="radio" name="-target-group-age" value='76-80' id="76-80" required autofocus><span></span>76-80</label>
-					</div>
-				</fieldset>
-
-				<fieldset>
-					<div class="row">
-						<div class="col-md-6">
-							<label for="target-group-nationality" class="header-medium secondary">Nationality</label>
-							<div class="select-dropdown">
-								<i class="icon icon-arrow-down"></i>
-								<select name="target-group-nationality" id="target-group-nationality" onchange="" size="1">
-									<option value="single" disabled selected>Select nationality</option>
-									<option value="us">US</option>
-									<option value="2">Nationality 2</option>
-								</select>
+			<div class="content">
+				<div class="row added-persona-container">
+					<div class="col-md-4 added-persona">
+						<header class="added-persona__image">
+							<img src="https://unsplash.it/500">
+						</header>
+						<section class="added-persona__body">
+							<h3 class="header-medium secondary">Tech savy senior</h3>
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-
-						<div class="col-md-6">
-							<label for="target-group-city" class="header-medium secondary">City</label>
-							<div class="select-dropdown">
-								<i class="icon icon-arrow-down"></i>
-								<select name="target-group-city" id="target-group-city" onchange="" size="1">
-									<option value="single" disabled selected>Select ciry</option>
-									<option value="us">New York</option>
-									<option value="2">City 2</option>
-								</select>
+							<h3 class="header-medium secondary">Public persona</h3>
+							<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+							<div class="row persona-rating">
+								<div class="col-md-6">Rating:</div>
+								<div class="col-md-6"><strong>Positive</strong></div>
 							</div>
-						</div>
+							<a href="#nowhere" class="btn show-persona" alt="Add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add persona</a>
+						</section>
 					</div>
-				</fieldset>
-
-			</article>
+					<div class="col-md-4 added-persona">
+						<header class="added-persona__image">
+							<img src="https://unsplash.it/500">
+						</header>
+						<section class="added-persona__body">
+							<h3 class="header-medium secondary">Tech savy senior</h3>
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3 class="header-medium secondary">Public persona</h3>
+							<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+							<div class="row persona-rating">
+								<div class="col-md-6">Rating:</div>
+								<div class="col-md-6"><strong>Positive</strong></div>
+							</div>
+							<a href="#nowhere" class="btn show-persona" alt="Add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add persona</a>
+						</section>
+					</div>
+					<div class="col-md-4 added-persona">
+						<header class="added-persona__image">
+							<img src="https://unsplash.it/500">
+						</header>
+						<section class="added-persona__body">
+							<h3 class="header-medium secondary">Tech savy senior</h3>
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3 class="header-medium secondary">Public persona</h3>
+							<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+							<div class="row persona-rating">
+								<div class="col-md-6">Rating:</div>
+								<div class="col-md-6"><strong>Positive</strong></div>
+							</div>
+							<a href="#nowhere" class="btn show-persona" alt="Add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add persona</a>
+						</section>
+					</div>
+				</div>
+				<div class="row added-persona-container">
+					<div class="col-md-4 added-persona">
+						<header class="added-persona__image">
+							<img src="https://unsplash.it/500">
+						</header>
+						<section class="added-persona__body">
+							<h3 class="header-medium secondary">Tech savy senior</h3>
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3 class="header-medium secondary">Public persona</h3>
+							<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+							<div class="row persona-rating">
+								<div class="col-md-6">Rating:</div>
+								<div class="col-md-6"><strong>Positive</strong></div>
+							</div>
+							<a href="#nowhere" class="btn show-persona" alt="Add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add persona</a>
+						</section>
+					</div>
+					<div class="col-md-4 added-persona">
+						<header class="added-persona__image">
+							<img src="https://unsplash.it/500">
+						</header>
+						<section class="added-persona__body">
+							<h3 class="header-medium secondary">Tech savy senior</h3>
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+								<h3 class="header-medium secondary">Public persona</h3>
+							<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+							<div class="row persona-rating">
+								<div class="col-md-6">Rating:</div>
+								<div class="col-md-6"><strong>Positive</strong></div>
+							</div>
+							<a href="#nowhere" class="btn show-persona" alt="Add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add persona</a>
+						</section>
+					</div>
+					<div class="col-md-4 added-persona">
+						<header class="added-persona__image">
+							<img src="https://unsplash.it/500">
+						</header>
+						<section class="added-persona__body">
+							<h3 class="header-medium secondary">Tech savy senior</h3>
+							<div class="tooltip-container">
+								<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+								<div class="custom-tooltip">
+									<ul>
+										<li>
+											<a href="#nowhere" alt="edit persona">Edit persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="rate persona" data-toggle="modal" data-target=".rate-persona-to-campaign">Rate this persona</a>
+										</li>
+										<li>
+											<a href="#nowhere" alt="delete persona">Delete persona</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<h3 class="header-medium secondary">Public persona</h3>
+							<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
+							<div class="row persona-rating">
+								<div class="col-md-6">Rating:</div>
+								<div class="col-md-6"><strong>Positive</strong></div>
+							</div>
+							<a href="#nowhere" class="btn show-persona" alt="Add persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Add persona</a>
+						</section>
+					</div>
+				</div>
+			</div>			
 		</section>
 	</form>
 

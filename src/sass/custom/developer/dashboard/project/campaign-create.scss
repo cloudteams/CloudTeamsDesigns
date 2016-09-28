@@ -1,5 +1,81 @@
 .developer-dashboard-project-campaign-create-content {
 	.subpage {
+
+		.added-persona-container {
+			margin: $margin-40 0 0;
+			border-radius: 5px;
+
+			h3:first-child {
+				float: left;
+			}
+
+			.tooltip-container {
+				float: right;
+
+				a.open-tooltip-button {
+					color: $color-night-black;
+				}
+
+				.custom-tooltip {
+					left: 45px;
+					top: 183px;
+				}
+			}
+
+			.added-persona {
+				&__body {
+					border-left: 1px solid $color-input-border;
+					border-right: 1px solid $color-input-border;
+					border-bottom: 1px solid $color-input-border;
+					border-bottom-right-radius: $margin-5;
+					border-bottom-left-radius: $margin-5;
+				}
+			}
+
+			.added-persona__image {
+				overflow: hidden;
+			}
+
+			img {
+				border-top-right-radius: 5px;
+				border-top-left-radius: 5px;
+				max-height: 140px;
+			}
+
+			section {
+				background: $color-white;
+				padding: $margin-15 $margin-10;
+
+				.header-medium.secondary:nth-of-type(2) {
+					text-transform: none;
+					color: $color-clear-gray;
+					font-size: $font-size-3;
+				}
+
+				p {
+					color: $color-text !important;
+					margin: $margin-20 0;
+				}
+
+				.persona-rating {
+					margin: $margin-20 0;
+
+					> div {
+						padding: 0;
+
+						&:nth-of-type(2) {
+							text-align: right;
+						}
+					}
+				}
+
+				a {
+					margin: auto;
+					display: block
+				}
+			}
+		}
+
 		fieldset {
 			&.time-frame {
 				.row {
