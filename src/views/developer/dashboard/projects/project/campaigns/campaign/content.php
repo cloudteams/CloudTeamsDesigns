@@ -79,10 +79,14 @@
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
+							<div class="col-md-6">Amount:</div>
+							<div class="col-md-6"><strong>324</strong></div>
+						</div>
+						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
-						</div>
-						<a href="#nowhere" id="link-to-subpage-10" class="btn show-persona link-to-subpage" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show pdersona</a>
+						</div>						
+						<a href="#nowhere" id="link-to-subpage-10" class="btn show-persona link-to-subpage" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -110,9 +114,13 @@
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
+							<div class="col-md-6">Amount:</div>
+							<div class="col-md-6"><strong>324</strong></div>
+						</div>
+						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
-						</div>
+						</div>						
 						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
@@ -141,9 +149,13 @@
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
+							<div class="col-md-6">Amount:</div>
+							<div class="col-md-6"><strong>324</strong></div>
+						</div>
+						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
-						</div>
+						</div>						
 						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
@@ -174,9 +186,13 @@
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
+							<div class="col-md-6">Amount:</div>
+							<div class="col-md-6"><strong>324</strong></div>
+						</div>
+						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
-						</div>
+						</div>						
 						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
@@ -205,9 +221,13 @@
 							<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
+							<div class="col-md-6">Amount:</div>
+							<div class="col-md-6"><strong>324</strong></div>
+						</div>
+						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
-						</div>
+						</div>						
 						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
@@ -236,9 +256,13 @@
 						<h3 class="header-medium secondary">Public persona</h3>
 						<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 						<div class="row persona-rating">
+							<div class="col-md-6">Amount:</div>
+							<div class="col-md-6"><strong>324</strong></div>
+						</div>
+						<div class="row persona-rating">
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
-						</div>
+						</div>						
 						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>

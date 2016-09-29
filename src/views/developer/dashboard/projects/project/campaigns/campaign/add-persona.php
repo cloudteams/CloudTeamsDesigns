@@ -42,8 +42,10 @@
 								<h3 class="header-medium secondary">Public persona</h3>
 								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 								<div class="row persona-rating">
-									<div class="col-md-6">Rating:</div>
-									<div class="col-md-6"><strong>Positive</strong></div>
+									<div class="col-md-8">Sample amount:</div>
+									<div class="col-md-4 text-right"><strong>324</strong></div>
+									<div class="col-md-8">Rating:</div>
+									<div class="col-md-4 text-right"><strong>Positive</strong></div>
 								</div>
 								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a></footer>
 							</section>
@@ -57,8 +59,10 @@
 								<h3 class="header-medium secondary">Public persona</h3>
 								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 								<div class="row persona-rating">
-									<div class="col-md-6">Rating:</div>
-									<div class="col-md-6"><strong>Positive</strong></div>
+									<div class="col-md-8">Sample amount:</div>
+									<div class="col-md-4 text-right"><strong>324</strong></div>
+									<div class="col-md-8">Rating:</div>
+									<div class="col-md-4 text-right"><strong>Positive</strong></div>
 								</div>
 								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a></footer>
 							</section>
@@ -72,8 +76,10 @@
 								<h3 class="header-medium secondary">Public persona</h3>
 								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 								<div class="row persona-rating">
-									<div class="col-md-6">Rating:</div>
-									<div class="col-md-6"><strong>Positive</strong></div>
+									<div class="col-md-8">Sample amount:</div>
+									<div class="col-md-4 text-right"><strong>324</strong></div>
+									<div class="col-md-8">Rating:</div>
+									<div class="col-md-4 text-right"><strong>Positive</strong></div>
 								</div>
 								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a></footer>
 							</section>
@@ -87,8 +93,10 @@
 								<h3 class="header-medium secondary">Public persona</h3>
 								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 								<div class="row persona-rating">
-									<div class="col-md-6">Rating:</div>
-									<div class="col-md-6"><strong>Positive</strong></div>
+									<div class="col-md-8">Sample amount:</div>
+									<div class="col-md-4 text-right"><strong>324</strong></div>
+									<div class="col-md-8">Rating:</div>
+									<div class="col-md-4 text-right"><strong>Positive</strong></div>
 								</div>
 								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a></footer>
 							</section>
@@ -102,8 +110,10 @@
 								<h3 class="header-medium secondary">Public persona</h3>
 								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 								<div class="row persona-rating">
-									<div class="col-md-6">Rating:</div>
-									<div class="col-md-6"><strong>Positive</strong></div>
+									<div class="col-md-8">Sample amount:</div>
+									<div class="col-md-4 text-right"><strong>324</strong></div>
+									<div class="col-md-8">Rating:</div>
+									<div class="col-md-4 text-right"><strong>Positive</strong></div>
 								</div>
 								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a></footer>
 							</section>
@@ -117,8 +127,10 @@
 								<h3 class="header-medium secondary">Public persona</h3>
 								<p>People with more than 5 years experience in the industry who are familliar with new technology</p>
 								<div class="row persona-rating">
-									<div class="col-md-6">Rating:</div>
-									<div class="col-md-6"><strong>Positive</strong></div>
+									<div class="col-md-8">Sample amount:</div>
+									<div class="col-md-4 text-right"><strong>324</strong></div>
+									<div class="col-md-8">Rating:</div>
+									<div class="col-md-4 text-right"><strong>Positive</strong></div>
 								</div>
 								<footer class="btn-transparent add-persona" alt="add persona">Select persona</a></footer>
 							</section>
