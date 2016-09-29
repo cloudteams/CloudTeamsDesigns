@@ -198,11 +198,26 @@
 }
 
 .developer-dashboard-project-campaign-overview-content {
-	#subpage-10 {
-		min-height: 320px;
+
+	.link-to-subsection.active {
+		color: $color-text;
 	}
 
-	#subpage-11 {
+	#subsection-1 {
+		min-height: 320px;
+
+		.image-container {
+			text-align: center;
+		}
+
+		img {
+			max-width: 250px;
+			height: auto;
+		}
+
+	}
+
+	#subsection-2 {
 		min-height: 560px;
 	}
 

@@ -16,31 +16,14 @@
 
 			<div class="modal-body">
 
-				<ul class="menu-subpage">
-					<li id="link-to-subpage-10" class="link-to-subpage active">Basic information</li>
-					<li id="link-to-subpage-11" class="link-to-subpage">Properties</li>
+				<ul class="menu-subsection">
+					<li id="link-to-subsection-1" class="link-to-subsection active">Basic information</li>
+					<li id="link-to-subsection-2" class="link-to-subsection">Properties</li>
 				</ul>
 
-					<section id="subpage-10" class="subpage active">
-						<div class="col-md-6">
-
-							<fieldset class="form-group fieldset-upload">
-
-								<div class="input-container">
-									<label class="file-upload-image" for="file-upload">
-										<div class="vertical-align">
-											<div class="middle">
-												<div class="add-image-button">
-													<i class="icon icon-plus"></i>
-												</div>
-												<p class="meta big">Add picture</p>
-											</div>
-										</div>
-									</label>
-									<input type="file" name="file-upload" id="file-upload"/>
-								</div>
-							</fieldset>
-
+					<section id="subsection-1" class="subsection active">
+						<div class="col-md-6 image-container">
+							<img src="http://unsplash.it/250/">
 						</div>
 						<div class="col-md-6">
 							
@@ -48,7 +31,7 @@
 								<label for="add-persona-name" class="header-medium secondary">Name</label>
 
 								<div class="input-container">
-									<p>Hello world</p>
+									<p>Lorem ipsum</p>
 								</div>
 							</fieldset>
 
@@ -62,9 +45,7 @@
 										</div>
 									</div>
 									<div class="col-sm-6">
-										<div class="input-container">
-											<label for="fetch-document"><input type="radio" name="privacy-settings" value='fetch-document' id="fetch-document"><span></span>Public</label>
-										</div>
+
 									</div>
 								</div>
 							</fieldset>	
@@ -73,7 +54,7 @@
 								<label for="tags-persona" class="header-medium secondary">Description</label>
 
 								<div class="input-container">
-									<input type="text" id="tags-persona" placeholder="Persona description"></textarea>
+									<p>Lorem ipsum et dolor sic amit</p>
 								</div>
 							</fieldset>
 
@@ -87,7 +68,7 @@
 						</div>
 					</section>
 
-					<section id="subpage-11" class="subpage">
+					<section id="subsection-2" class="subsection">
 
 						<div class="col-md-12 inform-block">
 						Define some or all of the properties below to describe this persona
