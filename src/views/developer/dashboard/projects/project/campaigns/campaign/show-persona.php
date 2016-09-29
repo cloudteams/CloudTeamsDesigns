@@ -1,5 +1,5 @@
-<!-- Pop-up modal: team member full profile -->
-<div id="new" class="popup-show-new-persona modal fade" role="dialog">
+<!-- Pop-up modal: show persona full profile -->
+<div id="new" class="show-persona-in-campaign modal fade" role="dialog">
 	<div class="modal-dialog medium">
 		<div class="block block-fill">
 			<header class="modal-header">

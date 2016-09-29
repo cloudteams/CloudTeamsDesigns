@@ -3,12 +3,13 @@
 (function() {
 	function preventClicks() {
 		$('a[href="#nowhere"]').click(e => {
+			console.log('clicked')
 			e.preventDefault();
 		});
 	}
 
 	function confirmButtons() {
-		const allButtons = $('.added-persona-container .added-persona');
+		const allButtons = $('.add-new-persona-to-campaign .added-persona-container .added-persona');
 
 		allButtons.click(e => {
 			e.preventDefault();

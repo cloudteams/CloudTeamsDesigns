@@ -1,4 +1,4 @@
-<!-- Pop-up modal: team member add user -->
+<!-- Pop-up modal: rate persona to campaign -->
 <div class="rate-persona-to-campaign modal fade" role="dialog">
 	<a href="#nowhere"></a>
 
@@ -26,19 +26,14 @@
 							How would you rate this persona?
 						</div>
 						<div class="col-md-6 rate-this-persona">
-							<li class="select-dropdown">
-								<a href="#nowhere">
-									<strong>Rate persona</strong>
-									<i class="icon icon-arrow-down"></i>
-								</a>
-
-								<ul class="submenu">
-									<li><a href="#nowhere">Very positive</a></li>
-									<li><a href="#nowhere">Positive</a></li>
-									<li><a href="#nowhere">Poorly</a></li>
-									<li><a href="#nowhere">Very poorly</a></li>
-								</ul>
-							</li>
+							<div class="select-dropdown">
+								<i class="icon icon-arrow-down"></i>
+								<select name="rate-this-persona-dropdown" id="rate-persona" onchange="" size="1">
+									<option value="" disabled="" selected="">Rate persona</option>
+									<option value="Art">Art</option>
+									<option value="Business">Business</option>
+								</select>
+							</div>
 						</div>
 					</div>
 

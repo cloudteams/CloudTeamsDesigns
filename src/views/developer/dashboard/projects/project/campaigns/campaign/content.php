@@ -49,12 +49,16 @@
 		<a href="#nowhere" class="btn add-new-persona" alt="add persona" data-toggle="modal" data-target=".add-new-persona-to-campaign">Add a persona</a></h2>
 
 		<div class="content">
+
 			<div class="row added-persona-container">
+
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
 						<img src="https://unsplash.it/500">
 					</header>
+
 					<section class="added-persona__body">
+
 						<h3 class="header-medium secondary">Tech savy senior</h3>
 						<div class="tooltip-container">
 							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
@@ -78,7 +82,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show personaaa</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -109,7 +113,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -140,7 +144,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 			</div>
@@ -173,7 +177,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -204,7 +208,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">
@@ -235,7 +239,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>
-						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".popup-team-member-full-profile">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 			</div>
@@ -308,8 +312,8 @@
 
 	<?php include("add-persona.php"); ?>
 	<?php include("rate-persona.php"); ?>
+	<?php include("show-persona.php"); ?>
 	<?php include("top-up-cloudcoins.php"); ?>
-
 
 </section>
 
