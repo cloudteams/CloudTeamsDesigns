@@ -6,7 +6,7 @@
 				<div class="vertical-align">
 					<div class="middle">
 						<i class="icon icon-user"></i>
-						<h2 class="header-medium secondary">Create a new persona</h2>
+						<h2 class="header-medium secondary">Show persona</h2>
 					</div>
 					<div class="close" data-dismiss="modal">
 						<i class="icon icon-close"></i>
@@ -17,11 +17,11 @@
 			<div class="modal-body">
 
 				<ul class="menu-subpage">
-					<li id="link-to-subpage-1" class="link-to-subpage active">Basic information</li>
-					<li id="link-to-subpage-2" class="link-to-subpage">Properties</li>
+					<li id="link-to-subpage-10" class="link-to-subpage active">Basic information</li>
+					<li id="link-to-subpage-11" class="link-to-subpage">Properties</li>
 				</ul>
 
-					<section id="subpage-1" class="subpage active">
+					<section id="subpage-10" class="subpage active">
 						<div class="col-md-6">
 
 							<fieldset class="form-group fieldset-upload">
@@ -48,7 +48,7 @@
 								<label for="add-persona-name" class="header-medium secondary">Name</label>
 
 								<div class="input-container">
-									<input type="text" id="add-persona-name" placeholder="Persona name"></textarea>
+									<p>Hello world</p>
 								</div>
 							</fieldset>
 
@@ -87,7 +87,7 @@
 						</div>
 					</section>
 
-					<section id="subpage-2" class="subpage">
+					<section id="subpage-11" class="subpage">
 
 						<div class="col-md-12 inform-block">
 						Define some or all of the properties below to describe this persona

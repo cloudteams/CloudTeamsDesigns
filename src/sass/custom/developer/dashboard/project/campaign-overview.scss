@@ -37,80 +37,13 @@
 
 		.rate-this-persona {
 			text-align: center;
-			padding: $margin-block-small
+			padding: $margin-block-small;
 		}
 
-		li {
-
-			&.select-dropdown {
-				text-align: left;
-				border: solid 1px $color-menu-items;
-				border-radius: 5px;
-				padding: $margin-input-small;
-				font-size: $font-size-menu-subpage;
-				z-index: 1;
-				display: block;
-				position: relative;
-				width: 250px;
-				margin: auto;
-
-				> a {
-					color: $color-clear-gray;
-					font-size: $font-size-header-small;
-
-					&:hover {
-						color: $color-white;
-					}
-				}
-
-				.submenu {
-
-					visibility: hidden;
-					opacity: 0;
-					display: none;
-					padding: 0 $margin-input-small;
-					z-index: -1;
-					background: $color-white;
-					color: $color-text-secondary;
-					font-size: $font-size-button;
-					position: absolute;
-					left: -1px;
-					top: 26px;
-					border-radius: 5px;
-					border: solid 1px $color-menu-items;
-					border-top: 0;
-					width: 250px;
-					text-align: left;
-
-					a {
-						text-overflow: ellipsis;
-						white-space: nowrap;
-						overflow: hidden;
-
-						&:hover {
-							color: $color-button-hover;
-						}
-					}
-
-				}
-			}
-			&.select-dropdown:hover {
-
-				.icon {
-					transform: scaleY(-1);
-					filter: FlipH;
-				}
-
-				.submenu {
-					border-top-left-radius: 0;
-					border-top-right-radius: 0;
-					visibility: visible;
-					opacity: 1;
-					display: inline-block;
-					padding: $margin-input-small;
-				}
-			
-			}
+		.select-dropdown {
+			max-width: 250px;
+		    padding: 0;
+		    margin: auto;
 		}
 
 	}
@@ -265,6 +198,14 @@
 }
 
 .developer-dashboard-project-campaign-overview-content {
+	#subpage-10 {
+		min-height: 320px;
+	}
+
+	#subpage-11 {
+		min-height: 560px;
+	}
+
 	#new-team-member {
 		.added-persona {
 			cursor: pointer;
