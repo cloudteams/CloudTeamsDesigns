@@ -52,6 +52,7 @@
 
 		<footer>
 			<a href="/views/logged-in/projects/project#campaigns" class="btn">Participate</a>
+			<a href="/views/logged-in/projects/project#campaigns" class="btn btn-decline">Decline</a>
 		</footer>
 	</div>
 </article>

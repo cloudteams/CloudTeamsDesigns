@@ -38,7 +38,7 @@
 			</li>
 
 			<li>
-				<a href="/views/user/dashboard/campaigns">
+				<a href="/views/user/dashboard/campaigns" class="incoming">
 					<i class="icon icon-campaign"></i>
 					<span>Campaigns</span>
 				</a>

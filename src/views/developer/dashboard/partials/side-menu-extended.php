@@ -130,13 +130,6 @@
 			</li>
 
 			<li>
-				<a href="/views/developer/dashboard/invites">
-					<i class="icon icon-invite"></i>
-					<span>Pending invites</span>
-				</a>
-			</li>
-
-			<li>
 				<a class="incoming" href="/views/developer/dashboard/activities">
 					<i class="icon icon-activity"></i>
 					<span>Activities</span>

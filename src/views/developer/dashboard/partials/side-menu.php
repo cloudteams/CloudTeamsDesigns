@@ -45,12 +45,6 @@
 				</a>
 			</li>
 
-			<li>
-				<a href="/views/developer/dashboard/invites">
-				<i class="icon icon-add-member"></i>
-					<span>Pending invites</span>
-				</a>
-			</li>
 
 			<li>
 				<a href="/views/developer/dashboard/activities">
