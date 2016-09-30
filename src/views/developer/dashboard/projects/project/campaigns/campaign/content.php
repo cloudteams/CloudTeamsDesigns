@@ -36,7 +36,10 @@
 			<div class="col-md-6 type-status text-right">Not completed</div>
 			<div class="col-md-6 type-sort required">Questionnaire</div>
 			<div class="col-md-6 type-status text-right">Not completed</div>
-		</div>	
+		</div>
+
+		<a href="#nowhere" class="btn pull-right">Publish campaign</a>
+
 	</section>
 
 	<section id="subpage-2" class="subpage">

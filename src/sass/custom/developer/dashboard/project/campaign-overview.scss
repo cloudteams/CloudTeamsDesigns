@@ -130,6 +130,10 @@
 		opacity: 0;
 
 		&#subpage-1 {
+			.btn {
+				margin: $margin-10;
+			}
+			
 			.campaign-status-header {
 				padding: 40px 0 0 0;
 				margin: 0 0 10px 0;
@@ -144,6 +148,8 @@
 				div {
 					margin-bottom: $margin-20;
 				}
+
+
 
 				.type-sort {
 					color: $color-white;
