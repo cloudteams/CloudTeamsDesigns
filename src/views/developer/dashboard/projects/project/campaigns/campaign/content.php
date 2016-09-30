@@ -29,7 +29,7 @@
 			<div class="col-md-6 type-sort required">Rewards</div>
 			<div class="col-md-6 type-status text-right">Not completed</div>
 			<div class="col-md-6 type-sort required">Personas</div>
-			<div class="col-md-6 type-status text-right">Not completed</div>
+			<div class="col-md-6 type-status text-right completed">Completed</div>
 			<div class="col-md-6 type-sort">Documents</div>
 			<div class="col-md-6 type-status text-right">Not completed</div>
 			<div class="col-md-6 type-sort required">CloudCoins</div>
