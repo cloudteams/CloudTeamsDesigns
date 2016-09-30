@@ -129,6 +129,34 @@
 		display: none;
 		opacity: 0;
 
+		&#subpage-1 {
+			.campaign-status-header {
+				padding: 40px 0 0 0;
+				margin: 0 0 10px 0;
+				h2 {
+					margin-bottom: $margin-10;
+				}
+			}
+			.campaign-status {
+				text-transform: uppercase;
+				font-weight: 700;
+
+				div {
+					margin-bottom: $margin-20;
+				}
+
+				.type-sort {
+					color: $color-white;
+					&.required:after {
+						content: "*";
+						color: $color-required;
+						padding-left: $margin-5;
+					}
+				}
+
+			}
+		}
+
 		&.active {
 			animation: fadeIn $transition-time-2 $easing-1 1 normal forwards;
 			display: block;

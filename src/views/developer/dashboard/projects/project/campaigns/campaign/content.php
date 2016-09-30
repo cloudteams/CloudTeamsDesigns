@@ -11,7 +11,7 @@
 	<?php include("data.php"); ?>
 
 	<section id="subpage-1" class="subpage active">
-		<article class="block block large">
+		<article class="block large">
 			<div class="background">
 				<div class="content documents">
 					<h2 class="header-medium secondary">About this campaign</h2>
@@ -22,6 +22,21 @@
 				</div>
 			</div>
 		</article>
+		<div class="overview-data campaign-status-header">
+			<h2 class="header-medium secondary">Campaign completions</h2>
+		</div>
+		<div class="row campaign-status">
+			<div class="col-md-6 type-sort required">Rewards</div>
+			<div class="col-md-6 type-status text-right">Not completed</div>
+			<div class="col-md-6 type-sort required">Personas</div>
+			<div class="col-md-6 type-status text-right">Not completed</div>
+			<div class="col-md-6 type-sort">Documents</div>
+			<div class="col-md-6 type-status text-right">Not completed</div>
+			<div class="col-md-6 type-sort required">CloudCoins</div>
+			<div class="col-md-6 type-status text-right">Not completed</div>
+			<div class="col-md-6 type-sort required">Questionnaire</div>
+			<div class="col-md-6 type-status text-right">Not completed</div>
+		</div>	
 	</section>
 
 	<section id="subpage-2" class="subpage">
@@ -34,7 +49,7 @@
 			</div>
 		</article>
 
-		<article class="block block">
+		<article class="block">
 			<div class="background">
 				<div class="content documents">
 					<h2 class="header-medium secondary">Reward title</h2>
