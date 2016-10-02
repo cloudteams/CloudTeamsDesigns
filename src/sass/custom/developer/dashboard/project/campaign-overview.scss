@@ -151,9 +151,11 @@
 				div {
 					margin-bottom: $margin-25;
 				}
-
+				.type-status {
+					color: $color-highlight;
+				}
 				.completed {
-					color: $color-white;
+					color: $color-text;
 				}
 
 				.type-sort {
@@ -237,6 +239,13 @@
 }
 
 .developer-dashboard-project-campaign-overview-content {
+
+	.cannot-find-persona p {
+		line-height: 275%;
+		a {
+			font-weight: 700;
+		}
+	}
 
 	.link-to-subsection.active {
 		color: $color-text;

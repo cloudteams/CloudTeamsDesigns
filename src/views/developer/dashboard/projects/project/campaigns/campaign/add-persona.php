@@ -137,7 +137,10 @@
 						</div>
 					</div>
 
-					<div class="col-md-12">
+					<div class="col-md-8 cannot-find-persona">
+						<p>Cannot find the right persona here? <a href="#nowhere">Go to Personas</a></p>
+					</div>
+					<div class="col-md-4">
 						<fieldset class="form-submit">
 							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
 							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="add persona">Add</a>

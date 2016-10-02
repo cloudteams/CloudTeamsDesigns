@@ -1,7 +1,6 @@
 /* global $ */
 
 (function() {
-
 	function confirmMessage() {
 		const confirmButton = $('.confirm-button');
 		const contentSection = $('.entire-section');
@@ -9,19 +8,29 @@
 		const sendingSection = $('.sending-wrapper');
 		const modalBody = $('.modal-body');
 
-		function fadeDelay() {
+		function startProcessing() {
+			contentSection.fadeOut(() => {
+				sendingSection.fadeIn();
+			});
 			setTimeout(() => {
-				sendingSection.fadeOut(() => {
-					confirmSection.fadeIn();
-				});
-			}, 2000);
+				sendConfirmation();
+			}, 2000); // Proxy for actual delay
+		}
 
+		function sendConfirmation() {
+			sendingSection.fadeOut(() => {
+				confirmSection.fadeIn();
+			});
 			setTimeout(() => {
-				confirmSection.fadeOut(() => {
-					modalBody.css('height', 'auto');
-					contentSection.fadeIn();
-				});
-			}, 4000);
+				displayContent();
+			}, 2000); // Proxy for actual delay
+		}
+
+		function displayContent() {
+			confirmSection.fadeOut(() => {
+				modalBody.css('height', 'auto');
+				contentSection.fadeIn();
+			});
 		}
 
 		confirmButton.click(e => {
@@ -30,11 +39,7 @@
 			const height = modalBody.outerHeight();
 			modalBody.css('height', `${height}`);
 
-			contentSection.fadeOut(() => {
-				sendingSection.fadeIn();
-			});
-
-			fadeDelay();
+			startProcessing();
 		});
 	}
 
