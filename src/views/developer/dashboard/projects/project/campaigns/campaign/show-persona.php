@@ -70,50 +70,31 @@
 
 					<section id="subsection-2" class="subsection">
 
-						<div class="col-md-12 inform-block">
-						Define some or all of the properties below to describe this persona
-						</div>
-
 						<div class="col-md-6">
 
 							<fieldset>
 								<label for="persona-gender" class="header-medium secondary">Gender</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-gender" placeholder="Persona gender"></textarea>
-								</div>
+								<p>Male</p>
 							</fieldset>
 
 							<fieldset>
 								<label for="persona-tech-level" class="header-medium secondary">Tech level</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-tech-level" placeholder="Tech level of persona"></textarea>
-								</div>
+								<p>Experienced</p>
 							</fieldset>
 
 							<fieldset>
 								<label for="persona-platform" class="header-medium secondary">Platform</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-platform" placeholder=""></textarea>
-								</div>
-							</fieldset>
+								<p>Windows 10</p>
+							</fieldse>
 
 							<fieldset>
 								<label for="persona-age" class="header-medium secondary">Age</label>
-
-								<div class="input-container">
-									<input type="number" id="persona-age" placeholder=""></textarea>
-								</div>
+								<p>Between the age of <strong>18 and 25</strong></p>
 							</fieldset>
 
 							<fieldset>
-								<label for="persona-sector" class="header-medium secondary"> Business sector</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-sector" placeholder=""></textarea>
-								</div>
+								<label for="persona-sector" class="header-medium secondary">Business sector</label>
+								<p>Student</p>
 							</fieldset>
 
 						</div>
@@ -122,34 +103,22 @@
 
 							<fieldset>
 								<label for="persona-activity" class="header-medium secondary">Activity</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-activity" placeholder="Persona activity"></textarea>
-								</div>
+								<p>Content for activity</p>
 							</fieldset>
 
 							<fieldset>
 								<label for="persona-device" class="header-medium secondary">Device</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-device" placeholder=""></textarea>
-								</div>
+								<p>iPhone 5s or newer</p>
 							</fieldset>
 
 							<fieldset>
 								<label for="persona-influence" class="header-medium secondary">Influence</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-influence" placeholder=""></textarea>
-								</div>
+								<p>Content for influence</p>
 							</fieldset>
 
 							<fieldset>
 								<label for="persona-activity-time" class="header-medium secondary">Activity time</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-activity-time" placeholder=""></textarea>
-								</div>
+								<p>Between <strong>17:00 and 21:00</strong></p>
 							</fieldset>
 
 						</div>
