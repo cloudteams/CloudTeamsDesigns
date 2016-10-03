@@ -104,7 +104,7 @@
 							<div class="col-md-6">Rating:</div>
 							<div class="col-md-6"><strong>Positive</strong></div>
 						</div>						
-						<a href="#nowhere" id="link-to-subpage-10" class="btn show-persona link-to-subpage" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
+						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
 				<div class="col-md-4 added-persona">

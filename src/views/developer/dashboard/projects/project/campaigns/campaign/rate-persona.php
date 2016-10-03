@@ -30,8 +30,10 @@
 								<i class="icon icon-arrow-down"></i>
 								<select name="rate-this-persona-dropdown" id="rate-persona" onchange="" size="1">
 									<option value="" disabled="" selected="">Rate persona</option>
-									<option value="Art">Art</option>
-									<option value="Business">Business</option>
+									<option value="Art">Very poor</option>
+									<option value="Business">Poor</option>
+									<option value="Business">Good</option>
+									<option value="Business">Very good</option>
 								</select>
 							</div>
 						</div>
