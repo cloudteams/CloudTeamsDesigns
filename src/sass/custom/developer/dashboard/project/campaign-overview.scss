@@ -247,12 +247,16 @@
 		}
 	}
 
+	.menu-subsection {
+		@include paddingH($margin-5);
+	}
+
 	.link-to-subsection.active {
 		color: $color-text;
 	}
 
 	#subsection-1 {
-		min-height: 320px;
+		min-height: 295px;
 
 		.image-container {
 			text-align: center;
@@ -266,7 +270,7 @@
 	}
 
 	#subsection-2 {
-		min-height: 560px;
+		min-height: 450px;
 	}
 
 	#new-team-member {
