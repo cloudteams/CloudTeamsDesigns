@@ -71,10 +71,14 @@
 
 		.modal-header {
 			margin-bottom: $margin-20;
+
+			i {
+				padding-top: $margin-5;
+			}
 		}
 
 		.modal-body {
-			padding: 0 $margin-15 $margin-15;
+			padding: 0 $margin-20;
 
 		}
 
