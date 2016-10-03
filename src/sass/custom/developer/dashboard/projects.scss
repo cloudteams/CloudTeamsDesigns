@@ -1,6 +1,11 @@
 .developer-dashboard-projects-content {
 
 	article.project {
+
+		&:nth-of-type(3) {
+			clear: both;
+		}
+
 		&:nth-last-of-type(-n+2) {
 			margin-bottom: 0;
 		}
@@ -18,16 +23,13 @@
 
 		.content {
 			table {
-				tr {
-					td {
-						&:first-child {
-							width: 45%;
-						}
+				td {
+					&:first-child {
+						width: 45%;
+					}
 
-						&:last-child {
-							width: 55%;
-						}
-
+					&:last-child {
+						width: 55%;
 					}
 
 				}
