@@ -1,7 +1,7 @@
 /* global $ */
 
 export default (function() {
-	function startProcessing() {
+	function startProcessing(modalBody) {
 		const contentSection = $('.entire-section');
 		const sendingSection = $('.sending-wrapper');
 
@@ -10,22 +10,22 @@ export default (function() {
 		});
 
 		setTimeout(() => {
-			sendConfirmation(sendingSection);
+			sendConfirmation(sendingSection, contentSection, modalBody);
 		}, 2000); // Proxy for actual delay
 	}
 
-	function sendConfirmation(sendingSection) {
+	function sendConfirmation(sendingSection, contentSection, modalBody) {
 		const confirmSection = $('.confirm-wrapper');
 
 		sendingSection.fadeOut(() => {
 			confirmSection.fadeIn();
 		});
 		setTimeout(() => {
-			displayContent();
+			displayContent(confirmSection, contentSection, modalBody);
 		}, 2000); // Proxy for actual delay
 	}
 
-	function displayContent() {
+	function displayContent(confirmSection, contentSection, modalBody) {
 		confirmSection.fadeOut(() => {
 			modalBody.css('height', 'auto');
 			contentSection.fadeIn();
@@ -34,8 +34,6 @@ export default (function() {
 
 	function run() {
 		const confirmButton = $('.confirm-button');
-		const contentSection = $('.entire-section');
-		const sendingSection = $('.sending-wrapper');
 		const modalBody = $('.modal-body');
 
 		confirmButton.click(e => {
@@ -44,11 +42,11 @@ export default (function() {
 			const height = modalBody.outerHeight();
 			modalBody.css('height', `${height}`);
 
-			startProcessing();
+			startProcessing(modalBody);
 		});
 	}
 
 	return {
 		run
 	};
-});
+})();

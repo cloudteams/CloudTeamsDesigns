@@ -1,7 +1,6 @@
 /* global $ */
 
 (function() {
-
 	function confirmButtons() {
 		const allButtons = $('a.btn.show-persona');
 
@@ -29,6 +28,5 @@
 
 	$(document).ready(() => {
 		confirmButtons();
-
 	});
 })();

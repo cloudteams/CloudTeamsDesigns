@@ -3,7 +3,6 @@
 (function() {
 	function preventClicks() {
 		$('a[href="#nowhere"]').click(e => {
-			console.log('clicked')
 			e.preventDefault();
 		});
 	}
