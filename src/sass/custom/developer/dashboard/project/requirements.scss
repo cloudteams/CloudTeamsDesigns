@@ -1,0 +1,175 @@
+.developer-dashboard-project-requirements-content {
+
+	article.requirement {
+		height: auto;
+		margin-bottom: $margin-block-bottom;
+
+		header {
+			position: relative;
+
+			h2,
+			h3 {
+				max-width: 260px;
+			}
+
+			.tooltip-container {
+				display: block;
+				margin: 0;
+				position: absolute;
+				right: 15px;
+				top: 15px;
+
+				a {
+					i {
+						color: $color-text;
+					}
+
+				}
+
+			}
+
+			.custom-tooltip {
+				right: -5px;
+				top: 35px;
+			}
+
+		}
+
+		.content {
+			&.dates {
+				p {
+					display: inline-block;
+					font-weight: $font-weight-bold;
+					letter-spacing: 1px;
+					margin-bottom: 0;
+					margin-right: $margin-item;
+					vertical-align: middle;
+
+					&:last-child {
+						margin-right: 0;
+					}
+
+				}
+
+			}
+
+			&.data {
+				table {
+					width: 100%;
+
+					p {
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+					tr {
+						td {
+							margin-bottom: $margin-table-row;
+
+							&:first-child {
+								padding-left: 0;
+								width: 66%;
+							}
+
+							&:last-child {
+								padding-right: 0;
+								text-align: right;
+								width: 33%;
+							}
+
+						}
+
+						&:last-child {
+							td {
+								margin-bottom: 0;
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+			&.user {
+				.vertical-align {
+					@include marginH(-$margin-5);
+
+					.middle {
+						@include paddingH($margin-5);
+
+						&.image-container {
+							width: 40%;
+
+							img {
+								width: 110px;
+							}
+
+						}
+
+						&.data-container {
+							width: 60%;
+						}
+
+					}
+
+					.description {
+						max-width: 175px;
+						max-height: 60px;
+						margin-bottom: 0.5rem;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+
+				}
+
+				.meta {
+					letter-spacing: 1px;
+				}
+
+			}
+
+		}
+
+		footer {
+			text-align: center;
+		}
+
+		&.public-campaign {
+			.background {
+				header,
+				.content,
+				footer {
+					border-left: 1px solid $color-block-border;
+					border-right: 1px solid $color-block-border;
+				}
+
+				header {
+					border-top: 1px solid $color-block-border;
+					border-top-left-radius: 5px;
+					border-top-right-radius: 5px;
+				}
+
+				footer {
+					border-bottom: 1px solid $color-block-border;
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+				}
+
+			}
+
+			.btn {
+				margin-bottom: $margin-input-small;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+		}
+
+	}
+
+}

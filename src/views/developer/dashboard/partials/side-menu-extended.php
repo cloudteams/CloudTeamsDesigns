@@ -14,17 +14,17 @@
 	<div class="member">
 		<div class="row">
 			<div class="vertical-align">
-					<div class="profile-picture col-xs-4 middle">
-						<div class="img-circle" style='background-image: url("[[../../../../img/profile-picture.jpg]]")'></div>
-					</div>
+				<div class="profile-picture col-xs-4 middle">
+					<div class="img-circle" style='background-image: url("[[../../../../img/profile-picture.jpg]]")'></div>
+				</div>
 
-					<div class="information col-xs-8 middle hide-minimized">
-						<ul>
-							<li class="meta big">Bobbyd123</li>
-							<li class="meta">Member</li>
-							<li><a href="#nowhere">Edit profile</a></li>
-						</ul>
-					</div>
+				<div class="information col-xs-8 middle hide-minimized">
+					<ul>
+						<li class="meta big">Bobbyd123</li>
+						<li class="meta">Member</li>
+						<li><a href="#nowhere">Edit profile</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -75,6 +75,13 @@
 						<a href="/views/developer/dashboard/projects/project/campaigns">
 							<i class="icon icon-campaign"></i>
 							<span>Campaigns</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="/views/developer/dashboard/projects/project/requirements">
+							<i class="icon icon-requirement"></i>
+							<span>Requirements</span>
 						</a>
 					</li>
 
