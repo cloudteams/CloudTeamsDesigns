@@ -16,7 +16,7 @@
 
 				<tr>
 					<td>
-						<i class="icon icon-edit"></i>
+						<i class="icon icon-time"></i>
 						<p>Last modified</p>
 					</td>
 					<td>
@@ -40,7 +40,7 @@
 
 				<tr>
 					<td>
-						<i class="icon icon-message"></i>
+						<i class="icon icon-requirement"></i>
 						<p>Related stories</p>
 					</td>
 					<td>

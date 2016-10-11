@@ -6,6 +6,7 @@
 
 		header {
 			position: relative;
+			padding: $margin-10 $margin-20 !important;
 
 			h2,
 			h3 {
@@ -177,7 +178,8 @@
 #create-scenario {
 	margin: $margin-30 0;
 
-	.article-header {
+	header.article-header {
+		padding: $margin-10 $margin-20 !important;
 
 		.icon {
 			float: left;
@@ -259,4 +261,16 @@
 		}
 	}
 
+}
+
+.developer-dashboard-project-requirements-scenario {
+	padding-top: 0 !important;
+
+	header.article-header {
+		padding: $margin-10 $margin-20 !important;
+
+		.header-small {
+			text-align: right;
+		}
+	}
 }

@@ -8,6 +8,7 @@
 				<?php include("../../../../partials/side-menu-extended.php"); ?>
 
 				<main>
+				
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
