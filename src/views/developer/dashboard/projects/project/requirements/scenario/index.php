@@ -1,6 +1,6 @@
 <?php include("../../../../partials/header.php"); ?>
 
-<section class="page page-developer-dashboard-project-requirements dashboard-page">
+<section class="page page-developer-dashboard-project-campaigns dashboard-page">
 	<div class="container">
 		<div class="content">
 
@@ -11,18 +11,19 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-requirement"></i>
-								<h1 class="header-large">Requirements</h1>
+								<i class="icon icon-campaign"></i>
+								<h1 class="header-large">Campaigns</h1>
+								<p class="header-medium secondary">Project title</p>
 							</div>
 
 							<div class="middle last">
-								<p class="project-counter">Project title</p>
+								<p class="project-counter"><span>2</span></p>
+								<p class="project-counter">Campaigns</p>
 							</div>
 						</div>
 					</header>
 
 					<?php include("content.php"); ?>
-
 				</main>
 			</div>
 

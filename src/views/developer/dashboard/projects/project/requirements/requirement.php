@@ -65,7 +65,7 @@
 		</div>
 
 		<footer>
-			<a href="/views/developer/dashboard/projects/project/requirements/scenario" class="btn">Show campaign</a>
+			<a href="/views/developer/dashboard/projects/project/requirements/scenario" class="btn">Show scenario</a>
 		</footer>
 	</div>
 </article>
