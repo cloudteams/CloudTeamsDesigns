@@ -1,6 +1,6 @@
 section.dashboard-page {
 	@extend .border-bottom;
-	background: $color-background;
+	background: $color-purple-solid;
 	@include paddingV($margin-20);
 	min-height: 100vh;
 	min-height: calc(100vh - 65px);
@@ -66,7 +66,7 @@ section.dashboard-page {
 						}
 
 						ul.side-menu-extended {
-							background: $color-background-quaternary;
+							background: $color-purple-imperial-darker;
 							margin-top: $margin-menu-item;
 							padding-top: $margin-menu-item;
 							padding-bottom: $margin-menu-item;
@@ -87,7 +87,7 @@ section.dashboard-page {
 	}
 
 	&:before {
-		background: $color-background-secondary;
+		background: $color-purple-imperial;
 		content: "";
 		display: block;
 		height: 100%;
@@ -125,12 +125,12 @@ section.dashboard-page {
 				}
 
 				> aside {
-					background: $color-background-secondary;
+					background: $color-purple-imperial;
 					@include paddingH($margin-menu);
 				}
 
 				> main {
-					background: $color-background;
+					background: $color-purple-solid;
 					min-height: 1000px;
 
 					> section {
@@ -153,8 +153,8 @@ section.dashboard-page {
 						}
 
 						p.header-medium.secondary {
-							border-left: 1px solid $color-lines;
-							color: $color-subtitle;
+							border-left: 1px solid $color-transparent-white;
+							color: $color-gray-clear;
 							display: inline-block;
 							margin-left: $margin-subtitle;
 							padding-left: $margin-subtitle;
@@ -170,7 +170,7 @@ section.dashboard-page {
 					}
 
 					.project-counter {
-						color: $color-shading-purple;
+						color: $color-purple-shading;
 						display: inline-block;
 						font-weight: $font-weight-bold;
 						margin: 0;
@@ -225,7 +225,7 @@ section.dashboard-page {
 		}
 
 		.complete-profile {
-			background: $color-pitch-purple;
+			background: $color-purple-pitch;
 			@include paddingV($margin-5);
 
 			.container {
@@ -234,14 +234,14 @@ section.dashboard-page {
 			}
 
 			p {
-				color: $color-text-secondary;
+				color: $color-white;
 				display: inline-block;
 				margin-bottom: 0;
 			}
 
 			a {
-				border-bottom: 1px solid $color-text-secondary;
-				color: $color-text-secondary;
+				border-bottom: 1px solid $color-white;
+				color: $color-white;
 				margin-left: $margin-p;
 			}
 

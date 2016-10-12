@@ -18,7 +18,7 @@ article.project {
 
 			a {
 				i {
-					color: $color-text;
+					color: $color-black-night;
 				}
 
 			}
@@ -85,7 +85,7 @@ article.project {
 	}
 
 	.background {
-		background: $color-block;
+		background: $color-white;
 		border-radius: 5px;
 		height: 100%;
 		position: relative;
@@ -96,7 +96,7 @@ article.project {
 		// }
 
 		.square {
-			background-color: $color-flashy-purple;
+			background-color: $color-purple-flashy;
 			margin: 0;
 			position: absolute;
 			right: 10px;
@@ -143,12 +143,12 @@ article.project {
 			header,
 			.content,
 			footer {
-				border-left: 1px solid $color-block-border;
-				border-right: 1px solid $color-block-border;
+				border-left: 1px solid $color-gray-smooth;
+				border-right: 1px solid $color-gray-smooth;
 			}
 
 			footer {
-				border-bottom: 1px solid $color-block-border;
+				border-bottom: 1px solid $color-gray-smooth;
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
 			}

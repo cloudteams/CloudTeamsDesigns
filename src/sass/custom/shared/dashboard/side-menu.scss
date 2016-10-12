@@ -3,7 +3,7 @@
 
 	header {
 		.page-subtitle {
-			color: $color-menu-items;
+			color: $color-gray-clear;
 			letter-spacing: 1px;
 		}
 
@@ -69,11 +69,11 @@
 				a {
 					display: block;
 					position: relative;
-					color: $color-shading-purple;
+					color: $color-purple-shading;
 
 					&.incoming {
 						&:after {
-							background: $color-deep-red;
+							background: $color-red-deep;
 							border-radius: 50%;
 							content: '';
 							display: inline-block;
@@ -133,7 +133,7 @@
 					}
 
 					ul.side-menu-extended {
-						background: $color-background-quaternary;
+						background: $color-purple-imperial-darker;
 						margin-top: $margin-menu-item;
 						padding: $margin-menu;
 
@@ -156,8 +156,8 @@
 									display: none;
 									padding: 0 $margin-input-small;
 									z-index: -1;
-									background: $color-background-quaternary;
-									color: $color-shading-purple;
+									background: $color-purple-imperial-darker;
+									color: $color-purple-shading;
 									font-size: $font-size-button;
 									position: absolute;
 									left: 0px;
@@ -219,21 +219,21 @@
 			width: 100%;
 
 			.profile-completion {
-				border-bottom: 1px solid $color-lines;
-				border-top: 1px solid $color-lines;
+				border-bottom: 1px solid $color-transparent-white;
+				border-top: 1px solid $color-transparent-white;
 				@include paddingV($margin-block);
 
 				.progress-container {
 					margin-bottom: $margin-header-extra-small;
 
 					.percentage {
-						color: $color-menu-items;
+						color: $color-gray-clear;
 					}
 
 				}
 
 				p.update-profile {
-					color: $color-shading-purple;
+					color: $color-purple-shading;
 					font-family: $font-header-secondary;
 					font-size: $font-size-header-small;
 					font-weight: $font-weight-bold;

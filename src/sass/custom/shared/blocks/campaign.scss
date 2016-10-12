@@ -19,7 +19,7 @@ article.campaign {
 
 			a {
 				i {
-					color: $color-text;
+					color: $color-black-night;
 				}
 
 			}
@@ -131,18 +131,18 @@ article.campaign {
 			header,
 			.content,
 			footer {
-				border-left: 1px solid $color-block-border;
-				border-right: 1px solid $color-block-border;
+				border-left: 1px solid $color-gray-smooth;
+				border-right: 1px solid $color-gray-smooth;
 			}
 
 			header {
-				border-top: 1px solid $color-block-border;
+				border-top: 1px solid $color-gray-smooth;
 				border-top-left-radius: 5px;
 				border-top-right-radius: 5px;
 			}
 
 			footer {
-				border-bottom: 1px solid $color-block-border;
+				border-bottom: 1px solid $color-gray-smooth;
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
 			}

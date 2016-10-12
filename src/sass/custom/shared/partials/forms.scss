@@ -41,9 +41,9 @@ button {
 input,
 textarea {
 	background: none;
-	border: 1px solid $color-input-border;
+	border: 1px solid $color-gray-clear;
 	border-radius: 5px;
-	color: $color-text;
+	color: $color-black-night;
 	font-size: $font-size-body;
 	padding: $margin-input-small $margin-input;
 	transition: border-color $transition-time-2 $easing-1;
@@ -52,9 +52,9 @@ textarea {
 
 	&:not(.input-search) {
 		&:focus {
-			border-color: $color-input-hover;
-			box-shadow: 0 0 1px 1px $color-checked !important;
-			background-color: $color-soft-gray;
+			border-color: $color-purple-flashy;
+			box-shadow: 0 0 1px 1px $color-purple-flashy !important;
+			background-color: $color-gray-soft;
 		}
 
 	}
@@ -70,7 +70,7 @@ input {
 
 		+ span {
 			background-color: none;
-			border: 1px solid $color-menu-items;
+			border: 1px solid $color-gray-clear;
 			cursor: pointer;
 			display: inline-block;
 			width: 15px;
@@ -103,7 +103,7 @@ input {
 
 		&:focus {
 			+ span {
-				border-color: $color-checked;
+				border-color: $color-purple-flashy;
 			}
 
 		}
@@ -125,7 +125,7 @@ input {
 
 			&:before {
 				bottom: 2px;
-				background: $color-checked;
+				background: $color-purple-flashy;
 				border-radius: 50%;
 				left: 2px;
 				top: 2px;
@@ -142,7 +142,7 @@ input {
 
 			&:before {
 				bottom: 2px;
-				background: $color-checked;
+				background: $color-purple-flashy;
 				border-radius: 3px;
 				left: 2px;
 				top: 2px;
@@ -157,9 +157,9 @@ input {
 
 select {
 	background: none;
-	border: 1px solid $color-menu-items;
+	border: 1px solid $color-gray-clear;
 	border-radius: 5px;
-	color: $color-text;
+	color: $color-black-night;
 	font-size: $font-size-body;
 	letter-spacing: 1px;
 	-moz-appearance: none;
@@ -176,13 +176,13 @@ select {
 	}
 
 	option {
-		color: $color-menu-items;
+		color: $color-gray-clear;
 	}
 
 	&:not(.projects-dropdown) {
 		&:focus {
-			border-color: $color-input-hover;
-			box-shadow: 0 0 1px 1px $color-checked !important;
+			border-color: $color-purple-flashy;
+			box-shadow: 0 0 1px 1px $color-purple-flashy !important;
 		}
 
 	}
@@ -206,7 +206,7 @@ select {
 	&.focused {
 		.icon {
 			color: $color-white;
-			background-color: $color-flashy-purple;
+			background-color: $color-purple-flashy;
 			transform: translate3d(0, -19px, 0);
 		}
 
@@ -233,7 +233,7 @@ select {
 		height: 120px;
 		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);
 		display: block;
-		border-bottom: 1px solid $color-smooth-gray;
+		border-bottom: 1px solid $color-gray-smooth;
 		pointer-events: none;
 	}
 

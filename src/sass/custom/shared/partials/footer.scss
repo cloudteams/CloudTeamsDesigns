@@ -6,7 +6,7 @@ footer#footer {
 		&.social-media {
 			li {
 				a {
-					color: $color-clear-gray;
+					color: $color-gray-clear;
 					transition: color $transition-time-2 $easing-1;
 
 					i {
@@ -18,7 +18,7 @@ footer#footer {
 					}
 
 					&:hover {
-						color: $color-text;
+						color: $color-black-night;
 						transition: color $transition-time-1 $easing-1;
 					}
 
@@ -33,11 +33,11 @@ footer#footer {
 	ul {
 		li {
 			a {
-				color: $color-text;
+				color: $color-black-night;
 				position: relative;
 
 				&:after {
-					background: $color-text;
+					background: $color-black-night;
 					bottom: -1px;
 					content: "";
 					display: inline-block;
@@ -64,15 +64,15 @@ footer#footer {
 	}
 
 	&.footer-public {
-		background: $color-footer-public;
+		background: $color-gray-soft;
 
 		ul {
 			li {
 				a {
-					color: $color-text;
+					color: $color-black-night;
 
 					&:after {
-						background: $color-text;
+						background: $color-black-night;
 					}
 
 				}
@@ -82,10 +82,10 @@ footer#footer {
 			&.social-media {
 				li {
 					a {
-						color: $color-clear-gray;
+						color: $color-gray-clear;
 
 						&:hover {
-							color: $color-text;
+							color: $color-black-night;
 						}
 
 					}
@@ -107,19 +107,19 @@ footer#footer {
 
 	&.footer-dashboard-developer,
 	&.footer-dashboard-user {
-		background: $color-footer-dev-dashboard;
+		background: $color-purple-pitch;
 
 		ul {
 			li {
 				a {
-					color: $color-shading-purple;
+					color: $color-purple-shading;
 
 					&:after {
-						background: $color-shading-purple;
+						background: $color-purple-shading;
 					}
 
 					&:hover {
-						color: $color-text-secondary;
+						color: $color-white;
 					}
 
 				}

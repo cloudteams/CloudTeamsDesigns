@@ -61,7 +61,7 @@
 			.row {
 				> div {
 					&:first-child {
-						border-right: 1px solid $color-block-lines;
+						border-right: 1px solid $color-gray-clear;
 					}
 
 				}
@@ -76,7 +76,7 @@
 					margin-bottom: 0;
 
 					&:last-child {
-						color: $color-flashy-purple;
+						color: $color-purple-flashy;
 						font-size: 70px;
 					}
 
@@ -88,7 +88,7 @@
 
 		&.connectors {
 			.flashy {
-				color: $color-flashy-purple;
+				color: $color-purple-flashy;
 				margin-bottom: $margin-5;
 			}
 		}
@@ -113,7 +113,7 @@
 			.row {
 				> div {
 					&:not(:last-child) {
-						border-right: 1px solid $color-block-lines;
+						border-right: 1px solid $color-gray-clear;
 					}
 
 				}
@@ -128,7 +128,7 @@
 					margin-bottom: 0;
 
 					&:last-child {
-						color: $color-flashy-purple;
+						color: $color-purple-flashy;
 						font-size: 70px;
 					}
 
@@ -140,7 +140,7 @@
 
 		&.documents {
 			.flashy {
-				color: $color-flashy-purple;
+				color: $color-purple-flashy;
 				margin-bottom: $margin-5;
 			}
 		}
@@ -184,7 +184,7 @@
 
 		&.customer-ideas {
 			.flashy {
-				color: $color-flashy-purple;
+				color: $color-purple-flashy;
 				margin-bottom: $margin-5;
 			}
 		}

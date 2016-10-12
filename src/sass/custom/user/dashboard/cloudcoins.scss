@@ -16,7 +16,7 @@
 			text-align: center;
 
 			i {
-				color: $color-button 
+				color: $color-purple-flashy 
 			}
 		}
 
@@ -24,18 +24,18 @@
 			border-radius: $margin-5;
 			padding: $margin-10;
 			background-color: $color-white;
-			color: $color-text;
+			color: $color-black-night;
 			margin-top: $margin-10;
 
 			a {
-				color: $color-text;
+				color: $color-black-night;
 			}
 		}
 
 		.cloudcoins-content-row {
 			margin-top: -5px;
 			padding: $margin-5 0; // $margin-10;
-			color: $color-text;
+			color: $color-black-night;
 			background-color: $color-white;
 			border-bottom-left-radius: $margin-5;
 			border-bottom-right-radius: $margin-5;
@@ -50,19 +50,19 @@
 		}
 
 		.cloudcoins-row-header {
-			color: $color-clear-gray;
+			color: $color-gray-clear;
 			height: 50px;
 			padding-top: $margin-10;
 			line-height: 160%;
-			border-bottom: 1px solid $color-clear-gray;
-			border-top: 1px solid $color-clear-gray;		
+			border-bottom: 1px solid $color-gray-clear;
+			border-top: 1px solid $color-gray-clear;		
 		}
 
 		.cloudcoins-row-content {
 			height: 50px;
 			padding: $margin-10 0;
 			line-height: 160%;
-			border-bottom: 1px solid $color-clear-gray;
+			border-bottom: 1px solid $color-gray-clear;
 		}
 
 		.cloudcoins-row-total {
@@ -113,7 +113,7 @@
 			top: 10px;
 
 			a {
-				color: $color-flashy-purple;
+				color: $color-purple-flashy;
 			}
 		}
 
@@ -128,7 +128,7 @@
 		}
 
 		.cloudcoins-header {
-			background-color: $color-soft-gray;
+			background-color: $color-gray-soft;
 			padding: $margin-10;
 			border-top-right-radius: $margin-5;
 			border-top-left-radius: $margin-5;
@@ -149,7 +149,7 @@
 
 	.modal-dialog.medium {
 		min-width: 800px;
-		color: $color-night-black;
+		color: $color-black-night;
 
 		.meta {
 			margin-top: $margin-10;
@@ -166,7 +166,7 @@
 
 		.form-group.required .control-label:after { 
 		   content:"*";
-		   color: $color-required;
+		   color: $color-red-deep;
 		}
 
 		.modal-body {
@@ -175,12 +175,12 @@
 		}
 
 		.input-container a {
-			color: $color-flashy-purple;
+			color: $color-purple-flashy;
 		}
 
 		.form-group.required .control-label:after { 
 		   content:"*";
-		   color: $color-required;
+		   color: $color-red-deep;
 		}
 
 		.add-image-button {
@@ -188,7 +188,7 @@
 			height: 60px;
 			border-radius: 50%;
 			margin: -4px auto $margin-10;
-			background-color: $color-soft-gray;
+			background-color: $color-gray-soft;
 		}
 
 		.fieldset-upload {
@@ -197,7 +197,7 @@
 		}
 
 		.file-upload-image {
-			border: 2px dashed $color-input-border;
+			border: 2px dashed $color-gray-clear;
 			width: 100%;
 			height: 270px;
 			text-align: center;
@@ -206,8 +206,8 @@
 			transition: border $transition-time-2 $easing-1;
 
 			&:hover {
-				border: 3px solid $color-soft-gray;
-				background: $color-soft-gray;
+				border: 3px solid $color-gray-soft;
+				background: $color-gray-soft;
 			}
 
 		}

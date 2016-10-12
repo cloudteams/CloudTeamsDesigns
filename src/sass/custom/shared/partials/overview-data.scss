@@ -1,12 +1,12 @@
 .overview-data {
 	color: $color-white;
-	border-bottom: 1px solid $color-lines;
+	border-bottom: 1px solid $color-transparent-white;
 	margin-bottom: $margin-block-bottom;
 	padding-bottom: $margin-block-bottom;
 	@include antialiasText();
 
 	h2.header-medium.secondary {
-		color: $color-text-secondary;
+		color: $color-white;
 		margin-bottom: $margin-header;
 		text-align: center;
 	}
@@ -30,7 +30,7 @@
 				}
 
 				p {
-					color: $color-text-secondary;
+					color: $color-white;
 					display: inline-block;
 					vertical-align: middle;
 				}

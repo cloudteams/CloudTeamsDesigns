@@ -49,7 +49,7 @@ article.message {
 		}
 
 		header {
-			border-bottom: 1px solid $color-smooth-gray;
+			border-bottom: 1px solid $color-gray-smooth;
 			padding: $margin-10 $margin-20;
 
 			@include clearfix();
@@ -62,14 +62,14 @@ article.message {
 
 			.time-data {
 				float: right;
-				color: $color-clear-gray;
+				color: $color-gray-clear;
 			}
 		}
 
 		&:before {
 			border-top: 8px solid transparent;
 			border-bottom: 8px solid transparent;
-			border-right: 13px solid $color-block;
+			border-right: 13px solid $color-white;
 			content: "";
 			left: -6px;
 			margin-top: -8px;
@@ -92,7 +92,7 @@ article.message {
 
 			.comment-trigger {
 				&:hover {
-					color: $color-text;
+					color: $color-black-night;
 				}
 
 			}
@@ -104,30 +104,30 @@ article.message {
 					float: right;
 
 					p {
-						color: $color-flashy-purple;
+						color: $color-purple-flashy;
 					}
 
 					.reply-button {
-						color: $color-button;
+						color: $color-purple-flashy;
 						cursor: pointer;
 					}
 
 					.like-button {
-						color: $color-button;
+						color: $color-purple-flashy;
 						cursor: pointer;
 						user-select: none;
 						transition: color $transition-time-1 $easing-1;
 
 						i {
-							// color: $color-smooth-gray;
+							// color: $color-gray-smooth;
 							transition: color $transition-time-1 $easing-1;
 						}
 
 						&.active {
-							color: $color-deep-red;
+							color: $color-red-deep;
 
 							i {
-								color: $color-deep-red;
+								color: $color-red-deep;
 								animation: pop $transition-time-2 $easing-1;
 							}
 
@@ -203,7 +203,7 @@ article.message {
 		&:before {
 			border-left: 8px solid transparent;
 			border-right: 8px solid transparent;
-			border-bottom: 13px solid $color-block;
+			border-bottom: 13px solid $color-white;
 			content: "";
 			left: 17px;
 			//margin-top: -8px;
@@ -248,7 +248,7 @@ article.reply {
 
 	// .message-form {
 	textarea {
-		border: 1px solid $color-clear-gray;
+		border: 1px solid $color-gray-clear;
 		width: 100%;
 		// height: $line-height * $font-size-4 * 7;
 		background-color: $color-white;

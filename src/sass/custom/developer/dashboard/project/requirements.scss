@@ -6,7 +6,7 @@
 
 		header {
 			position: relative;
-			padding: $margin-10 $margin-20 !important;
+			padding: $margin-20 !important;
 
 			h2,
 			h3 {
@@ -22,7 +22,7 @@
 
 				a {
 					i {
-						color: $color-text;
+						color: $color-black-night;
 					}
 
 				}
@@ -143,18 +143,18 @@
 				header,
 				.content,
 				footer {
-					border-left: 1px solid $color-block-border;
-					border-right: 1px solid $color-block-border;
+					border-left: 1px solid $color-gray-smooth;
+					border-right: 1px solid $color-gray-smooth;
 				}
 
 				header {
-					border-top: 1px solid $color-block-border;
+					border-top: 1px solid $color-gray-smooth;
 					border-top-left-radius: 5px;
 					border-top-right-radius: 5px;
 				}
 
 				footer {
-					border-bottom: 1px solid $color-block-border;
+					border-bottom: 1px solid $color-gray-smooth;
 					border-bottom-left-radius: 5px;
 					border-bottom-right-radius: 5px;
 				}
@@ -179,7 +179,7 @@
 	margin: $margin-30 0;
 
 	header.article-header {
-		padding: $margin-10 $margin-20 !important;
+		padding: $margin-20 !important;
 
 		.icon {
 			float: left;
@@ -199,7 +199,7 @@
 
 	.form-group.required .control-label:after { 
 	   content:"*";
-	   color: $color-required;
+	   color: $color-red-deep;
 	}
 
 	.add-image-button {
@@ -207,7 +207,7 @@
 		height: 60px;
 		border-radius: 50%;
 		margin: -4px auto $margin-10;
-		background-color: $color-soft-gray;
+		background-color: $color-gray-soft;
 	}
 
 	.fieldset-upload {
@@ -215,7 +215,7 @@
 	}
 
 	.file-upload-image {
-		border: 2px dashed $color-input-border;
+		border: 2px dashed $color-gray-clear;
 		max-width: 400px;
 		width: 100%;
 		height: 200px;
@@ -225,8 +225,8 @@
 		transition: border $transition-time-2 $easing-1;
 
 		&:hover {
-			border: 3px dashed $color-soft-gray;
-			background: $color-soft-gray;
+			border: 3px dashed $color-gray-soft;
+			background: $color-gray-soft;
 		}
 
 		p.meta.big {
@@ -237,7 +237,7 @@
 
 	.file-upload-image .icon {
 		position: relative;
-		color: $color-clear-gray;
+		color: $color-gray-clear;
 		font-size: 60px;
 	}
 
@@ -267,7 +267,7 @@
 	padding-top: 0 !important;
 
 	header.article-header {
-		padding: $margin-10 $margin-20 !important;
+		padding: $margin-20 !important;
 
 		.header-small {
 			text-align: right;

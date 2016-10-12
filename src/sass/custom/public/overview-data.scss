@@ -1,5 +1,5 @@
 .public-overview-data {
-	background: $color-block-header;
+	background: $color-gray-soft;
 	margin-bottom: $margin-section;
 	@include paddingV($margin-block-bottom);
 
@@ -102,7 +102,7 @@
 
 		.btn-grey {
 			&:hover {
-				background: $color-smooth-gray;
+				background: $color-gray-smooth;
 				cursor: default;
 			}
 

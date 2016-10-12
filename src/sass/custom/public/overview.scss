@@ -14,14 +14,14 @@
 		z-index: 0;
 
 		p {
-			color: $color-text-secondary !important;
+			color: $color-white !important;
 			font-weight: $font-weight-bold;
 			letter-spacing: $letter-spacing-1;
 			margin: 0;
 		}
 
 		&:before {
-			background: $color-imperial-purple;
+			background: $color-purple-imperial;
 			content: "";
 			display: inline-block;
 			height: 100%;
@@ -51,7 +51,7 @@
 		position: relative;
 
 		&:after {
-			background: $color-border-bottom;
+			background: $color-gray-smooth;
 			bottom: 0;
 			top: auto;
 		}
@@ -144,7 +144,7 @@
 			position: relative;
 
 			&:after {
-				background: $color-border-bottom;
+				background: $color-gray-smooth;
 				top: 0;
 			}
 
@@ -153,7 +153,7 @@
 				margin-bottom: $margin-header;
 
 				&:after {
-					background: $color-border-bottom;
+					background: $color-gray-smooth;
 					bottom: 0;
 					top: auto;
 				}
@@ -195,7 +195,7 @@
 			position: relative;
 
 			&:after {
-				background: $color-border-bottom;
+				background: $color-gray-smooth;
 				top: 0;
 			}
 

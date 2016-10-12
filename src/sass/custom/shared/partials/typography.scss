@@ -3,14 +3,14 @@
 .header-medium,
 .header-small,
 .header-extra-small {
-	color: $color-text-secondary;
+	color: $color-white;
 	font-weight: $font-weight-bold;
 	margin: 0;
 	text-transform: uppercase;
 	line-height: $line-height-headers;
 
 	&.public {
-		color: $color-text;
+		color: $color-black-night;
 	}
 
 }
@@ -26,7 +26,7 @@
 	letter-spacing: $letter-spacing-3;
 
 	&.secondary {
-		color: $color-text;
+		color: $color-black-night;
 	}
 
 }
@@ -36,7 +36,7 @@
 	letter-spacing: $letter-spacing-2;
 
 	&.secondary {
-		color: $color-text;
+		color: $color-black-night;
 		font-family: $font-header-secondary;
 		letter-spacing: $letter-spacing-1;
 		text-transform: none;
@@ -56,7 +56,7 @@
 }
 
 .header-extra-small {
-	color: $color-text;
+	color: $color-black-night;
 	font-family: $font-header-secondary;
 	font-size: $font-size-body;
 	letter-spacing: $letter-spacing-1;
@@ -64,7 +64,7 @@
 }
 
 .header-sidebar {
-	color: $color-menu-items;
+	color: $color-gray-clear;
 	font-family: $font-header-secondary;
 	font-weight: $font-weight-regular;
 	font-size: $font-size-body;
@@ -72,7 +72,7 @@
 }
 
 .form-title {
-	color: $color-text;
+	color: $color-black-night;
 	text-transform: uppercase;
 	font-size: $font-size-header-extra-small;
 	font-weight: $font-weight-semibold;
@@ -89,5 +89,5 @@
 }
 
 .article-subtitle {
-	color: $color-subtitle;
+	color: $color-gray-clear;
 }

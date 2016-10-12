@@ -1,5 +1,4 @@
 /* GLOBAL JS */
-
 import 'babel-polyfill';
 import 'jquery';
 import 'bootstrap';

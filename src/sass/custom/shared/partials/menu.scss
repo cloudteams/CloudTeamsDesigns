@@ -1,6 +1,6 @@
 body {
 	> header {
-		background: $color-flashy-purple;
+		background: $color-purple-flashy;
 		height: 65px;
 
 		&.no-menu {
@@ -43,7 +43,7 @@ body {
 						position: relative;
 
 						ul.submenu {
-							background: $color-flashy-purple;
+							background: $color-purple-flashy;
 							left: 0;
 							opacity: 0;
 							padding: 0 $margin-menu-item $margin-menu-item;
@@ -83,7 +83,7 @@ body {
 						}
 
 						a {
-							color: $color-candy-purple;
+							color: $color-purple-candy;
 
 							&:focus,
 							&:hover {
@@ -91,7 +91,7 @@ body {
 							}
 
 							&.active {
-								color: $color-candy-purple
+								color: $color-purple-candy
 							}
 
 						}
@@ -111,13 +111,13 @@ body {
 						&.search {
 							input.input-search {
 								color: $color-white;
-								border-color: $color-candy-purple;
-								@include placeholderColor($color-candy-purple);
+								border-color: $color-purple-candy;
+								@include placeholderColor($color-purple-candy);
 								padding-bottom: 8px;
 							}
 
 							.icon-search {
-								color: $color-candy-purple;
+								color: $color-purple-candy;
 								cursor: pointer;
 								position: absolute;
 								right: 10px;
@@ -142,7 +142,7 @@ body {
 							}
 
 							&:before {
-								background-color: $color-candy-purple;
+								background-color: $color-purple-candy;
 								content: "";
 								display: inline-block;
 								height: 30px;

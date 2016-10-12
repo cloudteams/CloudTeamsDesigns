@@ -43,7 +43,7 @@ article.blogpost {
 				display: block;
 
 				&:after {
-					background: $color-flashy-purple;
+					background: $color-purple-flashy;
 					border-top-left-radius: 5px;
 					border-top-right-radius: 5px;
 					content: "";
@@ -83,7 +83,7 @@ article.blogpost {
 
 				a {
 					i {
-						color: $color-text;
+						color: $color-black-night;
 					}
 
 				}
@@ -111,9 +111,9 @@ article.blogpost {
 
 	&.public-blogpost {
 		.background {
-			border-bottom: 1px solid $color-block-border;
-			border-left: 1px solid $color-block-border;
-			border-right: 1px solid $color-block-border;
+			border-bottom: 1px solid $color-gray-smooth;
+			border-left: 1px solid $color-gray-smooth;
+			border-right: 1px solid $color-gray-smooth;
 		}
 
 	}

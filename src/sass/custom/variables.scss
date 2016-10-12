@@ -1,53 +1,26 @@
-// color pallette
-$color-white                  : #ffffff;
-$color-flashy-purple          : #7d3c8c;
-$color-flashy-purple-highlight: #884c9b;
-$color-night-black            : #424242;
-$color-clear-gray             : #b1b1b1;
-$color-smooth-gray            : #e4e4e4;
-$color-grass-green            : #1ed761;
-$color-grass-green-highlight  : #29e568;
-$color-deep-red               : #ff5071;
-$color-solid-purple           : #411f48;
-$color-imperial-purple        : #38173f;
-$color-imperial-purple-darker : #311437;
-$color-pitch-purple           : #28102d;
-$color-soft-gray              : #f7f6f6;
-$color-shading-purple         : #afa7b0;
-$color-candy-purple           : #cc99cc;
-$color-transparent-white      : rgba(255, 255, 255, 0.15);
-$color-transparent-black      : rgba(0, 0, 0, 0.15);
+// ---------------------------------
+// Colors //
+// ---------------------------------
 
-$color-background             : $color-solid-purple;
-$color-background-secondary   : $color-imperial-purple;
-// $color-background-tertiary : $color-pitch-purple;
-$color-background-quaternary  : $color-imperial-purple-darker;
-$color-block-header           : $color-soft-gray;
-$color-subtitle               : $color-clear-gray;
-$color-menu                   : $color-flashy-purple;
-$color-highlight              : $color-clear-gray;
-$color-action-text            : $color-flashy-purple;
-$color-menu-items             : $color-clear-gray;
-$color-button                 : $color-flashy-purple;
-$color-button-hover           : $color-flashy-purple-highlight;
-$color-input                  : $color-white;
-$color-input-border           : $color-clear-gray;
-$color-input-hover            : $color-flashy-purple;
-$color-checked                : $color-flashy-purple;
-$color-block-lines            : $color-clear-gray;
-$color-lines                  : $color-transparent-white;
-$color-block                  : $color-white;
-$color-block-border           : $color-smooth-gray;
-$color-success                : $color-grass-green;
-$color-success-hover          : $color-grass-green-highlight;
-$color-decline                : $color-flashy-purple;
-$color-like                   : $color-deep-red;
-$color-required				  : $color-deep-red;
-$color-text                   : $color-night-black;
-$color-text-secondary         : $color-white;
-$color-footer-public          : $color-soft-gray;
-$color-footer-dev-dashboard   : $color-pitch-purple;
-$color-border-bottom          : $color-smooth-gray;
+$color-black-night            : #424242;
+$color-gray-clear             : #b1b1b1;
+$color-gray-smooth            : #e4e4e4;
+$color-gray-soft              : #f7f6f6;
+$color-green-grass            : #1ed761;
+$color-green-grass-highlight  : #29e568;
+$color-purple-candy           : #cc99cc;
+$color-purple-flashy          : #7d3c8c;
+$color-purple-flashy-highlight: #884c9b;
+$color-purple-imperial        : #38173f;
+$color-purple-imperial-darker : #311437;
+$color-purple-pitch           : #28102d;
+$color-purple-shading         : #afa7b0;
+$color-purple-solid           : #411f48;
+$color-red-deep               : #ff5071;
+$color-white                  : #ffffff;
+
+$color-transparent-black      : rgba(0, 0, 0, 0.15);
+$color-transparent-white      : rgba(255, 255, 255, 0.15);
 
 // fonts
 $font-body                    : Corbel, Helvetica, Arial, sans-serif;

@@ -1,5 +1,5 @@
 .block {
-	background: $color-block;
+	background: $color-white;
 	border-radius: 5px;
 	padding: $margin-block;
 
@@ -25,7 +25,7 @@
 	@include paddingH($margin-block-small);
 
 	.background {
-		background: $color-block;
+		background: $color-white;
 		border-radius: 5px;
 		padding: $margin-block;
 	}
@@ -67,7 +67,7 @@
 
 	header,
 	.content {
-		border-bottom: 1px solid $color-block-border;
+		border-bottom: 1px solid $color-gray-smooth;
 	}
 
 	.content {
@@ -92,7 +92,7 @@
 
 		header,
 		.content {
-			border-bottom: 1px solid $color-block-border;
+			border-bottom: 1px solid $color-gray-smooth;
 		}
 
 		.content {
@@ -112,7 +112,7 @@
 	@include paddingH($margin-block-small);
 
 	.background {
-		background: $color-block;
+		background: $color-white;
 		border-radius: 5px;
 	}
 
@@ -133,8 +133,8 @@
 	}
 
 	header {
-		background: $color-block-header;
-		border-bottom: 1px solid $color-block-border;
+		background: $color-gray-soft;
+		border-bottom: 1px solid $color-gray-smooth;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		padding: $margin-block-extra-small $margin-block-small;
@@ -154,7 +154,7 @@
 
 				p {
 					span {
-						color: $color-flashy-purple;
+						color: $color-purple-flashy;
 					}
 
 				}
@@ -200,7 +200,7 @@
 	@include paddingH($margin-block-small);
 
 	.background {
-		background: $color-block;
+		background: $color-white;
 		border-radius: 5px;
 	}
 

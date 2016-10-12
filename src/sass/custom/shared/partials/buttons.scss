@@ -1,9 +1,9 @@
 .btn {
 	@include antialiasText();
-	background: $color-button;
-	border: 2px solid $color-button;
+	background: $color-purple-flashy;
+	border: 2px solid $color-purple-flashy;
 	border-radius: 5px;
-	color: $color-text-secondary;
+	color: $color-white;
 	font-size: $font-size-button;
 	font-weight: $font-weight-bold;
 	letter-spacing: 2px;
@@ -20,22 +20,22 @@
 
 	&.secondary {
 		box-sizing: content-box;
-		border: 2px solid $color-button;
+		border: 2px solid $color-purple-flashy;
 		background-color: $color-white;
-		color: $color-button;
+		color: $color-purple-flashy;
 
 		&:hover {
 			background-color: $color-white;
-			color: $color-button-hover;
+			color: $color-purple-flashy-highlight;
 		}
 
 	}
 
 	&:hover,
 	&:focus {
-		background: $color-button-hover;
-		border-color: $color-button-hover;
-		color: $color-text-secondary;
+		background: $color-purple-flashy-highlight;
+		border-color: $color-purple-flashy-highlight;
+		color: $color-white;
 		transition: background $transition-time-1 $easing-1, color $transition-time-1 $easing-1;
 	}
 
@@ -45,52 +45,52 @@
 	@extend .btn;
 	@include antialiasText('subpixelantialiased');
 	background: none;
-	color: $color-button;
+	color: $color-purple-flashy;
 
 	&:hover {
-		background: $color-button;
-		color: $color-text-secondary;
+		background: $color-purple-flashy;
+		color: $color-white;
 	}
 
 }
 
 .btn-green {
 	@extend .btn;
-	background: $color-success;
-	border-color: $color-success;
+	background: $color-green-grass;
+	border-color: $color-green-grass;
 	padding-left: $margin-button-V;
 
 	&:hover {
-		background: $color-success-hover;
-		border-color: $color-success-hover;
-		color: $color-text-secondary;
+		background: $color-green-grass-highlight;
+		border-color: $color-green-grass-highlight;
+		color: $color-white;
 	}
 
 }
 
 .btn-grey {
 	@extend .btn;
-	background: $color-smooth-gray;
-	border-color: $color-smooth-gray;
-	color: $color-highlight;
+	background: $color-gray-smooth;
+	border-color: $color-gray-smooth;
+	color: $color-gray-clear;
 
 	&:hover {
-		background: $color-smooth-gray;
-		border-color: $color-smooth-gray;
-		color: $color-highlight !important;
+		background: $color-gray-smooth;
+		border-color: $color-gray-smooth;
+		color: $color-gray-clear !important;
 	}
 
 }
 
 .btn-confirm {
 	@extend .btn;
-	background: $color-success;
-	border-color: $color-success;
+	background: $color-green-grass;
+	border-color: $color-green-grass;
 
 	&:hover {
-		background: $color-success-hover;
-		border-color: $color-success-hover;
-		color: $color-text-secondary;
+		background: $color-green-grass-highlight;
+		border-color: $color-green-grass-highlight;
+		color: $color-white;
 	}
 
 }
@@ -98,21 +98,21 @@
 .btn-decline {
 	@extend .btn;
 	background: none;
-	border-color: $color-decline;
-	color: $color-decline;
+	border-color: $color-purple-flashy;
+	color: $color-purple-flashy;
 
 	&:hover {
-		background: $color-decline;
-		color: $color-text-secondary;
+		background: $color-purple-flashy;
+		color: $color-white;
 	}
 
 }
 
 .btn-download {
-	color: $color-button;
+	color: $color-purple-flashy;
 
 	&:hover {
-		color: $color-button;
+		color: $color-purple-flashy;
 	}
 
 }
@@ -122,8 +122,8 @@
 	text-align: center;
 
 	.upload-image {
-		background: $color-text-secondary;
-		border: 3px solid $color-block-border;
+		background: $color-white;
+		border: 3px solid $color-gray-smooth;
 		border-radius: 5px;
 		height: 100px;
 		margin-bottom: $margin-item;
@@ -139,15 +139,15 @@
 			margin: 0;
 			padding: 0;
 			font-size: $font-size-1;
-			color: $color-button;
+			color: $color-purple-flashy;
 		}
 
 	}
 
 	&:hover {
 		.upload-image {
-			background: $color-button;
-			border-color: $color-button;
+			background: $color-purple-flashy;
+			border-color: $color-purple-flashy;
 
 			.icon {
 				color: $color-white;

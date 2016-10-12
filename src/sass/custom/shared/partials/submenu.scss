@@ -14,11 +14,11 @@
 		padding-bottom: $margin-5;
 		text-transform: uppercase;
 		transition: all $transition-time-2 $easing-1;
-		color: $color-shading-purple;
+		color: $color-purple-shading;
 
 		&.active {
-			color: $color-text-secondary;
-			border-bottom: 3px solid $color-flashy-purple;
+			color: $color-white;
+			border-bottom: 3px solid $color-purple-flashy;
 		}
 
 	}
@@ -26,7 +26,7 @@
 	&.public {
 		li {
 			&.active {
-				color: $color-text;
+				color: $color-black-night;
 			}
 
 		}

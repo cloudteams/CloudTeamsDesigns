@@ -1,5 +1,5 @@
 article.idea {
-	border: 1px solid $color-block-border;
+	border: 1px solid $color-gray-smooth;
 	margin-bottom: $margin-20;
 	padding: 0;
 	position: relative;
@@ -55,7 +55,7 @@ article.idea {
 
 		.comment-trigger {
 			&:hover {
-				color: $color-text;
+				color: $color-black-night;
 			}
 
 		}
@@ -67,30 +67,30 @@ article.idea {
 				float: right;
 
 				p {
-					color: $color-flashy-purple;
+					color: $color-purple-flashy;
 				}
 
 				.reply-button {
-					color: $color-button;
+					color: $color-purple-flashy;
 					cursor: pointer;
 				}
 
 				.like-button {
-					color: $color-button;
+					color: $color-purple-flashy;
 					cursor: pointer;
 					user-select: none;
 					transition: color $transition-time-1 $easing-1;
 
 					i {
-						// color: $color-smooth-gray;
+						// color: $color-gray-smooth;
 						transition: color $transition-time-1 $easing-1;
 					}
 
 					&.active {
-						color: $color-deep-red;
+						color: $color-red-deep;
 
 						i {
-							color: $color-deep-red;
+							color: $color-red-deep;
 							animation: pop $transition-time-2 $easing-1;
 						}
 

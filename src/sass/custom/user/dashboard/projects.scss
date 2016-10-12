@@ -24,7 +24,7 @@
 
 	.recommended-projects {
 		h2 {
-			color: $color-text-secondary;
+			color: $color-white;
 			margin-bottom: $margin-header-small;
 		}
 
@@ -63,13 +63,13 @@
 					tr {
 						td {
 							p {
-								border-bottom: 1px solid $color-text;
+								border-bottom: 1px solid $color-black-night;
 
 								a {
-									color: $color-text;
+									color: $color-black-night;
 
 									&:hover {
-										color: $color-text;
+										color: $color-black-night;
 									}
 
 								}

@@ -24,7 +24,7 @@ section.public-page {
 		}
 
 		&:after {
-			background: $color-border-bottom;
+			background: $color-gray-smooth;
 			bottom: 0;
 			top: auto;
 		}
@@ -62,7 +62,7 @@ section.public-page {
 				font-weight: $font-weight-bold;
 
 				&:hover {
-					color: $color-button-hover;
+					color: $color-purple-flashy-highlight;
 				}
 
 			}
@@ -124,7 +124,7 @@ section.public-page {
 	}
 
 	.incentive {
-		background-color: $color-footer-public;
+		background-color: $color-gray-soft;
 		padding: $margin-30 0;
 		text-align: center;
 		margin: $margin-60 0 0;
@@ -135,13 +135,13 @@ section.public-page {
 			a {
 				text-transform: uppercase;
 				font-weight: $font-weight-bold;
-				color: $color-button;
+				color: $color-purple-flashy;
 				letter-spacing: $letter-spacing-1;
 
 				&:focus,
 				&:active,
 				&:hover {
-					color: $color-button-hover;
+					color: $color-purple-flashy-highlight;
 				}
 
 			}
@@ -161,7 +161,7 @@ section.public-page {
 		section.steps,
 		section.introduction {
 			padding-bottom: $margin-120;
-			border-bottom: 1px solid $color-border-bottom;
+			border-bottom: 1px solid $color-gray-smooth;
 		}
 
 		.button-end {
@@ -197,7 +197,7 @@ section.public-page {
 			ul.steps {
 				li {
 					font-size: $font-size-2;
-					color: $color-text;
+					color: $color-black-night;
 					font-weight: $font-weight-bold;
 					margin-bottom: $margin-20;
 				}

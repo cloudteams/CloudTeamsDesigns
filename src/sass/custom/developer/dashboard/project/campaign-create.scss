@@ -13,7 +13,7 @@
 				float: right;
 
 				a.open-tooltip-button {
-					color: $color-night-black;
+					color: $color-black-night;
 				}
 
 				.custom-tooltip {
@@ -24,9 +24,9 @@
 
 			.added-persona {
 				&__body {
-					border-left: 1px solid $color-input-border;
-					border-right: 1px solid $color-input-border;
-					border-bottom: 1px solid $color-input-border;
+					border-left: 1px solid $color-gray-clear;
+					border-right: 1px solid $color-gray-clear;
+					border-bottom: 1px solid $color-gray-clear;
 					border-bottom-right-radius: $margin-5;
 					border-bottom-left-radius: $margin-5;
 				}
@@ -48,12 +48,12 @@
 
 				.header-medium.secondary:nth-of-type(2) {
 					text-transform: none;
-					color: $color-clear-gray;
+					color: $color-gray-clear;
 					font-size: $font-size-3;
 				}
 
 				p {
-					color: $color-text !important;
+					color: $color-black-night !important;
 					margin: $margin-20 0;
 				}
 

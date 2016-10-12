@@ -1,5 +1,5 @@
 .custom-tooltip {
-	background: $color-flashy-purple;
+	background: $color-purple-flashy;
 	border-radius: 5px;
 	display: inline-block;
 	min-width: 160px;
@@ -13,7 +13,7 @@
 
 	&:after {
 		border: solid;
-		border-color: $color-flashy-purple transparent;
+		border-color: $color-purple-flashy transparent;
 		border-width: 0 6px 6px 6px;
 		content: "";
 		right: 5px;
@@ -35,10 +35,10 @@
 	}
 
 	a {
-		color: $color-candy-purple;
+		color: $color-purple-candy;
 
 		&:hover {
-			color: $color-text-secondary;
+			color: $color-white;
 
 			&:after {
 				display: none;

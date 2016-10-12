@@ -27,7 +27,7 @@
 	h1,
 	h2,
 	h3 {
-		color: $color-text;
+		color: $color-black-night;
 	}
 
 	.modal-content {
@@ -109,7 +109,7 @@
 				text-align: center;
 
 				li {
-					background: $color-smooth-gray;
+					background: $color-gray-smooth;
 					border-radius: 50%;
 					cursor: pointer;
 					display: inline-block;
@@ -124,7 +124,7 @@
 
 					&.active {
 						background: none;
-						border: 2px solid $color-button;
+						border: 2px solid $color-purple-flashy;
 					}
 
 				}

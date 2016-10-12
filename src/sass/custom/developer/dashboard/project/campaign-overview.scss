@@ -10,7 +10,7 @@
 			text-align: center;
 
 			i {
-				color: $color-button 
+				color: $color-purple-flashy 
 			}
 		}
 	}
@@ -60,7 +60,7 @@
 			float: right;
 
 			a.open-tooltip-button {
-				color: $color-night-black;
+				color: $color-black-night;
 			}
 
 			.custom-tooltip {
@@ -71,9 +71,9 @@
 
 		.added-persona {
 			&__body {
-				border-left: 1px solid $color-input-border;
-				border-right: 1px solid $color-input-border;
-				border-bottom: 1px solid $color-input-border;
+				border-left: 1px solid $color-gray-clear;
+				border-right: 1px solid $color-gray-clear;
+				border-bottom: 1px solid $color-gray-clear;
 				border-bottom-right-radius: $margin-5;
 				border-bottom-left-radius: $margin-5;
 			}
@@ -95,12 +95,12 @@
 
 			.header-medium.secondary:nth-of-type(2) {
 				text-transform: none;
-				color: $color-clear-gray;
+				color: $color-gray-clear;
 				font-size: $font-size-3;
 			}
 
 			p {
-				color: $color-text !important;
+				color: $color-black-night !important;
 				margin: $margin-20 0;
 			}
 
@@ -144,7 +144,7 @@
 			.campaign-status {
 				text-transform: uppercase;
 				font-weight: 700;
-				border-bottom: 1px solid $color-lines;
+				border-bottom: 1px solid $color-transparent-white;
 				margin: 0;
 				padding-top: $margin-10;
 
@@ -152,17 +152,17 @@
 					margin-bottom: $margin-25;
 				}
 				.type-status {
-					color: $color-highlight;
+					color: $color-gray-clear;
 				}
 				.completed {
-					color: $color-text;
+					color: $color-black-night;
 				}
 
 				.type-sort {
 					color: $color-white;
 					&.required:after {
 						content: "*";
-						color: $color-required;
+						color: $color-red-deep;
 						padding-left: $margin-5;
 					}
 				}
@@ -188,7 +188,7 @@
 		}
 		&#subpage-3 {
 			h2, p {
-				color: $color-text-secondary;
+				color: $color-white;
 				text-transform: none;
 			}
 
@@ -212,9 +212,9 @@
 			}
 
 			a {
-				color: $color-action-text;
+				color: $color-purple-flashy;
 				@include hover-focus {
-					color: $color-footer-dev-dashboard;
+					color: $color-purple-pitch;
 				}
 			}
 
@@ -223,7 +223,7 @@
 		&#subpage-5 {
 			h2,
 			.still-running p {
-				color: $color-text-secondary;
+				color: $color-white;
 				text-transform: none;
 			}
 
@@ -252,7 +252,7 @@
 	}
 
 	.link-to-subsection.active {
-		color: $color-text;
+		color: $color-black-night;
 	}
 
 	#subsection-1 {
@@ -279,10 +279,10 @@
 
 			&:hover {
 				* {
-					border-color: $color-input-hover !important;
+					border-color: $color-purple-flashy !important;
 				}
 				footer {
-					background-color: $color-input-hover !important;
+					background-color: $color-purple-flashy !important;
 					color: $color-white !important;
 				}
 			}
@@ -290,7 +290,7 @@
 
 		.added-persona__image {
 			padding: 0;
-			border: 1px solid $color-input-border;
+			border: 1px solid $color-gray-clear;
 			border-top-left-radius: $margin-5;
 			border-top-right-radius: $margin-5;
 		}
@@ -308,20 +308,20 @@
 
 			> h3:last-of-type {
 				padding-bottom: $margin-10;
-				border-bottom: 1px solid $color-input-border;
+				border-bottom: 1px solid $color-gray-clear;
 			}
 
 			> p {
 				margin: 10px 0 0;
 				padding-bottom: 10px;
-				border-bottom: 1px solid $color-input-border;
+				border-bottom: 1px solid $color-gray-clear;
 			}
 
 			> div {
-				border-bottom: 1px solid $color-input-border;
+				border-bottom: 1px solid $color-gray-clear;
 				margin: 10px 0 0;
 				padding-bottom: 10px;
-				border-bottom: 1px solid $color-input-border;
+				border-bottom: 1px solid $color-gray-clear;
 			}
 
 			> footer {

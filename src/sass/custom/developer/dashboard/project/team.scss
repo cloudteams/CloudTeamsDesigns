@@ -18,8 +18,8 @@
 		.icon-edit-image:after {
 			content:"\f11b";
 			position: absolute;
-			border: 3px solid $color-button;
-			background-color: $color-button;
+			border: 3px solid $color-purple-flashy;
+			background-color: $color-purple-flashy;
 			border-radius: 50%;
 			color: $color-white;
 			margin-top: 113px;
@@ -27,13 +27,13 @@
 		}
 
 		&:hover .icon-edit-image:after {
-			background-color: $color-button-hover;
-			border-color: $color-button-hover;
+			background-color: $color-purple-flashy-highlight;
+			border-color: $color-purple-flashy-highlight;
 		}
 
 
 		h2.header-large {
-			color: $color-text-secondary;
+			color: $color-white;
 			display: inline-block;
 			font-family: $font-header-secondary;
 			letter-spacing: $letter-spacing-2;
@@ -51,7 +51,7 @@
 
 			a {
 				i {
-					color: $color-subtitle;
+					color: $color-gray-clear;
 				}
 
 				&:hover i {
@@ -120,7 +120,7 @@
 
 			a {
 				i {
-					color: $color-text;
+					color: $color-black-night;
 				}
 
 			}
@@ -172,7 +172,7 @@
 
 			a {
 				i {
-					color: $color-text;
+					color: $color-black-night;
 				}
 
 			}
@@ -228,7 +228,7 @@
 			}
 
 			li.active {
-				color: $color-text;
+				color: $color-black-night;
 			}
 
 			.subpage {
@@ -239,7 +239,7 @@
 				text-align: center;
 
 				i {
-					color: $color-button 
+					color: $color-purple-flashy 
 				}
 			}
 
@@ -261,7 +261,7 @@
 
 			.form-group.required .control-label:after {
 			  content: "*";
-			  color: $color-required;
+			  color: $color-red-deep;
 			}
 
 			.form-submit {
@@ -286,12 +286,12 @@
 			}
 
 			.disabled-select {
-				color: $color-subtitle;
+				color: $color-gray-clear;
 			}
 
 			.load-more {
 				text-align: center;
-				color: $color-action-text;
+				color: $color-purple-flashy;
 			}
 
 			.team-member-invite {
