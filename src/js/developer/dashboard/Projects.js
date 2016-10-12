@@ -1,5 +1,7 @@
 /* global $ */
 
+import 'bootstrap';
+
 (function() {
 	function openTutorial() {
 		const developerTutorial = $('#popup-tutorial-developer');
