@@ -73,7 +73,7 @@
     height: $input-height;
     padding: $padding-vertical $padding-horizontal;
     font-size: $font-size;
-    line-height: $line-height;
+    line-height: $line-height-medium;
     @include border-radius($border-radius);
   }
 

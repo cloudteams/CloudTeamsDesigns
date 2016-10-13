@@ -55,7 +55,7 @@ section.public-page {
 		p {
 			margin-top: $margin-40;
 			font-size: $font-size-medium;
-			letter-spacing: $letter-spacing-1;
+			letter-spacing: $letter-spacing-small;
 
 			a {
 				text-transform: uppercase;
@@ -136,7 +136,7 @@ section.public-page {
 				text-transform: uppercase;
 				font-weight: $font-weight-bold;
 				color: $color-purple-flashy;
-				letter-spacing: $letter-spacing-1;
+				letter-spacing: $letter-spacing-small;
 
 				&:focus,
 				&:active,
@@ -154,7 +154,7 @@ section.public-page {
 		h2,
 		h3 {
 			text-transform: uppercase;
-			letter-spacing: $letter-spacing-2;
+			letter-spacing: $letter-spacing-medium;
 		}
 
 		section.intro,

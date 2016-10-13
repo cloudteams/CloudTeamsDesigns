@@ -48,26 +48,25 @@ $profile-picture-size-xs      : 36px;
 // Font weights //
 // ---------------------------------
 
-$font-weight-bold             : 700;
 $font-weight-regular          : 400;
 $font-weight-semibold         : 600;
+$font-weight-bold             : 700;
 
 // ---------------------------------
 // Line heights //
 // ---------------------------------
 
-$line-height                  : 1.5;
 $line-height-small            : 1.3;
-$line-height-headers          : 1.35;
-$line-height-large			  : 2.5;
+$line-height-medium           : 1.5;
+$line-height-large            : 2.5;
 
 // ---------------------------------
 // Letter spacings //
 // ---------------------------------
 
-$letter-spacing-1             : 0.04em;
-$letter-spacing-2             : 0.06em;
-$letter-spacing-3             : 0.08em;
+$letter-spacing-small         : 0.04em;
+$letter-spacing-medium        : 0.06em;
+$letter-spacing-large         : 0.08em;
 
 // ---------------------------------
 // Margins and paddings //
