@@ -65,17 +65,17 @@
 	}
 
 	.subpage {
-		padding-bottom: $margin-section;
+		padding-bottom: $margin-50;
 
 		> .container > .content {
-			margin-bottom: $margin-section;
+			margin-bottom: $margin-50;
 
 			&:last-child {
 				margin-bottom: 0;
 			}
 
 			header.content-header {
-				margin-bottom: $margin-header;
+				margin-bottom: $margin-30;
 			}
 
 		}
@@ -92,7 +92,7 @@
 						p.page-subtitle {
 							display: inline-block;
 							margin-bottom: 0;
-							@include marginH($margin-subtitle);
+							@include marginH($margin-15);
 							text-transform: uppercase;
 							vertical-align: middle;
 						}
@@ -100,13 +100,13 @@
 					}
 
 					.project-images {
-						@include marginV($margin-block-bottom);
+						@include marginV($margin-30);
 
 						.row {
 							> div {
 								.img-edit-container {
 									img {
-										margin-bottom: $margin-image;
+										margin-bottom: $margin-15;
 									}
 
 									&:last-child {
@@ -140,7 +140,7 @@
 
 		&#subpage-2 {
 			@extend .border-bottom;
-			padding-top: $margin-header;
+			padding-top: $margin-30;
 			position: relative;
 
 			&:after {
@@ -150,7 +150,7 @@
 
 			.submenu {
 				@extend .border-bottom;
-				margin-bottom: $margin-header;
+				margin-bottom: $margin-30;
 
 				&:after {
 					background: $color-gray-smooth;
@@ -163,11 +163,11 @@
 		}
 
 		&#subpage-3 {
-			padding-top: $margin-header;
+			padding-top: $margin-30;
 		}
 
 		&#subpage-4 {
-			padding-top: $margin-header;
+			padding-top: $margin-30;
 
 			header {
 				h2 {
@@ -183,7 +183,7 @@
 
 			article.idea {
 				&:last-child {
-					margin-bottom: $margin-block;
+					margin-bottom: $margin-20;
 				}
 
 			}
@@ -200,13 +200,13 @@
 			}
 
 			.give-feedback {
-				@include paddingV($margin-subtitle);
+				@include paddingV($margin-15);
 			}
 
 			.subsection {
 				.content {
 					header {
-						margin-bottom: $margin-header;
+						margin-bottom: $margin-30;
 					}
 
 				}
@@ -217,7 +217,7 @@
 
 						img {
 							height: auto;
-							margin-bottom: $margin-block-bottom;
+							margin-bottom: $margin-30;
 							max-width: 200px;
 						}
 

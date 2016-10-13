@@ -12,7 +12,7 @@
 
 		@include breakpoint(phablet) {
 			&:nth-last-of-type(-n+2) {
-				margin-bottom: $margin-block-bottom;
+				margin-bottom: $margin-30;
 			}
 
 			&:last-child {
@@ -51,7 +51,7 @@
 
 			.add-project-button {
 				cursor: pointer;
-				margin: 0 auto $margin-base;
+				margin: 0 auto $margin-20;
 			}
 
 		}

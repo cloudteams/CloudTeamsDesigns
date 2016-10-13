@@ -1,6 +1,6 @@
 article.blogpost {
 	// height: 298px;
-	margin-bottom: $margin-block-bottom;
+	margin-bottom: $margin-30;
 
 	&:nth-last-of-type(-n+2) {
 		margin-bottom: 0;
@@ -8,7 +8,7 @@ article.blogpost {
 
 	@include breakpoint(phablet) {
 		&:nth-last-of-type(-n+2) {
-			margin-bottom: $margin-block-bottom;
+			margin-bottom: $margin-30;
 		}
 
 		&:last-child {

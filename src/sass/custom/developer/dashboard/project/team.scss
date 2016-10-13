@@ -2,7 +2,7 @@
 	padding-bottom: 0 !important;
 
 	header {
-		margin-bottom: $margin-header;
+		margin-bottom: $margin-30;
 
 		div.icon {
 			width: 150px;
@@ -37,8 +37,8 @@
 			display: inline-block;
 			font-family: $font-header-secondary;
 			letter-spacing: $letter-spacing-2;
-			margin-left: $margin-header;
-			margin-right: $margin-header-small;
+			margin-left: $margin-30;
+			margin-right: $margin-10;
 			text-transform: none;
 			vertical-align: middle;
 		}
@@ -71,7 +71,7 @@
 	article.team-member {
 		height: auto;
 		min-height: 224px;
-		margin-bottom: $margin-block-bottom;
+		margin-bottom: $margin-30;
 		text-align: center;
 
 		.background {
@@ -81,7 +81,7 @@
 
 		.image-container {
 			height: auto;
-			margin: 0 auto $margin-image;
+			margin: 0 auto $margin-15;
 			width: 100px;
 
 			.img-circle {
@@ -151,7 +151,7 @@
 			.image-container {
 				height: auto;
 				margin: 0 auto;
-				margin-bottom: $margin-image;
+				margin-bottom: $margin-15;
 				width: 100px;
 
 				.img-circle {
@@ -183,7 +183,7 @@
 		.modal-body {
 			.row {
 				> div {
-					margin-bottom: $margin-block-bottom;
+					margin-bottom: $margin-30;
 
 					&:nth-last-of-type(-n+2) {
 						margin-bottom: 0;
@@ -281,7 +281,7 @@
 
 			select {
 				option {
-					font-size: $font-size-header-medium;
+					font-size: $font-size-2;
 				}
 			}
 
@@ -301,7 +301,7 @@
 				}
 
 				.middle {
-					padding: $margin-block;
+					padding: $margin-20;
 					padding-top: 0;
 				}
 				.member-name {

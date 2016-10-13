@@ -10,10 +10,10 @@ article.idea {
 
 	.idea-container {
 		cursor: pointer;
-		padding-bottom: $margin-p-secondary;
+		padding-bottom: $margin-10;
 		padding-left: $margin-50;
-		padding-right: $margin-block;
-		padding-top: $margin-block;
+		padding-right: $margin-20;
+		padding-top: $margin-20;
 		user-select: none;
 	}
 
@@ -32,7 +32,7 @@ article.idea {
 		transition: height $transition-time-2 $easing-1, margin-top $transition-time-2 $easing-1;
 
 		&.extended {
-			margin-top: $margin-p;
+			margin-top: $margin-20;
 			overflow: none;
 
 			&:after {
@@ -44,7 +44,7 @@ article.idea {
 	}
 
 	.data {
-		// margin-top: $margin-p-secondary;
+		// margin-top: $margin-10;
 		padding: 0 $margin-20 $margin-10 $margin-50;
 
 		.left {
@@ -106,7 +106,7 @@ article.idea {
 			cursor: pointer;
 			display: inline-block;
 			margin: 0;
-			margin-right: $margin-p-secondary;
+			margin-right: $margin-10;
 
 			&:last-child {
 				margin-right: 0;

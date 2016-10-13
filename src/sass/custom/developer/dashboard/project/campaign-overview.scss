@@ -37,7 +37,7 @@
 
 		.rate-this-persona {
 			text-align: center;
-			padding: $margin-block-small;
+			padding: $margin-15;
 		}
 
 		.select-dropdown {
@@ -177,7 +177,7 @@
 
 		&#subpage-2 {
 			article.block {
-				margin-bottom: $margin-block-small;
+				margin-bottom: $margin-15;
 
 				&:last-child {
 					margin-bottom: 0;
@@ -208,7 +208,7 @@
 			}
 
 			.options {
-				@include paddingV($margin-block);
+				@include paddingV($margin-20);
 			}
 
 			a {

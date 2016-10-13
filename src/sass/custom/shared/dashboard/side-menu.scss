@@ -14,7 +14,7 @@
 	}
 
 	.member {
-		@include paddingV($margin-block);
+		@include paddingV($margin-20);
 		@extend .border-bottom;
 		position: relative;
 
@@ -57,10 +57,10 @@
 
 	.side-menu {
 		> ul {
-			padding-top: $margin-block;
+			padding-top: $margin-20;
 
 			li {
-				margin-bottom: $margin-menu-item;
+				margin-bottom: $margin-15;
 
 				&:last-child {
 					margin-bottom: 0;
@@ -122,25 +122,25 @@
 
 		header,
 		.member {
-			@include paddingH($margin-menu);
+			@include paddingH($margin-20);
 		}
 
 		.side-menu {
 			> ul {
 				> li {
 					> a {
-						@include paddingH($margin-menu);
+						@include paddingH($margin-20);
 					}
 
 					ul.side-menu-extended {
 						background: $color-purple-imperial-darker;
-						margin-top: $margin-menu-item;
-						padding: $margin-menu;
+						margin-top: $margin-15;
+						padding: $margin-20;
 
 						li {
 							&.select-dropdown {
 								border-radius: 5px;
-								font-size: $font-size-menu-subpage;
+								font-size: $font-size-4;
 								z-index: 1;
 								display: block;
 								position: relative;
@@ -154,11 +154,11 @@
 									visibility: hidden;
 									opacity: 0;
 									display: none;
-									padding: 0 $margin-input-small;
+									padding: 0 $margin-10;
 									z-index: -1;
 									background: $color-purple-imperial-darker;
 									color: $color-purple-shading;
-									font-size: $font-size-button;
+									font-size: $font-size-4;
 									position: absolute;
 									left: 0px;
 									border-radius: 5px;
@@ -186,7 +186,7 @@
 									visibility: visible;
 									opacity: 1;
 									display: inline-block;
-									padding: $margin-input-small;
+									padding: $margin-10;
 								}
 							
 							}
@@ -212,19 +212,19 @@
 
 	&.dashboard-side-menu-user {
 		.bottom {
-			margin-top: $margin-menu;
+			margin-top: $margin-20;
 			left: 0;
-			@include paddingH($margin-menu);
+			@include paddingH($margin-20);
 			position: absolute;
 			width: 100%;
 
 			.profile-completion {
 				border-bottom: 1px solid $color-transparent-white;
 				border-top: 1px solid $color-transparent-white;
-				@include paddingV($margin-block);
+				@include paddingV($margin-20);
 
 				.progress-container {
-					margin-bottom: $margin-header-extra-small;
+					margin-bottom: $margin-5;
 
 					.percentage {
 						color: $color-gray-clear;
@@ -235,7 +235,7 @@
 				p.update-profile {
 					color: $color-purple-shading;
 					font-family: $font-header-secondary;
-					font-size: $font-size-header-small;
+					font-size: $font-size-3;
 					font-weight: $font-weight-bold;
 					letter-spacing: $letter-spacing-1;
 					text-transform: uppercase;
@@ -244,15 +244,15 @@
 			}
 
 			.profile-information {
-				@include paddingV($margin-block);
+				@include paddingV($margin-20);
 
 				h2 {
-					margin-bottom: $margin-item;
+					margin-bottom: $margin-15 ;
 				}
 
 				ul {
 					li {
-						margin-bottom: $margin-p-secondary;
+						margin-bottom: $margin-10;
 					}
 
 				}

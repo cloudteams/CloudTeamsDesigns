@@ -39,14 +39,14 @@ body {
 					li {
 						display: inline-block;
 						height: 100%;
-						padding-right: $margin-menu-item;
+						padding-right: $margin-15;
 						position: relative;
 
 						ul.submenu {
 							background: $color-purple-flashy;
 							left: 0;
 							opacity: 0;
-							padding: 0 $margin-menu-item $margin-menu-item;
+							padding: 0 $margin-15 $margin-15;
 							position: absolute;
 							text-align: left;
 							visibility: hidden;
@@ -127,7 +127,7 @@ body {
 						}
 
 						&.profile {
-							padding-left: $margin-menu-item;
+							padding-left: $margin-15;
 							position: relative;
 
 							.user-email {

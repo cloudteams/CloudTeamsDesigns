@@ -24,11 +24,11 @@ $color-transparent-white      : rgba(255, 255, 255, 0.15);
 
 // fonts
 $font-body                    : Corbel, Helvetica, Arial, sans-serif;
-$font-header-secondary        : Corbel, Helvetica, Arial, sans-serif;
 $font-header                  : BrandonGrotesque, sans-serif;
+$font-header-secondary        : Corbel, Helvetica, Arial, sans-serif;
+
 
 $font-size-base               : 10px;
-
 $font-size-0                  : $font-size-base * 6.0;
 $font-size-1                  : $font-size-base * 3.0;
 $font-size-2                  : $font-size-base * 1.8;
@@ -37,34 +37,21 @@ $font-size-4                  : $font-size-base * 1.4;
 $font-size-5                  : $font-size-base * 1.2;
 $font-size-6                  : $font-size-base * 4;
 $font-size-7                  : $font-size-base * 3.5;
-$font-size-25                 : $font-size-base * 2.5;
-
-$font-size-body               : $font-size-3;
-$font-size-header-extra-large : $font-size-0;
-$font-size-header-large       : $font-size-1;
-$font-size-header-medium      : $font-size-2;
-$font-size-header-small       : $font-size-3;
-$font-size-header-extra-small : $font-size-4;
-$font-size-page-subtitle      : $font-size-4;
-$font-size-menu-subpage       : $font-size-4;
-$font-size-button             : $font-size-4;
-$font-size-meta               : $font-size-4;
-$font-size-social-media       : $font-size-6;
-$font-size-public-subtitle    : $font-size-25;
+$font-size-8                  : $font-size-base * 2.5;
 
 $profile-picture-size         : 80px;
 $profile-picture-size-xs      : 36px;
 
 // font weights
+$font-weight-bold             : 700;
 $font-weight-regular          : 400;
 $font-weight-semibold         : 600;
-$font-weight-bold             : 700;
 
 // line-heights
-$line-height-large			  : 2.5;
 $line-height                  : 1.5;
 $line-height-small            : 1.3;
 $line-height-headers          : 1.35;
+$line-height-large			  : 2.5;
 
 // letter spacing
 $letter-spacing-1             : 0.04em;
@@ -83,34 +70,6 @@ $margin-50                    : 50px;
 $margin-60                    : 60px;
 $margin-80                    : 80px;
 $margin-120                   : 120px;
-
-$margin-base                  : $margin-20;
-$margin-p                     : $margin-20;
-$margin-p-secondary           : $margin-10;
-$margin-page                  : $margin-30;
-$margin-block                 : $margin-20;
-$margin-block-bottom          : $margin-30;
-$margin-block-small           : $margin-15;
-$margin-block-extra-small     : $margin-10;
-$margin-header                : $margin-30;
-$margin-header-small          : $margin-10;
-$margin-header-extra-small    : $margin-5;
-$margin-subtitle              : $margin-15;
-$margin-item                  : $margin-15;
-$margin-table-row             : $margin-10;
-$margin-menu                  : $margin-20;
-$margin-menu-item             : $margin-15;
-$margin-input                 : $margin-15;
-$margin-input-small           : $margin-10;
-$margin-icon                  : $margin-5;
-$margin-image                 : $margin-15;
-$margin-modal                 : $margin-40;
-$margin-filter-container      : $margin-40;
-$margin-section               : $margin-50;
-$margin-header-public         : $margin-40;
-
-$margin-button-H              : $margin-25;
-$margin-button-V              : $margin-10;
 
 // transitions
 $transition-time-1            : 150ms;

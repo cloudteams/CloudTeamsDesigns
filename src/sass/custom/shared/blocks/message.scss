@@ -1,6 +1,6 @@
 article.message {
 	display: table;
-	margin-bottom: $margin-block;
+	margin-bottom: $margin-20;
 
 	&:not(.comment) {
 		&:last-child {
@@ -81,7 +81,7 @@ article.message {
 		}
 
 		.data {
-			// margin-top: $margin-p-secondary;
+			// margin-top: $margin-10;
 			padding: 0 $margin-20 $margin-10;
 
 			.left {
@@ -143,7 +143,7 @@ article.message {
 				cursor: pointer;
 				display: inline-block;
 				margin: 0;
-				margin-right: $margin-p-secondary;
+				margin-right: $margin-10;
 
 				&:last-child {
 					margin-right: 0;

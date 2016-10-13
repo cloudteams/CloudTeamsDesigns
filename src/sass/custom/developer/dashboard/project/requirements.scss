@@ -2,7 +2,7 @@
 
 	article.requirement {
 		height: auto;
-		margin-bottom: $margin-block-bottom;
+		margin-bottom: $margin-30;
 
 		header {
 			position: relative;
@@ -43,7 +43,7 @@
 					font-weight: $font-weight-bold;
 					letter-spacing: 1px;
 					margin-bottom: 0;
-					margin-right: $margin-item;
+					margin-right: $margin-15 ;
 					vertical-align: middle;
 
 					&:last-child {
@@ -65,7 +65,7 @@
 
 					tr {
 						td {
-							margin-bottom: $margin-table-row;
+							margin-bottom: $margin-10;
 
 							&:first-child {
 								padding-left: 0;
@@ -162,7 +162,7 @@
 			}
 
 			.btn {
-				margin-bottom: $margin-input-small;
+				margin-bottom: $margin-10;
 
 				&:last-child {
 					margin-bottom: 0;

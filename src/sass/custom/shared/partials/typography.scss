@@ -16,13 +16,13 @@
 }
 
 .header-extra-large {
-	font-size: $font-size-header-extra-large;
+	font-size: $font-size-0;
 	letter-spacing: $letter-spacing-3;
 	line-height: 1;
 }
 
 .header-large {
-	font-size: $font-size-header-large;
+	font-size: $font-size-1;
 	letter-spacing: $letter-spacing-3;
 
 	&.secondary {
@@ -32,7 +32,7 @@
 }
 
 .header-medium {
-	font-size: $font-size-header-medium;
+	font-size: $font-size-2;
 	letter-spacing: $letter-spacing-2;
 
 	&.secondary {
@@ -45,7 +45,7 @@
 }
 
 .header-small {
-	font-size: $font-size-header-small;
+	font-size: $font-size-3;
 	letter-spacing: $letter-spacing-2;
 
 	&.secondary {
@@ -58,7 +58,7 @@
 .header-extra-small {
 	color: $color-black-night;
 	font-family: $font-header-secondary;
-	font-size: $font-size-body;
+	font-size: $font-size-3;
 	letter-spacing: $letter-spacing-1;
 	text-transform: none;
 }
@@ -67,25 +67,25 @@
 	color: $color-gray-clear;
 	font-family: $font-header-secondary;
 	font-weight: $font-weight-regular;
-	font-size: $font-size-body;
-	margin-bottom: $margin-header-extra-small;
+	font-size: $font-size-3;
+	margin-bottom: $margin-5;
 }
 
 .form-title {
 	color: $color-black-night;
 	text-transform: uppercase;
-	font-size: $font-size-header-extra-small;
+	font-size: $font-size-4;
 	font-weight: $font-weight-semibold;
-	margin-bottom: $margin-p-secondary;
+	margin-bottom: $margin-10;
 }
 
 .page-subtitle {
-	font-size: $font-size-page-subtitle;
+	font-size: $font-size-4;
 	font-weight: $font-weight-bold;
 }
 
 .public-page-subtitle {
-	font-size: $font-size-public-subtitle;
+	font-size: $font-size-8;
 }
 
 .article-subtitle {

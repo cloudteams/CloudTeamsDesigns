@@ -1,7 +1,7 @@
 .block {
 	background: $color-white;
 	border-radius: 5px;
-	padding: $margin-block;
+	padding: $margin-20;
 
 	.buttons {
 		margin-top: $margin-5;
@@ -9,7 +9,7 @@
 
 		a {
 			&:first-child {
-				margin-right: $margin-item;
+				margin-right: $margin-15 ;
 			}
 
 		}
@@ -22,12 +22,12 @@
 	@extend .block;
 	background: none;
 	padding: 0;
-	@include paddingH($margin-block-small);
+	@include paddingH($margin-15);
 
 	.background {
 		background: $color-white;
 		border-radius: 5px;
-		padding: $margin-block;
+		padding: $margin-20;
 	}
 
 }
@@ -52,7 +52,7 @@
 
 .block-line {
 	@extend .block;
-	margin-bottom: $margin-block;
+	margin-bottom: $margin-20;
 	padding: 0;
 
 	&:last-child {
@@ -62,7 +62,7 @@
 	header,
 	.content,
 	footer {
-		padding: $margin-block-small;
+		padding: $margin-15;
 	}
 
 	header,
@@ -87,7 +87,7 @@
 		header,
 		.content,
 		footer {
-			padding: $margin-block;
+			padding: $margin-20;
 		}
 
 		header,
@@ -109,7 +109,7 @@
 .block-line-half {
 	@extend .block-line;
 	background: none;
-	@include paddingH($margin-block-small);
+	@include paddingH($margin-15);
 
 	.background {
 		background: $color-white;
@@ -120,7 +120,7 @@
 
 .block-fill {
 	@extend .block;
-	margin-bottom: $margin-block;
+	margin-bottom: $margin-20;
 	padding: 0;
 
 	&:last-child {
@@ -129,7 +129,7 @@
 
 	.content,
 	footer {
-		padding: $margin-block-small;
+		padding: $margin-15;
 	}
 
 	header {
@@ -137,7 +137,7 @@
 		border-bottom: 1px solid $color-gray-smooth;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
-		padding: $margin-block-extra-small $margin-block-small;
+		padding: $margin-10 $margin-15;
 
 		.middle {
 			i {
@@ -183,7 +183,7 @@
 		}
 
 		h3 {
-			margin-bottom: $margin-header-extra-small;
+			margin-bottom: $margin-5;
 		}
 
 		p {
@@ -197,7 +197,7 @@
 .block-fill-half {
 	@extend .block-fill;
 	background: none;
-	@include paddingH($margin-block-small);
+	@include paddingH($margin-15);
 
 	.background {
 		background: $color-white;

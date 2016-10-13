@@ -2,7 +2,7 @@
 	article {
 		.content {
 			h2 {
-				margin-bottom: $margin-header-small;
+				margin-bottom: $margin-10;
 			}
 
 			&.project-choices {
@@ -17,7 +17,7 @@
 					> div {
 						&:first-child {
 							img {
-								margin-bottom: $margin-image;
+								margin-bottom: $margin-15;
 							}
 
 						}
@@ -55,7 +55,7 @@
 				p.highlight {
 					display: inline-block;
 					letter-spacing: 0;
-					margin-left: $margin-header-extra-small;
+					margin-left: $margin-5;
 				}
 
 				textarea {

@@ -1,6 +1,6 @@
 article.project {
 	height: auto;
-	margin-bottom: $margin-block-bottom;
+	margin-bottom: $margin-30;
 
 	header {
 		position: relative;
@@ -34,7 +34,7 @@ article.project {
 			line-height: $line-height-small;
 
 			&.highlight {
-				margin-bottom: $margin-header-extra-small;
+				margin-bottom: $margin-5;
 			}
 
 		}
@@ -52,7 +52,7 @@ article.project {
 
 			tr {
 				td {
-					margin-bottom: $margin-table-row;
+					margin-bottom: $margin-10;
 
 					&:first-child {
 						padding-left: 0;

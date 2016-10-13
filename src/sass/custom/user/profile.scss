@@ -1,6 +1,6 @@
 .user-profile-content {
 	> header {
-		margin-bottom: $margin-header;
+		margin-bottom: $margin-30;
 		width: 60%;
 
 		.tooltip-container {
@@ -50,14 +50,14 @@
 				fieldset {
 					> div {
 						> div {
-							margin-bottom: $margin-block;
+							margin-bottom: $margin-20;
 
 							&:nth-last-of-type(-n+2) {
 								margin-bottom: 0;
 							}
 
 							.select-dropdown {
-								margin-bottom: $margin-block;
+								margin-bottom: $margin-20;
 
 								&:last-child {
 									margin-bottom: 0;

@@ -6,7 +6,7 @@
 
 	article {
 		&.block-fill-half {
-			@include paddingH($margin-block-extra-small);
+			@include paddingH($margin-10);
 
 			&:nth-last-of-type(-n+2) {
 				margin-bottom: 0;
@@ -14,7 +14,7 @@
 
 			@include breakpoint(phablet) {
 				&:nth-last-of-type(-n+2) {
-					margin-bottom: $margin-block-bottom;
+					margin-bottom: $margin-30;
 				}
 
 				&:last-child {
@@ -45,7 +45,7 @@
 
 			.data {
 				p {
-					margin-bottom: $margin-p-secondary;
+					margin-bottom: $margin-10;
 
 					&:last-child {
 						margin-bottom: 0;
@@ -156,7 +156,7 @@
 		&.messaging {
 			.content {
 				.data {
-					margin: 0 0 $margin-p-secondary;
+					margin: 0 0 $margin-10;
 
 					div.img-circle {
 						width: 80px;

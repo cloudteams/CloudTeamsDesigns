@@ -1,5 +1,5 @@
 fieldset {
-	margin-bottom: $margin-block;
+	margin-bottom: $margin-20;
 
 	&:last-child {
 		// margin-bottom: 0;
@@ -9,7 +9,7 @@ fieldset {
 	&.fieldset-checkbox {
 		label {
 			cursor: pointer;
-			margin-right: $margin-p;
+			margin-right: $margin-20;
 		}
 
 	}
@@ -18,7 +18,7 @@ fieldset {
 
 label,
 label.header-medium {
-	margin-bottom: $margin-header-small;
+	margin-bottom: $margin-10;
 }
 
 input,
@@ -44,8 +44,8 @@ textarea {
 	border: 1px solid $color-gray-clear;
 	border-radius: 5px;
 	color: $color-black-night;
-	font-size: $font-size-body;
-	padding: $margin-input-small $margin-input;
+	font-size: $font-size-3;
+	padding: $margin-10 $margin-15 ;
 	transition: border-color $transition-time-2 $easing-1;
 	width: 100%;
 	transition: all $transition-time-2 $easing-1;
@@ -75,7 +75,7 @@ input {
 			display: inline-block;
 			width: 15px;
 			height: 15px;
-			margin: -1px $margin-p-secondary 0 0;
+			margin: -1px $margin-10 0 0;
 			position: relative;
 			vertical-align: middle;
 
@@ -160,14 +160,14 @@ select {
 	border: 1px solid $color-gray-clear;
 	border-radius: 5px;
 	color: $color-black-night;
-	font-size: $font-size-body;
+	font-size: $font-size-3;
 	letter-spacing: 1px;
 	-moz-appearance: none;
 	-ms-appearance: none;
 	-o-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	padding: $margin-input-small $margin-input;
+	padding: $margin-10 $margin-15 ;
 	transition: border-color $transition-time-2 $easing-1;
 	width: 100%;
 

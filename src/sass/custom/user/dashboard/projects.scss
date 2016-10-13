@@ -1,6 +1,6 @@
 .user-dashboard-projects-content {
 	> .row {
-		margin-bottom: $margin-section * 2;
+		margin-bottom: $margin-50 * 2;
 
 		article.project {
 			&:nth-last-of-type(-n+2) {
@@ -9,7 +9,7 @@
 
 			@include breakpoint(phablet) {
 				&:nth-last-of-type(-n+2) {
-					margin-bottom: $margin-block-bottom;
+					margin-bottom: $margin-30;
 				}
 
 				&:last-child {
@@ -25,7 +25,7 @@
 	.recommended-projects {
 		h2 {
 			color: $color-white;
-			margin-bottom: $margin-header-small;
+			margin-bottom: $margin-10;
 		}
 
 	}

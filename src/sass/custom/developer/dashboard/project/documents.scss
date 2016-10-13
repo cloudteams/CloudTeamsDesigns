@@ -84,8 +84,8 @@
 	aside {
 		header {
 			a.btn {
-				margin-bottom: $margin-header;
-				margin-top: $margin-block;
+				margin-bottom: $margin-30;
+				margin-top: $margin-20;
 			}
 
 		}
@@ -95,7 +95,7 @@
 
 			li {
 				cursor: pointer;
-				margin-bottom: $margin-menu-item;
+				margin-bottom: $margin-15;
 				padding-left: 25px;
 				text-indent: -25px;
 
@@ -138,7 +138,7 @@
 			background-color: $color-gray-soft;
 			border-top-right-radius: 5px;
 			border-top-left-radius: 5px;
-			padding: $margin-header-small;
+			padding: $margin-10;
 			
 			.tooltip-container > a {
 				color: $color-black-night;
@@ -146,7 +146,7 @@
 
 			h2 {
 				display: inline-block;
-				margin: $margin-header-extra-small;
+				margin: $margin-5;
 			}
 
 			.tooltip-container {
@@ -172,24 +172,24 @@
 
 		> article {
 			background: none;
-			@include paddingH($margin-block-small);
+			@include paddingH($margin-15);
 			@include paddingV(0);
 
 			> .background {
 				background: $color-white;
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
-				padding: 0 $margin-block;
+				padding: 0 $margin-20;
 
 				> header {
 					h2 {
-						margin-bottom: $margin-header;
+						margin-bottom: $margin-30;
 					}
 
 				}
 
 				.document:not(.add-item) {
-					margin-bottom: $margin-block-bottom;
+					margin-bottom: $margin-30;
 
 					&:nth-last-of-type(-n+2) {
 						margin-bottom: 0;
@@ -197,7 +197,7 @@
 
 					@include breakpoint(phablet) {
 						&:nth-last-of-type(-n+2) {
-							margin-bottom: $margin-block-bottom;
+							margin-bottom: $margin-30;
 						}
 
 						&:last-child {
@@ -210,10 +210,10 @@
 						border: 1px solid $color-gray-clear;
 						border-radius: 5px;
 						min-height: 124px;
-						padding: 0 $margin-block-small;
+						padding: 0 $margin-15;
 
 						h3 {
-							margin-bottom: $margin-p;
+							margin-bottom: $margin-20;
 						}
 
 						p {
@@ -239,7 +239,7 @@
 					}
 
 					.add-project-button {
-						margin-bottom: $margin-header-small;
+						margin-bottom: $margin-10;
 					}
 
 					h3 {

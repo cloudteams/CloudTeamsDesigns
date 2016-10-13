@@ -4,12 +4,12 @@
 	border: 2px solid $color-purple-flashy;
 	border-radius: 5px;
 	color: $color-white;
-	font-size: $font-size-button;
+	font-size: $font-size-4;
 	font-weight: $font-weight-bold;
 	letter-spacing: 2px;
 	line-height: 1.2;
-	@include paddingH($margin-button-H);
-	@include paddingV($margin-button-V);
+	@include paddingH($margin-25);
+	@include paddingV($margin-10);
 	text-transform: uppercase;
 	transition: background $transition-time-2 $easing-1, color $transition-time-2 $easing-1;
 
@@ -58,7 +58,7 @@
 	@extend .btn;
 	background: $color-green-grass;
 	border-color: $color-green-grass;
-	padding-left: $margin-button-V;
+	padding-left: $margin-10;
 
 	&:hover {
 		background: $color-green-grass-highlight;
@@ -126,7 +126,7 @@
 		border: 3px solid $color-gray-smooth;
 		border-radius: 5px;
 		height: 100px;
-		margin-bottom: $margin-item;
+		margin-bottom: $margin-15 ;
 		transition: background $transition-time-1 $easing-1, border-color $transition-time-1 $easing-1, color $transition-time-1 $easing-1;
 		width: 100px;
 

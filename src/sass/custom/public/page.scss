@@ -1,9 +1,9 @@
 section.public-page {
-	@include paddingV($margin-page);
+	@include paddingV($margin-30);
 
 	header.main-header {
 		@extend .border-bottom;
-		@include paddingV($margin-header);
+		@include paddingV($margin-30);
 		position: relative;
 		text-align: center;
 

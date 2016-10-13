@@ -1,5 +1,5 @@
 article.reward {
-	margin-bottom: $margin-block;
+	margin-bottom: $margin-20;
 
 	&:last-child {
 		margin-bottom: 0;
@@ -15,7 +15,7 @@ article.reward {
 				.background {
 					border: 1px solid $color-gray-clear;
 					border-radius: 5px;
-					padding: $margin-block;
+					padding: $margin-20;
 				}
 
 			}

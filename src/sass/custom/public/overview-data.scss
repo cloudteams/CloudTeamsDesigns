@@ -1,13 +1,13 @@
 .public-overview-data {
 	background: $color-gray-soft;
-	margin-bottom: $margin-section;
-	@include paddingV($margin-block-bottom);
+	margin-bottom: $margin-50;
+	@include paddingV($margin-30);
 
 	.vertical-align {
-		@include marginH(-$margin-block-small);
+		@include marginH(-$margin-15);
 
 		.middle {
-			@include paddingH($margin-block-small);
+			@include paddingH($margin-15);
 
 			&:last-child {
 				text-align: center;
@@ -23,7 +23,7 @@
 					}
 
 					td {
-						padding-bottom: $margin-table-row;
+						padding-bottom: $margin-10;
 
 						&:first-child {
 							width: 75%;
@@ -45,7 +45,7 @@
 						}
 
 						.icon {
-							margin-right: $margin-item;
+							margin-right: $margin-15 ;
 						}
 
 					}

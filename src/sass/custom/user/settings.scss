@@ -4,10 +4,10 @@
 	.subpage {
 		&#subpage-2 {
 			.vertical-align {
-				@include marginH(-$margin-block);
+				@include marginH(-$margin-20);
 
 				.middle {
-					@include paddingH($margin-block);
+					@include paddingH($margin-20);
 
 					&:last-child {
 						text-align: right;
@@ -15,7 +15,7 @@
 
 				}
 
-				margin-bottom: $margin-block-bottom;
+				margin-bottom: $margin-30;
 			}
 
 		}

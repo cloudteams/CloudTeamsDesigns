@@ -1,5 +1,5 @@
 .public-projects-logged-in-content {
-	padding-top: $margin-header-public;
+	padding-top: $margin-40;
 
 	header {
 		h2 {
@@ -7,16 +7,16 @@
 		}
 
 		p.action-text {
-			margin-left: $margin-p-secondary;
+			margin-left: $margin-10;
 		}
 
 	}
 
 	.filter-container {
-		@include marginV($margin-filter-container);
+		@include marginV($margin-40);
 
 		label {
-			margin: 0 $margin-p-secondary 0 0;
+			margin: 0 $margin-10 0 0;
 		}
 
 		.select-dropdown {

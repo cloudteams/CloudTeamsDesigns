@@ -32,11 +32,11 @@
 
 	.modal-content {
 		border-radius: 5px;
-		padding: $margin-modal 0;
+		padding: $margin-40 0;
 		position: relative;
 
 		h1 {
-			margin-bottom: $margin-header-small;
+			margin-bottom: $margin-10;
 		}
 
 		.modal-step {
@@ -53,8 +53,8 @@
 
 		.modal-header {
 			border: none;
-			margin-bottom: $margin-block-bottom;
-			padding: 0 $margin-modal;
+			margin-bottom: $margin-30;
+			padding: 0 $margin-40;
 
 			.close-item {
 				height: 20px;
@@ -95,17 +95,17 @@
 		}
 
 		.modal-body {
-			padding: 0 $margin-modal;
+			padding: 0 $margin-40;
 		}
 
 		.modal-footer {
 			border: none;
-			margin-top: $margin-block-bottom;
-			padding: 0 $margin-modal;
+			margin-top: $margin-30;
+			padding: 0 $margin-40;
 			text-align: center;
 
 			.tutorial-pagination {
-				margin-bottom: $margin-p;
+				margin-bottom: $margin-20;
 				text-align: center;
 
 				li {
@@ -115,7 +115,7 @@
 					display: inline-block;
 					height: 10px;
 					margin-bottom: 0 !important;
-					margin-right: $margin-p-secondary;
+					margin-right: $margin-10;
 					width: 10px;
 
 					&:last-child {
@@ -135,7 +135,7 @@
 				width: 180px;
 
 				&:last-child {
-					margin-left: $margin-item;
+					margin-left: $margin-15 ;
 				}
 
 			}
