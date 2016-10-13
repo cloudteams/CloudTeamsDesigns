@@ -22,11 +22,18 @@ $color-white                  : #ffffff;
 $color-transparent-black      : rgba(0, 0, 0, 0.15);
 $color-transparent-white      : rgba(255, 255, 255, 0.15);
 
-// fonts
+// ---------------------------------
+// Font families //
+// ---------------------------------
+
 $font-body                    : Corbel, Helvetica, Arial, sans-serif;
 $font-header                  : BrandonGrotesque, sans-serif;
 $font-header-secondary        : Corbel, Helvetica, Arial, sans-serif;
 
+
+// ---------------------------------
+// Font sizes //
+// ---------------------------------
 
 $font-size-base               : 10px;
 $font-size-0                  : $font-size-base * 6.0;
@@ -42,23 +49,36 @@ $font-size-8                  : $font-size-base * 2.5;
 $profile-picture-size         : 80px;
 $profile-picture-size-xs      : 36px;
 
-// font weights
+
+// ---------------------------------
+// Font weights //
+// ---------------------------------
+
 $font-weight-bold             : 700;
 $font-weight-regular          : 400;
 $font-weight-semibold         : 600;
 
-// line-heights
+// ---------------------------------
+// Line heights //
+// ---------------------------------
+
 $line-height                  : 1.5;
 $line-height-small            : 1.3;
 $line-height-headers          : 1.35;
 $line-height-large			  : 2.5;
 
-// letter spacing
+// ---------------------------------
+// Letter spacings //
+// ---------------------------------
+
 $letter-spacing-1             : 0.04em;
 $letter-spacing-2             : 0.06em;
 $letter-spacing-3             : 0.08em;
 
-// margins
+// ---------------------------------
+// Margins and paddings //
+// ---------------------------------
+
 $margin-5                     : 5px;
 $margin-10                    : 10px;
 $margin-15                    : 15px;
@@ -71,7 +91,10 @@ $margin-60                    : 60px;
 $margin-80                    : 80px;
 $margin-120                   : 120px;
 
-// transitions
+// ---------------------------------
+// Transitions //
+// ---------------------------------
+
 $transition-time-1            : 150ms;
 $transition-time-2            : 350ms;
 
