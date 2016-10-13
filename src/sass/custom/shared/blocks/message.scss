@@ -86,7 +86,7 @@ article.message {
 
 			.left {
 				i {
-					font-size: $font-size-2;
+					font-size: $font-size-medium;
 				}
 			}
 
@@ -216,7 +216,7 @@ article.message {
 
 		textarea {
 			width: 100%;
-			height: $line-height * $font-size-4 * 7;
+			height: $line-height * $font-size-extra-small * 7;
 			background-color: $color-white;
 			border: none;
 			margin-top: $margin-25;
@@ -250,7 +250,7 @@ article.reply {
 	textarea {
 		border: 1px solid $color-gray-clear;
 		width: 100%;
-		// height: $line-height * $font-size-4 * 7;
+		// height: $line-height * $font-size-extra-small * 7;
 		background-color: $color-white;
 		margin-bottom: $margin-10;
 		display: block;
@@ -264,7 +264,7 @@ article.reply {
 
 	&.small {
 		textarea {
-			// height: $line-height * $font-size-4 * 1;
+			// height: $line-height * $font-size-extra-small * 1;
 		}
 	}
 

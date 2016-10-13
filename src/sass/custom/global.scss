@@ -19,7 +19,7 @@ ul, ol {
 
 	li, li a {
 		color: $color-gray-clear;
-		font-size: $font-size-3;
+		font-size: $font-size-small;
 		list-style-type: none;
 	}
 }
@@ -29,7 +29,7 @@ img {
 }
 
 p {
-	font-size: $font-size-3;
+	font-size: $font-size-small;
 	margin-bottom: $margin-20;
 
 	&:last-child {
@@ -70,7 +70,7 @@ table {
 .legend-item {
 	color: $color-white;
 	display: inline-block;
-	font-size: $font-size-2;
+	font-size: $font-size-medium;
 	font-weight: $font-weight-bold;
 	vertical-align: middle;
 	letter-spacing: 1px;
@@ -206,12 +206,12 @@ table {
 
 .meta {
 	color: $color-gray-clear;
-	font-size: $font-size-4;
+	font-size: $font-size-extra-small;
 	font-weight: $font-weight-bold;
 	margin: 0;
 
 	&.big {
-		font-size: $font-size-3;
+		font-size: $font-size-small;
 	}
 
 	&.thin {
@@ -287,7 +287,7 @@ table {
 
 		i {
 			color: $color-white;
-			font-size: $font-size-0;
+			font-size: $font-size-extra-large;
 			margin-top: -4px;
 		}
 	}

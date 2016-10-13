@@ -67,7 +67,7 @@
 			background-color: $color-white;
 			padding: $margin-30 $margin-60 $margin-30 $margin-40;
 			list-style-type: none;
-			font-size: $font-size-2;
+			font-size: $font-size-medium;
 			border-radius: 5px;
 			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 			text-align: left;
@@ -94,7 +94,7 @@
 	p {
 		padding-top: $margin-5;
 		text-align: center;
-		font-size: $font-size-2;
+		font-size: $font-size-medium;
 		color: $color-purple-flashy;
 		text-transform: uppercase;
 		font-weight: $font-weight-bold;

@@ -1,0 +1,12 @@
+.foo {
+	font-size: $font-size-medium;
+	letter-spacing: $letter-spacing-2;
+
+	&.bar {
+		color: $color-black-night;
+		font-family: $font-header-secondary;
+		letter-spacing: $letter-spacing-1;
+		text-transform: none;
+	}
+
+}

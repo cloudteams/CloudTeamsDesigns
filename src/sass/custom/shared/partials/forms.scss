@@ -44,7 +44,7 @@ textarea {
 	border: 1px solid $color-gray-clear;
 	border-radius: 5px;
 	color: $color-black-night;
-	font-size: $font-size-3;
+	font-size: $font-size-small;
 	padding: $margin-10 $margin-15 ;
 	transition: border-color $transition-time-2 $easing-1;
 	width: 100%;
@@ -160,7 +160,7 @@ select {
 	border: 1px solid $color-gray-clear;
 	border-radius: 5px;
 	color: $color-black-night;
-	font-size: $font-size-3;
+	font-size: $font-size-small;
 	letter-spacing: 1px;
 	-moz-appearance: none;
 	-ms-appearance: none;

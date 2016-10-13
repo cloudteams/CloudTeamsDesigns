@@ -50,7 +50,7 @@ section.dashboard-page {
 						}
 
 						i {
-							font-size: $font-size-7;
+							font-size: $font-size-large;
 						}
 
 						nav.side-menu {
@@ -143,7 +143,7 @@ section.dashboard-page {
 						.icon {
 							color: $color-white;
 							margin-top: -8px;
-							font-size: $font-size-1;
+							font-size: $font-size-large;
 						}
 
 						h1 {
@@ -178,7 +178,7 @@ section.dashboard-page {
 						@include antialiasText();
 
 						span {
-							font-size: $font-size-1;
+							font-size: $font-size-large;
 							line-height: 1;
 							margin-right: $margin-5;
 						}

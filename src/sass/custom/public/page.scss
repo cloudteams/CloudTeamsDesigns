@@ -54,7 +54,7 @@ section.public-page {
 
 		p {
 			margin-top: $margin-40;
-			font-size: $font-size-2;
+			font-size: $font-size-medium;
 			letter-spacing: $letter-spacing-1;
 
 			a {
@@ -130,7 +130,7 @@ section.public-page {
 		margin: $margin-60 0 0;
 
 		p {
-			font-size: $font-size-2;
+			font-size: $font-size-medium;
 
 			a {
 				text-transform: uppercase;
@@ -196,7 +196,7 @@ section.public-page {
 		section.introduction {
 			ul.steps {
 				li {
-					font-size: $font-size-2;
+					font-size: $font-size-medium;
 					color: $color-black-night;
 					font-weight: $font-weight-bold;
 					margin-bottom: $margin-20;
