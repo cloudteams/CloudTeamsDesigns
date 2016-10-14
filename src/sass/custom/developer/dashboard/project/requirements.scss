@@ -1,5 +1,25 @@
 .developer-dashboard-project-requirements-content {
 
+	.content.tags {
+		min-height: 75px;
+
+		p {
+			float: left;
+			line-height: $line-height-large;
+		}
+	}
+
+	.item-tag {
+		border-radius: $margin-5;
+		border: 1px solid $color-gray-clear;
+		background-color: $color-gray-soft;
+		padding: 2px 10px;
+		margin-left: $margin-5;
+		margin-top: $margin-5;
+		float: left;
+		font-size: $font-size-small;
+	}
+
 	article.requirement {
 		height: auto;
 		margin-bottom: $margin-30;

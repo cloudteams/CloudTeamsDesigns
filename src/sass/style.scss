@@ -1,8 +1,8 @@
 // reset
 @import "bootstrap/bootstrap.scss";
+// contains our variables as well because overwrites
 
 // custom
-@import "custom/variables.scss";
 @import "custom/mixins.scss";
 @import "custom/fonts.scss";
 @import "custom/global.scss";

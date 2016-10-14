@@ -2,6 +2,10 @@
 @import "variables";
 @import "mixins";
 
+// customized
+// variables
+@import "../custom/variables.scss";
+
 // // Reset and dependencies
 @import "normalize";
 @import "print";

@@ -23,10 +23,14 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis vestibulum nibh. Aenean quam libero, ultricies vel molestie non, facilisis nec lectus. Fusce eleifend nisi pellentesque ex lobortis, vitae lacinia nunc venenatis. Sed varius orci massa, sit amet dictum ligula lobortis nec. Etiam suscipit elit at ipsum dapibus, in consequat risus imperdiet.</p>
 			</div>
 
-			<div class="content">
-				<p><strong>Tags:</strong></p>
+			<div class="content tags">
+				<div>
+					<p><strong>Tags:</strong></p> 
+					<div class="item-tag">lorem</div>
+					<div class="item-tag">ipsum</div>
+					<div class="item-tag">dolor</div>
+				</div>
 			</div>
-
 		</article>
 	</section>
 

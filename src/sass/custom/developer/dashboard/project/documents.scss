@@ -287,6 +287,7 @@
 					margin-right: 7px;
 					margin-bottom: 5px;
 					float: left;
+					font-size: $font-size-small;
 				}
 				
 				.item-tag:after {
@@ -322,6 +323,7 @@
 			a > i {
 				color: $color-black-night;
 				transform: scaleX(1);
+				font-size: 2em;
 			}
 
 		}
