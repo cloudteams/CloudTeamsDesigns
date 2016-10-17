@@ -142,7 +142,37 @@ import 'partials/InjectSelect2';
 	function runCategorySelector() {
 		$('.category-selector, .category-selector .categories').on('click', e => {
 			e.stopPropagation();
+
+			const $el = $('.category-selector i');
+			if ($el.hasClass('icon-arrow-up')) {
+				$el.removeClass('icon-arrow-up');
+				$el.addClass('icon-arrow-down');
+			} else {
+				$el.removeClass('icon-arrow-down');
+				$el.addClass('icon-arrow-up');
+			}
+
 			$('.category-selector .list').slideToggle(250);
+		});
+	}
+
+	function runSelectCategory() {
+		$('.category-selector .list').on('click', e => {
+			const $el = $('.category-selector .box3 .icon');
+			e.stopPropagation();
+			$el.fadeOut(250, () => {
+				if ($el.hasClass('icon-design')) {
+					$el
+						.removeClass()
+						.addClass('icon icon-art')
+						.fadeIn(250);
+				} else {
+					$el
+						.removeClass()
+						.addClass('icon icon-design')
+						.fadeIn(250);
+				}
+			});
 		});
 	}
 
@@ -153,6 +183,7 @@ import 'partials/InjectSelect2';
 		runOpenCloseTooltip();
 		runMinimizeSideMenu();
 		runCategorySelector();
+		runSelectCategory();
 		hoverStates();
 	}
 
