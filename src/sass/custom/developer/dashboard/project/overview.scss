@@ -93,6 +93,15 @@
 			}
 		}
 
+		&.requirements, &.business-modal {
+			.force-row {
+				width: 50%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				float: left;
+			}
+		}
 
 		&.project-logo {
 

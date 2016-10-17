@@ -10,7 +10,6 @@
 					<h2 class="header-medium secondary">Project profile</h2>
 				</div>
 				<div class="middle">
-					<p class="header-small"><a href="/views/developer/dashboard/projects/profile"><span class="header-small action-text">See all</span></a></p>
 				</div>
 			</div>
 		</header>
@@ -19,7 +18,7 @@
 			<h3 class="header-medium secondary">About this campaign</h3>
 
 			<div class="category">
-				<p class="page-subtitle">Publishing</p>
+				<p class="page-subtitle">Published</p>
 				<i class="icon icon-folder"></i>
 			</div>
 
@@ -57,13 +56,87 @@
 				</div>
 		</article>
 
+		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half requirements">
+			<div class="background">
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-requirement"></i>
+							<h2 class="header-medium secondary">Requirements</h2>
+						</div>
+						<div class="middle">
+							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">See all</span></a></p>
+						</div>
+					</div>
+				</header>
+
+				<div class="content">
+					<div class="container-fluid">
+						<div class="force-row bold flashy">Scenario 2#</div>
+						<div class="text-right highlight force-row">in progress</div>
+						<div class="force-row">Key activity about this project</div>
+						<div class="text-right highlight force-row">10 minutes ago</div>
+						<div class="force-row">Last edit:</div>
+						<div class="text-right highlight force-row">Hans Blix</div>					
+					</div>
+					<hr>
+					<div class="container-fluid">
+						<div class="force-row bold flashy">Scenario 2#</div>
+						<div class="text-right highlight force-row">in progress</div>
+						<div class="force-row">Key activity about this project</div>
+						<div class="text-right highlight force-row">10 minutes ago</div>
+						<div class="force-row">Last edit:</div>
+						<div class="text-right highlight force-row">Hans Blix</div>					
+					</div>
+				</div>
+
+			</div>
+		</article>
+
+		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half business-modal">
+			<div class="background">
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-document"></i>
+							<h2 class="header-medium secondary">Business modal</h2>
+						</div>
+						<div class="middle">
+							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">See all</span></a></p>
+						</div>
+					</div>
+				</header>
+
+				<div class="content">
+					<div class="container-fluid">
+						<div class="force-row bold flashy">Modal 2#</div>
+						<div class="text-right highlight force-row">in progress</div>
+						<div class="force-row">Key activity about this project</div>
+						<div class="text-right highlight force-row">10 minutes ago</div>
+						<div class="force-row">Last edit:</div>
+						<div class="text-right highlight force-row">Hans Blix</div>					
+					</div>
+					<hr>
+					<div class="container-fluid">
+						<div class="force-row bold flashy">Modal 2#</div>
+						<div class="text-right highlight force-row">in progress</div>
+						<div class="force-row">Key activity about this project</div>
+						<div class="text-right highlight force-row">10 minutes ago</div>
+						<div class="force-row">Last edit:</div>
+						<div class="text-right highlight force-row">Hans Blix</div>					
+					</div>
+				</div>
+
+			</div>
+		</article>
+
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half campaigns">
 			<div class="background">
 				<header class="article-header">
 					<div class="vertical-align">
 						<div class="middle">
-							<a href="/views/developer/dashboard/projects/project/campaigns/"><i class="icon icon-campaign"></i>
-							<h2 class="header-medium secondary">Campaigns</h2></a>
+							<i class="icon icon-campaign"></i>
+							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns/create"><span class="header-small action-text">Create</span></a></p>
@@ -128,6 +201,38 @@
 						</div>
 					</div>
 				</div>
+			</div>			
+		</article>
+
+		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half connectors">
+			<div class="background">
+
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-external-services"></i>
+							<h2 class="header-medium secondary">Connectors</h2>
+						</div>
+						<div class="middle">
+							<p class="header-small"><a href="#nowhere">
+								<span class="header-small action-text">Connect</span>
+							</a></p>
+						</div>
+					</div>
+				</header>
+
+				<div class="content">
+					<div class="container-fluid">
+						<p class="bold flashy">Connect to GitHub</p>
+						<p class="highlight bold">Connect your project to a GitHub account</p>
+					</div>
+					<hr>
+					<div class="container-fluid">
+						<p class="bold flashy">Connect to SonarQube</p>
+						<p class="highlight bold">Connect your project to a SonarQube instance</p>
+					</div>
+				</div>
+
 			</div>			
 		</article>
 

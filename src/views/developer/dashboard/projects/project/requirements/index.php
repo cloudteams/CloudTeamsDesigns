@@ -1,6 +1,6 @@
 <?php include("../../../partials/header.php"); ?>
 
-<section class="page page-developer-dashboard-project-requirements dashboard-page">
+<section class="page developer-dashboard-project-requirements dashboard-page">
 	<div class="container">
 		<div class="content">
 
