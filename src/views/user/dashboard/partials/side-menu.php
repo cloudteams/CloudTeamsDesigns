@@ -105,5 +105,6 @@
 				</li>
 			</ul>
 		</div>
+		<a href="#" class="btn">Invite a friend</a>
 	</div>
 </aside>

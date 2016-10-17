@@ -245,6 +245,8 @@
 
 			.profile-information {
 				@include paddingV($margin-20);
+				margin-bottom: $margin-10;
+				border-bottom: 1px solid $color-transparent-white;
 
 				h2 {
 					margin-bottom: $margin-15 ;
