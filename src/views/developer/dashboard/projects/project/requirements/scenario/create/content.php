@@ -10,42 +10,115 @@
 		</header>
 
 		<div class="content form-section">
+
 			<fieldset class="form-group required">
-				<label for="name-project" class="control-label header-medium secondary">Title</label>
+
+				<label for="select-progress" class="control-label header-medium secondary">Related persona</label>
+
+				<div class="select-dropdown">
+					<i class="icon icon-arrow-down"></i>
+					<select name="select-progress" id="select-progress" onchange="" size="1">
+						<option value="" disabled="" selected="">Select persona</option>
+						<option value="Lorem">Lorem</option>
+						<option value="Ipsum">Ipsum</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<fieldset class="form-group required">
+				<label for="title-project" class="control-label header-medium secondary">Title</label>
 
 				<div class="input-container">
-					<input id="name-project" type="text" name="Name of project" placeholder="Project title">
+					<input id="title-project" type="text" name="Title of project" placeholder="Story title">
+				</div>
+			</fieldset>
+
+			<fieldset class="fieldset-radio">
+				<label for="gender-female" class="header-medium secondary">Type</label>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="input-container">
+							<label for="gender-female"><input type="radio" checked="true" name="gender" value='gender-female' id="gender-female" required><span></span>User story</label>
+
+							<label for="gender-male"><input type="radio" name="gender" value='gender-male' id="gender-male" required><span></span>Idea/Prototype</label>
+
+							<label for="gender-undefined"><input type="radio" name="gender" value='gender-undefined' id="gender-undefined" required><span></span>Epic</label>
+						</div>
+					</div>
 				</div>
 			</fieldset>
 
 			<fieldset>
-				<label for="description-project" class="header-medium secondary">Description</label>
+				<label for="description-project" class="header-medium secondary">As a</label>
 
 				<div class="input-container">
 					<textarea id="description-project" rows="5" placeholder="Project description"></textarea>
 				</div>
 			</fieldset>
 
-			<fieldset class="form-group required">
+			<fieldset>
+				<label for="description-project" class="header-medium secondary">I want to</label>
 
-				<label for="category-project" class="control-label header-medium secondary">Tags</label>
+				<div class="input-container">
+					<textarea id="description-project" rows="5" placeholder="Project description"></textarea>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<label for="description-project" class="header-medium secondary">So that</label>
+
+				<div class="input-container">
+					<textarea id="description-project" rows="5" placeholder="Project description"></textarea>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<label for="description-project" class="header-medium secondary">Acceptence criteria</label>
+
+				<div class="input-container">
+					<textarea id="description-project" rows="5" placeholder="Project description"></textarea>
+				</div>
+			</fieldset>
+
+			<fieldset class="form-group">
+
+				<label for="select-progress " class="control-label header-medium secondary">Priority</label>
 
 				<div class="select-dropdown">
 					<i class="icon icon-arrow-down"></i>
-					<select name="category-project" id="category-project" onchange="" size="1">
-						<option value="" disabled="" selected="">Select category</option>
-						<option value="Art">Art</option>
-						<option value="Business">Business</option>
-						<option value="Design">Design</option>
-						<option value="Film">Film</option>
-						<option value="Food">Food</option>
-						<option value="Games">Games</option>
-						<option value="Journalism">Journalism</option>
-						<option value="Music">Music</option>
-						<option value="Photography">Photography</option>
-						<option value="Publishing">Publishing</option>
-						<option value="Technology">Technology</option>
-						<option value="Sport">Sport</option>
+					<select name="select-progress" id="select-progress" onchange="" size="1">
+						<option value="" disabled="" selected="">Select priority</option>
+						<option value="Lorem">Lorem</option>
+						<option value="Ipsum">Ipsum</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<fieldset class="form-group">
+
+				<label for="select-progress" class="control-label header-medium secondary">Estimate (#days)</label>
+
+				<div class="select-dropdown">
+					<i class="icon icon-arrow-down"></i>
+					<select name="select-progress" id="select-progress" onchange="" size="1">
+						<option value="" disabled="" selected="">Select estimate</option>
+						<option value="Lorem">Lorem</option>
+						<option value="Ipsum">Ipsum</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<fieldset class="form-group">
+
+				<label for="select-progress" class="control-label header-medium secondary">State</label>
+
+				<div class="select-dropdown">
+					<i class="icon icon-arrow-down"></i>
+					<select name="select-progress" id="select-progress" onchange="" size="1">
+						<option value="" disabled="" selected="">Select state</option>
+						<option value="Lorem">Lorem</option>
+						<option value="Ipsum">Ipsum</option>
 					</select>
 				</div>
 			</fieldset>

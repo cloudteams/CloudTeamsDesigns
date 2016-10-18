@@ -4,10 +4,14 @@
 		min-width: 800px;
 
 		.modal-header {
-			padding: 10px 25px;
+			padding: 20px 25px;
 
 			h2 {
 				margin-left: 10px;
+			}
+
+			.icon-close {
+				margin-top: 5px;
 			}
 		}
 
