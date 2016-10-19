@@ -27,12 +27,12 @@
 								<label for="add-from-amount" class="header-medium secondary control-label">From</label>
 								<div class="select-dropdown">
 									<i class="icon icon-arrow-down"></i>
-									<select name="from-project" id="from-project" onchange="" size="1">
+									<input name="from-project" id="from-project" onchange="" size="1">
 										<option value="" disabled="" selected="">Select project</option>
 										<option value="0">Project 1</option>
 										<option value="1">Project 2</option>
 										<option value="2">Project 3</option>
-									</select>
+									</input>
 								</div>
 							</fieldset>
 						</div>

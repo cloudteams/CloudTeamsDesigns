@@ -24,6 +24,8 @@
 					</header>
 
 					<?php include("content.php"); ?>
+					<?php include("add-story.php"); ?>
+
 				</main>
 			</div>
 

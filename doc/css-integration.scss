@@ -1,8 +1,12 @@
+// Define global page class
 .foo {
+	// Apply style rules for everything inside this page
 	font-size: $font-size-medium;
 	letter-spacing: $letter-spacing-2;
 
+	// Use parent selector specify child elements
 	&.bar {
+		// We use variables to define all margins, paddings, fonts, sizes and colors.
 		color: $color-black-night;
 		font-family: $font-header-secondary;
 		letter-spacing: $letter-spacing-1;

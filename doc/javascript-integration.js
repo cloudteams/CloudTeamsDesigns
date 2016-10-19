@@ -6,25 +6,32 @@ import CONFIG from 'core/Config';
 
 // We export modules with the export default method, which exports an IIFE.
 export default (function() {
-	// We define all 
+	// We define all variables at the top
+	// Underscores means public variables, dollar signs mean jQuery objects.
 	let _$el;
 
+	// Create a discriptive function name
 	function setHide($el) {
 		_$el = $el;
+
+		// We use ES6 as much as possible
 		_$el.click(() => {
 			_$el.hide();
 		});
 	}
 
 	function bar() {
+		// Using basic CONFIG variables allow use to globally change transition durations (etc) without adjusting the files individually.
 		const foo = $(CONFIG.UI.ELEMENT.ID);
 		setHide(foo);
 	}
 
+	// Execute the main functions when the document is ready.
 	$('document').ready(() => {
 		bar();
 	});
 
+	// Return a function to make it publicly accessable for other functions
 	return {
 		setHide
 	};

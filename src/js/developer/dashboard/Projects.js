@@ -4,9 +4,11 @@ import 'bootstrap';
 
 (function() {
 	function openTutorial() {
-		const developerTutorial = $('#popup-tutorial-developer');
+		// enable this for tutorial
 
-		developerTutorial.modal('show');
+		// const developerTutorial = $('#popup-tutorial-developer');
+
+		// developerTutorial.modal('show');
 	}
 
 	$(document).ready(() => {

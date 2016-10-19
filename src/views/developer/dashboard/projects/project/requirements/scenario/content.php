@@ -36,7 +36,7 @@
 
 	<section id="subpage-2" class="subpage">
 		<h2 class="header-medium secondary">0 stories added to scenario
-			<a href="#nowhere" class="btn add-existing-story" alt="add existing story">Add existing story</a>
+			<a href="#nowhere" data-toggle="modal" data-target=".popup-add-existing-story" class="btn add-existing-story" alt="add existing story">Add existing story</a>
 			<a href="/views/developer/dashboard/projects/project/requirements/scenario/create" class="btn create-new-story" alt="create story">Create a story</a>
 		</h2>
 		<div class="row">

@@ -75,12 +75,12 @@
 								<label for="tags-persona" class="header-medium secondary">Description</label>
 
 								<div class="input-container">
-									<input type="text" id="tags-persona" placeholder="Persona description"></textarea>
+									<textarea id="tags-persona" placeholder="Persona description"></textarea>
 								</div>
 							</fieldset>
 
 						</div>
-			    		
+						
 						<div class="col-md-12">
 							<fieldset class="form-group form-submit">
 								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
@@ -97,80 +97,232 @@
 
 						<div class="col-md-6">
 
-							<fieldset>
-								<label for="persona-gender" class="header-medium secondary">Gender</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-gender" placeholder="Persona gender"></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-gender-select" class="header-medium secondary control-label">Gender</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-gender-select">
+										<option>Male</option>
+										<option>Female</option>
+										<option>Apache AH64 Helicopter</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-gender-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-tech-level" class="header-medium secondary">Tech level</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-tech-level" placeholder="Tech level of persona"></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-tech-level-select" class="header-medium secondary control-label">Tech level</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-tech-level-select">
+										<option>Very unexperienced</option>
+										<option>Inexperienced</option>
+										<option>Experienced</option>
+										<option>Very experienced</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-tech-level-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-platform" class="header-medium secondary">Platform</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-platform" placeholder=""></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-platform-select" class="header-medium secondary control-label">Platform</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-platform-select">
+										<option>Windows</option>
+										<option>Apple</option>
+										<option>Linux</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-platform-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-age" class="header-medium secondary">Age</label>
-
-								<div class="input-container">
-									<input type="number" id="persona-age" placeholder=""></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-age-select" class="header-medium secondary control-label">Age</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-age-select">
+										<option value="18..24">18-24</option>
+										<option value="25..34">25-34</option>
+										<option value="35..54">35-54</option>
+										<option value="55..64">55-64</option>
+										<option value="65..">65 or older</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-age-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-sector" class="header-medium secondary"> Business sector</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-sector" placeholder=""></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-business-select" class="header-medium secondary control-label">Business sector</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-business-select">
+										<option value="Advertising/Public Relations">Advertising/Public Relations</option>                        
+										<option value="Aerospace, Defense Contractors">Aerospace, Defense Contractors</option>                        
+										<option value="Agribusiness">Agribusiness</option>                        
+										<option value="Agricultural Services &amp; Products">Agricultural Services &amp; Products</option>                        
+										<option value="Agriculture">Agriculture</option>                        
+										<option value="Air Transport">Air Transport</option>                        
+										<option value="Airlines">Airlines</option>                        
+										<option value="Alcoholic Beverages">Alcoholic Beverages</option>                        
+										<option value="Alternative Energy Production &amp; Services">Alternative Energy Production &amp; Services</option>                        
+										<option value="Architectural Services">Architectural Services</option>                        
+										<option value="Attorneys/Law Firms">Attorneys/Law Firms</option>                        
+										<option value="Auto Dealers">Auto Dealers</option>                        
+										<option value="Auto Manufacturers">Auto Manufacturers</option>                        
+										<option value="Automotive">Automotive</option>                        
+										<option value="Banking, Mortgage">Banking, Mortgage</option>                        
+										<option value="Banks, Commercial">Banks, Commercial</option>                        
+										<option value="Banks, Savings &amp; Loans">Banks, Savings &amp; Loans</option>                        
+										<option value="Bars &amp; Restaurants">Bars &amp; Restaurants</option>                        
+										<option value="Books, Magazines &amp; Newspapers">Books, Magazines &amp; Newspapers</option>                        
+										<option value="Broadcasters, Radio/TV">Broadcasters, Radio/TV</option>                        
+										<option value="Builders">Builders</option>                        
+										<option value="Building Materials &amp; Equipment">Building Materials &amp; Equipment</option>                        
+										<option value="Business Services">Business Services</option>                        
+										<option value="Cable &amp; Satellite TV Production &amp; Distribution">Cable &amp; Satellite TV Production &amp; Distribution</option>                        
+										<option value="Casinos / Gambling">Casinos / Gambling</option>                        
+										<option value="Cattle Ranchers/Livestock">Cattle Ranchers/Livestock</option>                        
+										<option value="Chemical &amp; Related Manufacturing">Chemical &amp; Related Manufacturing</option>                        
+										<option value="Chiropractors">Chiropractors</option>                        
+										<option value="Civil Servants/Public Officials">Civil Servants/Public Officials</option>                        
+										<option value="Clergy &amp; Religious Organizations ">Clergy &amp; Religious Organizations </option>                        
+										<option value="Clothing Manufacturing">Clothing Manufacturing</option>                        
+										<option value="Coal Mining">Coal Mining</option>                        
+										<option value="Colleges, Universities &amp; Schools">Colleges, Universities &amp; Schools</option>                        
+										<option value="Commercial TV &amp; Radio Stations">Commercial TV &amp; Radio Stations</option>                        
+										<option value="Communications/Electronics">Communications/Electronics</option>                        
+										<option value="Computer Software">Computer Software</option>                        
+										<option value="Construction">Construction</option>                        
+										<option value="Construction Services">Construction Services</option>                        
+										<option value="Construction Unions">Construction Unions</option>                        
+										<option value="Credit Unions">Credit Unions</option>                        
+										<option value="Crop Production &amp; Basic Processing">Crop Production &amp; Basic Processing</option>                        
+										<option value="Cruise Ships &amp; Lines">Cruise Ships &amp; Lines</option>                        
+										<option value="Dairy">Dairy</option>                        
+										<option value="Defense">Defense</option>                        
+										<option value="Defense Electronics">Defense Electronics</option>                        
+										<option value="Defense/Foreign Policy Advocates">Defense/Foreign Policy Advocates</option>                        
+										<option value="Dentists">Dentists</option>                        
+										<option value="Doctors &amp; Other Health Professionals">Doctors &amp; Other Health Professionals</option>                        
+										<option value="Drug Manufacturers">Drug Manufacturers</option>                        
+										<option value="Education ">Education </option>                        
+										<option value="Electric Utilities">Electric Utilities</option>                        
+										<option value="Electronics Manufacturing &amp; Equipment">Electronics Manufacturing &amp; Equipment</option>                        
+										<option value="Electronics, Defense Contractors">Electronics, Defense Contractors</option>                        
+										<option value="Energy &amp; Natural Resources">Energy &amp; Natural Resources</option>                        
+										<option value="Entertainment Industry">Entertainment Industry</option>                        
+										<option value="Environment ">Environment </option>                        
+										<option value="Finance / Credit Companies">Finance / Credit Companies</option>                        
+										<option value="Finance, Insurance &amp; Real Estate">Finance, Insurance &amp; Real Estate</option>                        
+										<option value="Food &amp; Beverage">Food &amp; Beverage</option>                        
+										<option value="Food Processing &amp; Sales">Food Processing &amp; Sales</option>                        
+										<option value="Food Products Manufacturing">Food Products Manufacturing</option>                        
+										<option value="Food Stores">Food Stores</option>                        
+										<option value="Forestry &amp; Forest Products">Forestry &amp; Forest Products</option>                        
+										<option value="Funeral Services">Funeral Services</option>                        
+										<option value="Garbage Collection/Waste Management">Garbage Collection/Waste Management</option>                        
+										<option value="Gas &amp; Oil">Gas &amp; Oil</option>                        
+										<option value="General Contractors">General Contractors</option>                        
+										<option value="HMOs &amp; Health Care Services">HMOs &amp; Health Care Services</option>                        
+										<option value="Hedge Funds">Hedge Funds</option>                        
+										<option value="Home Builders">Home Builders</option>                        
+										<option value="Hospitals &amp; Nursing Homes">Hospitals &amp; Nursing Homes</option>                        
+										<option value="Hotels, Motels &amp; Tourism">Hotels, Motels &amp; Tourism</option>                        
+										<option value="Human Rights ">Human Rights </option>                        
+										<option value="Industrial Unions ">Industrial Unions </option>                        
+										<option value="Insurance">Insurance</option>                        
+										<option value="Labor">Labor</option>                        
+										<option value="Lawyers / Law Firms">Lawyers / Law Firms</option>                        
+										<option value="Livestock">Livestock</option>                        
+										<option value="Logging, Timber &amp; Paper Mills">Logging, Timber &amp; Paper Mills</option>                        
+										<option value="Manufacturing">Manufacturing</option>                        
+										<option value="Marine Transport">Marine Transport</option>                        
+										<option value="Meat processing &amp; products">Meat processing &amp; products</option>                        
+										<option value="Medical Supplies">Medical Supplies</option>                        
+										<option value="Mining">Mining</option>                        
+										<option value="Mortgage Bankers &amp; Brokers">Mortgage Bankers &amp; Brokers</option>                        
+										<option value="Motion Picture Production &amp; Distribution">Motion Picture Production &amp; Distribution</option>                        
+										<option value="Music Production">Music Production</option>                        
+										<option value="Natural Gas Pipelines">Natural Gas Pipelines</option>                        
+										<option value="Newspaper, Magazine &amp; Book Publishing">Newspaper, Magazine &amp; Book Publishing</option>                        
+										<option value="Nurses">Nurses</option>                        
+										<option value="Nursing Homes/Hospitals">Nursing Homes/Hospitals</option>                        
+										<option value="Nutritional &amp; Dietary Supplements">Nutritional &amp; Dietary Supplements</option>                        
+										<option value="Oil &amp; Gas">Oil &amp; Gas</option>                        
+										<option value="Other">Other</option>                        
+										<option value="Pharmaceuticals / Health Products">Pharmaceuticals / Health Products</option>                        
+										<option value="Phone Companies">Phone Companies</option>                        
+										<option value="Physicians &amp; Other Health Professionals">Physicians &amp; Other Health Professionals</option>                        
+										<option value="Postal Unions">Postal Unions</option>                        
+										<option value="Power Utilities">Power Utilities</option>                        
+										<option value="Printing &amp; Publishing">Printing &amp; Publishing</option>                        
+										<option value="Private Equity &amp; Investment Firms">Private Equity &amp; Investment Firms</option>                        
+										<option value="Professional Sports, Sports Arenas &amp; Related Equipment &amp; Services">Professional Sports, Sports Arenas &amp; Related Equipment &amp; Services</option>                        
+										<option value="Railroads">Railroads</option>                        
+										<option value="Restaurants &amp; Drinking Establishments">Restaurants &amp; Drinking Establishments</option>                        
+										<option value="Retail Sales">Retail Sales</option>                        
+										<option value="Retired ">Retired </option>                        
+										<option value="Software development">Software development</option>                        
+										<option value="Stock Brokers/Investment Industry">Stock Brokers/Investment Industry</option>                        
+										<option value="Telecom Services &amp; Equipment">Telecom Services &amp; Equipment</option>                        
+										<option value="Tobacco">Tobacco</option>                        
+										<option value="Transportation">Transportation</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-business-select-holder"></div>
 							</fieldset>
 
 						</div>
 
 						<div class="col-md-6">
 
-							<fieldset>
-								<label for="persona-activity" class="header-medium secondary">Activity</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-activity" placeholder="Persona activity"></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-activity-select" class="header-medium secondary control-label">Activity</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-activity-select">
+										<option value="">Passive</option>
+										<option value="">Active</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-activity-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-device" class="header-medium secondary">Device</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-device" placeholder=""></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-device-select" class="header-medium secondary control-label">Device</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-device-select">
+										<option value="Laptop">Laptop</option>
+										<option value="Mobile phone">Mobile phone</option>
+										<option value="PC">PC</option>
+										<option value="Tablet">Tablet</option>
+										<option value="Wearable">Wearable</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-device-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-influence" class="header-medium secondary">Influence</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-influence" placeholder=""></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-influence-select" class="header-medium secondary control-label">Influence</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-influence-select">
+			                            <option value="Advertisement">Advertisement</option>                        
+			                            <option value="Blogs">Blogs</option>                        
+			                            <option value="Co-workers">Co-workers</option>                        
+			                            <option value="Family &amp; relatives">Family &amp; relatives</option>                        
+			                            <option value="Friends &amp; social circle">Friends &amp; social circle</option>                        
+			                            <option value="Other">Other</option>                        
+			                            <option value="TV &amp; Media">TV &amp; Media</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-influence-select-holder"></div>
 							</fieldset>
 
-							<fieldset>
-								<label for="persona-activity-time" class="header-medium secondary">Activity time</label>
-
-								<div class="input-container">
-									<input type="text" id="persona-activity-time" placeholder=""></textarea>
+							<fieldset class="form-group required">
+								<label for="persona-activity-time-select" class="header-medium secondary control-label">Activity time</label>
+								<div class="select-dropdown">
+									<select multiple="multiple" id="persona-activity-time-select">
+										<option value="">Morning</option>
+										<option value="">Afternoon</option>
+										<option value="">Evening</option>
+									</select>
 								</div>
+								<div class="dropdown-holder" id="persona-activity-time-select-holder"></div>
 							</fieldset>
 
 						</div>
