@@ -84,7 +84,7 @@
 						<div class="col-md-12">
 							<fieldset class="form-group form-submit">
 								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-								<a href="#nowhere" class="btn confirm-button" alt="create">Create</a>
+								<a href="#nowhere" class="btn next-button" alt="next">Next</a>
 							</fieldset>
 						</div>
 					</section>
@@ -324,6 +324,12 @@
 								</div>
 								<div class="dropdown-holder" id="persona-activity-time-select-holder"></div>
 							</fieldset>
+
+						<fieldset class="fieldset-checkbox">
+							<div class="input-container">
+								<label for="privacy-checkbox"><input type="checkbox" name="mandatory-response" value='1' id="privacy-checkbox"><span></span>Use customer revealing their identity</label>
+							</div>
+						</fieldset>
 
 						</div>
 

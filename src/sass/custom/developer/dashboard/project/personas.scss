@@ -1,5 +1,85 @@
 .page-developer-dashboard-project-personas {
 
+	.new-persona {
+		min-height: 100%;
+	}
+
+	.added-persona-container {
+		margin: $margin-40 0 0;
+		border-radius: 5px;
+
+		h3:first-child {
+			float: left;
+		}
+
+		.tooltip-container {
+			float: right;
+
+			a.open-tooltip-button {
+				color: $color-black-night;
+			}
+
+			.custom-tooltip {
+				left: 45px;
+				top: 183px;
+			}
+		}
+
+		.added-persona {
+			&__body {
+				border-left: 1px solid $color-gray-clear;
+				border-right: 1px solid $color-gray-clear;
+				border-bottom: 1px solid $color-gray-clear;
+				border-bottom-right-radius: $margin-5;
+				border-bottom-left-radius: $margin-5;
+			}
+		}
+
+		.added-persona__image {
+			overflow: hidden;
+		}
+
+		img {
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+			max-height: 140px;
+		}
+
+		section {
+			background: $color-white;
+			padding: $margin-15 $margin-10;
+
+			.header-medium.secondary:nth-of-type(2) {
+				text-transform: none;
+				color: $color-gray-clear;
+				font-size: $font-size-small;
+			}
+
+			p {
+				color: $color-black-night !important;
+				margin: $margin-20 0;
+			}
+
+			.persona-rating {
+				margin: $margin-20 0;
+
+				> div {
+					padding: 0;
+
+					&:nth-of-type(2) {
+						text-align: right;
+					}
+				}
+			}
+
+			a {
+				margin: auto;
+				display: block
+			}
+		}
+
+	}
+
 	.modal-dialog.medium {
 		min-width: 800px;
 
@@ -31,7 +111,7 @@
 			}
 
 			#subpage-2 {
-				height: 570px;
+				height: 500px;
 			}
 
 			#subpage-3 {
@@ -136,7 +216,7 @@
 		margin: $margin-10 0;
 
 		.background {
-			padding: 50px 0;
+			padding: 183px 0;
 		}
 	}
 

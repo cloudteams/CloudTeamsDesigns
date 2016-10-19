@@ -7,7 +7,7 @@
 		const confirmSection = $('.confirm-wrapper');
 		const sendingSection = $('.sending-wrapper');
 		const modalBody = $('.modal-body');
-		const subpageLink = $('#link-to-subpage-3');
+		const subpageLink = $('li#link-to-subpage-3');
 
 		function fadeDelay() {
 			setTimeout(() => {
@@ -42,6 +42,10 @@
 	function initClicks() {
 		$('main a').click(e => {
 			e.preventDefault();
+		});
+
+		$('.next-button').click(() => {
+			$('#link-to-subpage-2').click();
 		});
 	}
 
