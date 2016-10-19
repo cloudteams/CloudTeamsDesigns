@@ -63,4 +63,31 @@
 		font-size: $font-size-small !important;
 	}
 
+	.select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-results__option--highlighted[aria-selected] {
+		background-color: $color-gray-soft !important;
+		color: $color-gray-clear;
+	}
+
+	.select2-results__option:before {
+		content: ' ';
+		border: 1px solid $color-gray-smooth;
+		padding: 0 9px;
+		margin-right: 10px;
+		width: $margin-10;
+		height: $margin-10;
+	}
+
+	.select2-results__option.select2-results__message:before {
+		content: '';
+		display: none;
+	}
+
+	.select2-results__option[aria-selected=true]:before {
+		content: '\f11c';
+		padding: 0;
+		color: $color-purple-flashy;
+		font-family: "cloudteams-icons";
+		border-color: $color-purple-flashy;
+
+	}
 }

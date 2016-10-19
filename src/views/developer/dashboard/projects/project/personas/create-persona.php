@@ -19,7 +19,7 @@
 				<ul class="menu-subpage">
 					<li id="link-to-subpage-1" class="link-to-subpage active">Basic information</li>
 					<li id="link-to-subpage-2" class="link-to-subpage">Properties</li>
-					<li id="link-to-subpage-3" class="link-to-subpage">Persona overview</li>
+					<li style="display:none;" id="link-to-subpage-3" class="link-to-subpage">Persona overview</li>
 				</ul>
 
 				<section class="entire-section">

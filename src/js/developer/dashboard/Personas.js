@@ -7,6 +7,7 @@
 		const confirmSection = $('.confirm-wrapper');
 		const sendingSection = $('.sending-wrapper');
 		const modalBody = $('.modal-body');
+		const subpageLink = $('#link-to-subpage-3');
 
 		function fadeDelay() {
 			setTimeout(() => {
@@ -18,7 +19,8 @@
 			setTimeout(() => {
 				confirmSection.fadeOut(() => {
 					modalBody.css('height', 'auto');
-					contentSection.fadeIn();
+					contentSection.fadeIn(200);
+					subpageLink.fadeIn(200);
 				});
 			}, 4000);
 		}
