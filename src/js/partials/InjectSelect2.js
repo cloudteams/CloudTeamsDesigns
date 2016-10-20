@@ -11,59 +11,25 @@ import 'select2';
 	};
 
 	const activatePersonaOptions = () => {
-		$('#persona-gender-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-gender-select-holder')
-		});
-		$('#persona-tech-level-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-tech-level-select-holder')
-		});
-		$('#persona-platform-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-platform-select-holder')
-		});
-		$('#persona-age-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-age-select-holder')
-		});
-		$('#persona-business-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 3,
-			dropdownParent         : $('#persona-business-select-holder')
-		});
-		$('#persona-activity-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-activity-select-holder')
-		});
-		$('#persona-device-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 2,
-			dropdownParent         : $('#persona-device-select-holder')
-		});
-		$('#persona-influence-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-influence-select-holder')
-		});
-		$('#persona-activity-time-select').select2({
-			minimumResultsForSearch: Infinity,
-			tags                   : true,
-			maximumSelectionLength : 1,
-			dropdownParent         : $('#persona-activity-time-select-holder')
+		const dropDowns = {
+			'gender'       : 1,
+			'tech-level'   : 1,
+			'platform'     : 1,
+			'age'          : 1,
+			'business'     : 3,
+			'activity'     : 1,
+			'device'       : 2,
+			'influence'    : 1,
+			'activity-time': 1
+		};
+
+		Object.keys(dropDowns).forEach(key => {
+			$(`#persona-${key}-select`).select2({
+				minimumResultsForSearch: Infinity,
+				tags                   : true,
+				maximumSelectionLength : dropDowns[key],
+				dropdownParent         : $(`#persona-${key}-select-holder`)
+			});
 		});
 	};
 
