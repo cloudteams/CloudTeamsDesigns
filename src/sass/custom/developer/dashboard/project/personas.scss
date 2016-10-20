@@ -317,21 +317,21 @@
 			@include paddingH($margin-5);
 
 			&:before {
-			    content: "";
-			    width: 10px;
-			    position: absolute;
-			    height: 10px;
-			    margin: auto;
-			    background-color: #FFF;
-			    transform: rotate(45deg);
-			    border-top: 1px solid;
-			    border-left: 1px solid;
-			    border-color: inherit;
-			    z-index: -1;
-			    top: -5px;
-			    left: 0;
-			    right: 0;
-			    float: left;
+				content: "";
+				width: 10px;
+				position: absolute;
+				height: 10px;
+				margin: auto;
+				background-color: #FFF;
+				transform: rotate(45deg);
+				border-top: 1px solid;
+				border-left: 1px solid;
+				border-color: inherit;
+				z-index: -1;
+				top: -5px;
+				left: 0;
+				right: 0;
+				float: left;
 			}
 		}
 
