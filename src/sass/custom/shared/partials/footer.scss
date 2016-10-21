@@ -96,6 +96,10 @@ footer#footer {
 
 		}
 
+		.eu {
+			min-height: 100px;
+		}
+
 		.brand {
 			&:after {
 				background: $color-transparent-black;
@@ -146,7 +150,7 @@ footer#footer {
 		margin-bottom: $margin-10;
 	}
 
-	.brand {
+	.brand, .credits {
 		@extend .border-bottom;
 		margin-top: $margin-60;
 		@include paddingV($margin-20);
@@ -161,6 +165,11 @@ footer#footer {
 			height: 45px;
 			opacity: 0.15;
 			transition: opacity $transition-time-2 $easing-1;
+		}
+
+		.eu-logo {
+			height: 100%;
+			width: 150px;
 		}
 
 		a:hover {
