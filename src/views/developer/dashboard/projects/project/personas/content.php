@@ -6,6 +6,27 @@
 
 	<div class="row added-persona-container">
 
+		<div class="col-md-4 new-persona added-persona">
+
+			<a href="#nowhere" data-toggle="modal" data-target=".popup-create-new-persona">
+				<div class="background">
+					<div class="vertical-align">
+						<div class="middle">
+							<div class="add-project-button">
+								<div class="vertical-align">
+									<div class="middle">
+										<i class="icon icon-plus"></i>
+									</div>
+								</div>
+							</div>
+							<h2 class="header-small secondary">Create new persona</h2>
+						</div>
+					</div>
+				</div>
+			</a>
+
+		</div>
+
 		<div class="col-md-4 added-persona">
 			<header class="added-persona__image">
 				<img src="https://unsplash.it/500">
@@ -43,28 +64,7 @@
 				<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 			</section>
 		</div>
-		
-		<div class="col-md-4 new-persona added-persona">
 
-			<a href="#nowhere" data-toggle="modal" data-target=".popup-create-new-persona">
-				<div class="background">
-					<div class="vertical-align">
-						<div class="middle">
-							<div class="add-project-button">
-								<div class="vertical-align">
-									<div class="middle">
-										<i class="icon icon-plus"></i>
-									</div>
-								</div>
-							</div>
-							<h2 class="header-small secondary">Create new persona</h2>
-						</div>
-					</div>
-				</div>
-			</a>
-
-		</div>
-		
 	</div>
 	
 

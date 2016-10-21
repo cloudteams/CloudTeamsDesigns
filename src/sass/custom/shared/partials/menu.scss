@@ -9,10 +9,17 @@ body {
 
 			a {
 				display: inline-block;
+				color: $color-black-night;
 
 				&.login {
 					margin-top: $margin-20;
 					float: right;
+				}
+
+				&.about-us {
+					float: right;
+					margin: $margin-20;
+					line-height: $line-height-large;
 				}
 
 			}

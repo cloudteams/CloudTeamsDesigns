@@ -13,8 +13,7 @@
 					<h1 class="header-extra-large public">Cloudteams</h1>
 					<p class="public-page-subtitle">Collect rewards for giving feedback</p>
 					<div class="choice">
-						<a href="/views/logged-out/tutorial" class="btn big secondary">How it works</a>
-						<a href="/views/logged-out/projects" class="btn big">Browse projects</a>
+						<a href="/views/logged-out/projects" class="btn big">Join now</a>
 					</div>
 				</div>
 
