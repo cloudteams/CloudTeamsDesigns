@@ -41,6 +41,21 @@ section.public-page {
 
 	}
 
+	.user-type {
+		a {
+			display: block;
+			margin: $margin-10 0;
+			letter-spacing: $letter-spacing-medium;
+			color: $color-purple-flashy;
+			text-transform: uppercase;
+			font-size: $font-size-medium;
+			font-weight: $font-weight-bold;
+		}
+		p {
+			margin-bottom: $margin-20;
+		}
+	}
+
 	.choice {
 		a:first-child {
 			margin-right: $margin-10;

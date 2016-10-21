@@ -7,11 +7,23 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-offset-1 col-md-10">
-							<img src="[[../../img/public-header.svg]]" />
+							<img src="[[../../img/header-image.svg]]" />
 						</div>
 					</div>
-					<h1 class="header-extra-large public">Cloudteams</h1>
-					<p class="public-page-subtitle">Collect rewards for giving feedback</p>
+
+					<div class="row user-type">
+						<div class="col-md-12">
+							<div class="col-md-6 text-center">
+								<a href="#">For users</a>
+								<p>Collect rewards<br> for giving feedback</p>
+							</div>
+							<div class="col-md-6 text-center">
+								<a href="#">For developers</a>
+								<p>Test your software before<br> it hits the market</p>
+							</div>
+						</div>
+					</div>
+
 					<div class="choice">
 						<a href="/views/logged-out/projects" class="btn big">Join now</a>
 					</div>

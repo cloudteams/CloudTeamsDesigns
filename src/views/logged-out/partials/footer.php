@@ -49,12 +49,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="brand eu container-fluid">
+			<div class="brand eu">
 
 				<div class="col-sm-2">
 				</div>
 				<div class="col-sm-5">
-					<p>This project is co-funded by <strong>The European Union's Framework Programme for Research and Innovation - Horizon 2020</strong> under Grant Agreement No: 644617. Action full title: Collaborative Software Development Framework based on Trusted, Secure Cloud-based Pool of Users.</p>
+					<p class="text-left">This project is co-funded by <strong>The European Union's Framework Programme for Research and Innovation - Horizon 2020</strong> under Grant Agreement No: 644617. Action full title: Collaborative Software Development Framework based on Trusted, Secure Cloud-based Pool of Users.</p>
 				</div>
 
 				<div class="col-sm-4">
