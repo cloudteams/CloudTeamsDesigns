@@ -23,7 +23,7 @@
 
 					<section id="subsection-1" class="subsection active">
 						<div class="col-md-6 image-container">
-							<img src="http://unsplash.it/250/">
+							<img src="http://placehold.it/250/">
 						</div>
 						<div class="col-md-6">
 							

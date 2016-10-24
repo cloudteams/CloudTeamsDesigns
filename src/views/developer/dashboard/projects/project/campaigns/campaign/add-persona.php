@@ -35,7 +35,7 @@
 					<div class="row added-persona-container">
 						<div class="col-md-4 added-persona">
 							<section class="added-persona__image">
-								<img src="https://unsplash.it/500">
+								<img src="https://placehold.it/500">
 							</section>
 							<section class="added-persona__body">
 								<h3 class="header-medium secondary">Tech savy senior</h2>
@@ -52,7 +52,7 @@
 						</div>
 						<div class="col-md-4 added-persona">
 							<section class="added-persona__image">
-								<img src="https://unsplash.it/500">
+								<img src="https://placehold.it/500">
 							</section>
 							<section class="added-persona__body">
 								<h3 class="header-medium secondary">Tech savy senior</h2>
@@ -69,7 +69,7 @@
 						</div>
 						<div class="col-md-4 added-persona">
 							<section class="added-persona__image">
-								<img src="https://unsplash.it/500">
+								<img src="https://placehold.it/500">
 							</section>
 							<section class="added-persona__body">
 								<h3 class="header-medium secondary">Tech savy senior</h2>
@@ -86,7 +86,7 @@
 						</div>
 						<div class="col-md-4 added-persona">
 							<section class="added-persona__image">
-								<img src="https://unsplash.it/500">
+								<img src="https://placehold.it/500">
 							</section>
 							<section class="added-persona__body">
 								<h3 class="header-medium secondary">Tech savy senior</h2>
@@ -103,7 +103,7 @@
 						</div>
 						<div class="col-md-4 added-persona">
 							<section class="added-persona__image">
-								<img src="https://unsplash.it/500">
+								<img src="https://placehold.it/500">
 							</section>
 							<section class="added-persona__body">
 								<h3 class="header-medium secondary">Tech savy senior</h2>
@@ -120,7 +120,7 @@
 						</div>
 						<div class="col-md-4 added-persona">
 							<section class="added-persona__image">
-								<img src="https://unsplash.it/500">
+								<img src="https://placehold.it/500">
 							</section>
 							<section class="added-persona__body">
 								<h3 class="header-medium secondary">Tech savy senior</h2>

@@ -52,7 +52,7 @@
 				</header>
 
 				<div class="content">
-					<img src="https://unsplash.it/500/300" alt="project logo">
+					<img src="https://placehold.it/500/300" alt="project logo">
 				</div>
 		</article>
 

@@ -28,7 +28,7 @@
 				</div>
 			</header>
 			<section class="reward-body">
-				<img src="https://unsplash.it/200/">
+				<img src="https://placehold.it/200/">
 			</section>
 			<section class="reward-content">
 				<p>App download link!</p>

@@ -52,7 +52,7 @@
 		<div class="content user">
 			<div class="vertical-align">
 				<div class="middle image-container">
-					<img src="https://unsplash.it/250/">
+					<img src="https://placehold.it/250/">
 				</div>
 
 				<div class="middle">
