@@ -1,8 +1,8 @@
 <section class="developer-dashboard-project-campaigns-content">
 	<ul class="menu-subpage">
-		<li id="link-to-subpage-1" class="link-to-subpage active">Open</li>
-		<li id="link-to-subpage-2" class="link-to-subpage">Closed</li>
-		<li id="link-to-subpage-3" class="link-to-subpage">Draft</li>
+		<li id="link-to-subpage-1" class="link-to-subpage active">Open (2)</li>
+		<li id="link-to-subpage-2" class="link-to-subpage">Closed (2)</li>
+		<li id="link-to-subpage-3" class="link-to-subpage">Draft (0)</li>
 	</ul>
 
 	<section id="subpage-1" class="subpage active">

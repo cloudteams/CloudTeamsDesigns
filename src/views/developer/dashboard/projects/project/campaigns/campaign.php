@@ -29,6 +29,40 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
+						<i class="icon icon-time"></i>
+						<p>Duration in days</p>
+					</td>
+					<td class="col-xs-7">
+						<p class="bold">22</p>
+					</td>
+				</tr>
+
+				<tr class="row">
+					<td class="col-xs-5">
+						<i class="icon icon-campaign"></i>
+						<p>Opened</p>
+					</td>
+					<td class="col-xs-7">
+						<p class="bold">-</p>
+					</td>
+				</tr>
+
+				<tr class="row">
+					<td class="col-xs-5">
+						<i class="icon icon-close2"></i>
+						<p>Closed</p>
+					</td>
+					<td class="col-xs-7">
+						<p class="bold">-</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="content data">
+			<table>
+				<tr class="row">
+					<td class="col-xs-5">
 						<i class="icon icon-invite"></i>
 						<p>Invited</p>
 					</td>
