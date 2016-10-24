@@ -15,19 +15,54 @@
 		</div>
 	</header>
 
-	<div class="row">
+	<ul class="menu-subpage">
+		<li id="link-to-subpage-1" class="link-to-subpage active">Accepted (6)</li>
+		<li id="link-to-subpage-2" class="link-to-subpage">Invited (2)</li>
+		<li id="link-to-subpage-3" class="link-to-subpage">Declined (2)</li>
+	</ul>
 
-		<?php include("member-new.php"); ?>
+	<section id="subpage-1" class="subpage active">
 
-		<?php include("member-picture.php"); ?>
-		<?php include("member-no-picture.php"); ?>
-		<?php include("member-no-picture.php"); ?>
-		<?php include("member-picture.php"); ?>
-		<?php include("member-picture.php"); ?>
-		<?php include("member-no-picture.php"); ?>
+		<div class="row">
 
-		<?php include("member-popup.php"); ?>
-		<?php include("member-new-popup.php"); ?>
+			<?php include("member-new.php"); ?>
 
-	</div>
+			<?php include("member-picture.php"); ?>
+			<?php include("member-no-picture.php"); ?>
+			<?php include("member-no-picture.php"); ?>
+			<?php include("member-picture.php"); ?>
+			<?php include("member-picture.php"); ?>
+			<?php include("member-no-picture.php"); ?>
+
+
+
+		</div>
+
+	</section>
+
+	<section id="subpage-2" class="subpage">
+
+		<div class="row">
+
+			<?php include("member-picture.php"); ?>
+			<?php include("member-no-picture.php"); ?>
+
+		</div>
+		
+	</section>
+
+	<section id="subpage-3" class="subpage">
+
+		<div class="row">
+
+			<?php include("member-picture.php"); ?>
+			<?php include("member-no-picture.php"); ?>
+
+		</div>
+		
+	</section>
+
+	<?php include("member-popup.php"); ?>
+	<?php include("member-new-popup.php"); ?>
+
 </section>

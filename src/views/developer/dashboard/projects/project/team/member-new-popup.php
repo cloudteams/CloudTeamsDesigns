@@ -21,15 +21,15 @@
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-lg-12">
-						<ul class="menu-subpage">
-							<li id="link-to-subpage-1" class="link-to-subpage active">Manually</li>
-							<li id="link-to-subpage-2" class="link-to-subpage">Address book</li>
-							<li id="link-to-subpage-3" class="link-to-subpage">Search</li>
+						<ul class="menu-subsection">
+							<li id="link-to-subsection-1" class="link-to-subsection active">Manually</li>
+							<li id="link-to-subsection-2" class="link-to-subsection">Address book</li>
+							<li id="link-to-subsection-3" class="link-to-subsection">Search</li>
 						</ul>
 					</div>
 					<hr>
-					<section id="subpage-1" class="subpage active">
-						<div class="subpage-wrapper">
+					<section id="subsection-1" class="subsection active">
+						<div class="subsection-wrapper">
 							<form id="manual-invite">
 								<fieldset class="form-group required">
 									<label for="new-member-name" class="control-label header-medium secondary">New team member name </label>
@@ -53,7 +53,7 @@
 									<div class="select-dropdown">
 										<i class="icon icon-arrow-down"></i>
 										<select class="disabled-select" name="campaign-start-year" id="campaign-start-year" onchange="" size="1">
-											<option value="" disabled hidden selected>Assign aaa role</option>
+											<option value="" disabled hidden selected>Assign a role</option>
 											<option value="front">Front-end Developer</option>
 											<option value="back">Back-end Developer</option>
 											<option value="manager">Project Manager</option>
@@ -93,7 +93,7 @@
 						</div>
 					</section>
 
-					<section id="subpage-2" class="subpage">
+					<section id="subsection-2" class="subsection">
 						<div class="row">
 							<section class="team-member-invite">
 								<div class="vertical-align">
@@ -235,7 +235,7 @@
 						</div>
 					</section>
 
-					<section id="subpage-3" class="subpage">
+					<section id="subsection-3" class="subsection">
 						<fieldset class="form-group form-search">
 							<div class="vertical-align">
 								<label for="new-member-name" class="control-label header-medium secondary">Search for a member</label>
