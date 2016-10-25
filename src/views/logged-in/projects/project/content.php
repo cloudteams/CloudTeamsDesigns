@@ -158,7 +158,7 @@
 			<div class="content about">
 				<header>
 					<h2 class="header-large secondary">Customer ideas</h2>
-					<a href="#modal-send-idea" class="btn" alt="send idea">Send idea</a>
+					<a data-toggle="modal" data-target="#modal-send-idea" href="#" class="btn" alt="send idea">Send idea</a>
 				</header>
 			</div>
 

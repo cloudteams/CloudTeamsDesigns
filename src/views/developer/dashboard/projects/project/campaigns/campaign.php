@@ -63,18 +63,18 @@
 			<table>
 				<tr class="row">
 					<td class="col-xs-5">
-						<i class="icon icon-invite"></i>
-						<p>Invited</p>
+						<i class="icon icon-seen"></i>
+						<p>Visibility</p>
 					</td>
 					<td class="col-xs-7">
-						<p class="bold">22</p>
+						<p class="bold">Private</p>
 					</td>
 				</tr>
 
 				<tr class="row">
 					<td class="col-xs-5">
-						<i class="icon icon-add-member"></i>
-						<p>Accepted</p>
+						<i class="icon icon-invite"></i>
+						<p>Invited</p>
 					</td>
 					<td class="col-xs-7">
 						<p class="bold">15</p>
@@ -95,20 +95,14 @@
 
 		<div class="content user">
 			<div class="vertical-align">
-				<div class="middle image-container">
-					<i class="icon icon-profile"></i>
+				<div class="col-md-5 image-container">
+					<img src="https://placehold.it/500">
 				</div>
 
-				<div class="middle data-container">
+				<div class="col-md-7 data-container">
 					<p class="header-medium secondary">John Mestra</p>
-					<p class="meta big">Persona</p>
-
-					<div class="progress-container">
-						<div class="progress-wrap" data-progress-percent="0.75">
-							<div class="progress-bar"></div>
-						</div>
-						<p class="percentage bold">48/100</p>
-					</div>
+					<p class="meta big">subtitle</p>
+					<p class="big">Hello world, life is so good right now</p>
 				</div>
 			</div>
 		</div>
