@@ -158,7 +158,7 @@
 			<div class="content about">
 				<header>
 					<h2 class="header-large secondary">Customer ideas</h2>
-					<a data-toggle="modal" data-target="#modal-send-idea" href="#" class="btn" alt="send idea">Send idea</a>
+					<a data-toggle="modal" data-target=".popup-send-new-idea" href="#" class="btn" alt="send idea">Send idea</a>
 				</header>
 			</div>
 
@@ -167,7 +167,7 @@
 			<?php include("customer-idea.php"); ?>
 			<?php include("customer-idea.php"); ?>
 			<?php include("customer-idea.php"); ?>
-			<?php include("modal/new-idea.php"); ?>
+
 		</div>
 	</section>
 

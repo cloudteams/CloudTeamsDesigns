@@ -1,6 +1,27 @@
 .page-public-project-overview {
 	padding-bottom: 0 !important;
 	padding-top: 0 !important;
+
+	.modal-body {
+		margin: 0 $margin-15;
+		
+		.row {
+			margin: $margin-10 0;
+		}
+	}
+
+	.form-group.required .control-label:after { 
+	   content:"*";
+	   color: $color-red-deep;
+	}
+
+	.form-submit a {
+		float: right;
+		&:last-of-type {
+			margin: 0 $margin-10;
+		}
+	}
+
 }
 
 .public-project-overview-content {

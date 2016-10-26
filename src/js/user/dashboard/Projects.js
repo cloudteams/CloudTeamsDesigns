@@ -1,5 +1,7 @@
 /* global $ */
 
+import 'bootstrap';
+
 (function() {
 	function closeItem(item) {
 		item.removeClass('active');
@@ -14,9 +16,8 @@
 	}
 
 	function openTutorial() {
-		const userTutorial = $('#popup-tutorial-user');
-
-		userTutorial.modal('show');
+		// const userTutorial = $('#popup-tutorial-user');
+		// userTutorial.modal('show');
 	}
 
 	$(document).ready(() => {
