@@ -4,13 +4,25 @@ footer#footer {
 
 	ul {
 		&.social-media {
+			float: left;
+
 			li {
+				float: left;
+				margin: $margin-5;
+
+				&:first-of-type {
+					min-width: 100%;
+				}
+
 				a {
-					color: $color-gray-clear;
+					color: $color-white;
 					transition: color $transition-time-2 $easing-1;
 
 					i {
 						font-size: $font-size-large;
+						border-radius: 50%;
+						color: $color-white;
+						padding: $margin-5;
 					}
 
 					&:after {
@@ -18,7 +30,7 @@ footer#footer {
 					}
 
 					&:hover {
-						color: $color-black-night;
+						color: $color-gray-soft;
 						transition: color $transition-time-1 $easing-1;
 					}
 
@@ -26,6 +38,21 @@ footer#footer {
 
 			}
 
+			& .icon-twitter {
+				background-color: #63cdf1;
+			}
+
+			& .icon-facebook {
+				background-color: #507cbe;
+			}
+
+			& .icon-linkedin {
+				background-color: #90cadd;
+			}
+
+			& .icon-youtube {
+				background-color: #f16261;
+			}
 		}
 
 	}

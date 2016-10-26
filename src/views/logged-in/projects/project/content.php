@@ -167,6 +167,7 @@
 			<?php include("customer-idea.php"); ?>
 			<?php include("customer-idea.php"); ?>
 			<?php include("customer-idea.php"); ?>
+			<?php include("modal/new-idea.php"); ?>
 		</div>
 	</section>
 
