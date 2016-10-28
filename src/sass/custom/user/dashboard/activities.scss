@@ -1,0 +1,61 @@
+.user-dashboard-activity-content {
+	padding-top: 0 !important;
+
+	.legend {
+		@include marginV($margin-20);
+	}
+
+	.content {
+		a {
+			width: 100%;
+		}
+
+	}
+
+	.activity {
+		padding: $margin-10;
+		background-color: $color-purple-solid-light;
+		color: $color-white;
+		border-bottom: 1px solid $color-transparent-white;
+
+		&:hover {
+			background-color: $color-purple-solid-hover;
+		}
+
+		span {
+			color: $color-white;
+			font-weight: 700;
+		}
+
+		.vertical-align > div {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.content {
+			float: left;
+			text-align: left;
+			&--textual {
+				padding: $margin-10;
+			}
+		}
+
+		.image {
+			width: $margin-50;
+			margin: $margin-10;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+
+			img {
+				border-radius: 100%
+			}
+		}
+
+		p {
+			display: inline-block;
+		}
+
+	}
+
+}

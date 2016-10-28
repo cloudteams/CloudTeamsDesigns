@@ -59,6 +59,13 @@
 			</li>
 
 			<li>
+				<a href="/views/user/dashboard/activities" class="incoming">
+					<i class="icon icon-activity"></i>
+					<span>Activities</span>
+				</a>
+			</li>
+
+			<li>
 				<a href="/views/logged-in/projects">
 					<i class="icon icon-all-projects"></i>
 					<span>All projects</span>
