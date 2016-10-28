@@ -1,3 +1,90 @@
-.user-dashboard-notifications-content {
-	@extend .developer-dashboard-notifications-content;
+.user-dashboard-notification-content {
+	padding-top: 0 !important;
+
+	.legend {
+		@include marginV($margin-20);
+	}
+
+	.content {
+		a {
+			width: 100%;
+		}
+
+	}
+
+	.notification {
+		margin-bottom: 0;
+		padding: $margin-10;
+		background-color: $color-purple-solid-light;
+		color: $color-white;
+		border-bottom: 1px solid $color-transparent-white;
+
+		&:hover {
+			background-color: $color-purple-solid-highlight;
+
+			.tooltip-container {
+				display: inline-block !important;
+			}
+		}
+
+		span {
+			color: $color-white;
+			font-weight: 700;
+		}
+
+		.vertical-align > div {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.content {
+			float: left;
+			text-align: left;
+
+			.tooltip-container {
+				display: none;
+			}
+
+			.custom-tooltip {
+				right: -6px;
+    			top: 26px;
+    			min-width: 270px;
+			}
+
+			&:last-of-type {
+				text-align: right;
+			}
+
+			&--textual {
+				padding: $margin-10;
+
+				p:last-of-type {
+					margin-top: $margin-5;
+				}
+			}
+
+			a {
+				color: $color-gray-clear;
+			}
+
+		}
+
+		.image {
+			width: $margin-50;
+			margin: $margin-10;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+
+			img {
+				border-radius: 100%
+			}
+		}
+
+		p {
+			display: inline-block;
+		}
+
+	}
+
 }
