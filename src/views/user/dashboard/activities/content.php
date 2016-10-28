@@ -1,7 +1,7 @@
 <section class="user-dashboard-activity-content">
 	<div class="legend">
-		<div class="legend-item"><i class="icon icon-approved"></i> Action</div>
-		<div class="legend-item"><i class="icon icon-time"></i> Date</div>
+		<div class="legend-item"></div>
+		<div class="legend-item"><a href="#"></a></div>
 	</div>
 
 	<section class="content">

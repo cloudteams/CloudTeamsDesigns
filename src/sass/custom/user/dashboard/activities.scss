@@ -19,7 +19,7 @@
 		border-bottom: 1px solid $color-transparent-white;
 
 		&:hover {
-			background-color: $color-purple-solid-hover;
+			background-color: $color-purple-solid-highlight;
 		}
 
 		span {
@@ -35,9 +35,23 @@
 		.content {
 			float: left;
 			text-align: left;
+
+			&:last-of-type {
+				text-align: right;
+			}
+
 			&--textual {
 				padding: $margin-10;
+
+				p:last-of-type {
+					margin-top: $margin-5;
+				}
 			}
+
+			a {
+				color: $color-gray-clear;
+			}
+
 		}
 
 		.image {
