@@ -1,7 +1,6 @@
 <section class="user-dashboard-activity-content">
-	<div class="legend">
-		<div class="legend-item"></div>
-		<div class="legend-item"><a href="#"></a></div>
+	<div class="legend text-right">
+		<a class="btn" href="#">Activity settings</a>
 	</div>
 
 	<section class="content">

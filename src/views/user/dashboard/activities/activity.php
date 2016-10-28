@@ -18,11 +18,9 @@
 				<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 				<div class="custom-tooltip">
 					<ul>
-						<li>
-							<a href="">Delete project</a>
-						</li>
-						<li><a href="">Lorem ipsum</a></li>
-						<li><a href="">Lorem ipsum</a></li>
+
+						<li><a href="">Hide this notification</a></li>
+						<li><a href="">Hide all notifications about rewards</a></li>
 					</ul>
 				</div>
 			</div>

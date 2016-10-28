@@ -20,6 +20,10 @@
 
 		&:hover {
 			background-color: $color-purple-solid-highlight;
+
+			.tooltip-container {
+				display: inline-block !important;
+			}
 		}
 
 		span {
@@ -35,6 +39,16 @@
 		.content {
 			float: left;
 			text-align: left;
+
+			.tooltip-container {
+				display: none;
+			}
+
+			.custom-tooltip {
+				right: -6px;
+    			top: 26px;
+    			min-width: 270px;
+			}
 
 			&:last-of-type {
 				text-align: right;

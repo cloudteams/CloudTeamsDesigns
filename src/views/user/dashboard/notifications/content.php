@@ -1,7 +1,6 @@
-<section class="user-dashboard-notifications-content">
-	<div class="legend">
-		<div class="legend-item"><i class="icon icon-approved"></i> Action</div>
-		<div class="legend-item"><i class="icon icon-time"></i> Date</div>
+<section class="user-dashboard-notification-content">
+	<div class="legend text-right">
+		<a class="btn" href="#">notification settings</a>
 	</div>
 
 	<section class="content">
@@ -10,7 +9,5 @@
 		<?php include("notification.php"); ?>
 		<?php include("notification.php"); ?>
 		<?php include("notification.php"); ?>
-
-		<a href="#nowhere" class="btn">Load more</a>
 	</section>
 </section>
