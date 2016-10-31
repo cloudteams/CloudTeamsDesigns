@@ -4,25 +4,18 @@
 		<li id="link-to-subpage-2" class="link-to-subpage">Team</li>
 	</ul>
 
-	<div class="legend">
-		<div class="legend-item"><i class="icon icon-approved"></i> Action</div>
-		<div class="legend-item"><i class="icon icon-time"></i> Date</div>
-	</div>
-
-	<section id="subpage-1" class="subpage active">
+	<section id="subpage-1" class="subpage content active">
 		<?php include("activity.php"); ?>
 		<?php include("activity.php"); ?>
 		<?php include("activity.php"); ?>
 		<?php include("activity.php"); ?>
 		<?php include("activity.php"); ?>
 
-		<a href="#nowhere" class="btn">Load more</a>
 	</section>
 
-	<section id="subpage-2" class="subpage">
+	<section id="subpage-2" class="subpage content">
 		<?php include("activity.php"); ?>
 		<?php include("activity.php"); ?>
 
-		<a href="#nowhere" class="btn">Load more</a>
 	</section>
 </section>
