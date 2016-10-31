@@ -1,7 +1,6 @@
-<section class="developer-dashboard-notifications-content">
-	<div class="legend">
-		<div class="legend-item"><i class="icon icon-approved"></i> Action</div>
-		<div class="legend-item"><i class="icon icon-time"></i> Date</div>
+<section class="developer-dashboard-notification-content">
+	<div class="legend text-right">
+		<a href="#nowhere" data-toggle="modal" data-target=".popup-adjust-notification" class="btn add-existing-story" alt="adjust notifications">notification settings</a>
 	</div>
 
 	<section class="content">
@@ -10,7 +9,6 @@
 		<?php include("notification.php"); ?>
 		<?php include("notification.php"); ?>
 		<?php include("notification.php"); ?>
-
-		<a href="#nowhere" class="btn">Load more</a>
+		<?php include("adjust-notification.php"); ?>
 	</section>
 </section>

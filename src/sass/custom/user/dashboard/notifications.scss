@@ -18,6 +18,7 @@
 		background-color: $color-purple-solid-light;
 		color: $color-white;
 		border-bottom: 1px solid $color-transparent-white;
+		cursor: pointer;
 
 		&:hover {
 			background-color: $color-purple-solid-highlight;
@@ -64,7 +65,11 @@
 			}
 
 			a {
-				color: $color-gray-clear;
+				color: $color-white;
+
+				& i {
+					color: $color-gray-clear;
+				}
 			}
 
 		}

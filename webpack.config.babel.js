@@ -35,6 +35,7 @@ module.exports = (function() {
 		'developer/dashboard/personas'         : './js/developer/dashboard/Personas.js',
 		'developer/dashboard/rewards'          : './js/developer/dashboard/Rewards.js',
 		'developer/dashboard/documents'        : './js/developer/dashboard/Documents.js',
+		'developer/dashboard/notifications'    : './js/developer/dashboard/Notifications.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
 		'public/project'                       : './js/public/Project.js',
 		'shared/loaders'                       : './js/shared/Loaders.js'

@@ -1,4 +1,4 @@
-.developer-dashboard-notifications-content {
+.developer-dashboard-notification-content {
 	padding-top: 0 !important;
 
 	.legend {
@@ -6,8 +6,127 @@
 	}
 
 	.content {
-		a {
-			width: 100%;
+		a.togglebutton {
+			width: 80px;
+		}
+
+
+		.modal-body {
+			.row {
+				margin: $margin-20 0;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+
+				.form-group {
+					margin-bottom: 0;
+				}
+
+				.form-submit {
+					text-align: right;
+					margin: 0;
+
+					a:not(:first-of-type) {
+						margin-left: $margin-10;
+					}
+
+				}
+
+				> div {
+					margin: $margin-10 0;
+				}
+
+				.option {
+					line-height: $margin-40;
+				}
+
+				a.btn:not(.btn-transparent):hover {
+					color: $color-purple-flashy !important;
+					background-color: $color-white !important;
+					transition: $easing-1 $transition-time-1 !important;
+				}
+			}
+		}
+
+	}
+
+	.notification {
+		margin-bottom: 0;
+		padding: $margin-10;
+		background-color: $color-purple-solid-light;
+		color: $color-white;
+		border-bottom: 1px solid $color-transparent-white;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $color-purple-solid-highlight;
+
+			.tooltip-container {
+				display: inline-block !important;
+			}
+		}
+
+		span {
+			color: $color-white;
+			font-weight: 700;
+		}
+
+		.vertical-align > div {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+
+		.content {
+			float: left;
+			text-align: left;
+
+			.tooltip-container {
+				display: none;
+			}
+
+			.custom-tooltip {
+				right: -6px;
+    			top: 26px;
+    			min-width: 270px;
+			}
+
+			&:last-of-type {
+				text-align: right;
+			}
+
+			&--textual {
+				padding: $margin-10;
+
+				p:last-of-type {
+					margin-top: $margin-5;
+				}
+			}
+
+			a {
+				color: $color-white;
+
+				& i {
+					color: $color-gray-clear;
+				}
+			}
+
+		}
+
+		.image {
+			width: $margin-50;
+			margin: $margin-10;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+
+			img {
+				border-radius: 100%
+			}
+		}
+
+		p {
+			display: inline-block;
 		}
 
 	}
