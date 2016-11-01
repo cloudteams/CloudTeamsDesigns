@@ -25,4 +25,6 @@
 	</div>
 </section>
 
+<script type="text/javascript" src="[[./js/developer/dashboard/notifications-*.js]]"></script>
+
 <?php include("../partials/footer.php"); ?>

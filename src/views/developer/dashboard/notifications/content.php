@@ -1,6 +1,7 @@
 <section class="developer-dashboard-notification-content">
+
 	<div class="legend text-right">
-		<a href="#nowhere" data-toggle="modal" data-target=".popup-adjust-notification" class="btn add-existing-story" alt="adjust notifications">notification settings</a>
+		<a href="#nowhere" data-toggle="modal" data-target=".popup-adjust-notification" class="btn" alt="adjust notifications">notification settings</a>
 	</div>
 
 	<section class="content">
