@@ -43,6 +43,17 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="/views/developer/dashboard/projects">
+										<i class="icon icon-project"></i>
+										All projects
+									</a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="vertical-align">
+								<div class="middle">
+									<a href="/views/developer/dashboard/projects">
 										<i class="icon icon-dashboard"></i>
 										Dashboard
 									</a>
