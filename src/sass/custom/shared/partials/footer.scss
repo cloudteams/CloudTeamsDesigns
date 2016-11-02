@@ -180,7 +180,8 @@ footer#footer {
 	.brand, .credits {
 		@extend .border-bottom;
 		margin-top: $margin-60;
-		@include paddingV($margin-20);
+		padding-top: $margin-60;
+		padding-bottom: 120px;
 		position: relative;
 		text-align: center;
 

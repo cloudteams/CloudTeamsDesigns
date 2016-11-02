@@ -45,11 +45,25 @@
 							<li><h2 class="header-small public">Connect</h2></li>
 							<li><a href="" alt="twitter"><i class="icon icon-twitter"></i></a></li>
 							<li><a href="" alt="facebook"><i class="icon icon-facebook"></i></a></li>
+							<li><a href="" alt="linkedin"><i class="icon icon-linkedin"></i></a></li>
+							<li><a href="" alt="youtube"><i class="icon icon-youtube"></i></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
+			<div class="brand eu">
 
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-5">
+					<p class="text-left">This project is co-funded by <strong>The European Union's Framework Programme for Research and Innovation - Horizon 2020</strong> under Grant Agreement No: 644617. Action full title: Collaborative Software Development Framework based on Trusted, Secure Cloud-based Pool of Users.</p>
+				</div>
+
+				<div class="col-sm-4">
+					<img src="[[../../../img/eu-logo.png]]" class="eu-logo" alt="EC logo">
+				</div>
+
+			</div>
 			<div class="brand">
 				<a href="/"><img src="[[../../../img/logo-black.svg]]" class="logo svg" alt="Cloudteams logo"></a>
 			</div>
