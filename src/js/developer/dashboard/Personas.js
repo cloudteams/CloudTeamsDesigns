@@ -1,5 +1,7 @@
 /* global $ */
 
+import ConfirmFader from 'partials/ConfirmFader.js';
+
 (function() {
 	function confirmMessage() {
 		const confirmButton = $('.confirm-button');
@@ -51,6 +53,6 @@
 
 	$(document).ready(() => {
 		initClicks();
-		confirmMessage();
+		ConfirmFader.run('.modal-body');
 	});
 })();

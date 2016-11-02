@@ -40,7 +40,7 @@ export default (function() {
 			e.preventDefault();
 
 			const height = modalBody.outerHeight();
-			modalBody.css('min-height', `${height}`);
+			modalBody.css('height', `${height}`);
 
 			startProcessing(modalBody);
 		});
