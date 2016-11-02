@@ -25,7 +25,7 @@
 					</div>
 
 					<div class="choice">
-						<a href="/views/logged-out/projects" class="btn big">Join now</a>
+						<a href="/views/log-in/choose/" class="btn big">Join now</a>
 					</div>
 				</div>
 
