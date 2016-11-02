@@ -1,5 +1,7 @@
 /* global $ */
 
+import ConfirmFader from 'partials/ConfirmFader.js';
+
 (function() {
 	function preventClicks() {
 		$('a[href="#nowhere"]').click(e => {
@@ -64,14 +66,14 @@
 
 	function activeSubMenuItem() {
 		const navLink = $('.side-menu > ul > li a[href="developer-dashboard-project-campaigns.php"]');
-
 		navLink.addClass('active');
 	}
 
 	$(document).ready(() => {
 		activeSubMenuItem();
 		confirmButtons();
-		confirmTopUp();
+		// confirmTopUp();
+		ConfirmFader.run('.top-up-content');
 		preventClicks();
 	});
 })();

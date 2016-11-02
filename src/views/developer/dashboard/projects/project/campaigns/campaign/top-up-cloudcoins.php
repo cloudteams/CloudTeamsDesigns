@@ -18,7 +18,7 @@
 			</header>
 
 			<div class="modal-body top-up-content">
-				<div class="content-section">
+				<div class="entire-section">
 					<div class="row">
 						<div class="col-lg-12">
 							<p>Your CloudCoins top-up monthly limit is <strong>1500</strong> and you got <strong>200</strong> CloudCoins this month.<br> You can top-up with a maximum of <strong>1300</strong> CloudCoins until September 01, 2016</p>
@@ -40,12 +40,12 @@
 						<div class="col-lg-5">
 							<fieldset class="form-group form-submit">
 								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-								<a href="#nowhere" class="btn top-up-button" alt="create">Top up</a>
+								<a href="#nowhere" class="btn confirm-button" alt="create">Top up</a>
 							</fieldset>
 						</div>					
 					</div>
 				</div>
-				<div class="pop-up sending-section" style='display: none;'>
+				<div class="pop-up sending-wrapper" style='display: none;'>
 					<div class="vertical-align">
 						<div class="middle">
 							<i class="icon icon-document"></i>
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 
-				<div class="pop-up confirm-section" style='display: none;'>
+				<div class="pop-up confirm-wrapper" style='display: none;'>
 					<div class="vertical-align">
 						<div class="middle">
 							<i class="icon icon-check"></i>
