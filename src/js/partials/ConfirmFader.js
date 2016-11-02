@@ -32,15 +32,15 @@ export default (function() {
 		});
 	}
 
-	function run() {
+	function run(wrapper) {
 		const confirmButton = $('.confirm-button');
-		const modalBody = $('.modal-body');
+		const modalBody = $(wrapper);
 
 		confirmButton.click(e => {
 			e.preventDefault();
 
 			const height = modalBody.outerHeight();
-			modalBody.css('height', `${height}`);
+			modalBody.css('min-height', `${height}`);
 
 			startProcessing(modalBody);
 		});

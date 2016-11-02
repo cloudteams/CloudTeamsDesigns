@@ -11,6 +11,6 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 
 	$(document).ready(() => {
 		initClicks();
-		ConfirmFader.run();
+		ConfirmFader.run('.modal-body');
 	});
 })();

@@ -84,6 +84,6 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 	$(document).ready(() => {
 		initClicks();
 		selectAllOptionsOpen();
-		ConfirmFader.run();
+		ConfirmFader.run('.modal-body');
 	});
 })();

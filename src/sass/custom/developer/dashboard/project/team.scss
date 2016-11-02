@@ -181,6 +181,7 @@
 		}
 
 		.modal-body {
+
 			.row {
 				> div {
 					margin-bottom: $margin-30;
@@ -216,6 +217,10 @@
 		.modal-body {
 			padding-top: 0;
 
+			#subsection-1 {
+				height: 365px;
+			}
+
 			.menu-subsection {
 				padding: $margin-5;
 				+ hr {
@@ -236,6 +241,7 @@
 			}
 
 			.pop-up {
+				padding-top: $margin-30;
 				text-align: center;
 
 				i {

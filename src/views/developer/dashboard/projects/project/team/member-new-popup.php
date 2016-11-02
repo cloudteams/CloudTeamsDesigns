@@ -29,7 +29,26 @@
 					</div>
 					<hr>
 					<section id="subsection-1" class="subsection active">
-						<div class="subsection-wrapper">
+
+						<div class="pop-up sending-wrapper" style='display: none;'>
+							<div class="vertical-align">
+								<div class="middle">
+									<i class="icon icon-team"></i>
+									<p class="meta big">Sending your invitation</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="pop-up confirm-wrapper" style='display: none;'>
+							<div class="vertical-align">
+								<div class="middle">
+									<i class="icon icon-check"></i>
+									<p class="meta big">Your invite has been send</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="entire-section">
 							<form id="manual-invite">
 								<fieldset class="form-group required">
 									<label for="new-member-name" class="control-label header-medium secondary">New team member name </label>
@@ -72,23 +91,6 @@
 									<a href="#nowhere" class="btn confirm-button" alt="submit invite">Send invite</a>
 								</fieldset>
 
-								<div class="pop-up sending-wrapper" style='display: none;'>
-									<div class="vertical-align">
-										<div class="middle">
-											<i class="icon icon-team"></i>
-											<p class="meta big">Sending your invitation</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="pop-up confirm-wrapper" style='display: none;'>
-									<div class="vertical-align">
-										<div class="middle">
-											<i class="icon icon-check"></i>
-											<p class="meta big">Your invite has been send</p>
-										</div>
-									</div>
-								</div>
 							</form>							
 						</div>
 					</section>

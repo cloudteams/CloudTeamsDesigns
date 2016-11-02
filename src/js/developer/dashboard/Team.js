@@ -1,8 +1,10 @@
 /* global $ */
 
+import ConfirmFader from 'partials/ConfirmFader.js';
+
 (function() {
 	function confirmMessage() {
-		const subpageSection = $('#subpage-1');
+		const subpageSection = $('#subsection-1');
 		const confirmButton  = $('.confirm-button');
 		const contentSection = $('.subpage-wrapper .form-group');
 		const confirmSection = $('.confirm-wrapper');
@@ -70,7 +72,8 @@
 	}
 
 	$(document).ready(() => {
-		confirmMessage();
+		ConfirmFader.run('.entire-section');
+		// confirmMessage();
 		confirmButtons();
 		removeDisabledColor();
 	});
