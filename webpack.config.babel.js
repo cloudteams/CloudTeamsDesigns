@@ -97,6 +97,10 @@ module.exports = (function() {
 	}
 
 	function makeConfig() {
+		if (!(WebpackUserConfig && WebpackUserConfig.output)) {
+			throw new Error('please define output folder in "webpack.config.user.json"');
+		}
+
 		return {
 			context: Path.join(__dirname, 'src'),
 			entry  : ENTRY_POINTS,
