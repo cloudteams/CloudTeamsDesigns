@@ -27,6 +27,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/developer/dashboard/personas-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/personas-*.js]]"></script>
 
 <?php include("../../../partials/footer.php"); ?>

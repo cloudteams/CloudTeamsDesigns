@@ -32,6 +32,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/shared/loaders-*.js]]"></script>
+<script type="text/javascript" src="[[js/shared/loaders-*.js]]"></script>
 
 <?php include("../../log-in/partials/footer.php"); ?>

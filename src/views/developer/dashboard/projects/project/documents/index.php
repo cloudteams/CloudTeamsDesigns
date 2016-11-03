@@ -31,6 +31,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/developer/dashboard/documents-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/documents-*.js]]"></script>
 
 <?php include("../../../partials/footer.php"); ?>

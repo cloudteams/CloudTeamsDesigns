@@ -1,6 +1,6 @@
 /* global $ */
 
-import 'bootstrap';
+// import 'bootstrap';
 
 (function() {
 	function openTutorial() {

@@ -31,6 +31,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/developer/dashboard/customer-ideas-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/customer-ideas-*.js]]"></script>
 
 <?php include("../../../partials/footer.php"); ?>

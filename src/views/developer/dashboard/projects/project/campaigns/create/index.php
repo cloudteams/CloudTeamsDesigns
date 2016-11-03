@@ -31,7 +31,7 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/developer/dashboard/campaign-overview-*.js]]"></script>
-<script type="text/javascript" src="[[./js/developer/dashboard/campaign-create-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/campaign-overview-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/campaign-create-*.js]]"></script>
 
 <?php include("../../../../partials/footer.php"); ?>

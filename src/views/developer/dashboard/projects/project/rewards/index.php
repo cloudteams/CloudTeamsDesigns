@@ -27,6 +27,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[./js/developer/dashboard/rewards-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/rewards-*.js]]"></script>
 
 <?php include("../../../partials/footer.php"); ?>

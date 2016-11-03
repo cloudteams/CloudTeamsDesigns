@@ -32,6 +32,6 @@
 
 <?php include("../partials/tutorial.php"); ?>
 
-<script type="text/javascript" src="[[./js/developer/dashboard/projects-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/projects-*.js]]"></script>
 
 <?php include("../partials/footer.php"); ?>
