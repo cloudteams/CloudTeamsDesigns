@@ -14,3 +14,4 @@ package.user.json
 *.sublime-workspace
 *.sublime-project
 config.json
+webpack.config.user.json

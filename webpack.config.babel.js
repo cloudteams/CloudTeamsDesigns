@@ -1,11 +1,11 @@
-const AutoPrefixer       = require('autoprefixer');
-const Webpack            = require('webpack');
-const ExtractTextPlugin  = require('extract-text-webpack-plugin');
-const PathRewriterPlugin = require('webpack-path-rewriter');
-const Path               = require('path');
-const BrowserSyncPlugin  = require('browser-sync-webpack-plugin');
-const WebpackShellPlugin = require('webpack-shell-plugin');
-const packageInformation = require('./package.json');
+const BrowserSyncPlugin     = require('browser-sync-webpack-plugin');
+const ChildProcess          = require('child_process');
+const ExtractTextPlugin     = require('extract-text-webpack-plugin');
+const packageInformation    = require('./package.json');
+const Path                  = require('path');
+const PathRewriterPlugin    = require('webpack-path-rewriter');
+const Webpack               = require('webpack');
+const WebpackUserConfig     = require('./webpack.config.user.json');
 
 module.exports = (function() {
 	const PRODUCTION  = process.env.NODE_ENV === 'production';
@@ -45,8 +45,7 @@ module.exports = (function() {
 				'$'            : 'jquery',
 				'jQuery'       : 'jquery',
 				'window.jQuery': 'jquery',
-				'window.Tether': 'tether',
-				'cookieconsent': 'cookieconsent'
+				'window.Tether': 'tether'
 			}),
 
 			new Webpack.DefinePlugin({
@@ -76,10 +75,6 @@ module.exports = (function() {
 
 			new PathRewriterPlugin({
 				emitStats: false
-			}),
-
-			new WebpackShellPlugin({
-				onBuildEnd  : ['npm run onbuild']
 			})
 		];
 
@@ -106,7 +101,7 @@ module.exports = (function() {
 			context: Path.join(__dirname, 'src'),
 			entry  : ENTRY_POINTS,
 			output : {
-				path    : 'dist',
+				path    : WebpackUserConfig.output,
 				filename: Path.join('js', `${HASH_BUNDLE}.js`)
 			},
 			module: {
@@ -115,7 +110,7 @@ module.exports = (function() {
 						test   : /\.jsx?$/,
 						exclude: /(node_modules)|(vendor)/,
 						loader : 'babel',
-						query  : {
+						options: {
 							presets: ['es2015']
 						}
 					},
@@ -132,23 +127,12 @@ module.exports = (function() {
 							publicPath    : '../',
 							loader        : [
 								{
-									loader: 'css',
-									query : {
+									loader : 'css',
+									options: {
 										importLoaders: 1
 									}
 								},
-								{
-									loader: 'postcss',
-									query : {
-										plugins() {
-											return [
-												new AutoPrefixer({
-													browsers: ['last 2 versions']
-												})
-											];
-										}
-									}
-								},
+								'postcss',
 								'sass'
 							]
 						})
@@ -160,14 +144,14 @@ module.exports = (function() {
 						],
 						use: [
 							{
-								loader: 'file',
-								query : {
+								loader : 'file',
+								options: {
 									name: Path.join('img', HASH_FILE)
 								}
 							},
 							{
-								loader: 'image-webpack',
-								query : {
+								loader : 'image-webpack',
+								options: {
 									bypassOnDebug    : true,
 									optimizationLevel: 7,
 									interlaced       : false
@@ -175,9 +159,9 @@ module.exports = (function() {
 							}
 						]
 					}, {
-						test  : /\.(woff2?)$/,
-						loader: 'url',
-						query : {
+						test   : /\.(woff2?)$/,
+						loader : 'url',
+						options: {
 							limit   : 10000,
 							mimetype: 'application/font-woff',
 							name    : Path.join('fonts', HASH_FILE)
@@ -187,8 +171,8 @@ module.exports = (function() {
 						exclude: [
 							Path.join(__dirname, 'src', 'img')
 						],
-						loader: 'file',
-						query : {
+						loader : 'file',
+						options: {
 							name: Path.join('fonts', HASH_FILE)
 						}
 					}
@@ -208,6 +192,8 @@ module.exports = (function() {
 
 		};
 	}
+
+	ChildProcess.exec(`rimraf ${WebpackUserConfig.output}`);
 
 	return makeConfig();
 })();

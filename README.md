@@ -2,12 +2,11 @@
 
 ## Development
 
-1. Add file package.user.json
+1. Add file webpack.config.user.json
 
 	```json
 	{
-		"sync-dir": "path/to/sync_folder/",
-		"OS"      : "mac|windows"
+		"output": "absolute/path/to/output/folder/",
 	}
 	```
 
@@ -23,3 +22,6 @@
 
 	`npm run watch-live`
 
+3. (c) For production build
+
+	`npm run production

@@ -1,6 +1,6 @@
 /* global $ */
 
-import $ from 'jquery';
+require('cookieconsent');
 
 module.exports = (function() {
 	let $cookieBar;
@@ -8,6 +8,8 @@ module.exports = (function() {
 	let $mainNav;
 
 	function init() {
+		// console.log(CookieConsent);
+
 		window.cookieconsent.initialise({
 			content: {
 				message: 'This website uses coockies to ensure you get the best experience while browsing.',
@@ -79,12 +81,9 @@ module.exports = (function() {
 		}
 	}
 
-	function start() {
+	$(document).ready(() => {
 		$(window).on('scroll', onScroll);
 		$(window).on('resize', onScroll);
-	}
-
-	init();
-	$(window).load(start);
-
+		init();
+	});
 })();
