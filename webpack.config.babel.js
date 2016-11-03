@@ -45,7 +45,8 @@ module.exports = (function() {
 				'$'            : 'jquery',
 				'jQuery'       : 'jquery',
 				'window.jQuery': 'jquery',
-				'window.Tether': 'tether'
+				'window.Tether': 'tether',
+				'cookieconsent': 'cookieconsent'
 			}),
 
 			new Webpack.DefinePlugin({
@@ -89,11 +90,10 @@ module.exports = (function() {
 						host : 'localhost',
 						port : 3000,
 						proxy: 'http://localhost:8080/'
+					},
+					{
+						reload: true
 					}
-					// },
-					// {
-					// 	reload: true
-					// }
 				)
 			);
 		}
