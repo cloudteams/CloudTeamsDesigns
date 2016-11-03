@@ -34,7 +34,7 @@ module.exports = (function() {
 			},
 			cookie: {
 				name      : 'eu_cookie_status',
-				domain    : 'cloudteams.dev',
+				domain    : getHostname(),
 				expiryDays: 30
 			},
 			position   : 'top',
@@ -79,6 +79,10 @@ module.exports = (function() {
 		if (!$cookieBar.hasClass('cc-invisible')) {
 			pushDownWrap($cookieBarHeight);
 		}
+	}
+
+	function getHostname() {
+		return window.location.hostname;
 	}
 
 	$(document).ready(() => {
