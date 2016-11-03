@@ -106,7 +106,7 @@ module.exports = (function() {
 			entry  : ENTRY_POINTS,
 			output : {
 				path    : WebpackUserConfig.output,
-				filename: Path.join('js', `${HASH_BUNDLE}.js`)
+				filename: `js/${HASH_BUNDLE}.js`
 			},
 			module: {
 				rules: [
