@@ -70,7 +70,7 @@ module.exports = (function() {
 			new Webpack.optimize.CommonsChunkPlugin({
 				name     : 'common',
 				minChunks: 2,
-				filename : Path.join('js', `${HASH_BUNDLE}.js`)
+				filename : `js/${HASH_BUNDLE}.js`
 			}),
 
 			new PathRewriterPlugin({
