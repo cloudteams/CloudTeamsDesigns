@@ -15,22 +15,22 @@ module.exports = (function() {
 	const HASH_BUNDLE = PRODUCTION ? '[name]-[chunkhash:8]' : '[name]-dev';
 
 	const ENTRY_POINTS = {
-		'common'                               : Path.join(__dirname, 'src', 'app.entry.js'),
-		'developer/dashboard/projects'         : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Projects.js'),
-		'developer/dashboard/customer-ideas'   : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'CustomerIdeas.js'),
-		'developer/dashboard/cloudcoins'       : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Cloudcoins.js'),
-		'developer/dashboard/messages'         : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Messages.js'),
-		'developer/dashboard/campaign-overview': Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'CampaignOverview.js'),
-		'developer/dashboard/campaign-create'  : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'CampaignCreate.js'),
-		'developer/dashboard/team'             : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Team.js'),
-		'developer/dashboard/personas'         : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Personas.js'),
-		'developer/dashboard/rewards'          : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Rewards.js'),
-		'developer/dashboard/documents'        : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Documents.js'),
-		'developer/dashboard/notifications'    : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Notifications.js'),
-		'developer/dashboard/activities'       : Path.join(__dirname, 'src', 'js', 'developer', 'dashboard', 'Activities.js'),
-		'user/dashboard/projects'              : Path.join(__dirname, 'src', 'js', 'user', 'dashboard', 'Projects.js'),
-		'public/project'                       : Path.join(__dirname, 'src', 'js', 'public', 'Project.js'),
-		'shared/loaders'                       : Path.join(__dirname, 'src', 'js', 'shared', 'Loaders.js')
+		'common'                               : './app.entry.js',
+		'developer/dashboard/projects'         : './js/developer/dashboard/Projects.js',
+		'developer/dashboard/customer-ideas'   : './js/developer/dashboard/CustomerIdeas.js',
+		'developer/dashboard/cloudcoins'       : './js/developer/dashboard/Cloudcoins.js',
+		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
+		'developer/dashboard/campaign-overview': './js/developer/dashboard/CampaignOverview.js',
+		'developer/dashboard/campaign-create'  : './js/developer/dashboard/CampaignCreate.js',
+		'developer/dashboard/team'             : './js/developer/dashboard/Team.js',
+		'developer/dashboard/personas'         : './js/developer/dashboard/Personas.js',
+		'developer/dashboard/rewards'          : './js/developer/dashboard/Rewards.js',
+		'developer/dashboard/documents'        : './js/developer/dashboard/Documents.js',
+		'developer/dashboard/notifications'    : './js/developer/dashboard/Notifications.js',
+		'developer/dashboard/activities'       : './js/developer/dashboard/Activities.js',
+		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
+		'public/project'                       : './js/public/Project.js',
+		'shared/loaders'                       : './js/shared/Loaders.js'
 	};
 
 	function getBuildDate() {
@@ -63,7 +63,7 @@ module.exports = (function() {
 			}),
 
 			new ExtractTextPlugin({
-				filename : Path.join('css', `${HASH_BUNDLE}.css`),
+				filename : `css/${HASH_BUNDLE}.css`,
 				allChunks: true
 			}),
 
@@ -144,13 +144,13 @@ module.exports = (function() {
 					{
 						test   : /\.(jpe?g|png|gif|svg)$/i,
 						include: [
-							Path.join(__dirname, 'src', 'img')
+							Path.resolve(`${__dirname}/src/img`)
 						],
 						use: [
 							{
 								loader : 'file',
 								options: {
-									name: Path.join('img', HASH_FILE)
+									name: `img/${HASH_FILE}`
 								}
 							},
 							{
@@ -168,16 +168,16 @@ module.exports = (function() {
 						options: {
 							limit   : 10000,
 							mimetype: 'application/font-woff',
-							name    : Path.join('fonts', HASH_FILE)
+							name    : `fonts/${HASH_FILE}`
 						}
 					}, {
 						test   : /\.(ttf|eot|svg)$/,
 						exclude: [
-							Path.join(__dirname, 'src', 'img')
+							Path.resolve(`${__dirname}/src/img`)
 						],
 						loader : 'file',
 						options: {
-							name: Path.join('fonts', HASH_FILE)
+							name: `fonts/${HASH_FILE}`
 						}
 					}
 				]
