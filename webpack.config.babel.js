@@ -95,7 +95,8 @@ module.exports = (function() {
 				$              : 'jquery',
 				jQuery         : 'jquery',
 				'window.jQuery': 'jquery',
-				'window.Tether': 'tether'
+				'window.Tether': 'tether',
+				'cookieconsent': 'cookieconsent'
 			}),
 
 			new Webpack.DefinePlugin({
