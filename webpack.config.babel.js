@@ -143,7 +143,10 @@ module.exports = (function() {
 					{
 						host : 'localhost',
 						port : 3000,
-						proxy: 'http://localhost:80/'
+						proxy: {
+							target: 'booreiland.dev',
+							ws    : true
+						}
 					},
 					{
 						reload: true

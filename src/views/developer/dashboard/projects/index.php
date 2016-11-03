@@ -1,5 +1,4 @@
 <?php include("../partials/header.php"); ?>
-
 <section class="page page-developer-dashboard-projects dashboard-page">
 	<div class="container">
 		<div class="content">
