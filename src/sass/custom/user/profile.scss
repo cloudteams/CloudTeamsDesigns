@@ -21,6 +21,7 @@
 		}
 
 		fieldset {
+
 			> div {
 				> div {
 					margin-bottom: $margin-20;
@@ -42,6 +43,50 @@
 
 			}
 
+		}
+
+		.form-group.required .control-label:after { 
+			content:"*";
+			color: $color-red-deep;
+		}
+
+		.add-image-button {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			margin: -4px auto $margin-10;
+			background-color: $color-gray-soft;
+		}
+
+		.file-upload-image {
+			border: 2px dashed $color-gray-clear;
+			max-width: 400px;
+			width: 100%;
+			height: 300px;
+			text-align: center;
+			cursor: pointer;
+			transition: background $transition-time-2 $easing-1;
+			transition: border $transition-time-2 $easing-1;
+
+			&:hover {
+				border: 3px dashed $color-gray-soft;
+				background: $color-gray-soft;
+			}
+
+			p.meta.big {
+				font-weight: 400;
+			}
+
+		}
+
+		.file-upload-image .icon {
+			position: relative;
+			color: $color-gray-clear;
+			font-size: 60px;
+		}
+
+		#file-upload {
+			display: none;
 		}
 
 	}

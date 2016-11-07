@@ -21,8 +21,31 @@
 						</div>
 					</header>
 					<div class="content form-section">
-						<fieldset>
-							<label for="first-name" class="header-medium secondary">First name</label>
+
+						<fieldset class="form-group fieldset-upload">
+							<label for="upload-project" class="header-medium secondary">Project picture</label>
+
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="input-container">
+										<label class="file-upload-image" for="file-upload">
+											<div class="vertical-align">
+												<div class="middle">
+													<div class="add-image-button">
+														<i class="icon icon-plus"></i>
+													</div>
+													<p class="meta big">Add picture</p>
+												</div>
+											</div>
+										</label>
+										<input type="file" name="file-upload" id="file-upload"/>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+					
+						<fieldset class="form-group required">
+							<label for="first-name" class="header-medium secondary control-label">First name</label>
 
 							<div class="row">
 								<div class="col-sm-6">
@@ -34,8 +57,8 @@
 							</div>
 						</fieldset>
 
-						<fieldset>
-							<label for="last-name" class="header-medium secondary">Last name</label>
+						<fieldset class="form-group required">
+							<label for="last-name" class="header-medium secondary control-label">Last name</label>
 
 							<div class="row">
 								<div class="col-sm-6">
@@ -214,6 +237,7 @@
 								</div>
 							</div>
 						</fieldset>
+
 					</div>
 				</article>
 			</section>
