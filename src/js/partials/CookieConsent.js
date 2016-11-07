@@ -12,7 +12,7 @@ module.exports = (function() {
 
 		window.cookieconsent.initialise({
 			content: {
-				message: 'This website uses coockies to ensure you get the best experience while browsing.',
+				message: '<span>This website uses cookies to ensure you get the best experience while browsing.</span>',
 				dismiss: 'Ok',
 				allow  : 'Ok',
 				deny   : 'Decline',

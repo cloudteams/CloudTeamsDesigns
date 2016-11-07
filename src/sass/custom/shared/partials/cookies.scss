@@ -1,0 +1,23 @@
+.cc-theme-cloudteams {
+	background-color: $color-purple-flashy;
+	color: $color-white;
+
+	.cc-message {
+		float: left;
+	    display: flex;
+	    flex-direction: column;
+	    padding: $margin-5;
+	}
+
+	.cc-compliance {
+		float: right;
+		text-align: right;
+		padding: $margin-5;
+	}
+
+	.cc-link {
+		color: $color-white;
+		text-decoration: underline;
+	}
+
+}
