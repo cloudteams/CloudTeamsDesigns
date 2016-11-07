@@ -1,58 +1,25 @@
 <section class="user-profile-content">
-	<header class="information">
-		<div class="row vertical-align">
-			<div class="profile-picture col-xs-4 middle">
-				<div class="img-circle" style='background-image: url("[[../../../../img/profile-picture.jpg]]")'></div>
-			</div>
 
-			<div class="information col-xs-8 middle">
-				<ul>
-					<li class="meta big">
-						<h2 class="header-large secondary">James Wade</h2>
-
-						<div class="tooltip-container">
-							<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
-							<div class="custom-tooltip">
-								<ul>
-									<li>
-										<a href="">Change</a>
-									</li>
-									<li><a href="">Lorem ipsum</a></li>
-									<li><a href="">Lorem ipsum</a></li>
-								</ul>
-							</div>
-						</div>
-					</li>
-
-					<li>
-						bobby123@gmail.com
-					</li>
-
-					<li>
-						<div class="progress-container">
-							<div class="progress-wrap" data-progress-percent="0.75">
-								<div class="progress-bar"></div>
-							</div>
-							<p class="percentage bold">48/100</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
+	<ul class="menu-subpage">
+		<li id="link-to-subpage-1" class="link-to-subpage active">Basic information</li>
+		<li id="link-to-subpage-2" class="link-to-subpage">Work</li>
+		<li id="link-to-subpage-3" class="link-to-subpage">Interests</li>
+	</ul>
 
 	<div class="content">
-		<article class="block-line large">
-			<header>
-				<ul class="menu-subpage public">
-					<li id="link-to-subpage-1" class="link-to-subpage active">Basic information</li>
-					<li id="link-to-subpage-2" class="link-to-subpage">Work education</li>
-					<li id="link-to-subpage-3" class="link-to-subpage">Interests</li>
-				</ul>
-			</header>
-
-			<form>
-				<section id="subpage-1" class="subpage active">
+		<form>
+			<section id="subpage-1" class="subpage active">
+				<article class="block-line large">
+					<header class="article-header">
+						<div class="vertical-align">
+							<div class="middle">
+								<i class="icon icon-user"></i>
+								<h2 class="header-medium secondary">Basic information</h2>
+							</div>
+							<div class="middle">
+							</div>
+						</div>
+					</header>
 					<div class="content form-section">
 						<fieldset>
 							<label for="first-name" class="header-medium secondary">First name</label>
@@ -248,9 +215,20 @@
 							</div>
 						</fieldset>
 					</div>
-				</section>
-
-				<section id="subpage-2" class="subpage">
+				</article>
+			</section>
+			<section id="subpage-2" class="subpage">
+				<article class="block-line large">
+					<header class="article-header">
+						<div class="vertical-align">
+							<div class="middle">
+								<i class="icon icon-user"></i>
+								<h2 class="header-medium secondary">Your current job</h2>
+							</div>
+							<div class="middle">
+							</div>
+						</div>
+					</header>
 					<div class="content form-section">
 						<fieldset class="fieldset-radio">
 							<label for="education-elementary" class="form-title">Education</label>
@@ -318,9 +296,20 @@
 							</div>
 						</fieldset>
 					</div>
-				</section>
-
-				<section id="subpage-3" class="subpage">
+				</article>
+			</section>
+			<section id="subpage-3" class="subpage">
+				<article class="block-line large">
+					<header class="article-header">
+						<div class="vertical-align">
+							<div class="middle">
+								<i class="icon icon-user"></i>
+								<h2 class="header-medium secondary">Education</h2>
+							</div>
+							<div class="middle">
+							</div>
+						</div>
+					</header>				
 					<div class="content form-section">
 						<label class="form-title">Technology</label>
 
@@ -410,6 +399,19 @@
 							</div>
 						</fieldset>
 					</div>
+
+				</article>
+				<article class="block-line large">
+					<header class="article-header">
+						<div class="vertical-align">
+							<div class="middle">
+								<i class="icon icon-user"></i>
+								<h2 class="header-medium secondary">Interests</h2>
+							</div>
+							<div class="middle">
+							</div>
+						</div>
+					</header>
 
 					<div class="content form-section">
 						<label class="form-title">Interests</label>
@@ -612,8 +614,8 @@
 							</div>
 						</fieldset>
 					</div>
-				</section>
-			</article>
+				</article>
+			</section>
 		</form>
 	</div>
 </section>

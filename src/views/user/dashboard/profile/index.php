@@ -11,7 +11,7 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-profile"></i>
-								<h1 class="header-large">Profile</h1>
+								<h1 class="header-large">Edit profile</h1>
 							</div>
 						</div>
 					</header>
