@@ -12,11 +12,10 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-project"></i>
-								<h1 class="header-large">Project profile</h1>
+								<h1 class="header-large">Create a project</h1>
 							</div>
 
 							<div class="middle last">
-								<p class="project-counter">Project title</p>
 							</div>
 						</div>
 					</header>

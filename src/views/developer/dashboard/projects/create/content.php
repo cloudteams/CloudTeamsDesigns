@@ -4,10 +4,10 @@
 			<div class="vertical-align">
 				<div class="middle">
 					<i class="icon icon-profile"></i>
-					<h2 class="header-medium secondary">Project profile</h2>
+					<h2 class="header-medium secondary">Create a project</h2>
 				</div>
 				<div class="middle">
-					<p class="header-small"><a href="/views/developer/dashboard/projects/profile"><span class="header-small action-text">See all</span></a></p>
+
 				</div>
 			</div>
 		</header>
