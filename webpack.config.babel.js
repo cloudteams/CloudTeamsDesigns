@@ -82,9 +82,9 @@ module.exports = (function() {
 			result.push(
 				new BrowserSyncPlugin(
 					{
-						host : 'localhost',
-						port : 3000,
-						proxy: 'localhost'
+						host : WebpackUserConfig.preview_url,
+						port : WebpackUserConfig.preview_port,
+						proxy: WebpackUserConfig.preview_url
 					},
 					{
 						reload: true
