@@ -311,7 +311,6 @@
 						</div>
 					</header>				
 					<div class="content form-section">
-						<label class="form-title">Technology</label>
 
 						<fieldset class="fieldset-radio">
 							<label for="technology-newbie" class="header-medium secondary">Technology expertise</label>
@@ -414,7 +413,6 @@
 					</header>
 
 					<div class="content form-section">
-						<label class="form-title">Interests</label>
 
 						<fieldset class="fieldset-checkbox">
 							<label class="header-medium secondary">Which categories fit you best?</label>
@@ -459,9 +457,20 @@
 						</fieldset>
 					</div>
 
-					<div class="content form-section">
-						<label class="form-title">Brands</label>
+				</article>
+				<article class="block-line large">
+					<header class="article-header">
+						<div class="vertical-align">
+							<div class="middle">
+								<i class="icon icon-user"></i>
+								<h2 class="header-medium secondary">Interests</h2>
+							</div>
+							<div class="middle">
+							</div>
+						</div>
+					</header>
 
+					<div class="content form-section">
 						<fieldset>
 							<div class="row">
 								<div class="col-sm-6">
