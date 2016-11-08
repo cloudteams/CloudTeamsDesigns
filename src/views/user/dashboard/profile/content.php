@@ -391,21 +391,20 @@
 							<label class="header-medium secondary">Choose which platform of the following you use</label>
 
 							<div class="input-container">
-								<input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-facebook"><img src="http://placehold.it/50" alt="label image"><span>Facebook</span></label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-windows' id="technology-service-windows">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-windows"><img src="http://placehold.it/50" alt="label image"><span>Windows</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-twitter"><img src="http://placehold.it/50" alt="label image"><span>Twitter</span></label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-osx' id="technology-service-osx">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-osx"><img src="http://placehold.it/50" alt="label image"><span>OS X</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-instagram"><img src="http://placehold.it/50" alt="label image"><span>Instagram</span></label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-linux' id="technology-service-linux">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-linux"><img src="http://placehold.it/50" alt="label image"><span>Linux</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-slack"><img src="http://placehold.it/50" alt="label image"><span>Slack</span></label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-ios' id="technology-service-ios">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-ios"><img src="http://placehold.it/50" alt="label image"><span>iOS</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-linkedin"><img src="http://placehold.it/50" alt="label image"><span>Linkedin</span></label>
-
+								<input type="checkbox" name="technology-used-services" value='technology-service-android' id="technology-service-android">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-android"><img src="http://placehold.it/50" alt="label image"><span>Android</span></label>
 							</div>
 						</fieldset>
 					</div>
