@@ -1,0 +1,51 @@
+.user-dashboard-rewards-content {
+	padding-top: 0 !important;
+
+	ul.menu-subpage {
+		margin-bottom: 0 !important;
+		padding-bottom: $margin-5 !important;
+	}
+
+	.added-reward {
+		background-color: $color-white;
+		border-radius: $margin-5;
+		padding: 0;
+		margin: $margin-10;
+
+		.open-tooltip-button {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			color: $color-purple-flashy;
+		}
+
+		.custom-tooltip {
+			position: absolute;
+			right: 6px;
+			top: 39px;
+		}
+
+		hr {
+			margin: 0;
+		}
+
+		.reward-header {
+			background-color: $color-gray-soft;
+			padding: $margin-10;
+			border-top-right-radius: $margin-5;
+			border-top-left-radius: $margin-5;
+		}
+
+		.reward-content {
+			padding: $margin-10;
+
+			.meta {
+				margin: $margin-10 0;
+			}
+
+			p > span {
+				float: right;
+			}
+		}
+	}
+}

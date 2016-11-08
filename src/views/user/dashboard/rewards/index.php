@@ -1,6 +1,6 @@
 <?php include("../partials/header.php"); ?>
 
-<section class="page page-user-dashboard-cloudcoins dashboard-page user-dashboard-page">
+<section class="page page-user-dashboard-rewards dashboard-page user-dashboard-page">
 	<div class="container">
 		<div class="content">
 
@@ -11,13 +11,12 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-cloudcoins"></i>
-								<h1 class="header-large">cloudcoins</h1>
+								<i class="icon icon-reward"></i>
+								<h1 class="header-large">Rewards</h1>
+								<p class="header-medium secondary">Project title</p>
 							</div>
 
-							<div class="middle last">
-								<p class="project-counter"><span>2</span></p>
-								<p class="project-counter">cloudcoins</p>
+							<div class="middle">
 							</div>
 						</div>
 					</header>
