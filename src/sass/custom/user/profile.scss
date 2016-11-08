@@ -65,8 +65,6 @@
 				}
 			}
 
-
-
 			input[type="checkbox"]:checked + .visual-checkbox-label {
 				color: $color-purple-flashy;
 				border-color: $color-purple-flashy;
@@ -93,6 +91,13 @@
 				color: $color-white;
 			}
 
+		}
+
+		p.header-small {
+			text-transform: none;
+			color: $color-black-night;
+			width: 100%;
+			padding-bottom: $margin-20;
 		}
 
 		.form-group.required .control-label:after { 

@@ -425,6 +425,7 @@
 
 					<div class="content form-section">
 						<fieldset class="fieldset-radio visual-radio">
+							<label for="technology-level" class="header-medium secondary">Concerning technology, would you describe yoruself as a...?</label>
 
 							<div class="row input-container">
 								<input type="radio" name="technology-level" value='technology-level-beginner' id="technology-level-beginner">
@@ -439,8 +440,84 @@
 								<input type="radio" name="technology-level" value='technology-level-nerd' id="technology-level-nerd">
 								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-nerd">Nerd</label>
 							</div>
-
 						</fieldset>
+						
+						<p class="header-small">What's your opinion about the following brands?</p>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+
+								<label for="city" class="header-medium secondary">Facebook</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="1" disabled selected>Opinion</option>
+										<option value="2">Bad</option>
+										<option value="3">Good</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+
+								<label for="city" class="header-medium secondary">Twitter</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="1" disabled selected>Opinion</option>
+										<option value="2">Bad</option>
+										<option value="3">Good</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+
+								<label for="city" class="header-medium secondary">Apple</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="1" disabled selected>Opinion</option>
+										<option value="2">Bad</option>
+										<option value="3">Good</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+
+								<label for="city" class="header-medium secondary">Instagram</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="1" disabled selected>Opinion</option>
+										<option value="2">Bad</option>
+										<option value="3">Good</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+
+								<label for="city" class="header-medium secondary">Google</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="1" disabled selected>Opinion</option>
+										<option value="2">Bad</option>
+										<option value="3">Good</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
 					</div>
 				</article>
 			</section>
