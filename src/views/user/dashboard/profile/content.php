@@ -10,6 +10,7 @@
 		<form>
 			<section id="subpage-1" class="subpage active">
 				<article class="block-line large">
+
 					<header class="article-header">
 						<div class="vertical-align">
 							<div class="middle">
@@ -20,15 +21,14 @@
 							</div>
 						</div>
 					</header>
-					<div class="content form-section">
 
+					<div class="content form-section">
 						<fieldset class="form-group fieldset-upload">
 							<label for="upload-project" class="header-medium secondary">Project picture</label>
-
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="input-container">
-										<label class="file-upload-image" for="file-upload">
+										<label class="file-upload-image col-sm-8" for="file-upload">
 											<div class="vertical-align">
 												<div class="middle">
 													<div class="add-image-button">
@@ -43,7 +43,7 @@
 								</div>
 							</div>
 						</fieldset>
-					
+
 						<fieldset class="form-group required">
 							<label for="first-name" class="header-medium secondary control-label">First name</label>
 
@@ -210,33 +210,32 @@
 							</div>
 						</fieldset>
 
-						<fieldset>
-							<div class="row">
-								<div class="col-sm-6">
-									<label for="country" class="header-medium secondary">Country</label>
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-										<select name="country" id="country" onchange="" size="1">
-											<option value="single" disabled>Country</option>
-											<option value="us" selected>United States</option>
-											<option value="2">Country 2</option>
-										</select>
-									</div>
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+								<label for="country" class="header-medium secondary">Country</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="country" id="country" onchange="" size="1">
+										<option value="single" disabled>Country</option>
+										<option value="us" selected>United States</option>
+										<option value="2">Country 2</option>
+									</select>
 								</div>
-
-								<div class="col-sm-6">
-									<label for="city" class="header-medium secondary">City</label>
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-										<select name="city" id="city" onchange="" size="1">
-											<option value="single" disabled>City</option>
-											<option value="ny" selected>New York</option>
-											<option value="2">City 2</option>
-										</select>
-									</div>
+							</fieldset>
+						</div>
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+								<label for="city" class="header-medium secondary">City</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="single" disabled>City</option>
+										<option value="ny" selected>New York</option>
+										<option value="2">City 2</option>
+									</select>
 								</div>
-							</div>
-						</fieldset>
+							</fieldset>
+						</div>
 
 					</div>
 				</article>
@@ -254,71 +253,63 @@
 						</div>
 					</header>
 					<div class="content form-section">
-						<fieldset class="fieldset-radio">
-							<label for="education-elementary" class="form-title">Education</label>
 
-							<div class="input-container">
-								<label for="education-elementary"><input type="radio" name="education" value='education-elementary' id="education-elementary" required><span></span>Elementary</label>
-
-								<label for="education-secondary"><input type="radio" name="education" value='education-secondary' id="education-secondary" required><span></span>Secondary</label>
-
-								<label for="education-higher"><input type="radio" name="education" value='education-higher' id="education-higher" required><span></span>Secondary</label>
-
-								<label for="education-undefined"><input type="radio" name="education" value='education-undefined' id="education-undefined" required><span></span>I prefer not to say</label>
-							</div>
-						</fieldset>
-
-						<fieldset class="fieldset-radio">
-							<label for="employment-elementary" class="form-title">Employment</label>
-
-							<div class="input-container">
-								<label for="employment-student"><input type="radio" name="employment" value='employment-student' id="employment-student" required><span></span>Student</label>
-
-								<label for="employment-unemployed"><input type="radio" name="employment" value='employment-unemployed' id="employment-unemployed" required><span></span>Unemployed</label>
-
-								<label for="employment-employed"><input type="radio" name="employment" value='employment-employed' id="employment-employed" required><span></span>Employed</label>
-
-								<label for="employment-selfemployed"><input type="radio" name="employment" value='employment-selfemployed' id="employment-selfemployed" required><span></span>Self-employed</label>
-
-								<label for="employment-pensioner"><input type="radio" name="employment" value='employment-pensioner' id="employment-pensioner" required><span></span>Pensioner</label>
-
-								<label for="employment-undefined"><input type="radio" name="employment" value='employment-undefined' id="employment-undefined" required><span></span>I prefer not to say</label>
-							</div>
-						</fieldset>
-
-						<fieldset>
-							<label for="business-factor" class="header-medium secondary">Business factor</label>
-
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-										<select name="business-factor" id="business-factor" onchange="" size="1">
-											<option value="single" disabled>Business factor</option>
-											<option value="accountent" selected>Accountent</option>
-											<option value="factor 2">Factor 2</option>
-										</select>
-									</div>
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+								<label for="city" class="header-medium secondary">Business sector</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="single" disabled>Internet</option>
+										<option value="ny" selected>Marketing</option>
+										<option value="2">Communication</option>
+									</select>
 								</div>
-							</div>
-						</fieldset>
+							</fieldset>
+						</div>
 
-						<fieldset>
-							<label for="business-position" class="header-medium secondary">Position</label>
-
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-										<select name="business-position" id="business-position" onchange="" size="1">
-											<option value="single" disabled>Position</option>
-											<option value="manager" selected>Manager</option>
-											<option value="position 2">Position 2</option>
-										</select>
-									</div>
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+								<label for="city" class="header-medium secondary">Current job position</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="single" disabled>Engineer</option>
+										<option value="ny" selected>Developer</option>
+										<option value="2">Designer</option>
+									</select>
 								</div>
-							</div>
-						</fieldset>
+							</fieldset>
+						</div>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+								<label for="city" class="header-medium secondary">Working city</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="single" disabled>City</option>
+										<option value="ny" selected>New York</option>
+										<option value="2">City 2</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
+
+						<div class="row">
+							<fieldset class="form-group col-sm-8 required">
+								<label for="city" class="header-medium secondary">Years of experience</label>
+								<div class="select-dropdown">
+									<i class="icon icon-arrow-down"></i>
+									<select name="city" id="city" onchange="" size="1">
+										<option value="single" disabled>1</option>
+										<option value="ny" selected>2</option>
+										<option value="2">3</option>
+									</select>
+								</div>
+							</fieldset>
+						</div>
+
 					</div>
 				</article>
 			</section>
