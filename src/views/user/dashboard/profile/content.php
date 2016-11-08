@@ -370,23 +370,23 @@
 							<label class="header-medium secondary">Which of the following devices are you regularly using?</label>
 
 							<div class="input-container">
-								<input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-facebook"><img src="http://placehold.it/50" alt="label image"><span>Facebook</span></label>
+								<input type="checkbox" name="technology-used-devices" value='technology-device-pc' id="technology-device-pc">
+								<label class="col-md-2 visual-checkbox-label" for="technology-device-pc"><img src="http://placehold.it/50" alt="label image"><span>PC</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-twitter"><img src="http://placehold.it/50" alt="label image"><span>Twitter</span></label>
+								<input type="checkbox" name="technology-used-devices" value='technology-device-laptop' id="technology-device-laptop">
+								<label class="col-md-2 visual-checkbox-label" for="technology-device-laptop"><img src="http://placehold.it/50" alt="label image"><span>Laptop</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-instagram"><img src="http://placehold.it/50" alt="label image"><span>Instagram</span></label>
+								<input type="checkbox" name="technology-used-devices" value='technology-device-tablet' id="technology-device-tablet">
+								<label class="col-md-2 visual-checkbox-label" for="technology-device-tablet"><img src="http://placehold.it/50" alt="label image"><span>Tablet</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-slack"><img src="http://placehold.it/50" alt="label image"><span>Slack</span></label>
+								<input type="checkbox" name="technology-used-devices" value='technology-device-mobilephone' id="technology-device-mobilephone">
+								<label class="col-md-2 visual-checkbox-label" for="technology-device-mobilephone"><img src="http://placehold.it/50" alt="label image"><span>Mobile phone</span></label>
 
-								<input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-linkedin"><img src="http://placehold.it/50" alt="label image"><span>Linkedin</span></label>
-
+								<input type="checkbox" name="technology-used-devices" value='technology-device-wearable' id="technology-device-wearable">
+								<label class="col-md-2 visual-checkbox-label" for="technology-device-wearable"><img src="http://placehold.it/50" alt="label image"><span>Wearable</span></label>
 							</div>
 						</fieldset>
+
 						<fieldset class="fieldset-checkbox visual-checkbox">
 							<label class="header-medium secondary">Choose which platform of the following you use</label>
 
@@ -424,156 +424,22 @@
 					</header>
 
 					<div class="content form-section">
-						<fieldset>
-							<div class="row">
-								<div class="col-sm-6">
-									<label for="brands-like-1" class="header-medium secondary">3 brands you like?</label>
+						<fieldset class="fieldset-radio visual-radio">
 
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
+							<div class="row input-container">
+								<input type="radio" name="technology-level" value='technology-level-beginner' id="technology-level-beginner">
+								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-beginner">Beginner</label>
 
-										<select name="brands-like-1" id="brands-like-1" onchange="" size="1">
-											<option value="" disabled>Brand</option>
-											<option value="1" selected>Brand 1</option>
-											<option value="2">Brand 2</option>
-											<option value="3">Brand 3</option>
-										</select>
-									</div>
+								<input type="radio" name="technology-level" value='technology-level-intermediate' id="technology-level-intermediate">
+								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-intermediate">Intermediate</label>
 
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
+								<input type="radio" name="technology-level" value='technology-level-expert' id="technology-level-expert">
+								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-expert">Expert</label>
 
-										<select name="brands-dislike-2" id="brands-like-2" onchange="" size="1">
-											<option value="" disabled>Brand</option>
-											<option value="1" selected>Brand 1</option>
-											<option value="2">Brand 2</option>
-											<option value="3">Brand 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="brands-dislike-3" id="brands-like-3" onchange="" size="1">
-											<option value="" disabled>Brand</option>
-											<option value="1" selected>Brand 1</option>
-											<option value="2">Brand 2</option>
-											<option value="3">Brand 3</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<label for="brands-dislike-1" class="header-medium secondary">3 brands you dislike?</label>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="brands-dislike-1" id="brands-dislike-1" onchange="" size="1">
-											<option value="" disabled>Brand</option>
-											<option value="1" selected>Brand 1</option>
-											<option value="2">Brand 2</option>
-											<option value="3">Brand 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="brands-dislike-2" id="brands-dislike-2" onchange="" size="1">
-											<option value="" disabled>Brand</option>
-											<option value="1" selected>Brand 1</option>
-											<option value="2">Brand 2</option>
-											<option value="3">Brand 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="brands-dislike-3" id="brands-dislike-3" onchange="" size="1">
-											<option value="" disabled>Brand</option>
-											<option value="1" selected>Brand 1</option>
-											<option value="2">Brand 2</option>
-											<option value="3">Brand 3</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<label for="products-like-1" class="header-medium secondary">3 products you like?</label>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="products-like-1" id="products-like-1" onchange="" size="1">
-											<option value="" disabled>Product</option>
-											<option value="1" selected>Product 1</option>
-											<option value="2">Product 2</option>
-											<option value="3">Product 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="products-like-2" id="products-like-2" onchange="" size="1">
-											<option value="" disabled>Product</option>
-											<option value="1" selected>Product 1</option>
-											<option value="2">Product 2</option>
-											<option value="3">Product 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="products-like-3" id="products-like-3" onchange="" size="1">
-											<option value="" disabled>Product</option>
-											<option value="1" selected>Product 1</option>
-											<option value="2">Product 2</option>
-											<option value="3">Product 3</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<label for="products-dislike-1" class="header-medium secondary">3 products you dislike?</label>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="products-dislike-1" id="products-dislike-1" onchange="" size="1">
-											<option value="" disabled>Product</option>
-											<option value="1" selected>Product 1</option>
-											<option value="2">Product 2</option>
-											<option value="3">Product 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="products-dislike-2" id="products-like-2" onchange="" size="1">
-											<option value="" disabled>Product</option>
-											<option value="1" selected>Product 1</option>
-											<option value="2">Product 2</option>
-											<option value="3">Product 3</option>
-										</select>
-									</div>
-
-									<div class="select-dropdown">
-										<i class="icon icon-arrow-down"></i>
-
-										<select name="products-dislike-3" id="products-like-3" onchange="" size="1">
-											<option value="" disabled>Product</option>
-											<option value="1" selected>Product 1</option>
-											<option value="2">Product 2</option>
-											<option value="3">Product 3</option>
-										</select>
-									</div>
-								</div>
+								<input type="radio" name="technology-level" value='technology-level-nerd' id="technology-level-nerd">
+								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-nerd">Nerd</label>
 							</div>
+
 						</fieldset>
 					</div>
 				</article>

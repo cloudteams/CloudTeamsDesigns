@@ -61,13 +61,38 @@
 				img {
 					max-width: 60%;
 					height: auto;
+					margin: 0 10%;
 				}
 			}
+
+
 
 			input[type="checkbox"]:checked + .visual-checkbox-label {
 				color: $color-purple-flashy;
 				border-color: $color-purple-flashy;
 			}
+
+		}
+
+		.fieldset-radio.visual-radio {
+
+			.row {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				white-space: nowrap
+			}
+
+			.visual-radio-label {
+				margin-right: 5px;
+				margin-left: 5px;
+			}
+
+			input[type="radio"]:checked + .visual-radio-label {
+				background-color: $color-purple-flashy !important;
+				color: $color-white;
+			}
+
 		}
 
 		.form-group.required .control-label:after { 
