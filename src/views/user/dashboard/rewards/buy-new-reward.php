@@ -15,13 +15,8 @@
 
 			<div class="modal-body">
 
-				<ul class="menu-subsection">
-					<li id="link-to-subsection-1" class="link-to-subsection active">Basic information</li>
-					<li id="link-to-subsection-2" class="link-to-subsection">Properties</li>
-				</ul>
-
-				<section id="subsection-1" class="subsection active">
-					<div class="row">
+				<section class="confirm-1">
+					<div class="row confirm-1">
 						<div class="col-md-12 text-center">
 							<p>Are you sure you want to buy Reward #1?</p>
 						</div> 
@@ -36,9 +31,9 @@
 						</div>
 					</div>
 				</section>
+				<section class="confirm-2">
 
-				<section id="subsection-2" class="subsection active">
-					<div class="row">
+					<div class="row" style="display:none;">
 						<div class="col-md-12 text-center">
 							<p>Are you sure you want to buy Reward #1?</p>
 						</div> 
@@ -52,6 +47,7 @@
 							</fieldset>
 						</div>
 					</div>
+
 				</section>
 
 			</div>
