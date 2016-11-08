@@ -319,7 +319,7 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-user"></i>
-								<h2 class="header-medium secondary">Education</h2>
+								<h2 class="header-medium secondary">Influences</h2>
 							</div>
 							<div class="middle">
 							</div>
@@ -327,89 +327,27 @@
 					</header>				
 					<div class="content form-section">
 
-						<fieldset class="fieldset-radio">
-							<label for="technology-newbie" class="header-medium secondary">Technology expertise</label>
+						<fieldset class="fieldset-checkbox visual-checkbox">
+							<label class="header-medium secondary">What/who of the following influence you about technology</label>
 
 							<div class="input-container">
-								<label for="technology-newbie"><input type="radio" name="technology-expertise" value='technology-newbie' id="technology-newbie" required><span></span>Newbie</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-facebook"><img src="http://placehold.it/50" alt="label image"><span>Facebook</span></label>
 
-								<label for="technology-intermediate"><input type="radio" name="technology-expertise" value='technology-intermediate' id="technology-intermediate" required><span></span>Intermediate</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-twitter"><img src="http://placehold.it/50" alt="label image"><span>Twitter</span></label>
 
-								<label for="technology-skilled"><input type="radio" name="technology-expertise" value='technology-skilled' id="technology-skilled" required><span></span>Skilled</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-instagram"><img src="http://placehold.it/50" alt="label image"><span>Instagram</span></label>
 
-								<label for="technology-expert"><input type="radio" name="technology-expertise" value='technology-expert' id="technology-expert" required><span></span>Expert</label>
-							</div>
-						</fieldset>
+								<input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-slack"><img src="http://placehold.it/50" alt="label image"><span>Slack</span></label>
 
-						<fieldset class="fieldset-checkbox">
-							<label class="header-medium secondary">Your favorite devices</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-linkedin"><img src="http://placehold.it/50" alt="label image"><span>Linkedin</span></label>
 
-							<div class="input-container">
-								<label for="technology-favorite-device-pc"><input type="checkbox" name="technology-favorite-devices" value='technology-favorite-device-pc' id="technology-favorite-device-pc"><span></span>Pc</label>
-
-								<label for="technology-favorite-device-laptop"><input type="checkbox" name="technology-favorite-devices" value='technology-favorite-device-laptop' id="technology-favorite-device-laptop"><span></span>Laptop</label>
-
-								<label for="technology-favorite-device-tablet"><input type="checkbox" name="technology-favorite-devices" value='technology-favorite-device-tablet' id="technology-favorite-device-tablet"><span></span>Tablet</label>
-
-								<label for="technology-favorite-device-phone"><input type="checkbox" name="technology-favorite-devices" value='technology-favorite-device-phone' id="technology-favorite-device-phone"><span></span>phone</label>
-
-								<label for="technology-favorite-device-wearable"><input type="checkbox" name="technology-favorite-devices" value='technology-favorite-device-wearable' id="technology-favorite-device-wearable"><span></span>Wearable</label>
-							</div>
-						</fieldset>
-
-						<fieldset class="fieldset-checkbox">
-							<label class="header-medium secondary">What devices do you own?</label>
-
-							<div class="input-container">
-								<label for="technology-owned-device-pc"><input type="checkbox" name="technology-owned-devices" value='technology-owned-device-pc' id="technology-owned-device-pc"><span></span>Pc</label>
-
-								<label for="technology-owned-device-laptop"><input type="checkbox" name="technology-owned-devices" value='technology-owned-device-laptop' id="technology-owned-device-laptop"><span></span>Laptop</label>
-
-								<label for="technology-owned-device-tablet"><input type="checkbox" name="technology-owned-devices" value='technology-owned-device-tablet' id="technology-owned-device-tablet"><span></span>Tablet</label>
-
-								<label for="technology-owned-device-phone"><input type="checkbox" name="technology-owned-devices" value='technology-owned-device-phone' id="technology-owned-device-phone"><span></span>phone</label>
-
-								<label for="technology-owned-device-wearable"><input type="checkbox" name="technology-owned-devices" value='technology-owned-device-wearable' id="technology-owned-device-wearable"><span></span>Wearable</label>
-							</div>
-						</fieldset>
-
-						<fieldset class="fieldset-checkbox">
-							<label class="header-medium secondary">What platforms do you prefer</label>
-
-							<div class="input-container">
-								<label for="technology-platform-windows"><input type="checkbox" name="technology-platforms" value='technology-platform-windows' id="technology-platform-windows"><span></span>Windows</label>
-
-								<label for="technology-platform-macos"><input type="checkbox" name="technology-platforms" value='technology-platform-macos' id="technology-platform-macos"><span></span>MacOS</label>
-
-								<label for="technology-platform-linux"><input type="checkbox" name="technology-platforms" value='technology-platform-linux' id="technology-platform-linux"><span></span>Linux</label>
-
-								<label for="technology-platform-chromeos"><input type="checkbox" name="technology-platforms" value='technology-platform-chromeos' id="technology-platform-chromeos"><span></span>ChromeOS</label>
-
-								<label for="technology-platform-windows-phone"><input type="checkbox" name="technology-platforms" value='technology-platform-windows-phone' id="technology-platform-windows-phone"><span></span>Windows phone</label>
-
-								<label for="technology-platform-ios"><input type="checkbox" name="technology-platforms" value='technology-platform-ios' id="technology-platform-ios"><span></span>iOS</label>
-
-								<label for="technology-platform-windows-android"><input type="checkbox" name="technology-platforms" value='technology-platform-windows-android' id="technology-platform-windows-android"><span></span>Android</label>
-
-								<label for="technology-platform-blackberry"><input type="checkbox" name="technology-platforms" value='technology-platform-blackberry' id="technology-platform-blackberry"><span></span>Blackberry</label>
-							</div>
-						</fieldset>
-
-						<fieldset class="fieldset-checkbox">
-							<label class="header-medium secondary">Which services do you use?</label>
-
-							<div class="input-container">
-								<label for="technology-service-facebook"><input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook"><span></span>Facebook</label>
-
-								<label for="technology-service-twitter"><input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter"><span></span>Twitter</label>
-
-								<label for="technology-service-instagram"><input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram"><span></span>Instagram</label>
-
-								<label for="technology-service-slack"><input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack"><span></span>Slack</label>
-
-								<label for="technology-service-linkedin"><input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin"><span></span>LinkedIn</label>
-
-								<label for="technology-service-googleapps"><input type="checkbox" name="technology-used-services" value='technology-service-googleapps' id="technology-service-googleapps"><span></span>GoogleApps</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-googleapps' id="technology-service-googleapps">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-googleapps"><img src="http://placehold.it/50" alt="label image"><span>GoogleApps</span></label>
 							</div>
 						</fieldset>
 					</div>
@@ -420,7 +358,7 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-user"></i>
-								<h2 class="header-medium secondary">Interests</h2>
+								<h2 class="header-medium secondary">Devices &amp; platforms</h2>
 							</div>
 							<div class="middle">
 							</div>
@@ -428,46 +366,46 @@
 					</header>
 
 					<div class="content form-section">
-
-						<fieldset class="fieldset-checkbox">
-							<label class="header-medium secondary">Which categories fit you best?</label>
+						<fieldset class="fieldset-checkbox visual-checkbox">
+							<label class="header-medium secondary">Which of the following devices are you regularly using?</label>
 
 							<div class="input-container">
-								<label for="interest-business"><input type="checkbox" name="interests" value='interest-business' id="interest-business"><span></span>Business</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-facebook"><img src="http://placehold.it/50" alt="label image"><span>Facebook</span></label>
 
-								<label for="interest-education"><input type="checkbox" name="interests" value='interest-education' id="interest-education"><span></span>Education</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-twitter"><img src="http://placehold.it/50" alt="label image"><span>Twitter</span></label>
 
-								<label for="interest-entertainment"><input type="checkbox" name="interests" value='interest-entertainment' id="interest-entertainment"><span></span>Entertainment</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-instagram"><img src="http://placehold.it/50" alt="label image"><span>Instagram</span></label>
 
-								<label for="interest-finance"><input type="checkbox" name="interests" value='interest-finance' id="interest-finance"><span></span>Finance</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-slack"><img src="http://placehold.it/50" alt="label image"><span>Slack</span></label>
 
-								<label for="interest-food-and-drinks"><input type="checkbox" name="interests" value='interest-food-and-drinks' id="interest-food-and-drinks"><span></span>Food &amp; Drinks</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-linkedin"><img src="http://placehold.it/50" alt="label image"><span>Linkedin</span></label>
 
-								<label for="interest-health-and-fitness"><input type="checkbox" name="interests" value='interest-health-and-fitness' id="interest-health-and-fitness"><span></span>Health &amp; Fitness</label>
+							</div>
+						</fieldset>
+						<fieldset class="fieldset-checkbox visual-checkbox">
+							<label class="header-medium secondary">Choose which platform of the following you use</label>
 
-								<label for="interest-lifestyle"><input type="checkbox" name="interests" value='interest-lifestyle' id="interest-lifestyle"><span></span>Lifestyle</label>
+							<div class="input-container">
+								<input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-facebook"><img src="http://placehold.it/50" alt="label image"><span>Facebook</span></label>
 
-								<label for="interest-medical"><input type="checkbox" name="interests" value='interest-medical' id="interest-medical"><span></span>Medical</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-twitter"><img src="http://placehold.it/50" alt="label image"><span>Twitter</span></label>
 
-								<label for="interest-music"><input type="checkbox" name="interests" value='interest-music' id="interest-music"><span></span>Music</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-instagram"><img src="http://placehold.it/50" alt="label image"><span>Instagram</span></label>
 
-								<label for="interest-navigation"><input type="checkbox" name="interests" value='interest-navigation' id="interest-navigation"><span></span>Navigation</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-slack"><img src="http://placehold.it/50" alt="label image"><span>Slack</span></label>
 
-								<label for="interest-news"><input type="checkbox" name="interests" value='interest-news' id="interest-news"><span></span>News</label>
+								<input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin">
+								<label class="col-md-2 visual-checkbox-label" for="technology-service-linkedin"><img src="http://placehold.it/50" alt="label image"><span>Linkedin</span></label>
 
-								<label for="interest-photo-and-video"><input type="checkbox" name="interests" value='interest-photo-and-video' id="interest-photo-and-video"><span></span>Photo &amp; Video</label>
-
-								<label for="interest-productivity"><input type="checkbox" name="interests" value='interest-productivity' id="interest-productivity"><span></span>Productivity</label>
-
-								<label for="interest-social-networking"><input type="checkbox" name="interests" value='interest-social-networking' id="interest-social-networking"><span></span>Social Networking</label>
-
-								<label for="interest-sports"><input type="checkbox" name="interests" value='interest-sports' id="interest-sports"><span></span>Sports</label>
-
-								<label for="interest-travel"><input type="checkbox" name="interests" value='interest-travel' id="interest-travel"><span></span>Travel</label>
-
-								<label for="interest-utilities"><input type="checkbox" name="interests" value='interest-utilities' id="interest-utilities"><span></span>Utilities</label>
-
-								<label for="interest-weather"><input type="checkbox" name="interests" value='interest-weather' id="interest-weather"><span></span>Weather</label>
 							</div>
 						</fieldset>
 					</div>
@@ -478,7 +416,7 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-user"></i>
-								<h2 class="header-medium secondary">Interests</h2>
+								<h2 class="header-medium secondary">Devices &amp; platforms</h2>
 							</div>
 							<div class="middle">
 							</div>

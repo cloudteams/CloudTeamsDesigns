@@ -45,6 +45,31 @@
 
 		}
 
+		.fieldset-checkbox.visual-checkbox {
+
+			.visual-checkbox-label {
+				height: 100px;
+				border: 1px solid $color-gray-soft;
+				margin: $margin-5;
+				text-align: center;
+				transition: $transition-time-2 $easing-1;
+			    display: flex;
+			    flex-flow: row wrap;
+			    justify-content: center;
+			    align-items: center;
+
+				img {
+					max-width: 60%;
+					height: auto;
+				}
+			}
+
+			input[type="checkbox"]:checked + .visual-checkbox-label {
+				color: $color-purple-flashy;
+				border-color: $color-purple-flashy;
+			}
+		}
+
 		.form-group.required .control-label:after { 
 			content:"*";
 			color: $color-red-deep;
