@@ -12,5 +12,9 @@
 				<section class="reward-content">
 					<p class="meta">Remaining: <span><strong>50</strong></span></p>
 					<p class="meta">CloudCoins needed: <span><strong>20</strong></span></p>
-				</section>			
+				</section>
+				<hr>
+				<section class="reward-button">
+					<a href="#" class="btn" alt="buy reward" data-toggle="modal" data-target=".buy-new-reward-popup">buy</a></h2>
+				</section>
 			</div>

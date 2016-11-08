@@ -19,10 +19,17 @@
 
 	<section id="subpage-2" class="subpage">
 
-		<?php include("added-reward.php"); ?>
-		<?php include("added-reward.php"); ?>
-		<?php include("added-reward.php"); ?>
-		<?php include("added-reward.php"); ?>
+		<div class="row">
+
+			<?php include("added-reward.php"); ?>
+			<?php include("added-reward.php"); ?>
+			<?php include("added-reward.php"); ?>
+			<?php include("added-reward.php"); ?>
+
+		</div>
 
 	</section>
+
+	<?php include("buy-new-reward.php"); ?>
+
 </main>
