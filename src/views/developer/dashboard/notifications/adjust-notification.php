@@ -17,7 +17,18 @@
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-md-6"><p>Receive notifications</p></div>
-					<div class="col-md-6 text-right"><p>Immediately</p></div>
+					<div class="col-md-6 legend text-right">
+						<div class="select-dropdown">
+							<i class="icon icon-arrow-down"></i>
+							<select name="options" onchange="" size="1">
+								<option value="0">Immediately</option>
+								<option value="1">Daily</option>
+								<option value="2">Weekly</option>
+								<option value="3">Never</option>
+							</select>
+						</div>
+					</div>
+
 				</div>
 				<div class="row">
 					<div class="col-md-9"><p class="option">Campaign notifications</p></div>

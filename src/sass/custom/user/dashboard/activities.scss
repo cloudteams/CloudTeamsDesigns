@@ -1,6 +1,12 @@
 .user-dashboard-activity-content {
 	padding-top: 0 !important;
 
+	.modal-body {
+		.select-dropdown {
+			margin-left: auto;
+		}
+	}
+
 	.legend {
 		@include marginV($margin-20);
 	}
