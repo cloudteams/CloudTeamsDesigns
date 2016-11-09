@@ -76,6 +76,7 @@ section.dashboard-page {
 
 					> main {
 						@extend .col-lg-11;
+						height: 100vh;
 					}
 
 				}
