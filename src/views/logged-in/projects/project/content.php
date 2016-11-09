@@ -13,8 +13,9 @@
 			<ul class="menu-subpage public">
 				<li id="link-to-subpage-1" class="link-to-subpage active">About this project</li>
 				<li id="link-to-subpage-2" class="link-to-subpage">Campaigns</li>
-				<li id="link-to-subpage-3" class="link-to-subpage">Blog posts</li>
-				<li id="link-to-subpage-4" class="link-to-subpage">Customer ideas</li>
+				<li id="link-to-subpage-3" class="link-to-subpage">Rewards</li>
+				<li id="link-to-subpage-4" class="link-to-subpage">Blog posts</li>
+				<li id="link-to-subpage-5" class="link-to-subpage">Customer ideas</li>
 			</ul>
 		</div>
 	</div>
@@ -136,6 +137,16 @@
 
 	<section id="subpage-3" class="subpage">
 		<div class="container">
+			<div class="row">
+				<?php include("campaign.php"); ?>
+				<?php include("campaign.php"); ?>
+				<?php include("campaign.php"); ?>
+			</div>
+		</div>
+	</section>
+
+	<section id="subpage-4" class="subpage">
+		<div class="container">
 			<div class="content about">
 				<header>
 					<h2 class="header-large secondary">Blog posts</h2>
@@ -153,7 +164,7 @@
 		</div>
 	</section>
 
-	<section id="subpage-4" class="subpage">
+	<section id="subpage-5" class="subpage">
 		<div class="container">
 			<div class="content about">
 				<header>
@@ -171,7 +182,7 @@
 		</div>
 	</section>
 
-	<section id="subpage-5" class="subpage">
+	<section id="subpage-6" class="subpage">
 		<div class="give-feedback">
 			<div class="container">
 				<div class="vertical-align">

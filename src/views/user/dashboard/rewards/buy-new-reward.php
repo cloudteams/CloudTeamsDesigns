@@ -31,19 +31,20 @@
 						</div>
 					</div>
 				</section>
-				<section class="confirm-2">
+				<section class="confirm-2" style="display:none;">
 
-					<div class="row" style="display:none;">
+					<div class="row">
 						<div class="col-md-12 text-center">
-							<p>Are you sure you want to buy Reward #1?</p>
+							<p>Succesfully purchased!</p>
+							<a href="#" class="btn"><i class="icon icon-download"></i> Download</a>
+							<p>You can find this reward on your <a href="#">Reward page</a></p>
 						</div> 
 					</div>
 					<hr>
 					<div class="row">
 						<div class="col-md-12">
-							<fieldset class="form-group form-submit menu-subsection">
-								<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-								<a href="#nowhere" class="btn confirm-button" alt="create">Buy</a>
+							<fieldset class="form-group form-submit">
+								<a href="#nowhere" data-dismiss="modal" class="btn" alt="cancel">Ok</a>
 							</fieldset>
 						</div>
 					</div>

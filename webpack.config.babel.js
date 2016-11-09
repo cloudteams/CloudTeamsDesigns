@@ -29,6 +29,7 @@ module.exports = (function() {
 		'developer/dashboard/notifications'    : './js/developer/dashboard/Notifications.js',
 		'developer/dashboard/activities'       : './js/developer/dashboard/Activities.js',
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
+		'user/dashboard/rewards'               : './js/user/dashboard/Rewards.js',
 		'public/project'                       : './js/public/Project.js',
 		'shared/loaders'                       : './js/shared/Loaders.js'
 	};
