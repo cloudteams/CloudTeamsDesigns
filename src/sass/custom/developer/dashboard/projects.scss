@@ -7,7 +7,7 @@
 		}
 
 		&:nth-last-of-type(-n+2) {
-			margin-bottom: 0;
+// 			margin-bottom: 0;
 		}
 
 		@include breakpoint(phablet) {
