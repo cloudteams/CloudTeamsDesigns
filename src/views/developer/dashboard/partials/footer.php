@@ -53,7 +53,7 @@
 			</div>
 
 			<div class="brand">
-				<a href="/"><img src="[[../../../../img/logo-white.svg]]" class="logo svg" alt="Cloudteams logo"></a>
+				<a href="/"><img src="[[../../../../img/logo-white-beta.svg]]" class="logo svg" alt="Cloudteams logo"></a>
 			</div>
 
 			<?php include("tutorial.php"); ?>

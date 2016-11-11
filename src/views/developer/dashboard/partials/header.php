@@ -23,7 +23,7 @@
 							<div class="vertical-align">
 								<div class="middle">
 									<a href="/" alt="home">
-										<img src="[[../../../../img/logo-white.svg]]" class="logo svg" alt="Cloudteams logo">
+										<img src="[[../../../../img/logo-white-beta.svg]]" class="logo svg" alt="Cloudteams logo">
 									</a>
 								</div>
 							</div>
