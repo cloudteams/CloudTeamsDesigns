@@ -327,7 +327,7 @@
 			<hr>
 			<div class="content row">
 				<div class="col-lg-12">
-					<a href="#nowhere" alt="add persona" data-toggle="modal" data-target=".top-up-cloudcoins">Top up your cloudcoins</a>
+					<!-- under revision<a href="#nowhere" alt="add persona" data-toggle="modal" data-target=".top-up-cloudcoins">Top up your cloudcoins</a> -->
 				</div>
 			</div>
 
