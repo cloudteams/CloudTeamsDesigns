@@ -25,7 +25,7 @@ body {
 			}
 
 			.logo {
-				width: auto;
+				width: auto !important;
 				height: 70px;
 			}
 
@@ -110,7 +110,7 @@ body {
 
 							.logo {
 								height: 45px;
-								// margin-top: $margin-5;
+								width: auto !important;
 							}
 
 						}

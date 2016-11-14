@@ -102,7 +102,7 @@
 			font-weight: 700;
 		}
 
-		.vertical-align > div {
+		.vertical-align > div:not(.col-md-11) {
 			padding-left: 0 !important;
 			padding-right: 0 !important;
 		}

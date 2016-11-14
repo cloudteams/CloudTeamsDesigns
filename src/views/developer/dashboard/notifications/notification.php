@@ -1,12 +1,7 @@
 <article class="notification">
 	<div class="vertical-align">
-		<div class="content col-md-2">
-			<div class="image">
-				<img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo">
-			</div>
-		</div>
 
-		<div class="content--textual col-md-9">
+		<div class="content--textual col-md-11">
 			<p class="meta thin"><span>Project 3</span> - You bought a <span>reward</span> from from the campaign <span>Campaign about #2</span> for 20 CloudCoins</p>
 			<p class="meta">
 				<i class="icon icon-time"></i> 40 minutes ago

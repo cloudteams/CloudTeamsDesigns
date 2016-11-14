@@ -23,16 +23,16 @@
 	</div>
 
 	<section id="subpage-1" class="subpage active">
-		<?php include("activity.php"); ?>
-		<?php include("activity.php"); ?>
-		<?php include("activity.php"); ?>
-		<?php include("activity.php"); ?>
-		<?php include("activity.php"); ?>
+		<?php include("activity-personal.php"); ?>
+		<?php include("activity-personal.php"); ?>
+		<?php include("activity-personal.php"); ?>
+		<?php include("activity-personal.php"); ?>
+		<?php include("activity-personal.php"); ?>
 	</section>
 
 	<section id="subpage-2" class="subpage">
-		<?php include("activity.php"); ?>
-		<?php include("activity.php"); ?>
+		<?php include("activity-team.php"); ?>
+		<?php include("activity-team.php"); ?>
 	</section>
 
 	<section class="content">
