@@ -1,9 +1,28 @@
+article.reward {
+	border: 1px solid $color-gray-soft;
+	padding: 0;
+	margin-right: 15px;
+	margin-left: 15px;
+	max-width: calc(33% - 30px);
+}
+
 article.campaign, article.reward {
 	height: auto;
 	margin-bottom: $margin-30;
 
 	header {
 		position: relative;
+
+		&.reward-header {
+			padding: 0 !important;
+			h3 {
+				padding: $margin-20;
+				background-color: $color-gray-soft;
+				max-width: 100% !important;
+				border-top-right-radius: $margin-5;
+				border-top-left-radius: $margin-5;
+			}
+		}
 
 		h2,
 		h3 {
