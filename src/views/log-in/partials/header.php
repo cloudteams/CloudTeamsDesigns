@@ -19,7 +19,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<a href="/" alt="home">
-							<img src="[[../../../img/logo.svg]]" class="logo svg" alt="Cloudteams logo">
+							<img src="[[../../../img/logo-beta.svg]]" class="logo svg" alt="Cloudteams logo">
 						</a>
 						<a href="/views/log-in" alt="log in" class="btn login secondary">Log in</a>
 					</div>
