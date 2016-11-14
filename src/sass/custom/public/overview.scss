@@ -27,6 +27,12 @@
 .public-project-overview-content {
 	padding-top: 0 !important;
 
+	.buy-new-reward-popup {
+		.modal-body {
+			min-height: 150px;
+		}
+	}
+
 	> header.main-header {
 		background: url('../img/background-project-overview.jpg');
 		background-size: cover;

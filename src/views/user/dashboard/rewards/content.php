@@ -19,13 +19,12 @@
 
 	<section id="subpage-2" class="subpage">
 
-		<div class="row">
+		<div class="container">
+			<div class="row">
 
-			<?php include("added-reward.php"); ?>
-			<?php include("added-reward.php"); ?>
-			<?php include("added-reward.php"); ?>
-			<?php include("added-reward.php"); ?>
+				<?php include("bought-rewards.php"); ?>
 
+			</div>
 		</div>
 
 	</section>

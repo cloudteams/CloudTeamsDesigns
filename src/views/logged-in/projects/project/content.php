@@ -271,3 +271,4 @@
 </section>
 
 <?php include("modal/new-idea.php"); ?>
+<?php include("modal/buy-new-reward.php"); ?>

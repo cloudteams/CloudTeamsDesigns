@@ -1,6 +1,7 @@
 /* global $ */
 
 import CustomerIdeas from 'partials/CustomerIdeas.js';
+import BuyConfirmation from 'partials/BuyConfirmation.js';
 
 (function() {
 	function activeSubpage() {
@@ -34,5 +35,6 @@ import CustomerIdeas from 'partials/CustomerIdeas.js';
 
 	$(document).ready(() => {
 		start();
+		BuyConfirmation.run();
 	});
 })();

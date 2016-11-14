@@ -32,7 +32,7 @@
 		</div>
 
 		<footer>
-			<a href="#nowhere" class="btn">Buy</a>
+			<a data-toggle="modal" data-target=".buy-new-reward-popup" href="#" class="btn" alt="buy reward">Buy</a>
 		</footer>
 	</div>
 </article>

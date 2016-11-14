@@ -6,6 +6,63 @@
 		padding-bottom: $margin-5 !important;
 	}
 
+	.bought-rewards-row {
+		border-radius: $margin-5;
+		padding: $margin-10;
+		background-color: $color-white;
+		color: $color-black-night;
+		margin-top: $margin-10;
+
+		a {
+			color: $color-black-night;
+		}
+	}
+
+	.bought-rewards-content-row {
+		color: $color-black-night;
+		background-color: $color-white;
+		border-radius: $margin-5;
+		margin: $margin-10 0;
+			
+		article {
+			padding-bottom: $margin-5;
+		}
+	}
+
+	.bought-rewards-row-header {
+		color: $color-gray-clear;
+		height: 50px;
+		padding-top: $margin-15;
+		line-height: 160%;
+		border-bottom: 1px solid $color-gray-clear;
+	}
+
+	.bought-rewards-row-content {
+		height: 50px;
+		padding: $margin-10 0;
+		line-height: 160%;
+		border-bottom: 1px solid $color-gray-clear;
+	}
+
+	.bought-rewards-row-total {
+		height: 45px;
+		padding: $margin-10 0 0;
+		line-height: 160%;
+		font-weight: 700;
+	}
+
+
+	.bought-rewards-row {
+		.bought-rewards-row-item {
+			padding-left: $margin-5;
+			padding-right: $margin-5;
+		}
+	}
+
+	.bought-rewards-align-right {
+		text-align: right;
+	}
+
 	.modal-body {
 		padding: $margin-15 0;
 
