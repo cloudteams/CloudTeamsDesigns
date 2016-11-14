@@ -29,7 +29,7 @@
 
 		<div class="col-md-4 added-persona">
 			<header class="added-persona__image">
-				<img src="https://placehold.it/500">
+				<img src="[[../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 			</header>
 
 			<section class="added-persona__body">
@@ -61,7 +61,7 @@
 					<div class="col-md-6 text-left">Rating:</div>
 					<div class="col-md-6"><strong>Positive</strong></div>
 				</div>						
-				<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
+				<a href="#nowhere" class="btn text-center show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 			</section>
 		</div>
 

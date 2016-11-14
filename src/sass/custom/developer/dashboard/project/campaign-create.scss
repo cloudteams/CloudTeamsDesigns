@@ -1,9 +1,11 @@
 .developer-dashboard-project-campaign-create-content {
+	padding-top: 0 !important;
+
 	.subpage {
 
 		.added-persona-container {
 			margin: $margin-40 0 0;
-			border-radius: 5px;
+			border-radius: $margin-5;
 
 			h3:first-child {
 				float: left;
@@ -34,12 +36,13 @@
 
 			.added-persona__image {
 				overflow: hidden;
-			}
+				border-top-right-radius: $margin-5;
+				border-top-left-radius: $margin-5;
 
-			img {
-				border-top-right-radius: 5px;
-				border-top-left-radius: 5px;
-				max-height: 140px;
+				img {
+					border-top-right-radius: $margin-5;
+					border-top-left-radius: $margin-5;
+				}
 			}
 
 			section {

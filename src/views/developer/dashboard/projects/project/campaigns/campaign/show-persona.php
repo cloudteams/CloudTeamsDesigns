@@ -23,7 +23,7 @@
 
 					<section id="subsection-1" class="subsection active">
 						<div class="col-md-6 image-container">
-							<img src="http://placehold.it/250/">
+							<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 						</div>
 						<div class="col-md-6">
 							

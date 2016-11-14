@@ -72,7 +72,7 @@
 
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="https://placehold.it/500">
+						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 					</header>
 
 					<section class="added-persona__body">
@@ -109,7 +109,7 @@
 				</div>
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="https://placehold.it/500">
+						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
@@ -144,7 +144,7 @@
 				</div>
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="https://placehold.it/500">
+						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
@@ -181,7 +181,7 @@
 			<div class="row added-persona-container">
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="https://placehold.it/500">
+						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
@@ -216,7 +216,7 @@
 				</div>
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="https://placehold.it/500">
+						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
@@ -251,7 +251,7 @@
 				</div>
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="https://placehold.it/500">
+						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>

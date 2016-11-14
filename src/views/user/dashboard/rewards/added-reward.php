@@ -3,7 +3,7 @@
 					<strong>Reward 1#</strong>
 				</header>
 				<section class="reward-body">
-					<img src="https://placehold.it/200/">
+					<img src="[[../../../../img/placeholders/project_thumbnail.svg]]" alt="Team user logo">
 				</section>
 				<section class="reward-content">
 					<p>App download link!</p>

@@ -52,7 +52,7 @@
 				</header>
 
 				<div class="content">
-					<img src="https://placehold.it/500/300" alt="project logo">
+					<img src="[[../../../../../img/placeholders/project_cover.svg]]" alt="Team user logo">
 				</div>
 		</article>
 

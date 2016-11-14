@@ -52,7 +52,7 @@
 		<div class="content user">
 			<div class="vertical-align">
 				<div class="middle image-container">
-					<img src="https://placehold.it/250/">
+					<img src="[[../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 				</div>
 
 				<div class="middle">

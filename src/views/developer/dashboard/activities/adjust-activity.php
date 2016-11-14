@@ -41,15 +41,15 @@
 
 				<section id="subsection-1" class="subsection active">
 					<div class="row">
-						<div class="col-md-2 img-container"><img src="https://placehold.it/50"></div>
+						<div class="col-md-2 img-container"><img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo"></div>
 						<div class="col-md-7"><p class="option">Jean Leclerc notifications</p></div>
 						<div class="col-md-3 text-right"><a href="#" class="btn togglebutton">On</a></div>
 
-						<div class="col-md-2 img-container"><img src="https://placehold.it/50"></div>
+						<div class="col-md-2 img-container"><img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo"></div>
 						<div class="col-md-7"><p class="option">Audrey Toutou</p></div>
 						<div class="col-md-3 text-right"><a href="#" class="btn-transparent togglebutton">Off</a></div>
 						
-						<div class="col-md-2 img-container"><img src="https://placehold.it/50"></div>
+						<div class="col-md-2 img-container"><img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo"></div>
 						<div class="col-md-7"><p class="option">Francois Bonaparte</p></div>
 						<div class="col-md-3 text-right"><a href="#" class="btn togglebutton">On</a></div>
 					</div>
@@ -57,15 +57,15 @@
 
 				<section id="subsection-2" class="subsection">
 					<div class="row">
-						<div class="col-md-2 img-container"><img src="https://placehold.it/50"></div>
+						<div class="col-md-2 img-container"><img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo"></div>
 						<div class="col-md-7"><p class="option">Jean Leclerc notifications</p></div>
 						<div class="col-md-3 text-right"><a href="#" class="btn togglebutton">On</a></div>
 
-						<div class="col-md-2 img-container"><img src="https://placehold.it/50"></div>
+						<div class="col-md-2 img-container"><img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo"></div>
 						<div class="col-md-7"><p class="option">Audrey Toutou</p></div>
 						<div class="col-md-3 text-right"><a href="#" class="btn-transparent togglebutton">Off</a></div>
 						
-						<div class="col-md-2 img-container"><img src="https://placehold.it/50"></div>
+						<div class="col-md-2 img-container"><img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo"></div>
 						<div class="col-md-7"><p class="option">Francois Bonaparte</p></div>
 						<div class="col-md-3 text-right"><a href="#" class="btn togglebutton">On</a></div>
 					</div>

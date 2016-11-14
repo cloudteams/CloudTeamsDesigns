@@ -2,7 +2,7 @@
 	<div class="vertical-align">
 		<div class="content col-md-2">
 			<div class="image">
-				<img src="http://placehold.it/200">
+				<img src="[[../../../../img/placeholders/team_user.svg]]" alt="Team user logo">
 			</div>
 		</div>
 

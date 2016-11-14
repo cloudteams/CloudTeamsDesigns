@@ -96,7 +96,7 @@
 		<div class="content user">
 			<div class="vertical-align">
 				<div class="col-md-5 image-container">
-					<img src="https://placehold.it/500">
+					<img src="[[../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 				</div>
 
 				<div class="col-md-7 data-container">
