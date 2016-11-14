@@ -1,4 +1,4 @@
-article.campaign {
+article.campaign, article.reward {
 	height: auto;
 	margin-bottom: $margin-30;
 
@@ -126,7 +126,7 @@ article.campaign {
 		text-align: center;
 	}
 
-	&.public-campaign {
+	&.public-campaign, .public-reward {
 		.background {
 			header,
 			.content,

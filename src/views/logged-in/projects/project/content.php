@@ -138,9 +138,9 @@
 	<section id="subpage-3" class="subpage">
 		<div class="container">
 			<div class="row">
-				<?php include("campaign.php"); ?>
-				<?php include("campaign.php"); ?>
-				<?php include("campaign.php"); ?>
+				<?php include("reward-option.php"); ?>
+				<?php include("reward-option.php"); ?>
+				<?php include("reward-option.php"); ?>
 			</div>
 		</div>
 	</section>
