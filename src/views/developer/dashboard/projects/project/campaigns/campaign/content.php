@@ -340,10 +340,16 @@
 
 	</section>
 
-	<?php include("add-persona.php"); ?>
-	<?php include("rate-persona.php"); ?>
-	<?php include("show-persona.php"); ?>
-	<?php include("top-up-cloudcoins.php"); ?>
+	<?php include("modal/add-persona.php"); ?>
+	<?php include("modal/rate-persona.php"); ?>
+	<?php include("modal/show-persona.php"); ?>
+	<?php include("modal/top-up-cloudcoins.php"); ?>
+
+	<?php include("modal/save-questionnaire.php"); ?>
+	<?php include("modal/choose-questionnaire.php"); ?>
+	<?php include("modal/delete-questionnaire.php"); ?>
+	<?php include("modal/add-questionnaire.php"); ?>
+	<?php include("modal/add-subtitle-questionnaire.php"); ?>
 
 </section>
 
