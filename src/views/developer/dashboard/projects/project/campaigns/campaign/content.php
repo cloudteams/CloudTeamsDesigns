@@ -2,9 +2,9 @@
 	<ul class="menu-subpage">
 		<li id="link-to-subpage-1" class="link-to-subpage active">About</li>
 		<li id="link-to-subpage-2" class="link-to-subpage">Rewards</li>
-		<li id="link-to-subpage-3" class="link-to-subpage">Personas</li>		
-		<li id="link-to-subpage-4" class="link-to-subpage">CloudCoins</li>
-		<li id="link-to-subpage-5" class="link-to-subpage">Results</li>
+		<li id="link-to-subpage-3" class="link-to-subpage">Personas</li>
+		<li id="link-to-subpage-4" class="link-to-subpage">Documents</li>		
+		<li id="link-to-subpage-5" class="link-to-subpage">CloudCoins</li>
 		<li id="link-to-subpage-6" class="link-to-subpage">Questionnaire</li>
 	</ul>
 
@@ -288,7 +288,7 @@
 		</div>
 	</section>
 
-	<section id="subpage-4" class="subpage">
+	<section id="subpage-5" class="subpage">
 		<article class="block block-fill project-profile">
 			<header class="article-header">
 				<div class="vertical-align">
@@ -334,22 +334,10 @@
 		</article>
 	</section>
 
-	<section id="subpage-5" class="subpage">
-		<h2 class="header-medium secondary">Results</h2>
-		<div class="content">
-			<div class="still-running">
-				<p class="header-medium secondary">This campaign is still running</p>
-			</div>
-		</div>
-	</section>
-
 	<section id="subpage-6" class="subpage">
-		<h2 class="header-medium secondary">Results</h2>
-		<div class="content">
-			<div class="still-running">
-				<p class="header-medium secondary">This campaign is still running</p>
-			</div>
-		</div>
+
+		<?php include("questionnaire.php"); ?>
+
 	</section>
 
 	<?php include("add-persona.php"); ?>

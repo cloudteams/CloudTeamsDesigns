@@ -1,5 +1,5 @@
 <div class="overview-data">
-	<h2 class="header-medium secondary">The project title</h2>
+	<h2 class="header-medium secondary">Campaign 2#</h2>
 
 	<div class="row">
 		<div class="col-sm-6">

@@ -17,7 +17,7 @@ module.exports = (function() {
 				allow  : 'Ok',
 				deny   : 'Decline',
 				link   : 'Read our cookie policy',
-				href   : '/cookie-policy'
+				href   : '/data.html'
 			},
 			elements: {
 				dismiss: '<a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss btn btn-info btn-outline btn-sm">{{dismiss}}</a>',

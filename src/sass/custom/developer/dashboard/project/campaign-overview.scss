@@ -197,7 +197,7 @@
 
 		}
 
-		&#subpage-4 {
+		&#subpage-5 {
 			.context-input {
 				line-height: $line-height-large;
 			}
@@ -219,16 +219,111 @@
 
 		}
 
-		&#subpage-5 {
-			h2,
-			.still-running p {
-				color: $color-white;
-				text-transform: none;
+		&#subpage-6 {
+			color: $color-white;
+			margin-top: -20px;
+
+			.questionnaire-options {
+				padding-bottom: $margin-10;
+				border-bottom: 1px solid $color-transparent-white;
+
+				ul {
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-end;
+				}
+				
+				li:not(:last-of-type) {
+					margin-right: $margin-10;
+				}
+
 			}
 
-			.still-running {
-				margin-top: 100px;
-				text-align: center;
+			.questionnaire-meta {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				padding: $margin-10 0;
+
+				h2 {
+					line-height: $line-height-large;
+					color: $color-white;
+				}
+
+				a {
+					line-height: $line-height-small;
+				}
+			}
+
+			.question, .seperator {
+				color: $color-black-night;
+				width: 100%;
+				height: 70px;
+				font-size: $font-size-medium;
+				background-color: $color-gray-soft;
+				border-radius: $margin-5;
+				margin: $margin-10 0;
+
+				> div {
+					height: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.type {
+					color: $color-purple-shading;
+					justify-content: flex-start;
+				}
+
+				.phrase {
+					justify-content: flex-start;
+					min-width: 0;
+
+					span {
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+					}
+
+				}
+				.navigation {
+					justify-content: flex-end;
+					color: $color-purple-flashy;
+				}
+
+			}
+
+			.subtitle {
+				width: 100%;
+				height: 70px;
+				border-radius: $margin-5;
+				border: 3px dashed $color-transparent-white;
+				opacity: 0.7;
+				transition: $transition-time-1 $easing-1;
+
+				> div {
+					height: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				h2 {
+					color: $color-purple-shading;
+					font-size: $font-size-small;
+				}
+
+				&:hover, &:focus {
+					opacity: 1;
+				}
+
+			}
+
+			.save-button {
+				width: 100%;
+				text-align: right;
+				margin: $margin-15 0;
 			}
 
 		}
