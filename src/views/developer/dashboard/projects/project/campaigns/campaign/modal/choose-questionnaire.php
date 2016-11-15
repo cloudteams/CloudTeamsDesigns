@@ -18,7 +18,25 @@
 			</header>
 
 			<div class="modal-body">
-				
+				<div class="row choose-row-header">
+					<div class="col-md-7">
+						Name
+					</div>
+					<div class="col-md-5">
+						Questions
+					</div>
+				</div>
+				<div class="row choose-row">
+					<div class="col-md-7">
+						Name
+					</div>
+					<div class="col-md-3">
+						Questions
+					</div>
+					<div class="col-md-2">
+						Questions
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -330,6 +330,13 @@
 				margin: $margin-15 0;
 			}
 
+			#choose-questionnaire {
+				.choose-row-header, .choose-row {
+					height: 100px;
+				}
+			}
+
+
 		}
 
 	}
