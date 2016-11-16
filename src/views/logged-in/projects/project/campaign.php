@@ -51,7 +51,7 @@
 		</div>
 
 		<footer>
-			<a href="#nowhere" id="link-to-subpage-5" class="btn link-to-subpage link-to-hidden-subpage">Participate</a>
+			<a href="views/logged-in/projects/project/questionnaire" class="btn">Participate</a>
 			<a href="#nowhere" id="link-to-subpage-5" class="btn-transparent link-to-subpage link-to-hidden-subpage">See all info</a>
 		</footer>
 	</div>

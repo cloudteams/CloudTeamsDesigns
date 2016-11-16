@@ -330,17 +330,25 @@
 				margin: $margin-15 0;
 			}
 
-			#choose-questionnaire {
-				.choose-row-header, .choose-row {
-					height: 100px;
-				}
-			}
-
-
 		}
 
 	}
 
+}
+
+#choose-questionnaire {
+	
+	.choose-row-header, .choose-row {
+		height: 60px;
+		border-bottom: 1px solid $color-gray-clear;
+
+		> div {
+			line-height: $line-height-large;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+	}
 }
 
 .developer-dashboard-project-campaign-overview-content {
