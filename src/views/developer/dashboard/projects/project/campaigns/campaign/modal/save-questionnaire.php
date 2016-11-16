@@ -1,4 +1,4 @@
-<!-- Pop-up modal: save questionnaire -->
+<!-- Pop-up modal: choose questionnaire -->
 <div class="save-questionnaire-popup modal fade" role="dialog">
 	<a href="#nowhere"></a>
 
@@ -18,7 +18,25 @@
 			</header>
 
 			<div class="modal-body">
-				
+
+				<div class="row save-row">
+					<div class="col-md-6">
+						Name your template:
+					</div>
+					<div class="col-md-6">
+						<input type="text" placeholder="Template name">
+					</div>
+
+				</div>
+
+				<div class="row submit-row">
+					<div class="col-md-12">
+						<fieldset class="form-group form-submit">
+							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="save">Save</a>
+						</fieldset>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -376,6 +376,33 @@
 	}
 }
 
+#save-questionnaire {
+	
+	.modal-body {
+		padding-top: 0 !important;
+	}
+
+	.save-row {
+		color: $color-gray-clear;
+		border-bottom: 1px solid $color-gray-clear;
+		font-size: $font-size-small;
+		font-weight: 700;
+
+		> div {
+			padding-top: $margin-10;
+			padding-bottom: $margin-10;
+			&:first-of-type {
+				line-height: $line-height-large;
+			}
+		}
+
+	}	
+
+	.submit-row {
+		margin-top: $margin-10;	
+	}
+}
+
 .developer-dashboard-project-campaign-overview-content {
 
 	.cannot-find-persona p {
