@@ -338,16 +338,41 @@
 
 #choose-questionnaire {
 	
+	.modal-body {
+		padding-top: 0 !important;
+	}
+
 	.choose-row-header, .choose-row {
 		height: 60px;
 		border-bottom: 1px solid $color-gray-clear;
+		font-size: $font-size-small;
+		font-weight: 700;
 
 		> div {
 			line-height: $line-height-large;
-			padding-top: 10px;
-			padding-bottom: 10px;
+			padding-top: $margin-10;
+			padding-bottom: $margin-10;
 		}
 
+	},
+
+	.choose-row-header {
+		color: $color-gray-clear;
+	}
+
+	.choose-row {
+		color: $color-black-night;
+		a {
+			color: $color-purple-flashy;
+		}
+
+		&:hover, &:focus {
+			background-color: $color-gray-soft;
+		}
+	}
+
+	.submit-row {
+		margin-top: $margin-10;	
 	}
 }
 

@@ -14,7 +14,8 @@
 
 		h1 {
 			color: $color-black-night;
-			padding: $margin-20 0;
+			padding: $margin-20 0 $margin-40 0;
+			font-size: $font-size-very-large !important;
 		}
 
 		.header-medium {
@@ -34,7 +35,7 @@
 		}
 
 		fieldset {
-			margin-bottom: 100px;
+			margin-bottom: 80px;
 		}
 
 		input[type=radio]:checked + .visual-radio-label {
