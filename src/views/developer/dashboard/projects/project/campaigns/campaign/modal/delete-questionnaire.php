@@ -18,7 +18,14 @@
 			</header>
 
 			<div class="modal-body">
-				
+				<div class="row submit-row">
+					<div class="col-md-12">
+						<fieldset class="form-group form-submit">
+							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="save">Choose</a>
+						</fieldset>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

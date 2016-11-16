@@ -21,5 +21,5 @@
 </div>
 
 <div class="save-button">
-	<a href="#" class="btn">Save questionnaire</a>
+	<a class="btn" href="#" data-toggle="modal" data-target=".save-questionnaire-popup">Save questionnaire as</a>
 </div>
