@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-campaign"></i>
+								<a href="/views/developer/dashboard/projects/project/campaigns/"><i class="icon icon-reply"></i></a>
 								<h1 class="header-large">Campaigns</h1>
 								<p class="header-medium secondary">Project title</p>
 							</div>

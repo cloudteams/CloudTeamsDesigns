@@ -7,7 +7,7 @@
 		<span>Oh dear, this should be a really lengthy question to display what happens when stuff is oversized in the browser window</span>
 	</div>
 	<div class="col-md-2 navigation">
-		<i class="icon icon-close"></i>
+		<a href="#"><i class="icon icon-moving"></i></a>
 		<a href="#" data-toggle="modal" data-target=".delete-questionnaire-popup"><i class="icon icon-close"></i></a>
 	</div>
 </div>

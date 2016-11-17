@@ -18,11 +18,15 @@
 			</header>
 
 			<div class="modal-body">
+				<div class="row delete-row">
+					<p class="title">Are you sure you want to delete this question?</p>
+					<p class="subtitle">Single Question - What is your favorite color?</p>
+				</div>
 				<div class="row submit-row">
 					<div class="col-md-12">
 						<fieldset class="form-group form-submit">
 							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
-							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="save">Choose</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="save">Delete</a>
 						</fieldset>
 					</div>
 				</div>

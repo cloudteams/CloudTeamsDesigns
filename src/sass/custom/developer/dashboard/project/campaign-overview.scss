@@ -584,7 +584,7 @@
 
 	.choose-row-header, .choose-row {
 		height: 60px;
-		border-bottom: 1px solid $color-gray-clear;
+		border-bottom: 1px solid $color-transparent-black;
 		font-size: $font-size-small;
 		font-weight: 700;
 
@@ -624,7 +624,7 @@
 
 	.save-row {
 		color: $color-gray-clear;
-		border-bottom: 1px solid $color-gray-clear;
+		border-bottom: 1px solid $color-transparent-black;
 		font-size: $font-size-small;
 		font-weight: 700;
 
@@ -641,6 +641,77 @@
 	.submit-row {
 		margin-top: $margin-10;	
 	}
+}
+
+#delete-questionnaire {
+	
+	.modal-body {
+		padding-top: 0 !important;
+	}
+
+	.delete-row {
+		text-align: center;
+		p {
+			margin-top: $margin-10;
+
+			&.subtitle {
+				color: $color-purple-shading;
+				margin-bottom: $margin-10;
+			}
+		}
+	}
+
+	.submit-row {
+		margin-top: $margin-10;	
+	}
+}
+
+#add-subtitle-questionnaire {
+
+	.save-row {
+		color: $color-gray-clear;
+		border-bottom: 1px solid $color-transparent-black;
+		font-size: $font-size-small;
+		font-weight: 700;
+
+		> div {
+			padding-top: $margin-10;
+			padding-bottom: $margin-10;
+			&:first-of-type {
+				line-height: $line-height-large;
+			}
+		}
+
+	}	
+
+	.submit-row {
+		margin-top: $margin-10;	
+	}
+
+}
+
+#add-questionnaire {
+
+	.save-row {
+		color: $color-gray-clear;
+		border-bottom: 1px solid $color-transparent-black;
+		font-size: $font-size-small;
+		font-weight: 700;
+
+		> div {
+			padding-top: $margin-10;
+			padding-bottom: $margin-10;
+			&:first-of-type {
+				line-height: $line-height-large;
+			}
+		}
+
+	}	
+
+	.submit-row {
+		margin-top: $margin-10;	
+	}
+	
 }
 
 .developer-dashboard-project-campaign-overview-content {

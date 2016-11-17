@@ -18,8 +18,27 @@
 			</header>
 
 			<div class="modal-body">
-				
+
+				<div class="row save-row">
+					<div class="col-md-6">
+						Enter a title to structure your poll:
+					</div>
+					<div class="col-md-6">
+						<input type="text" placeholder="/// SEPERATION \\\">
+					</div>
+
+				</div>
+
+				<div class="row submit-row">
+					<div class="col-md-12">
+						<fieldset class="form-group form-submit">
+							<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Cancel</a>
+							<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="add">Add</a>
+						</fieldset>
+					</div>
+				</div>
 			</div>
+
 		</div>
 	</div>
 </div>
