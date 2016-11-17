@@ -165,8 +165,8 @@
 		}
 
 		.form-group.required .control-label:after { 
-		   content:"*";
-		   color: $color-red-deep;
+			content:"*";
+			color: $color-red-deep;
 		}
 
 		.modal-body {
@@ -176,11 +176,6 @@
 
 		.input-container a {
 			color: $color-purple-flashy;
-		}
-
-		.form-group.required .control-label:after { 
-		   content:"*";
-		   color: $color-red-deep;
 		}
 
 		.add-image-button {

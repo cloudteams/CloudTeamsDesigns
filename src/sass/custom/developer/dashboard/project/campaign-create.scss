@@ -1,5 +1,40 @@
 .developer-dashboard-project-campaign-create-content {
-	padding-top: 0 !important;
+
+	.form-group.required .control-label:after { 
+		content:"*";
+		color: $color-red-deep;
+	}
+
+	.fieldset-upload {
+		width: 100%;
+		height: 100%;
+	}
+
+	.file-upload-image {
+		border: 2px dashed $color-gray-clear;
+		width: 70%;
+		height: 250px;
+		text-align: center;
+		cursor: pointer;
+		transition: background $transition-time-2 $easing-1;
+		transition: border $transition-time-2 $easing-1;
+
+		&:hover {
+			border: 3px solid $color-gray-soft;
+			background: $color-gray-soft;
+		}
+
+	}
+
+	.file-upload-image .icon {
+		position: relative;
+		color: $color-gray-clear;
+		font-size: 60px;
+	}
+
+	#file-upload {
+		display: none;
+	}
 
 	.subpage {
 
