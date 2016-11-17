@@ -606,6 +606,11 @@
 			color: $color-purple-flashy;
 		}
 
+		&.active-row {
+			transition: $transition-time-2 $easing-1;
+			background-color: $color-transparent-black;
+		}
+
 		&:hover, &:focus {
 			background-color: $color-gray-soft;
 		}
@@ -692,8 +697,7 @@
 
 #add-questionnaire {
 
-	.save-row {
-		color: $color-gray-clear;
+	.question-type-row {
 		border-bottom: 1px solid $color-transparent-black;
 		font-size: $font-size-small;
 		font-weight: 700;
@@ -708,10 +712,58 @@
 
 	}	
 
+	label {
+		font-size: $font-size-small !important;
+		span {
+			color: $color-purple-shading;
+		}
+	}
+
+	.checkbox-option {
+		margin-bottom: 0;
+	}
+
+	.answer-options {
+		font-size: $font-size-small !important;
+		margin-top: $margin-10;
+
+		a {
+			color: $color-purple-flashy;
+		}
+		.text-right {
+			line-height: $line-height-large;
+		}
+
+		&.inactive {
+			opacity: 0.7;
+
+			i {
+				display: none;
+			}
+		}
+	}
+
+	.question-type-option {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}	
+
 	.submit-row {
 		margin-top: $margin-10;	
 	}
-	
+
+	.form-group {
+		margin-top: $margin-10;
+	}
+
+	.form-group.required .control-label:after { 
+		content:"*";
+		color: $color-red-deep;
+	}
+
+
 }
 
 .developer-dashboard-project-campaign-overview-content {

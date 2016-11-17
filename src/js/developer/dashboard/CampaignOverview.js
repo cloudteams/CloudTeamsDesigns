@@ -119,6 +119,21 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 		navLink.addClass('active');
 	}
 
+	function selectExistingQuestionnaire() {
+		$('.choose-row').click(e => {
+			$('.choose-row.active-row').removeClass('active-row');
+			$(e.target).parent().addClass('active-row');
+		});
+	}
+
+	function toggleQuestionType() {
+		$('#question-type').on('change', e => {
+			const target = $(e.target).val();
+			$('.question-type-option.active').removeClass('active');
+			$(`.${target}`).addClass('active');
+		});
+	}
+
 	$(document).ready(() => {
 		activeSubMenuItem();
 		confirmButtons();
@@ -127,5 +142,7 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 		selectAllOptionsOpen();
 		blockDefault();
 		removeTags();
+		selectExistingQuestionnaire();
+		toggleQuestionType();
 	});
 })();
