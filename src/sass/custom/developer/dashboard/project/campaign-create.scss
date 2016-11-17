@@ -36,111 +36,13 @@
 		display: none;
 	}
 
-	.subpage {
+	.form-submit {
+		text-align: right;
+		margin: 0;
 
-		.added-persona-container {
-			margin: $margin-40 0 0;
-			border-radius: $margin-5;
-
-			h3:first-child {
-				float: left;
-			}
-
-			.tooltip-container {
-				float: right;
-
-				a.open-tooltip-button {
-					color: $color-black-night;
-				}
-
-				.custom-tooltip {
-					left: 45px;
-					top: 183px;
-				}
-			}
-
-			.added-persona {
-				&__body {
-					border-left: 1px solid $color-gray-clear;
-					border-right: 1px solid $color-gray-clear;
-					border-bottom: 1px solid $color-gray-clear;
-					border-bottom-right-radius: $margin-5;
-					border-bottom-left-radius: $margin-5;
-				}
-			}
-
-			.added-persona__image {
-				overflow: hidden;
-				border-top-right-radius: $margin-5;
-				border-top-left-radius: $margin-5;
-
-				img {
-					border-top-right-radius: $margin-5;
-					border-top-left-radius: $margin-5;
-				}
-			}
-
-			section {
-				background: $color-white;
-				padding: $margin-15 $margin-10;
-
-				.header-medium.secondary:nth-of-type(2) {
-					text-transform: none;
-					color: $color-gray-clear;
-					font-size: $font-size-small;
-				}
-
-				p {
-					color: $color-black-night !important;
-					margin: $margin-20 0;
-				}
-
-				.persona-rating {
-					margin: $margin-20 0;
-
-					> div {
-						padding: 0;
-
-						&:nth-of-type(2) {
-							text-align: right;
-						}
-					}
-				}
-
-				a {
-					margin: auto;
-					display: block
-				}
-			}
-		}
-
-		fieldset {
-			&.time-frame {
-				.row {
-					margin-bottom: $margin-20;
-
-					&:last-child {
-						margin-bottom: 0;
-					}
-
-				}
-
-			}
-
-			&.add-rewards {
-				.input-container {
-					margin-bottom: $margin-20;
-
-					&:last-child {
-						margin-bottom: 0;
-					}
-
-				}
-
-			}
-
+		a:not(:first-of-type) {
+			margin-left: $margin-10;
 		}
 
 	}
-
 }

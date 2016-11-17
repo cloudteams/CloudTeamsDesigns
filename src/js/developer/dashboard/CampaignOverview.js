@@ -3,6 +3,91 @@
 import ConfirmFader from 'partials/ConfirmFader.js';
 
 (function() {
+	function closeOptions(el) {
+		const _el = $(el);
+
+		_el
+			.off()
+			.css({
+				'transform': 'scaleY(1)'
+			});
+
+		const sibling =
+			_el
+				.closest('.row')
+				.next();
+
+		sibling.fadeOut();
+		selectOptionOpen(_el);
+	}
+
+	function selectAllOptionsOpen() {
+		const edit = $('a[data-target="extend-row"]');
+
+		edit.click(e => {
+			e.preventDefault();
+
+			const row = $(e.target)
+				.closest('.row')
+				.next();
+
+			row.fadeIn();
+
+			const arrow = $(e.target)
+				.closest('.row')
+				.find('i.icon-arrow-down');
+
+			arrow
+				.css({
+					'transform': 'scaleY(-1)'
+				});
+
+			arrow.parent().off().click(ev => {
+				ev.preventDefault();
+				closeOptions(ev.target);
+			});
+		});
+	}
+
+	function selectOptionOpen(el) {
+		$(el).closest('a').click(e => {
+			e.preventDefault();
+
+			const row = $(e.target)
+				.closest('.row')
+				.next();
+
+			row.fadeIn();
+
+			const arrow = $(e.target)
+				.closest('.row')
+				.find('i.icon-arrow-down');
+
+			arrow
+				.css({
+					'transform': 'scaleY(-1)'
+				});
+
+			arrow.parent().off().click(ev => {
+				ev.preventDefault();
+				closeOptions(ev.target);
+			});
+		});
+	}
+
+	function blockDefault() {
+		$('a[data-target]').click(e => {
+			e.preventDefault();
+		});
+	}
+
+	function removeTags() {
+		$('.item-tag').click(e => {
+			const target = $(e.target);
+			target.remove();
+		});
+	}
+
 	function preventClicks() {
 		$('a[href="#nowhere"]').click(e => {
 			e.preventDefault();
@@ -29,41 +114,6 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 		});
 	}
 
-	function confirmTopUp() {
-		const subpageSection = $('.top-up-content');
-		const confirmButton = $('.top-up-button');
-		const contentSection = $('.content-section');
-		const sendingSection = $('.sending-section');
-		const confirmSection = $('.confirm-section');
-
-		function fadeDelay() {
-			setTimeout(() => {
-				sendingSection.fadeOut(() => {
-					confirmSection.fadeIn();
-				});
-			}, 2000);
-
-			setTimeout(() => {
-				confirmSection.fadeOut(() => {
-					contentSection.fadeIn();
-				});
-			}, 4000);
-		}
-
-		confirmButton.click(e => {
-			e.preventDefault();
-
-			const height = subpageSection.outerHeight();
-			subpageSection.css('height', `${height}`);
-
-			contentSection.fadeOut(() => {
-				sendingSection.fadeIn();
-			});
-
-			fadeDelay();
-		});
-	}
-
 	function activeSubMenuItem() {
 		const navLink = $('.side-menu > ul > li a[href="developer-dashboard-project-campaigns.php"]');
 		navLink.addClass('active');
@@ -72,8 +122,10 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 	$(document).ready(() => {
 		activeSubMenuItem();
 		confirmButtons();
-		// confirmTopUp();
 		ConfirmFader.run('.top-up-content');
 		preventClicks();
+		selectAllOptionsOpen();
+		blockDefault();
+		removeTags();
 	});
 })();

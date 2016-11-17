@@ -18,8 +18,8 @@
 					</div>
 				</fieldset>
 
-				<fieldset class="form-group time-frame">
-					<label class="header-medium secondary">Start</label>
+				<fieldset class="form-group time-frame required">
+					<label class="header-medium secondary control-label">Start</label>
 
 					<div class="row">
 						<div class="col-sm-4">
@@ -99,8 +99,8 @@
 						</div>
 					</div>
 				</fieldset>
-				<fieldset class="form-group time-frame">
-					<label class="header-medium secondary">End</label>
+				<fieldset class="form-group time-frame required">
+					<label class="header-medium secondary control-label">End</label>
 
 					<div class="row">
 						<div class="col-sm-4">
@@ -202,6 +202,11 @@
 							</div>
 						</div>
 					</div>
+				</fieldset>
+
+				<fieldset class="form-group form-submit">
+					<a class="btn-transparent" href="/views/developer/dashboard/projects/project/campaigns/" alt="cancel">Cancel</a>
+					<a class="btn" href="/views/developer/dashboard/projects/project/campaigns/campaign/" alt="create">Create</a>
 				</fieldset>
 
 			</div>
