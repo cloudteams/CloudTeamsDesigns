@@ -111,8 +111,10 @@ article.project {
 
 	.background-image {
 		height: 160px;
-		background-size: cover;
-		background-position: center;
+		background-color: $color-gray-clear;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
 		background-image: url(../img/placeholders/project_thumbnail.svg);
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
