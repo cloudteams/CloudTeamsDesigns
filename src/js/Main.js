@@ -7,6 +7,8 @@ import 'partials/Easing';
 import 'partials/AddItemDimensions';
 import 'partials/InjectSelect2';
 import 'partials/CookieConsent';
+import 'partials/resizeMainContainer';
+
 
 (function() {
 	let _lastSubsection;

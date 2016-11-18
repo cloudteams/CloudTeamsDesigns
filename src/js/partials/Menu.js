@@ -8,7 +8,6 @@
 
 		navLink.each((i, el) => {
 			const linkHref = $(el).attr('href');
-			console.log(el)
 			if (linkHref === pageName || linkHref === '') {
 				$(el).addClass('active');
 			}
