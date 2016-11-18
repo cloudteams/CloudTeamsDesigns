@@ -11,8 +11,9 @@ body {
 				display: inline-block;
 				color: $color-black-night;
 
-				&.login {
+				&.login, &.register {
 					margin-top: $margin-20;
+					margin-left: $margin-20;
 					float: right;
 				}
 

@@ -6,7 +6,7 @@
 			<header class="main-header login">
 				<div class="container">
 					<h1 class="header-extra-large public">Welcome</h1>
-					<p class="public-page-subtitle">Please log in or register to continue</p>
+					<p class="public-page-subtitle">Please log in to continue</p>
 				</div>
 			</header>
 
