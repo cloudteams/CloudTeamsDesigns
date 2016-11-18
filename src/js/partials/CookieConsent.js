@@ -46,6 +46,7 @@ module.exports = (function() {
 			onStatusChange: function() {
 				const type       = this.options.type;
 				const didConsent = this.hasConsented();
+
 				if (type === 'opt-in' && didConsent) {
 					// enable cookies
 				}

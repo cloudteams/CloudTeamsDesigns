@@ -76,7 +76,7 @@ section.dashboard-page {
 
 					> main {
 						@extend .col-lg-11;
-						height: 100vh;
+						min-height: 977px !important;
 					}
 
 				}
@@ -106,11 +106,12 @@ section.dashboard-page {
 	> .container {
 		> .content {
 			> .row {
+				> main {
+					min-height: 977px;
+				}
+
 				> main,
 				> aside {
-					min-height: 100vh;
-					// Should fix the pages with short content
-					// min-height: calc(100vh - 65px);
 					@include paddingH($margin-30);
 
 					> header {

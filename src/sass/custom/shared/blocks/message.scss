@@ -47,6 +47,8 @@ article.message {
 		.content {
 			padding: $margin-20 $margin-20 $margin-15;
 			min-width: 370px;
+			max-width: 640px;
+		    overflow: hidden;
 		}
 
 		header {
