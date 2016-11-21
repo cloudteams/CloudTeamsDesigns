@@ -136,7 +136,12 @@ body {
 
 						&.profile {
 							padding-left: $margin-15;
+							padding-top: $margin-10;
 							position: relative;
+
+							> .vertical-align .icon {
+								padding-bottom: $margin-10;
+							}
 
 							.user-email {
 								display: inline-block;
@@ -145,7 +150,7 @@ body {
 								overflow: hidden;
 								text-overflow: ellipsis;
 								line-height: 100%;
-							    height: 15px;
+							    height: 20px;
 							    padding-top: 2px;
 							}
 

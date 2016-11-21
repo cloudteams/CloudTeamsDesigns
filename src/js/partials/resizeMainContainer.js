@@ -3,7 +3,7 @@
 (function() {
 	function resizeMainContainer() {
 		const height = $('.page').height();
-		$('main').height(`${height}px`);
+		$('main').css('min-height', `${height}px`);
 	}
 
 	$(document).ready(() => {
