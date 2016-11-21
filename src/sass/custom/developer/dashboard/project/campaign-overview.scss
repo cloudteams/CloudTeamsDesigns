@@ -294,10 +294,6 @@
 					.document:not(.add-item) {
 						margin-bottom: $margin-30;
 
-						&:nth-last-of-type(-n+2) {
-							margin-bottom: 0;
-						}
-
 						@include breakpoint(phablet) {
 							&:nth-last-of-type(-n+2) {
 								margin-bottom: $margin-30;

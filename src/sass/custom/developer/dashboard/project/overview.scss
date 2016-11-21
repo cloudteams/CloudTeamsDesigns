@@ -6,12 +6,10 @@
 
 	article {
 		&.block-fill-half {
+			float: left;
+			clear: none;
+
 			@include paddingH($margin-10);
-
-			&:nth-last-of-type(-n+2) {
-				margin-bottom: 0;
-			}
-
 			@include breakpoint(phablet) {
 				&:nth-last-of-type(-n+2) {
 					margin-bottom: $margin-30;

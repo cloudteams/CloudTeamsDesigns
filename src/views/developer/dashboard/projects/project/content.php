@@ -214,7 +214,7 @@
 							<h2 class="header-medium secondary">Connectors</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="#nowhere">
+							<p class="header-small"><a href="">
 								<span class="header-small action-text">Connect</span>
 							</a></p>
 						</div>
@@ -236,7 +236,7 @@
 			</div>			
 		</article>
 
-		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half connectors">
+		<article class="col-sm-12 col-xs-12 clear-2 block block-fill-half connectors">
 			<div class="background">
 
 				<header class="article-header">
@@ -246,7 +246,7 @@
 							<h2 class="header-medium secondary">Connectors</h2>
 						</div>
 						<div class="middle">
-							<p class="header-small"><a href="#nowhere">
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/services">
 								<span class="header-small action-text">Connect</span>
 							</a></p>
 						</div>
