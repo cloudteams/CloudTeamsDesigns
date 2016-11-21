@@ -19,7 +19,7 @@
 		</div>
 
 		<footer>
-			<a href="#" class="btn">Connect</a>
+			<a href="#" class="btn-transparent">Disconnect service</a>
 		</footer>
 	</div>
 </article>

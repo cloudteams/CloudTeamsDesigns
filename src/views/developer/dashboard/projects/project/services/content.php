@@ -3,7 +3,7 @@
 
 		<?php include("service.php"); ?>
 		<?php include("service.php"); ?>
-		<?php include("service.php"); ?>
+		<?php include("connected-service.php"); ?>
 		<?php include("service.php"); ?>
 
 	</div>
