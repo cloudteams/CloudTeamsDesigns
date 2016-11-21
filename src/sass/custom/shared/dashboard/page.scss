@@ -154,6 +154,10 @@ section.dashboard-page {
 						}
 
 						p.header-medium.secondary {
+							overflow: hidden;
+							text-overflow: ellipsis;
+							white-space: nowrap;
+							max-width: 310px;			
 							border-left: 1px solid $color-transparent-white;
 							color: $color-gray-clear;
 							display: inline-block;

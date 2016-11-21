@@ -99,6 +99,12 @@
 				padding-left: 0;
 				padding-right: 0;
 
+				&:after {
+					content: ' ';
+					width: $margin-10;
+					height: $margin-10;
+				}
+
 				.highlight {
 					font-size: $font-size-extra-small;
 				}
