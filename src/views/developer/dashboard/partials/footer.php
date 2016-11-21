@@ -53,6 +53,20 @@
 				</div>
 			</div>
 
+			<div class="brand eu">
+
+				<div class="col-sm-2">
+				</div>
+				<div class="col-sm-5">
+					<p class="text-left">This project is co-funded by <strong>The European Union's Framework Programme for Research and Innovation - Horizon 2020</strong> under Grant Agreement No: 644617. Action full title: Collaborative Software Development Framework based on Trusted, Secure Cloud-based Pool of Users.</p>
+				</div>
+
+				<div class="col-sm-4">
+					<img src="img/eu-logo-645f0e37.png" class="eu-logo" alt="EC logo">
+				</div>
+
+			</div>
+
 			<div class="brand">
 				<a href="/"><img src="[[../../../../img/logo-white-beta.svg]]" class="logo svg" alt="Cloudteams logo"></a>
 			</div>

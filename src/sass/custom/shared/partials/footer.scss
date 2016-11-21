@@ -140,8 +140,15 @@ footer#footer {
 
 	}
 
+	&.footer-dashboard-developer {
+
+		.brand.eu {
+			color: $color-purple-shading;
+		}
+	}
+
 	&.footer-dashboard-developer,
-	&.footer-dashboard-user {
+	&.footer-dashboard-user, {
 		background: $color-purple-pitch;
 
 		ul {
