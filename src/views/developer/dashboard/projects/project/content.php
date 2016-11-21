@@ -71,7 +71,7 @@
 				</header>
 
 				<div class="content">
-					<div class="container-fluid">
+					<div class="container">
 						<div class="force-row bold flashy">Scenario 2#</div>
 						<div class="text-right highlight force-row">in progress</div>
 						<div class="force-row">Key activity about this project</div>
@@ -80,7 +80,7 @@
 						<div class="text-right highlight force-row">Hans Blix</div>					
 					</div>
 					<hr>
-					<div class="container-fluid">
+					<div class="container">
 						<div class="force-row bold flashy">Scenario 2#</div>
 						<div class="text-right highlight force-row">in progress</div>
 						<div class="force-row">Key activity about this project</div>
@@ -108,7 +108,7 @@
 				</header>
 
 				<div class="content">
-					<div class="container-fluid">
+					<div class="container">
 						<div class="force-row bold flashy">Modal 2#</div>
 						<div class="text-right highlight force-row">in progress</div>
 						<div class="force-row">Key activity about this project</div>
@@ -117,7 +117,7 @@
 						<div class="text-right highlight force-row">Hans Blix</div>					
 					</div>
 					<hr>
-					<div class="container-fluid">
+					<div class="container">
 						<div class="force-row bold flashy">Modal 2#</div>
 						<div class="text-right highlight force-row">in progress</div>
 						<div class="force-row">Key activity about this project</div>
@@ -201,71 +201,7 @@
 						</div>
 					</div>
 				</div>
-			</div>			
-		</article>
-
-		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half connectors">
-			<div class="background">
-
-				<header class="article-header">
-					<div class="vertical-align">
-						<div class="middle">
-							<i class="icon icon-external-services"></i>
-							<h2 class="header-medium secondary">Connectors</h2>
-						</div>
-						<div class="middle">
-							<p class="header-small"><a href="">
-								<span class="header-small action-text">Connect</span>
-							</a></p>
-						</div>
-					</div>
-				</header>
-
-				<div class="content">
-					<div class="container-fluid">
-						<p class="bold flashy">Connect to GitHub</p>
-						<p class="highlight bold">Connect your project to a GitHub account</p>
-					</div>
-					<hr>
-					<div class="container-fluid">
-						<p class="bold flashy">Connect to SonarQube</p>
-						<p class="highlight bold">Connect your project to a SonarQube instance</p>
-					</div>
-				</div>
-
-			</div>			
-		</article>
-
-		<article class="col-sm-12 col-xs-12 clear-2 block block-fill-half connectors">
-			<div class="background">
-
-				<header class="article-header">
-					<div class="vertical-align">
-						<div class="middle">
-							<i class="icon icon-external-services"></i>
-							<h2 class="header-medium secondary">Connectors</h2>
-						</div>
-						<div class="middle">
-							<p class="header-small"><a href="/views/developer/dashboard/projects/project/services">
-								<span class="header-small action-text">Connect</span>
-							</a></p>
-						</div>
-					</div>
-				</header>
-
-				<div class="content">
-					<div class="container-fluid">
-						<p class="bold flashy">Connect to GitHub</p>
-						<p class="highlight bold">Connect your project to a GitHub account</p>
-					</div>
-					<hr>
-					<div class="container-fluid">
-						<p class="bold flashy">Connect to SonarQube</p>
-						<p class="highlight bold">Connect your project to a SonarQube instance</p>
-					</div>
-				</div>
-
-			</div>			
+			</div>
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half documents">
@@ -286,18 +222,57 @@
 				</header>
 
 				<div class="content">
-					<div class="container-fluid">
+					<div class="container">
 						<p class="bold flashy">Annual report July 2016</p>
 						<p class="highlight bold">Description of the document that comes here</p>
 					</div>
 					<hr>
-					<div class="container-fluid">
+					<div class="container">
 						<p class="bold flashy">Annual report July 2016</p>
 						<p class="highlight bold">Description of the document that comes here</p>
 					</div>
 				</div>
 
-			</div>			
+			</div>
+		</article>
+
+		<article class="col-sm-12 col-xs-12 clear-2 block block-fill-half connectors">
+			<div class="background">
+
+				<header class="article-header">
+					<div class="vertical-align">
+						<div class="middle">
+							<i class="icon icon-external-services"></i>
+							<h2 class="header-medium secondary">Connectors</h2>
+						</div>
+						<div class="middle">
+							<p class="header-small"><a href="/views/developer/dashboard/projects/project/services">
+								<span class="header-small action-text">Connect</span>
+							</a></p>
+						</div>
+					</div>
+				</header>
+				<div class="container-fluid">
+					<div class="content row">
+						<div class="col-md-4 connector">
+							<p class="bold flashy">Connected to GitHub</p>
+							<p class="highlight bold">Last commit: 2 hours ago</p>
+						</div>
+						<div class="col-md-4 connector">
+							<p class="bold flashy">Connected to SonarQube</p>
+							<p class="highlight bold">Last commit: 2 hours ago</p>
+						</div>
+						<div class="col-md-4 connector">
+							<p class="bold flashy">Connected to BitBucket</p>
+							<p class="highlight bold">Last commit: 2 hours ago</p>
+						</div>
+						<div class="col-md-4 connector">
+							<p class="bold flashy">Connected to Trello</p>
+							<p class="highlight bold">Latest activity: 1 hour ago</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half customer-ideas">
@@ -318,12 +293,12 @@
 				</header>
 
 				<div class="content">
-					<div class="container-fluid">
+					<div class="container">
 						<p class="bold flashy">Button usage is not obvious for user</p>
 						<p class="highlight bold">Description of the problem that comes here</p>
 					</div>
 					<hr>
-					<div class="container-fluid">
+					<div class="container">
 						<p class="bold flashy">1px offset on header mobile</p>
 						<p class="highlight bold">Description of the problem that comes here</p>
 					</div>
@@ -347,13 +322,15 @@
 				</header>
 
 				<div class="content">
-					<div class="data">
-						<div class="img-circle" style='background-image:url("[[../../../../../img/profile-picture.jpg]]")'></div>
-						<p class="bold">John Mestra</p>
-						<p class="highlight">32 min ago</p>
-					</div>
+					<div class="container">
+						<div class="data">
+							<div class="img-circle" style='background-image:url("[[../../../../../img/profile-picture.jpg]]")'></div>
+							<p class="bold">John Mestra</p>
+							<p class="highlight">32 min ago</p>
+						</div>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sint occaecat cupidatat non...</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut sint occaecat cupidatat non...</p>
+					</div>
 				</div>
 			</div>
 		</article>
