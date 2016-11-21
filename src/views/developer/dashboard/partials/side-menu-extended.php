@@ -58,7 +58,7 @@
 					</li>
 
 					<li>
-						<a href="/views/developer/dashboard/projects/project/service">
+						<a href="/views/developer/dashboard/projects/project/services">
 							<i class="icon icon-activity"></i>
 							<span>External services</span>
 						</a>
