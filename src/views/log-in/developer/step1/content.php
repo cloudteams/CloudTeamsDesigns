@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="col-md-offset-3 col-md-6">
 					<fieldset>
-						<label for="email" class="header-medium secondary">Email</label>
+						<label for="email" class="header-medium secondary">Your e-mail address</label>
 
 						<div class="input-container">
 							<i class="icon icon-edit"></i>
@@ -17,12 +17,28 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8">
-					<div class="terms-and-conditions">
-						<div class="content">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="col-md-offset-3 col-md-6">
+					<fieldset>
+						<label for="name" class="header-medium secondary">Full name</label>
+
+						<div class="input-container">
+							<i class="icon icon-edit"></i>
+							<input type="text" id="name" name="name" placeholder="Hans Blix">
 						</div>
-					</div>
+					</fieldset>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6">
+					<fieldset>
+						<label for="org" class="header-medium secondary">Organisation</label>
+
+						<div class="input-container">
+							<i class="icon icon-edit"></i>
+							<input type="text" id="org" name="org" placeholder="Dreamteam BV.">
+						</div>
+					</fieldset>
 				</div>
 			</div>
 
@@ -30,13 +46,24 @@
 				<div class="col-md-offset-3 col-md-6">
 					<fieldset class="fieldset-checkbox">
 						<div class="input-container">
-							<label for="accept">
-								<input type="checkbox" name="accept" value='0' id="accept"><span></span>I hereby accept the terms and conditions
+							<label for="tc">
+								<input type="checkbox" name="tc" value='0' id="tc"><span></span>I have read and accept the <a href="#">Terms and Conditions</a>
 							</label>
 						</div>
 					</fieldset>
 				</div>
+			</div>
 
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6">
+					<fieldset class="fieldset-checkbox">
+						<div class="input-container">
+							<label for="pp">
+								<input type="checkbox" name="pp" value='0' id="p"><span></span>I have read and accept the <a href="#">Privacy Policy</a>
+							</label>
+						</div>
+					</fieldset>
+				</div>
 			</div>
 
 		</div>
@@ -45,8 +72,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="button-end">
-					<a href="/views/log-in/developer/step2" class="btn big">Register</a>
+				<div class="button-end step-1">
+					<a href="/views/log-in/" class="btn-transparent big">Cancel</a>
+					<a href="/views/log-in/developer/step2" class="btn big">Okay</a>
 				</div>
 			</div>
 		</div>

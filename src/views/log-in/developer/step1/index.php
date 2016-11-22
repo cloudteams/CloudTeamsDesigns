@@ -5,8 +5,11 @@
 		<main>
 			<header class="main-header login">
 				<div class="container">
-					<h1 class="header-extra-large public">Create an account</h1>
-					<p class="public-page-subtitle">Please fill in your email</p>
+					<h2 class="header-extra-large public">User registration</h2><br>
+					<p class="public-page-subtitle">Welcome to this <a href="#">Cloudteams Collaberation Platform.</a><br>
+					To register, fill out the form below. You will receive a registration e-mail shortly<br> 
+					Make sure that your e-mail address is correct.</p>
+
 				</div>
 			</header>
 

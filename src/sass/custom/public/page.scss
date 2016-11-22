@@ -66,6 +66,10 @@ section.public-page {
 		text-align: center;
 		margin: $margin-80 0;
 
+		&.step-1 a {
+			margin: 0 $margin-10;
+		}
+
 		p {
 			margin-top: $margin-40;
 			font-size: $font-size-medium;
@@ -123,6 +127,10 @@ section.public-page {
 				animation: pop-small $transition-time-2 $easing-1;
 			}
 
+		}
+
+		a:not(.btn):not(.btn-transparent) {
+			color: $color-purple-flashy !important;
 		}
 
 	}
