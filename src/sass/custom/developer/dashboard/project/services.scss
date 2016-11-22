@@ -8,6 +8,11 @@
 		height: auto;
 		margin-bottom: $margin-30;
 
+		img {
+			border-top-right-radius: $margin-5;
+			border-top-left-radius: $margin-5;
+		}
+
 		footer {
 			text-align: center;
 		}

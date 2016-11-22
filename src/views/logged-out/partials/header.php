@@ -22,7 +22,7 @@
 							<img src="[[../../../img/logo-beta.svg]]" class="logo svg" alt="Cloudteams logo">
 						</a>
 						<a href="/views/log-in" alt="log in" class="btn login secondary">Log in</a>
-						<a href="/views/register" alt="register" class="btn register secondary">Register</a>
+						<a href="/views/log-in/choose/" alt="register" class="btn register secondary">Register</a>
 					</div>
 				</div>
 			</div>

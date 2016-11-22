@@ -33,7 +33,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<p>Are you a developer? <a href="/">Submit your project</a></p>
+								<p>Are you a developer? <a href="/views/log-in/">Submit your project</a></p>
 							</div>
 						</div>
 					</div>

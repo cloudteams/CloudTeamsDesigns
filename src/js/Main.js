@@ -7,8 +7,7 @@ import 'partials/Easing';
 import 'partials/AddItemDimensions';
 import 'partials/InjectSelect2';
 import 'partials/CookieConsent';
-import 'partials/resizeMainContainer';
-
+import resizeMainContainer from 'partials/resizeMainContainer';
 
 (function() {
 	let _lastSubsection;
@@ -139,6 +138,8 @@ import 'partials/resizeMainContainer';
 	function runMinimizeSideMenu() {
 		$('.minimize-sidepanel').on('click', () => {
 			$('section.dashboard-page').toggleClass('minimized');
+			resizeMainContainer.resizeMainContainer();
+			console.log('run')
 		});
 	}
 
