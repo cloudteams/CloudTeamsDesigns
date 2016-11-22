@@ -74,7 +74,7 @@
 			<div class="col-xs-12">
 				<div class="button-end step-1">
 					<a href="/views/log-in/" class="btn-transparent big">Cancel</a>
-					<a href="/views/log-in/developer/step2" class="btn big">Okay</a>
+					<a href="/views/log-in/" class="btn big">Okay</a>
 				</div>
 			</div>
 		</div>
