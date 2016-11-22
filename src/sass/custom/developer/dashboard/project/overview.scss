@@ -99,11 +99,14 @@
 				padding-left: 0;
 				padding-right: 0;
 
-				&:after {
-					content: ' ';
-					width: $margin-10;
+				.bold.flashy:after {
+					content: '';
+					position: absolute;
+					margin-left: $margin-15;
 					height: $margin-10;
-					background-color: $color-green-grass
+					padding: 0 $margin-5;
+					background-color: $color-green-grass;
+					border-radius: 50%;
 				}
 
 				.highlight {

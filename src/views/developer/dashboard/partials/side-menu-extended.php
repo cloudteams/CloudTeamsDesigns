@@ -133,6 +133,14 @@
 							<span>Customer ideas</span>
 						</a>
 					</li>
+
+					<li>
+						<a class="incoming" href="/views/developer/dashboard/projects/project/invitations">
+							<i class="icon icon-invitation"></i>
+							<span>Invitations</span>
+						</a>
+					</li>
+				
 				</ul>
 			</li>
 
