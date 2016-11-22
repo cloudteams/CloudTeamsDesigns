@@ -35,7 +35,7 @@
 			<div class="col-xs-12">
 				<div class="button-end">
 					<a href="/views/log-in/choose" class="btn big">Log in</a>
-					<p>Don't have an account? <a href="/views/register">Register here</a></p>
+					<p>Don't have an account? <a href="/views/log-in/choose/">Register here</a></p>
 				</div>
 			</div>
 		</div>

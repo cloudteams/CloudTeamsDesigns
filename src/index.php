@@ -19,7 +19,6 @@
 					<div class="row">
 						<article class="col-lg-4 col-md-6 col-xs-12">
 							<p>
-								<a href="/views/log-in">Register</a><br />
 								<a href="/views/log-in">Log in</a><br />
 								<a href="/views/logged-in">Public (logged in)</a><br />
 								<a href="/views/logged-out">Public (logged out)</a><br />
