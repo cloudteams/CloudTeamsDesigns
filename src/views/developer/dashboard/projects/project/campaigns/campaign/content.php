@@ -322,7 +322,7 @@
 					</div>
 
 					<div style="display:none;" class="document-row-options row">
-						<article class="document document-row-item document-row-type col-lg-3">
+						<article class="document document-row-item document-row-type col-lg-2">
 							<p class="black">Tags</p>
 						</article>
 						<article class="document document-row-item col-lg-9">
@@ -333,7 +333,7 @@
 							<section class="item-tag">dolor</section>
 							<section class="item-tag">dolor</section>
 						</article>
-						<article class="document document-row-item document-row-type col-lg-3">
+						<article class="document document-row-item document-row-type col-lg-2">
 							<p class="black">Description</p>
 						</article>
 						<article class="document document-row-item col-lg-9">
@@ -374,13 +374,13 @@
 					</div>
 
 					<div style="display:none;" class="document-row-options row">
-						<article class="document document-row-item document-row-type col-lg-3">
+						<article class="document document-row-item document-row-type col-lg-2">
 							<p class="black">Name</p>
 						</article>
-						<article class="document document-row-item col-lg-9">
+						<article class="document document-row-item col-lg-10">
 							<p>Booreiland website link</p>
 						</article>
-						<article class="document document-row-item document-row-type col-lg-3">
+						<article class="document document-row-item document-row-type col-lg-2">
 							<p class="black">Tags</p>
 						</article>
 						<article class="document document-row-item col-lg-9">
@@ -391,13 +391,13 @@
 							<section class="item-tag">dolor</section>
 							<section class="item-tag">dolor</section>
 						</article>
-						<article class="document document-row-item document-row-type col-lg-3">
+						<article class="document document-row-item document-row-type col-lg-2">
 							<p class="black">Description</p>
 						</article>
 						<article class="document document-row-item col-lg-9">
 							<p>Final draft of the first quarter in 2016 over the presentation regarding the images in the front end template</p>
 						</article>
-						<article class="document document-row-item document-row-type col-lg-3">
+						<article class="document document-row-item document-row-type col-lg-2">
 							<p class="black">Rating</p>
 						</article>
 						<article class="document document-row-item col-lg-9">

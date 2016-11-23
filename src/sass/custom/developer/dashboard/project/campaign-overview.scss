@@ -356,7 +356,7 @@
 				    overflow: hidden;
 				    text-overflow: ellipsis;
 
-				    &:last-of-type {
+				    &.col-lg-2:last-of-type {
 				    	text-align: right;
 				    }
 

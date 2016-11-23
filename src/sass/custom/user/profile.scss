@@ -72,6 +72,17 @@
 
 		}
 
+
+		.form-submit {
+			text-align: right;
+			margin: 0;
+
+			a:not(:first-of-type) {
+				margin-left: $margin-10;
+			}
+
+		}
+
 		.fieldset-radio.visual-radio {
 
 			.row {
