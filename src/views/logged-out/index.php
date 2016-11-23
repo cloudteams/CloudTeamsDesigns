@@ -5,21 +5,22 @@
 		<main>
 			<header class="main-header">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-offset-1 col-md-10">
-							<img src="[[../../img/header-image.svg]]" />
-						</div>
-					</div>
-
-					<div class="row user-type">
-						<div class="col-md-12">
-							<div class="col-md-6 text-center">
+					<div class="row image-container">
+						<div class="col-md-5">
+							<img src="[[../../img/left_image.svg]]" />
+							<div class="user-type">
 								<a href="#">For users</a>
 								<p>Collect rewards<br> for giving feedback</p>
 							</div>
-							<div class="col-md-6 text-center">
-								<a href="#">For developers</a>
-								<p>Test your software before<br> it hits the market</p>
+						</div>
+						<div class="col-md-2">
+							<img src="[[../../img/dotted_line.svg]]" />
+						</div>
+						<div class="col-md-5">
+							<img src="[[../../img/right_image.svg]]" />
+							<div class="user-type">
+								<a href="#">For users</a>
+								<p>Collect rewards<br> for giving feedback</p>
 							</div>
 						</div>
 					</div>

@@ -7,6 +7,13 @@ section.public-page {
 		position: relative;
 		text-align: center;
 
+		.image-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: $margin-10;
+		}
+
 		&.login {
 			&:after {
 				display: none;
@@ -58,6 +65,7 @@ section.public-page {
 	.choice {
 		a:first-child {
 			margin-right: $margin-10;
+			margin-top: $margin-40;
 		}
 
 	}
