@@ -22,7 +22,7 @@
 					<ul>
 						<li class="meta big">Bobbyd123</li>
 						<li class="meta">Member</li>
-						<li><a href="#nowhere">Edit profile</a></li>
+						<li><a href="/views/developer/dashboard/profile">Edit profile</a></li>
 					</ul>
 				</div>
 			</div>
