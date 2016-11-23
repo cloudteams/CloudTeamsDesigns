@@ -11,18 +11,26 @@ body {
 				display: inline-block;
 				color: $color-black-night;
 
-				&.login, &.register {
+				&.login, &.register{
 					margin-top: $margin-20;
 					margin-left: $margin-20;
 					float: right;
 				}
 
-				&.about-us {
+				&.about, &.how {
+					margin-top: $margin-20;
+					margin-left: $margin-20;
 					float: right;
-					margin: $margin-20;
 					line-height: $line-height-large;
-				}
+					font-size: $font-size-medium;
+					color: $color-gray-clear;
+					transition: $transition-time-2 $easing-1;
+					text-transform: lowercase;
 
+					&:hover, &:active {
+						color: $color-black-night;
+					}
+				}
 			}
 
 			.logo {
