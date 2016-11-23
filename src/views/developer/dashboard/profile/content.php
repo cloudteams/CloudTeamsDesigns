@@ -321,7 +321,7 @@
 						<div class="vertical-align">
 							<div class="middle">
 								<i class="icon icon-user"></i>
-								<h2 class="header-medium secondary">Influences</h2>
+								<h2 class="header-medium secondary">Addresses</h2>
 							</div>
 							<div class="middle">
 							</div>
@@ -329,198 +329,19 @@
 					</header>				
 					<div class="content form-section">
 
-						<fieldset class="fieldset-checkbox visual-checkbox">
-							<label class="header-medium secondary">What/who of the following influence you about technology</label>
-
-							<div class="input-container">
-								<input type="checkbox" name="technology-used-services" value='technology-service-facebook' id="technology-service-facebook">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-facebook"><img src="http://placehold.it/50" alt="label image"><span>Facebook</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-twitter' id="technology-service-twitter">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-twitter"><img src="http://placehold.it/50" alt="label image"><span>Twitter</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-instagram' id="technology-service-instagram">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-instagram"><img src="http://placehold.it/50" alt="label image"><span>Instagram</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-slack' id="technology-service-slack">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-slack"><img src="http://placehold.it/50" alt="label image"><span>Slack</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-linkedin' id="technology-service-linkedin">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-linkedin"><img src="http://placehold.it/50" alt="label image"><span>Linkedin</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-googleapps' id="technology-service-googleapps">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-googleapps"><img src="http://placehold.it/50" alt="label image"><span>GoogleApps</span></label>
+						<div class="row">
+							<div class="col-md-12">
+								<fieldset class="form-group form-submit">
+									<a href="#nowhere" data-dismiss="modal" class="btn-transparent" alt="cancel">Reset properties</a>
+									<a href="#nowhere" data-dismiss="modal" class="btn confirm-button" alt="save">Save</a>
+								</fieldset>
 							</div>
-						</fieldset>
+						</div>
+
 					</div>
 
 				</article>
-				<article class="block-line large">
-					<header class="article-header">
-						<div class="vertical-align">
-							<div class="middle">
-								<i class="icon icon-user"></i>
-								<h2 class="header-medium secondary">Devices &amp; platforms</h2>
-							</div>
-							<div class="middle">
-							</div>
-						</div>
-					</header>
 
-					<div class="content form-section">
-						<fieldset class="fieldset-checkbox visual-checkbox">
-							<label class="header-medium secondary">Which of the following devices are you regularly using?</label>
-
-							<div class="input-container">
-								<input type="checkbox" name="technology-used-devices" value='technology-device-pc' id="technology-device-pc">
-								<label class="col-md-2 visual-checkbox-label" for="technology-device-pc"><img src="http://placehold.it/50" alt="label image"><span>PC</span></label>
-
-								<input type="checkbox" name="technology-used-devices" value='technology-device-laptop' id="technology-device-laptop">
-								<label class="col-md-2 visual-checkbox-label" for="technology-device-laptop"><img src="http://placehold.it/50" alt="label image"><span>Laptop</span></label>
-
-								<input type="checkbox" name="technology-used-devices" value='technology-device-tablet' id="technology-device-tablet">
-								<label class="col-md-2 visual-checkbox-label" for="technology-device-tablet"><img src="http://placehold.it/50" alt="label image"><span>Tablet</span></label>
-
-								<input type="checkbox" name="technology-used-devices" value='technology-device-mobilephone' id="technology-device-mobilephone">
-								<label class="col-md-2 visual-checkbox-label" for="technology-device-mobilephone"><img src="http://placehold.it/50" alt="label image"><span>Mobile phone</span></label>
-
-								<input type="checkbox" name="technology-used-devices" value='technology-device-wearable' id="technology-device-wearable">
-								<label class="col-md-2 visual-checkbox-label" for="technology-device-wearable"><img src="http://placehold.it/50" alt="label image"><span>Wearable</span></label>
-							</div>
-						</fieldset>
-
-						<fieldset class="fieldset-checkbox visual-checkbox">
-							<label class="header-medium secondary">Choose which platform of the following you use</label>
-
-							<div class="input-container">
-								<input type="checkbox" name="technology-used-services" value='technology-service-windows' id="technology-service-windows">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-windows"><img src="http://placehold.it/50" alt="label image"><span>Windows</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-osx' id="technology-service-osx">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-osx"><img src="http://placehold.it/50" alt="label image"><span>OS X</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-linux' id="technology-service-linux">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-linux"><img src="http://placehold.it/50" alt="label image"><span>Linux</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-ios' id="technology-service-ios">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-ios"><img src="http://placehold.it/50" alt="label image"><span>iOS</span></label>
-
-								<input type="checkbox" name="technology-used-services" value='technology-service-android' id="technology-service-android">
-								<label class="col-md-2 visual-checkbox-label" for="technology-service-android"><img src="http://placehold.it/50" alt="label image"><span>Android</span></label>
-							</div>
-						</fieldset>
-					</div>
-
-				</article>
-				<article class="block-line large">
-					<header class="article-header">
-						<div class="vertical-align">
-							<div class="middle">
-								<i class="icon icon-user"></i>
-								<h2 class="header-medium secondary">Devices &amp; platforms</h2>
-							</div>
-							<div class="middle">
-							</div>
-						</div>
-					</header>
-
-					<div class="content form-section">
-						<fieldset class="fieldset-radio visual-radio">
-							<label for="technology-level" class="header-medium secondary">Concerning technology, would you describe yoruself as a...?</label>
-
-							<div class="row input-container">
-								<input type="radio" name="technology-level" value='technology-level-beginner' id="technology-level-beginner">
-								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-beginner">Beginner</label>
-
-								<input type="radio" name="technology-level" value='technology-level-intermediate' id="technology-level-intermediate">
-								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-intermediate">Intermediate</label>
-
-								<input type="radio" name="technology-level" value='technology-level-expert' id="technology-level-expert">
-								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-expert">Expert</label>
-
-								<input type="radio" name="technology-level" value='technology-level-nerd' id="technology-level-nerd">
-								<label class="col-md-3 btn-transparent visual-radio-label" for="technology-level-nerd">Nerd</label>
-							</div>
-						</fieldset>
-						
-						<p class="header-small">What's your opinion about the following brands?</p>
-
-						<div class="row">
-							<fieldset class="form-group col-sm-8 required">
-
-								<label for="city" class="header-medium secondary">Facebook</label>
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="city" id="city" onchange="" size="1">
-										<option value="1" disabled selected>Opinion</option>
-										<option value="2">Bad</option>
-										<option value="3">Good</option>
-									</select>
-								</div>
-							</fieldset>
-						</div>
-
-						<div class="row">
-							<fieldset class="form-group col-sm-8 required">
-
-								<label for="city" class="header-medium secondary">Twitter</label>
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="city" id="city" onchange="" size="1">
-										<option value="1" disabled selected>Opinion</option>
-										<option value="2">Bad</option>
-										<option value="3">Good</option>
-									</select>
-								</div>
-							</fieldset>
-						</div>
-
-						<div class="row">
-							<fieldset class="form-group col-sm-8 required">
-
-								<label for="city" class="header-medium secondary">Apple</label>
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="city" id="city" onchange="" size="1">
-										<option value="1" disabled selected>Opinion</option>
-										<option value="2">Bad</option>
-										<option value="3">Good</option>
-									</select>
-								</div>
-							</fieldset>
-						</div>
-
-						<div class="row">
-							<fieldset class="form-group col-sm-8 required">
-
-								<label for="city" class="header-medium secondary">Instagram</label>
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="city" id="city" onchange="" size="1">
-										<option value="1" disabled selected>Opinion</option>
-										<option value="2">Bad</option>
-										<option value="3">Good</option>
-									</select>
-								</div>
-							</fieldset>
-						</div>
-
-						<div class="row">
-							<fieldset class="form-group col-sm-8 required">
-
-								<label for="city" class="header-medium secondary">Google</label>
-								<div class="select-dropdown">
-									<i class="icon icon-arrow-down"></i>
-									<select name="city" id="city" onchange="" size="1">
-										<option value="1" disabled selected>Opinion</option>
-										<option value="2">Bad</option>
-										<option value="3">Good</option>
-									</select>
-								</div>
-							</fieldset>
-						</div>
-					</div>
-				</article>
 			</section>
 		</form>
 	</div>
