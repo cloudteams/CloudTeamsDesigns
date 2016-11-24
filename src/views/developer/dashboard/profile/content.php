@@ -329,6 +329,97 @@
 					</header>				
 					<div class="content form-section">
 
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">Organization</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">City</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">Country</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">Surname</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">Phone (office)</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">Web page (office)</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+										<input id="first-name" type="text" name="first name" value="John" placeholder="First name">
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group">
+							<label for="first-name" class="header-medium secondary control-label">Description</label>
+
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="input-container">
+										<i class="icon icon-edit"></i>
+											<textarea id="description" name="description" placeholder="Describe yourself"></textarea>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
 						<div class="row">
 							<div class="col-md-12">
 								<fieldset class="form-group form-submit">
