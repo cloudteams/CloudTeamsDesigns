@@ -72,6 +72,13 @@
 					</li>
 
 					<li>
+						<a href="/views/developer/dashboard/projects/project/business-modal">
+							<i class="icon icon-finance"></i>
+							<span>Business modal</span>
+						</a>
+					</li>
+
+					<li>
 						<a href="/views/developer/dashboard/projects/project/campaigns">
 							<i class="icon icon-campaign"></i>
 							<span>Campaigns</span>
