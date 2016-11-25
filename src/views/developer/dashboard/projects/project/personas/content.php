@@ -29,6 +29,7 @@
 
 		<div class="col-md-4 added-persona">
 			<header class="added-persona__image">
+				<div class="background-image" style='background-image: url("[[../../../../../../img/placeholders/persona.svg]]");'>
 				<img src="[[../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
 			</header>
 
