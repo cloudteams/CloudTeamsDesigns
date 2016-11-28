@@ -9,18 +9,27 @@
 		border-radius: 5px;
 
 		h3:first-child {
+			display: inline-block;
 			float: left;
+			min-width: 75%;
+			max-width: 140px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
 		}
 
 		.tooltip-container {
 			float: right;
+			min-width: 15%;
+			text-align: right;
 
 			a.open-tooltip-button {
 				color: $color-black-night;
+
 			}
 
 			.custom-tooltip {
-				left: 45px;
+				left: 40px;
 				top: 183px;
 			}
 		}
