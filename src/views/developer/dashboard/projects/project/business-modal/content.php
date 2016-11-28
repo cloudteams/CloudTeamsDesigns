@@ -52,7 +52,7 @@
 				</header>
 
 				<div class="content">
-					<img src="[[../../../../../img/placeholders/project_cover.svg]]" alt="Team user logo">
+					<img src="[[../../../../../../img/placeholders/project_cover.svg]]" alt="Team user logo">
 				</div>
 		</article>
 
@@ -324,7 +324,7 @@
 				<div class="content">
 					<div class="container">
 						<div class="data">
-							<div class="img-circle" style='background-image:url("[[../../../../../img/profile-picture.jpg]]")'></div>
+							<div class="img-circle" style='background-image:url("[[../../../../../../img/profile-picture.jpg]]")'></div>
 							<p class="bold">John Mestra</p>
 							<p class="highlight">32 min ago</p>
 						</div>
