@@ -89,10 +89,17 @@
 
 		h3:first-child {
 			float: left;
+			min-width: 75%;
+			max-width: 140px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
 		}
 
 		.tooltip-container {
 			float: right;
+			min-width: 15%;
+			text-align: right;
 
 			a.open-tooltip-button {
 				color: $color-black-night;
