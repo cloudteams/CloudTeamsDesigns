@@ -1,16 +1,42 @@
-// Define global page class
-.foo {
-	// Apply style rules for everything inside this page
-	font-size: $font-size-medium;
-	letter-spacing: $letter-spacing-2;
+// We normally define our variables in a different CSS file, variables.scss
+// We concatenate all CSS files in style.scss and use Webpack to prefix / minify it.
 
-	// Use parent selector specify child elements
-	&.bar {
-		// We use variables to define all margins, paddings, fonts, sizes and colors.
-		color: $color-black-night;
-		font-family: $font-header-secondary;
-		letter-spacing: $letter-spacing-1;
-		text-transform: none;
+// Font sizes are formatted like $font-size-<size>
+$font-size-medium: $font-size-basic * 1.5;
+
+// Colors are formatted like $color-<color>-<accent>
+$color-black-night: #323232;
+
+// Letter spacing is formatted like $line-height-<iterator>
+$line-height-2: 150%;
+
+// Font family's are formatted like $font-<type>-<ordinal>
+$font-header-secondary: "Arial", "sans-serif";
+
+
+// We use ID's to divide the CSS into parts to apply specific rules on pages.
+#page-about-section-content {
+
+	// Define global page class
+	.foo {
+		// Apply style rules for everything inside this page
+		font-size: $font-size-medium;
+		letter-spacing: $letter-spacing-2;
+
+		// We use the parent selector to specify states.
+		&:hover, &:focus, &:active {
+			color $color-purple-shading;
+		}
+
+		.bar {
+			// We use variables to define all margins, paddings, fonts, sizes and colors.
+			color: $color-black-night;
+			font-family: $font-header-secondary;
+			letter-spacing: $letter-spacing-1;
+			text-transform: none;
+		}
+
 	}
 
 }
+

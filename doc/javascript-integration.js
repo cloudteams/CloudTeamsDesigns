@@ -12,10 +12,12 @@ export default (function() {
 
 	// Create a discriptive function name
 	function setHide($el) {
+		// Private variables have an underscore, jQuery objects start with a $
 		_$el = $el;
 
-		// We use ES6 as much as possible
-		_$el.click(() => {
+		// We follow the ECMAScript 6 way of coding as much as possible.
+		_$el.click(e => {
+			e.preventDefault();
 			_$el.hide();
 		});
 	}
@@ -27,7 +29,7 @@ export default (function() {
 	}
 
 	// Execute the main functions when the document is ready.
-	$('document').ready(() => {
+	$(document).ready(() => {
 		bar();
 	});
 
