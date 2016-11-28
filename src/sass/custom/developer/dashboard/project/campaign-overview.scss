@@ -105,6 +105,8 @@
 		}
 
 		.added-persona {
+			margin-bottom: $margin-40;
+
 			&__body {
 				border-left: 1px solid $color-gray-clear;
 				border-right: 1px solid $color-gray-clear;
@@ -115,7 +117,18 @@
 		}
 
 		.added-persona__image {
-			overflow: hidden;
+			overflow: hidden;		
+			.background-image {
+				height: 160px;
+				background-color: $color-gray-faded;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-image: url(../img/placeholders/project_thumbnail.svg);
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+				border-bottom: 1px solid $color-gray-clear;
+			}
 		}
 
 		img {

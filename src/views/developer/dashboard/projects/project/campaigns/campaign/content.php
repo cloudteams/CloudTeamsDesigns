@@ -51,7 +51,7 @@
 
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
+						<div class="background-image" style='background-image: url("[[../../../../../../../img/placeholders/persona.svg]]");'>
 					</header>
 
 					<section class="added-persona__body">
@@ -88,7 +88,7 @@
 				</div>
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
+						<div class="background-image" style='background-image: url("[[../../../../../../../img/placeholders/persona.svg]]");'>
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
@@ -123,7 +123,7 @@
 				</div>
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
-						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
+						<div class="background-image" style='background-image: url("[[../../../../../../../img/placeholders/persona.svg]]");'>
 					</header>
 					<section class="added-persona__body">
 						<h3 class="header-medium secondary">Tech savy senior</h3>
@@ -156,8 +156,6 @@
 						<a href="#nowhere" class="btn show-persona" alt="show persona" data-toggle="modal" data-target=".show-persona-in-campaign">Show persona</a>
 					</section>
 				</div>
-			</div>
-			<div class="row added-persona-container">
 				<div class="col-md-4 added-persona">
 					<header class="added-persona__image">
 						<img src="[[../../../../../../../img/placeholders/persona.svg]]" alt="Persona logo">
