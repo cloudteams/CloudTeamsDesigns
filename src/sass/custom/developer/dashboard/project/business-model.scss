@@ -1,0 +1,39 @@
+#developer-dashboard-project-business-model {
+
+	article.business-model {
+		margin-bottom: $margin-30;
+
+		header {
+			position: relative;
+			padding: $margin-20 !important;
+
+			h2,
+			h3 {
+				max-width: 260px;
+			}
+
+			.tooltip-container {
+				display: block;
+				margin: 0;
+				position: absolute;
+				right: 15px;
+				top: 15px;
+
+				a {
+					i {
+						color: $color-black-night;
+					}
+
+				}
+
+			}
+
+			.custom-tooltip {
+				right: -5px;
+				top: 35px;
+			}
+
+		}
+
+	}
+}

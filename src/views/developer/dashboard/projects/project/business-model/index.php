@@ -1,6 +1,6 @@
 <?php include("../../../partials/header.php"); ?>
 
-<section class="page page-developer-dashboard-project-overview dashboard-page">
+<section class="page page-developer-dashboard-business-canvas dashboard-page">
 	<div class="container">
 		<div class="content">
 
@@ -11,9 +11,9 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-seen"></i>
-								<h1 class="header-large">Overview</h1>
-								
+								<i class="icon icon-finance"></i>
+								<h1 class="header-large">Business Model</h1>
+								<p class="header-medium secondary">Project title</p>
 							</div>
 						</div>
 					</header>

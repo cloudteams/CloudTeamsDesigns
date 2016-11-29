@@ -72,9 +72,9 @@
 					</li>
 
 					<li>
-						<a href="/views/developer/dashboard/projects/project/business-modal">
+						<a href="/views/developer/dashboard/projects/project/business-model">
 							<i class="icon icon-finance"></i>
-							<span>Business modal</span>
+							<span>Business model</span>
 						</a>
 					</li>
 
