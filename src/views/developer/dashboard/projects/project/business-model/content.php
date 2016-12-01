@@ -1,7 +1,7 @@
 <section id="developer-dashboard-project-business-model">
 	<div class="row">
 		<article class="business-model add-item col-md-6">
-			<a href="/views/developer/dashboard/projects/project/requirements/create">
+			<a href="#" data-toggle="modal" data-target=".popup-new-business-model">
 				<div class="background">
 					<div class="vertical-align">
 						<div class="middle">
@@ -21,6 +21,7 @@
 
 		<?php include("business-model.php"); ?>
 		<?php include("business-model.php"); ?>
+		<?php include("new-business-model.php"); ?>
 
 	</div>
 </section>

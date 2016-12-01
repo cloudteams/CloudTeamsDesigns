@@ -9,15 +9,18 @@
 
 			h2,
 			h3 {
-				max-width: 260px;
+				max-width: 265px;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    overflow: hidden;
 			}
 
 			.tooltip-container {
 				display: block;
 				margin: 0;
 				position: absolute;
-				right: 15px;
-				top: 15px;
+				right: 20px;
+				top: 20px;
 
 				a {
 					i {
@@ -30,10 +33,77 @@
 
 			.custom-tooltip {
 				right: -5px;
-				top: 35px;
+				top: 25px;
 			}
 
 		}
+
+		section.status {
+			margin: 0;
+			padding: 10px 20px;
+			border-bottom: 1px solid $color-gray-smooth;
+
+			> div {
+				padding: 0 !important;
+			}
+		}
+
+		section.colors {
+			padding: 10px 20px;
+			border-bottom: 1px solid $color-gray-smooth;
+
+			> div {
+				padding: 0 5px !important;
+
+				.description {
+					padding-left: 5px;
+				    text-overflow: ellipsis;
+    				overflow: hidden;
+				}
+
+				.block-container {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 20px;
+					padding: 0;
+					margin-left: 15px;
+				}
+
+				.color-block {
+					width: 10px;
+					height: 10px;
+				}
+
+			}
+		}
+
+		footer {
+			text-align: center;
+		}
+
+	}
+
+	.modal-body {
+
+		label {
+			line-height: $line-height-large;
+		}
+		
+		.form-group.required .control-label:after { 
+		   content:"*";
+		   color: $color-red-deep;
+		}
+
+		.form-submit {
+			text-align: right;
+			margin: 0;
+
+			a:not(:first-of-type) {
+				margin-left: $margin-10;
+			}
+
+		}		
 
 	}
 }

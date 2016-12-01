@@ -5,6 +5,7 @@
 	}
 
 	article {
+
 		.container {
 			padding-left: 0;
 			padding-right: 0;
@@ -24,6 +25,12 @@
 					margin-bottom: 0;
 				}
 
+			}
+
+			.background {
+				height: 234px;
+				min-height: 234px;
+				max-height: 234px;
 			}
 
 		}
