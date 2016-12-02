@@ -2,21 +2,6 @@ article.blogpost {
 	// height: 298px;
 	margin-bottom: $margin-30;
 
-	&:nth-last-of-type(-n+2) {
-		margin-bottom: 0;
-	}
-
-	@include breakpoint(phablet) {
-		&:nth-last-of-type(-n+2) {
-			margin-bottom: $margin-30;
-		}
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-
-	}
-
 	.background-image {
 		// max-height: 162px;
 		height: 160px;

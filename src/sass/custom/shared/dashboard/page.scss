@@ -143,14 +143,12 @@ section.dashboard-page {
 
 						.icon {
 							color: $color-white;
-							margin-top: -8px;
 							font-size: $font-size-large;
 						}
 
 						h1 {
 							display: inline-block;
 							vertical-align: middle;
-							margin-top: 5px;
 						}
 
 						p.header-medium.secondary {
@@ -163,6 +161,7 @@ section.dashboard-page {
 							display: inline-block;
 							margin-left: $margin-15;
 							padding-left: $margin-15;
+							vertical-align: middle;
 						}
 
 						.middle {

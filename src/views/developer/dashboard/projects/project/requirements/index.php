@@ -11,7 +11,7 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-requirements"></i>
+								<i class="icon icon-requirement"></i>
 								<h1 class="header-large">Requirements</h1>
 								<p class="header-medium secondary">Project title</p>
 							</div>
