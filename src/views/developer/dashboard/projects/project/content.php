@@ -52,7 +52,7 @@
 				</header>
 
 				<div class="content">
-					<img src="[[../../../../../img/placeholders/project_cover.svg]]" alt="Team user logo">
+					<div class="background-image" style='background-image: url("[[../../../../../img/placeholders/project_cover.svg]]");'></div>
 				</div>
 		</article>
 

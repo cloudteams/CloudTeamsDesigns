@@ -137,9 +137,16 @@
 			.content {
 				padding: 0;
 				text-align: center;
-				min-height: 50px;
+				height: 189px;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
 
-				> img {
+				> .background-image {
+					background-color: $color-gray-faded;
+				    background-repeat: no-repeat;
+				    background-size: contain;
+				    height: 189px;
+				    background-position: center center;
 					border-bottom-left-radius: 5px;
 					border-bottom-right-radius: 5px;
 				}

@@ -10,13 +10,9 @@
 					<header class="main-header">
 						<div class="vertical-align">
 							<div class="middle">
-								<i class="icon icon-project"></i>
-								<h1 class="header-large">Projects</h1>
-							</div>
-
-							<div class="middle last">
-								<p class="project-counter"><span>6</span></p>
-								<p class="project-counter">Projects</p>
+								<i class="icon icon-finance"></i>
+								<h1 class="header-large">Business Model</h1>
+								<p class="header-medium secondary">Project title</p>
 							</div>
 						</div>
 					</header>
@@ -28,7 +24,5 @@
 		</div>	
 	</div>
 </section>
-
-<!-- <script type="text/javascript" src="[[js/developer/dashboard/projects-*.js]]"></script> -->
 
 <?php include("../../../../partials/footer.php"); ?>
