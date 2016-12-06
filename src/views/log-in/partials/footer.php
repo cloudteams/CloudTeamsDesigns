@@ -61,7 +61,7 @@
 				</div>
 
 				<div class="col-sm-4">
-					<img src="[[../../../img/eu-logo.png]]" class="eu-logo" alt="EC logo">
+					<img src="[[../../../img/eu-logo.svg]]" class="eu-logo" alt="EC logo">
 				</div>
 
 			</div>

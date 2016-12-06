@@ -104,7 +104,7 @@
 
 		&.add-item {
 			@extend .add-item;
-			height: 224px;
+			height: 224px !important;
 
 			p {
 				margin: 0 auto;
