@@ -291,7 +291,13 @@
 					}
 
 					.custom-tooltip {
-						right: 0px;
+						right: 1px;
+						top: 25px;
+					    min-width: auto;
+
+						&.active:after {
+							right: -1px;
+						}
 					}
 
 				}
