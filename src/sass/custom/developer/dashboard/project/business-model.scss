@@ -49,11 +49,11 @@
 		}
 
 		section.colors {
-			padding: 10px 20px;
+			padding: 0 20px;
 			border-bottom: 1px solid $color-gray-smooth;
 
 			> div {
-				padding: 0 $margin-5 !important;
+				padding: $margin-5 !important;
 
 				.description {
 					padding-left: $margin-5;
@@ -251,6 +251,10 @@
 
 					> div {
 						padding-right: 0 !important;
+
+						&:not(:last-of-type) {
+							margin-bottom: $margin-10;
+						}
 					}
 
 					&.row {
@@ -275,7 +279,7 @@
 					}
 
 					.description {
-						padding-left: $margin-5;
+						padding-left: $margin-10;
 					    text-overflow: ellipsis;
 	    				overflow: hidden;
 	    				width: 155px;

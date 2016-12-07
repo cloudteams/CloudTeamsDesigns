@@ -80,8 +80,8 @@
 					<div class="row canvas-content-item">
 						<div class="col-md-12">
 							<div class="row">
-								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="block-container pull-left"><div style="background:red;" class="color-block"></div></div>
+								<div class="description pull-left"><strong>Bobby</strong></div>
 								<div class="tooltip-container pull-right">
 									<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
 									<div class="custom-tooltip">
@@ -101,13 +101,56 @@
 							</div>
 						</div>
 					</div>
-					<div class="canvas-content-item">
-						<p>Hello world</p>
-					</div>
-					<div class="canvas-content-item">
-						<p>Hello world</p>
+
+					<div class="row canvas-content-item">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="block-container pull-left"><div style="background:green;" class="color-block"></div></div>
+								<div class="description pull-left"><strong>Bobby</strong></div>
+								<div class="tooltip-container pull-right">
+									<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+									<div class="custom-tooltip">
+										<ul>
+
+											<li><a href="">Edit</a></li>
+											<li><a href="">Delete</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="timing pull-right">a minute ago</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="pull-left">Key activity about this project</div>
+							</div>
+						</div>
 					</div>
 
+					<div class="row canvas-content-item">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
+								<div class="description pull-left"><strong>Bobby</strong></div>
+								<div class="tooltip-container pull-right">
+									<a href="#nowhere" class="open-tooltip-button"><i class="icon icon-more-options"></i></a>
+									<div class="custom-tooltip">
+										<ul>
+
+											<li><a href="">Edit</a></li>
+											<li><a href="">Delete</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="timing pull-right">a minute ago</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="pull-left">Key activity about this project</div>
+							</div>
+						</div>
+					</div>
 					<div class="empty">
 						<p class="col-md-12 text-center">Add an item</p>
 					</div>
