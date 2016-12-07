@@ -139,7 +139,6 @@ import resizeMainContainer from 'partials/resizeMainContainer';
 		$('.minimize-sidepanel').on('click', () => {
 			$('section.dashboard-page').toggleClass('minimized');
 			resizeMainContainer.resizeMainContainer();
-			console.log('run')
 		});
 	}
 

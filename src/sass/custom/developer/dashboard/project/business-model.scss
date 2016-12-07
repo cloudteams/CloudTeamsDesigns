@@ -172,7 +172,7 @@
 					z-index: 10;
 					box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
 
-					&:hover {
+					&:hover, &:focus {
 						display: block;
 					}
 
@@ -191,14 +191,14 @@
 					}
 				}
 
-				.canvas-tooltip-trigger:hover + .canvas-tooltip {
+				.canvas-tooltip-trigger:hover + .canvas-tooltip, .canvas-tooltip-trigger:focus + .canvas-tooltip {
 					display: block;
 				}
 			}
 
 			.canvas-content {
-				padding: $margin-10;
 				height: calc(100% - 54px);
+				overflow-y: scroll;
 
 				.empty {
 					width: 100%;
@@ -245,11 +245,66 @@
 					}
 				}
 
-				&:hover > .empty {
+				.canvas-content-item {
+					border-bottom: 1px solid $color-gray-clear;
+					font-size: $font-size-extra-small;
+
+					> div {
+						padding-right: 0 !important;
+					}
+
+					&.row {
+						padding: $margin-10 0;
+					}
+
+					&.row, .row {
+						margin: 0 !important;
+					}
+
+					.block-container {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						height: 20px;
+						padding: 0;
+					}
+
+					.color-block {
+						width: $margin-10;
+						height: $margin-10;
+					}
+
+					.description {
+						padding-left: $margin-5;
+					    text-overflow: ellipsis;
+	    				overflow: hidden;
+	    				width: 155px;
+					}
+
+					.timing {
+						color: $color-gray-clear;
+					}
+
+					.open-tooltip-button {
+						color: $color-black-night;
+						padding-left: $margin-5;
+					}
+
+					.custom-tooltip {
+						right: 0px;
+					}
+
+				}
+
+				.canvas-content-item + .empty {
 					display: none;
 				}
 
-				&:hover > .new-option {
+				&:hover > .empty, &:focus > .empty {
+					display: none;
+				}
+
+				&:hover > .new-option, &:focus > .new-option {
 					display: flex;
 				}
 			}

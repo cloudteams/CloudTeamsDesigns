@@ -67,6 +67,7 @@ module.exports = (function() {
 	}
 
 	function pushDownWrap(height) {
+		console.log('hello world');
 		$mainWrap = $('.wrap');
 		$mainNav = $('.wrap .navbar');
 		$mainWrap.css('margin-top', height + 'px');

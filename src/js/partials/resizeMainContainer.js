@@ -8,7 +8,6 @@ export default (function() {
 
 	$(document).ready(() => {
 		resizeMainContainer();
-		console.log('hi')
 		$(window).on('resize', resizeMainContainer);
 	});
 
