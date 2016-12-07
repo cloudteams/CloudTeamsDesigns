@@ -25,4 +25,6 @@
 	</div>
 </section>
 
+<script type="text/javascript" src="[[js/developer/dashboard/business-canvas-*.js]]"></script>
+
 <?php include("../../../../partials/footer.php"); ?>

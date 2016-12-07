@@ -97,7 +97,7 @@
 						</div>
 						<div class="col-md-12">
 							<div class="row">
-								<div class="pull-left">Key activity about this project</div>
+								<div class="pull-left">Key activity about this project, which is way longer than originally planned to see what happens</div>
 							</div>
 						</div>
 					</div>

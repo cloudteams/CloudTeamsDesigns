@@ -17,6 +17,7 @@ module.exports = (function() {
 	const ENTRY_POINTS = {
 		'common'                               : './app.entry.js',
 		'developer/dashboard/projects'         : './js/developer/dashboard/Projects.js',
+		'developer/dashboard/business-canvas'  : './js/developer/dashboard/BusinessCanvas.js',
 		'developer/dashboard/customer-ideas'   : './js/developer/dashboard/CustomerIdeas.js',
 		'developer/dashboard/cloudcoins'       : './js/developer/dashboard/Cloudcoins.js',
 		'developer/dashboard/messages'         : './js/developer/dashboard/Messages.js',
