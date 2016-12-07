@@ -114,7 +114,7 @@ module.exports = (function() {
 					{
 						test   : /\.jsx?$/,
 						exclude: /(node_modules)|(vendor)/,
-						loader : 'babel',
+						loader : 'babel-loader',
 						options: {
 							presets: ['es2015']
 						}
@@ -128,17 +128,17 @@ module.exports = (function() {
 					{
 						test  : /\.scss$/,
 						loader: ExtractTextPlugin.extract({
-							fallbackLoader: 'style',
+							fallbackLoader: 'style-loader',
 							publicPath    : '../',
 							loader        : [
 								{
-									loader : 'css',
+									loader : 'css-loader',
 									options: {
 										importLoaders: 1
 									}
 								},
-								'postcss',
-								'sass'
+								'postcss-loader',
+								'sass-loader'
 							]
 						})
 					},
@@ -149,13 +149,13 @@ module.exports = (function() {
 						],
 						use: [
 							{
-								loader : 'file',
+								loader : 'file-loader',
 								options: {
 									name: `img/${HASH_FILE}`
 								}
 							},
 							{
-								loader : 'image-webpack',
+								loader : 'image-webpack-loader',
 								options: {
 									bypassOnDebug    : true,
 									optimizationLevel: 7,
@@ -165,7 +165,7 @@ module.exports = (function() {
 						]
 					}, {
 						test   : /\.(woff2?)$/,
-						loader : 'url',
+						loader : 'url-loader',
 						options: {
 							limit   : 10000,
 							mimetype: 'application/font-woff',
@@ -176,7 +176,7 @@ module.exports = (function() {
 						exclude: [
 							Path.resolve(`${__dirname}/src/img`)
 						],
-						loader : 'file',
+						loader : 'file-loader',
 						options: {
 							name: `fonts/${HASH_FILE}`
 						}
