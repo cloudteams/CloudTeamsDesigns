@@ -158,6 +158,7 @@
 
 				i {
 					margin-right: $margin-5;
+					cursor: help;
 				}
 
 				.canvas-tooltip {
@@ -209,6 +210,15 @@
 					color: $color-gray-clear;
 				}
 
+				textarea {
+					font-size: $font-size-extra-small;
+				}
+
+				.popup-trigger {
+					text-decoration: none;
+					color: $color-black-night;
+				}
+
 				.new-option {
 					display: none;
 					background-color: $color-white;
@@ -238,7 +248,7 @@
 					}
 
 					.description {
-						padding-left: $margin-5;
+						padding-left: $margin-10;
 					    text-overflow: ellipsis;
 	    				overflow: hidden;
 	    				width: 155px;
@@ -320,4 +330,83 @@
 			}
 		}
 	}
+}
+
+.edit-existing-label-popup {
+	.modal-header {
+		border-bottom: 1px solid $color-gray-clear;
+	}
+
+	.modal-body {
+
+	}
+
+	.form-group {
+		padding-bottom: $margin-15;
+		border-bottom: 1px solid $color-gray-clear;
+	}
+
+	.color-label-block {
+		padding-top: $margin-10;
+	}
+
+	.color-block {
+		float: left;
+		margin: $margin-5 $margin-10;
+		width: $margin-10;
+		height: $margin-10;
+	}
+
+	.form-group.required .control-label:after { 
+	   content:"*";
+	   color: $color-red-deep;
+	}
+
+	.form-submit {
+		text-align: right;
+		margin: 0;
+
+		a:not(:first-of-type) {
+			margin-left: $margin-10;
+		}
+
+	}
+
+}
+
+.delete-element-modal-popup {
+
+	.modal-header {
+		border-bottom: 1px solid $color-gray-clear;
+	}
+
+	.modal-body {
+		color: $color-gray-clear;
+
+		.message {
+			font-weight: 700;
+		}
+		.description {
+			margin: auto;
+			max-width: 80%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	.form-group {
+		padding-bottom: $margin-20;
+		border-bottom: 1px solid $color-gray-clear;
+	}
+
+	.form-submit {
+		text-align: right;
+		margin: 0;
+
+		a:not(:first-of-type) {
+			margin-left: $margin-10;
+		}
+
+	}	
 }

@@ -51,7 +51,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -87,8 +87,8 @@
 									<div class="custom-tooltip">
 										<ul>
 
-											<li><a href="">Edit</a></li>
-											<li><a href="">Delete</a></li>
+											<li><a class="edit-button" href="">Edit</a></li>
+											<li><a href="" data-toggle="modal" data-target=".delete-element-modal-popup">Delete</a></li>
 										</ul>
 									</div>
 								</div>
@@ -97,7 +97,7 @@
 						</div>
 						<div class="col-md-12">
 							<div class="row">
-								<div class="pull-left">Key activity about this project, which is way longer than originally planned to see what happens</div>
+								<div class="pull-left content">Key activity about this project, which is way longer than originally planned to see what happens</div>
 							</div>
 						</div>
 					</div>
@@ -112,8 +112,8 @@
 									<div class="custom-tooltip">
 										<ul>
 
-											<li><a href="">Edit</a></li>
-											<li><a href="">Delete</a></li>
+											<li><a class="edit-button" href="">Edit</a></li>
+											<li><a href="" data-toggle="modal" data-target=".delete-element-modal-popup">Delete</a></li>
 										</ul>
 									</div>
 								</div>
@@ -122,7 +122,7 @@
 						</div>
 						<div class="col-md-12">
 							<div class="row">
-								<div class="pull-left">Key activity about this project</div>
+								<div class="pull-left content">Key activity about this project</div>
 							</div>
 						</div>
 					</div>
@@ -137,8 +137,8 @@
 									<div class="custom-tooltip">
 										<ul>
 
-											<li><a href="">Edit</a></li>
-											<li><a href="">Delete</a></li>
+											<li><a class="edit-button" href="">Edit</a></li>
+											<li><a href="" data-toggle="modal" data-target=".delete-element-modal-popup">Delete</a></li>
 										</ul>
 									</div>
 								</div>
@@ -147,7 +147,7 @@
 						</div>
 						<div class="col-md-12">
 							<div class="row">
-								<div class="pull-left">Key activity about this project</div>
+								<div class="pull-left content">Key activity about this project</div>
 							</div>
 						</div>
 					</div>
@@ -160,7 +160,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -195,7 +195,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -233,7 +233,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -268,7 +268,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -303,7 +303,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -338,7 +338,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -376,7 +376,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -411,7 +411,7 @@
 							<textarea id="input-project" rows="2"></textarea>
 							<div class="row">
 								<div class="block-container pull-left"><div style="background:orange;" class="color-block"></div></div>
-								<div class="description pull-left">Ongoing</div>
+								<div class="description pull-left"><a class="popup-trigger" href="#" data-toggle="modal" data-target=".edit-existing-label-popup">Ongoing</a></div>
 								<div><a href="#" class="btn pull-right clearfix">Save</a></div>
 							</div>
 						</div>
@@ -423,3 +423,6 @@
 	</div>
 
 </section>
+
+<?php include("change-label.php"); ?>
+<?php include("delete-item.php"); ?>
