@@ -1,6 +1,23 @@
+<section class="public-projects-explanation">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="submenu">
+					<div class="container">
+						<ul class="menu-subpage public">
+							<li id="link-to-subpage-1" class="link-to-subpage active">Users</li>
+							<li id="link-to-subpage-2" class="link-to-subpage">Developers</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="public-projects-logged-in-content">
 	<div class="container">
-		<header>
+		<header id="latest-projects">
 			<h2 class="header-large public">Latest projects</h2>
 			<p class="header-small action-text"><a href="/views/logged-out/projects">See all</a></p>
 

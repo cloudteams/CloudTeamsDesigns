@@ -159,23 +159,12 @@ section.public-page {
 		text-align: center;
 		margin: $margin-60 0 0;
 
-		p {
-			font-size: $font-size-medium;
+		h2, .icon {
+			color: $color-purple-flashy;
+		}
 
-			a {
-				text-transform: uppercase;
-				font-weight: $font-weight-bold;
-				color: $color-purple-flashy;
-				letter-spacing: $letter-spacing-small;
-
-				&:focus,
-				&:active,
-				&:hover {
-					color: $color-purple-flashy-highlight;
-				}
-
-			}
-
+		.icon {
+			padding-top: $margin-20;
 		}
 
 	}

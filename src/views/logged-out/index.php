@@ -34,7 +34,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<p>Are you a developer? <a href="/views/log-in/">Submit your project</a></p>
+								<a href="/views/logged-out/#latest-projects"><h2 class="header-medium">Browse projects</h2><i class="icon icon-arrow-down"></i></a>
 							</div>
 						</div>
 					</div>
