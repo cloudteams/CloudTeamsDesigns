@@ -153,9 +153,74 @@ section.public-page {
 
 	}
 
+	.back-to-top {
+		position: fixed;
+		right: $margin-40;
+		bottom: $margin-40;
+		border: 1px solid $color-purple-flashy;
+		border-radius: $margin-5;
+		z-index: 999;
+		transition: $easing-1 $transition-time-2;
+
+		&:hover, &:focus {
+			background-color: $color-purple-flashy
+
+			a {
+				color: $color-white;
+			}
+		}
+
+		a {
+			font-size: $font-size-large;
+			color: $color-purple-flashy;
+		}
+	}
+
+	.call-to-action {
+	    background-color: #f7f6f6;
+	    padding: $margin-30 0;
+	    text-align: center;
+	    margin: 0 0 60px;
+
+	    p {
+	    	font-size: $font-size-medium;
+	    }
+	    a {
+	    	text-transform: uppercase;
+		    font-weight: 700;
+		    color: #7d3c8c;
+		    letter-spacing: .04em;
+	    }
+	}
+
+	.slideshow-navigation {
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			padding-top: $margin-40;
+
+			li {
+				color: $color-purple-flashy;
+			}
+
+			span {
+				padding: 0.5px 10px;
+				margin: 0 5px;
+				border-radius: 50%;
+				border: 3px solid $color-purple-flashy;
+				background-color: $color-purple-flashy;
+
+				&.active {
+					background-color: $color-white;
+				}
+			}
+
+		}
+	}
+
 	.incentive {
-		background-color: $color-gray-soft;
-		padding: $margin-30 0;
+		padding: $margin-80 0 $margin-30;
 		text-align: center;
 		margin: 0;
 

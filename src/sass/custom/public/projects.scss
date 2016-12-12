@@ -18,6 +18,19 @@
 		align-items: center;
 		justify-content: center;
     	height: 444px;
+
+    	.explanation {
+    		span {
+    			padding-bottom: $margin-20;
+    			font-size: $font-size-large;
+    			color: $color-purple-flashy;
+    		}
+
+    		h2 {
+    			color: $color-purple-flashy;
+    			padding-bottom: $margin-20;
+    		}
+    	}
 	}
 
 	.subpage {
