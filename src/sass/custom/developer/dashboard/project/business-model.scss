@@ -299,6 +299,10 @@
 						color: $color-gray-clear;
 					}
 
+					.content {
+						word-break: break-word;
+					}
+
 					.open-tooltip-button {
 						color: $color-black-night;
 						padding-left: $margin-5;
