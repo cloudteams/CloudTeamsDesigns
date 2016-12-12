@@ -13,6 +13,23 @@
 			</div>
 		</div>
 	</div>
+
+	<section id="subpage-1" class="subpage active">
+		<div class="container">
+			<div class="row">
+				<p>I feel the heat</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="subpage-2" class="subpage">
+		<div class="container">
+			<div class="row">
+				<p>I feel the heat</p>
+			</div>
+		</div>
+	</section>
+
 </section>
 
 <section class="public-projects-logged-in-content">

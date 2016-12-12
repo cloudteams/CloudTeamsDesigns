@@ -3,6 +3,9 @@
 		display: flex;
 		justify-content: center;
 	}
+	.link-to-subpage:last-of-type {
+		margin-right: 0;
+	}
 }
 
 .public-projects-logged-in-content {
