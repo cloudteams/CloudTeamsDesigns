@@ -17,7 +17,13 @@
 	<section id="subpage-1" class="subpage active">
 		<div class="container">
 			<div class="row">
-				<p>I feel the heat</p>
+				<div class="col-md-8 preview"><img src="[[../../img/user-screenshot.png]]" alt="User screenshot"></div>
+				<div class="col-md-4 context">
+					<div class="explanation">
+						<h2>hi</h2>
+						<p>test</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -25,7 +31,8 @@
 	<section id="subpage-2" class="subpage">
 		<div class="container">
 			<div class="row">
-				<p>I feel the heat</p>
+				<div class="col-md-4 context"><p>This is some text as explanation</p></div>
+				<div class="col-md-8 preview"><img src="[[../../img/user-screenshot.png]]" alt="User screenshot"></div>
 			</div>
 		</div>
 	</section>

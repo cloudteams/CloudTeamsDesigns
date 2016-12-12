@@ -1,15 +1,32 @@
 .public-projects-explanation {
+
 	.menu-subpage {
 		display: flex;
 		justify-content: center;
 	}
+
 	.link-to-subpage:last-of-type {
 		margin-right: 0;
+	}
+
+	.preview > img{
+		border-radius: $margin-10;
+	}
+
+	.context {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    	height: 444px;
+	}
+
+	.subpage {
+		padding-top: $margin-80
 	}
 }
 
 .public-projects-logged-in-content {
-	padding-top: 80px;
+	padding-top: $margin-80;
 	overflow-x: hidden;
 
 	header {
@@ -18,7 +35,7 @@
 		}
 
 		p.action-text {
-			margin-left: $margin-10;
+			margin-left: $margin-5;
 		}
 
 	}
