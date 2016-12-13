@@ -24,7 +24,7 @@
 
 						<a href="/views/log-in" alt="log in" class="btn login secondary">Log in</a>
 						<a href="/views/log-in/choose/" alt="register" class="btn register secondary">Register</a>
-						<a href="https://about.cloudteams.eu/#how-it-works" class="how secondary">how it works</a>
+						<a href="/views/logged-out/how-it-works/" class="how secondary">how it works</a>
 						<a href="https://about.cloudteams.eu/" class="about secondary">about</a>
 					</div>
 				</div>
