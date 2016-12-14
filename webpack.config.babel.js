@@ -32,6 +32,7 @@ module.exports = (function() {
 		'user/dashboard/projects'              : './js/user/dashboard/Projects.js',
 		'user/dashboard/rewards'               : './js/user/dashboard/Rewards.js',
 		'public/project'                       : './js/public/Project.js',
+		'public/howitworks'                    : './js/public/HowItWorks.js',
 		'shared/loaders'                       : './js/shared/Loaders.js'
 	};
 

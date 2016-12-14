@@ -1,4 +1,5 @@
 /* global $ */
+// import $ from 'jquery';
 
 import CustomerIdeas from 'partials/CustomerIdeas.js';
 import BuyConfirmation from 'partials/BuyConfirmation.js';

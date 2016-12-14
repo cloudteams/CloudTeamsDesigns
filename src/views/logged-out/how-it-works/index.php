@@ -14,4 +14,6 @@
 	</div>
 </section>
 
+<script type="text/javascript" src="[[js/public/howitworks-*.js]]"></script>
+
 <?php include("../partials/footer.php"); ?>
