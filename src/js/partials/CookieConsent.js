@@ -48,26 +48,26 @@ module.exports = (function() {
 				const didConsent = this.hasConsented();
 
 				if (type === 'opt-in' && didConsent) {
-					// enable cookies
+					pushDownWrap(0)
 				}
 				if (type === 'opt-out' && !didConsent) {
-					// disable cookies
+					pushDownWrap(0)
 				}
 			},
 			onRevokeChoice: function() {
 				const type = this.options.type;
 				if (type === 'opt-in') {
-					// disable cookies
+					pushDownWrap(0)
 				}
 				if (type === 'opt-out') {
-					// enable cookies
+					pushDownWrap(0)
 				}
 			}
 		});
 	}
 
 	function pushDownWrap(height) {
-		console.log('hello world');
+		console.log(height);
 		$mainWrap = $('.wrap');
 		$mainNav = $('.wrap .navbar');
 		$mainWrap.css('margin-top', height + 'px');
