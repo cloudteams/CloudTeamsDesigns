@@ -25,6 +25,6 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="[[js/developer/dashboard/howitworks-*.js]]"></script>
+<script type="text/javascript" src="[[js/developer/dashboard/activities-*.js]]"></script>
 
 <?php include("../partials/footer.php"); ?>
