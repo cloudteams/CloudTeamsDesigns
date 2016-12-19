@@ -3,7 +3,7 @@
 <section class="page public-page no-border how-it-works">
 	<div class="content">
 		<main>
-			<header class="main-header">
+			<header class="main-header how-it-works-background">
 
 				<h1 class="header-extra-large public">HOW IT WORKS</h1>
 

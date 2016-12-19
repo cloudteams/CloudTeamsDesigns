@@ -2,16 +2,10 @@
 
 (function() {
 	function resizeVideos() {
-		console.log('run');
-
 		const $fluidEl = $('.youtube-container');
 		const $allVideos = $('.youtube-container > iframe');
 
-		console.log($allVideos);
-		console.log($fluidEl)
-
 		$allVideos.each(function() {
-			console.log('found one video!')
 			$(this)
 				.attr('data-aspectRatio', this.height / this.width)
 				.removeAttr('height')
@@ -29,7 +23,12 @@
 		}).resize();
 	}
 
+	function activeMenuItem() {
+		$('a.how.secondary').addClass('active');
+	}
+
 	$(document).ready(() => {
 		resizeVideos();
+		activeMenuItem();
 	});
 })();

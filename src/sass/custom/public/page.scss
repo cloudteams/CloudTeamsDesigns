@@ -21,6 +21,7 @@ section.public-page {
 
 		}
 
+		&.how-it-works-background,
 		&.header-all-projects,
 		&.header-tutorial {
 			padding: 200px 0 100px;
@@ -73,6 +74,14 @@ section.public-page {
 	.button-end {
 		text-align: center;
 		margin: $margin-80 0;
+
+		&.return-section {
+			margin: 0;
+			p {
+				margin-top: 0;
+				margin-bottom: $margin-40;
+			}
+		}
 
 		&.step-1 a {
 			margin: 0 $margin-10;

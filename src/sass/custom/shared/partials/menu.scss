@@ -31,6 +31,11 @@ body {
 						color: $color-black-night;
 					}
 				}
+
+				&.active {
+					color: $color-black-night;
+					font-weight: 700;
+				}
 			}
 
 			.logo {

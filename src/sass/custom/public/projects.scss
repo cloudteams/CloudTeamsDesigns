@@ -1,4 +1,5 @@
 .public-projects-explanation {
+	padding-top: $margin-80;
 
 	.menu-subpage {
 		display: flex;
@@ -51,6 +52,10 @@
 			margin-left: $margin-5;
 		}
 
+	}
+
+	.youtube-container {
+		padding-bottom: $margin-80;
 	}
 
 	.filter-container {

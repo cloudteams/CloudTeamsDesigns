@@ -59,13 +59,13 @@
 
 <section class="public-projects-logged-in-content">
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-12 youtube-container">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/OpPrR4uXchY" frameborder="0" allowfullscreen></iframe>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 youtube-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/OpPrR4uXchY" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
-</div>
 
 	<div class="container">
 		<div class="row">

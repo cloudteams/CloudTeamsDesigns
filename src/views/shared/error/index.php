@@ -6,12 +6,12 @@
 			<header class="main-header login">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-offset-3 col-md-6">
-							<img src="[[../../../img/404.svg]]" />
+						<div class="col-md-offset-4 col-md-4">
+							<img src="[[../../../img/error.svg]]" />
 						</div>
 					</div>
-					<h1 class="header-extra-large public">Oh no!</h1>
-					<p class="public-page-subtitle">The page you're looking for doesn't exist</p>
+					<h1 class="header-extra-large public">ERROR 500</h1>
+					<p class="public-page-subtitle">Error description</p>
 				</div>
 			</header>
 
@@ -19,8 +19,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
-							<div class="button-end">
-								<p>Go back to <a href="/">the homepage</a></p>
+							<div class="button-end return-section">
+								<p>Go back to <a href="/">LINK WHERE THE USER CAME FROM</a></p>
 							</div>
 						</div>
 					</div>
