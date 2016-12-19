@@ -59,13 +59,6 @@
 			</li>
 
 			<li>
-				<a href="/views/user/dashboard/customer-ideas" class="incoming">
-					<i class="icon icon-customer-idea"></i>
-					<span>Customer ideas</span>
-				</a>
-			</li>
-
-			<li>
 				<a href="/views/user/dashboard/rewards">
 					<i class="icon icon-reward"></i>
 					<span>Rewards</span>
