@@ -351,7 +351,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-10">
+							<div class="col-md-9">
 								<div class="row percentage-wrapper">
 									<div style="width:8%" class="persona-percentage-block">
 										<div class="persona-percentage-item item-1"></div>
@@ -395,7 +395,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-10">
+							<div class="col-md-9">
 								<div class="row percentage-wrapper">
 									<div style="width:11%" class="persona-percentage-block">
 										<div class="persona-percentage-item item-1"></div>
@@ -439,7 +439,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-10">
+							<div class="col-md-9">
 								<div class="row percentage-wrapper">
 									<div style="width:5%" class="persona-percentage-block">
 										<div class="persona-percentage-item item-1"></div>
@@ -483,7 +483,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-10">
+							<div class="col-md-9">
 								<div class="row percentage-wrapper">
 									<div style="width:21%" class="persona-percentage-block">
 										<div class="persona-percentage-item item-1"></div>
