@@ -134,6 +134,14 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 		});
 	}
 
+	function addNewAnswerOption() {
+		$('.inactive input').on('click', e => {
+			const $target = $(e.target).closest('.inactive');
+			$target.clone().appendTo($target.parent());
+			$target.removeClass('inactive');
+		});
+	}
+
 	$(document).ready(() => {
 		activeSubMenuItem();
 		confirmButtons();
@@ -144,5 +152,6 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 		removeTags();
 		selectExistingQuestionnaire();
 		toggleQuestionType();
+		addNewAnswerOption();
 	});
 })();

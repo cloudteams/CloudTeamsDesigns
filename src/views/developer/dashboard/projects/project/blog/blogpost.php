@@ -21,8 +21,9 @@
 						<li>
 							<a href="">Delete blogpost</a>
 						</li>
-						<li><a href="">Lorem ipsum</a></li>
-						<li><a href="">Lorem ipsum</a></li>
+						<li>
+							<a href="">Edit blogpost</a>
+						</li>
 					</ul>
 				</div>
 			</div>

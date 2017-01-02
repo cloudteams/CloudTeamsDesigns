@@ -50,16 +50,6 @@
 						</fieldset>
 					</div>					
 
-					<div class="col-md-8">
-						<fieldset class="form-group">
-							<label for="description" class="header-medium secondary">Description to better explain the question</label>
-
-							<div class="input-container">
-								<textarea id="description" type="text" name="Name of project" placeholder="What do you think about?.."></textarea>
-							</div>
-						</fieldset>
-					</div>	
-
 					<div class="col-md-12">
 						<fieldset class="form-group required">
 							<label for="description" class="control-label header-medium secondary">Answers</label>
@@ -133,16 +123,6 @@
 							</div>
 						</fieldset>
 					</div>					
-
-					<div class="col-md-8">
-						<fieldset class="form-group">
-							<label for="description" class="header-medium secondary">Description to better explain the question</label>
-
-							<div class="input-container">
-								<textarea id="description" type="text" name="Name of project" placeholder="What do you think about?.."></textarea>
-							</div>
-						</fieldset>
-					</div>	
 
 					<div class="col-md-12">
 						<fieldset class="form-group required">
@@ -218,16 +198,6 @@
 						</fieldset>
 					</div>					
 
-					<div class="col-md-8">
-						<fieldset class="form-group">
-							<label for="description" class="header-medium secondary">Description to better explain the question</label>
-
-							<div class="input-container">
-								<textarea id="description" type="text" name="Name of project" placeholder="What do you think about?.."></textarea>
-							</div>
-						</fieldset>
-					</div>	
-
 					<div class="col-md-12">
 						<fieldset class="checkbox-option">
 							<label for="other-option"><input type="checkbox" name="other-option" value='other-option' id="other-option"><span></span>When invited<span> (Allow the user to write their own answer)</span></label>
@@ -253,16 +223,6 @@
 							</div>
 						</fieldset>
 					</div>					
-
-					<div class="col-md-8">
-						<fieldset class="form-group">
-							<label for="description" class="header-medium secondary">Description to better explain the question</label>
-
-							<div class="input-container">
-								<textarea id="description" type="text" name="Name of project" placeholder="What do you think about?.."></textarea>
-							</div>
-						</fieldset>
-					</div>	
 
 					<div class="col-md-8">
 						<fieldset class="form-group required">
@@ -309,16 +269,6 @@
 							</div>
 						</fieldset>
 					</div>					
-
-					<div class="col-md-8">
-						<fieldset class="form-group">
-							<label for="description" class="header-medium secondary">Description to better explain the question</label>
-
-							<div class="input-container">
-								<textarea id="description" type="text" name="Name of project" placeholder="What do you think about?.."></textarea>
-							</div>
-						</fieldset>
-					</div>	
 
 					<div class="col-md-8">
 						<fieldset class="form-group required">
