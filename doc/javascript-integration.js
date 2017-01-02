@@ -7,7 +7,7 @@ import CONFIG from 'core/Config';
 // We export modules with the export default method, which exports an IIFE.
 export default (function() {
 	// We define all variables at the top
-	// Underscores means public variables, dollar signs mean jQuery objects.
+	// Underscores mean private variables, dollar signs mean jQuery objects.
 	let _$el;
 
 	// Create a discriptive function name
