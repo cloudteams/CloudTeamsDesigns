@@ -1,5 +1,15 @@
-<section class="developer-dashboard-project-profile-content">
+<section class="developer-dashboard-project-blog">
 	<article class="block block-line large">
+		<header class="article-header">
+			<div class="vertical-align">
+				<div class="middle">
+					<i class="icon icon-user"></i>
+					<h2 class="header-medium secondary">Basic information</h2>
+				</div>
+				<div class="middle">
+				</div>
+			</div>
+		</header>
 		<form>
 			<div class="content project-choices">
 				<fieldset>

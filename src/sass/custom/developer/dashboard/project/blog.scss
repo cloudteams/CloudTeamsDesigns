@@ -1,0 +1,28 @@
+.developer-dashboard-project-blog {
+	.article-header {
+		background-color: $color-gray-soft;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		padding: $margin-10;
+		
+		.tooltip-container > a {
+			color: $color-black-night;
+		}
+
+		h2 {
+			display: inline-block;
+			margin: $margin-5;
+		}
+
+		.tooltip-container {
+			text-align: right;
+		}
+
+		.custom-tooltip {
+			top: 47px;
+			right: 36px;
+			min-width: 100px;
+		}
+
+	}
+}
