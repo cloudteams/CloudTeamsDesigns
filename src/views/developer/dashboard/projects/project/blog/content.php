@@ -1,6 +1,6 @@
 <section class="developer-dashboard-project-blog-content">
 	<div class="row">
-		<article class="blogpost add-item col-lg-6">
+		<article class="blogpost add-item col-lg-6"><a href="views/developer/dashboard/projects/project/blog/new">
 			<div class="background">
 				<div class="vertical-align">
 					<div class="middle">
@@ -15,7 +15,7 @@
 					</div>
 				</div>
 			</div>
-		</article>
+		</a></article>
 
 		<?php include("blogpost.php"); ?>
 		<?php include("blogpost-no-picture.php"); ?>
