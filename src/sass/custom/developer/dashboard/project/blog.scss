@@ -25,4 +25,29 @@
 		}
 
 	}
+
+	.form-group.required .control-label:after { 
+		content:"*";
+		color: $color-red-deep;
+	}
+
+	.form-submit {
+		text-align: right;
+		margin: 0;
+
+		a:not(:first-of-type) {
+			margin-left: $margin-10;
+		}
+
+	}
+
+	.preview-link {
+		float: left;
+		margin-left: $margin-5;
+		color: $color-gray-clear;
+		&:hover {
+			color: $color-black-night;
+		}
+	}
+
 }
