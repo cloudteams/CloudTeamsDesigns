@@ -3,7 +3,7 @@
 		<div class="content">
 			<div class="vertical-align">
 				<div class="middle">
-					<a href="#nowhere" class="btn">Show blog post</a>
+					<a href="/views/developer/dashboard/projects/project/blog/new/" class="btn">Show blog post</a>
 				</div>
 			</div>
 		</div>
@@ -11,7 +11,7 @@
 
 	<div class="background">
 		<header>
-			<h2 class="header-medium secondary">How to get an older taget group more interested in your project</h2>
+			<h2 class="header-medium secondary">How to get an older target group more interested in your project</h2>
 			<time datetime="2015-08-25" class="meta">25/08/2015</time>
 
 			<div class="tooltip-container">
@@ -19,10 +19,10 @@
 				<div class="custom-tooltip">
 					<ul>
 						<li>
-							<a href="">Delete blogpost</a>
+							<a href="#">Delete blogpost</a>
 						</li>
 						<li>
-							<a href="">Edit blogpost</a>
+							<a href="/views/developer/dashboard/projects/project/blog/new/">Edit blogpost</a>
 						</li>
 					</ul>
 				</div>

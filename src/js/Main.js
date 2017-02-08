@@ -34,7 +34,7 @@ import resizeMainContainer from 'partials/resizeMainContainer';
 	}
 
 	function openCloseSubpage(element) {
-		const currentSubpageLink = element;
+		const currentSubpageLink = element.hasClass('blog') ? $('#link-to-subpage-4') : element;
 		const otherSubpageLinks  = $('.link-to-subpage').not(currentSubpageLink, '#link-to-hidden-subpage-5');
 		const currentSubpageID   = parseInt(element.attr('id').replace(/[^\d]/g, ''), 10);
 		const currentSubpage     = $(`#subpage-${currentSubpageID}`);
@@ -81,7 +81,7 @@ import resizeMainContainer from 'partials/resizeMainContainer';
 	}
 
 	function runOpenCloseSubsection() {
-		const linkToSubsection = $('.menu-subsection .link-to-subsection');
+		const linkToSubsection = $('.link-to-subsection');
 
 		linkToSubsection.click(function() {
 			openCloseSubsection($(this));

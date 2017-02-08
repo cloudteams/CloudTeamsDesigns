@@ -268,6 +268,15 @@
 			</div>
 		</section>
 	</section>
+
+	<section id="subpage-7" class="subpage">
+		<div class="container">
+			<div class="content">
+				<?php include("blogpost-post.php") ?>
+			</div>
+		</div>
+	</section>
+
 </section>
 
 <?php include("modal/new-idea.php"); ?>

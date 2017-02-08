@@ -3,7 +3,7 @@
 		<div class="content">
 			<div class="vertical-align">
 				<div class="middle">
-					<a href="#nowhere" class="btn">Show blog post</a>
+					<a href="/views/developer/dashboard/projects/project/blog/new/" class="btn">Show blog post</a>
 				</div>
 			</div>
 		</div>
@@ -22,7 +22,7 @@
 							<a href="">Delete blogpost</a>
 						</li>
 						<li>
-							<a href="">Edit blogpost</a>
+							<a href="/views/developer/dashboard/projects/project/blog/new/">Edit blogpost</a>
 						</li>
 					</ul>
 				</div>

@@ -162,7 +162,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<fieldset class="form-group form-submit">
-							<a href="/views/logged-in/projects/project/blogpost" class="preview-link">Preview blogpost</a>
+							<a href="/views/logged-in/projects/project/blogpost" target="_blank" class="preview-link">Preview blogpost</a>
 							<a href="/views/developer/dashboard/projects/project/blog/" class="btn-transparent" alt="cancel">Cancel</a>
 							<a href="#nowhere" class="btn confirm-button" alt="save">Save</a>
 						</fieldset>
