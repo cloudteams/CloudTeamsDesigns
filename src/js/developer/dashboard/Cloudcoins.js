@@ -82,7 +82,7 @@ import ConfirmFader from 'partials/ConfirmFader.js';
 	}
 
 	$(document).ready(() => {
-		initClicks();
+		// initClicks();
 		selectAllOptionsOpen();
 		ConfirmFader.run('.modal-body');
 	});

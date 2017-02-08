@@ -45,7 +45,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 1#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -59,7 +59,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 2#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -73,7 +73,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 3#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -133,7 +133,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 1#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -147,7 +147,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 2#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -161,7 +161,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 3#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -221,7 +221,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 1#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -235,7 +235,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 2#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
@@ -249,7 +249,7 @@
 
 			<div class="cloudcoins-row-content">
 				<article class="cloudcoins-row-item col-lg-5">
-					<p><a href="#">Campaign 1#</a></p>
+					<p><a href="/views/developer/dashboard/projects/project/campaigns/campaign/">Campaign 3#</a></p>
 				</article>
 
 				<article class="cloudcoins-row-item col-lg-3">
