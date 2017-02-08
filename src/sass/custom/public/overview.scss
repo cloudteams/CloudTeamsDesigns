@@ -101,7 +101,7 @@
 				border-right: 1px solid $color-gray-clear;
 			}
 		}
- 
+
 		.visual-link .description {
 			color: $color-gray-clear;
 			font-size: $font-size-medium;
@@ -152,13 +152,13 @@
 
 	.modal-body {
 		margin: 0 $margin-15;
-		
+
 		.row {
 			margin: $margin-10 0;
 		}
 	}
 
-	.form-group.required .control-label:after { 
+	.form-group.required .control-label:after {
 	   content:"*";
 	   color: $color-red-deep;
 	}
@@ -241,6 +241,7 @@
 
 	.subpage {
 		padding-bottom: $margin-50;
+		padding-top: $margin-30;
 
 		> .container > .content {
 			margin-bottom: $margin-50;
@@ -256,6 +257,8 @@
 		}
 
 		&#subpage-1 {
+			padding-top: 0;
+
 			.content {
 				&.about {
 					header {
@@ -315,7 +318,6 @@
 
 		&#subpage-2 {
 			@extend .border-bottom;
-			padding-top: $margin-30;
 			position: relative;
 
 			&:after {
@@ -337,13 +339,7 @@
 
 		}
 
-		&#subpage-3 {
-			padding-top: $margin-30;
-		}
-
 		&#subpage-5 {
-			padding-top: $margin-30;
-
 			header {
 				h2 {
 					display: inline-block;
@@ -367,6 +363,7 @@
 
 		&#subpage-6 {
 			@extend .border-bottom;
+			padding-top: 0;
 			position: relative;
 
 			&:after {
@@ -395,15 +392,9 @@
 							margin-bottom: $margin-30;
 							max-width: 200px;
 						}
-
 					}
-
 				}
-
 			}
-
 		}
-
 	}
-
 }
