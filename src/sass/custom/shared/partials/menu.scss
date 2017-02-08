@@ -71,10 +71,12 @@ body {
 							position: absolute;
 							text-align: left;
 							visibility: hidden;
-							width: 100%;
+							min-width: 100%;
 							z-index: 99;
 
 							li {
+								display: block;
+
 								a {
 									display: block;
 									white-space: nowrap;
