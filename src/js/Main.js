@@ -7,6 +7,7 @@ import 'partials/Easing';
 import 'partials/AddItemDimensions';
 import 'partials/InjectSelect2';
 import 'partials/CookieConsent';
+import 'shared/ModalStatic';
 import resizeMainContainer from 'partials/resizeMainContainer';
 
 (function() {
