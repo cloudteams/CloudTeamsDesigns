@@ -1,5 +1,4 @@
 <section class="developer-dashboard-project-overview-content">
-
 	<?php include("data.php"); ?>
 
 	<article class="block block-fill project-profile">
@@ -9,31 +8,36 @@
 					<i class="icon icon-profile"></i>
 					<h2 class="header-medium secondary">Project profile</h2>
 				</div>
+
 				<div class="middle">
+					<p class="header-small"><a href="/views/developer/dashboard/projects/project/profile/"><span class="header-small action-text">EDIT</span></a></p>
 				</div>
 			</div>
 		</header>
 
 		<div class="content">
-			<h3 class="header-medium secondary">About this campaign</h3>
+			<h3 class="header-medium secondary">About this project</h3>
 
 			<div class="category">
-				<p class="page-subtitle">Published</p>
-				<i class="icon icon-folder"></i>
+				<p class="page-subtitle">Productivity</p>
+				<i class="icon icon-productivity"></i>
 			</div>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
 
 			<div class="data">
-				<p class="bold"><span class="highlight">Visible to</span> All users</p>
-				<p class="bold"><span class="highlight">Visible in 'All projects'</span> Yes</p>
+				<p><span class="highlight">In this project, I am a</span> Project manager</p>
+				<p><span class="highlight">This project is done by the team</span> Software</p>
+				<p><span class="highlight">This project is visible to</span> Software team and all customers</p>
 			</div>
+		</div>
 
+		<footer>
 			<fieldset class="form-submit">
+				<a href="#" class="btn secondary">Delete</a>
 				<a href="#" class="btn">Unpublish</a>
 			</fieldset>
-
-		</div>
+		</footer>
 	</article>
 
 	<div class="row block-row content-wrapper">
@@ -45,6 +49,7 @@
 							<i class="icon icon-campaign"></i>
 							<h2 class="header-medium secondary">Project logo</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/profile/"><span class="header-small action-text">EDIT</span></a></p>
 						</div>
@@ -52,7 +57,7 @@
 				</header>
 
 				<div class="content">
-					<div class="background-image" style='background-image: url("[[../../../../../img/placeholders/project_cover.svg]]");'></div>
+					<div class="background-image" style='background-image: url("[[../../../../../img/placeholders/project_thumbnail.svg]]");'></div>
 				</div>
 		</article>
 
@@ -64,6 +69,7 @@
 							<i class="icon icon-requirement"></i>
 							<h2 class="header-medium secondary">Requirements</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">See all</span></a></p>
 						</div>
@@ -77,8 +83,9 @@
 						<div class="force-row">Key activity about this project</div>
 						<div class="text-right highlight force-row">10 minutes ago</div>
 						<div class="force-row">Last edit:</div>
-						<div class="text-right highlight force-row">Hans Blix</div>					
+						<div class="text-right highlight force-row">Hans Blix</div>
 					</div>
+
 					<hr>
 					<div class="container">
 						<div class="force-row bold flashy">Scenario 2#</div>
@@ -86,7 +93,7 @@
 						<div class="force-row">Key activity about this project</div>
 						<div class="text-right highlight force-row">10 minutes ago</div>
 						<div class="force-row">Last edit:</div>
-						<div class="text-right highlight force-row">Hans Blix</div>					
+						<div class="text-right highlight force-row">Hans Blix</div>
 					</div>
 				</div>
 
@@ -101,6 +108,7 @@
 							<i class="icon icon-document"></i>
 							<h2 class="header-medium secondary">Business modal</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="#nowhere"><span class="header-small action-text">See all</span></a></p>
 						</div>
@@ -114,8 +122,9 @@
 						<div class="force-row">Key activity about this project</div>
 						<div class="text-right highlight force-row">10 minutes ago</div>
 						<div class="force-row">Last edit:</div>
-						<div class="text-right highlight force-row">Hans Blix</div>					
+						<div class="text-right highlight force-row">Hans Blix</div>
 					</div>
+
 					<hr>
 					<div class="container">
 						<div class="force-row bold flashy">Modal 2#</div>
@@ -123,7 +132,7 @@
 						<div class="force-row">Key activity about this project</div>
 						<div class="text-right highlight force-row">10 minutes ago</div>
 						<div class="force-row">Last edit:</div>
-						<div class="text-right highlight force-row">Hans Blix</div>					
+						<div class="text-right highlight force-row">Hans Blix</div>
 					</div>
 				</div>
 
@@ -138,6 +147,7 @@
 							<i class="icon icon-campaign"></i>
 							<h2 class="header-medium secondary">Campaigns</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/campaigns/create"><span class="header-small action-text">Create</span></a></p>
 						</div>
@@ -172,6 +182,7 @@
 							<i class="icon icon-campaign"></i>
 							<h2 class="header-medium secondary">Team</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/team"><span class="header-small action-text">Add</span></a></p>
 						</div>
@@ -213,6 +224,7 @@
 							<i class="icon icon-document"></i>
 							<h2 class="header-medium secondary">Documents</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/documents">
 								<span class="header-small action-text">See all</span>
@@ -226,6 +238,7 @@
 						<p class="bold flashy">Annual report July 2016</p>
 						<p class="highlight bold">Description of the document that comes here</p>
 					</div>
+
 					<hr>
 					<div class="container">
 						<p class="bold flashy">Annual report July 2016</p>
@@ -245,6 +258,7 @@
 							<i class="icon icon-external-services"></i>
 							<h2 class="header-medium secondary">Connectors</h2>
 						</div>
+
 						<div class="middle">
 							<p class="header-small"><a href="/views/developer/dashboard/projects/project/services">
 								<span class="header-small action-text">Connect</span>
@@ -258,14 +272,17 @@
 							<p class="bold flashy">Connected to GitHub</p>
 							<p class="highlight bold">Last commit: 2 hours ago</p>
 						</div>
+
 						<div class="col-md-4 connector">
 							<p class="bold flashy">Connected to SonarQube</p>
 							<p class="highlight bold">Last commit: 2 hours ago</p>
 						</div>
+
 						<div class="col-md-4 connector">
 							<p class="bold flashy">Connected to BitBucket</p>
 							<p class="highlight bold">Last commit: 2 hours ago</p>
 						</div>
+
 						<div class="col-md-4 connector">
 							<p class="bold flashy">Connected to Trello</p>
 							<p class="highlight bold">Latest activity: 1 hour ago</p>
@@ -303,8 +320,7 @@
 						<p class="highlight bold">Description of the problem that comes here</p>
 					</div>
 				</div>
-
-			</div>			
+			</div>
 		</article>
 
 		<article class="col-sm-6 col-xs-12 clear-2 block block-fill-half messaging">

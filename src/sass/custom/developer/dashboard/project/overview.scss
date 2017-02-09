@@ -26,9 +26,9 @@
 			}
 
 			.background {
-				height: 234px;
-				min-height: 234px;
-				max-height: 234px;
+				// height: 234px;
+				min-height: 275px;
+				// max-height: 234px;
 			}
 		}
 
@@ -37,14 +37,14 @@
 				> p {
 					max-width: 92%;
 				}
+			}
 
-				.form-submit {
-					text-align: right;
-					margin: 0;
+			.form-submit {
+				text-align: right;
+				margin: 0;
 
-					a:not(:first-of-type) {
-						margin-left: $margin-10;
-					}
+				a:not(:first-of-type) {
+					margin-left: $margin-20;
 				}
 			}
 
@@ -123,7 +123,7 @@
 			.content {
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
-				height: 189px;
+				height: 209px;
 				padding: 0;
 				text-align: center;
 
@@ -134,7 +134,7 @@
 					background-size: cover;
 					border-bottom-left-radius: 5px;
 					border-bottom-right-radius: 5px;
-					height: 189px;
+					height: 209px;
 				}
 			}
 		}

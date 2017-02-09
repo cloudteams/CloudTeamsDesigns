@@ -129,7 +129,7 @@
 
 	.content,
 	footer {
-		padding: $margin-15;
+		padding: $margin-20;
 	}
 
 	header {
@@ -137,7 +137,7 @@
 		border-bottom: 1px solid $color-gray-smooth;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
-		padding: $margin-10 $margin-15;
+		padding: $margin-20;
 
 		.middle {
 			i {
@@ -156,13 +156,9 @@
 					span {
 						color: $color-purple-flashy;
 					}
-
 				}
-
 			}
-
 		}
-
 	}
 
 	.content {
@@ -189,9 +185,12 @@
 		p {
 			line-height: $line-height-small;
 		}
-
 	}
 
+	footer {
+		border-top: 1px solid $color-gray-smooth;
+		padding-top: $margin-20;
+	}
 }
 
 .block-fill-half {
