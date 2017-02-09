@@ -19,7 +19,6 @@
 						td {
 							padding-bottom: 0;
 						}
-
 					}
 
 					td {
@@ -36,7 +35,6 @@
 							p {
 								font-weight: $font-weight-bold;
 							}
-
 						}
 
 						p {
@@ -47,15 +45,10 @@
 						.icon {
 							margin-right: $margin-15 ;
 						}
-
 					}
-
 				}
-
 			}
-
 		}
-
 	}
 
 	&.public-project-overview-data {
@@ -63,9 +56,7 @@
 			.middle {
 				width: 33%;
 			}
-
 		}
-
 	}
 
 	&.public-project-campaign-overview-data {
@@ -89,15 +80,10 @@
 							&:last-child {
 								width: 45%;
 							}
-
 						}
-
 					}
-
 				}
-
 			}
-
 		}
 
 		.btn-grey {
@@ -105,9 +91,6 @@
 				background: $color-gray-smooth;
 				cursor: default;
 			}
-
 		}
-
 	}
-
 }

@@ -19,7 +19,7 @@
 							<p>Participated</p>
 						</td>
 						<td>
-							<p>2</p>
+							<p>22</p>
 						</td>
 					</tr>
 
@@ -29,7 +29,7 @@
 							<p>Date opened</p>
 						</td>
 						<td>
-							<p><time datetime="2015-09-22">22/09/2015</time></p>
+							<p><time datetime="2015-09-22">30/02/2016</time></p>
 						</td>
 					</tr>
 
@@ -39,7 +39,7 @@
 							<p>Date closed</p>
 						</td>
 						<td>
-							<p><time datetime="2015-12-08">08/12/2015</time></p>
+							<p><time datetime="2015-12-08">17/06/2016</time></p>
 						</td>
 					</tr>
 				</table>

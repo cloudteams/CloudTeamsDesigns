@@ -5,15 +5,14 @@
 	}
 
 	article {
-
 		.container {
 			padding-left: 0;
 			padding-right: 0;
 		}
 
 		&.block-fill-half {
-			float: left;
 			clear: none;
+			float: left;
 
 			@include paddingH($margin-10);
 			@include breakpoint(phablet) {
@@ -24,7 +23,6 @@
 				&:last-child {
 					margin-bottom: 0;
 				}
-
 			}
 
 			.background {
@@ -32,7 +30,6 @@
 				min-height: 234px;
 				max-height: 234px;
 			}
-
 		}
 
 		&.project-profile {
@@ -40,7 +37,7 @@
 				> p {
 					max-width: 92%;
 				}
-				
+
 				.form-submit {
 					text-align: right;
 					margin: 0;
@@ -49,8 +46,6 @@
 						margin-left: $margin-10;
 					}
 				}
-
-
 			}
 
 			.data {
@@ -60,11 +55,8 @@
 					&:last-child {
 						margin-bottom: 0;
 					}
-
 				}
-
 			}
-
 		}
 
 		&.campaigns {
@@ -73,9 +65,7 @@
 					&:first-child {
 						border-right: 1px solid $color-gray-clear;
 					}
-
 				}
-
 			}
 
 			.content {
@@ -89,11 +79,8 @@
 						color: $color-purple-flashy;
 						font-size: 70px;
 					}
-
 				}
-
 			}
-
 		}
 
 		&.connectors {
@@ -107,13 +94,13 @@
 				padding-right: 0;
 
 				.bold.flashy:after {
-					content: '';
-					position: absolute;
-					margin-left: $margin-15;
-					height: $margin-10;
-					padding: 0 $margin-5;
 					background-color: $color-green-grass;
 					border-radius: 50%;
+					content: '';
+					height: $margin-10;
+					margin-left: $margin-15;
+					padding: 0 $margin-5;
+					position: absolute;
 				}
 
 				.highlight {
@@ -124,46 +111,41 @@
 
 		&.requirements, &.business-modal {
 			.force-row {
-				width: 50%;
+				float: left;
 				overflow: hidden;
 				text-overflow: ellipsis;
 				white-space: nowrap;
-				float: left;
+				width: 50%;
 			}
 		}
 
 		&.project-logo {
-
 			.content {
-				padding: 0;
-				text-align: center;
-				height: 189px;
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
+				height: 189px;
+				padding: 0;
+				text-align: center;
 
 				> .background-image {
 					background-color: $color-gray-faded;
-				    background-repeat: no-repeat;
-				    background-size: contain;
-				    height: 189px;
-				    background-position: center center;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-size: cover;
 					border-bottom-left-radius: 5px;
 					border-bottom-right-radius: 5px;
+					height: 189px;
 				}
 			}
-			
 		}
 
 		&.team {
-
 			.row {
 				> div {
 					&:not(:last-child) {
 						border-right: 1px solid $color-gray-clear;
 					}
-
 				}
-
 			}
 
 			.content {
@@ -177,11 +159,8 @@
 						color: $color-purple-flashy;
 						font-size: 70px;
 					}
-
 				}
-
 			}
-
 		}
 
 		&.documents {
@@ -205,12 +184,12 @@
 					margin: 0 0 $margin-10;
 
 					div.img-circle {
-						width: 80px;
-						height: 80px;
 						background-size: cover;
-						margin: 0 auto $margin-5;
 						display: inline-block;
 						float: left;
+						height: 80px;
+						margin: 0 auto $margin-5;
+						width: 80px;
 					}
 
 					p {
@@ -221,11 +200,8 @@
 					& + p {
 						margin-top: 50px;
 					}
-
 				}
-
 			}
-
 		}
 
 		&.customer-ideas {
@@ -234,7 +210,5 @@
 				margin-bottom: $margin-5;
 			}
 		}
-
 	}
-
 }

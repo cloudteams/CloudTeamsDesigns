@@ -20,9 +20,7 @@ article.project {
 				i {
 					color: $color-black-night;
 				}
-
 			}
-
 		}
 
 		.custom-tooltip {
@@ -36,9 +34,7 @@ article.project {
 			&.highlight {
 				margin-bottom: $margin-5;
 			}
-
 		}
-
 	}
 
 	.content {
@@ -71,13 +67,9 @@ article.project {
 					td {
 						margin-bottom: 0;
 					}
-
 				}
-
 			}
-
 		}
-
 	}
 
 	footer {
@@ -97,27 +89,26 @@ article.project {
 
 		.square {
 			background-color: $color-purple-flashy;
-			margin: 0;
-			position: absolute;
-			right: 10px;
-			top: 10px;
-			padding: 4px;
 			border-radius: 2px;
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 			color: $color-white;
+			margin: 0;
+			padding: 4px;
+			position: absolute;
+			right: 10px;
+			top: 10px;
 		}
-
 	}
 
 	.background-image {
-		height: 160px;
 		background-color: $color-gray-faded;
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center center;
 		background-image: url(../img/placeholders/project_thumbnail.svg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
+		height: 160px;
 	}
 
 	&.public-project {
@@ -132,13 +123,9 @@ article.project {
 						&:last-child {
 							width: 25%;
 						}
-
 					}
-
 				}
-
 			}
-
 		}
 
 		.background {
@@ -154,9 +141,6 @@ article.project {
 				border-bottom-left-radius: 5px;
 				border-bottom-right-radius: 5px;
 			}
-
 		}
-
 	}
-
 }

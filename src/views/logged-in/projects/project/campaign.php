@@ -1,5 +1,7 @@
 <article class="campaign public-campaign block-line-half col-lg-4 col-md-6 clear-3">
 	<div class="background">
+		<div class="background-image"></div>
+
 		<header class="article-header">
 			<h3 class="header-medium secondary">Give feedback on our homepage and participate in...</h3>
 			<p class="highlight bold">Project title</p>
