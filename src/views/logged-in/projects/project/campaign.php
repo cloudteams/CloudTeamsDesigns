@@ -52,7 +52,7 @@
 
 		<footer>
 			<a href="views/logged-in/projects/project/questionnaire" class="btn">Participate</a>
-			<a href="#nowhere" id="link-to-subpage-5" class="btn-transparent link-to-subpage link-to-hidden-subpage">See all info</a>
+			<a href="#nowhere" id="link-to-subpage-6" class="btn-transparent link-to-subpage link-to-hidden-subpage">See all info</a>
 		</footer>
 	</div>
 </article>
