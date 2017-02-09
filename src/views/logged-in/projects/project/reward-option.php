@@ -2,7 +2,7 @@
 	<div class="background">
 		<header class="article-header reward-header">
 			<h3 class="header-medium secondary">Reward 1#</h3>
-			<img src="[[../../../../img/placeholders/project_thumbnail.svg]]" alt="Team user logo">
+			<img src="[[../../../../img/placeholders/reward.svg]]" alt="Team user logo">
 		</header>
 
 		<div class="content">

@@ -28,7 +28,7 @@
 				</div>
 			</header>
 			<section class="reward-body">
-					<img src="[[../../../../../../img/placeholders/project_thumbnail.svg]]" alt="Persona logo">
+					<img src="[[../../../../../../img/placeholders/reward.svg]]" alt="Persona logo">
 			</section>
 			<section class="reward-content">
 				<p>App download link!</p>
@@ -37,7 +37,7 @@
 			<section class="reward-content">
 				<p class="meta">Remaining: <span><strong>50</strong></span></p>
 				<p class="meta">CloudCoins needed: <span><strong>20</strong></span></p>
-			</section>			
+			</section>
 		</div>
 	</div>
 
