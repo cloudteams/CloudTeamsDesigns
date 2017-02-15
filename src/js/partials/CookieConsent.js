@@ -25,7 +25,7 @@ module.exports = (function() {
 				deny   : '<a aria-label="deny cookies" tabindex="0" class="cc-btn cc-deny btn btn-sm">{{deny}}</a>'
 			},
 			compliance: {
-				'opt-out': '<div class="cc-compliance cc-highlight">{{dismiss}}{{deny}}</div>'
+				'opt-out': '<div class="cc-compliance cc-highlight">{{dismiss}}</div>'
 			},
 			type   : 'opt-out',
 			layout : 'bootstrap',
