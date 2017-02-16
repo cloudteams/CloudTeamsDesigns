@@ -46,7 +46,7 @@
 			</div>
 
 			<div class="middle">
-				<a href="#nowhere" class="btn">Participate</a>
+				<a href="#nowhere" class="btn" data-toggle="modal" data-target="#congratulations-popup">Participate</a>
 			</div>
 		</div>
 	</div>

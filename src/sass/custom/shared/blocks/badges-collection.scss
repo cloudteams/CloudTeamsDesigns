@@ -1,0 +1,41 @@
+.b-badges {
+	text-align: center;
+
+	&__header {
+		margin-bottom: $margin-10;
+		margin-left: $margin-5;
+		text-align: left;
+	}
+
+	&__row {
+		margin-bottom: -$margin-15;
+		margin-left: -$margin-5;
+		margin-right: -$margin-5;
+		padding-top: $margin-5;
+	}
+
+	&__column {
+		padding: 0 $margin-10;
+	}
+
+	&__badge {
+		border: 1px solid $color-gray-smooth;
+		margin-bottom: $margin-20;
+		padding: $margin-40;
+
+		&.earned {
+			.b-badges__image, .b-badges__title {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__image {
+		opacity: 0.3;
+	}
+
+	&__title {
+		margin-top: $margin-10;
+		opacity: 0.3;
+	}
+}

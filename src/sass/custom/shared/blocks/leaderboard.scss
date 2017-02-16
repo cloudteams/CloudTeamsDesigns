@@ -1,0 +1,36 @@
+.b-leaderboard {
+	&__table {
+		width: 100%;
+
+		&--you {
+			@extend .b-leaderboard__table;
+			background: $color-gray-soft;
+
+			.b-leaderboard__table-row {
+				border: none;
+			}
+		}
+	}
+
+	&__table-row {
+		border-bottom: 1px solid $color-gray-smooth;
+	}
+
+	&__table-heading, &__table-data {
+		padding: $margin-15;
+		width: 33.333334%;
+
+		&:first-of-type {
+			padding-left: $margin-40;
+		}
+
+		&:last-child {
+			padding-right: $margin-40;
+		}
+	}
+
+	&__more {
+		padding: $margin-15;
+		text-align: center;
+	}
+}

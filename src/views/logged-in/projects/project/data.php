@@ -70,7 +70,7 @@
 			</div>
 
 			<div class="middle">
-				<a href="#nowhere" class="btn-transparent">Unfollow</a>
+				<a href="#nowhere" class="btn" data-toggle="modal" data-target="#congratulations-popup">Follow</a>
 			</div>
 		</div>
 	</div>

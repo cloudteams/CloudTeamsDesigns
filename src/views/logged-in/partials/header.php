@@ -71,9 +71,9 @@
 							</div>
 
 							<ul class="submenu">
-								<li><a href="/views/user/dashboard/profile"><i class="icon icon-user"></i> Badges</a></li>
-								<li><a href="/views/user/dashboard/profile"><i class="icon icon-user"></i> Leaderboard</a></li>
-								<li><a href="/views/user/dashboard/profile"><i class="icon icon-user"></i> Edit profile</a></li>
+								<li><a href="#nowhere" data-toggle="modal" data-target="#badges-collection-popup"><i class="icon icon-reward"></i> Badges</a></li>
+								<li><a href="#nowhere" data-toggle="modal" data-target="#leaderboard-popup"><i class="icon icon-publishing"></i> Leaderboard</a></li>
+								<li><a href="#nowhere"><i class="icon icon-user"></i> Edit profile</a></li>
 								<li><a href="/views/user/dashboard/settings"><i class="icon icon-settings"></i> Settings</a></li>
 								<li><a href="#nowhere"><i class="icon icon-sign-out"></i> Log out</a></li>
 							</ul>
@@ -82,3 +82,7 @@
 				</div>
 			</nav>
 		</header>
+
+		<?php include("badges-collection-popup.php"); ?>
+		<?php include("leaderboard-popup.php"); ?>
+		<?php include("congratulations-popup.php"); ?>
